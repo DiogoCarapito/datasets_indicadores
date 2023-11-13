@@ -1,10 +1,10 @@
 [![Github Actions Workflow](https://github.com/DiogoCarapito/datasets_indicadores/actions/workflows/main.yaml/badge.svg)](https://github.com/DiogoCarapito/datasets_indicadores/actions/workflows/main.yaml)
 
-# python_project_template
-Personal python project template
+# Datasets de Indicadores dos Cuidados Saúde Primários
+Datasets sobre Indicadores dos Cuidados Saúde Primários Portugueses
+
 
 ## cheat sheet
-
 ### venv
 create venv
 ```bash
@@ -15,10 +15,3 @@ activate venv
 ```bash
 source .venv/bin/activate
 ```
-
-### Docker
-build docker image
-```bash
-docker build -t main:latest .
-```
-
