@@ -23,4 +23,4 @@ df = download_and_extract_table(url, paginas)
 st.dataframe(df)
 
 # gravar o dataframe em csv
-df.to_csv("datasets/matriz_multidimensional_usf_e_ucsp.csv", index=False)
+# df.to_csv("datasets/matriz_multidimensional_usf_e_ucsp.csv", index=False)
