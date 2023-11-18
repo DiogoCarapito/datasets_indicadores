@@ -57,7 +57,7 @@ try:
     inicio = int(dados[-1][0]) + 1
     file.close()
 
-except:
+except FileNotFoundError:
     dados = []
     dados.append(categorias)
     inicio = 447
