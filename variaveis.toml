@@ -1,14 +1,23 @@
 # Variaveis para serem usadas nos scripts
 # Podem ser actyalizadas a qualquer momento
 
+# CONTRATUALIZACAO
 # URL para o ficheiro PDF da contratualizacao dos CSP 2023
 url_pdf_contratualizacao = "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/Operacionalizacao_CSP_2023_VF.pdf"
 
-# paginas inicio e fim de 
-pagina_inicial_MATRIZ_MULTIDIMENSIONAL = 60
-pagina_final_MATRIZ_MULTIDIMENSIONAL = 62
+# paginas inicio e fim da MATRIZ_MULTIDIMENSIONAL
+pagina_inicial_MATRIZ_MULTIDIMENSIONAL = 13
+pagina_final_MATRIZ_MULTIDIMENSIONAL = 15
 
+# paginas inicio e fim dos INTERVALOS_INDICADORES
+pagina_inicial_INTERVALOS_INDICADORES = 74
+pagina_final_INTERVALOS_INDICADORES = 78
 
+# paginas inicio e fim dos INDICADORES_COM_IMPACTO_IDG
+pagina_inicial_INDICADORES_IDG = 60
+pagina_final_INDICADORES_IDG = 62
+
+# SDM
 # id dos indicadores iniciais e finais para extração automática do sdm
 sdm_indicador_inicial = 1
 sdm_indicador_final = 448

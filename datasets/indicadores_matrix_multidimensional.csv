@@ -1,0 +1,59 @@
+"Área (A), Subárea (S) ou Dimensão (D)",Ponderação,20233
+A - Desempenho Assistencial,50.0,
+S – Acesso,20.0,
+D - Cobertura ou Utilização,10.0,Sim
+D – Personalização,10.0,Sim
+D - Atendimento Telefónico,10.0,Não
+D - Tempos Máximos de Resposta Garantidos,40.0,Sim
+D - Consulta no Próprio Dia,10.0,Sim
+D - Trajeto do Utente na Unidade Funcional,10.0,Não
+D - Distribuição das Consultas Presenciais no Dia,10.0,Sim
+S - Gestão da Saúde,20.0,
+D - Saúde Infantil e Juvenil,25.0,Sim
+D - Saúde da Mulher,25.0,Sim
+D - Saúde do Adulto,25.0,Sim
+D - Saúde do Idoso,25.0,Sim
+S - Gestão da Doença,20.0,
+D - Diabetes Mellitus,25.0,Sim
+D - Hipertensão Arterial,25.0,Sim
+D - Doenças Aparelho Respiratório,25.0,Sim
+D - Multimorbilidade e Outros Tipos de Doenças,25.0,Sim
+S - Qualificação da Prescrição,20.0,
+D - Prescrição Farmacoterapêutica,50.0,Sim
+D - Prescrição MCDT,30.0,Sim
+D - Prescrição de Cuidados,20.0,Não
+S - Satisfação de Utentes,20.0,
+D - Satisfação de Utentes,100.0,Sim
+A – Serviços,10.0,
+S - Serviços de Carácter Assistencial,80.0,
+D - Serviços de Carácter Assistencial,100.0,Sim
+S - Serviços de Carácter não Assistencial,20.0,
+D - Atividades de Governação Clínica no ACES,80.0,Sim
+D - Outras Atividades não Assistenciais,20.0,Não
+A - Qualidade Organizacional,20.0,
+S - Melhoria Contínua da Qualidade,40.0,
+D – Acesso,25.0,Sim
+D - Programas de Melhoria Contínua de Qualidade e Processos,,
+,75.0,Sim
+Assistenciais Integrados,,
+S – Segurança,40.0,
+D - Segurança de Utentes,40.0,Sim
+D - Segurança de Profissionais,30.0,Sim
+D - Gestão do Risco,30.0,Não
+S - Centralidade no Cidadão,20.0,
+D – Participação do Cidadão,100.0,Sim
+A - Formação Profissional,10.0,
+S - Formação Interna,80.0,
+D - Formação da Equipa Multiprofissional,50.0,Sim
+D - Formação de Internos e Alunos,50.0,Sim
+S - Formação Externa,20.0,
+D - Serviços de Formação Externa,100.0,Não
+A - Atividade Científica,10.0,
+"S - Autoria de Artigos Escritos, Apresentação de Comunicações e",,
+,50.0,
+Participação em Conferências,,
+"D - Autoria de Artigos Escritos, Apresentação de Comunicações e",,
+,100.0,Não
+Participação em Conferências,,
+S - Trabalhos de Investigação,50.0,
+D - Trabalhos de Investigação,100.0,Não

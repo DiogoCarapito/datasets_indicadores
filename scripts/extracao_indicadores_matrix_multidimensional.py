@@ -1,12 +1,12 @@
 """
 Script para extrair informação sobre indicadores do documento Operacionalização da Contratualização nos Cuidados de Saúde Primários para 2023
-CONTRATUALIZAÇÃO DAS USF E UCSP - INDICADORES ASSOCIADOS ÀS DIMENSÕES DA MATRIZ MULTIDIMENSIONAL COM IMPACTO NO CÁLCULO DO IDG (2023)
+MATRIZ MULTIDIMENSIONAL DAS USF E UCSP (paginas 13-15)
 """
 
 
 import sys
 
-# adicionar o path para a poder usar a pasta utils
+# adicionar o path para a poder usar a pasta do projeto
 sys.path.append("./")
 
 from utils.pdf_tools import download_and_extract_table
@@ -36,7 +36,7 @@ def main():
     # Processar o dataframe
 
     # gravar o dataframe em csv
-    df.to_csv("./datasets/matriz_multidimensional_usf_e_ucsp.csv", index=False)
+    df.to_csv("./datasets/indicadores_matrix_multidimensional.csv", index=False)
 
     # success message
     print("Matriz Multidimensional USF e UCSP extraida com sucesso!")
