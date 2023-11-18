@@ -7,15 +7,15 @@ import re
 
 
 # Função para parsear com o bs4 o html do site do SDM numa lista de conteúdos que estão em colunas e linhas
-def initial_parse(content):
+def initial_parse(html):
     # Parse the html content
-    soup = BeautifulSoup(content, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
 
     # crair uma lista com os conteúdos do html
     info_in_list = [text for text in soup.stripped_strings]
 
     # remover os 3 primeiros elementos da lista que são sempre os mesmos
-    info_in_list = info_in_list[3:]
+    # info_in_list = info_in_list[3:]
 
     return info_in_list
 
@@ -45,7 +45,7 @@ def extracao_texto_multilinha(lista, etiqueta_antes, etiqueta_depois):
 
 
 # função para indentificar na lista produzida no parse_html() os cabeçalhos e o conteúdo
-def main_parse(lista):
+def main_parse_old(lista):
     # dicionario cabecaço e conteúdo em key:value pairs
     dicionario = {
         # cabeçalhos e conteúdos em localização fixa
@@ -129,3 +129,32 @@ def header_location_dictionary(parsed_list):
     # with open("sdm/header_location.csv", "w", encoding="utf-8") as file:
     #    for key, value in header_location.items():
     #        file.write(f"{key},{value}\n")
+
+
+#def dataframe_creation(header_location, parsed_content):
+def dataframe_creation(parsed_content):
+
+    # the text is after it's header and before the next header
+    return parsed_content
+
+
+def main_parse(html):
+    # parse the html into a list of strings
+    parsed_content = initial_parse(html)
+
+    # remove all the items in the list that comes after the first "BI" string if it exists
+    parsed_content = stop_at_bi(parsed_content)
+
+    # remove the first 3 items in the list
+    parsed_content = parsed_content[3:]
+
+    # create a dictionary with the header location, so the text can be concatenated between the headers
+    #header_location = header_location_dictionary(parsed_content)
+
+    # create a dictonary with the content
+    # where the key is the header and the value is the content
+    # based on the location of the header in the dict
+    #final_content = dataframe_creation(header_location, parsed_content)
+    final_content = dataframe_creation(parsed_content)
+
+    return final_content
