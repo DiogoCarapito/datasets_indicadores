@@ -131,9 +131,8 @@ def header_location_dictionary(parsed_list):
     #        file.write(f"{key},{value}\n")
 
 
-#def dataframe_creation(header_location, parsed_content):
+# def dataframe_creation(header_location, parsed_content):
 def dataframe_creation(parsed_content):
-
     # the text is after it's header and before the next header
     return parsed_content
 
@@ -149,12 +148,12 @@ def main_parse(html):
     parsed_content = parsed_content[3:]
 
     # create a dictionary with the header location, so the text can be concatenated between the headers
-    #header_location = header_location_dictionary(parsed_content)
+    # header_location = header_location_dictionary(parsed_content)
 
     # create a dictonary with the content
     # where the key is the header and the value is the content
     # based on the location of the header in the dict
-    #final_content = dataframe_creation(header_location, parsed_content)
+    # final_content = dataframe_creation(header_location, parsed_content)
     final_content = dataframe_creation(parsed_content)
 
     return final_content

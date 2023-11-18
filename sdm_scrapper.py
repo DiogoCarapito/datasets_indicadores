@@ -7,7 +7,8 @@ it uses click to create a command line interface
 import click
 from utils.sdm_crawler import sdm_url_extraction
 from utils.sdm_parser import initial_parse
-#from utils.sdm_parser import initial_parse, stop_at_bi, header_location_dictionary
+
+# from utils.sdm_parser import initial_parse, stop_at_bi, header_location_dictionary
 
 
 @click.command()
