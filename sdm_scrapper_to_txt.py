@@ -3,10 +3,15 @@ from utils.sdm_parser import initial_parse, stop_at_bi, header_location_dictiona
 import pandas as pd
 
 
-def scrape_to_txt(list_ids=[400]):
+def scrape_to_txt():
+    # html
     html_inicio = "https://sdm.min-saude.pt/BI.aspx?id="
     html_fim = "&CLUSTERS=S"
 
+    # create a lisft from 1 to 448
+    list_ids = [i for i in range(1, 5)]
+
+    # dataframe
     df = pd.DataFrame()
 
     for html_code in list_ids:
@@ -29,18 +34,15 @@ def scrape_to_txt(list_ids=[400]):
 
             print(header_location)
 
-
-
-            """
             # create a txt file where each line is an item in the list
-            with open(f"sdm/indicador_{html_code}.txt", "w", encoding="utf-8") as file:
-                # write the url in the first line
-                file.write(html + "\n")
+            # with open(f"sdm/indicador_{html_code}.txt", "w", encoding="utf-8") as file:
+            # write the url in the first line
+            #    file.write(html + "\n")
 
-                # iterate over the list and write each item in a line
-                for item in parsed_html:
-                    file.write(item + "\n")
-            """
+            # iterate over the list and write each item in a line
+            #    for item in parsed_html:
+            #        file.write(item + "\n")
+
             # success message
             print(f"{html_code} Scraped!")
 
@@ -51,13 +53,10 @@ def scrape_to_txt(list_ids=[400]):
             # record in a folder the html code that timed out
             with open("sdm/timeout.csv", "a", encoding="utf-8") as file:
                 file.write(f"Time out\n{html_code}\n")
-        
+
         # save the dataframe to a csv file
         df.to_csv("sdm/header_location.csv", index=False)
 
-if __name__ == "__main__":
-    
-    # create a lisft from 1 to 448
-    list_ids = [i for i in range(1, 5)]
 
-    scrape_to_txt(list_ids)
+if __name__ == "__main__":
+    scrape_to_txt()

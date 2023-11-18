@@ -68,16 +68,15 @@ def main_parse(lista):
 
 
 def stop_at_bi(parsed_html):
-    
     # check if there is a item called "BI" in the list
     # remove all the items in the list that comes after the first "BI" string
     if "BI" in parsed_html:
         # remove all the items in the list that comes after the first "BI" string
         parsed_html = parsed_html[: parsed_html.index("BI")]
-        
+
         # remove the last 4 items in the list
         parsed_html = parsed_html[:-4]
-    
+
     return parsed_html
 
 
@@ -106,14 +105,15 @@ def header_location_dictionary(parsed_list):
         "Área clínica",
         "Inclusão de utentes no indicador",
         "Prazo para Registos",
-        "Legenda"
+        "Legenda",
     ]
+
     def find_header(header):
         try:
             return parsed_list.index(header)
         except ValueError:
             return None
-        
+
     for each in list_of_headers:
         # id
         header_location["id"] = parsed_list[0]
@@ -126,6 +126,6 @@ def header_location_dictionary(parsed_list):
     # append header_location into a csv file for future reference
     # each header is a column's name and the value is the location of the text in the list
     # create a id columnm with the id of the indicator
-    #with open("sdm/header_location.csv", "w", encoding="utf-8") as file:
+    # with open("sdm/header_location.csv", "w", encoding="utf-8") as file:
     #    for key, value in header_location.items():
     #        file.write(f"{key},{value}\n")
