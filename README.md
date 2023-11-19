@@ -20,7 +20,8 @@ Um conjunto de datasets úteis no contexto dos Indicadores dos Cuidados de Saúd
 Scripts
 - [x] migração de scripts de extração para a pasta scripts/
 - [ ] andicionar pre-processamento ao scripts/extracao_indicadores_matrix_multidimensional.py para gerar o ficheiro matrix_multidimensional.csv correto
-- [ ] adicionar pre-processamento ao datasets/indicadores_impacto_idg.csv para gerar o ficheiro indicadores_impacto_idg.csv correto
+- [ ] adicionar pre-processamento ao scripts/extracao_indicadores_matrix_multidimensional.py para gerar o ficheiro indicadores_impacto_idg.csv correto
+- [ ] completar o posprocessamento do script sdm_scrapper.py
 - [ ] script para confirmar se novos indicadores foram adicionados ao SDM e actualizar o variaveis.toml
 
 - [ ] script para extrarir metainformação do SDM
