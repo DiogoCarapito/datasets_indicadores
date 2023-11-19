@@ -19,7 +19,8 @@ from utils.sdm_parser import main_parse
 # @click.option("--end", default=448, help="Final ID to stop scraping")
 def scrapper(begin=1, end=5):
     # create a list of ids to scrape
-    id_list = [i for i in range(begin, end+1)]
+    # end + 1 because the range function doesn't include the last number
+    id_list = [i for i in range(begin, end + 1)]
 
     # iterate over the list of ids
     for each in id_list:
@@ -30,10 +31,12 @@ def scrapper(begin=1, end=5):
         parsed_html = main_parse(html)
 
         # print just the beguin of the list
-        #print (parsed_html[:10])
-        #print (parsed_html)
-        for key,value in parsed_html.items():
-            print(key,value)
+        # print (parsed_html[:10])
+        # print (parsed_html)
+        # for key,value in parsed_html.items():
+        # print(key,value)
+        for each in parsed_html:
+            print(each)
 
     return parsed_html
 

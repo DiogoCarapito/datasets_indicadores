@@ -5,9 +5,9 @@ sdm crawlers
 import requests
 import toml
 
+
 # function to scrape a single url
 def sdm_html_extraction(id_indicador):
-    
     # ir buscar o url do pdf ao ficheiro de configuração com as variaveis
     with open("./variaveis.toml", "r", encoding="utf-8") as file:
         config = toml.load(file)

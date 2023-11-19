@@ -5,7 +5,36 @@ Conjunto de funções para auxiliar o parseamento do HTML do site do SDM
 from bs4 import BeautifulSoup
 import re
 import toml
-import pandas as pd
+
+
+def header_text_mapper(dicionario):
+    # remove key with None as value
+    dicionario = {key: value for key, value in dicionario.items() if value is not None}
+
+    # ACSS define o comprimento máximo da lista com o html parseado
+    comprimento_maximo = dicionario["ACSS"]
+
+    # lista com o mapa dos cabeçalhos e textos referentes aos cabeçalhos
+    mapa = []
+
+    # etiqueta com o nome do cabeçalho inicial
+    header = "id"
+
+    # iterate from 0 to comprimento_maximo
+    for i in range(comprimento_maximo):
+        # check if the value of the key is equal to i
+        if i in dicionario.values():
+            # header becomes the key of the value i
+            header = list(dicionario.keys())[list(dicionario.values()).index(i)]
+
+            # add the header to the list
+            mapa.append(header)
+        else:
+            # add the header to the list
+            mapa.append(header + "_TEXT")
+
+    # count the number of items in the dict
+    return mapa
 
 
 # Função para parsear com o bs4 o html do site do SDM numa lista de conteúdos que estão em colunas e linhas
@@ -104,22 +133,11 @@ def header_location_dictionary(parsed_list):
 
     for each in list_of_headers:
         # id
-        #header_location["id"] = parsed_list[0]
+        # header_location["id"] = parsed_list[0]
 
         # create a dict with the header and the location of the text in the list
         header_location[each] = find_header(each)
 
-
-    """ # create a list with a map of the content, where the value is the location of the text in the list and the key is the tex in that list spot. the max lenght og the list is the position of ACSS value
-    lista_mapa = [None] * header_location["ACSS"]
-
-    # iterate over the dict and append the value to the list where the location is the key
-    for key, value in header_location.items():
-        if value == None:
-            continue
-        print(key, value)
-        lista_mapa[int(value)] = key"""
-    
     return header_location
 
     # append header_location into a csv file for future reference
@@ -144,14 +162,23 @@ def main_parse(html):
     parsed_content = parsed_content[3:]
 
     # create a dictionary with the header location, so the text can be concatenated between the headers
-    parsed_content = header_location_dictionary(parsed_content)
+    header_dict = header_location_dictionary(parsed_content)
 
     # create a dictonary with the content
     # where the key is the header and the value is the content
     # based on the location of the header in the dict
     # final_content = dataframe_creation(header_location, parsed_content)
-    #final_content = dataframe_creation(parsed_content)
+    # final_content = dataframe_creation(parsed_content)
 
-    #return final_content
+    # return final_content
 
-    return parsed_content
+    header_map = header_text_mapper(header_dict)
+
+    # create a list of tupples while iterating over parsed_content  mapa
+    # the tupper is the text and the label from map that have the same index in the list
+
+    lista_correspondencias = []
+    for i in range(len(header_map)):
+        lista_correspondencias.append((header_map[i], parsed_content[i]))
+
+    return lista_correspondencias
