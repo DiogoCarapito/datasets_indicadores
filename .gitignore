@@ -164,3 +164,4 @@ cython_debug/
 
 #temporary
 datasets/indicadores_em_txt
+old_scripts/
