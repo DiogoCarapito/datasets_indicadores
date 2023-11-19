@@ -4,10 +4,12 @@ Conjunto de funções para auxiliar o parseamento do HTML do site do SDM
 
 from bs4 import BeautifulSoup
 import re
+import toml
+import pandas as pd
 
 
 # Função para parsear com o bs4 o html do site do SDM numa lista de conteúdos que estão em colunas e linhas
-def initial_parse(html):
+def soup_to_list(html):
     # Parse the html content
     soup = BeautifulSoup(html, "html.parser")
 
@@ -84,30 +86,16 @@ def header_location_dictionary(parsed_list):
     # create a dictionary with the header location, so the text can be concatenated between the headers
     # not all headers exist in all pages, so the location of the headers is not always the same
 
+    # ir buscar o url do pdf ao ficheiro de configuração com as variaveis
+    with open("./variaveis.toml", "r", encoding="utf-8") as file:
+        config = toml.load(file)
+
+    # url
+    list_of_headers = config["sdm_headers"]
+
     header_location = {}
 
-    list_of_headers = [
-        "Designação",
-        "Objetivo",
-        "Descrição do Indicador",
-        "Regras de cálculo",
-        "Observações Gerais",
-        "Observações Sobre Software",
-        "Período em Análise",
-        "Fórmula",
-        "Unidade de medida",
-        "Output",
-        "Estado do indicador",
-        "Área | Subárea | Dimensão",
-        "Intervalo Esperado",
-        "Variação Aceitável",
-        "Tipo de Indicador",
-        "Área clínica",
-        "Inclusão de utentes no indicador",
-        "Prazo para Registos",
-        "Legenda", # não tem info importante mas é necessário para calcular a localização do texto anterior e para antes da legenda
-    ]
-
+    # function to find the location of the header in the list
     def find_header(header):
         try:
             return parsed_list.index(header)
@@ -116,11 +104,22 @@ def header_location_dictionary(parsed_list):
 
     for each in list_of_headers:
         # id
-        header_location["id"] = parsed_list[0]
+        #header_location["id"] = parsed_list[0]
 
         # create a dict with the header and the location of the text in the list
         header_location[each] = find_header(each)
 
+
+    """ # create a list with a map of the content, where the value is the location of the text in the list and the key is the tex in that list spot. the max lenght og the list is the position of ACSS value
+    lista_mapa = [None] * header_location["ACSS"]
+
+    # iterate over the dict and append the value to the list where the location is the key
+    for key, value in header_location.items():
+        if value == None:
+            continue
+        print(key, value)
+        lista_mapa[int(value)] = key"""
+    
     return header_location
 
     # append header_location into a csv file for future reference
@@ -139,21 +138,20 @@ def dataframe_creation(parsed_content):
 
 def main_parse(html):
     # parse the html into a list of strings
-    parsed_content = initial_parse(html)
-
-    # remove all the items in the list that comes after the first "BI" string if it exists
-    parsed_content = stop_at_bi(parsed_content)
+    parsed_content = soup_to_list(html)
 
     # remove the first 3 items in the list
     parsed_content = parsed_content[3:]
 
     # create a dictionary with the header location, so the text can be concatenated between the headers
-    # header_location = header_location_dictionary(parsed_content)
+    parsed_content = header_location_dictionary(parsed_content)
 
     # create a dictonary with the content
     # where the key is the header and the value is the content
     # based on the location of the header in the dict
     # final_content = dataframe_creation(header_location, parsed_content)
-    final_content = dataframe_creation(parsed_content)
+    #final_content = dataframe_creation(parsed_content)
 
-    return final_content
+    #return final_content
+
+    return parsed_content

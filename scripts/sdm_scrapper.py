@@ -9,8 +9,8 @@ import sys
 
 # adicionar o path para a poder usar a pasta do projeto
 sys.path.append("./")
-from utils.sdm_crawler import sdm_url_extraction
-from utils.sdm_parser import initial_parse
+from utils.sdm_crawler import sdm_html_extraction
+from utils.sdm_parser import main_parse
 
 
 @click.command()
@@ -19,18 +19,21 @@ from utils.sdm_parser import initial_parse
 # @click.option("--end", default=448, help="Final ID to stop scraping")
 def scrapper(begin=1, end=5):
     # create a list of ids to scrape
-    id_list = [i for i in range(begin, end)]
+    id_list = [i for i in range(begin, end+1)]
 
     # iterate over the list of ids
     for each in id_list:
         # scrape the url
-        html = sdm_url_extraction(each)
+        html = sdm_html_extraction(each)
 
         # transform the html into a list
-        parsed_html = initial_parse(html)
+        parsed_html = main_parse(html)
 
         # print just the beguin of the list
-        print (parsed_html[:10])
+        #print (parsed_html[:10])
+        #print (parsed_html)
+        for key,value in parsed_html.items():
+            print(key,value)
 
     return parsed_html
 

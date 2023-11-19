@@ -1,5 +1,5 @@
 # Variaveis para serem usadas nos scripts
-# Podem ser actyalizadas a qualquer momento
+# Podem ser actualizadas a qualquer momento
 
 # CONTRATUALIZACAO
 # URL para o ficheiro PDF da contratualizacao dos CSP 2023
@@ -9,16 +9,54 @@ url_pdf_contratualizacao = "https://www.acss.min-saude.pt/wp-content/uploads/201
 pagina_inicial_MATRIZ_MULTIDIMENSIONAL = 13
 pagina_final_MATRIZ_MULTIDIMENSIONAL = 15
 
-# paginas inicio e fim dos INTERVALOS_INDICADORES
-pagina_inicial_INTERVALOS_INDICADORES = 74
-pagina_final_INTERVALOS_INDICADORES = 78
-
 # paginas inicio e fim dos INDICADORES_COM_IMPACTO_IDG
 pagina_inicial_INDICADORES_IDG = 60
 pagina_final_INDICADORES_IDG = 62
 
-# SDM
+# paginas inicio e fim dos INTERVALOS_INDICADORES
+pagina_inicial_INTERVALOS_INDICADORES = 74
+pagina_final_INTERVALOS_INDICADORES = 78
+
+
+# SDM - INDICADORES
+# url do sdm para extrair os indicadores
+url_sdm = "https://sdm.min-saude.pt/BI.aspx?id="
+
+# url do sdm para extrair os indicadores e com informação sobre os clusters
+url_sdm_inicio = "https://sdm.min-saude.pt/BI.aspx?id="
+url_sdm_fim = "&CLUSTERS=S"
+
+
 # id dos indicadores iniciais e finais para extração automática do sdm
 sdm_indicador_inicial = 1
 sdm_indicador_final = 448
 
+# lista de headers do html do sdm
+sdm_headers = [
+        "Código",
+        "Código SIARS",
+        "Nome abreviado",
+        "Designação",
+        "Objetivo",
+        "Descrição do Indicador",
+        "Regras de cálculo",
+        "Observações Gerais",
+        "Observações Sobre Software",
+        "Período em Análise",
+        "Fórmula",
+        "Unidade de medida",
+        "Output",
+        "Estado do indicador",
+        "Área | Subárea | Dimensão",
+        "Intervalo Esperado",
+        "Variação Aceitável",
+        "Tipo de Indicador",
+        "Área clínica",
+        "Inclusão de utentes no indicador",
+        "Prazo para Registos",
+        "Legenda",
+        "ACSS",
+    ]
+
+# SDM - METAINFORMAÇÃO
+sdm_metainfo_url = "https://sdm.min-saude.pt/bi.aspx?id_con="

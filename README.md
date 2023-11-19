@@ -23,6 +23,8 @@ Scripts
 - [ ] adicionar pre-processamento ao datasets/indicadores_impacto_idg.csv para gerar o ficheiro indicadores_impacto_idg.csv correto
 - [ ] script para confirmar se novos indicadores foram adicionados ao SDM e actualizar o variaveis.toml
 
+- [ ] script para extrarir metainformação do SDM
+
 Test
 - [ ] gerar testes unitários (coverage actual 8%)
     - [ ] utils/

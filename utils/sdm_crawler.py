@@ -2,17 +2,18 @@
 sdm crawlers
 """
 
-
 import requests
-
+import toml
 
 # function to scrape a single url
-def sdm_url_extraction(id_indicador):
-    # url creation
-    url_inicio = "https://sdm.min-saude.pt/BI.aspx?id="
-    url_fim = "&CLUSTERS=S"
+def sdm_html_extraction(id_indicador):
+    
+    # ir buscar o url do pdf ao ficheiro de configuração com as variaveis
+    with open("./variaveis.toml", "r", encoding="utf-8") as file:
+        config = toml.load(file)
 
-    url = url_inicio + str(id_indicador) + url_fim
+    # url
+    url = config["url_sdm"] + str(id_indicador)
 
     try:
         # request the url
@@ -36,7 +37,7 @@ def sdm_url_extraction(id_indicador):
         return message
 
 
-# function to scrape a batch of urls
+# function to scrape a batch of urls and returns as a dictionary
 def sdm_batch_crawler(begin, end):
     # create a list from 1 to 448
     id_list = [i for i in range(begin, end)]
@@ -47,7 +48,7 @@ def sdm_batch_crawler(begin, end):
     # iterate over the list of ids
     for url_code in id_list:
         # append the html to a dictionary of ids
-        dict_content[url_code] = sdm_url_extraction(url_code)
+        dict_content[url_code] = sdm_html_extraction(url_code)
 
     # return the dictionary
     return dict_content
