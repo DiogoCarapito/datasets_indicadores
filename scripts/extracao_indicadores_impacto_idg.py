@@ -3,7 +3,6 @@ Script para extrair informação sobre indicadores do documento Operacionalizaç
 MATRIZ MULTIDIMENSIONAL DAS USF E UCSP (paginas 13-15)
 """
 
-
 import sys
 
 # adicionar o path para a poder usar a pasta do projeto

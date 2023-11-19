@@ -1,3 +1,7 @@
+"""
+Master script to run the project.
+"""
+
 import toml
 
 with open("variaveis.toml", "r", encoding="utf-8") as file:
