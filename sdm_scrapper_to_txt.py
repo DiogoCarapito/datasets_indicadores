@@ -51,11 +51,11 @@ def scrape_to_txt():
             print(f"Request for {html_code} timed out")
 
             # record in a folder the html code that timed out
-            with open("sdm/timeout.csv", "a", encoding="utf-8") as file:
+            with open("datasets/indicadores_em_txt/timeout.csv", "a", encoding="utf-8") as file:
                 file.write(f"Time out\n{html_code}\n")
 
         # save the dataframe to a csv file
-        df.to_csv("sdm/header_location.csv", index=False)
+        df.to_csv("datasets/indicadores_em_txt/header_location.csv", index=False)
 
 
 if __name__ == "__main__":

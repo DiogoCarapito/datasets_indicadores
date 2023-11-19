@@ -162,5 +162,5 @@ cython_debug/
 # macOs file
 .DS_Store
 
-# temporary
-sdm
+#temporary
+datasets/indicadores_em_txt

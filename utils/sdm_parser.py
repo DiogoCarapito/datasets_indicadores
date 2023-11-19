@@ -105,7 +105,7 @@ def header_location_dictionary(parsed_list):
         "Área clínica",
         "Inclusão de utentes no indicador",
         "Prazo para Registos",
-        "Legenda",
+        "Legenda", # não tem info importante mas é necessário para calcular a localização do texto anterior e para antes da legenda
     ]
 
     def find_header(header):
