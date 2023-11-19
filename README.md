@@ -16,7 +16,6 @@ Um conjunto de datasets úteis no contexto dos Indicadores dos Cuidados de Saúd
 - ```tests/``` - pasta com testes unitários
 - ```variaveis.toml``` - ficheiro de configuração com variáveis globais (url do PDF da contratualização, paginas com a localização das tabelas, número total de indicadores existentes no SDM)
 
-
 ## TODO
 Scripts
 - [x] migração de scripts de extração para a pasta scripts/
