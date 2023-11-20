@@ -13,7 +13,7 @@ def header_text_mapper(dicionario):
 
     # ACSS define o comprimento máximo da lista com o html parseado
     comprimento_maximo = dicionario["ACSS"]
-    #comprimento_maximo = len(dicionario)
+    # comprimento_maximo = len(dicionario)
 
     # lista com o mapa dos cabeçalhos e textos referentes aos cabeçalhos
     mapa = []
@@ -154,6 +154,7 @@ def dataframe_creation(parsed_content):
     # the text is after it's header and before the next header
     return parsed_content
 
+
 def correspondencias_mapa(parsed_content, header_map):
     lista_correspondencias = []
     for i in range(len(header_map)):
@@ -188,6 +189,5 @@ def main_parse(html):
 
     # create a list of tupples while iterating over parsed_content  mapa
     # the tupper is the text and the label from map that have the same index in the list
-
 
     return lista_correspondencias
