@@ -132,33 +132,30 @@ def substitute_first(list_tupples, old, new, index_move):
     return list_tupples
 
 
-
 def correccao_intervalos(lista_correspondencias):
-    
     # transform list of tupples into a dataframe
     df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
-    
+
     # count how many times "Variação Aceitável_TEXT" in header column
     count = df["header"].value_counts()["Variação Aceitável_TEXT"]
 
     # calculate the trigger to change the header
-    trigger = count/2
-    
-    #loop over the df[df["header"]=="Variação Aceitável_TEXT"] and correct the header
-    for i, (index, row) in enumerate(df[df["header"]=="Variação Aceitável_TEXT"].iterrows()):
+    trigger = count / 2
+
+    # loop over the df[df["header"]=="Variação Aceitável_TEXT"] and correct the header
+    for i, index in enumerate(df[df["header"] == "Variação Aceitável_TEXT"].index):
         if i < trigger:
             df.loc[index, "header"] = "Intervalo Aceitável_TEXT"
         else:
             df.loc[index, "header"] = "Intervalo Esperado_TEXT"
-    
-    #transform back df into a list of tupples
+
+    # transform back df into a list of tupples
     lista_correspondencias_corrigida = list(df.itertuples(index=False, name=None))
 
-    return lista_correspondencias_corrigida 
+    return lista_correspondencias_corrigida
 
 
 def correcoes_correspondencias(lista_correspondencias):
-    
     # correções de correspondencias entre titulo e texto
     # correções de ordem com ajuste de posição
     substituicoes = [
@@ -187,7 +184,9 @@ def correcoes_correspondencias(lista_correspondencias):
 def final_cleaning(lista_correspondencias):
     df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
     # remove rows where header ends with _TEXT
-    df["to_remove"] = [False if each.endswith("_TEXT") else True for each in df["header"]]
+    df["to_remove"] = [
+        False if each.endswith("_TEXT") else True for each in df["header"]
+    ]
     df.drop(df[df["to_remove"] == True].index, inplace=True)
     df.drop(columns=["to_remove"], inplace=True)
     # reset index
@@ -198,7 +197,7 @@ def final_cleaning(lista_correspondencias):
 
     # remove all the rows after header "Prazo para Registos"
     index_after_prazo = df[df["header"] == "Prazo para Registos"].index[0]
-    index_to_remove = index_after_prazo +1
+    index_to_remove = index_after_prazo + 1
     df.drop(df.index[index_to_remove:], inplace=True)
 
     i = 0
@@ -211,14 +210,9 @@ def final_cleaning(lista_correspondencias):
             i += 1
 
     return df
-    
 
 
 def correspondencias_mapa(parsed_content, header_map):
-    one_paragraph = "\n"
-    two_paragraphs = "\n\n"
-    full_text = ""
-
     lista_correspondencias = []
     for i in range(len(header_map)):
         lista_correspondencias.append((header_map[i], parsed_content[i]))
@@ -227,20 +221,6 @@ def correspondencias_mapa(parsed_content, header_map):
 
     df = final_cleaning(lista_correspondencias)
 
-
-
-    for each in lista_correspondencias:
-        # if each[0] ends in _TEXT
-        if each[0].endswith("_TEXT"):
-            # remove the _TEXT from the string
-            full_text += one_paragraph + each[1]
-            # print(each[0], each[1])
-        else:
-            # add the text to the full_text
-            full_text += two_paragraphs + each[1] + one_paragraph
-            # print(each[0]+"\n")
-
-    # return full_text
     return df
 
 
@@ -258,8 +238,6 @@ def main_parse(html):
     header_map = header_text_mapper(header_dict)
 
     lista_correspondencias = correspondencias_mapa(parsed_content, header_map)
-
-
 
     # create a list of tupples while iterating over parsed_content  mapa
     # the tupper is the text and the label from map that have the same index in the list
