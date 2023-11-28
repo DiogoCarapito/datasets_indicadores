@@ -3,8 +3,6 @@ Master script to run the project.
 """
 
 # import toml
-import streamlit as st
-import pandas as pd
 from scripts.sdm_scrapper import scrapper
 
 # with open("variaveis.toml", "r", encoding="utf-8") as file:
@@ -16,6 +14,7 @@ from scripts.sdm_scrapper import scrapper
 
 def main():
     scrapper(begin=1, end=476)
+
 
 if __name__ == "__main__":
     main()

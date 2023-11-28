@@ -231,10 +231,8 @@ def main_parse(html):
     # remove the first 3 items in the list
     parsed_content = parsed_content[3:]
 
-    #if the first 5 letterins in the 0 index of the list are "Erro."
+    # if the first 5 letterins in the 0 index of the list are "Erro."
     if parsed_content[0][:5] != "Erro.":
-        
-
         # create a dictionary with the header location, so the text can be concatenated between the headers
         header_dict = header_location_dictionary(parsed_content)
 
@@ -242,7 +240,7 @@ def main_parse(html):
         header_map = header_text_mapper(header_dict)
 
         final_csv = list_to_csv(parsed_content, header_map)
-    
+
     else:
         print(parsed_content[0])
         final_csv = None
