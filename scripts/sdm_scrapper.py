@@ -30,13 +30,9 @@ def scrapper(begin=1, end=5):
         # transform the html into a list
         parsed_html = main_parse(html)
 
-        # print just the beguin of the list
-        # print (parsed_html[:10])
-        # print (parsed_html)
-        # for key,value in parsed_html.items():
-        # print(key,value)
         for each in parsed_html:
             print(each)
+        # print(parsed_html)
 
     return parsed_html
 

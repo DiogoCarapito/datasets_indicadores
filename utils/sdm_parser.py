@@ -34,7 +34,6 @@ def header_text_mapper(dicionario):
             # add the header to the list
             mapa.append(header + "_TEXT")
 
-    # count the number of items in the dict
     return mapa
 
 
@@ -155,11 +154,66 @@ def dataframe_creation(parsed_content):
     return parsed_content
 
 
+def substitute_first(list_tupples, old, new, index_move):
+    for i, each in enumerate(list_tupples):
+        if each[0] == old:
+            if index_move != 0:
+                list_tupples.insert(i + index_move, (new, each[1]))
+                list_tupples.remove(each)
+            else:
+                list_tupples[i] = (new, each[1])
+            break
+
+    return list_tupples
+
+
+def correcoes_correspondencias(lista_correspondencias):
+    # contar quantas vezes aparece o texto "Variação Aceitável_TEXT"
+
+    substituicoes = [
+        ("Nome abreviado_TEXT", "Código_TEXT", -2),
+        ("Nome abreviado_TEXT", "Código SIARS_TEXT", -1),
+        ("Estado do indicador_TEXT", "Fórmula_TEXT", -3),
+        ("Estado do indicador_TEXT", "Unidade de medida_TEXT", -2),
+        ("Estado do indicador_TEXT", "Output_TEXT", -1),
+        ("Variação Aceitável_TEXT", "Área | Subárea | Dimensão_TEXT", -2),
+        ("Prazo para Registos_TEXT", "Tipo de Indicador_TEXT", 0),
+        ("Prazo para Registos_TEXT", "Área clínica_TEXT", 0),
+        ("Prazo para Registos_TEXT", "Inclusão de utentes no indicador_TEXT", 0),
+        ("", "", 0),
+    ]
+
+    for each in substituicoes:
+        lista_correspondencias = substitute_first(
+            lista_correspondencias, each[0], each[1], each[2]
+        )
+
+    return lista_correspondencias
+
+
 def correspondencias_mapa(parsed_content, header_map):
+    one_paragraph = "\n"
+    two_paragraphs = "\n\n"
+    full_text = ""
+
     lista_correspondencias = []
     for i in range(len(header_map)):
         lista_correspondencias.append((header_map[i], parsed_content[i]))
 
+    lista_correspondencias = correcoes_correspondencias(lista_correspondencias)
+
+    for each in lista_correspondencias:
+        # if each[0] ends in _TEXT
+        if each[0].endswith("_TEXT"):
+            # remove the _TEXT from the string
+            full_text += one_paragraph + each[1]
+            # print(each[0], each[1])
+        else:
+            # add the text to the full_text
+            full_text += two_paragraphs + each[1] + one_paragraph
+            # print(each[0]+"\n")
+
+    # return full_text
     return lista_correspondencias
 
 
@@ -170,19 +224,10 @@ def main_parse(html):
     # remove the first 3 items in the list
     parsed_content = parsed_content[3:]
 
-    print(parsed_content)
-
     # create a dictionary with the header location, so the text can be concatenated between the headers
     header_dict = header_location_dictionary(parsed_content)
 
-    # create a dictonary with the content
-    # where the key is the header and the value is the content
-    # based on the location of the header in the dict
-    # final_content = dataframe_creation(header_location, parsed_content)
-    # final_content = dataframe_creation(parsed_content)
-
-    # return final_content
-
+    # create a list o f tupples with the header and the text
     header_map = header_text_mapper(header_dict)
 
     lista_correspondencias = correspondencias_mapa(parsed_content, header_map)

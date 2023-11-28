@@ -8,8 +8,9 @@ import sys
 # adicionar o path para a poder usar a pasta do projeto
 sys.path.append("./")
 
-from utils.pdf_tools import download_and_extract_table
 import toml
+from utils.pdf_tools import download_and_extract_table
+from utils.pdf_tools import preprocess_idg
 
 
 def main():
@@ -33,6 +34,7 @@ def main():
     df = download_and_extract_table(url, paginas)
 
     # Processar o dataframe
+    df = preprocess_idg(df)
 
     # gravar o dataframe em csv
     df.to_csv("./datasets/indicadores_impacto_idg.csv", index=False)
