@@ -1,0 +1,55 @@
+titulo,texto
+ID,257
+Código,6.74.02
+Código SIARS,2017.257.01
+Nome abreviado,Propor. cefalosp. entre antib. fatur. (embal.)
+Designação,"Proporção de cefalosporinas entre antibióticos faturados (embalagens, a utentes inscritos)"
+Objetivo,Monitorizar a prescrição de fármacos na componente de quantidade de cefalosporinas prescritas.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de embalagens de cefalosporinas e o número de embalagens de antibióticos faturados, a utentes com inscrição ativa.
+Numerador: Número de embalagens de cefalosporinas aceites para faturação no CCF.
+Denominador: Número de embalagens de antibióticos aceites para faturação no CCF, a utentes com inscrição ativa."
+Regras de cálculo,"NUMERADOR (AA):
+Soma da quantidade de embalagens de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Medicamento pertencente a uma das classes ATC correspondente a cefalosporinas (ver alínea E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Soma da quantidade de embalagens de medicamentos em que a expressão [A e B e C e D e (E ou F ou G)] é verdadeira:
+A. Utente com inscrição ativa na unidade funcional na data da prescrição.
+B. Medicamento prescrito por qualquer médico ou interno.
+C. Medicamento aceite para faturação durante o período em análise.
+D. Medicamento pertencente à classe ATC ""J01"" (ANTIBATERIANOS).
+E. Se a unidade de observação do indicador for um ACES, a receita médica é emitida com um código de local de prescrição pertencente ao ACES (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+F. Se a unidade de observação do indicador for uma unidade funcional, a receita médica é emitida com um código de local de prescrição que lhe pertence (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+G. Se a unidade de observação é um médico ou enfermeiro com lista de utentes na unidade funcional, a receita médica é emitida com um código de local de prescrição pertence à unidade funcional (ver alíneas C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Os medicamentos prescritos e não dispensados não são contabilizados.
+B. Os medicamentos que sejam prescritos manualmente são contabilizados, desde que dispensados numa farmácia.
+C. Quando a unidade de observação é uma unidade funcional, os medicamentos prescritos a utentes inscritos na unidade funcional utilizando um código de local de prescrição não pertencente a essa unidade, não são contabilizados nem no denominador nem no numerador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP não são contabilizados na USF ou UCSP de inscrição do utente.
+D. Quando a unidade de observação é um ACES, os medicamentos prescritos a utentes inscritos em qualquer unidade funcional desse ACES utilizando um código de local de prescrição não pertencente à unidade funcional de inscrição do utente mas pertencente ao ACES, são contabilizados no denominador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP do ACES a utentes de uma UCSP do ACES são contabilizado no denominador do indicador referente ao ACES.
+E. As classes ATC de medicamentos que podem ser contabilizados no numerador são as seguintes:
+- J01DB - Cefalosporinas de primeira geração;
+- J01DC - Cefalosporinas de segunda geração;
+- J01DD - Cefalosporinas de terceira geração;
+- J01DE - Cefalosporinas de quarta geração.
+- J01DI01 - Ceftobiprole medocaril
+- J01DI02 - Ceftarolina fosamilo
+F. Os medicamentos pertencentes a estas classes ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de embalagens
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
+Intervalo Aceitável,"Ano de 2022: [0; 4.5]
+Ano de 2023: [0; 4.5]
+Ano de 2024: [0; 4.5]"
+Intervalo Esperado,"Ano de 2022: [0; 6.5]
+Ano de 2023: [0; 6.5]
+Ano de 2024: [0; 6.5]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

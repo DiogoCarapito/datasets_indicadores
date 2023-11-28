@@ -1,0 +1,28 @@
+titulo,texto
+ID,166
+Código,7.10.02
+Código SIARS,8.14
+Nome abreviado,Rácio despesa cefalospor. e antibiót. faturados
+Designação,"Rácio entre a despesa com cefalosporinas e antibióticos faturados (pelo PVP, a utentes do SNS)"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa com cefalosporinas"""
+Descrição do Indicador,"Indicador que exprime a proporção da despesa com cefalosporinas, face à despesa total com antibióticos faturados (PVP), no mercado SNS, em ambulatório.
+Numerador: Despesa com cefalosporinas aceites para faturação.
+Denominador: Despesa com antibióticos aceites para faturação."
+Regras de cálculo,"NUMERADOR (AA):
+Despesa com cefalosporinas faturadas (PVP), durante o período em análise, a utentes do SNS (exclui subsistemas) inscritos na unidade de observação.
+DENOMINADOR (BB):
+Despesa com antibióticos faturados (PVP), durante o período em análise, a utentes do SNS (exclui subsistemas) inscritos na unidade de observação."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de despesa
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

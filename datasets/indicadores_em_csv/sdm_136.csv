@@ -1,0 +1,51 @@
+titulo,texto
+ID,136
+Código,5.04.04
+Código SIARS,5.4M 2
+Nome abreviado,Percent. DM c/ 1 HbA1c por semestre
+Designação,"Percentagem de utentes com diabetes (vigiados), com 2 ou mais HbA1c registadas nos últimos 12 meses, desde que abranjam 2 semestres"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""registo de resultado de HbA1c""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes, com pelo menos 2 HbA1c no último ano, desde que abranjam os 2 semestres.
+Numerador: Contagem de utentes inscritos com diabetes com pelo menos 2 HbA1c no último ano, desde que abranjam os 2 semestres.
+Denominador: Contagem de utentes inscritos com diabetes vigiados em programa."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos um registo de HbA1c no último semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+C. Com pelo menos um registo de HbA1c no penúltimo semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se sinalizado como ativo na lista de problemas com data anterior a 30 de junho (inclusive). Ver alíneas D e E de OBSERVAÇÕES GERAIS.
+C. Ter entre [18, 76[ anos.
+D. Ter compromisso de vigilância na Unidade Funcional no programa de Diabetes, com data de início anterior a 30 de junho."
+Observações Gerais,"A. O código da tabela de MCDT, válido para registar HbA1c é o A531.2. Quando esta análise for efetuada na unidade de saúde (utilizando doseadores próprios) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Apenas se contabilizam HbA1c com resultado registado.
+C. A data que deve ser usada para verificar se a HbA1c está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise. Quer isto dizer que para o indicador com data de referência de 31 de Dezembro, a HbA1c do segundo semestre deve ser realizada no laboratório entre 1 de Julho e 31 de Dezembro, a data de realização registada no sistema de informação deve estar compreendida nesse intervalo, e o registo do resultado deve ocorrer, no máximo, até 31 de Janeiro do ano seguinte."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+C. A HbA1c podem ser registada quer no módulo de análises quer no módulo de MCDT. O SIARS apenas contabiliza os registados no módulo de análises.
+D. Os utentes com diabetes diagnosticados de novo, só são incluídos no denominador 6 meses após o registo do diagnóstico, por forma a que passe tempo suficiente para a realização das atividades avaliadas no numerador.
+E. Os utentes que são transferidos de unidade ao longo do ano, que tenham diagnóstico e vigilância de diabetes iniciados antes de 30 de junho permanecem no denominador até dezembro desse ano."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+Código SIARS: 5.4M 2
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. Entre janeiro e junho o resultado é zero. Entre julho e dezembro verifica quais os utentes que têm pelo menos um registo de HbA1c após 1 de julho.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Código SIARS: 5.4M 2(f)
+- Numerador: Duração de 12 meses. Termina na data de referência do indicador.
+- Denominador: Duração de 12 meses. Termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise
+Prazo para Registos,30 dias

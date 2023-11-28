@@ -1,0 +1,34 @@
+titulo,texto
+ID,115
+Código,4.18.02
+Código SIARS,4.18
+Nome abreviado,Taxa visit. domic. médicas por 1.000 inscritos
+Designação,Taxa de visitas domiciliárias médicas por 1.000 inscritos
+Objetivo,Permite monitorizar produtividade relacionada com a realização de domicílios médicos.
+Descrição do Indicador,"Exprime o número de domicílios médicos realizados por ano por cada 1000 utentes inscritos.
+Numerador: Contagem de domicílios médicos realizados por ano.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B e C] é verdadeira:
+A. Contactos realizados aos utentes definidos no denominador, durante o período em análise do numerador.
+B. Realizados no domicílio, por qualquer médico ou interno da unidade de saúde.
+C. Com registo de SOAP, criado por qualquer médico ou interno da unidade de saúde.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na Unidade de Saúde, durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,por 1.000
+Output,Taxa de consultas domiciliárias (Méd.)
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

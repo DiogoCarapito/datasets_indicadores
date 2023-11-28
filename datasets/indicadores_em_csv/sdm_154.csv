@@ -1,0 +1,45 @@
+titulo,texto
+ID,154
+Código,7.06.05
+Código SIARS,7.6 d1
+Nome abreviado,"Despesa medic. faturados, por utiliz. do SNS (PVP)"
+Designação,"Despesa média de medicamentos faturados, por utente utilizador do SNS (baseado no PVP)"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa em medicamentos faturados a utentes do SNS"""
+Descrição do Indicador,"Indicador que exprime a despesa média de medicamentos faturados, por utente utilizador do SNS, baseado no preço de venda ao público.
+Numerador: Somatório do PVP de medicamentos faturados.
+Denominador: Contagem de utentes utilizadores do SNS."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B e C] é verdadeira:
+A. Prescritos a utentes com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise;
+B. Prescritos por qualquer médico ou interno da unidade de observação numa receita com código identificador da mesma;
+C. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde e foram aceites para faturação durante o período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de observação, durante pelo menos um dia do período em análise.
+B. Ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde).
+C. Ter o SNS como entidade responsável pelo pagamento de receitas."
+Observações Gerais,"A. Não inclui no numerador as receitas de subsistemas.
+B. Não inclui no denominador os utentes dos subsistemas.
+C. Os valores calculados para a unidade de observação [MED (médico)] são obtidos por desagregação dos resultados da respetiva unidade de saúde, tal como especificado em
+[Unidades de observação]
+. No caso do centro de conferência de faturas não identificar o utente, o valor fica associado ao um [médico desconhecido] por não ser possível identificar o utente e, por consequência, o médico de família.
+D. Os valores calculados para o numerador de uma unidade funcional não têm que ser iguais aos valores obtidos através de relatórios do SIARS, relacionados com medicamentos faturados, porque as regras de inclusão de despesa no numerador do indicador são mais restritivas dos que as regras para o relatório. Por exemplo, o relatório de faturação de medicamentos do SIARS considera a despesa com doentes ""esporádicos"", que não é incluída no numerador do indicador.
+E. Sempre que a informação que é remetida pelo CCF não contenha o número de utente registado (o que sucede com frequência nas receitas prescritas manualmente), não é possível ao SIARS identificar o respetivo médico de família. Nestes casos, os relatórios do MIM@UF associam esta despesa a um médico designado como ""DESCONHECIDO"", sendo a respetiva despesa contabilizada integralmente no numerador do indicador. ""MÉDICO DESCONHECIDO"" apenas significa que o médico de família do utente é ""desconhecido"". Existe a garantia, nestes utentes, que o ""médico prescritor"" é um médico ou interno da unidade de saúde."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com medicamentos
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

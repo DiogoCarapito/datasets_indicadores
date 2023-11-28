@@ -1,0 +1,40 @@
+titulo,texto
+ID,149
+Código,6.02.02
+Código SIARS,6.2M
+Nome abreviado,"Percent. hipertensos >= 25A, c/ vacina tétano"
+Designação,Percentagem de hipertensos com 25 ou mais anos com vacinação antitetânica atualizada
+Objetivo,"Monitorizar o programa de hipertensão: parâmetro ""vacina antitetânica"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com 25 ou mais anos, com vacina antitetânica atualizada.
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com 25 ou mais anos e com vacina antitetânica atualizada.
+Denominador: Contagem de utentes inscritos com hipertensão arterial, com 25 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma inoculação de [vacina contra tétano] nos 10 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+C. Com compromisso de vigilância em hipertensão no período em análise.
+D. Ter idade igual ou superior a 25 anos a 31 de dezembro do ano em curso."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 109 (9 anos e 1 mês) a 120 meses (10 anos). Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""diagnóstico""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""idade""): medição a 31 de dezembro do ano da data de referência do indicador o utente deve ter 25 ou mais anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

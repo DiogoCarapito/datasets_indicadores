@@ -1,0 +1,39 @@
+titulo,texto
+ID,151
+Código,6.09.02
+Código SIARS,6.9
+Nome abreviado,Percent. gráv. vigiadas c/ consulta méd. 1º trim.
+Designação,Percentagem de primeiras consultas de gravidez no primeiro trimestre (vigiadas)
+Objetivo,"Monitorização do programa de vigilância em saúde materna. Parâmetro ""1ª consulta no 1º trimestre de gestação""."
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de grávidas que realizaram a 1ª consulta médica de vigilância da gravidez no 1º trimestre de gestação e o número de grávidas com compromisso de vigilância cujo fim do 1º trimestre coincide com o período em análise do denominador.
+Numerador: Contagem de grávidas que realizaram a 1ª consulta médica de vigilância da gravidez no 1º trimestre.
+Denominador: Contagem de grávidas com compromisso de vigilância."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos uma consulta médica de vigilância de gravidez nos primeiros 90 dias de gestação.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Ser mulher;
+B. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo];
+C. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+D. O final do 1º trimestre (90º dia de gestação a contar da DUM) pertencente ao período em análise.
+E. Ter compromisso de vigilância em saúde materna."
+Observações Gerais,"A. O numerador inclui as consultas médicas associadas ao programa de saúde materna e as consultas médicas em que pelo menos um dos ""problemas de saúde"" da consulta foi classificado com uma das rubricas das ICPC-2 relacionadas com a gravidez (W78, W79 ou W84)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O denominador tem um período em análise de 1 a 12 meses, terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto do 90º dia de gestação (contabilizado a partir da DUM) pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Para cada utente incluída no denominador, o período em análise da variável ""existência de pelo menos uma consulta de RP"" inicia-se na DUM e termina 90 dias depois."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

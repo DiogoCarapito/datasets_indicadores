@@ -1,0 +1,77 @@
+titulo,texto
+ID,013
+Código,6.42.01
+Código SIARS,2013.013.01
+Nome abreviado,Proporção de puérperas com domicílio de enfermagem
+Designação,Proporção de puérperas com consulta domiciliária de enfermagem
+Objetivo,"Monitorização do programa de vigilância em saúde materna, área dos cuidados domiciliários de enfermagem a puérperas."
+Descrição do Indicador,"Indicador que exprime a proporção de puérperas que receberam visita domiciliária de enfermagem.
+Numerador: Contagem de puérperas com pelo menos uma visita domiciliária de enfermagem.
+Denominador: Contagem de puérperas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos 1 consulta domiciliária de enfermagem realizada durante o período do puerpério, ou seja, entre a [data de fim da gravidez] e o 42º dia de puerpério (ver condições de registo de um domicílio de enfermagem para este indicador nas alíneas A e B de OBSERVAÇÕES GERAIS e regras para datação do puerpério nas alíneas D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Ser mulher;
+B. Gravidez registada no módulo ou no programa de saúde materna;
+C. Gravidez não classificada como aborto (ver alínea F de OBSERVAÇÕES GERAIS);
+D. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e o [42º dia de puerpério] (ver alínea C de OBSERVAÇÕES GERAIS);
+E. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos 1 dia do período compreendido entre 1º e o 42º dia a contar da [data de fim da gravidez] (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+F. O 42º dia de puerpério, contabilizado a partir da [data de fim da gravidez], pertence ao período em análise do denominador (ver alíneas D e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para contabilizar este tipo de consultas (domicílios de enfermagem em puérperas) é necessário que:
+a) O [tipo de contacto] seja classificado como [domicílio].
+b) Os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne
+B. Algumas aplicações permitem que os enfermeiros assinalem que consultas por si realizadas são consultas de ""REVISÃO DO PUERPÉRIO"". Não é obrigatório o registo de [consulta de revisão do puerpério] para que um domicílio efetuado por enfermeiros seja considerado nas regras de inclusão desde indicador.
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim da gravidez] (ver definição mais à frente em OBSERVAÇÕES GERAIS).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. A [data de fim da gravidez] corresponde ao 1º dia do puerpério e é determinada da seguinte forma:
+a) se a [data de parto] estiver registada, a [data de fim da gravidez] é igual à [data de parto].
+b) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] estiver registada e se a [data de referência do indicador] for superior à [data prevista de parto corrigida] em 8 semanas (56 dias), a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] não estiver registada e se a [data de referência do indicador] for superior à [data da última menstruação] em 48 semanas (336 dias), a [data de fim da gravidez] é igual à soma da [data da última menstruação] com [39 semanas e 6 dias] (280 dias).
+E. Para efeitos de contabilização do puerpério, considera-se que a [data de fim da gravidez], tal como definida na alínea anterior, é o 1º dia de puerpério (P1).
+F. A classificação do registo de gravidez como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. No SCLÍNICO, considera-se domicílio desde que seja selecionado um dos seguintes itens, em [local da consulta], na janela de [efetivação do contacto]:
+- [Domicílio] (válido desde sempre);
+- [Lar de idosos] (válido a partir de janeiro 2023);
+- [Centro de dia] (válido a partir de janeiro 2023);
+- [Locais comunitários] (válido a partir de janeiro 2023);
+- [Estabelecimento prisional] (válido a partir de janeiro 2023).
+É irrelevante assinalar [ato de enfermagem] ou [consulta de enfermagem].
+A consulta não pode ficar [pendente]. Deve ser [terminada].
+SCLÍNICO - PERFIL MÉDICO:
+A. É possível registar [Aborto] na janela [Revisão do puerpério]. Esta funcionalidade está acessível a partir do botão [RP] do [programa de saúde materna]. O [aborto] é selecionado na mesma lista em que é possível escolher o [tipo de parto].
+B. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea C de OBSERVAÇÕES GERAIS deve ter a seguinte leitura: C. O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+MEDICINEONE:
+A. Um contacto fica como [domicílio] se o respetivo [Tipo de contacto] foi definido como [domicílio].
+B. O SIARS não lê informação que tenha sido registada no módulo de domicílios, a não ser que em simultâneo seja gerado um contacto do tipo [domicílio].
+C. O [aborto] pode ser registado no módulo de saúde materna (por baixo da zona de registo da [data da última menstruação] e da [data de parto])."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Para cada utente incluída no denominador, o período em análise inicia-se na [data de fim da gravidez] e termina no 42º dia do puerpério."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de puérperas
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,5 dias

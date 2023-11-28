@@ -1,0 +1,49 @@
+titulo,texto
+ID,278
+Código,7.09.04
+Código SIARS,2013.278.01
+Nome abreviado,Propor. medicam. prescr. de classes com genéricos
+Designação,Proporção de embalagens de medicamentos prescritos de classes terapêuticas com genérico
+Objetivo,Monitorizar a frequência de prescrição de medicamentos de classes terapêuticas com genéricos
+Descrição do Indicador,"Indicador que exprime a proporção de embalagens de medicamentos prescritos de classes terapêuticas com genérico.
+Numerador: Contagem de embalagens de medicamentos prescritos de classes terapêuticas com genérico.
+Denominador: Contagem de embalagens de medicamentos prescritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de embalagens de medicamentos prescritos em que a expressão [A e [(B e C) ou (D e E)]] é verdadeira (ver alíneas B e C de OBSERVAÇÕES GERAIS):
+A. Todas as condições enunciadas para o denominador.
+B. Prescrição ocorreu por DCI.
+C. O medicamento prescrito pertence a um CNPEM que tem pelo menos um medicamento genérico.
+D. Prescrição não ocorreu por DCI.
+E. O medicamento prescrito é um genérico.
+DENOMINADOR (BB):
+Contagem de embalagens de medicamentos em que a expressão [A e B] é verdadeira:
+A. Prescritas a utentes com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Prescritas por qualquer médico ou interno da unidade de saúde, usando o código identificador da unidade de saúde, durante o período em análise."
+Observações Gerais,"A. As embalagens contabilizadas no denominador (e consequentemente no numerador) pertencem a utentes utilizadores durante o período em análise e inscritos durante pelo menos um dia do período em análise (não necessitam estar inscritos à data de referência do indicador).
+B. Quando um médico prescreve por DCI um medicamento pertencente a um grupo que no mês da prescrição não tenha genéricos introduzidos no mercado, esse medicamento não é contabilizado no numerador.
+C. São considerados medicamentos ""genéricos"" os que têm o símbolo ""MG"" na embalagem e identificados como tal no site do Infarmed em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de embalagens
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
+Intervalo Aceitável,"Ano de 2022: [66; 80]
+Ano de 2023: [66; 80]
+Ano de 2024: [66; 80]"
+Intervalo Esperado,"Ano de 2022: [60; 90]
+Ano de 2023: [60; 90]
+Ano de 2024: [60; 90]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

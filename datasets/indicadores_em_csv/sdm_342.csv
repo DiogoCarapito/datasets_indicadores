@@ -1,0 +1,65 @@
+titulo,texto
+ID,342
+Código,3.29.01
+Código SIARS,2017.342.01
+Nome abreviado,Proporção consul. méd. inic. ut. <= 15 dias úteis
+Designação,Proporção de consultas médicas por iniciativa dos utentes marcadas em menos de 15 dias úteis
+Objetivo,Monitorizar os tempos máximos de resposta garantidos (TMRG) para as consultas médicas.
+Descrição do Indicador,"Exprime a proporção de consultas médicas por iniciativa dos utentes que são realizadas até 15 dias úteis após o pedido.
+Numerador - Contagem de consultas médicas agendadas por iniciativa dos utentes, realizadas até 15 dias úteis após a data do pedido.
+Denominador - Contagem de consultas médicas realizadas por iniciativa dos utentes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Consulta realizada até ao final do 15º dia útil após o dia do pedido (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C e D e E] é verdadeira:
+A. Efetuada por qualquer médico ou interno da unidade funcional durante o período em análise.
+B. Agendada por iniciativa do utente ou sem especificação da iniciativa do agendamento (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Do tipo ""consulta médica presencial"" (ver alínea E de OBSERVAÇÕES GERAIS).
+D. Não se incluem as consultas de vigilância (ver alínea F de OBSERVAÇÕES GERAIS).
+E. Realizada a utente com [
+inscrição ativa
+] na unidade de observação no mês da realização da consulta."
+Observações Gerais,"A. A contagem dos dias inicia-se no dia útil seguinte àquele em que foi efetuado o agendamento (dia 1). Excluem-se da contagem sábados, domingos e feriados oficiais. O dia de feriado municipal é contabilizado como se fosse ""dia útil"".
+B. Contabilizam-se no numerador todas as consultas médicas por iniciativa dos utentes realizadas nos dias úteis entre o próprio dia do agendamento e o 15º dia útil seguinte (inclusive).
+C. A legislação relacionada com os TMRG estabelece que as consultas por motivo não relacionado com doença aguda	devem ter resposta até 15 dias úteis a partir da data do pedido. No entanto, este indicador inclui no denominador todas as consultas presenciais por iniciativa do utente, independentemente do motivo ser ou não por doença aguda.
+D. Não devem ser consideradas no denominador nem no numerador as marcações por iniciativa dos profissionais.
+E. Para se considerar uma [Consulta Médica de Presencial], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+-
+C008
+[Consulta médica presencial - MedicineOne].
+F. Para se considerar uma [Consulta Médica de Vigilância], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne"
+Observações Sobre Software,"SClínico
+A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
+B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
+C. Apesar do indicador ser ""flutuante"", o problema de leitura de dados a partir do SClínico até janeiro de 2018, faz com que o indicador tenha um período em análise inferior a 12 meses para os resultados entre fevereiro de 2018 e janeiro de 2019. Assim, por exemplo em junho de 2018, o indicador estará a ler 5 meses de consultas no denominador e 5 meses de consultas no numerador (1-2-2018 a 30-6-2018)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""data de pedido da consulta""): É um atributo da variável ""consulta médica"".
+- Denominador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição do utente""): Apurado no último dia do mês da realização da consulta."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
+Intervalo Aceitável,"Ano de 2022: [88; 100]
+Ano de 2023: [88; 100]
+Ano de 2024: [88; 100]"
+Intervalo Esperado,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

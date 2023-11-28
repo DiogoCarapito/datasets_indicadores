@@ -1,0 +1,37 @@
+titulo,texto
+ID,172
+Código,6.01.18
+Código SIARS,8.4
+Nome abreviado,Percent. de utilizadores com vacina antitetânica
+Designação,Percentagem de utilizadores com vacina antitetânica atualizada
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 14 anos.
+Descrição do Indicador,"Indicador que exprime a proporção de utilizadores que tem a vacinação antitetânica atualizada, no período em análise.
+Numerador: Contagem de utentes utilizadores com vacina antitetânica atualizada.
+Denominador: Contagem de utentes utilizadores de consultas médicas ou de enfermagem."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma inoculação de [vacina contra tétano] nos 10 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise.
+C. Ter pelo menos uma consulta de enfermagem presencial ou não presencial durante o período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 109 (9 anos e 1 mês) a 120 meses (10 anos). Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

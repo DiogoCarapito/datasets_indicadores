@@ -1,0 +1,53 @@
+titulo,texto
+ID,089
+Código,5.10.02
+Código SIARS,2013.089.01
+Nome abreviado,Proporção hipertensos c/ PA 6 meses
+Designação,"Proporção de utentes com hipertensão arterial, com registo de pressão arterial no último semestre"
+Objetivo,Monitorizar o acompanhamento dos utentes com hipertensão arterial - parâmetro registo de pressão arterial.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial com registo de pelo menos 1 registo de pressão arterial no último semestre.
+Numerador: Contagem de utentes inscritos com hipertensão arterial com registo de pelo menos 1 registo de pressão arterial no último semestre.
+Denominador: Contagem de utentes inscritos com hipertensão arterial."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos uma pressão arterial registada no último semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+C. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;"
+Observações Sobre Software,"SClínico:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+MEDICINEONE
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de pressão arterial""): Duração de 6 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""HTA na lista de problemas""): Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de pressão arterial""): Duração de 1 a 6 meses. Quando a data de referência do indicador pertence ao 1º semestre, o período em análise tem inicio a 1 de janeiro do ano em curso e fim na data de referência do indicador. Quando a data de referência do indicador pertence ao 2º semestre, o período em análise tem inicio a 1 de Julho do ano em curso e fim na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""HTA na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

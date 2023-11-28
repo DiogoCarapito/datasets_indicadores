@@ -1,0 +1,465 @@
+titulo,texto
+ID,445
+Código,6.35.03
+Código SIARS,2022.445.01
+Nome abreviado,Índice acompanhamento adequado HTA - V2
+Designação,Índice de acompanhamento adequado em utentes com Hipertensão Arterial - V2
+Objetivo,"1 - Monitorizar o programa de Hipertensão Arterial.
+2 - Determinação de um dos componentes necessários para pagar mensalmente a médicos das USF modelo B por ""atividades específicas"", nos termos do artigo 29º do
+Decreto-Lei 298/2007
+(na sua redação atual) e para o pagamento mensal de 100%, 50% ou 0% dos ""incentivos financeiros"" a enfermeiros e secretários clínicos das USF modelo B, nos termos do artigo 38º do
+Decreto-Lei 298/2007
+(na sua redação atual), dos artigos 3º e 12º da
+Portaria 212/2017
+bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o numerador deste indicador são também usados nos seguintes indicadores:
+•
+446
+- Número de unidades de contratualização relacionadas atividades específicas - Médicos - V2.
+•
+447
+- Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
+•
+448
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
+NOTA IMPORTANTE
+:
+As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
+aqui
+."
+Descrição do Indicador,"Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área da Hipertensão Arterial (de acordo com as normas da Direção-Geral da Saúde).
+Numerador: Somatório do ""score de acompanhamento"" determinado para cada utente com Hipertensão Arterial com inscrição ativa. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
+Denominador: Contagem utentes inscritos com Hipertensão Arterial."
+Regras de cálculo,"NUMERADOR (HTA_T)
+:
+Somatório do ""score de acompanhamento em Hipertensão Arterial - utente"" determinado para cada utente com essa patologia, inscrito na unidade funcional (UF) em análise.
+O ""score de acompanhamento em Hipertensão Arterial - utente"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada critério.
+O ""score de acompanhamento em Hipertensão Arterial - utente"" é calculado apenas para os utentes incluídos no denominador e para as que cumprem a totalidade dos critérios ""obrigatórios"" abaixo referidos (coluna Obrig. (S/N) igual a ""S""), efetuando a soma das ponderações dos critérios ""não obrigatórios"" (coluna Obrig. (S/N) igual a ""N"") a seguir discriminadas que tenham sido cumpridos.
+Cód
+Nome do Critério
+Condições do Critério
+Obrig. (S/N)
+Ponder.
+Validade
+C
+Vigilância na UF (consultas)
+Pelo menos 1 consulta médica ou de enfermagem de vigilância em Hipertensão Arterial (presencial ou não presencial), realizada nos 12 meses que antecedem a data de referência do indicador.
+Ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS.
+S
+0
+Sempre
+D
+Vigilância na UF (prescrição de fármacos para HTA)
+Pelo menos 40% das DDD de fármacos para controlo da HTA, prescritos 
+        e dispensados nos 12 meses que antecedem a data de referência do indicador, são-no na unidade funcional de inscrição da utente.
+Fórmula de cálculo:
+[Prescricao na UF (%)] = 100 x [Nº DDD de fármacos para controlo da HTA contabilizadas no CCM e prescritos na UF de inscrição do utente] / [Nº DDD de fármacos para controlo da HTA contabilizadas no CCM]
+Notas:
+1. Utentes sem qualquer prescrição cumprem o critério.
+2. Os fármacos usados neste critério são os pertencentes à classe dos antihipertensores. Ver alínea L de OBSERVAÇÕES GERAIS.
+S
+0
+Sempre
+E
+Regularidade da vigilância – quantidade de consultas de vigilância
+A valorização deste critério varia entre 0 e 100% por cada utente, para consultas médicas ou de enfermagem de vigilância, presenciais ou não presenciais, em função da idade e do controlo da Pressão Arterial (PA), com as regras seguintes:
+Tipo de Consulta
+Controlo da pressão arterial
+Idade do Utente
+Valorização do critério (%)
+Médica, presencial ou não presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[0; 65[ anos
+75
+Enfermagem, presencial ou não presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[0; 65[ anos
+25
+Médica, presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[65; +INF[ anos
+60
+Médica, não presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[65; +INF[ anos
+25
+Enfermagem, presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[65; +INF[ anos
+33
+Enfermagem, não presencial
+Verdadeiro se [S e D]:
+S: igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+[65; +INF[ anos
+20
+Médica, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [150; 160[ mmHg
+D: Pertencente ao intervalo [90; 100[ mmHg
+Qualquer idade
+50
+Médica, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [150; 160[ mmHg
+D: Pertencente ao intervalo [90; 100[ mmHg
+Qualquer idade
+25
+Enfermagem, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [150; 160[ mmHg
+D: Pertencente ao intervalo [90; 100[ mmHg
+Qualquer idade
+33
+Enfermagem, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [150; 160[ mmHg
+D: Pertencente ao intervalo [90; 100[ mmHg
+Qualquer idade
+20
+Médica, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[0; 80[ anos
+25
+Médica, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[0; 80[ anos
+12,5
+Enfermagem, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[0; 80[ anos
+20
+Enfermagem, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[0; 80[ anos
+5
+Médica, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[80; +INF[ anos
+40
+Médica, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[80; +INF[ anos
+20
+Enfermagem, presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[80; +INF[ anos
+40
+Enfermagem, não presencial
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; +INF[ mmHg
+D: Pertencente ao intervalo [100; +INF[ mmHg
+[80; +INF[ anos
+10
+Médica, presencial
+Não determinado
+Qualquer idade
+25
+Médica, não presencial
+Não determinado
+Qualquer idade
+12,5
+Enfermagem, presencial
+Não determinado
+Qualquer idade
+20
+Enfermagem, não presencial
+Não determinado
+Qualquer idade
+5
+Legenda:
+S - 
+        Valor última da pressão arterial sistólica registada nos 8 meses anteriores à data de realização da consulta, excluindo eventuais registos efetuados no dia da consulta em análise.
+D - Valor da última pressão arterial diastólica registada nos 8 meses anteriores à data de realização da consulta, excluindo eventuais registos efetuados no dai da consulta em análise
+A idade é determinada com referência ao dia em que ocorre a consulta.
+O resultado da tensão arterial que é tido em consideração em cada consulta para determinar a valorização a atribuir à mesma é o último que tenha sido efetuado antes da mesma, no máximo 8 meses antes da consulta. Assim, consultas realizadas 8 ou mais meses após último registo de pressão arterial são classificadas com os valores das 4 últimas linhas da tabela de valorização (Pressão arterial = ""Não determinados"").
+Ver alíneas E, F e G de OBSERVAÇÕES GERAIS.
+N
+0,20
+Sempre
+F
+Acessibilidade para a doença aguda (prescrição AINE’s, analgésicos ou antibióticos na UF de inscrição)
+Acessibilidade à unidade funcional na doença aguda.
+A proporção de receitas de AINE’s, analgésicos e antibióticos prescritos durante os 12 meses que antecedem a data de referência do indicador, na unidade funcional de inscrição do utente é medida através da fórmula seguinte:
+[Prescricao na UF (%)] = 100 x [Nº receitas de AINE’s, analgésicos ou antibióticos contabilizadas no CCM durante os 12 meses que antecedem a data de referência do indicador e prescritos na UF de inscrição do utente] / [Nº receitas de AINE’s, analgésicos ou antibióticos contabilizadas no CCM durante os 12 meses que antecedem a data de referência do indicador]
+A valorização deste critério depende da proporção de receitas de AINE’s, analgésicos e antibióticos prescritos na unidade funcional de inscrição do utente, nos termos seguintes:
+Prescrição na UF (%)
+Valorização do critério (%)
+[60; 100]%
+100
+[30; 60[%
+Entre 0 e 100
+[Valorização do critério] =
+100 x ([Prescricao na UF] - 30) / 30
+[0; 30[%
+0
+Sem receitas destes fármacos ao longo do ano
+100
+Ver alíneas J e K de OBSERVAÇÕES GERAIS.
+N
+0,075
+Sempre
+G
+Vigilância na UF (prescrição de fármacos para controlo da Hipertensão Arterial)
+A valorização deste critério depende da proporção de DDD fármacos para controlo da HTA, dispensados nos 12 meses que antecedem a data de referência do indicador, que são prescritos na unidade funcional de inscrição da utente.
+Fórmula de cálculo:
+[Prescricao na UF (%)] = 100 x [Nº DDD de fármacos para controlo da HTA contabilizadas no CCM e prescritos na UF de inscrição do utente] / [Nº DDD de fármacos para controlo da HTA contabilizadas no CCM]
+A valorização é feita nos termos seguintes:
+Prescrição na UF (%)
+Valorização do critério (%)
+[75; 100]%
+100
+[40; 75[%
+Entre 0 e 100
+[Valorização do critério] =
+100 x ([Prescricao na UF] - 40) / 35
+[0; 40[%
+0
+Sem receitas destes fármacos ao longo do ano
+100
+Os fármacos usados neste critério são os pertencentes à classe dos antihipertensores. Ver alínea L de OBSERVAÇÕES GERAIS.
+N
+0,125
+Sempre
+H
+Episódios de Urgência
+Episódios de urgência na rede de urgência nacional
+A valorização deste critério depende do nº de episódios de urgência, registados em dias diferentes, ocorridos ao longo dos 12 meses que antecedem a data de referência do indicador, que não tenham sido referenciados pelo centro de saúde e que também não tenham ocasionado internamento hospitalar, nos termos seguintes:
+Nº de Episódios
+Valorização do critério (%)
+2 ou mais
+0
+1
+50
+0
+100
+N
+0,15
+Sempre
+I
+Controlo da HTA – Pressão arterial
+A valorização deste critério depende da idade do utente e da média de resultados da pressão arterial sistólica e diastólica nos últimos 12 meses nos termos seguintes:
+Idade do Utente
+Pressão arterial (sistólica/diastólica)
+Valorização do critério (%)
+[0; 75[ anos
+Verdadeiro se [S e D]:
+S: Igual ou inferior a 150mmHg
+D: Igual ou inferior a 90mmHg
+100
+[75; +INF[ anos
+Verdadeiro se [S e D]:
+S: Igual ou inferior a 160mmHg
+D: Igual ou inferior a 100mmHg
+100
+[0; 75[ anos
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [150; 160[mmHg
+D: Pertencente ao intervalo [90; 100[mmHg
+75
+[75; +INF[ anos
+Verdadeiro se [S ou D]:
+S: Pertencente ao intervalo [160; 170[mmHg
+D: Pertencente ao intervalo [100; 105[mmHg
+75
+[0; 75[ anos
+Verdadeiro se [(S ou D) e X]:
+S: Pertencente ao intervalo [160; +INF[mmHg
+D: Pertencente ao intervalo [100; +INF[mmHg
+X: Sem condições para valorizar 75% no mesmo grupo etário
+0
+[75; +INF[ anos
+Verdadeiro se [(S ou D) e X]:
+S: Pertencente ao intervalo [170; +INF[mmHg
+D: Pertencente ao intervalo [105; +INF[mmHg
+X: Sem condições para valorizar 75% no mesmo grupo etário
+0
+Qualquer idade
+Não determinado
+0
+Legenda:
+S - Média da pressão arterial sistólica registada nos 12 meses anteriores
+D - Média da pressão arterial diastólica registada nos 12 meses anteriores
+Para que o valor da média das pressões arteriais possa ser determinado, a condição [A e B e C] terá que ser verdadeira:
+A Existem de pelo menos 2 resultados nos 12 meses que antecedem a data de referência do indicador;
+B. A data da última pressão arterial pertence aos 6 meses que antecedem a data de referência do indicador;
+C. O primeiro e a último registo de pressão arterial realizados no período de 12 meses distam entre si pelo menos 3,5 meses.
+Ver alíneas E, F e G de OBSERVAÇÕES GERAIS.
+N
+0,20
+Sempre
+J
+Perfil lipídico
+Ter pelo menos 1 registo de resultados de colesterol total, colesterol HDL e triglicéridos em 24 meses.
+Ver alínea H de OBSERVAÇÕES GERAIS.
+N
+0,075
+Sempre
+K
+Custo com fármacos para o controlo da HTA
+Custo anual com fármacos para o controlo da HTA
+A valorização deste critério é feita por comparação do custo anual (PVP) dos medicamentos para o controlo da HTA prescritos e dispensados ao doente em análise e o limite superior do intervalo esperado (LSIE_352) do indicador ""Custo com terapêutica do doente com Hipertensão Arterial"" (ID =
+352
+), vigente para o processo de contratualização que inclui o mês de referência para estes cálculos, nos termos seguintes:
+PVP em 12 meses (euro)
+Valorização do critério (%)
+[0; LSIE_352[ euros
+100
+[LSIE_352; 2,5 x LSIE_352[ euros
+Entre 100 e 1, através da fórmula:
+[Valorização do critério] =
+100 - 100 x ([Custo anual com medicamentos] - LSIE_352) / (1,5 x LSIE_352)
+[2,5 x LSIE_352; +INF[ euros
+0
+Os custos contabilizados para cada utente são os que decorrem dos fármacos pertencentes à classe dos antihipertensores. Ver alínea L de OBSERVAÇÕES GERAIS.
+N
+0,075
+Sempre
+L
+Internamentos evitáveis relacionados com Hipertensão Arterial
+Consideram-se ""Internamentos evitáveis relacionados com Hipertensão Arterial"" os que são definidos para o numerador do indicador seguinte:
+•
+361
+- Taxa de internamento por hipertensão arterial (ajustada para uma população padrão)
+A avaliação (da existência de internamentos) é efetuada no período compreendido entre o mês N-35 e o mês N-24 (N é o mês de referência do cálculo deste indicador).
+O critério é valorizado a 100% para os utentes com 0 internamentos evitáveis e a 0% para utentes com 1 ou mais internamentos evitáveis.
+N
+0,05
+Sempre
+M
+Ter médico de família
+Ter médico de família na unidade funcional durante pelo menos 9 meses dos 12 meses que antecedem a data de referência do indicador.
+N
+0,03
+Sempre
+N
+Ter enfermeiro de família
+Ter enfermeiro de família na unidade funcional durante pelo menos 9 meses dos 12 meses que antecedem a data de referência do indicador.
+N
+0,02
+Sempre
+DENOMINADOR (BB)
+:
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [inscrição ativa] na unidade de saúde durante pelo menos 9 dos 12 meses que antecedem a data de referência do indicador.
+B. O diagnóstico de Hipertensão Arterial (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos os 190 dias que antecedem a data de referência do indicador."
+Observações Gerais,"A
+. Para se contabilizar uma [Consulta Médica de Vigilância] em HTA, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de HTA, que podem ser usados para a classificar como ""problema de saúde da consulta"" são o K86, o K87.
+B
+. Apenas se contabiliza uma consulta médica, por utente, por dia.
+C
+. Para se considerar uma [Consulta de Enfermagem de Vigilância] em HTA, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.6
+| Consulta de enfermagem de vigilância em hipertensão - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa ou área de vigilância. No entanto, entende-se que existe um conjunto de diagnósticos e intervenções altamente frequentes e caracterizadores da consulta de vigilância relacionada com a hipertensão, que passam a ser utilizados para caracterizar este tipo de consulta de vigilância e disponíveis em
+Diagnósticos e intervenções de enfermagem codificados pela CIPE - Hipertensão
+.
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de HTA, que podem ser usados para a classificar como ""problema de saúde da consulta"" são o K86, o K87.
+D
+. Apenas se contabiliza uma consulta de enfermagem, por utente, por dia.
+E
+. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+F
+. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+G
+. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;
+H
+. Os códigos da tabela de MCDT, válidos para o colesterol total, para o colesterol HDL e para os triglicéridos são respetivamente o A1029.9, o A412.0 e o A620.3. A data que deve ser usada para verificar se estas análises estão ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 30 dias após a data de referência do indicador. As análises podem ser requisitadas em documentos diferentes. A data de realização das 3 análises pode ser diferente.
+I
+. Os medicamentos pertencentes à classes CFT e ATC referidas neste indicador podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+J
+. Os fármacos usados para a variável ""AINE’s, analgésicos ou antibióticos"" são os que pertencem às seguintes classes da classificação ATC, dispensados em farmácia de oficina:
+- M01A - Produtos anti-inflamatórios e antirreumáticos não-esteroides.
+- M01BA	- Fármacos anti-inflamatórios e antirreumáticos em combinação com corticosteroides.
+- J01 - Antibacterianos para uso sistémico.
+- N02 - Analgésicos.
+- A03D - Antiespasmódicos em combinação com analgésicos.
+K
+. Os ""AINE’s, analgésicos ou antibióticos"" são fármacos preferencialmente usados em contexto de doença aguda.
+L
+. Consideram-se pertencentes ao grupo dos [antihipertensores], os medicamentos pertencentes à classe 3.4 da classificação CFT."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna e planeamento familiar.
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+C. O colesterol total, o colesterol HDL e os triglicéridos podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador, critério C (variável ""consulta médica ou de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério D (variável ""dispensa de fármacos para controlo da HTA""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério E (variável ""consulta médica ou de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério E (variável ""idade""): medida na data da consulta.
+- Numerador, critério E (variável ""registos de PA""): 8 meses que antecedem cada consulta de vigilância.
+- Numerador, critério F (variável ""AINE, analgésicos ou antibióticos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério G (variável ""dispensa de fármacos para controlo da HTA""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério H (variável ""episódios de urgência""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério I (variável ""registos de pressão arterial""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério J (variável ""colesterol total, colesterol HDL e triglicéridos""): Duração de 24 meses, terminando na data de referência do indicador.
+- Numerador, critério K (variável ""custo com fármacos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério Q (variável ""internamentos evitáveis""): Duração de 12 meses, terminando 24 meses antes da data de referência do indicador.
+- Numerador, critério R (variável ""ter médico de família""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério S (variável ""ter enfermeiros de família""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""Hipertensão Arterial na lista de problemas""): Duração de 190 dias, terminando na data de referência do indicador."
+Fórmula,HTA_T / BB
+Unidade de medida,Índice (escala valores entre 0 e 1)
+Output,Com dados desde Dezembro de 2021
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2023: [0.71; 1]
+Ano de 2024: [0.71; 1]"
+Intervalo Esperado,"Ano de 2023: [0.63; 1]
+Ano de 2024: [0.63; 1]"
+Tipo de Indicador,Resultado
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise
+Prazo para Registos,30 dias

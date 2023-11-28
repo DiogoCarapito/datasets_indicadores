@@ -1,0 +1,53 @@
+titulo,texto
+ID,075
+Código,2.05.01
+Código SIARS,2013.075.01
+Nome abreviado,Proporção de DM2 com compromisso de vigilância
+Designação,Proporção de utentes com diabetes tipo 2 com compromisso de vigilância
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""utentes com diabetes tipo 2 vigiados na unidade de saúde""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes tipo 2 assinalados como vigiados no programa de diabetes à data de referência do indicador.
+Numerador: Contagem de utentes inscritos com diabetes tipo 2 assinalados como vigiados no programa de diabetes.
+Denominador: Contagem de utentes inscritos com diabetes tipo 2."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, o utente encontra-se associado ao programa de vigilância de diabetes (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Definição e operacionalização de utente [vigiado] e [não vigido], que a seguir se apresenta é a que deve ser usada em sede de auditoria de registos:
+Um utente deve ser classificado como [não vigiado] se todas as afirmações seguintes forem verdadeiras:
+- A [diabetes tipo 2] estiver a ser acompanhado por um médico pertencente a outra instituição de saúde ou médico assistente privado.
+- Se se conseguir identificar inequivocamente esse médico, procedendo ao registo do respetivo nome e local de trabalho no processo clínico.
+- A informação do nome e local de trabalho do médico responsável pela vigilância da diabetes, é válida se tiver sido registada nos 3 anos que antecedem a data de referência do indicador.
+O utente com [diabetes tipo 2] deve ser classifiacdo como [vigiado] em todas as restantes situações, designadamente quando a vigilância é feita na unidade de saúde ou quando se desconhece quem faz a vigilância."
+Observações Sobre Software,"SClínico:
+A. O registo de [compromisso de vigilância] é efetuado abrindo o [programa de diabetes] e assinalando que o utente é [vigiado na unidade].
+B. O registo da informação do nome e local de trabalho do médico responsável pela vigilância da diabetes deve ser efetuado nas [notas] da ficha de diabetes, ficando por isso datado.
+MEDICINEONE
+A. Os registos da associação dos utentes ao programa de vigilância de [diabetes] possuem uma [data de início de validade], uma [data de fim de validade] e uma [data de inserção do registo]. Apenas são contabilizados os registos em que sejam verdadeiras todas as expressões seguintes:
+- [data de inserção do registo] < ([data de referência indicador] + 5);
+- [data de início de validade] < [data de referência indicador];
+- ([data de fim de validade] > [data de referência indicador]) ou ([data de fim de validade] não preenchido);
+B. O diagnóstico de diabetes tipo 2 pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+C. O registo da informação do nome e local de trabalho do médico responsável pela vigilância da diabetes deve ser efetuado num SOAP e na área de resumo."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de vigilância no programa de diabetes""): Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de vigilância no programa de diabetes""): Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,96 @@
+titulo,texto
+ID,440
+Código,6.01.21
+Código SIARS,2021.440.01
+Nome abreviado,"Proporção Asma +6M, c/ vac. gripe"
+Designação,"Proporção de utentes com Asma com idade superior a 6 meses, com a vacina da gripe prescrita ou efetuada nos últimos 12 meses"
+Objetivo,"Monitorização do programa de doenças respiratórias: Parâmetro ""vacina da gripe"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com a vacina da gripe prescrita nos últimos 12 meses, de entre inscritos com Asma e com idade superior a 6 meses.
+Numerador: Contagem de utentes inscritos com Asma com a vacina da gripe prescrita ou efetuada nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com Asma e idade superior a 6 meses."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma prescrição de vacina da gripe nos últimos 12 meses (ver alíneas A, D e F de OBSERVAÇÕES GERAIS).
+C. Pelo menos uma inoculação de vacina da gripe nos últimos 12 meses (ver vacinas equivalentes com código
+[GRIPE]
+e as alíneas B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 6 meses (medida na data de referência do indicador).
+C. O diagnóstico de Asma (rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+D. Pelo menos uma prescrição de corticoide inalado ou oral nos últimos 12 meses (ver alíneas E e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Incluem-se as prescrições pertencentes ao grupo 18.1 (Vacinas simples e conjugadas) da classificação CFT e com um dos códigos seguintes da classificação ATC:
+- J07BB01 - VÍRUS DA GRIPE, INATIVADO, TOTAL.
+- J07BB02 - VÍRUS INFLUENZA FRACIONADO INATIVADO OU ANTIGÉNIO DE SUPERFÍCIE.
+- J07BB03 - VÍRUS INFLUENZA VIVO ATENUADO.
+- J07BB04 - PARTÍCULAS SEMELHANTES AO VÍRUS INFLUENZA.
+B. O SIARS lê a informação da inoculação de vacinas a partir do RSE Vacinas. Contabilizam-se também os utentes com registo de prescrição médica de vacina.
+C. Contabilizam-se todas as inoculações, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, mas apenas na área de abrangência da respetiva ARS.
+D. Contabilizam-se todas as prescrições de vacina da gripe, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, desde que ocorra na região de saúde (ARS) de inscrição do utente.
+E. São contabilizados utentes com pelo menos uma prescrição (na mesma ARS) de uma das seguintes classes da classificação Terapêutica Anatómica e Química (ATC):
+Corticoides inalados:
+- R03BA01 - BECLOMETASONA
+- R03BA02 - BUDESONIDA
+- R03BA03 - FLUNISOLIDA
+- R03BA04 - BETAMETASONA
+- R03BA05 - FLUTICASONA
+- R03BA06 - TRIANCINOLONA
+- R03BA07 - MOMETASONA
+- R03BA08 - CICLESONIDA
+- R03BA09 - FUROATO DE FLUTICASONA
+- R03AK06 - SALMETEROL E FLUTICASONA
+- R03AK07 - FORMOTEROL E BUDESONIDA
+- R03AK08 - FORMOTEROL E BECLOMETASONA
+- R03AK09 - FORMOTEROL E MOMETASONA
+- R03AK10 - VILANTEROL E FUROATO DE FLUTICASONA
+- R03AK11 - FORMOTEROL E FLUTICASONA
+- R03AK12 - SALMETEROL E BUDESONIDA
+- R03AK13 - SALBUTAMOL E BECLOMETASONA
+- R03AL08 - VILANTEROL, BROMETO DE UMECLIDÍNIO E FUROATO DE FLUTICASONA
+- R03AL09 - FORMOTEROL, BROMETO DE GLICOPIRRÓNIO E BECLOMETASONA
+- R03AL11 - FORMOTEROL E BROMETO DE GLICOPIRRÓNIO E BUDESONIDO
+- R03AL12 - INDACATEROL, BROMETO DE GLICOPIRRÓNIO E MOMETASONA
+Corticoides para uso sistémico por via oral:
+- H02AA02 - FLUDROCORTISONA
+- H02AA03 - DESOXICORTONA
+- H02AB01 - BETAMETASONA
+- H02AB02 - DEXAMETASONA
+- H02AB03 - FLUOCORTOLONA
+- H02AB04 - METILPREDNISOLONA
+- H02AB05 - PARAMETASONA
+- H02AB06 - PREDNISOLONA
+- H02AB07 - PREDNISONA
+- H02AB08 - TRIAMCINOLONA
+- H02AB09 - HIDROCORTISONA
+- H02AB10 - CORTISONA
+- H02AB11 - PREDNILIDENO
+- H02AB13 - DEFLAZACORTE
+- H02CA01 - TRILOSTANO
+F. Os medicamentos pertencentes às classes CFT e ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnósticos podem estar inseridos quer na [lista de problemas] quer na [lista de outros problemas]. Necessitam estar classificados como ""ativo"" e não ter sido classificados como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacina"" e variável ""prescrição de vacina""): Duração de 12 meses. Termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 6 ou mais meses.
+- Denominador (variável ""código ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""prescrição de corticoides""): Duração de 12 meses. Termina data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2020
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2023: [48; 100]
+Ano de 2024: [48; 100]"
+Intervalo Esperado,"Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

@@ -1,0 +1,1860 @@
+titulo,texto
+ID,428
+Código,8.21.01
+Código SIARS,2019.428.01
+Nome abreviado,"Score dimensão ""segurança de utentes"""
+Designação,"Score para avaliação da dimensão ""segurança de utentes"""
+Objetivo,"Possibilitar a avaliação da dimensão ""segurança de utentes"" da subárea ""melhoria contínua da qualidade"" da matriz de contratualização das unidades funcionais dos ACES.
+Pretende-se avaliar o grau de implementação de processos de melhoria de contínua da qualidade dirigidas à segurança dos utentes, nos termos do Plano Nacional para a Segurança dos Doentes 2021-2026 (DGS), publicado pelo Despacho nº 9390/2021 de 24 de setembro."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional avaliou e implementou mudanças para melhorar a segurança dos utentes."
+Regras de cálculo,"FÓRMULA
+A fórmula de cálculo deste score é baseada numa
+checklist
+de autopreenchimento pela unidade funcional
+    (ou pelo ACES), entrando em linha de conta com
+    os seguintes aspetos:
+1. A existência de evidências de monitorização das dimensões de segurança dos utentes;
+2. A existência de evidências de implementação de mudanças nessas mesmas dimensões;
+3. A existência de ponderação para os vários itens/critérios a avaliar dentro de cada área
+    de avaliação;
+4. A existência de uma ponderação para cada área de avaliação;
+Este indicador é avaliado por 8 áreas:
+A01 - A unidade funcional evidencia a existência de ""cultura de segurança"" no seu ambiente interno
+A02  - A unidade funcional implementa medidas relacionadas com a ""segurança da comunicação""
+A03  - A unidade funcional implementa medidas relacionadas com a ""segurança da medicação"".
+A04  - A unidade funcional implementa medidas relacionadas com a ""identificação inequívoca dos utentes"".
+A05 - A unidade funcional implementa medidas destinadas à  ""prevenção de quedas"".
+A06 - A unidade funcional implementa medidas destinadas à  ""prevenção de úlceras de pressão"".
+A07  - A unidade funcional implementa medidas destinadas à  ""prevenção de incidentes"".
+A08  - A unidade funcional implementa medidas destinadas a ""prevenir as infeções e as resistências a antimicrobianos"".
+Cada uma destas 8 áreas é avaliada nos termos de critérios específicos, com ponderações próprias para cada tipo de UF (USF/UCSP, UCC, URAP, USP) e também podenderações próprias para o ACES.
+Existem critérios que não se aplicam a determinados tipos de UF ou a ACES. Esses
+    critérios têm 0% na coluna de ""valorização"" respetiva.
+Até ao ano de 2022, cada unidade funcional e cada ACES é avaliado por critérios de 2 das 8 áreas. Uma dessas áreas é definida a nível nacional para todas as unidades e ACES (a A07) e outra escolhida localmente.
+A partir do ano de 2023, cada unidade funcional e cada ACES é avaliado por critérios de 3 das 8 áreas. Uma dessas áreas é definida a nível nacional para todas as unidades e ACES (a A07) e as outras duas outra escolhidas localmente.
+Considerando que existem, em todas as áreas sinergias aplicáveis entre ACES e respetivas unidades funcionais, recomenda-se que as áreas escolhidas localmente sejam comuns a cada ACES e respetivas unidades funcionais.
+CHECKLIST DE AUTO-PREENCHIMENTO
+Para cada item da
+checklist
+a unidade deve ter a possibilidade de submeter evidências que permitam ao conselho clínico e de saúde do respetivo ACES proceder à respetiva validação.
+Para cada item da
+checklist
+aplicável a ACES, os mesmos devem ter a possibilidade de submeter evidências que permitam aos Departamentos de Contratualização das ARS proceder à respetiva validação.
+No caso dos ACES das ULS, a validação é feita pela ARS respetiva.
+Até 2022, para as unidades funcionais, este indicador é avaliado no RAUF. A partir de 2023 será avaliado do PAUF.
+No caso dos ACES, este indicador é avaliado no PDACES.
+COD
+Área de Avaliação
+Critérios de Avaliação
+Ponder. Abs.
+Validade
+A01
+A unidade funcional evidencia a existência de ""cultura de segurança"" no
+                    seu ambiente interno
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+Para unidades funcionais:
+A unidade funcional participou na elaboração ou na revisão o seu mapa de riscos durante o ano de
+                                contratualização.
+Para o ACES:
+O ACES assegurou a logística e as competências necessárias (designadamente em matéria de segurança) para que os mapas de riscos das unidades funcionais pudessem ser elaborados nos termos dos normativos vigentes sobre esta matéria.
+Notas:
+1. Um mapa de riscos é um documento, elaborado de forma colaborativa pelo ACES e pela unidade funcional, onde se
+                                identificam riscos para a segurança de utentes e profissionais associados ao
+                                espaço físico das respetivas instalações, especificando para cada risco:
+a) um grau de severidade;
+b) a probabilidade de ocorrência do risco;
+c) recomendações para eliminação/correção do risco;
+d) quem tem a responsabilidade de o resolver.
+2.
+								Sem prejuízo dos serviços competentes das ARS ou das ULS definirem modelos próprios de mapas de risco, disponibiliza-se:
+-
+Mapa de riscos semipreenchido por uma unidade funcional em 2010
+-
+Modelo de mapa de riscos (vazio)
+O 1º documento ilustra o que pode ser preenchido em cada área. O 2º documento pode ser usado para a elaboração do documento mapa de riscos de cada unidade pois só tem os títulos e tabelas vazias.
+3. No caso do ACES, avaliar a existência de um mapa de riscos para as áreas
+                                relacionadas com os órgãos de administração, UAG (inclui eventuais armazéns) e gabinete cidadão
+(regra válida até 2022)
+.
+4. No caso do ACES, avaliar a não só a existência de um mapa de riscos para as áreas
+                                relacionadas com os órgãos de administração, UAG (inclui eventuais armazéns) e gabinete cidadão, como também para as respetivas unidades funcionais
+(regra válida de 2023 em diante)
+.
+5. No 1º e 2º trimestres, considerar o critério cumprido se: (1) existir um mapa
+                                de riscos do ano anterior e estiver previsto a sua atualização para o ano atual;
+                                (2) ou já existir um mapa de riscos para o ano atual.
+6. No 3º e 4º trimestres considerar o critério cumprido se existir um mapa de
+                                riscos atualizado para o ano atual.
+40
+50
+50
+50
+20
+C02
+A unidade funcional possui um programa de gestão de incidentes críticos
+                                relacionados com a segurança dos utentes.
+Notas:
+1. Um incidente crítico é um evento relacionado com um utente que coloca em
+                                risco a respetiva segurança, que foi detetado pela unidade funcional
+                                (independentemente de ter ou não sido percecionado pelo utente).
+2. Ter um programa de gestão de incidentes críticos pressupõe a existência de um
+                                documento escrito aprovado pelos órgãos de gestão da UF, que estabelece o fluxo
+                                de análise e proposta de resolução dos incidentes detetados.
+3. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+40
+50
+50
+50
+0
+C03
+A unidade funcional discutiu, durante o ano de contratualização, pelo
+                                menos duas histórias clínicas que tenham resultado em óbito ou em eventos major
+                                com internamento (por exemplo acidente vascular cerebral, enfarte agudo do
+                                miocárdio, amputação major, entre outros), no sentido de
+                                promover mudanças organizacionais que evitem eventos semelhantes no futuro.
+Notas:
+1. No 1º trimestre avaliar a discussão das histórias clínicas entre abril do ano
+                                transato e março do corrente ano.
+2. No 2º trimestre avaliar a discussão das histórias clínicas entre julho do ano
+                                transato e junho do corrente ano.
+3. No 3º trimestre avaliar a discussão das histórias clínicas entre outubro do
+                                ano transato e setembro do corrente ano.
+4. No 4º trimestre avaliar a discussão das histórias clínicas entre janeiro e
+                                dezembro do corrente ano.
+20
+0
+0
+0
+0
+C04
+Proporção de unidades funcionais prestadoras de cuidados com mapa de riscos para
+                                o ano em curso aprovado pela Direção Executiva (DE) do ACES.
+A valorização é dada pela fórmula:
+[Valorização ACES] = [Ponderação atribuída ao critério] x [Nº UF com mapa de riscos aprovado pela DE] / [Nº de
+                                UF do ACES]
+Notas:
+1. Contabilizar no denominador a USP, a URAP, as UCC, as ECCI (quando não
+                                integradas em UCC), as USF e as UCSP (com pelo menos 2500 utentes durante todos
+                                os meses do último semestre). As UF são contabilizáveis no denominador se
+                                existentes durante pelo menos 9 dos 12 meses.
+2. No 1º, 2º e 3º trimestres, considerar como cumpridas quer as que tenham mapa
+                                de riscos aprovado pela DE para o ano anterior quer para o ano corrente.
+3. Na avaliação do 4º trimestre considerar apenas como cumpridas as UF com mapa
+                                de riscos aprovado pela DE para o ano de contratualização.
+0
+0
+0
+0
+40
+C05
+Proporção de unidades funcionais prestadoras de cuidados com programa de gestão
+                                de incidentes críticos relacionados com a segurança dos utentes.
+A valorização é dada pela fórmula:
+[Valorização ACES] = [Ponderação atribuída ao critério] x [Nº UF com programa gestão incidentes críticos] / [Nº
+                                de UF do ACES]
+Notas:
+1. Contabilizar no denominador a USP, a URAP, as UCC, as ECCI (quando não
+                                integradas em UCC), as USF e as UCSP (com pelo menos 2500 utentes durante todos
+                                os meses do último semestre). As UF são contabilizáveis no denominador se
+                                existentes durante pelo menos 9 dos 12 meses.
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, ou
+                                seja, consideram-se cumpridoras as UF com programa de gestão de incidentes
+                                críticos aprovado pelos respetivos órgãos de gestão (conselho geral e/ou conselho
+                                técnico) no último dia do trimestre em referência.
+0
+0
+0
+0
+40
+10
+Inicio: 01-01-2021;
+Fim: --
+A02
+A unidade funcional implementa medidas relacionadas com a ""segurança da
+                    comunicação""
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional discutiu, durante o ano de contratualização, pelo menos um
+                                incidente crítico relacionado com falhas de comunicação que tenha colocado em
+                                risco a segurança de utente(s).
+Notas:
+1. No 1º trimestre avaliar entre abril do ano
+                                transato e março do corrente ano.
+2. No 2º trimestre avaliar entre julho do ano
+                                transato e junho do corrente ano.
+3. No 3º trimestre avaliar entre outubro do
+                                ano transato e setembro do corrente ano.
+4. No 4º trimestre avaliar entre janeiro e
+                                dezembro do corrente ano.
+15
+25
+25
+25
+0
+C02
+Pelo menos
+                                [X]% dos médicos, enfermeiros, outros técnicos de saúde
+                                (psicólogos, assistentes sociais, nutricionistas, higienistas orais, etc) da unidade funcional participaram, nos
+                                últimos 5 anos, em pelo menos uma ação formativa sobre ""segurança na
+                                comunicação"", ou sobre ""comunicação na consulta"".
+Notas:
+1. No 1º ano de aplicação deste indicador, o critério considera-se cumprido com 15% dos
+                                profissionais, no 2º com 30% dos profissionais, no 3º com 45%, no 4º com 60% e
+                                no 5º com 75% (valores de [X]).
+Valorizar de acordo com a seguinte fórmula:
+[VAR AA] = 100 x [nº profissionais com formação nos últimos 5 anos] / [nº
+                                profissionais da equipa]
+[VAR BB] = [VAR AA] / [X]
+Se [VAR BB] for maior que 1 corrigir para 1.
+[Valorização UF] = [Ponderação atribuída ao critério] x [VAR BB]
+2. O [nº profissionais da equipa] é calculado automaticamente a partir da
+                                informação que conste no RHV, somando o número de equivalentes em tempo completo
+                                (ETC) de profissionais associados aos centros de custo da unidade funcional ao
+                                longo dos 12 meses que antecedem a data de referência da avaliação e dividindo o
+                                valor obtido pelo nº de meses em que se encontra informação de profissionais. Na
+                                prática, obtém-se o nº médio de ETC de profissionais de cada equipa, ou seja,
+                                por exemplo uma equipa que inicie o ano em 20 ETC de profissionais e termine com
+                                22 (mudança em junho), terá um cálculo de 21 ETC.
+3. A contagem dos anos de aplicação referidos na nota 1 faz-se a partir do ano
+                                de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+15
+25
+25
+25
+0
+C03
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos nas notas de referenciação para a urgência
+                                hospitalar.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 5
+                                critérios seguintes: C03, C04, C05, C06 e C07. No 2º ano escolhe 2 em 5
+                                critérios, no 3º ano escolhe 3 em 5 critérios, no 4º escolhe 4 em 5 e a partir
+                                do 5º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 4 ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A02.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+12
+0
+0
+0
+0
+C04
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos nas notas de referenciação para a
+                                consulta hospitalar.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 5
+                                critérios seguintes: C03, C04, C05, C06 e C07. No 2º ano escolhe 2 em 5
+                                critérios, no 3º ano escolhe 3 em 5 critérios, no 4º escolhe 4 em 5 e a partir
+                                do 5º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 4 ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A02.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+12
+0
+0
+0
+0
+C05
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos nas consultas médicas de doença aguda.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 5
+                                critérios seguintes: C03, C04, C05, C06 e C07. No 2º ano escolhe 2 em 5
+                                critérios, no 3º ano escolhe 3 em 5 critérios, no 4º escolhe 4 em 5 e a partir
+                                do 5º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 4 ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A02.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+12
+0
+0
+0
+0
+C06
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos nas consultas de enfermagem em sala de
+                                tratamentos.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 5
+                                critérios seguintes: C03, C04, C05, C06 e C07. No 2º ano escolhe 2 em 5
+                                critérios, no 3º ano escolhe 3 em 5 critérios, no 4º escolhe 4 em 5 e a partir
+                                do 5º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 4 ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A02.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+12
+0
+0
+0
+0
+C07
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos nas consultas médicas e de enfermagem
+                                (ou de outros profissionais, no caso das UCC, URAP e USP) de pelo menos um dos
+                                seguintes programas de saúde: Saúde infantil e juvenil; Planeamento Familiar;
+                                Saúde Materna; Diabetes; Hipertensão arterial; Cuidados no Domicílio; Apoio
+                                Social; Úlceras; Saúde Escolar; Outros Programas.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 5
+                                critérios seguintes: C03, C04, C05, C06 e C07. No 2º ano escolhe 2 em 5
+                                critérios, no 3º ano escolhe 3 em 5 critérios, no 4º escolhe 4 em 5 e a partir
+                                do 5º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 4 ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A02.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+12
+25
+25
+25
+0
+C08
+A unidade funcional reportou ao servicedesk da empresa responsável pelo
+                                desenvolvimento do seu software de registo clínico, incidentes, falhas ou
+                                propostas de alteração relacionadas direta ou indiretamente com a comunicação ou
+                                com registos clínicos.
+Notas:
+1. No 1º trimestre avaliar entre abril do ano
+                                transato e março do corrente ano.
+2. No 2º trimestre avaliar entre julho do ano
+                                transato e junho do corrente ano.
+3. No 3º trimestre avaliar entre outubro do
+                                ano transato e setembro do corrente ano.
+4. No 4º trimestre avaliar entre janeiro e
+                                dezembro do corrente ano.
+5
+12,5
+12,5
+12,5
+0
+C09
+A unidade funcional tem um procedimento elaborado para continuar a funcionar,
+                                minimizando riscos de comunicação, quando sucedem falhas graves no respetivo
+                                sistema de informação.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+5
+12,5
+12,5
+12,5
+0
+C10
+A UAG do ACES confirmou trimestralmente, junto da entidade gestora das bases
+                                de dados do sistema de informação de registo clínico (SClínico ou MedicineOne), que existe um
+                                plano de backups dessas bases de dados em execução e teve acesso aos relatório de
+                                execução diária dos respetivos backups.
+Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = [Nº relatórios recebidos] / [4 x ([Nº bases de dados
+                                SClínico do ACES] + [Nº Bases de dados MedicineOne do ACES])]
+Notas:
+1. O [Nº bases de dados SClínico do ACES] e o [Nº Bases de dados MedicineOne do
+                                ACES] são determinados automaticamente no formulário de registo de dados.
+2. O [Nº relatórios recebidos] é preenchido manualmente e comprovado através da
+                                submissão de um documento PDF com os relatórios referentes ao referido
+                                trimestre.
+3. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+0
+0
+0
+20
+C11
+O Conselho Clínico e de Saúde (CCS) do ACES
+                                e a UAG participam na organização, planeamento e
+                                realização das auditorias a registos clínicos relacionadas com ""segurança na
+                                comunicação"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para os critérios C03, C04, C05, C06 e C07 (1 auditoria de cada tipo de 5 em 5 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 300 x [Nº de auditorias externas em que o conselho clínico e de saúde participa como entidade auditora (critérios C03, C04, C05, C06 e C07), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo em conta que a fórmula de valorização do critério se adapta automaticamente ao mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+80
+20
+Inicio: 01-01-2021;
+Fim: --
+A03
+A unidade funcional implementa medidas relacionadas com a ""segurança da
+                    medicação"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional realizou, nos últimos
+                                4 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos às prescrições de medicamentos realizadas em
+                                contexto de doença aguda em crianças.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 3
+                                critérios seguintes: C01, C02 e C04. No 2º e 3º anos escolhe 2 em 3 e a partir
+                                do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A03.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+10
+0
+0
+0
+0
+C02
+A unidade funcional realizou, nos últimos
+                                4 anos, pelo menos uma auditoria interna ou externa aos registos clínicos às
+                                prescrições de medicamentos realizadas internamente para administração por
+                                enfermeiros na sala de tratamentos.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 3
+                                critérios seguintes: C01, C02 e C04. No 2º e 3º anos escolhe 2 em 3 e a partir
+                                do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A03.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+10
+0
+0
+0
+0
+C03
+Pelo menos [X]% dos médicos participaram, nos últimos
+                                5 anos, em pelo menos uma
+                                formação ou reunião organizativa estruturada cujos objetivos incluíssem a
+                                temática das revisões terapêutica crónica dos utentes (para evitar interações
+                                medicamentosas adversas, prescrição de medicamentos contraindicados para
+                                patologias dos utentes e otimização de terapêuticas).
+Notas:
+1. No 1º ano de aplicação deste indicador, o critério considera-se cumprido com 15% dos
+                                médicos, no 2º com 30% dos médicos, no 3º com 45%, no 4º com 60% e
+                                no 5º com 75% (valores de [X]).
+Valorizar de acordo com a seguinte fórmula:
+[VAR AA] = 100 x [nº médicos com formação nos últimos 5 anos] / [nº
+                                médicos da equipa]
+[VAR BB] = [VAR AA] / [X]
+Se [VAR BB] for maior que 1 corrigir para 1.
+[Valorização UF] = [Ponderação atribuída ao critério] x [VAR BB]
+2.O [nº médicos da equipa] é calculado automaticamente a partir da informação
+                                que conste no RHV, somando o número de equivalentes em tempo completo (ETC) de
+                                médicos associados aos centros de custo da unidade funcional ao longo dos 12
+                                meses que antecedem a data de referência da avaliação e dividindo o valor obtido
+                                pelo nº de meses em que se encontra informação de médicos. Na prática, obtém-se
+                                o nº médio de ETC de médicos de cada equipa, ou seja, por exemplo uma equipa que
+                                inicie o ano em 6 ETC de médicos e termine com 7 (mudança em abril), terá um
+                                cálculo de 6.25 ETC.
+3. A contagem dos anos de aplicação referidos na nota 1 faz-se a partir do ano
+                                de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+20
+0
+0
+0
+0
+C04
+A unidade funcional monitorizou, através de uma auditoria interna ou externa efetuada nos
+                                últimos 4 anos, a frequência com que cada um dos respetivos médicos de família
+                                faz, com os respetivos utentes, revisões da respetiva terapêutica crónica  (para
+                                evitar interações medicamentosas adversas, prescrição de medicamentos
+                                contraindicados para patologias dos utentes e otimização de terapêuticas).
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 3
+                                critérios seguintes: C01, C02 e C04. No 2º e 3º anos escolhe 2 em 3 e a partir
+                                do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A03.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+20
+0
+0
+0
+0
+C05
+A unidade funcional discutiu, durante os 2 anos que antecedem o ano de contratualização, pelo menos um
+                                incidente crítico relacionado com falhas de prescrição de medicamentos que tenha colocado em
+                                risco a segurança de utente(s).
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 2
+                                critérios seguintes: C05 e C06. A partir do 2º ano é sempre avaliada por ambos
+                                os critérios.
+2. No 1º ano de aplicação desta área, a ponderação do critério não escolhido é
+                                distribuída pelos restantes da área A03.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+15
+0
+0
+0
+0
+C06
+A unidade funcional discutiu, durante os 2 anos que antecedem o ano de contratualização, pelo menos um
+                                incidente crítico relacionado com tratamentos de úlceras crónicas.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 2
+                                critérios seguintes: C05 e C06. A partir do 2º ano é sempre avaliada por ambos
+                                os critérios.
+2. No 1º ano de aplicação desta área, a ponderação do critério não escolhido é
+                                distribuída pelos restantes da área A03.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+15
+0
+0
+0
+0
+C07
+Cada médico da unidade funcional notificou pelo menos 2 reações adversas a
+                                medicamentos ao longo do ano.
+Notas:
+1.
+                                Valorizar de acordo com a fórmula seguinte:
+Valorização = [Ponderação atribuída ao critério] x ([Nº de médicos que notificaram 1 reação adversa nos 12 meses
+                                que antecedem a data de referência] / [Nº de médicos da equipa] / 2 + [Nº de médicos que notificaram 2 ou mais
+                                reações adversas nos 12 meses que antecedem a data de referência] / [Nº de médicos da equipa]).
+2. O [Nº de médicos da equipa] é determinado automaticamente e corresponde à
+                                contagem de médicos existentes em RHV associados ao centro de custo da unidade
+                                funcional.
+3. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+10
+0
+0
+0
+0
+C08
+O Conselho Clínico e de Saúde (CCS) do ACES
+                                e a UAG participam na organização, planeamento e
+                                realização das auditorias a registos clínicos relacionadas com ""segurança na
+                                medicação"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para os critérios C01, C02 e C04 (1 auditoria de cada tipo de 4 em 4 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 400 x [Nº de auditorias externas em que o conselho clínico e de saúde participa como entidade auditora (critérios C01, C02 e C04), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo em conta que a fórmula de valorização do critério se adapta automaticamente ao mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+100
+15
+Inicio: 01-01-2021;
+Fim: --
+A04
+A unidade funcional implementa medidas relacionadas com a ""identificação
+                    inequívoca dos utentes"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional realizou, nos últimos 4 anos, pelo menos uma auditoria interna ou externa aos procedimentos de validação da identificação dos utentes aquando da prescrição de medicamentos ou MCDT por médicos. No caso das URAP sem médicos integrando a equipa, considerar a realização de pelo menos uma auditoria aos procedimentos de validação da identificação dos utentes aquando da realização de consultas de seguimento..
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 4
+                                critérios seguintes, desde que aplicável ao tipo de UF (ou seja, desde que tenha
+                                ponderação): C01, C02, C03 e C04. No 2º ano escolhe 2 em 4, no 3º ano 3 em 4 e a
+                                partir do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A04.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+0
+5
+40
+0
+C02
+A unidade funcional realizou, nos últimos 4 anos, pelo menos uma auditoria
+                                interna ou externa aos procedimentos de validação da identificação dos utentes aquando da
+                                administração de medicamentos por enfermeiros. No caso das URAP, considerar a realização de pelo menos uma auditoria aos procedimentos de validação da identificação dos utentes aquando da realização de primeiras consultas (consultas após referenciação médica).
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 4
+                                critérios seguintes, desde que aplicável ao tipo de UF (ou seja, desde que tenha
+                                ponderação): C01, C02, C03 e C04. No 2º ano escolhe 2 em 4, no 3º ano 3 em 4 e a
+                                partir do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A04.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+60
+30
+25
+0
+C03
+A unidade funcional realizou, nos últimos 4 anos, pelo menos uma auditoria
+                                interna ou externa aos procedimentos de validação da identificação dos utentes aquando da
+                                realização de atos clínicos ou consultas por parte de outros profissionais de saúde
+                                (psicólogos, assistentes sociais, fisioterapeutas, entre outros).
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 4
+                                critérios seguintes, desde que aplicável ao tipo de UF (ou seja, desde que tenha
+                                ponderação): C01, C02, C03 e C04. No 2º ano escolhe 2 em 4, no 3º ano 3 em 4 e a
+                                partir do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A04.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+35
+60
+25
+0
+C04
+A unidade funcional realizou, nos últimos 4 anos, pelo menos uma auditoria
+                                interna ou externa aos procedimentos de validação da identificação dos utentes aquando da
+                                entrega de prescrições, relatórios ou outros documentos, por parte de
+                                secretários clínicos.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 4
+                                critérios seguintes, desde que aplicável ao tipo de UF (ou seja, desde que tenha
+                                ponderação): C01, C02, C03 e C04. No 2º ano escolhe 2 em 4, no 3º ano 3 em 4 e a
+                                partir do 4º é sempre avaliada pela totalidade dos critérios.
+2. Do 1º ao 3º ano de aplicação desta área, a ponderação dos critérios não
+                                escolhidos é distribuída pelos restantes da área A04.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+34
+5
+5
+10
+0
+C05
+O Conselho Clínico e de Saúde do ACES
+                                e a UAG participam na organização, planeamento e
+                                realização das auditorias a registos clínicos relacionadas com ""identificação
+                                inequívoca dos utentes"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para os critérios C01, C02, C03 e C04 (1 auditoria de cada tipo de 4 em 4 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 300 x [Nº de auditorias externas em que o conselho clínico e de saúde participa como entidade auditora (critérios C01, C02, C03 e C04), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo em conta que a fórmula de valorização do critério se adapta automaticamente ao mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+100
+10
+Inicio: 01-01-2021;
+Fim: --
+A05
+A unidade funcional implementa medidas destinadas à 
+                    ""prevenção de quedas"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional tem um procedimento escrito sobre ""prevenção de quedas"",
+                                tendo discutido as ações a implementar em contexto de consulta com grupos de
+                                risco (idosos e dependentes), com pelo menos 75% dos médicos e enfermeiros da
+                                unidade de saúde, nos últimos 3 anos.
+Notas:
+1. Valorizar 50% da ponderação do critério se tiver apenas o procedimento
+                                escrito mas não tiver ocorrido discussão do mesmo com os profissionais de saúde
+                                nos últimos 3 anos.
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+33
+0
+0
+0
+C02
+A unidade funcional realizou, nos últimos 2 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos no domicílio dos doentes idosos onde tenham sido
+                                analisadas medidas para prevenir quedas.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+34
+0
+0
+0
+C03
+O resultado da unidade funcional para o indicador com ID 297 (
+Proporção de
+                                    utentes com idade igual ou superior a 65 anos, sem prescrição prolongada de
+                                    ansiolíticos, nem de sedativos, nem de hipnóticos, no período em análise
+),
+                                encontra-se dentro do intervalo esperado.
+Valorizar com 34% se estiver dentro do intervalo esperado para o ano de
+                                contratualização;
+Valorizar com 0% se estiver fora do intervalo de variação aceitável para o ano
+                                de contratualização;
+Valorizar de acordo com a fórmula seguinte se estiver entre os limites do intervalo esperado e de variação aceitável:
+Valorização = [Ponderação atribuída ao critério] x ([resultado
+                                do indicador] - [limite inferior intervalo variação aceitável])
+                                / ([limite inferior intervalo esperado] - [limite inferior intervalo variação
+                                aceitável])
+Notas:
+1. A valorização deste critério é determinada de forma automática.
+2. Em cada trimestre de avaliação é usado o resultado do indicador flutuante do
+                                último mês do trimestre, caso já esteja disponível. Caso não esteja disponível é
+                                usado o resultado do mês mais recente para a UF em análise, no entanto, a
+                                valorização resultante é provisória e recalculada automaticamente logo que
+                                existam resultados do indicador com ID 297 para o último mês do trimestre.
+3. O valor dos intervalos esperados e de variação aceitável usados são os que
+                                estejam definidos no bilhete de identidade do referido indicador em
+https://sdm.min-saude.pt/bi.aspx?id=297&clusters=S
+.
+34
+0
+0
+0
+0
+C04
+A USP monitoriza os internamentos por ""fratura do colo do fémur"" dos utentes
+                                inscritos no ACES.
+Notas:
+1.
+                                O cumprimento deste indicador é avaliado através de evidências de que, nos 12
+                                meses que antecedem a data de referência da avaliação, a USP analisou, discutiu
+                                e partilhou informação do indicador respetivo, designadamente a partir de
+                                informação disponível no SIARS ou do BI-CSP.
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+0
+0
+50
+0
+C05
+A unidade funcional envolveu a comunidade na estratégia de prevenção de quedas,
+                                existindo evidência de pelo menos uma ação durante os 12 meses que antecedem o
+                                último dia do trimestre em avaliação.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+33
+0
+50
+0
+C06
+O Conselho Clínico e de Saúde
+                                (CCS) do ACES
+                                e a UAG participam na organização, planeamento e
+                                realização das auditorias a registos clínicos relacionadas com ""prevenção
+                                de quedas"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para o critério C02 (1 auditoria a cada 2 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 600 x [Nº de auditorias externas em que o conselho clínico e de saúde participa como entidade auditora (critério C02), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo em conta que a fórmula de valorização do critério se adapta automaticamente ao mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+100
+10
+Inicio: 01-01-2021;
+Fim: --
+A06
+A unidade funcional implementa medidas destinadas
+                    à  ""prevenção de úlceras de pressão"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional tem um procedimento escrito sobre ""prevenção de úlceras de
+                                pressão"", tendo discutido as ações a implementar em contexto de consulta com
+                                grupos de risco (doentes acamados), com pelo menos 75% dos médicos e enfermeiros
+                                da unidade de saúde, nos últimos 3 anos.
+Notas:
+1. Valorizar 50% da ponderação do critério se tiver apenas o procedimento
+                                escrito mas não tiver ocorrido discussão do mesmo com os profissionais de saúde
+                                nos últimos 3 anos.
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+33
+0
+0
+0
+C02
+A unidade funcional realizou, nos últimos 2 anos, pelo menos uma auditoria
+                                interna ou externa aos registos clínicos no domicílio dos doentes acamados onde tenham sido
+                                analisadas medidas para prevenir úlceras de pressão.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+33
+34
+0
+0
+0
+C03
+O resultado da unidade funcional para o indicador
+                                com ID 414 (
+Índice de acompanhamento adequado no tratamento de utentes com úlceras de pressão
+),
+                                encontra-se dentro do intervalo esperado.
+Valorizar com 34% se estiver dentro do intervalo esperado para o ano de
+                                contratualização;
+Valorizar com 0% se estiver fora do intervalo de variação aceitável para o ano
+                                de contratualização;
+Valorizar de acordo com a fórmula seguinte se estiver entre os limites do intervalo esperado e de variação aceitável:
+Valorização = [Ponderação atribuída ao critério] x ([resultado do indicador] - [limite inferior intervalo variação aceitável])
+                                / ([limite inferior intervalo esperado] - [limite inferior intervalo variação
+                                aceitável]),
+Notas:
+1. A valorização deste critério é determinada de forma automática.
+2. Em cada trimestre de avaliação é usado o resultado do indicador flutuante do
+                                último mês do trimestre, caso já esteja disponível. Caso não esteja disponível é
+                                usado o resultado do mês mais recente para a UF em análise, no entanto, a
+                                valorização resultante é provisória e recalculada automaticamente logo que
+                                existam resultados do indicador com ID 414 para o último mês do trimestre.
+3. Caso não existam resultados para este indicador, referentes aos 6 meses que
+                                antecedem o último mês do trimestre em avaliação, a ponderação deste critério
+                                deve ser distribuída pelas restantes.
+4. O valor dos intervalos esperados e de variação aceitável usados são os que
+                                estejam definidos no bilhete de identidade do referido indicador em
+https://sdm.min-saude.pt/bi.aspx?id=414&clusters=S
+.
+34
+0
+0
+0
+0
+C04
+A unidade funcional envolveu a comunidade (em particular grupos de cuidadores)
+                                na estratégia de prevenção de úlceras de pressão, existindo evidência de pelo
+                                menos uma ação durante os 12 meses que antecedem o último dia do trimestre em
+                                avaliação.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+33
+0
+100
+0
+C05
+O Conselho Clínico e de Saúde do ACES
+                                e a UAG participam na organização, planeamento e
+                                realização das auditorias a registos clínicos relacionadas com ""prevenção
+                                de úlceras de pressão"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para o critério C02 (1 auditoria a cada 2 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 600 x [Nº de auditorias externas em que o conselho clínico e de saúde participa como entidade auditora (critério C02), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo em conta que a fórmula de valorização do critério se adapta automaticamente ao mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+100
+10
+Inicio: 01-01-2021;
+Fim: --
+A07
+A unidade funcional implementa medidas destinadas
+                    à  ""prevenção de incidentes"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+A unidade funcional possui um programa de gestão de incidentes críticos
+                                (relacionados com a segurança dos utentes) e nomeia gestores internos
+                                de vários grupos profissionais para a análise dos mesmos, sempre que
+                                relacionados com a segurança dos utentes.      Caso nomeie gestores internos apenas de um grupo profissional, valorizar metade
+                                da pontuação prevista para o tipo de UF.
+Notas:
+1. Um incidente crítico é um evento relacionado com um utente que coloca em
+                                risco a respetiva segurança, que foi detetado pela unidade funcional
+                                (independentemente de ter ou não sido percecionado pelo utente).
+2. Ter um programa de gestão de incidentes críticos pressupõe a existência de um
+                                documento escrito aprovado pelos órgãos de gestão da UF, que estabelece o fluxo
+                                de análise e proposta de resolução dos incidentes detetados.
+3. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+20
+20
+20
+20
+0
+C02
+A unidade funcional possui um sistema de registo sistemático de todos os
+                                incidentes críticos relacionados com utentes, que permita registar todas as
+                                ações necessárias para fazer a gestão do incidente desde a sua identificação até
+                                à definição e aprovação de uma proposta de uma solução.
+Notas:
+1. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+20
+20
+20
+20
+0
+C03
+Ao longo do
+                                ano de contratualização foram discutidas propostas de melhoria da
+                                organização interna ou externa de forma a evitar novas ocorrências de incidentes de
+                                segurança relacionados com utentes, previamente ocorridos.
+Notas:
+1.
+                                Valorizar entre 0 e 20 de acordo com a fórmula seguinte
+(nota válida até ao 3ºT de 2022)
+:
+Valorização = 20 x [Nº de incidentes discutidos em reunião com todos os grupos
+                                profissionais envolvidos nos 12 meses que antecedem o último dia do trimestre] / 12.
+Se ""valorização"" superior a 20, corrigir para 20.
+2. Valorizar entre 0 e 20 de acordo com a fórmula seguinte
+(nota válida a partir do 4ºT de 2022, inclusive)
+:
+2.1. Se o [nº de profissionais da equipa] for igual ou superior a 5.0:
+Valorização = 400 / [nº de profissionais da equipa] x [Nº de incidentes discutidos em reunião com todos os grupos
+                                profissionais envolvidos nos 12 meses que antecedem o último dia do trimestre] / 6.
+Se ""valorização"" superior a 20, corrigir para 20.
+2.2. Se o [nº de profissionais da equipa] for igual ou superior a 2.0 e inferior a 5.0:
+- Caso tenha sido discutido pelo menos 1 incidente crítico nos últimos 12 meses, valorizar com 20
+- Caso não tenha sido discutido qualquer incidente crítico nos últimos 12 meses, mas tenha sido discutido pelo menos 1 incidente crítico nos últimos 24 meses, valorizar com 10
+- Caso não tenha sido discutido qualquer incidente crítico nos últimos 24 meses, valorizar com 0
+2.3. Se o [nº de profissionais da equipa] for inferior a 2.0:
+- Caso seja discutido pelo menos 1 incidente crítico nos últimos 36 meses, valorizar com 20
+- Caso não seja discutido qualquer incidente crítico nos últimos 36 meses, valorizar com 0
+2.4. O [nº profissionais da equipa] é calculado automaticamente a partir da informação que conste no RHV, somando o número de equivalentes em tempo completo (ETC) de profissionais associados aos centros de custo da unidade funcional ao longo dos 12 meses que antecedem a data de referência da avaliação e dividindo o valor obtido pelo nº de meses em que se encontra informação de profissionais. Na prática, obtém-se o nº médio de ETC de profissionais de cada equipa, ou seja, por exemplo uma equipa que inicie o ano em 20 ETC de profissionais e termine com 22 (mudança em junho), terá um cálculo de 21 ETC.
+2.5. Esta fórmula está calibrada para atribuir uma valorização máxima a uma equipa de 20 elementos que discuta 6 incidentes críticos por ano e para corrigir as valorizações em função da dimensão da equipa. 
+                                Por exemplo uma equipa de 10 elementos terá valorização máxima com 3 incidentes críticos discutidos por ano.
+3. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+20
+20
+20
+20
+0
+C04
+A unidade funcional monitoriza a evolução do número de incidentes críticos
+                                reportados por ano.
+Notas:
+1. Considerar o critério cumprido, caso exista evidência de discussão, em
+                                reunião destinada à participação de todos os profissionais, do nº de incidentes
+                                reportados ao longo do tempo, comparando por exemplo com períodos homólogos, não
+                                só para os valores agregados na unidade funcional, como profissional a
+                                profissional.
+2. Em termos temporais, em cada trimestre, o critério é considerado cumprido se
+                                essa reflexão sobre a evolução do nº de incidentes críticos tiver ocorrido nos
+                                últimos 12 meses.
+20
+20
+20
+20
+0
+C05
+A unidade funcional corrigiu (ou conseguiu que fossem corrigidos) pelo menos 30%
+                                dos riscos relacionados com utentes, identificados no mapa de riscos do ano
+                                de contratualização.
+Notas:
+1. Um mapa de riscos é um documento, elaborado de forma colaborativa pelo ACES e pela unidade funcional, onde se
+                                identificam riscos para a segurança de utentes e profissionais associados ao
+                                espaço físico das respetivas instalações, especificando para cada risco:
+a) um grau de severidade;
+b) a probabilidade de ocorrência do risco;
+c) recomendações para eliminação/correção do risco;
+d) quem tem a responsabilidade de o resolver.
+Sem prejuízo dos serviços competentes das ARS ou das ULS definirem modelos próprios de mapas de risco, disponibiliza-se:
+-
+Mapa de riscos semipreenchido por uma unidade funcional em 2010
+-
+Modelo de mapa de riscos (vazio)
+O 1º documento ilustra o que pode ser preenchido em cada área. O 2º documento pode ser usado para a elaboração do documento mapa de riscos de cada unidade pois só tem os títulos e tabelas vazias.
+2.
+                                Se não existe mapa de riscos aprovado para o ano de contratualização, valorizar 0 %.
+3.
+                                Valorizar entre 0 e 20% na direta proporção do nº de mudanças efetivamente
+                                implementadas entre janeiro e o último mês do trimestre, de acordo com a fórmula seguinte:
+Valorização
+                                no 1º trimestre = 3.33 x 4 x 20 x [Nº mudanças implementadas no 1º trimestre] / [Nº riscos identificados,
+                                relacionados com utentes];
+Valorização
+                                no 2º trimestre = 3.33 x 2 x 20 x [Nº mudanças implementadas no 1º ou 2º trimestres] / [Nº riscos identificados,
+                                relacionados com utentes];
+Valorização
+                                no 3º trimestre = 3.33 x 4 / 3 x 20 x [Nº mudanças implementadas no 1º, 2º ou 3º
+                                trimestres] / [Nº riscos identificados,
+                                relacionados com utentes];
+Valorização
+                                no 4º trimestre = 3.33 x 20 x [Nº mudanças implementadas no ano de contratualização] / [Nº riscos identificados,
+                                relacionados com utentes];
+3.
+                                Se ""valorização"" superior a 20%, corrigir para 20%.
+20
+20
+20
+20
+0
+C06
+O ACES recebe informação sobre os processos de gestão de incidentes
+                                críticos ocorridos nas respetivas unidades funcionais prestadoras de cuidados de
+                                saúde.
+Notas:
+1. Em cada trimestre, valorizar de acordo com a fórmula seguinte:
+Valorização = [Ponderação atribuída ao critério] x [Nº de unidades funcionais que reportaram ao ACES, nos 12
+                                meses anteriores, um sumário dos incidentes críticos discutidos nos respetivos
+                                conselhos gerais] / [Nº de unidades funcionais existentes no mês de referência
+                                (e criadas há pelo menos 6 meses)].
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+0
+0
+0
+0
+15
+C07
+O ACES  monitoriza a evolução do número de incidentes críticos reportados
+                                por ano, em cada uma das respetivas unidades funcionais.
+Notas:
+1. Considerar o critério cumprido caso o ACES consiga submeter um documento que
+                                contenha essa informação, detalhado por unidade funcional, datado com menos de
+                                12 meses de antiguidade relativamente ao último dia do trimestre.
+0
+0
+0
+0
+15
+C08
+O ACES corrigiu (ou conseguiu que a respetiva ARS/ULS corrigissem) pelo menos
+                                30% dos riscos relacionados com utentes, identificados no mapa de riscos do ano
+                                de contratualização, cuja solução implicasse investimento financeiro ou outro tipo de
+                                recursos externos à unidade funcional.
+Notas:
+1. Para as UF sem mapa de riscos aprovado para o ano corrente, valorizar 0 %.
+2. Nas UF com mapa de riscos aprovado para o ano corrente, valorizar entre 0 e 70%, na direta proporção da proporção
+                                de investimento realizado relativamente ao previsto, de acordo com as fórmulas seguintes,
+                                adaptadas a cada trimestre:
+[Valorização UF 1º trimestre] = 4 x 233,33 x [Investimento realizado no 1º
+                                trimestre, para
+                                correção de problemas no mapa de riscos da UF] / [Investimento global
+                                previsto];
+[Valorização UF 2º trimestre] = 2 x 233,33 x [Investimento realizado no 1º ou no 2º
+                                trimestres, para
+                                correção de problemas no mapa de riscos da UF] / [Investimento global
+                                previsto];
+[Valorização UF 3º trimestre] = 4 / 3 x 233,33 x [Investimento realizado no 1º, 2º
+                                ou 3º trimestres, para
+                                correção de problemas no mapa de riscos da UF] / [Investimento global
+                                previsto];
+[Valorização UF 4º trimestre] = 233,33 x [Investimento realizado ao longo do ano de
+                                contratualização, para
+                                correção de problemas no mapa de riscos da UF] / [Investimento global
+                                previsto];
+3.
+                                Se [valorização UF Xº trimestre] superior a 70%, corrigir para 70%.
+4. Valorização ACES Xº trimestre] = média ([valorização UF Xº trimestre]).
+5. Considerar a existência ou a ausência de mapas de riscos para todas as UF do
+                                tipo USF, UCSP, UCC, ECCI não integradas em UCC, USP e URAP existentes no último
+                                mês do trimestre e com pelo menos 6 meses de idade,
+0
+0
+0
+0
+70
+20
+Inicio: 01-01-2021;
+Fim: --
+A08
+A unidade funcional implementa medidas destinadas
+                    a ""prevenir as infeções e as resistências a antimicrobianos"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Valorização
+UCC (%)
+Valorização
+URAP (%)
+Valorização
+USP (%)
+Valorização
+ACES (%)
+C01
+O resultado da unidade funcional para o indicador
+                                com ID 255 (
+Proporção de quinolonas entre antibióticos faturados - embalagens, a
+                                    utentes inscritos
+),
+                                encontra-se dentro do intervalo esperado.
+Valorizar com a [Ponderação atribuída ao critério] se estiver dentro do intervalo esperado para o ano de
+                                contratualização;
+Valorizar com 0% se estiver fora do intervalo de variação aceitável para o ano
+                                de contratualização;
+Valorizar de acordo com a fórmula seguinte se estiver entre os limites do intervalo esperado e de variação aceitável:
+Valorização = [Ponderação atribuída ao critério] x ([limite superior intervalo variação aceitável]-
+                                [resultado do indicador])
+                                / ([limite superior do intervalo de variação aceitável] - [limite superior do intervalo
+                                esperado])
+Notas:
+1. A valorização deste critério é determinada de forma automática.
+2. Em cada trimestre de avaliação é usado o resultado do indicador flutuante do
+                                último mês do trimestre, caso já esteja disponível. Caso não esteja disponível é
+                                usado o resultado do mês mais recente para a UF em análise, no entanto, a
+                                valorização resultante é provisória e recalculada automaticamente logo que
+                                existam resultados do indicador com ID 255 para o último mês do trimestre.
+3. O valor dos intervalos esperados e de variação aceitável usados são os que
+                                estejam definidos no bilhete de identidade do referido indicador em
+https://sdm.min-saude.pt/bi.aspx?id=255&clusters=S
+.
+15
+0
+0
+0
+0
+C02
+O resultado da unidade funcional para o indicador
+                                com ID 257 (
+Proporção de cefalosporinas entre antibióticos faturados -
+                                    embalagens, a utentes inscritos
+),
+                                encontra-se dentro do intervalo esperado.
+Valorizar com a [Ponderação atribuída ao critério] se estiver dentro do intervalo esperado para o ano de
+                                contratualização;
+Valorizar com 0% se estiver fora do intervalo de variação aceitável para o ano
+                                de contratualização;
+Valorizar de acordo com a fórmula seguinte se estiver entre os limites do intervalo esperado e de variação aceitável:
+Valorização = [Ponderação atribuída ao critério] x ([limite superior intervalo variação aceitável] -
+                                [resultado do indicador])
+                                / ([limite superior do intervalo de variação aceitável] - [limite superior do intervalo
+                                esperado]).
+Notas:
+1. A valorização deste critério é determinada de forma automática.
+2. Em cada trimestre de avaliação é usado o resultado do indicador flutuante do
+                                último mês do trimestre, caso já esteja disponível. Caso não esteja disponível é
+                                usado o resultado do mês mais recente para a UF em análise, no entanto, a
+                                valorização resultante é provisória e recalculada automaticamente logo que
+                                existam resultados do indicador com ID 257 para o último mês do trimestre.
+3. O valor dos intervalos esperados e de variação aceitável usados são os que
+                                estejam definidos no bilhete de identidade do referido indicador em
+https://sdm.min-saude.pt/bi.aspx?id=257&clusters=S
+.
+15
+0
+0
+0
+0
+C03
+Pelo menos [X]% dos médicos da unidade funcional participaram, nos
+                                últimos 5 anos, em pelo menos uma ação formativa (interna ou externa) sobre ""normas
+                                ou orientações para a prescrição de antimicrobianos"".
+Notas:
+1. No 1º ano de aplicação deste indicador, o critério considera-se cumprido com 15% dos
+                                médicos, no 2º com 30% dos médicos, no 3º com 45%, no 4º com 60% e
+                                no 5º com 75% (valores de [X]).
+Valorizar de acordo com a seguinte fórmula:
+[VAR AA] = 100 x [nº
+                                médicos com formação nos últimos 5 anos] / [nº
+                                médicos da equipa]
+[VAR BB] = [VAR AA] / [X]
+Se [VAR BB] for maior que 1 corrigir para 1.
+[Valorização UF] = [Ponderação atribuída ao critério] x [VAR BB]
+2.O [nº médicos da equipa] é calculado automaticamente a partir da informação
+                                que conste no RHV, somando o número de equivalentes em tempo completo (ETC) de
+                                médicos associados aos centros de custo da unidade funcional ao longo dos 12
+                                meses que antecedem a data de referência da avaliação e dividindo o valor obtido
+                                pelo nº de meses em que se encontra informação de médicos. Na prática, obtém-se
+                                o nº médio de ETC de médicos de cada equipa, ou seja, por exemplo uma equipa que
+                                inicie o ano em 6 ETC de médicos e termine com 7 (mudança em abril), terá um
+                                cálculo de 6.25 ETC.
+3. A contagem dos anos de aplicação referidos na nota 1 faz-se a partir do ano
+                                de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+17,5
+0
+0
+0
+0
+C04
+A unidade funcional realizou, nos últimos 2 anos, pelo menos uma auditoria
+                                interna ou externa destinada a verificar a adequação da prescrição de antibióticos às
+                                respetivas indicações terapêuticas.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 2
+                                critérios seguintes: C04 e C06. A partir do 2º ano é sempre avaliada por ambos
+                                os critérios.
+2. No 1º ano de aplicação desta área, a ponderação do critério não escolhido é
+                                distribuída pelos restantes da área A08.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+17,5
+0
+0
+0
+0
+C05
+Pelo menos
+                                [X]% dos médicos, enfermeiros ou outros técnicos de saúde
+                                (psicólogos, assistentes sociais, nutricionistas, higienistas orais, etc) da unidade funcional participaram, nos
+                                últimos 5 anos, em pelo menos uma ação formativa sobre ""prevenção de infeções"".
+Notas:
+1. No 1º ano de aplicação deste indicador, o critério considera-se cumprido com 15% dos
+                                profissionais, no 2º com 30% dos profissionais, no 3º com 45%, no 4º com 60% e
+                                no 5º com 75% (valores de [X]).
+Valorizar de acordo com a seguinte fórmula:
+[VAR AA] = 100 x [nº profissionais com formação nos últimos 5 anos] / [nº
+                                profissionais da equipa]
+[VAR BB] = [VAR AA] / [X]
+Se [VAR BB] for maior que 1 corrigir para 1.
+[Valorização UF] = [Ponderação atribuída ao critério] x [VAR BB]
+2.O [nº profissionais da equipa] é calculado automaticamente a partir da
+                                informação que conste no RHV, somando o número de equivalentes em tempo completo
+                                (ETC) de profissionais associados aos centros de custo da unidade funcional ao
+                                longo dos 12 meses que antecedem a data de referência da avaliação e dividindo o
+                                valor obtido pelo nº de meses em que se encontra informação de profissionais. Na
+                                prática, obtém-se o nº médio de ETC de profissionais de cada equipa, ou seja,
+                                por exemplo uma equipa que inicie o ano em 20 ETC de profissionais e termine com
+                                22 (mudança em junho), terá um cálculo de 21 ETC.
+3. A contagem dos anos de aplicação referidos na nota 1 faz-se a partir do ano
+                                de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+17,5
+50
+50
+50
+0
+C06
+A unidade funcional realizou, nos últimos 2 anos, pelo menos uma auditoria
+                                interna ou externa destinada a verificar a adequação dos procedimentos internos às normas
+                                de prevenção de infeções.
+Notas:
+1. No 1º ano de aplicação desta área, a UF escolhe para avaliação 1 dos 2
+                                critérios seguintes: C04 e C06. A partir do 2º ano é sempre avaliada por ambos
+                                os critérios.
+2. No 1º ano de aplicação desta área, a ponderação do critério não escolhido é
+                                distribuída pelos restantes da área A08.
+3. A contagem dos anos de aplicação referidos nas notas 1 e 2 faz-se a partir do
+                                ano de 2021, mesmo para as UF que apenas selecionem esta área posteriormente. A
+                                única exceção são as UF que iniciem atividade após 2021, onde a contagem se
+                                fará a partir do ano de abertura.
+4. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres.
+17,5
+50
+50
+50
+0
+C07
+O Conselho Clínico e de Saúde do ACES e a UAG participam na organização, planeamento e realização das auditorias a registos clínicos relacionadas com ""prevenir as infeções e as resistências a antimicrobianos"" às unidades prestadoras de cuidados de saúde, em pelo menos 1/3 das auditorias expectáveis nas UF do ACES para os critérios C04 e C06 (1 auditoria de cada tipo de 2 em 2 anos).
+Notas:
+1. Valorizar de acordo com a fórmula seguinte:
+[Valorização ACES] = 300 x [Nº de auditorias externas em que o conselho clínico e
+                                de saúde participa como entidade auditora (critérios C04 e C06), nos 12 meses que antecedem a data de referência] / [Nº UF prestadoras de cuidados, existentes no mês de referência (e criadas há pelo menos 6 meses)]
+2. Este critério é avaliado da mesma forma no 1º, 2º, 3º e 4º trimestres, tendo
+                                em conta que a fórmula de valorização do critério se adapta automaticamente ao
+                                mês de referência de avaliação (último mês do trimestre em avaliação).
+3. Se valorização superior a 100%, corrigir para 100%.
+4. Participações do CCS como avaliador da grelha DIOR funcionam como equivalentes para o numerador da fórmula de valorização deste critério.
+0
+0
+0
+0
+100
+5
+Inicio: 01-01-2021;
+Fim: --
+LEGENDA: Ponder. Abs. - Ponderação absoluta do critério.
+EXEMPLO DE CÁLCULO PARA UMA USF OU UCSP
+Corresponde ao 1º ano de implementação.
+Entre os critérios C03, C04, C05, C06 e
+    C07 da A02, a unidade funcional escolheu o C03.
+Entre os critérios C01, C02 e C04 da A03, a unidade funcional escolheu o C02.
+Entre os critérios C05, C06 da A03, a unidade funcional escolheu o C05.
+Entre os critérios C01, C02 e C04 da A04, a unidade funcional escolheu o C02.
+Entre os critérios C04 e C06 da A08, a unidade funcional escolheu o C06.
+Aplicam-se um total de 22 critérios, a seguir identificados (já com as correções
+    das ponderações efetuadas).
+COD
+Área de Avaliação
+Critérios de Avaliação
+Ponder.
+Abs. (PA)
+Resultado
+na Área
+(TXX x PA)
+A01
+A unidade funcional evidencia a existência de ""cultura de segurança"" no
+                seu ambiente interno
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C01
+A unidade funcional criou ou reviu o seu mapa de riscos durante o ano de
+                            contratualização.
+40
+40
+C02
+A unidade funcional possui um programa de gestão de incidentes críticos
+                            relacionados com a segurança dos utentes.
+40
+40
+C03
+A unidade funcional discutiu, durante o ano de contratualização, pelo
+                            menos duas histórias clínicas que tenham resultado em óbito ou em eventos major
+                            com internamento (por exemplo AVC, EAM, amputação, entre outros), no sentido de
+                            promover mudanças organizacionais que evitem eventos semelhantes no futuro.
+20
+0
+T01
+Total na Área de Avaliação
+100
+80
+10
+800
+A02
+A unidade funcional implementa medidas relacionadas com a ""segurança da
+                comunicação""
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C01
+A unidade funcional discutiu, durante o ano de contratualização, pelo menos um
+                            incidente crítico relacionado com falhas de comunicação que tenha colocado em
+                            risco a segurança de utente(s).
+15 >> 46,875
+0
+C03
+A unidade funcional realizou, nos últimos 5 anos, pelo menos uma auditoria
+                            interna ou externa aos registos clínicos nas notas de referenciação para a urgência
+                            hospitalar.
+12 >> 37,5
+37,5
+C09
+A unidade funcional tem um procedimento elaborado para continuar a funcionar,
+                            minimizando riscos de comunicação, quando sucedem falhas graves no respetivo
+                            sistema de informação.
+5 >> 15,625
+15,63
+T02
+Total na Área de Avaliação
+42 >> 100
+53,13
+20
+1062.6
+A03
+A unidade funcional implementa medidas relacionadas com a ""segurança da
+                medicação"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C02
+A unidade funcional realizou, nos últimos
+                            4 anos, pelo menos uma auditoria interna ou externa aos registos clínicos às
+                            prescrições de medicamentos realizadas internamente para administração por
+                            enfermeiros na sala de tratamentos.
+10 >> 22,22
+0
+C03
+Pelo menos [X]% dos médicos participaram, nos últimos
+                            5 anos, em pelo menos uma
+                            formação ou reunião organizativa estruturada cujos objetivos incluíssem a
+                            temática das revisões terapêutica crónica dos utentes (para evitar interações
+                            medicamentosas adversas, prescrição de medicamentos contraindicados para
+                            patologias dos utentes e otimização de terapêuticas).
+20 >> 44,44
+44,44
+C05
+A unidade funcional discutiu, durante os 2 anos que antecedem o ano de contratualização, pelo menos um
+                            incidente crítico relacionado com falhas de prescrição de medicamentos que tenha colocado em
+                            risco a segurança de utente(s).
+15 >> 33,33
+33,33
+T03
+Total na Área de Avaliação
+45 >> 100
+77,77
+15
+1166,55
+A04
+A unidade funcional implementa medidas relacionadas com a ""identificação
+                inequívoca dos utentes"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C02
+A unidade funcional realizou, nos últimos 4 anos, pelo menos uma auditoria
+                            interna ou externa aos procedimentos de validação da identificação dos utentes aquando da
+                            administração de medicamentos por enfermeiros.
+33 >> 100
+100
+T04
+Total na Área de Avaliação
+33 >> 100
+100
+10
+1000
+A05
+A unidade funcional implementa medidas destinadas à 
+                ""prevenção de quedas"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C01
+A unidade funcional tem um procedimento escrito sobre ""prevenção de quedas"",
+                            tendo discutido as ações a implementar em contexto de consulta com grupos de
+                            risco (idosos e dependentes), com pelo menos 75% dos médicos e enfermeiros da
+                            unidade de saúde, nos últimos 3 anos.
+33 >> 49,25
+0
+C03
+O resultado da unidade funcional para o indicador com ID 297 (Proporção de
+                            utentes com idade igual ou superior a 65 anos, sem prescrição prolongada de
+                            ansiolíticos, nem de sedativos, nem de hipnóticos, no período em análise),
+                            encontra-se dentro do intervalo esperado.
+34 >> 50.75
+50,75
+T05
+Total na Área de Avaliação
+67 >> 100
+50,75
+10
+507.5
+A06
+A unidade funcional implementa medidas destinadas
+                à  ""prevenção de úlceras de pressão"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C03
+O resultado da unidade funcional para o indicador
+                            com ID 414 (Índice de acompanhamento adequado no tratamento de utentes com úlceras de pressão),
+                            encontra-se dentro do intervalo esperado.
+34 >> 100
+75
+T06
+Total na Área de Avaliação
+34 >> 100
+75
+10
+750
+A07
+A unidade funcional implementa medidas destinadas
+                à  ""prevenção de incidentes"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C01
+A unidade funcional possui um programa de gestão de incidentes críticos
+                            (relacionados com a segurança dos utentes) e nomeia gestores internos
+                            de vários grupos profissionais para a análise dos mesmos, sempre que
+                            relacionados com a segurança dos utentes.      Caso nomeie gestores internos apenas de um grupo profissional, valorizar metade
+                            da pontuação prevista para o tipo de UF.
+20
+20
+C02
+A unidade funcional possui um sistema de registo sistemático de todos os
+                            incidentes críticos relacionados com utentes, que permita registar todas as
+                            ações necessárias para fazer a gestão do incidente desde a sua identificação até
+                            à definição e aprovação de uma proposta de uma solução.
+20
+20
+C03
+Ao longo do ano de contratualização foram discutidas propostas de melhoria da
+                            organização interna ou externa de forma a evitar novas ocorrências de incidentes de
+                            segurança relacionados com utentes, previamente ocorridos.
+20
+20
+C04
+A unidade funcional monitoriza a evolução do número de incidentes críticos
+                            reportados por ano.
+20
+20
+C05
+A unidade funcional corrigiu (ou conseguiu que fossem corrigidos) pelo menos 30%
+                            dos riscos relacionados com utentes, identificados no mapa de riscos do ano
+                            de contratualização.
+20
+10
+T07
+Total na Área de Avaliação
+100
+90
+20
+1800
+A08
+A unidade funcional implementa medidas destinadas
+                a ""prevenir as infeções e as resistências a antimicrobianos"".
+COD
+Critérios
+Valorização
+USF e UCSP (%)
+Auto-avaliação
+no critério (%)
+C01
+O resultado da unidade funcional para o indicador
+                            com ID 255 (Proporção de quinolonas entre antibióticos faturados - embalagens, a
+                            utentes inscritos),
+                            encontra-se dentro do intervalo esperado.
+15 >> 23,07
+23,07
+C02
+O resultado da unidade funcional para o indicador com ID 257 (Proporção de
+                            cefalosporinas entre antibióticos faturados - embalagens, a utentes inscritos),
+                            encontra-se dentro do intervalo esperado.
+15 >> 23,07
+23,07
+C03
+Pelo menos X% dos médicos da unidade funcional participaram, nos
+                            últimos 5 anos, em pelo menos uma ação formativa (interna ou externa) sobre ""normas
+                            ou orientações para a prescrição de antimicrobianos"".
+17,5 >> 26,92
+0
+C06
+A unidade funcional realizou, nos últimos 2 anos, pelo menos uma auditoria
+                            interna ou externa destinada a verificar a adequação dos procedimentos internos às normas
+                            de prevenção de infeções.
+17,5 >> 26,92
+26,92
+T08
+Total na Área de Avaliação
+65 >> 100
+73,06
+5
+365,3
+Resultado (em percentagem) = (A01 + A02 + A03 + A04 + A05 + A06 + A07 + A08) /
+    100 = (800 + 1062,6 + 1166,55 + 1000 + 507.5 + 750 + 1800 + 365,3) / 100 =
+    74,51%
+Score (numa escala contíua de 0 a 2 pontos) = 2 x (A01 + A02 + A03 + A04 + A05 +
+    A06 + A07 + A08) / 10000 = 2 x (800 + 1062,6 + 1166,55 + 1000 + 507.5 + 750 + 1800 +
+    365,3) / 10000 = 1,49"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Aplicável a
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+RAUF e PDACES
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencentes ao intervalo [0; 2], não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+C02
+IDS da dimensão ""segurança dos utentes""
+RAUF e PDACES
+O [IDS da dimensão ""segurança dos utentes""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""segurança dos utentes""] = 100 x [Score dimensão ""segurança 
+    dos utentes""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+RAUF
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C03
+Periodicidade de registo nos formulários do BI-CSP
+PD-ACES
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelos ACES e de validação pelas ARS no 
+                            PD-ACES*
+Objetivo do preenchimento
+Validação pela ARS
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ARS deverá gerir com os respetivos ACES, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade da ARS conseguir validar todos os formulários dos respetivos ACES, no máximo, até ao último dia do prazo definido. Assim, compete a cada ARS definir prazos internos para o preenchimento da plataforma pelos respetivos ACES.
+C04
+Validação pelo ACES
+RAUF
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da 
+                CHECKLIST DE autopreenchimento, 
+    registadas pela unidade funcional
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --
+C04
+Validação pela ARS
+PD-ACES
+1. O estado de validação pela ARS, pode assumir 3 valores:
+a) Não preenchido;
+b) Não validado pela ARS;
+c) Validado pela ARS;
+2. A ARS deve ""validar"" ou ""não validar"" especificamente todas as variáveis da 
+                CHECKLIST de autopreenchimento, registadas pelo ACES.
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" da ARS. A 
+    ""validação"" da ARS é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades do ACES, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando a ARS preenche o campo de validação, o formulário fica bloqueado para edição pelo ACES. Para permitir que o ACES corrija informações de um formulário 
+    com o estado de validação já preenchido pela ARS, esta última deverá ""desbloquear"" a edição do formulário pelo ACES.
+6. Caso o estado definido pela ARS seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pelo ACES seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pela ARS deverão ser corrigidos pelo ACES, de forma a que a ARS possa ""validar"" a informação contida no formulário de introdução de dados.
+7. A tabela seguinte resume as consequências do estado do campo ""validação"" em 
+    função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da 
+    data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, 
+             calculado em data igual ou superior a 1 de abril do ano seguinte ao da 
+             contratualização
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas. A partir de 2023, a recolha será feita no PAUF.
+- Em 2021, para os ACES, o resultado do indicador é calculado a partir dos score obtidos para as respetivas UF no RAUF, ponderado à diemsnão de cada uma (à semelhança do que sucede com os indicadores de desempenho no cálculo do IDG dos ACES).
+- A partir de 2022, para os ACES, o resultado do indicador é recolhido mensalmente a partir do PD-ACES com o valor que lá esteja calculado em função de dados introduzidos pelos respetivos utilizadores.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
+Fórmula,Aplicação de checklist
+Unidade de medida,Score
+Output,Com dados desde Setembro de 2021
+Área | Subárea | Dimensão,Qualidade Organizacional | Segurança | Segurança de Utentes
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

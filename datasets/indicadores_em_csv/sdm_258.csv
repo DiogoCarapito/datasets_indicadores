@@ -1,0 +1,47 @@
+titulo,texto
+ID,258
+Código,6.75.01
+Código SIARS,2017.258.01
+Nome abreviado,Rácio entre despesa com coxibes e AINEs faturados
+Designação,"Rácio entre a despesa faturada com inibidores da COX-2 e a despesa total faturada com anti-inflamatórios não esteroides (pelo PVP, a utentes inscritos)"
+Objetivo,Monitorizar a prescrição de fármacos na componente de despesa com inibidores da COX-2.
+Descrição do Indicador,"Indicador que exprime a proporção de despesa realizada com anti-inflamatórios não esteroides do tipo ""inibidor da COX-2"", face à despesa total com anti-inflamatórios não esteroides faturados (PVP), a utentes com inscrição ativa.
+Numerador: Despesa com medicamentos do tipo ""inibidor da COX-2"", aceites para faturação no CCF.
+Denominador: Despesa com anti-inflamatórios não esteroides, aceites para faturação no CCF, a utentes com inscrição ativa."
+Regras de cálculo,"NUMERADOR (AA):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Medicamento pertencente a uma das classes ATC dos Coxibes (ver alínea E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B e C e D e (E ou F ou G)] é verdadeira:
+A. Utente com inscrição ativa na unidade funcional na data da prescrição.
+B. Medicamento prescrito por qualquer médico ou interno.
+C. Medicamento aceite para faturação durante o período em análise.
+D. Medicamento pertencente à classe ATC ""M01A"" (medicamentos anti-inflamatórios e anti-reumáticos não esteroides).
+E. Se a unidade de observação do indicador for um ACES, a receita médica é emitida com um código de local de prescrição pertencente ao ACES (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+F. Se a unidade de observação do indicador for uma unidade funcional, a receita médica é emitida com um código de local de prescrição que lhe pertence (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+G. Se a unidade de observação é um médico ou enfermeiro com lista de utentes na unidade funcional, a receita médica é emitida com um código de local de prescrição pertence à unidade funcional (ver alíneas C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Os medicamentos prescritos e não dispensados não são contabilizados.
+B. Os medicamentos que sejam prescritos manualmente são contabilizados, desde que dispensados numa farmácia.
+C. Quando a unidade de observação é uma unidade funcional, os medicamentos prescritos a utentes inscritos na unidade funcional utilizando um código de local de prescrição não pertencente a essa unidade, não são contabilizados nem no denominador nem no numerador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP não são contabilizados na USF ou UCSP de inscrição do utente.
+D. Quando a unidade de observação é um ACES, os medicamentos prescritos a utentes inscritos em qualquer unidade funcional desse ACES utilizando um código de local de prescrição não pertencente à unidade funcional de inscrição do utente mas pertencente ao ACES, são contabilizados no denominador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP do ACES a utentes de uma UCSP do ACES são contabilizado no denominador do indicador referente ao ACES.
+E. As classes ATC de medicamentos que podem ser contabilizados no numerador são as seguintes:
+- M01AH - Coxibes;
+- N02AJ16 - TRAMADOL E CELECOXIBE
+F. Os medicamentos pertencentes a estas classes ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de despesa
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

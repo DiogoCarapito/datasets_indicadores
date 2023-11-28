@@ -1,0 +1,59 @@
+titulo,texto
+ID,290
+Código,6.54.01
+Código SIARS,2013.290.01
+Nome abreviado,"Propor. utentes c/ melhoria ""depend. autocuid."""
+Designação,"Proporção de utentes com melhoria no nível de ""dependência no autocuidado"""
+Objetivo,"Avaliar a efetividade dos cuidados de enfermagem na melhoria do nível de ""dependência no autocuidado"" nos utentes integrados na ECCI."
+Descrição do Indicador,"Exprime a proporção de utentes integrados na ECCI com melhoria do nível de ""dependência no autocuidado""
+Numerador: Contagem de utentes integrados na ECCI que apresentam diminuição do nível de dependência no autocuidado ao longo da integração na ECCI.
+Denominador: Contagem de utentes integrados na ECCI, com pelo menos uma avaliação do nível de dependência."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições definidas no denominador.
+B. Com pelo menos duas avaliações do índice de dependência documentadas durante o período de integração na ECCI.
+C. A última avaliação do índice de dependência, documentada durante o período de integração na ECCI, é superior à primeira avaliação. (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C ] são verdadeiras:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alínea B de OBSERVAÇÕES GERAIS).
+B. Apenas se contabilizam utentes com duração de integração no intervalo [30 e 365] dias (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Utentes com pelo menos uma avaliação do nível de dependência durante o período de integração na ECCI (ver alínea A de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A avaliação do nível de dependência deve efetuado através do índice de Barthel.
+B. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+C. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+D. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de integração] na ECCI prévia à constituição da UCC, não influenciam o denominador nem o numerador deste indicador.
+E. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+F. Este indicador foi desenhado assumindo o pressuposto que os utentes cumprem os critérios de integração em ECCI e apresentam dependência no seu autocuidado, ou seja, pelo menos um dos seguintes:
+1. Dependência funcional transitória decorrente de processo convalescença ou outro;
+2. Dependência funcional prolongada;
+3. Com critérios de fragilidade (dependência e doença);
+4. Incapacidade grave, com forte impacto psicossocial;
+5. Doença severa, em fase avançada ou terminal.
+Desta forma, utentes integrados nas ECCI que são independes no seu autocuidado no início e fim da integração, são considerados não cumpridores.
+G. Atendendo a que nem todos os utentes integrados em ECCI têm potencialidade para reconstruir a sua autonomia ou melhorar no seu autocuidado, o intervalo esperado e a variação aceitável nos resultados deste indicador, encontram-se ajustados a esta realidade."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. A avaliação do Índice de dependência é documentada através da intervenção de enfermagem: Monitorizar a dependência através da Escala de Barthel (90506).
+SClínico com normalização:
+A. A avaliação do Índice de dependência é documentada através da intervenção de enfermagem: Avaliar auto cuidado (9002385)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 24 meses, terminando na data de referência do indicador. Apenas se contabilizam as avaliações do índice de dependência que sejam registados durante a integração na ECCI.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 13 a 24 meses, iniciando a 1 de janeiro do ano N-1 e terminando na data de referência do indicador. Apenas se contabilizam as avaliações do índice de dependência que sejam registados durante a integração na ECCI.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [72; 100]
+Ano de 2023: [72; 100]
+Ano de 2024: [72; 100]"
+Intervalo Esperado,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

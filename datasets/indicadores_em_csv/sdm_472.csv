@@ -1,0 +1,63 @@
+titulo,texto
+ID,472
+Código,5.36.12
+Código SIARS,2023.472.01
+Nome abreviado,Prop. fumad. c/ CICT que foram medicados no ACES
+Designação,"Proporção de utentes fumadores, com idade igual ou superior a 15 anos e consulta intensiva de apoio à cessação tabágica, medicados com terapêutica farmacológica no último ano no ACES"
+Objetivo,"Monitorizar frequência de utilização de terapêutica farmacológica na cessação tabágica, em particular nos doentes seguidos no programa de apoio intensivo à cessação tabágica (CICT)."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes fumadores, com idade igual ou superior a 15 anos e com registo CICT, medicados com terapêutica farmacológica no último ano.
+Numerador: Contagem de utentes fumadores, com idade igual ou superior a 15 anos e com registo CICT, medicados com terapêutica farmacológica no último ano.
+Denominador: Contagem de utentes fumadores com idade igual ou superior a 15 anos com pelo menos uma CICT e marcação de ""dia D"" no último ano."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um registo de medicação de terapêutica de nicotina, bupropiom, vareniclina ou citisiniclina, nos 12 meses que antecedem a data de referência do indicador (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Ter idade igual ou superior a 15 anos (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma CICT, realizada por qualquer médico ou interno do ACES, em qualquer UF do ACES, com marcação de ""dia D"" (dia acordado para deixar de fumar), estando esse ""dia D"" agendado para os 12 meses que antecedem a data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Este indicador pode ser medido para os seguintes tipos de unidades de observação: ACES, URAP, USF, UCSP, CS-SM, listas utentes de médicos e listas de utentes de enfermeiros.
+Em função do tipo de unidade de observação em avaliação, a [
+inscrição ativa
+] tem o domínio de análise a seguir especificado:
+- ACES - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES em análise.
+- URAP - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise.
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - Inscrição em qualquer código RNU na hierarquia de locais dependente da unidade funcional em análise.
+- Listas utentes de médico de uma UF - Inscrição no médico em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o médico em análise.
+- Listas de utentes de enfermeiro de uma UF - Inscrição no enfermeiro em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o enfermeiro em análise.
+B. A análise das CICT no DENOMINADOR_01 é feita de forma independente da unidade de observação em análise no indicador, em todo o ACES.
+Em função do tipo de unidade de observação em avaliação, as CICT no DENOMINADOR_01 têm o domínio de análise a seguir especificado:
+- ACES - CICT realizada em qualquer unidade funcional do ACES.
+- URAP - CICT realizada em qualquer unidade funcional do ACES (e não apenas na URAP).
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - CICT realizada em qualquer unidade funcional do ACES (e não apenas UF de inscrição dos utentes).
+- Listas utentes de médico de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no médico e UF de inscrição dos utentes).
+- Listas de utentes de enfermeiro de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no enfermeiro e UF de inscrição dos utentes).
+C. A idade dos utentes deve ser medida em relação à data de referência do indicador.
+D. O utente cumpre a alínea B do numerador caso tenha pelo menos um registo, realizado ao longo dos 12 meses que antecedem a data de referência do indicador, em que o profissional de saúde (ou o sistema de informação) tenham registado as ""
+checkboxes
+"" associadas ao ""N"" (terapêutica com nicotina) ou ao ""B"" (bupropiom) ou ao ""V"" (vareniclina) ou ao ""C"" (citisiniclina ou citisina). Adicionalmente são também considerados no numerador os utentes em que existam registos de prescrição na PEM/BDNP de um dos referidos DCI e que esses registos tenham ocorrido com o(s) código(s) de local de prescrição do respetivo ACES.
+E. De forma a evitar falsos positivos no numerador devido a prescrições de alguns tipos de fármacos para outras indicações terapêuticas dos mesmos, restringe-se o período válido para as prescrições entre:
+- [inicio] - A data de registo da primeira CICT que faz com que o doente seja incluído na alínea C do denominador;
+- [fim] - A menor das datas seguintes: (1) A [data de referência do indicador] ou (2) uma data de recaída posterior a [início] e anterior a [fim do período em análise].
+F. O resultado principal deste indicador é dado pela fórmula seguinte:
+RESULTADO = NUMERADOR / DENOMINADOR_01 x 100"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de medicação prescrita""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
+- Denominador (variável ""idade""): Medida na data de referência do indicador;
+- Denominador (variável ""registo CICT""): Duração de 13 meses, terminando na data de referência do indicador.
+- Denominador (variável ""Data agendamento dia D""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

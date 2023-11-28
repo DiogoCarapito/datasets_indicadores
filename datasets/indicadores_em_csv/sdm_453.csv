@@ -1,0 +1,57 @@
+titulo,texto
+ID,453
+Código,5.01.04
+Código SIARS,2023.453.01
+Nome abreviado,"Prop. mulheres [50; 70[ A, c/ mamogr. convenc."
+Designação,"Proporção de mulheres entre 50-69 anos, com mamografia realizada no setor convencionado, em 12 meses."
+Objetivo,"Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), com o objetivo de avaliar em que medida as mamografias estão a ser requisitadas, pelos médicos, para o setor convencionado."
+Descrição do Indicador,"Indicador que exprime a proporção de mulheres inscritas e com idades compreendidas no intervalo [50, 70[ anos (sem critérios de exclusão para o rastreio do cancro da mama), com mamografia requisitada para o setor convencionado, nos últimos 12 meses.
+Numerador: Contagem de mulheres com mamografia requisitada para o setor convencionado nos últimos 12 meses.
+Denominador: Contagem de mulheres com inscrição ativa numa unidade de saúde e com idades compreendidas no intervalo [50-70[ anos, sem critérios de exclusão para a realização do rastreio do cancro da mama."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma requisição de mamografia para o setor convencionado, entre os meses N-3 e N-14 (N é o mês de referência do indicador) (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [50; 70[ anos, no mês N-3 (N é o mês de referência do indicador) (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na Unidade de Saúde na data de referência do indicador.
+D. Sem diagnóstico de ""neoplasia da mama"" (código ICPC-2 X76), na lista de problemas, no mês N-3 (N é o mês de referência do indicador).
+E. Sem registo de mastectomia nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador).
+F. Sem registo de próteses mamárias nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador).
+G. No mês N-3 (N é o mês de referência do indicador) a mulher não está grávida nem em puerpério. (ver alíneas D, E e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O MCDT válido para este indicador, pela tabela de MCDT convencionados, é o seguinte:
+- [Mamografia], código 446.4, área M (mamografia bilateral, duas incidências por mama).
+B. Considerando que o objetivo deste indicador é a análise de mamografias que não são efetuadas no âmbito e com a organização dos programas de rastreio regionais, não se contabilizam mamografias integradas a partir do ""SIIMA-rastreios"", disponíveis no módulo de rastreio oncológico do SClínico. Apenas se contabilizam requisições efetuadas por médicos, deste exame, para o setor convencionado.
+C. A idade deve ser medida no mês N-3 (N é o mês de referência do indicador).
+D. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim da gravidez] (ver definição mais à frente em OBSERVAÇÕES GERAIS).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+E. A [data de fim da gravidez] corresponde ao 1º dia do puerpério e é determinada da seguinte forma:
+a) se a [data de parto] estiver registada, a [data de fim da gravidez] é igual à [data de parto].
+b) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] estiver registada e se a [data de referência do indicador] for superior à [data prevista de parto corrigida] em 8 semanas (56 dias), a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] não estiver registada e se a [data de referência do indicador] for superior à [data da última menstruação] em 48 semanas (336 dias), a [data de fim da gravidez] é igual à soma da [data da última menstruação] com [39 semanas e 6 dias] (280 dias) .
+F. Para efeitos de contabilização do puerpério, considera-se que a [data de fim da gravidez], tal como definida na alínea anterior, é o 1º dia de puerpério (P1). O fim do período do puerpério, corresponde ao 42º dia.
+H. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""requisição de mamografia""): Duração de 12 meses, entre os meses N-3 e N-14 (N é o mês de referência do indicador).
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""neoplasia maligna da mama""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""mastectomia""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""próteses mamárias""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""gravidez ou puerpério""): no mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

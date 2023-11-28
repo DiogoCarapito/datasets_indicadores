@@ -1,0 +1,87 @@
+titulo,texto
+ID,079
+Código,8.01.01
+Código SIARS,2013.079.01
+Nome abreviado,Número UCs hipertensos (ativ. específ.)
+Designação,Número de unidades de contratualização relacionadas com vigilância de utentes com hipertensão arterial (atividades específicas)
+Objetivo,"Monitorizar o programa de hipertensão e cálculo do número de UCs a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas""."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de utentes com hipertensão arterial (atividades específicas).
+Numerador: Produto entre o [número de utentes com hipertensão arterial com acompanhamento adequado] e o [fator de ponderação 2].
+Denominador: Contagem de médicos da unidade."
+Regras de cálculo,"UTENTES COM HIPERTENSÃO ARTERIAL COM ACOMPANHAMENTO ADEQUADO (AA):
+Contagem de utentes em que a expressão [A e B e C e D e E e (F ou G)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado ""ativo"", durante pelo menos um dia do período em análise.
+C. Ter pelo menos 2 consultas médicas de vigilância em hipertensão, realizadas nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+D. Com pelo menos 2 registos de pressão arterial nos últimos 12 meses, realizados em dias diferentes (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+E. Ter pelo menos 1 registo de pressão arterial durante o período em análise com valores de pressão arterial sistólica igual ou inferior a 150 mmHg e de pressão arterial diastólica igual ou inferior a 90 mmHg (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+F. Ter pelo menos um resultado de microalbuminúria (ou análise equivalente), realizada nos últimos 12 meses (ver alínea E de OBSERVAÇÕES GERAIS).
+G. Ter pelo menos um resultado de colesterol total, colesterol HDL e triglicéridos, realizados nos últimos 24 meses (ver alínea F de OBSERVAÇÕES GERAIS).
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador (ver alínea G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em HTA, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de HTA, que podem ser usados para a classificar como ""problema de saúde da consulta"" são o K86, o K87.
+B. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+C. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+D. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;
+E. Os códigos da tabela de MCDT, válidos para registar microalbuminúria (ou análise equivalente) são os seguintes: A560.6 (microalbuminúria), A1318.2 (Albumina de baixa concentração) e A596.7 (proteinúria). O código da microalbuminúria A560.6 permite requisitar a [microalbuminúria de 24 horas], a [microalbuminúria de 12 horas] e a [microalbuminúria em amostra de urina]. Quando esta análise for efetuada na unidade de saúde (utilizando p.e. o Micralteste) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. Apenas se contabilizam microalbuminúrias ou as proteinúrias com resultado registado. A data que deve ser usada para verificar se a microalbuminúria está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+F. Os códigos da tabela de MCDT, válidos para o colesterol total, para o colesterol HDL e para os triglicéridos são respetivamente o A1029.9, o A412.0 e o A620.3. A data que deve ser usada para verificar se estas análises estão ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 30 dias após a data de referência do indicador. As análises podem ser requisitadas em documentos diferentes. A data de realização das 3 análises pode ser diferente.
+G. O número de médicos a contabilizar quando a unidade de observação é uma USF é o que se encontra no documento de candidatura ou no último documento oficial publicado onde se especifique o nº de lugares no quadro para a equipa médica. Se um médico se encontra a meio tempo, conta meia unidade para esta variável. Se uma unidade de saúde possui um ou vários médicos com ausências de longa duração, esses médicos são contabilizados. Quando a unidade de observação é uma UCSP, o número de médicos é o que constar do respetivo mapa de pessoal. Quando a unidade de observação é o próprio médico, a variável assume o valor 1 ou 0,5 respetivamente para médicos a tempo inteiro ou a meio tempo. Quando a unidade de observação é o ACES, a variável é igual ao somatório dos médicos das respetivas USF e UCSP (contabilizadas de acordo com as regras acima discriminadas)."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+B. A microalbuminúria pode ser registada no módulo de MCDT e em campos específicos existentes na ficha de hipertensão e na ficha de diabetes.
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+C. A proteinúria, o colesterol total, o colesterol HDL e os triglicéridos podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+D. A microalbuminúria pode ser requisitada e registada quer através do módulo de análises quer através do módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+E. A microalbuminúria pode também ser registada nos campos criados para o efeito quer no módulo de hipertensão, quer no módulo de diabetes."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""consulta médica"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""registo de pressão arterial em 12 meses"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""resultado da pressão arterial"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""microalbuminúria"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 24 meses, terminando na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""HTA na lista de problemas"": Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""registo de pressão arterial em 12 meses"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""resultado da pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""HTA na lista de problemas"": Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA x 2 / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

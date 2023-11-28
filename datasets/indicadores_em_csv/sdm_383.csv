@@ -1,0 +1,115 @@
+titulo,texto
+ID,383
+Código,8.13.04
+Código SIARS,2017.383.01
+Nome abreviado,"Prop. adultos com HTA, com diagnóstico"
+Designação,"Proporção de utentes adultos com registos clínicos evidenciando a existência de Hipertensão Arterial, com registo de diagnóstico na lista de problemas"
+Objetivo,"Monitorizar a frequência de potenciais falhas na codificação de problemas de saúde na lista de problemas (classificados pela ICPC-2). Ver alíneas C, D, E, F, G, H, I e J de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Proporção de utentes adultos utilizadores, com registos clínicos evidenciando a existência de Hipertensão Arterial (HTA), com registo desse diagnóstico na lista de problemas com o estado ativo.
+Numerador: Contagem de utentes com registo de HTA na lista de problemas com o estado ativo.
+Denominador: Contagem de utentes adultos utilizadores, com registos clínicos evidenciando a existência de HTA."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com diagnóstico de HTA (rubricas da ICPC-2 K86 ou K87), registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2022.
+Contagem de utentes em que a expressão [A e B e C e (D ou (E e F))] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Utente que completa 18 ou mais anos de idade durante o período em análise (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com pelo menos uma consulta médica presencial nos últimos 12 meses (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+D. Com diagnóstico de HTA (rubricas da ICPC-2 K86 ou K87) registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+E. Com pelo menos um medicamento dispensado e faturado com indicação terapêutica como ""antihipertensor"", prescrito na unidade funcional de inscrição do utente. Ver alíneas B e K de OBSERVAÇÕES GERAIS.
+F. Sem nenhum dos diagnósticos codificado como ""ativo"" na lista de problemas, na data de referência do indicador, entre aqueles que estão a seguir indicados (ver alínea F de OBSERVAÇÕES GERAIS):
+- Palpitações/percepção do coração (K04), em doentes com beta bloqueantes;
+- Tornozelos inchados/edema (K07), em doentes com diuréticos;
+- Doença cardiaca isquémica com angina (K74);
+- Enfarte agudo do miocárdio (K75);
+- Doença cardíaca isquémica sem angina (K76);
+- Insuficiência cardíaca (K77);
+- Fibrilhação/flutter auricular (K78), em doentes com beta bloqueantes e bloquadores dos canais de cálcio;
+- Taquicardia paroxística (K79), em doentes com beta bloqueantes e bloquadores dos canais de cálcio;
+- Arritmia cardíaca NE (K80), em doentes com beta bloqueantes e bloquadores dos canais de cálcio;
+- Análise de urina anormal (U98), devido à microalbuminúria e à proteinúria, em doentes com fármacos que interagem com o sistema renina angiotensina aldosterona
+- Movimentos involuntários anormais (N08), em especial tremor, em doentes com beta bloqueantes;
+- Enxaqueca (N89), em doentes com beta bloqueantes e bloquadores dos canais de cálcio;
+- Sintomas somáticos da ansiedade, classificáveis através das rubricas ICPC-2 P01 (Sensação de ansiedade/nervosismo/tensão), P74 (Distúrbio ansioso/estado de ansiedade), P75 (Somatização), em doentes com beta bloqueantes;
+- Queda de cabelo (S23), em doentes com espironolactona;
+- Síndrome de Raynaud (K92) em doentes com Antagonistas dos canais de cálcio;
+- Hipertrofia prostática benigna (Y85), em doentes medicados com doxazosina (Válido para indicadores com data de referência igual ou superior a janeiro de 2024).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2021.
+Contagem de utentes em que a expressão [A e B e C e (D ou (E e F))] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Utente que completa 18 ou mais anos de idade durante o período em análise (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com pelo menos uma consulta médica presencial nos últimos 12 meses (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+D. Com diagnóstico de HTA (rubricas da ICPC-2 K86 ou K87) registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+E. Com pelo menos um medicamento dispensado e faturado com indicação terapêutica como ""antihipertensor"", prescrito na unidade funcional de inscrição do utente. Ver alíneas B e K de OBSERVAÇÕES GERAIS.
+F. Sem nenhum dos diagnósticos codificado como ""ativo"" na lista de problemas, na data de referência do indicador, entre aqueles que estão a seguir indicados (ver alínea F de OBSERVAÇÕES GERAIS):
+- Palpitações/percepção do coração (K04);
+- Tornozelos inchados/edema (K07);
+- Doença cardiaca isquémica com angina (K74);
+- Enfarte agudo do miocárdio (K75);
+- Doença cardíaca isquémica sem angina (K76);
+- Insuficiência cardíaca (K77);
+- Fibrilhação/flutter auricular (K78);
+- Taquicardia paroxística (K79);
+- Arritmia cardíaca NE (K80);
+- Análise de urina anormal (U98), devido à microalbuminúria e à proteinúria;
+- Enxaqueca (N89)."
+Observações Gerais,"A. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] com um dos códigos seguintes:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C008
+| Consulta médica presencial - MedicineOne
+B. São incluídos utentes com pelo menos um medicamento das classes ATC C02 (ANTI-HIPERTENSORES), C03 (DIURÉTICOS), C07 (FÁRMACOS BETA BLOQUEANTES), C08 (ANTAGONISTAS DOS CANAIS DE CÁLCIO) e C09 (FÁRMACOS QUE INTERAGEM COM O SISTEMA RENINA-ANGIOTENSINA).
+C. A lista de problemas ativos dos utentes deve conter os problemas de saúde em relação aos quais existe um plano de seguimento. Segundo Rui Caeiro em ""Registos Clínicos em Medicina Familiar"", a lista de problemas ativos deve conter as doenças relevantes (p.e. neoplasias, doenças recorrentes, intervenções cirúrgicas major), as doenças que requerem tratamento médico contínuo (p.e. Diabetes Mellitus), as doenças que condicionam a escolha da terapêutica (p.e. alergias e úlcera péptica), doenças que afetam as funções do doente (p.e. surdez e cegueira) e os problemas sociais.
+D. Os problemas de saúde ativos, devem ser codificados pela ICPC-2.
+E. Nos termos da definição de ""problema ativo"" com indicação para a lista de problemas, os problemas crónicos e recorrentes têm indicação para inserção na lista de problemas. Essa indicação é ainda maior se existir terapêutica farmacológica prescrita.
+F. O indicador foi desenhado de forma a minimizar a probabilidade de falsos positivos para o denominador. Isso foi feito à custa de 4 restrições colocadas no denominador, designadamente:
+a) A necessidade de se contabilizarem apenas utentes adultos;
+b) A necessidade de se contabilizarem apenas utentes com consultas presenciais nos 12 meses anteriores;
+c) A necessidade de se removerem do denominador utentes que já possuem outros diagnósticos essencialmente do ""capítulo cardiovascular (K) da ICPC-2"" que não sejam os que se pretende contabilizar no numerador e que porventura também terão indicação terapêutica para os fármacos das classes ATC C02 (ANTI-HIPERTENSORES), C03 (DIURÉTICOS), C07 (FÁRMACOS BETA BLOQUEANTES), C08 (ANTAGONISTAS DOS CANAIS DE CÁLCIO) e C09 (FÁRMACOS QUE INTERAGEM COM O SISTEMA RENINA-ANGIOTENSINA).
+d) A prescrição de medicamentos das classes das classes ATC C02 (ANTI-HIPERTENSORES), C03 (DIURÉTICOS), C07 (FÁRMACOS BETA BLOQUEANTES), C08 (ANTAGONISTAS DOS CANAIS DE CÁLCIO) e C09 (FÁRMACOS QUE INTERAGEM COM O SISTEMA RENINA-ANGIOTENSINA) apenas é tida em linha de conta se tiver ocorrido na unidade funcional. Não se contabilizam utentes no denominador que tenham estes medicamentos prescritos apenas noutros contextos como o hospitalar ou privado.
+G. A Lista de Problemas do utente é uma componente fundamental do processo clínico eletrónico. A lista de problemas proporciona uma visão de conjunto integrada do estado de saúde passado e presente do utente e permite conhecer melhor a morbilidade nacional, através da caracterização epidemiológica da população utilizadora dos CSP em Portugal.
+A lista de problemas é um instrumento de apoio à consulta médica, possibilitando um conhecimento rápido dos problemas de saúde atuais do utente consultado, minimizando a probabilidade de erro por prescrição de medicamentos contraindicados.
+Adicionalmente a informação aqui registada é fundamental para análises de carácter epidemiológico o planeamento em saúde, a nível local, regional e nacional. 
+Os sistemas de informação e registos clínicos são uma componente essencial na matriz em que está assente a governação clínica e de saúde, pelo que a atualização das listas de problemas deve ser um dos focos de atenção dos profissionais de saúde.
+H. POTENCIAIS VANTAGENS DA MANUTENÇÃO E ATUALIZAÇÃO PERIÓDICA DA LISTA DE PROBLEMAS:
+Uma lista de problemas bem organizada e atualizada é uma das ferramentas mais úteis à disposição de um médico de família.
+1. É um registo permanente dos problemas significativos;
+2. Permite relembrar o médico sobre eventos e investigações prévias;
+3. Constitui uma forma de comunicação entre profissionais de saúde;
+4. É útil no planeamento de cuidados;
+5. Facilita a monitorização de doenças prolongadas;
+6. Permite apoiar a implementação de programas de prevenção e rastreio.
+I. Adicionalmente existem indicadores de desempenho usados na matriz de contratualização dos CSP, em que a inclusão dos utentes no denominador pressupõe que os médicos procedam à codificação dos diagnósticos dos doentes na lista de problemas.
+J. A não codificação dos problemas de saúde dos doentes na lista de problemas ativos tem as consequências seguintes:
+a) Aumenta o risco de erro associado às consultas que venham a ocorrer no futuro com esses utentes, pelos próprios ou por outros médicos da equipa;
+b) Dificulta o planeamento e a gestão em saúde;
+c) Coloca o médico em potencial conflito de interesses por dessa omissão poder resultar uma alteração do resultado de vários indicadores, com benefício para o próprio ou para a equipa nas comparações/""benchmarking"" com outras unidades e potencial benefício económico para o próprio ou para a equipa, já que essas alterações em resultados de indicadores podem induzir um aumento do Índice de Desempenho Global e alteração da decisão de atribuir ou não atribuir incentivos institucionais a toda a equipa. No entanto, eventuais processos de auditoria interna ou externa decorrentes dos outputs deste indicador devem ter em conta as possíveis excepções elencadas nos pontos anteriores bem como outras que não tenham sido previstas na data de construção do indicador.
+K. A prescrição de medicamentos das classes das classes ATC C02 (ANTI-HIPERTENSORES), C03 (DIURÉTICOS), C07 (FÁRMACOS BETA BLOQUEANTES), C08 (ANTAGONISTAS DOS CANAIS DE CÁLCIO) e C09 (FÁRMACOS QUE INTERAGEM COM O SISTEMA RENINA-ANGIOTENSINA) apenas é tida em linha de conta se tiver ocorrido na unidade funcional. Não se contabilizam utentes no denominador que tenham estes medicamentos prescritos apenas noutros contextos como o hospitalar ou privado."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB X 100
+Unidade de medida,%
+Output,Proporção de Utentes
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2022: [94; 100]
+Ano de 2023: [94; 100]
+Ano de 2024: [94; 100]"
+Intervalo Esperado,"Ano de 2022: [89; 100]
+Ano de 2023: [89; 100]
+Ano de 2024: [89; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,56 @@
+titulo,texto
+ID,266
+Código,2.14.01
+Código SIARS,2013.266.01
+Nome abreviado,"Percent. DM vigiados, c/ úlcera ativa no pé"
+Designação,"Percentagem de pessoas com diabetes e compromisso de vigilância, com úlcera ativa no pé no último ano"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""registo de úlcera ativa no pé""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes, com registo de úlcera ativa no pé, realizado no último ano.
+Numerador: Contagem de utentes inscritos com diabetes, com compromisso de vigilância e com registo de diagnóstico de enfermagem de ""úlcera de pé"", ativo, no último ano.
+Denominador: Contagem de utentes inscritos com diabetes e com compromisso de vigilância no programa de diabetes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter o programa de saúde de enfermagem (Tratamento Feridas / Úlceras) ativo, durante pelo menos um dia do período em análise.
+C. Ter um diagnóstico de enfermagem (Úlcera), ativo durante pelo menos um dia período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+C. Ter compromisso de vigilância na Unidade Funcional no programa de Diabetes, durante pelo menos um dia do período em análise."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Pode ser preenchido no programa/ficha de diabetes.
+B - Aceitam-se os seguintes diagnósticos CIPE-B2
+- Úlcera diabética (8013977)
+- Úlcera (8014101)
+- Úlcera venosa (8001332)
+- Úlcera arterial (8000747)
+- Úlcera de pressão (8000233)
+Os diagnósticos anteriores devem ter a especificação ""presente"" e a localização ""pé"". A topologia é irrelevante, podendo ser, ""direito"", ""esquerdo"" ou ""bilateral"".
+SCLÍNICO - PERFIL MÉDICO:
+A. Trata-se de um indicador de registo de enfermagem, pelo que não é lido no ""perfil médico"" do SCLÍNICO.
+MEDICINEONE:
+A. Disponível para registo no módulo de ""Riscos clínicos"". Realizável por enfermeiros e médicos. Apesar da área de preenchimento contemplar uma [data de início] e uma [data de fim], deve ser realizado um novo registo por ano para que o utente seja contabilizado no numerador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Março de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [0; 6]
+Ano de 2023: [0; 6]
+Ano de 2024: [0; 6]"
+Intervalo Esperado,"Ano de 2022: [0; 9]
+Ano de 2023: [0; 9]
+Ano de 2024: [0; 9]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

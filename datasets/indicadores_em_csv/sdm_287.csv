@@ -1,0 +1,51 @@
+titulo,texto
+ID,287
+Código,2.15.01
+Código SIARS,2013.287.01
+Nome abreviado,Taxa incidência de úlcera pressão na ECCI
+Designação,Taxa de incidência de úlcera de pressão durante a integração na ECCI
+Objetivo,Determinar a ocorrência de novos casos de úlcera de pressão.
+Descrição do Indicador,"Exprime a proporção de novos casos de úlcera de pressão documentados em utentes [integrados na ECCI].
+Numerador: Contagem de utentes [integrados na ECCI] a quem foi documentado novo diagnóstico de enfermagem de [úlcera de pressão].
+Denominador: Contagem de utentes [integrados na ECCI]."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições do denominador.
+B. Com novo diagnóstico de enfermagem ""úlcera de pressão"", ""úlcera de pressão presente em grau reduzido"", ""úlcera de pressão presente em grau moderado"", ""úlcera de pressão presente em grau elevado"" e ""úlcera de pressão presente em grau muito elevado"" (ver alínea E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alíneas A e C de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias (ver alíneas B e C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+B. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+C. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de integração] na ECCI prévia à constituição da UCC, não influenciam o denominador nem o numerador deste indicador.
+D. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO. O GestCare nunca é fonte de dados para este indicador.
+E. Só são contabilizados os diagnósticos de enfermagem associados a úlcera de pressão, registados a partir do 3º dia de integração ou de readmissão na ECCI (mais de 48h após a admissão ou readmissão). Não estão sob avaliação os períodos em que utente tem vaga suspensa ou internamento. Desta forma , não é imputada a ocorrência de novos casos de úlcera de pressão no período inicial de admissão ou durante internamento do utente, ao desempenho da equipa."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. Os grupos de status necessários à obtenção de dados para este indicador são os seguintes: UP ausente; UP presente em grau reduzido; UP presente em grau moderado; UP presente em grau elevado; UP presente em grau muito elevado. Os gestores locais da parametrização devem garantir que esta parametrização não sofre alterações.
+SClínico com normalização:
+A. O SClínico com normalização encontra-se parametrizado com o status ""sem úlcera de pressão"" (8001447)e ""úlcera de pressão"" (8000233).
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A alta é efetuada no painel ""utentes referenciados (ECCI)"", através do botão ""Termo""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável úlcera de pressão): Duração de 24 meses, terminando na data de referência do indicador. Apenas se contabilizam os diagnósticos de enfermagem de [úlcera de pressão] que decorram durante o período temporal de cada integração na ECCI.
+- Denominador (variável ""data alta da ECCI"") : Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável úlcera de pressão): Duração de 13 a 24 meses, iniciando a 1 de janeiro do ano N-1 e terminando na data de referência do indicador. Apenas se contabilizam os diagnósticos de enfermagem de [úlcera de pressão] que decorram durante o período temporal de cada integração na ECCI.
+- Denominador (variável ""data alta da ECCI"") : Duração de 1 a 12 meses, entre 1 de janeiro do ano em curso e a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [0; 5]
+Ano de 2023: [0; 5]
+Ano de 2024: [0; 4]"
+Intervalo Esperado,"Ano de 2022: [0; 13]
+Ano de 2023: [0; 13]
+Ano de 2024: [0; 10]"
+Tipo de Indicador,Estrutura
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

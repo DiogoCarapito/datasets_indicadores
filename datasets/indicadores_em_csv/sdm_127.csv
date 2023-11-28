@@ -1,0 +1,50 @@
+titulo,texto
+ID,127
+Código,5.10.05
+Código SIARS,5.10M f
+Nome abreviado,Percent. de hipertensos com PA em cada semestre
+Designação,Percentagem de hipertensos com pelo menos uma avaliação de pressão arterial em cada semestre
+Objetivo,"Monitorizar o acompanhamento dos utentes com hipertensão arterial: parâmetro ""registo de pressão arterial""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com registo de pelo menos 2 pressões arteriais nos últimos 12 meses (abrangendo 2 semestres).
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com registo de pelo menos 2 pressões arteriais nos últimos 12 meses (abrangendo 2 semestres).
+Denominador: Contagem de utentes inscritos com hipertensão arterial, seguidos em programa."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos uma pressão arterial registada no último semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+C. Com pelo menos uma pressão arterial registada no penúltimo semestre.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se sinalizado como ativo na lista de problemas com data anterior a 30 de junho (inclusive). Ver alíneas D e E de OBSERVAÇÕES GERAIS.
+C. Ter compromisso de vigilância no programa de hipertensão, com data de início anterior a 30 de junho."
+Observações Gerais,"A. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Se existir um registo de pressão arterial realizado por um enfermeiro num determinado semestre, não é necessário, nesse período em análise, a existência de registos médicos e vice-versa.
+B. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+C. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;
+D. Os utentes com hipertensão arterial diagnosticados de novo só são incluídos no denominador 6 meses após o registo do diagnóstico, por forma a que passe tempo suficiente para a realização das atividades avaliadas no numerador.
+E. Os utentes que são transferidos de unidade ao longo do ano, que tenham diagnóstico e vigilância de hipertensão iniciados antes de 30 de junho permanecem no denominador até dezembro desse ano."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+MEDICINEONE
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. Entre janeiro e junho o resultado é zero. Entre julho e dezembro verifica quais os utentes que têm pelo menos um registo de pressão arterial após 1 de julho e outro no 1º semestre.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise
+Prazo para Registos,5 dias

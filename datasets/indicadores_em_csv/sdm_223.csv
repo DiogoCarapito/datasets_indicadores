@@ -1,0 +1,40 @@
+titulo,texto
+ID,223
+Código,2.12.24
+Código SIARS,MORB.223.01
+Nome abreviado,"Proporção utentes com ""doenças dentes e geng."""
+Designação,"Proporção de utentes com o diagnóstico de ""doenças dos dentes e gengivas"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de doenças dos dentes e gengivas"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com ""doenças dos dentes e gengivas"".
+Numerador: Contagem de crianças que completam 7 anos e com o diagnóstico de ""doenças dos dentes e gengivas"" registado na lista de problemas.
+Denominador: Contagem de crianças que completam 7 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""doenças dos dentes e gengivas"" (rubrica ICPC D82) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A] é verdadeira:
+A. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. O D82 inclui (ICPC-2): Cárie; abcesso dentário; gengivite; maloclusão; perturbação da articulação temporomandibular.
+C. O D82 exclui (ICPC-2): Problemas com a dentadura ou com dentição D19; traumatismo dos dentes ou das gengivas D80; angina de Vincent D83.
+D. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

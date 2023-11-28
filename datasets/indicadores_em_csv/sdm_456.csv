@@ -1,0 +1,98 @@
+titulo,texto
+ID,456
+Código,6.01.23
+Código SIARS,2021.456.01
+Nome abreviado,"Proporção asma +18A, c/ vacinação antipneumocócica"
+Designação,"Proporção de utentes com asma com idade igual ou superior a 18 anos, com esquema vacinal antipneumocócico completo"
+Objetivo,"Monitorização do programa de doenças respiratórias: Parâmetro ""vacinação antipneumocócica"".
+Este indicador é contruído com base nas regras da
+Norma 11/2015 da DGS, atualizada em 01-11-2021
+."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com esquema vacinal antipneumocócico completo, entre inscritos com asma e idade igual ou superior a 18 anos.
+Numerador: Contagem de utentes inscritos com asma, idade igual ou superior a 18 anos e esquema vacinal antipneumocócico completo.
+Denominador: Contagem de utentes inscritos com asma e idade igual ou superior a 18 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma inoculação de vacina Pn13 e pelo menos uma inoculação de vacina Pn23 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Ter pelo menos uma inoculação de vacina Pn15 e pelo menos uma inoculação de vacina Pn23 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+D. Ter pelo menos uma inoculação de vacina Pn20 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador).
+C. O diagnóstico de Asma (rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+D. Pelo menos uma prescrição de corticoide inalado ou oral nos últimos 12 meses (ver alíneas E e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A vacina Pn13SNS é equivalente à Pn13 e a Pn23SNS é equivalente à Pn23 (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+)
+B. O SIARS lê a informação da inoculação de vacinas a partir do RSE Vacinas.
+C. Contabilizam-se todas as inoculações, desde que registadas no ""RSE Vacinas"", independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado.
+D. A
+Norma 011/2015 da DGS
+, sobre vacinação contra infeções por Streptococcus pneumoniae de grupos com risco acrescido para doença invasiva pneumocócica (DIP) preconiza em adultos (≥18 anos de idade) a vacinação da população com com asma (sob corticoterapia sistémica ou inalada crónica) com a vacina Pn13 e Pn23. Atendendo à autorização de introdução no mercado e comercialização das vacinas conjugadas Pn15 e Pn20 em Portugal em 2022, de acordo com as sociedades científicas
+CDC
+e
+GRESP/APMGF
+, são também aceites os esquemas previstos nas alíneas C (Pn15 e Pn23) e D (Pn20 isolada) e D do NUMERADOR.
+E. São contabilizados utentes com pelo menos uma prescrição (na mesma ARS) de uma das seguintes classes da classificação Terapêutica Anatómica e Química (ATC):
+Corticoides inalados:
+- R03BA01 - BECLOMETASONA
+- R03BA02 - BUDESONIDA
+- R03BA03 - FLUNISOLIDA
+- R03BA04 - BETAMETASONA
+- R03BA05 - FLUTICASONA
+- R03BA06 - TRIANCINOLONA
+- R03BA07 - MOMETASONA
+- R03BA08 - CICLESONIDA
+- R03BA09 - FUROATO DE FLUTICASONA
+- R03AK06 - SALMETEROL E FLUTICASONA
+- R03AK07 - FORMOTEROL E BUDESONIDA
+- R03AK08 - FORMOTEROL E BECLOMETASONA
+- R03AK09 - FORMOTEROL E MOMETASONA
+- R03AK10 - VILANTEROL E FUROATO DE FLUTICASONA
+- R03AK11 - FORMOTEROL E FLUTICASONA
+- R03AK12 - SALMETEROL E BUDESONIDA
+- R03AK13 - SALBUTAMOL E BECLOMETASONA
+- R03AL08 - VILANTEROL, BROMETO DE UMECLIDÍNIO E FUROATO DE FLUTICASONA
+- R03AL09 - FORMOTEROL, BROMETO DE GLICOPIRRÓNIO E BECLOMETASONA
+- R03AL11 - FORMOTEROL E BROMETO DE GLICOPIRRÓNIO E BUDESONIDO
+- R03AL12 - INDACATEROL, BROMETO DE GLICOPIRRÓNIO E MOMETASONA
+Corticoides para uso sistémico por via oral:
+- H02AA02 - FLUDROCORTISONA
+- H02AA03 - DESOXICORTONA
+- H02AB01 - BETAMETASONA
+- H02AB02 - DEXAMETASONA
+- H02AB03 - FLUOCORTOLONA
+- H02AB04 - METILPREDNISOLONA
+- H02AB05 - PARAMETASONA
+- H02AB06 - PREDNISOLONA
+- H02AB07 - PREDNISONA
+- H02AB08 - TRIAMCINOLONA
+- H02AB09 - HIDROCORTISONA
+- H02AB10 - CORTISONA
+- H02AB11 - PREDNILIDENO
+- H02AB13 - DEFLAZACORTE
+- H02CA01 - TRILOSTANO
+F. Os medicamentos pertencentes às classes CFT e ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacinas Pn13, Pn15, Pn23 e Pn20""): Duração igual à da idade de cada utente. Termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 18 ou mais anos.
+- Denominador (variável ""código ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""prescrição de corticoides""): Duração de 12 meses. Termina data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2023
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

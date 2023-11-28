@@ -1,0 +1,36 @@
+titulo,texto
+ID,168
+Código,7.08.02
+Código SIARS,8.16
+Nome abreviado,Rácio despesa faturada DPP-4 e antidiabét. orais
+Designação,"Rácio entre a despesa faturada com inibidores DPP-4 e a faturada com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""Rácio de despesa faturada com terapêutica com inibidores DPP-4""."
+Descrição do Indicador,"Indicador que exprime o rácio entre a despesa faturada com inibidores DPP-4 e a despesa faturada com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2, nos últimos 12 meses.
+Numerador: Somatório da despesa faturada com inibidores DPP-4 em doentes com Diabetes Mellitus tipo 2.
+Denominador: Somatório da despesa faturada com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B] é verdadeira:
+A. Incluídos no denominador.
+B. Pertencentes ao grupo dos inibidores DPP-4.
+DENOMINADOR (BB):
+Somatório do PVP dos medicamentos em que a expressão [A e B e C e D] é verdadeira:
+A. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde e foram aceites para faturação durante o período em análise.
+B. Pertencentes ao grupo dos antidiabéticos não insulínicos.
+C. Prescritos a utentes com [
+inscrição ativa
+] ou [inscrição esporádica] na unidade de saúde durante pelo menos um dia do período em análise.
+D. Prescritos por qualquer médico ou interno da unidade de observação, numa receita com código identificador dessa unidade de saúde."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""despesa com inibidores de DPP-4 faturados""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""despesa com antidiabéticos não insulínicos""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Rácio de despesas
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

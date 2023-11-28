@@ -1,0 +1,39 @@
+titulo,texto
+ID,107
+Código,3.12.03
+Código SIARS,3.12
+Nome abreviado,Percent. de consultas realizadas pelo MF
+Designação,Percentagem de consultas ao utente pelo seu próprio médico de família
+Objetivo,Monitorizar o acesso dos utentes ao seu próprio médico de família e a capacidade de intersubstituição dos médicos da unidade de saúde
+Descrição do Indicador,"Indicador que exprime a proporção de consultas que cada médico realiza aos utentes da respetiva lista.
+Numerador: Contagem de consultas presenciais realizadas pelo próprio médico de família.
+Denominador: Contagem de consultas presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O contacto foi realizado pelo Médico de Família (MF) do utente ou por um dos respetivos internos.
+DENOMINADOR (BB):
+Contagem de contactos em que a expressão [(A ou B) e C] é verdadeira:
+A. Compatível com o código
+C002
+[Consulta médica presencial - SClínico].
+B. Compatível com o código
+C008
+[Consulta médica presencial - MedicineOne].
+C. Realizado a utente com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de contactos
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

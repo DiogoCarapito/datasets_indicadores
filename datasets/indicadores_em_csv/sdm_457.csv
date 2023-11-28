@@ -1,0 +1,93 @@
+titulo,texto
+ID,457
+Código,3.15.06
+Código SIARS,2023.457.01
+Nome abreviado,Taxa de utilização global de consultas na URAP
+Designação,Taxa de utilização global de consultas na URAP
+Objetivo,Avaliar o acesso da população inscrita aos serviços prestados pelas URAP.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos que tiveram consulta na URAP do ACES, no período em análise (para cada grupo profissional/especialiadade/área profissional e também globalmente em toda a URAP).
+Numerador: Contagem  de utentes inscritos que tiveram consulta na URAP do ACES, nos últimos 12 meses (para cada grupo profissional/especialiadade/área profissional e também globalmente em toda a URAP).
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR_01 (AA1):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta de qualquer profissional de saúde, presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A, B, C e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_02 (AA2):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por ""outros profissionais de saúde"" (que não sejam médicos nem enfermeiros), presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_03 (AA3):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área de psicologia, presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A, D e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_04 (AA4):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área do serviço social, presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A, D e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_05 (AA5):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área da nutrição, presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A, D e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_06 (AA6):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área da fisiatria, presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alíneas A, D e G de OBSERVAÇÕES GERAIS).
+NUMERADOR_07 (AA7):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área da saúde oral (médicos dentistas e higienistas orais), presencial ou não presencial, nos 12 meses que antecedem a data de referência do indicador, na URAP (ver alínea A, D e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alíneas E e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As consultas de outros profissionais que identificam utentes para os numeradores deste indicador são as realizadas na URAP com um dos códigos seguintes:
+-
+C019
+| Consulta de ""outro profissional de saúde"", não presencial - [SClínico - Perfil ""outro profissional de saúde""]
+-
+C020
+| Consulta de ""outro profissional de saúde"", presencial - [SClínico - Perfil ""outro profissional de saúde""]
+B. As consultas de enfermagem que identificam utentes para os numeradores deste indicador são as realizadas na URAP com um dos códigos seguintes:
+-
+C004
+| Consulta de enfermagem sem a presença do utente (indireta) - [SClínico (Perfil Enfermagem)]
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - [SClínico (Perfil Enfermagem)]
+C. As consultas médicas que identificam utentes para os numeradores deste indicador são as realizadas na URAP com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - [SClínico - Perfil Médico]
+-
+C002
+| Consulta médica presencial - [SClínico - Perfil Médico]
+D. A área profissional associada a cada consulta é a que esteja registada em RHV, para cada profissional que registe consultas no SClínico, quer seja um trabalhador quer seja um prestador.
+A associação entre os códigos dos profissionais de saúde no SClínico e os respetivos registos no RHV é da responsabilidade da ACSS.
+E. Não existem utentes inscritos nas URAP. São considerados os utentes que tenham inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise, com as restrições adaptadas à unidade de observação considerada.
+F. Este indicador pode ser medido para os seguintes tipos de unidades de observação: ACES, URAP, USF, UCSP, CS-SM, listas utentes de médicos e listas de utentes de enfermeiros.
+Em função do tipo de unidade de observação em avaliação, a [
+inscrição ativa
+] tem o domínio de análise a seguir especificado:
+- ACES - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES em análise.
+- URAP - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise.
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - Inscrição em qualquer código RNU na hierarquia de locais dependente da unidade funcional em análise.
+- Listas utentes de médico de uma UF - Inscrição no médico em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o médico em análise.
+- Listas de utentes de enfermeiro de uma UF - Inscrição no enfermeiro em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o enfermeiro em análise.
+G. O resultado principal do indicador é medido dividindo o NUMERDOR_01 (AA) pelo DENOMINADOR (BB). No entanto, estarão disponíveis resultados dos restantes numeradores (AA2 a AA7) para que se possam conhecer as taxas de utilização para atividades específicas da URAP, por grupo profissional."
+Observações Sobre Software,"SClínico:
+A. A associação de uma consulta a uma unidade funcional é efetuada no momento da credenciação inicial. Quando um profissional tem acesso a mais do que uma unidade de saúde ou serviço, deve escolher especificamente a URAP, para que a sua atividade fique contabilizada neste indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUNTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA1 / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

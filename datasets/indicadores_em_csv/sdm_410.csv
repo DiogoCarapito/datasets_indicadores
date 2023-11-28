@@ -1,0 +1,133 @@
+titulo,texto
+ID,410
+Código,3.39.01
+Código SIARS,2018.410.01
+Nome abreviado,Taxa anual ajustada utiliz. freq. urgência hospit.
+Designação,Taxa anual ajustada de utilizadores frequentes ou muito frequentes do serviço de urgência hospitalar
+Objetivo,"Monitorizar intensidade de utilização da rede de urgência hospitalar pelos utentes inscritos nos cuidados de saúde primários. Parâmetro ""utilizadores frequentes e muito frequentes"""
+Descrição do Indicador,"Exprime a proporção de utentes utilizadores frequentes ou utilizadores muito frequentes da rede de urgência hospitalar por cada 100 utentes inscritos nos cuidados de saúde primários, com ajustamento para a distribuição da população padrão por género e idade.
+Numerador da taxa bruta: Contagem de utentes com [
+inscrição ativa
+] nos CSP e 4 ou mais episódios de urgência efetuados nos 12 meses anteriores, ponderados à proporção de tempo de inscrição relativamente ao máximo possível no período em análise.
+Denominador da taxa bruta: Contagem de utentes com [
+inscrição ativa
+] na data de referência do indicador, ponderados à proporção de tempo de inscrição relativamente ao máximo possível no período em análise.
+Os utentes entram para o denominador e para o numerador desde que inscritos pelo menos 1 dia do período em análise, sendo no entanto ponderados pela proporção de meses de inscrição, desde um mínimo de 1/12 (utente inscrito 1 mês) até um máximo de 12/12 (utente inscrito 1 ano).
+O algoritmo de ajustamento da taxa bruta de utilizadores frequentes ou muito frequentes de episódios de urgência à população padrão (idade e género) encontra-se descrito
+aqui
+."
+Regras de cálculo,"VARIÁVEL AA
+Contagem de utentes ponderados ao número de meses de inscrição, com idade [X; Y[ e género Z, em que a expressão [A e B e C e D e E e F e G] é verdadeira:
+A. Com 4 ou mais episódios de urgência nos 12 meses que antecedem a data de referência do indicador.
+B. Com [
+inscrição ativa
+] na unidade de observação durante pelo mesmo um dia do período em análise.
+C. Do género Z.
+D. Com idade em anos pertencente ao intervalo [X; Y[.
+E. Episódios de urgência efetuados num dos serviços de urgência pertencentes à rede de urgência de Portugal continental, incluindo centros de trauma, urgência polivalente, urgência medicocirúrgica e serviços de urgência básica.
+F. As ""admissões"" de episódios de urgência ocorreram no período em análise.
+G. Contabilizam-se apenas episódios em que o utente não tenha sido transferido e admitido, até 5 horas após a alta, noutro serviço de urgência (ver alínea D de OBSERVAÇÕES GERAIS).
+Em que:
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+Nota: A ponderação é efetuada utente a utente, pela proporção de meses de inscrição ativa relativamente ao número de meses do período em análise (12), sendo a inscrição verificada apenas no último dia de cada mês. Ou seja, p.e., se um utente estiver inscrito numa unidade de saúde 12 meses conta ""1"". Se tiver inscrito 6 meses numa unidade e 6 meses noutra, conta ""0.5"" para cada uma delas.
+VARIÁVEL BB
+Contagem de utentes com inscrição ativa, ponderados ao número de meses de inscrição, com idade [X; Y[ e género Z, em que a condição [A e B e C] é verdadeira.
+A. Com [
+inscrição ativa
+] na unidade de observação durante pelo mesmo um dia do período em análise.
+B. Com género Z.
+C. Na data de referência do indicador, têm idade (em anos) pertencente ao intervalo [X; Y[.
+Em que:
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+Nota: A ponderação é efetuada utente a utente, pela proporção de meses de inscrição ativa relativamente ao número de meses do período em análise (12), sendo a inscrição verificada apenas no último dia de cada mês. Ou seja, p.e., se um utente estiver inscrito numa unidade de saúde 12 meses conta ""1"". Se tiver inscrito 6 meses numa unidade e 6 meses noutra, conta ""0.5"" para cada uma delas.
+TAXA BRUTA DE UTENTES UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, POR 100 INSCRITOS (CC)
+CC = Somatório(AA) / Somatório(BB) x 100
+TAXA AJUSTADA DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, POR 100 INSCRITOS
+O algoritmo de cálculo da taxa ajustada de utilizadores frequentes ou muito frequentes da rede de urgência a uma população padrão (por sexo e idade) encontra-se descrito
+aqui
+, estando previstas 8 fases:
+1. CLASSES DE INTERVALOS ETÁRIOS E DE GÉNERO PARA A PADRONIZAÇÃO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+2. DEFINIÇÃO DA POPULAÇÃO PADRÃO
+Aplica-se, sem alterações, o método definido
+aqui
+, ou seja, escolhe-se sempre como população padrão a totalidade dos utentes com [
+inscrição ativa
+] em Portugal Continental a 31 de dezembro do ano anterior ao da data de referência do indicador.
+3. DISTRIBUIÇÃO DA POPULAÇÃO PADRÃO POR IDADE E SEXO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+Calcula-se também a [DIMENSÃO DA POPULAÇÃO PADRÃO (DD)], que não é mais do que o somatório das frequências absolutas de utentes em cada um dos grupos etários e de género da referida população padrão.
+4. DISTRIBUIÇÃO DOS UTENTES DA UNIDADE DE OBSERVAÇÃO POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL BB, isto é, não sobre a distribuição de utentes inscritos na data de referência do indicador, mas sim sobre a distribuição de utentes ponderados ao número de meses de inscrição.
+5. DISTRIBUIÇÃO DOS UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, DA UNIDADE DE OBSERVAÇÃO, POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL AA.
+6. DETERMINAÇÃO DOS UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA ESPERADOS
+Aplica-se, sem alterações, o método definido
+aqui
+.
+7. TOTAL DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA ESPERADOS
+Aplica-se, sem alterações, o método definido
+aqui
+de forma a calcular o [NÚMERO ESPERADO DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, NA POPULAÇÃO PADRÃO (EE)].
+8. CÁLCULO DA TAXA AJUSTADA DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, POR 100 UTENTES INSCRITOS
+Aplica-se, sem alterações, o método definido
+aqui
+.
+[TAXA AJUSTADA DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, POR 100 INSCRITOS] =
+[NÚMERO ESPERADO DE UTILIZADORES FREQUENTES OU MUITO FREQUEMTES DA REDE DE URGÊNCIA, NA POPULAÇÃO PADRÃO (EE)] /
+[DIMENSÃO DA POPULAÇÃO PADRÃO (DD)] x 100
+9. CORREÇÃO POR FALTA DE DADOS DE SERVIÇOS DE URGÊNCIA
+Sempre que existam hospitais relativamente aos quais não existam dados de episódios de urgência, procede-se à correção dos resultados tendo em conta a área de abrangência em freguesias dos serviços de urgência, os utentes inscritos em cada freguesia por unidade funcional e a quantidade de meses de falha nos dados (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A ponderação de cada utente ao número de meses de inscrição permite ajustar os resultados do indicador ao tempo de inscrição dos utentes. Por exemplo se uma unidade com 10.000 utentes, tiver 400 utentes que deixam de estar inscritos e outros 400 que se inscrevem e que as saídas e entradas sucedem, utente a utente, no mesmo mês, a dimensão ponderada do denominador é 10.000. Se outra unidade, com 17.000 utentes, perder 1.700 utentes (por saída de médico e alteração do compromisso assistencial) em 30 de junho de determinado ano, esses 1700 utentes apenas contarão como 850 no denominador e a dimensão ponderada ao número de meses de inscrição dos 17.000 utentes é de apenas 16.150. Em ambos os casos, os episódios de urgência do numerador são divididos pelo nº médio de utentes ao longo desse período.
+B. Sempre que existam hospitais relativamente aos quais não existam dados de episódios de urgência, quer seja relativamente a uma parte ou à totalidade do período em análise, procede-se à correção dos resultados para cada unidade de observação (médico, unidade funcional, ACES, ARS ou ULS), tendo em conta a área de abrangência em freguesias dos serviços de urgência, os utentes inscritos em cada freguesia por unidade funcional e a quantidade de meses de falha nos dados.
+A correção supra referida só é efetuada quando a proporção de episódios existentes relativamente aos esperados é igual ou superior aos limiares abaixo definidos:
+- Médico ou UF: 75.0%
+- ACES ou ULS: 66.6%
+- ARS ou Nacional: 50.0%
+Nas unidades de observação em que a proporção de episódios existentes relativamente aos esperados seja inferior aos limiares referidos, os resultados não são calculados/apresentados.
+Assim, se uma unidade funcional tiver:
+1. 10% dos seus utentes inscritos numa freguesia abrangida por um serviço de urgência, relativamente aos qual não existem dados sobre ""episódios de urgência"" durante 6 meses, de onde resulta 95% do tempo e freguesias com dados (P).
+2. Um denominador de 10000, um numerador ajustado à população padrão de 400 e um resultado padronizado sem correção (R_PAD_S_CORR) para a falta de dados de 4 (400 / 10000 x 100)
+O resultado do indicador corrigido para a falta de dados é:
+[resultados] = R_PAD_S_CORR x 100 / P = 4 x 100 / 95 = 4,21
+C. Para cada unidade de observação e mês disponibilizam-se os resultados seguintes:
+- D - Contagem de utentes inscritos (ponderados ao nº de meses de inscrição)
+- N - Contagem de utilizadores frequentes (ajustados para a população padrão e corrigidos para eventual falha no carregamento de dados)
+- N_BR - Contagem de utilizadores frequentes (episódios carregados através dos sistemas de informação)
+- N_BR_C - Contagem de utilizadores frequentes (episódios carregados através dos sistemas de informação e corrigidos para eventual falha no carregamento de dados
+- P_CARR - Proporção de episódios de urgência carregados nos sistemas de informação
+- R - Resultado (N / D x 100)
+D. Quando um utente é tranferido de um serviço de urgência para outro, apenas se contabiliza 1 episódio de urgência (o último)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável AA (""episódios de urgência""): Duração de 12 meses, terminando na data de referência do indicador.
+- Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre o episódio de urgência.
+- Variável AA (""idade""): Avaliada na data de referência do indicador.
+- VARIÁVEL BB (""inscrição ativa""): Avaliada na data de referência do indicador.
+- Variável BB (""idade""): Avaliada na data de referência do indicador."
+Fórmula,EE / DD x 100
+Unidade de medida,por 100
+Output,Taxa ajustada
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
+Intervalo Aceitável,"Ano de 2022: [0; 2.7]
+Ano de 2023: [0; 2.7]
+Ano de 2024: [0; 2.7]"
+Intervalo Esperado,"Ano de 2022: [0; 3.6]
+Ano de 2023: [0; 3.6]
+Ano de 2024: [0; 4]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

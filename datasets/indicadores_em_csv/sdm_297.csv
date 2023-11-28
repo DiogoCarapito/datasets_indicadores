@@ -1,0 +1,66 @@
+titulo,texto
+ID,297
+Código,5.21.03
+Código SIARS,2013.297.01
+Nome abreviado,Prop. idosos s/ presc. prol. ansiol/sedat/hipnót
+Designação,"Proporção de utentes com idade igual ou superior a 65 anos, sem prescrição prolongada de ansiolíticos, nem de sedativos, nem de hipnóticos, no período em análise"
+Objetivo,"Monitorizar o programa de saúde mental. Parâmetro ""Prescrição de ansiolíticos, sedativos e hipnóticos em idosos""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade igual ou superior a 65 anos sem prescrição prolongada de ansiolíticos, nem de sedativos, nem de hipnóticos.
+Numerador: Contagem de utentes inscritos sem prescrição prolongada de ansiolíticos, nem de sedativos, nem de hipnóticos.
+Denominador: Contagem de utentes inscritos com idade igual ou superior a 65 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O somatório de DDD prescritas de medicamentos do tipo ""ansiolíticos, sedativos, ou hipnóticos"" durante o período em análise é igual ou inferior a 53 (ver alíneas A, B, C, D, E, F, H e I de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 65 anos (ver alínea G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizados todas as prescrições de medicamentos pertencentes ao grupo 2.9.1 (Ansiolíticos, sedativos e hipnóticos) da classificação farmacoterapêutica de medicamentos (CFT) ou às classes N05B (Ansiolíticos) ou N05C (Hipnóticos e Sedativos) da classificação ""Anatomical Therapeutical Chemical"" (ATC).(válido até 31 de dezembro de 2023)
+B.
+DDD
+(definição): é a dose diária média de manutenção de um fármaco em adultos quando usado para o tratamento da sua principal indicação terapêutica (
+http://www.whocc.no/ddd/definition_and_general_considera/
+).
+C. As DDD que estão a ser usadas neste indicador, por cada embalagem de medicamento prescrito, são as que resultam da aplicação da informação que pode ser consultada em
+http://www.whocc.no/atc_ddd_index/
+às caraterísticas (dosagem e dimensão da embalagem) do medicamento em questão.
+Assim, por exemplo, a prescrição de uma embalagem de 60 comprimidos de diazepan 10 mg, corresponde a 60 DDD e a prescrição de 1 embalagem de 60 comprimidos de diazepan 5 mg corresponde a 30 DDD.
+Se a um utente, ao longo do período em análise do indicador, for prescrita uma embalagem de 20 comprimidos de zolpidem 10 mg e 2 embalagens de 30 comprimidos de diazepan 5 mg, tal corresponderá a 20 DDD referentes ao zolpidem e a 30 DDD referentes ao diazepan, ou seja, um total de 53 DDD de medicamentos do tipo ""ansiolíticos, sedativos, ou hipnóticos"". Este utente acabará por ser contabilizado para o numerador deste indicador.
+D. Os medicamentos pertencentes a estas classes CFT e ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+E. Nas situações em que não exista a definição de DDD, cada comprimido, ampola ou frasco prescrito é contabilizado como equivalente a 1 DDD.
+F. O critério de 53 DDD como limiar entre ""medicação não prolongada"" (igual ou inferior a 53 DDD) e ""medicação prolongada"" (superior a 53 DDD) está alinhado com o preconizado na norma de orientação clínica da DGS sobre ""Tratamento Sintomático da Ansiedade e Insónia com Benzodiazepinas e Fármacos Análogos"" (nº 055/2011, atualizada em 21-1-2015):
+i. A norma prevê uma duração máxima de tratamento para a ansiedade patológica de 8 a 12 semanas (incluindo descontinuação) e de 4 semanas para a insónia patológica (incluindo descontinuação). Para este indicador usa-se valor máximo do intervalo preconizado para a insónia patológica, 12 semanas (sendo as 4 últimas em esquema de diminuição progressiva da dose do fármaco).
+ii. Como o indicador se aplica a idosos, a dose diária dos fármacos administrados deve ser ajustada (para baixo). Considera-se que o ajuste será, no máximo, para 75% da dose preconizada para o adulto nas primeiras 8 semanas e 37,5% nas últimas 4.
+iii. Nas primeiras 8 semanas de tratamento (56 dias) devem ser prescritas no máximo 42 DDD (75% de 56 dias).
+iv. Nas últimas 4 semanas de tratamento (28 dias) devem ser prescritas no máximo 11 DDD (37,5% de 28 dias).
+v. Conclui-se que o limiar previsto na norma nº 055/2011, para a ansiedade patológica, é de 53 DDD (42 + 11).
+G. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+H. São contabilizadas as prescrições de medicamentos efetuadas por qualquer médico ou interno usando o(s) código(s) de prescrição da unidade funcional (quando a unidade de observação é um profissional ou a própria unidade funcional). Quando a unidade de observação é um ACES são contabilizadas as prescrições efetuadas usando qualquer código de prescrição de qualquer unidade funcional do tipo USF/UCSP/IPSS-C/CON do ACES.
+I. A partir de 1 de janeiro de 2024.
+i. São contabilizados todas as prescrições de medicamentos pertencentes ao grupo 2.9.1 (Ansiolíticos, sedativos e hipnóticos) da classificação farmacoterapêutica de medicamentos (CFT) ou às classes N05B (Ansiolíticos) ou N05C (Hipnóticos e Sedativos) da classificação ""Anatomical Therapeutical Chemical"" (ATC), à excepção de buspirona e valeriana."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""prescrição de medicamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""prescrição de medicamento""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
+Intervalo Aceitável,"Ano de 2022: [82.5; 100]
+Ano de 2023: [82.5; 100]
+Ano de 2024: [82.5; 100]"
+Intervalo Esperado,"Ano de 2022: [74; 100]
+Ano de 2023: [74; 100]
+Ano de 2024: [74; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

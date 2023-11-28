@@ -1,0 +1,60 @@
+titulo,texto
+ID,049
+Código,5.26
+Código SIARS,2013.049.01
+Nome abreviado,"Proporção utentes c/ DPOC, c/ FeV1 em 3 anos"
+Designação,"Proporção de utentes com DPOC, com pelo menos um registo de avaliação de FeV1 nos últimos 3 anos"
+Objetivo,"Monitorizar o programa de acompanhamento de doenças respiratórias. Parâmetro ""FeV1 nos doentes cm DPOC""."
+Descrição do Indicador,"Indicador que exprime a proporção de doentes com DPOC, com pelo menos um registo de FeV1 nos últimos 3 anos.
+Numerador: Contagem de doentes com DPOC e com pelo menos um registo de FeV1 nos últimos 3 anos.
+Denominador: Contagem de doentes com DPOC."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um registo de FeV1 nos últimos 3 anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de DPOC (rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Os exames da tabela de MCDT convencionados, válidos para identificar [FeV1] são os seguintes:
+- [Espirometria, incluindo gráficos, curva débito volume, capacidade vital, volume expiratório máximo no 1º segundo, débito expiratório máximo e médio e ventilação voluntária máxima por minuto], código 1504.5, área G.
+- [Espirometria, incluindo curva débito volume], código 1504.5, área I.
+- [Espirometria, incluindo curva débito volume], código 1504.5, área Z.
+- [Espirometria, incluindo curva débito volume], código 102.3, área I.
+- [Espirometria, incluindo curva débito volume], código 80010 (tabela SNS).
+- [Espirometria, incluindo em idade pré-escolar (2 a 6 anos)], código 80011 (tabela SNS).
+Nas situações em que o exame seja requisitado por outra instituição, a unidade pode registar o resultado do exame, usando um dos códigos acima referidos, sem qualquer incremento da despesa com MCDT para a unidade.
+B. Para que um exame seja contabilizado, deve ter um resultado.
+C. Nas situações em que o exame seja efetuado na própria unidade de saúde, o resultado pode ser registado em campo próprio, criado para o efeito pelas aplicações de registo clínico eletrónico. No SClínico, resultado pode ser registado por qualquer médico ou interno da unidade de saúde. No MedicineOne pode também ser registado por enfermeiros da unidade de saúde.
+D. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise."
+Observações Sobre Software,"SClínico:
+A. O FEV1 pode ser registado através da ficha individual
+B. O FEV1 pode também ser registado através do módulo de análises/MCDT (apenas no perfil ""médico""), utilizando o exame ""espirometria"", sem requisição, por forma a não ser contabilizado como despesa no indicadores relacionados com ""prescrição de MCDT"".
+MEDICINEONE:
+A. O diagnóstico de DPOC pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. Embora o FeV1 possa ser registado quer no módulo de análises quer no módulo de MCDT, o SIARS apenas contabiliza os registados no módulo de análises."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de FeV1""): Duração de 36 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""DPOC na lista de problemas""): Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de FeV1""): Duração de 25 a 36 meses, iniciando a 1 de Janeiro do ano N-2 e terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""DPOC na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com FeV1
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [30; 100]
+Ano de 2023: [30; 100]
+Ano de 2024: [30; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

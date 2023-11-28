@@ -1,0 +1,38 @@
+titulo,texto
+ID,231
+Código,2.12.31
+Código SIARS,MORB.231.01
+Nome abreviado,"Proporção utentes c/ ""depressão reativa P76.010"""
+Designação,"Proporção de utentes com o diagnóstico de ""depressão reativa (P76.010)"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de depressão reativa (P76.010)"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""depressão reativa (P76.010)"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""depressão reativa (P76.010)"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""depressão reativa (P76.010)"" (subrubrica ICPC-2 P76.010) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O P76.010 é uma subrubrica da rúbrica ICPC-2 ""perturbação depressiva (P76)"" definida pela ACSS em 2011.
+B. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Descontinuado em Setembro de 2015
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

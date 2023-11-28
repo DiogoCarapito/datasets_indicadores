@@ -1,0 +1,57 @@
+titulo,texto
+ID,143
+Código,6.01.11
+Código SIARS,6.1M 2
+Nome abreviado,Percent. de crianças com PNV atualizado - 7 anos
+Designação,Percentagem de crianças com PNV atualizado aos 7 anos (registo completo)
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 7 anos.
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com PNV totalmente cumprido na data do 7º aniversário, entre as que completam 7 anos.
+Numerador: Contagem de crianças com PNV totalmente cumprido na data do 7º aniversário (registo completo).
+Denominador: Contagem de crianças que completam 7 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm o PNV totalmente cumprido às zero horas do dia em que completam 7 anos, registo completo (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 7 anos de idade durante o ano civil em curso;
+B. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Observações Gerais,"A. Registo completo. Para ter o PNV cumprido, as crianças com 7 anos necessitam de ter as seguintes vacinas registadas, com data de administração inferior à data do último dia do período em análise:
+- Pelo menos 1 inoculação de BCG ou uma prova tuberculínica Esta regra deixa de ser aplicável para indicadores com data de referência igual ou superior a maio de 2015 (por rotura de stock nacional da BCG a partir desse mês).
+- Pelo menos 4 inoculações de [vacina contra a poliomielite] entre o nascimento e o fim do período em análise (ver vacinas equivalentes com código
+[POLIOMIELITE]
+);
+- Pelo menos 1 inoculação de [vacina contra a difteria, tétano e tosse convulsa] entre os 4 anos e o fim do período em análise (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+);
+- Pelo menos 3 inoculações de [vacina contra a difteria, tétano e tosse convulsa] entre o nascimento e os 4 anos (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+);
+- Pelo menos 3 inoculações de [vacina contra hepatite B] entre o nascimento e o fim do período em análise (ver vacinas equivalentes com código
+[HEPATITE_B]
+);
+- Pelo menos 1 inoculação de [vacina contra doença por Meningococcus serogrupo C] entre o nascimento e o fim do período em análise (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+);
+- Pelo menos 2 inoculações de [vacina contra sarampo, parotidite epidémica e rubéola] entre o nascimento e o fim do período em análise (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+);
+B. Imunizado. as vacinas relativamente às quais é colocado o atributo de ""imunizado"" são classificadas como cumpridas,
+C. Indicador descontinuado a partir de dezembro de 2014. Regras de cálculo podem não estar adaptadas a alterações ao PNV aprovadas pela DGS a partir de 1-1-2015."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacinas do PNV""): Coincidente com os 7 primeiros anos de vida de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [7, 8[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

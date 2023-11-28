@@ -1,0 +1,58 @@
+titulo,texto
+ID,033
+Código,5.13.05
+Código SIARS,2013.033.01
+Nome abreviado,"Proporção utentes >= 14A, c/ IMC últimos 3 anos"
+Designação,Proporção de utentes com idade igual ou superior a 14 anos com IMC registado nos últimos 3 anos
+Objetivo,"Monitorizar o programa de saúde juvenil e de adultos. Parâmetro ""IMC""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade igual ou superior a 14 anos com IMC registado nos últimos 3 anos.
+Numerador: Contagem de utentes inscritos com idade igual ou superior a 14 anos e com IMC registado nos últimos 3 anos.
+Denominador: Contagem de utentes inscritos com idade igual ou superior a 14 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C e (D ou E)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Que tenham pelo menos um registo parametrizado do IMC, nos 36 meses que antecedem a data de referência do indicador (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Que tenham pelo menos um registo parametrizado do peso, nos 36 meses que antecedem a data de referência do indicador (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+D. Que tenham pelo menos um registo parametrizado de estatura, realizado após os 20 anos de idade do utente (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+E. Que tenham pelo menos um registo parametrizado de estatura, realizado nos 36 meses que antecedem a data de referência do indicador (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 14 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"")."
+Observações Gerais,"A. Quando a unidade de observação é o médico ou a unidade de saúde, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Quando a unidade de observação é o ACES, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde. Os registos de estatura podem ter sido registados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde (independentemente da unidade de observação do indicador).
+B. Os registos de IMC, peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes, saúde infantil, planeamento familiar e saúde materna. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que o peso e altura sejam registados no mesmo dia. O peso deve ser registado durante os 36 meses que antecedem a data de referência do indicador. A estatura deve estar registada pelo menos uma vez com data de medição posterior aos 20 anos de idade, ou, caso o utente tenha menos de 23 anos, deve existir um registo nos 36 meses que antecedem a data de referência do indicador.
+D. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O IMC, o peso e a estatura podem ser registados neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. O IMC, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+MEDICINEONE:
+A. O IMC, o peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável IMC): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador (variável peso): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador (variável estatura): Ver REGRAS DE CÁLCULO.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável IMC): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Numerador (variável peso): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Numerador (variável estatura): Ver REGRAS DE CÁLCULO.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [66; 88]
+Ano de 2023: [66; 88]
+Ano de 2024: [66; 88]"
+Intervalo Esperado,"Ano de 2022: [60; 92]
+Ano de 2023: [60; 92]
+Ano de 2024: [60; 92]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

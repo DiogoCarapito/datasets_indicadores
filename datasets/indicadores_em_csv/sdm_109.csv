@@ -1,0 +1,35 @@
+titulo,texto
+ID,109
+Código,3.22.04
+Código SIARS,3.22 d1
+Nome abreviado,Taxa de utilização de consultas de PF (méd.)
+Designação,Taxa de utilização de consultas médicas em planeamento familiar
+Objetivo,Monitorizar a utilização das consultas médicas de saúde reprodutiva e planeamento familiar (PF) pelas mulheres em idade fértil (MIF)
+Descrição do Indicador,"Indicador que exprime a proporção de MIF, que tiveram uma consulta médica de planeamento familiar nos últimos 12 meses.
+Numerador: Contagem de MIF que tiveram pelo menos uma consulta médica de planeamento familiar nos últimos 12 meses.
+Denominador: Contagem de MIF."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta médica de PF realizada por qualquer médico ou interno da unidade de saúde, nos últimos 12 meses.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de saúde, válida durante pelo menos um dia do período em análise.
+B. Ser mulher.
+C. Ter idade pertencente ao intervalo [15; 50[ anos."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Planeamento Familiar
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

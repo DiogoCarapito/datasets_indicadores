@@ -1,0 +1,85 @@
+titulo,texto
+ID,387
+Código,6.82.01
+Código SIARS,2017.387.01
+Nome abreviado,Proporção de utentes com melhorias funcionais
+Designação,Proporção de utentes com melhorias funcionais
+Objetivo,Avaliar os ganhos expressos nas funções equilíbrio corporal ou movimento muscular nos utentes acompanhados na UCC.
+Descrição do Indicador,"Exprime a proporção de utentes, com pelo menos uma consulta na UCC, com melhoria do score associado aos diagnósticos de enfermagem ""equilíbrio corporal"" ou ""movimento muscular"".
+Numerador: Contagem de utentes com pelo menos uma consulta de enfermagem na UCC, com melhoria do score associado aos diagnósticos de enfermagem ""equilíbrio corporal"" ou ""movimento muscular"".
+Denominador: Contagem de utentes com pelo menos uma consulta de enfermagem na UCC, com pelo menos um diagnóstico de enfermagem que manifeste problemas relacionados com os focos ""equilíbrio corporal"" ou ""movimento muscular""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B] é verdadeira:
+A. Todas as condições definidas no denominador.
+B. A soma dos scores associados á última avaliação de ""equilíbrio corporal"" ou ""movimento muscular"" é inferior á soma dos mesmos scores na primeira avaliação durante o período de 13 meses que antecede a data de referência do indicador. Ver alíneas C, D e E de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2020.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade funcional do ACES a que pertence a UCC (durante pelo menos um dia do período em análise).
+B. Com pelo menos uma consulta de enfermagem na UCC nos últimos 12 meses, com pelo menos um diagnóstico de enfermagem com problemas relacionados com o foco ""equilíbrio corporal"" ou ""movimento muscular"" (ver alínea A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2019.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade funcional do ACES a que pertence a UCC (válida à data de referência do indicador).
+B. Com pelo menos uma consulta de enfermagem na UCC nos últimos 12 meses, com pelo menos um diagnóstico de enfermagem com problemas relacionados com o foco ""equilíbrio corporal"" ou ""movimento muscular"" (ver alínea A e B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico.
+B. As escalas de avaliação de ""equilíbrio corporal"" e ""movimento muscular"" contemplam a documentação dos seguintes grupos de status de diagnóstico:
+Equilíbrio corporal:
+E1. Sem equilíbrio corporal comprometido (8013668)
+E2. Equilíbrio corporal comprometido, em grau reduzido (8000675)
+E3. Equilíbrio corporal comprometido, em grau moderado (8014092)
+E4. Equilíbrio corporal comprometido, a um nível elevado (8000677)
+Movimento muscular:
+M1. Sem movimento muscular comprometido (8001154)
+M2. Movimento muscular comprometido, em grau reduzido (8001153)
+M3. Movimento muscular comprometido, em grau moderado (8013888)
+M4. Movimento muscular comprometido, a um nível elevado (8013889)
+C. Escalas e scores que operacionalizam os grupos de status de diagnóstico de ""equilíbrio corporal"" e ""movimento muscular"":
+Equilíbrio corporal:
+E1. Sem equilíbrio corporal comprometido (8013668) – 0 pontos
+E2. Equilíbrio corporal comprometido, em grau reduzido (8000675) – 1 ponto
+E3. Equilíbrio corporal comprometido, em grau moderado (8014092) – 2 pontos
+E4. Equilíbrio corporal comprometido, a um nível elevado (8000677) – 3 pontos
+Movimento muscular:
+M1. Sem movimento muscular comprometido (8001154) – 0 pontos
+M2. Movimento muscular comprometido, em grau reduzido (8001153) – 1 ponto
+M3. Movimento muscular comprometido, em grau moderado (8013888) – 2 pontos
+M4. Movimento muscular comprometido, a um nível elevado (8013889) – 3 pontos
+D. Apenas são elegíveis para denominador, utentes que tenham pelo menos um diagnóstico entre os seguintes: E2, E3, E4, M2, M3 e M4.
+Cumprem o numerador os utentes em que a soma da última avaliação no período é inferior à soma da primeira (o que corresponde a uma melhoria).
+Exemplos:
+1 – Um utente ""Sem equilíbrio corporal comprometido"" e ""Sem movimento muscular comprometido"" não é considerado para o denominador nem para o numerador;
+2 - Um utente com ""Equilíbrio corporal comprometido, em grau moderado"" e ""Sem movimento muscular comprometido"" na primeira avaliação tem um score de 2 pontos. Este mesmo utente apresenta na última avaliação ""Sem equilíbrio corporal comprometido"" e ""Sem movimento muscular comprometido"" e um score 0 pontos. Desta forma este utente é considerado cumpridor das regras para inclusão quer no denominador quer no numerador.
+3 - Utentes com apenas uma avaliação relacionada com os focos ""equilíbrio corporal"" ou ""movimento muscular"" são incluídos no denominador e são considerados não cumpridores (sem evolução) no numerador.
+E. A monitorização dos resultados é efetuada no utente num determinado período temporal, independentemente no número de consultas na UCC ou do número de episódios de integração/internamento nas ECCI. Esta observação continuada sobre o utente durante um determinado período de tempo apenas tem em conta o resultado da primeira e última avaliação do problema no utente."
+Observações Sobre Software,"SClínico:
+A. O [SClínico perfil enfermagem], encontra-se parametrizado com os status diagnósticos descritos em OBSERVAÇÕES GERAIS e necessários à produção de dados para monitorização desta métrica.
+B. Apesar desta parametrização nacional estar disponível, verifica-se inconsistência entre a avaliação do ""movimento muscular"" e a sugestão ou mudança diagnóstica. Por este facto durante o ano de 2018 a avaliação das melhorias funcionais poderá estar a sofrer maior influência da avaliação de ""equilíbrio corporal"" do que do ""movimento muscular"". Esta situação será ultrapassada com a actualização do SClínico versão 2.9.
+C. Os gestores locais da parametrização devem garantir que esta parametrização está disponível e não sofre alterações.
+OUTROS SOFTWARES CLÍNICOS:
+Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Numerador: Duração de 13 meses, terminando na data de referência do indicador.
+Denominador: Duração de 12 meses, compreendidos entre os meses N-12 e N-1, em que N é o mês de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Reabilitação
+Intervalo Aceitável,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Intervalo Esperado,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

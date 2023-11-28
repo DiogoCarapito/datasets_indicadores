@@ -1,0 +1,50 @@
+titulo,texto
+ID,056
+Código,5.21.01
+Código SIARS,2013.056.01
+Nome abreviado,"Proporção idosos, sem ansiol. / sedat. / hipnót."
+Designação,"Proporção de utentes com idade igual ou superior a 65 anos, a quem não foram prescritos ansiolíticos, nem sedativos, nem hipnóticos, no período em análise"
+Objetivo,"Monitorizar o programa de saúde mental. Parâmetro ""Prescrição de ansiolíticos, sedativos e hipnóticos em idosos""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade igual ou superior a 65 anos a quem não foram prescritos ansiolíticos, nem sedativos, nem hipnóticos, no período em análise.
+Numerador: Contagem de utentes inscritos a quem não foram prescritos ansiolíticos, nem sedativos, nem hipnóticos.
+Denominador: Contagem de utentes inscritos com idade igual ou superior a 65 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, não existem ansiolíticos nem sedativos nem hipnóticos registados na terapêutica crónica (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+C. Não existem ansiolíticos nem sedativos nem hipnóticos prescritos nos 12 meses que antecedem a data de referência do indicador (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 65 anos (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizados todas as prescrições e registos na terapêutica crónica de medicamentos pertencentes ao grupo 2.9.1 (Ansiolíticos, sedativos e hipnóticos) da classificação farmacoterapêutica de medicamentos (CFT).
+B. Basta que exista um registo de um medicamento ansiolítico, sedativo ou hipnótico na [terapêutica crónica] à data de referência do indicador ou um registo de prescrição de um medicamento ansiolítico, sedativo ou hipnótico durante o período em análise, para que o utente não seja contabilizado no numerador.
+C. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+D. Os medicamentos pertencentes a esta classe CFT podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador.
+SCLÍNICO - PERFIL MÉDICO:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

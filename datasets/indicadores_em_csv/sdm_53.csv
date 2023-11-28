@@ -1,0 +1,58 @@
+titulo,texto
+ID,053
+Código,5.27
+Código SIARS,2013.053.01
+Nome abreviado,"Proporção utentes >=14A, c/ registo consumo álcool"
+Designação,"Proporção de utentes com idade igual ou superior a 14 anos, com quantificação do consumo de álcool, registado nos últimos 3 anos"
+Objetivo,"Monitorizar o programa de saúde juvenil e de adultos. Parâmetro ""registo do consumo de álcool""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade igual ou superior a 14 anos, com pelo menos um registo dos ""consumos de álcool"", realizado nos últimos 3 anos.
+Numerador: Contagem de utentes inscritos com pelo menos um registo dos ""consumos de álcool"", realizado nos últimos 3 anos.
+Denominador: Contagem de utentes inscritos com idade igual ou superior a 14 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter um registo de ""consumos de álcool"" efetuado nos últimos 36 meses (ver alíneas B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 14 anos (ver alínea A de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+B. Os locais de registo dos hábitos de consumo de álcool que são analisados pelo SIARS dependem do software e encontram-se especificados nas OBSERVAÇÕES SOBRE SOFTWARE. No entanto, o SIARS não procede à leitura de ""consumos de álcool"" por via dos registos que possam ser feitos por profissionais de saúde no ""A"" do SOAP, com as rúbricas da ICPC-2 P15 (abuso crónico do álcool) nem P16 (abuso agudo do álcool).
+C. Por princípio, os registos de ""consumos de álcool"" podem ser feitos por qualquer médico, interno ou enfermeiro da unidade de saúde (ver especificações em OBSERVAÇÕES SOBRE SOFTWARE).
+D. Se um utente mantém os mesmos hábitos (relativamente ao uso de álcool) que os assinalados no último registo e esse último registo está próximo de ultrapassar 36 meses de duração, é prudente proceder-se a um novo registo de hábitos com a mesma informação, por forma a garantir que no fim do período em análise ""existe pelo menos um registo de hábitos nos últimos 36 meses"".
+E. Se um utente ""não bebe"", tal deve ser explicitamente registado no sistema de informação (em OBSERVAÇÕES SOBRE SOFTWARE explicita-se o local de registo dos ""hábitos de consumo""), pois a ausência de registo não significa ausência do hábito."
+Observações Sobre Software,"SClínico:
+A. Os hábitos alcoólicos podem ser registados na [ficha individual] e nas diversos módulos de programas de saúde ([diabetes], [hipertensão], [planeamento familiar] e [saúde materna]).
+Podem ser usados os seguintes campos:
+1. Campo ""Álcool"" no grupo ""Hábitos"", que tem os seguintes itens para escolha: Sim; Não; Sem preenchimento. O SCLÍNICO regista as datas em que os profissionais de saúde procedem a alterações a este campo.
+2. Campo ""Álcool"" no grupo ""Consultas"". Campo usado para registar o nº de [gramas de álcool por semana] que o doente consome na data em que é feito o registo.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Até setembro de 2015, não existe forma de proceder ao registo normalizado da informação de ""consumos de álcool"".
+B. Após outubro de 2015, com a instalação versão SClínico 2.0, a forma de proceder ao registo normalizado da informação de consumo de álcool é através da intervenção de enfermagem ""Monitorizar uso de álcool"" (9000774). A intervenção de enfermagem está associada ao foco de atenção ""Uso de álcool"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior). A intervenção referida, permite registar o nº de [gramas de álcool por semana] que o doente consome na data em que é feito o registo.
+MEDICINEONE:
+A. Os ""consumos de álcool"" são registados no módulo de ""hábitos"". O registo de utente ""sem hábitos alcoólicos"" faz-se colocando um 0 (zero) no campo da quantidade."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 36 meses, terminando na data de referência do indicador;
+- Numerador (variável ""registo dos consumos de álcool""): Duração de 36 meses, terminando na data de referência do indicador;
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Numerador (variável ""registo dos consumos de álcool""): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Intervalo Esperado,"Ano de 2022: [46; 100]
+Ano de 2023: [46; 100]
+Ano de 2024: [46; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

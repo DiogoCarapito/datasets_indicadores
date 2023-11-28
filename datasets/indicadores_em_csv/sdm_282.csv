@@ -1,0 +1,89 @@
+titulo,texto
+ID,282
+Código,3.19.01
+Código SIARS,2013.282.01
+Nome abreviado,Proporção de turmas abrangidas p/ P. N. S. Escolar
+Designação,Proporção de turmas abrangidas pelo Programa Nacional de Saúde Escolar
+Objetivo,Monitorizar a acessibilidade aos cuidados previstos no Programa Nacional de Saúde Escolar.
+Descrição do Indicador,"Exprime a proporção de turmas do parque escolar na área de abrangência da UCC que são abrangidas por cuidados previstos no Programa Nacional de Saúde Escolar.
+Numerador: Contagem de turmas do parque escolar na área de abrangência da UCC, abrangidas pelos cuidados previstos no Programa Nacional de Saúde Escolar.
+Denominador: Contagem de turmas do parque escolar na área de abrangência da UCC."
+Regras de cálculo,"NUMERADOR (AA):
+Aplicável à versão fixa e flutuante do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS).
+Contagem de turmas, em que a expressão [A e B e C e D] é verdadeira:
+A. Todas as condições definidas no denominador;
+B. Com pelo menos um registo de
+C023
+| Consulta de enfermagem de âmbito comunitário (direta), realizada por um dos elementos da UCC, durante o ano letivo (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+C. A consulta referida no ponto B. encontra-se associada ao PNSE.
+D. A consulta referida no ponto B. deve ter pelo menos uma intervenção de enfermagem, classificada pela CIPE.
+DENOMINADOR (BB):
+Aplicável à versão fixa e flutuante do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS).
+Contagem de turmas, em que a expressão [A e B e C] é verdadeira:
+A. Pertencentes ao parque escolar na área de abrangência da UCC (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+B. Pertencentes ao ensino pré-escolar, básico (1º, 2º ou 3º ciclos) ou ao ensino secundário.
+C. Ativas à data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+MEDIA_AA_12 (CC)
+Aplicável apenas à versão flutuante do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS).
+Média dos resultados dos numeradores da versão fixa nos 12 meses que antecedem a data de referência do indicador.
+MEDIA_BB_12 (DD)
+Aplicável apenas à versão flutuante do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS).
+Média dos resultados dos denominadores da versão fixa nos 12 meses que antecedem a data de referência do indicador."
+Observações Gerais,"A. As consultas contabilizadas no denominador são do tipo [Consulta presencial] com o código seguinte:
+-
+C023
+| Consulta de enfermagem de âmbito comunitário (direta).
+Não estão incluídas as consultas de enfermagem realizadas ao cliente ""Utentes"" e ""Famílias"". Para indicadores com mês de referência entre janeiro e agosto, são contabilizadas as
+C023
+| Consulta de enfermagem de âmbito comunitário (direta) realizadas entre setembro do ano anterior e o mês de referência do indicador;
+B. Para indicadores com mês de referência entre setembro e dezembro, são contabilizadas as
+C023
+| Consulta de enfermagem de âmbito comunitário (direta) realizadas entre setembro do próprio ano e o mês de referência do indicador;
+C. Serão contabilizadas no denominador as comunidades do tipo ""turma"", cujo período de vigência inclua a data de referência do indicador. Todas as turmas devem ter uma [data de início] e uma [data de fim] preenchidas.
+O campo [activo/inativo] só é usado pelo SIARS se existir um registo ""inativo"" com a [data de fim] não preenchida, interpretando-se que a turma está inativa na data de referência da informação.
+Em todas as outras situações, o que prevalece é a informação registada na [data de início] e na [data de fim].
+D. São consideradas todas as turmas incluídas nas diferentes comunidades educativas incluídas no parque escolar da área de abrangência, nomeadamente: Comunidade Educativa Alunos (CEA); Comunidade Educativa Docentes (CED); Comunidade Educativa Encarregados de Educação (CEEE) e Comunidade Educativa Não Docente (CEND).
+E. As UCC devem proceder ao registo das turmas do parque escolar contratualizadas em cada ano, mantendo ativas em cada mês as que pertençam ao ""ano letivo"" em curso. Para efeitos deste indicador, considera-se que o ano letivo se inicia a 1 de setembro de cada ano e termina a 31 de agosto do ano seguinte.
+F. O Conselho Clínico e de Saúde do ACES tem a responsabilidade de garantir que até 31 de dezembro do 1º ano de cada ""ano letivo"", ficam registadas no sistema de informação em uso pela UCC, todas as turmas do parque escolar, que tenham sido contratualizadas com cada UCC.
+G. Para efeitos do processo de contratualização, o mês relevante para fazer a avaliação de determinado ano é o de agosto desse ano. O mês relevante para ser usado como histórico para negociar metas para o ano seguinte é também o de agosto.
+H. Caso as turmas contratualizadas sejam registadas no sistema de informação durante o mês de setembro e não sejam mais alteradas até agosto do ano seguinte, o denominador do indicador deverá manter-se constante nesses 12 meses. Igualmente, as turmas incluídas no numerador deverão ir aumentando progressivamente entre setembro desse ano e junho do ano seguinte. Em junho, julho e agosto, o numerador deverá manter-se estável, a não ser que se procedam a registos durante as férias escolares.
+I. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO.
+J. A versão FIXA deste indicador é calculada usando o NUMERADOR (AA) e o DENOMINADOR (BB) com a fórmula seguinte:
+AA / BB x 100
+Uma vez que o indicador na sua versão FIXA cresce a partir de valores próximos de 0 (zero) em setembro de determinado ano (início de um ano letivo) até agosto do ano seguinte (fim do ano letivo), não é possível utilizá-lo para o cálculo do IDG em dezembro de cada ano, pois nessa data o valor médio esperado é inferior ao que ocorrerá no fim do ano em curso e provavelmente inferior ao verificado no mês de terminus do ano letivo anterior.
+Por outro lado, não é possível construir uma versão FLUTUANTE do indicador da forma tradicional, isto é dizendo que o período em análise do numerador são as turmas abrangidas nos 12 meses anteriores, porque o denominador pode alterar-se de forma significativa de um ano letivo para o outro.
+Assim sendo, opta-se por criar uma versão FLUTUANTE deste indicador através da fórmula
+100 x MEDIA_AA_12 / MEDIA_BB_12
+, em que:
+MEDIA_AA_12: Média dos resultados dos numeradores da versão fixa nos 12 meses que antecedem a data de referência do indicador.
+MEDIA_BB_12: Média dos resultados dos denominadores da versão fixa nos 12 meses que antecedem a data de referência do indicador
+K. Uma vez que a versão FLUTUANTE do indicador se baseia em médias de 12 resultados do indicador FIXO, e que o numerador do indicador FIXO tem o comportamento referido na alínea J de OBSERVACOES GERAIS, o resultado do indicador flutuante está numa escala diferente do resultado do fixo, esperando-se que oscile em valores próximos de 50% do que é esperado obter no FIXO em junho de cada ano (mês em que o FIXO assume valores máximos). Daqui decorre uma necessaria adaptação dos intervalos esperados e de variação aceitável que dizem sempre respeito à versão FLUTUANTE dos respetivos indicadores."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. São consideradas para o denominador as turmas pertencentes as 4 seguintes comunidades educativas parametrizadas no SClínico:
+CEA - Comunidade Educativa Alunos;
+CED - Comunidade Educativa Docentes
+CEEE - Comunidade Educativa Encarregados de Educação;
+CEND - Comunidade Educativa Não Docente.
+B. Os tipos de turmas considerados e pertencentes aos níveis de ensino pré-escolar, básico (1º, 2º ou 3º ciclos) ou ao ensino secundário são as seguintes: JInfancia, 1ºCiclo, 2ºCiclo, 3ºCiclo, Secundário, Superior ou Outro."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consultas de enfermagem comunitárias""): Considerando que o ano letivo se inicia a 1 de setembro de cada ano e termina a 31 de agosto do ano seguinte, o período em análise desta variável tem início na data de início do ano letivo que inclui a data de referência do indicador e termina na data de referência do indicador (ver alíneas A, B e G de OBSERVAÇÕES GERAIS).
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""média de resultados do numerador fixo"": Duração de 12 meses, terminando na data de referência do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS).
+- Variável ""média de resultados do denominador fixo"": Duração de 12 meses, terminando na data de referência do indicador (ver alíneas J e K de OBSERVAÇÕES GERAIS)."
+Fórmula,FX: AA / BB x 100
+Unidade de medida,FL: CC / DD x 100
+Output,%
+Estado do indicador,"Proporção de turmas
+Com dados desde Janeiro de 2015"
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [55; 100]
+Ano de 2023: [55; 100]
+Ano de 2024: [65; 100]"
+Intervalo Esperado,"Ano de 2022: [28; 100]
+Ano de 2023: [28; 100]
+Ano de 2024: [35; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Escolar
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,5 dias

@@ -1,0 +1,102 @@
+titulo,texto
+ID,086
+Código,6.40.01
+Código SIARS,2016.086.01
+Nome abreviado,"Proporção de RN de termo, de baixo peso"
+Designação,"Proporção de recém-nascidos de termo, de baixo peso"
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP no âmbito do programa de saúde materna, na prevenção de complicações fetais e neonatais, usando como medida a ""proporção de recém-nascidos de termo e com baixo peso""."
+Descrição do Indicador,"Indicador que exprime a proporção de recém-nascidos de baixo peso (<2500 gramas) ao nascer, entre os recém-nascidos de termo nascidos no período de tempo considerado.
+Numerador: Contagem de recém-nascidos de termo e de baixo peso.
+Denominador: Contagem de recém-nascidos de termo."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Com baixo peso à nascença (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Nascidos durante o período em análise, em unidade hospitalar;
+B. Com alta do internamento relacionado com o nascimento, durante o período em análise (ver alínea B de OBSERVAÇÕES GERAIS);
+C. Resultantes de gravidez de termo, de duração igual ou superior a 37 semanas (ver alínea C de OBSERVAÇÕES GERAIS);
+D. A freguesia de residência do RN, registada no internamento hospitalar, pertence à área de abrangência da unidade de observação em análise (ver alíneas E, F e G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Até setembro de 2016, a identificação do ""baixo peso"" era efetuada através do registo dos códigos ICD-9-CM que de baixo peso às nascença (< 2500 grama) seguintes:
+- Recém-nascido leve para a idade de gestação, sem se mencionas má nutrição fetal: 764.01 a 764.08
+- Leve para a idade de gestação com sinais de malnutrição fetal: 764.11 a 764.18
+- Má nutrição fetal sem se mencionar baixo peso para a idade gestacional: 764.21 a 764.28
+- Atraso de crescimento fetal, não especificado: 764.91 a 764.98
+- Imaturidade extrema do recém-nascido: 765.01 a 765.08
+Depois de setembro de 2016, o registo do peso à nascença passou a ser obrigatório na plataforma de registo dos GDH, pelo que o indicador passa a analisar o campo ""peso à nascença"", para valores inferiores a 2500 grama.
+B. Os nascimentos registam-se através dos códigos ICD-9-CM ou ICD-10-CM seguintes:
+ICD-10-CM:
+Z3800 - Single liveborn infant, delivered vaginally
+Z3801 - Single liveborn infant, delivered by cesarean
+Z381 - Single liveborn infant, born outside hospital
+Z382 - Single liveborn infant, unspecified as to place of birth
+Z3830 - Twin liveborn infant, delivered vaginally
+Z3831 - Twin liveborn infant, delivered by cesarean
+Z384 - Twin liveborn infant, born outside hospital
+Z385 - Twin liveborn infant, unspecified as to place of birth
+Z3861 - Triplet liveborn infant, delivered vaginally
+Z3862 - Triplet liveborn infant, delivered by cesarean
+Z3863 - Quadruplet liveborn infant, delivered vaginally
+Z3864 - Quadruplet liveborn infant, delivered by cesarean
+Z3865 - Quintuplet liveborn infant, delivered vaginally
+Z3866 - Quintuplet liveborn infant, delivered by cesarean
+Z3868 - Other multiple liveborn infant, delivered vaginally
+Z3869 - Other multiple liveborn infant, delivered by cesarean
+Z387 - Other multiple liveborn infant, born outside hospital
+Z388 - Other multiple liveborn infant, unsp as to place of birth
+ICD-9-CM:
+V3000, V3001, V301, V3100, V3101, V311, V3200, V3201, V321, V3300, V3301, V331, V3400, V3401, V341, V3500, V3501, V3600, V3601, V361, V3700, V3701, V371, V3900, V3901 e V391.
+C. Os códigos ICD-9-CM ou ICD-10-CM que permitem codificar gravidez de termo são os seguintes:
+ICD-10-CM:
+--
+ICD-9-CM:
+765.29 - 37 ou mais semanas completas de gestação.
+D. Os códigos ICD-9-CM ou ICD-10-CM que permitem codificar gravidez pré-termo são os seguintes:
+ICD-10-CM:
+P0720 - Extreme immaturity of newborn, unsp weeks of gestation
+P0721 - Extreme immaturity of NB, gestatnl age < 23 completed weeks
+P0722 - Extreme immaturity of NB, gestatnl age 23 completed weeks
+P0723 - Extreme immaturity of NB, gestatnl age 24 completed weeks
+P0724 - Extreme immaturity of NB, gestatnl age 25 completed weeks
+P0725 - Extreme immaturity of NB, gestatnl age 26 completed weeks
+P0726 - Extreme immaturity of NB, gestatnl age 27 completed weeks
+P0730 - Preterm newborn, unspecified weeks of gestation
+P0731 - Preterm newborn, gestational age 28 completed weeks
+P0732 - Preterm newborn, gestational age 29 completed weeks
+P0733 - Preterm newborn, gestational age 30 completed weeks
+P0734 - Preterm newborn, gestational age 31 completed weeks
+P0735 - Preterm newborn, gestational age 32 completed weeks
+P0736 - Preterm newborn, gestational age 33 completed weeks
+P0737 - Preterm newborn, gestational age 34 completed weeks
+P0738 - Preterm newborn, gestational age 35 completed weeks
+P0739 - Preterm newborn, gestational age 36 completed weeks
+ICD-9-CM:
+--
+E. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+F. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 100 recém-nascidos (RN), 25 serão atribuídos à UF1 e 75 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 50 RN, 40 serão atribuídos à UF2 e 10 à UF3. Se a UF2 apenas tiver utentes RN nas freguesias X e Y, a UF2 terá um total de 115 RN estimados por esta metodologia (75 da freguesia X e 40 da freguesia Y).
+G. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+b) O nível de rigor no registo da freguesia de residência dos RN. As UF com área de abrangência próxima de grandes maternidades podem ter um aumento do denominador (e consequentemente do numerador) se existirem utentes que para acederem aos serviços dessa maternidade falseiam a respetiva morada para uma compatível com a área hospitalar.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias ou da proximidade com hospitais. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Descontinuado em Dezembro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

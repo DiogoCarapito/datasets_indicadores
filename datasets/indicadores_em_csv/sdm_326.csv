@@ -1,0 +1,248 @@
+titulo,texto
+ID,326
+Código,6.70.01
+Código SIARS,2016.326.01
+Nome abreviado,Taxa de internamento por pneumonia em adultos
+Designação,Taxa de internamento por pneumonia bacteriana em adultos
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP a adultos com ""pneumonia bacteriana"", no respetivo tratamento e controlo de sintomatologia, usando como medida de efetividade a ""taxa de internamento hospitalar com diagnóstico principal de pneumonia bacteriana"". Ver alíneas F, G e H de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos hospitalares com diagnóstico principal de ""pneumonia bacteriana"", por cada 100.000 residentes com idades com 18 ou mais anos.
+Numerador: Contagem episódios de internamento hospitalar com diagnóstico principal de ""pneumonia bacteriana"".
+Denominador: Contagem de utentes residentes com 18 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de internamentos hospitalares em que a expressão [A e B e C e D e E e F e G e H e I e J] é verdadeira:
+A. Referentes a utentes internados com data de alta incluída no período em análise (ver alínea J de OBSERVAÇÕES GERAIS);
+B. Internados com duração superior a 24 horas (ver alínea J de OBSERVAÇÕES GERAIS);
+C. Não são considerados os utentes transferidos de outros hospitais.
+D. Na data de admissão têm 18 ou mais anos;
+E. O registo da freguesia de residência no internamento hospitalar pertence à área de abrangência da unidade de observação em análise (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS);
+F. O utente internado tem diagnóstico principal compatível com ""pneumonia bacteriana"" (ver alíneas A e J de OBSERVAÇÕES GERAIS).
+G. Sem registos de diagnósticos relacionados com ""anemia falciforme"" nem com ""doenças relacionadas com a hemoglobina-S"" (ver alíneas B e J de OBSERVAÇÕES GERAIS).
+H. Sem registos de diagnósticos relacionados com ""imunodepressão"" (ver alíneas C e J de OBSERVAÇÕES GERAIS).
+I. Sem registos de procedimentos relacionados com ""imunodepressão"" (ver alíneas D e J de OBSERVAÇÕES GERAIS).
+J. Excluem-se episódios de internamento por gravidez, parto e puerpério.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS).
+B. Com 18 ou mais anos."
+Observações Gerais,"A. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""pneumonia bacteriana"":
+ICD-10-CM:
+J13 - Pneumonia due to Streptococcus pneumoniae
+J14 - Pneumonia due to Hemophilus influenzae
+J15211 - Pneumonia due to Methicillin susceptible Staphylococcus aureus
+J15212 - Pneumonia due to Methicillin resistant Staphylococcus aureus
+J153 - Pneumonia due to streptococcus, group B
+J154 - Pneumonia due to other streptococci
+J157 - Pneumonia due to Mycoplasma pneumoniae
+J159 - Unspecified bacterial pneumonia
+J160 - Chlamydial pneumonia
+J168 - Pneumonia due to other specified infectious organisms
+J180 - Bronchopneumonia, unspecified organism
+J181 - Lobar pneumonia, unspecified organism
+J188 - Other pneumonia, unspecified organism
+J189 - Pneumonia, unspecified organism
+ICD-9-CM:
+481 - Pneumonia pneumococica por estreptococos pneumoniae
+4822 - Pneumonia devida a hemophilus influenzae
+48230 - Pneumonia devida a estreptococos não especificados
+48231 - Pneumonia devida a estreptococos do grupo A
+48232 - Pneumonia devida a estreptococos do grupo B
+48239 - Pneumonia devida a estreptococos não classificados em outra parte
+48241 - Pneumonia devida a estafilococos aureus sensível a meticilina
+48242 - Pneumonia devida a estafilococos aureus resistente a meticilina
+4829 - Pneumonia bacteriana não especificada
+4830 - Pneumonia devida a mycoplasma pneumoniae
+4831 - Pneumonia devida a clamidia
+4838 - Pneumonia devida a organismo especificado não classificado em outra parte
+485 - Broncopneumonia devida a microrganismo não especificado
+486 - Pneumonia devida a microrganismo não especificado
+B. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""anemia falciforme"" ou ""doenças relacionadas com a hemoglobina-S"":
+ICD-10-CM:
+D5700 - Hb-SS disease with crisis, unspecified
+D5701 - Hb-SS disease with acute chest syndrome
+D5702 - Hb-SS disease with splenic sequestration
+D571 - Sickle-cell disease without crisis
+D5720 - Sickle-cell/Hb-C disease without crisis
+D57211 - Sickle-cell/Hb-C disease with acute chest syndrome
+D57212 - Sickle-cell/Hb-C disease with splenic sequestration
+D57219 - Sickle-cell/Hb-C disease with crisis, unspecified
+D5740 - Sickle-cell thalassemia without crisis
+D57411 - Sickle-cell thalassemia with acute chest syndrome
+D57412 - Sickle-cell thalassemia with splenic sequestration
+D57419 - Sickle-cell thalassemia with crisis, unspecified
+D5780 - Other sickle-cell disorders without crisis
+D57811 - Other sickle-cell disorders with acute chest syndrome
+D57812 - Other sickle-cell disorders with splenic sequestration
+D57819 - Other sickle-cell disorders with crisis, unspecified
+ICD-9-CM:
+28241 - Talassémia de células falciformes, sem crise
+28242 - Talassémia de células falciformes, com crise
+28260 - Doença de células falciformes, não especificada
+28261 - Doença da hemoglobina S (hb-SS), sem crise
+28262 - Doença da hemoglobina S (hb-SS), com crise
+28263 - Doença de células falciformes / hb-C, sem crise
+28264 - Doença de células falciformes / hb-C, com crise
+28268 - Doença de células falciformes NCOP, sem crise
+28269 - Doença de células falciformes NCOP, com crise
+C. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""imunodeficiência"":
+ICD-10-CM:
+Códigos disponíveis em
+https://www.qualityindicators.ahrq.gov/Downloads/Modules/PQI/V60-ICD10/TechSpecs/PQI_Appendix_C.pdf
+ICD-9-CM:
+042 - Doença pelo vírus da imunodeficiência humana
+1363 - Pneumocistose
+1992 - Neoplasia maligna associada a orgão transplantado
+23873 - Sindromo mielodisplasico, lesoes de alto grau
+23876 - Mielofibrose com metaplasia mieloide
+23877 - Perturbação linfoproliferativa pos-transplante
+23879 - Neoplasia de comportamento incerto de tecidos linfaticos e hematopoieticos NCOP
+260 - Kwashiorkor
+261 - Marasmo nutrícional
+262 - Formas de desnutrição proteico-caloricas graves
+27900 - Hipogamaglobulinemia SOE
+27901 - Imunodeficiência selectiva iga
+27902 - Imunodeficiência selectiva igm
+27903 - Imunodeficiência selectiva NCOP
+27904 - Hipogamaglobulinemia congénita
+27905 - Imunodeficiência com igm aumentadas
+27906 - Imunodeficiência comum variável
+27909 - Deficiência da imunidade humoral NCOP
+27910 - Imunodeficiência celular-células-t
+27911 - Sindromo de di george
+27912 - Sindromo de wiskott-aldrich
+27913 - Sindromo de nezelof
+27919 - Deficiência de imunidade celular NCOP
+2792 - Deficiência imunidade combinada
+2793 - Deficiência da imunidade não especificada
+2794 - Doença autoimune, não classificada em outra parte
+27941 - Sindromo linfoproliferativo autoimune
+27949 - Doença autoimune, não classificada em outra parte
+27950 - Doença do enxerto contra o hospedeiro, não especificada
+27951 - Doença do enxerto contra o hospedeiro, aguda
+27952 - Doença do enxerto contra o hospedeiro, crónica
+27953 - Doença do enxerto contra o hospedeiro, crónica agudizada
+2798 - Alterações imunitarias NCOP
+2799 - Alteração imunitaria SOE
+28409 - Anemia aplastica constitucional não classificável em outra parte
+2841 - Pancitopenia
+28411 - Pancitopenia induzida por quimioterapia antineoplasica
+28412 - Pancitopenia induzida por farmacos NCOP
+28419 - Pancitopenia NCOP
+2880 - Neutropenia
+28800 - Neutropenia, não especificada
+28801 - Neutropenia congénita
+28802 - Neutropenia ciclica
+28803 - Neutropenia induzida por farmacos
+28809 - Neutropenia não classificável em outra parte
+2881 - Alterações funcionais dos neutrofilos polimorfonucleares
+2882 - Anomalias geneticas dos leucocitos
+2884 - Sindromos hemófagociticos
+28850 - Leucocitopenia, não especificada
+28851 - Linfocitopenia
+28859 - Contagem diminuida de globulos brancos, não classificável em outra parte
+28953 - Esplenomegalia neutropenica
+28983 - Mielofibrose
+40301 - Doença do rim, hipertensiva maligna, com doença crónica, estadio V ou terminal
+40311 - Doença renal hipertensiva benigna, com doença crónica, estadio V ou terminal
+40391 - Doença renal hipertensiva não especificada, com doença crónica, estadio V ou terminal
+40402 - Doença hipertensiva cardio-renal, maligna, s/insuf.card c/drc estadio V ou terminal
+40403 - Doença hipertensiva cardio-renal, maligna, c/insuf.card c/drc estadio V ou terminal
+40412 - Doença hipertensiva cardio-renal, benigna, s/insuf.card c/drc estadio V ou terminal
+40413 - Doença hipertensiva cardio-renal, benigna, c/insuf.card c/drc estadio V ou terminal
+40492 - Doença hipertensiva cardio-renal, n/especif s/insuf.card c/drc estadio V ou terminal
+40493 - Doença hipertensiva cardio-renal, n/especif c/insuf.card c/drc estadio V ou terminal
+5793 - Não absorção pos-cirurgica, NCOP ou não especificada
+585 - Doença renal crónica
+5855 - Doença renal crónica, estadio v
+5856 - Doença renal crónica terminal
+9968 - Complicações de orgão transplantado
+99680 - Complicações de orgão transplantado não especificado
+99681 - Complicações de rim transplantado
+99682 - Complicação de fígado transplantado
+99683 - Complicação de coração transplantado
+99684 - Complicação de pulmão transplantado
+99685 - Complicação de medula óssea transplantada
+99686 - Complicação de pâncreas transplantado
+99687 - Complicações de intestino transplantado
+99688 - Complicações de orgãos transplantados, células germinativas
+99689 - Complicações de orgão transplantado especificado NCOP
+V420 - Status de rim substituido por transplante
+V421 - Coração substituido por transplante
+V426 - Pulmão substituido por transplante
+V427 - fígado substituido por transplante
+V428 - Orgão ou tecido especificado NCOP, substituido por transplante
+V4281 - Medula óssea substituida por transplante
+V4282 - Células germinativas perifericas substituidas por transplante
+V4283 - Status de transplante de pâncreas
+V4284 - Status de transplante de intestinos
+V4289 - Orgão ou tecido especificado NCOP, substituido por transplante
+V451 - Status de dialise renal
+V4511 - Status de dialise renal
+V560 - Admissão para dialise extracorporal
+V561 - Admissão para colocação ou ajuste de cateter de dialise extracorporal
+V562 - Admissão para colocação ou ajuste de cateter de dialise peritoneal
+D. Consideram-se os seguintes códigos de procedimento ICD-9-CM e ICD-10-CM para ""imunodeficiência"":
+ICD-10-CM:
+Códigos disponíveis em
+https://www.qualityindicators.ahrq.gov/Downloads/Modules/PQI/V60-ICD10/TechSpecs/PQI_Appendix_C.pdf
+ICD-9-CM:
+0018 - Infusão de terapeutica de anticorpos imunossupressora
+335 - Transplantação de pulmão
+3350 - Transplante pulmonar, não especificado
+3351 - Transplante pulmonar unilateral
+3352 - Transplante pulmonar bilateral
+336 - Transplantação combinada de coração-pulmão
+375 - Procedimentos de substituição do coração
+3751 - Transplantação cardíaca
+410 - Transplante de medula óssea ou de células hematopoieticas germin
+4100 - Transplante de medula óssea, sem outra especificação
+4101 - Transplante de medula óssea autologa, sem depuração
+4102 - Transplante de medula óssea alogénica, com depuração
+4103 - Transplante de medula óssea alogénica, sem depuração
+4104 - Transplante autologo cel.hematopoieticas germinativas, s/depurac
+4105 - Transplante alogenico cel.germinativas hematopoieticas, s/depur.
+4106 - Transplante de células germinativas do cordão umbilical
+4107 - Transplante autologo cel.hematopoieticas germinativas, c/depurac
+4108 - Transplante alogenico cel.germinativas hematopoieticas, c/depur.
+4109 - Transplante de medula óssea autologa, com depuração
+5051 - Transplantação de fígado homologo
+5059 - Transplantação do fig - ado NCOP
+5280 - Transplantação do pâncreas SOE
+5281 - Reimplantação de tecido pâncreatico
+5282 - Homotransplante de pâncreas
+5283 - Heterotransplante de pâncreas
+5285 - Halotransplante de células de ilhas de langerhans
+5286 - Transplante de células de ilhas de langerhans, SOE
+5569 - Transplantações de rim NCOP
+E. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias.
+F. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+G. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 10.000 residentes estimados pelo INE, 2500 serão atribuídos à UF1 e 7500 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 5000 residentes estimados pelo INE, 4000 serão atribuídos à UF2 e 1000 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 11500 utentes residentes estimados por esta metodologia (7500 da freguesia X e 4000 da freguesia Y).
+Esta metodologia é aplicável não só às estimativas de residentes do INE (denominador) mas também à informação de internamentos cuja fonte é a base de dados de GDH, cujos dados são fornecidos agregados por freguesia.
+H. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+b) O nível de rigor no registo da freguesia de residência dos utentes internados. As UF com área de abrangência próxima de unidades de hospitalares de referência no tratamento e controlo da(s) patologias monitorizadas, podem ter um aumento do numerador se existirem utentes que para acederem aos cuidados hospitalares falseiam a respetiva morada para uma que possibilite o acesso.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias ou da proximidade com hospitais. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+I. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (antes da data de referência do indicador).
+J. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+K. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
+https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador)."
+Fórmula,AA / BB x 100.000
+Unidade de medida,por 100.000
+Output,Taxa internamento (por 100.000 residentes por ano)
+Estado do indicador,Com dados desde Dezembro de 2013
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

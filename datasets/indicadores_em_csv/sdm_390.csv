@@ -1,0 +1,1101 @@
+titulo,texto
+ID,390
+Código,8.16.01
+Código SIARS,2017.390.01
+Nome abreviado,"Score dimensão ""serv. não assis. gov. clín. ACES"""
+Designação,"Score para avaliação da dimensão ""serviços de carácter não assistencial - atividades de governação clínica do ACES"""
+Objetivo,"Possibilitar a avaliação da dimensão ""Atividades de Governação Clínica no ACES"", da subárea ""Serviços de Carácter não Assistencial"", da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de serviços não assistenciais relacionados com a governação clínica do ACES."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de cumprimento do compromisso assumido por cada equipa para a prestação de atividade não assistencial relacionada com governação clínica e de saúde.
+As regras de medição deste ""grau de cumprimento"" são definidas anualmente desde o ano de 2017 e encontram-se plasmadas nos documentos de ""operacionalização dos termos de referência para a contratualização"", sendo transpostas para ""bilhete de identidade de indicador"", para que possa ser operacionalizado o respetivo cálculo de forma automática."
+Regras de cálculo,"FÓRMULA
+A fórmula de cálculo deste score entra em linha de conta com 3 aspetos:
+1. Proporção de horas de serviços não assistenciais realizadas pelos elementos da unidade funcional relativamente ao total de horas contratualizadas.
+2. A existência ou não de planos de ação para os grupos de trabalho em que a unidade funcional participa.
+3. A existência ou não de relatórios de atividades para os grupos de trabalho em que a unidade funcional participa.
+Variável
+Descrição da variável
+Deve ser definido para:
+Frequência de registo"
+Fórmula,Valores possíveis
+Unidade de medida,"Quem preenche?
+PROF
+Nº ponderado de profissionais da equipa
+Unidade funcional
+Anual
+Ponderação do nº de elementos da equipa, tendo em atenção a carga horária 
+         semanal de cada um e o nº de meses de exercício de funções durante o ano de 
+         contratualização
+Reais
+Profissionais ponderados
+Unidade funcional
+M1
+Mês de início da atividade não assistencial contratualizada
+Cada atividade contratualizada
+Anual
+M1
+Valores inteiros entre 1 e 12
+--
+Unidade funcional
+M2
+Mês de fim da atividade não assistencial contratualizada
+Cada atividade contratualizada
+Anual
+M2
+Valores inteiros entre 1 e 12
+--
+Unidade funcional
+HC
+Horas de contratualização anuais obrigatórias
+Unidade funcional
+Anual
+0,8 x PROF x 11 
+         x (M2 - M1 + 1) / 12
+Reais
+Hora
+Automático
+A
+Horas anuais contratualizadas com a equipa para a atividade em referência
+Cada atividade contratualizada
+Anual
+Se o mês de referência do indicador é inferior a M1, a variável assume o valor 
+         de 0 (zero), caso contrário assume o valor contratualizado (A).
+Inteiros
+Horas
+Unidade funcional
+SOMA_A
+Somatório de horas anuais contratualizadas com a equipa para a atividade em referência
+Unidade funcional
+Anual
+Somatório de A
+Inteiros
+Horas
+Automático
+B
+Horas realizadas pela equipa com referência ao mês de realização
+Cada atividade contratualizada
+Mensal
+Contabilizam-se para o indicador as horas realizadas entre M1 e o mês de 
+         referência do indicador
+Inteiros
+Horas
+Unidade funcional
+M
+Meses decorridos entre M1 e M2.
+Cada atividade contratualizada
+Anual
+1. Se mês de referência do indicador é anterior a M1, M = 0
+2. Se mês de referência compreendido entre M1 e M2, M = [mês de referência] - M1 
+         + 1
+3. Se mês de referência superior a M2, M = M2 - M1 + 1
+Valores inteiros entre 1 e 12
+--
+Automático
+C
+Participação
+Cada atividade contratualizada
+Anual
+1. Se A = 0 ou M = 0, C = 0
+2. Caso contrário, C =
+         100 x [(M2 - M1 + 1) x B] / (A x M)
+Valores reais entre 0 e 100
+%
+Automático
+D
+Cumprimento de participação
+Cada atividade contratualizada
+Anual
+Se C >= 80% ==> D = 1
+Se C < 80% ==> D = 0
+0 ou 1
+--
+Automático
+P
+Ponderação
+Cada atividade contratualizada
+Mensal
+P = D x A / HC
+Valores reais entre 0 e 1
+--
+Automático
+PA
+Plano de ação
+Cada atividade contratualizada
+Mensal
+1. Se tem registo de ""ter PA"", PA = ""S""
+2. Se tem registo de ""não ter PA"", PA = ""N""
+3. Se não tem registo de ter nem registo de não ter PA, PA = ""N""
+""S"" ou ""N""
+--
+Unidade funcional
+RA
+Relatório de atividades
+Cada atividade contratualizada
+Mensal
+1. [Sem registo de ter nem registo de não ter RA] e [data de cálculo do 
+         indicador até ao último dia do mês (M2 + 1)], RA = ""S""
+2. [Sem registo de ter nem registo de não ter RA] e [data de cálculo do 
+         indicador superior ao último dia do mês (M2 + 1)], RA = ""N""
+3. Se tem registo de ""ter RA"", RA = ""S""
+4. Se tem registo de ""não ter RA"", RA = ""N""
+""S"" ou ""N""
+--
+Unidade funcional
+Q
+Pontuação PA e RA
+Cada atividade contratualizada
+Mensal
+1. Se PA=""S"" e RA=""S"", Q = 2
+2. Se PA=""S"" ou RA=""S"", Q = 1
+3. Se PA=""N"" e RA=""N"", Q = 0
+0, 1 ou 2
+--
+Automático
+R
+Resultados Parciais
+Cada atividade contratualizada
+Mensal
+P x Q
+Valores reais entre 0 e 2
+--
+Automático
+S
+Score
+Unidade funcional
+Mensal
+1.
+         Somatório de R para todas as atividades contratualizadas com a equipa
+2. Se [Somatório de R para todas as atividades contratualizadas com a equipa] > 
+         2, S = 2
+Valores reais entre 0 e 2
+--
+Automático
+Exemplo 
+        1 de cálculo do score
+Este exemplo é referente a unidade que contratualizou 4 atividades de carácter 
+        não assistencial, totalizando 130 horas em contexto de 140,8 ""obrigatórias"".
+Mês de referência: Junho do ano de contratualização
+ID
+Tipologia de atividade não 
+         assistencial
+Descrição da atividade
+Contratualizado?
+M1
+M2
+HC
+A
+B
+M
+C
+D
+P
+PA
+RA
+Q
+R
+S
+1
+T01 - Qualificação da prescrição
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+2
+T02 - Formação
+Formação em tratamento de úlceras
+S
+7
+12
+--
+40
+10
+0
+0
+0
+0
+S
+--
+2
+0
+3
+T03 -  Investigação
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+4
+T04 - Auditoria Clínica
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+5
+T05 -  Qualidade e Segurança
+Grupo de trabalho sobre gestão de não conformidades
+S
+1
+12
+--
+24
+13
+6
+108,3
+1
+0,3410
+S
+--
+2
+0,6820
+6
+T05 -  Qualidade e Segurança
+Grupo de trabalho e prevenção e controlo de infeções e resistência a 
+         antimicrobianos
+S
+10
+12
+--
+30
+0
+0
+0
+0
+0
+S
+--
+2
+0
+7
+T06 -  Reuniões plenárias dos conselhos técnicos e conselho clínico e de 
+         saúde.
+Participação nas reuniões plenárias do CCS
+S
+1
+12
+--
+36
+15
+6
+83,3
+1
+0,5114
+S
+--
+2
+1.0227
+TOTAL PARA A UNIDADE FUNCIONAL
+--
+--
+140,8
+130
+1,7045
+Exemplo 2 de cálculo do score
+Este exemplo é referente a unidade que contratualizou 4 atividades de carácter 
+        não assistencial, totalizando 130 horas em contexto de 140,8 ""obrigatórias"".
+Mês de referência: dezembro do ano de contratualização.
+ID
+Tipologia de atividade não 
+         assistencial
+Descrição da atividade
+Contratualizado?
+M1
+M2
+HC
+A
+B
+M
+C
+D
+P
+PA
+RA
+Q
+R
+S
+1
+T01 - Qualificação da prescrição
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+2
+T02 - Formação
+Formação em tratamento de úlceras
+S
+7
+12
+--
+40
+40
+6
+100
+1
+0,2841
+S
+N
+1
+0,2841
+3
+T03 -  Investigação
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+4
+T04 - Auditoria Clínica
+--
+N
+--
+--
+--
+0
+0
+0
+0
+0
+0
+--
+--
+0
+0
+5
+T05 -  Qualidade e Segurança
+Grupo de trabalho sobre gestão de não conformidades
+S
+1
+12
+--
+24
+18
+12
+75
+0
+0
+S
+S
+2
+0
+6
+T05 -  Qualidade e Segurança
+Grupo de trabalho e prevenção e controlo de infeções e resistência a 
+         antimicrobianos
+S
+10
+12
+--
+30
+33
+3
+110
+1
+0,2131
+S
+S
+2
+0,4262
+7
+T06 -  Reuniões plenárias dos conselhos técnicos e conselho clínico e de 
+         saúde.
+Participação nas reuniões plenárias do CCS
+S
+1
+12
+--
+36
+32
+12
+88,89
+1
+0,2556
+S
+N
+1
+0,2556
+TOTAL PARA A UNIDADE FUNCIONAL
+--
+--
+140,8
+130
+0,9659
+Ver regras ou condições C01 a C13 em OBSERVAÇÕES GERAIS"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Tipologias de ""serviços não assistenciais"" a contratualizar
+As tipologias de ""serviços não assistenciais"" a contratualizar são as seguintes:
+Código
+Designação
+T01
+Qualificação da prescrição
+T02
+Formação
+T03
+Investigação
+T04
+Auditoria Clínica
+T05
+Qualidade 
+         e Segurança
+T06
+Reuniões 
+         plenárias dos conselhos técnicos e conselho clínico e de saúde.
+Notas
+:
+Uma unidade funcional pode contratualizar 0, 1 ou mais atividades de cada tipologia de serviços não assistenciais. No entanto, a soma de horas de atividades não assistenciais, independentemente do tipo, deve ser superior a zero, conforme se explicita em ""[Horas de contratualização anuais obrigatórias] = 0,8 x PROF x 11"".
+C02
+Tipos de unidades funcionais
+As tipologias de unidades funcionais a que se aplica este indicador são as 
+    seguintes:
+Código
+Designação
+USF-B
+Unidade de Saúde Familiar modelo B
+USF-A
+Unidade de Saúde Familiar modelo A
+UCSP
+Unidade de Cuidados de Saúde Personalizados
+UCC
+Unidade de Cuidados na Comunidade
+URAP
+Unidade de Recursos Assistenciais Partilhados
+USP
+Unidade de Saúde Pública
+C03
+Tipologia de grupos profissionais nas USF-A, USF-B e UCSP
+A recolha de informação sobre ""nº de profissionais ponderados"" deve ser feita nas USF-A, 
+    USF-B e UCSP, de forma agregada (e não profissional a profissional) para os 
+    seguintes grupos profissionais:
+Código
+Designação
+MED
+Médicos da equipa (exclui internos)
+ENF
+Enfermeiros da equipa
+SC
+Secretários clínicos da equipa
+C04
+Tipologia de grupos profissionais nas UCC, URAP e USP
+A recolha de informação sobre ""nº de profissionais ponderados"" deve ser feita nas UCC, 
+    de forma agregada (e não profissional a profissional) para os seguintes grupos 
+    profissionais:
+Código
+Designação
+ENF
+Enfermeiros da equipa
+MED
+Médicos da equipa (exclui internos)
+OUT
+Outros profissionais de saúde da equipa
+SC
+Secretários clínicos da equipa
+C05
+HC -
+    Número obrigatório de horas a contratualizar com cada unidade funcional por ano
+O valor obrigatório de horas a contratualizar com cada unidade funcional é de 
+    0,8 
+    horas por profissional (pertencente à equipa) por mês, sendo determinado pela 
+    fórmula seguinte:
+[nº de horas a contratualizar por ano] = 11 x 0,8 x (Med_p + Enf_p + SC_p + O_Prof_p)
+Em que:
+Med_p
+Ponderação do nº de médicos da equipa ao longo do ano de 
+         contratualização, tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+Enf_p
+Ponderação do nº de enfermeiros da equipa ao longo do ano de contratualização 
+         tendo em atenção a carga horária semanal de cada um e o nº de meses de exercício 
+         de funções.
+SC_p
+Ponderação do nº de secretários clínicos da equipa ao longo do ano de 
+         contratualização tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+O_Prof_p
+Ponderação do nº de ""outros profissionais de saúde"" da equipa ao longo do ano de 
+         contratualização tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+Notas
+:
+1. Na fórmula de [nº de horas a contratualizar por ano], consideram-se 11 meses úteis por ano.
+2. Para a definição do nº de horas a contratualizar por profissional deve ser considerada a métrica de ""profissional ponderado"", não só em função do horário semanal de trabalho efetivo (comparado com horário semanal a tempo completo para o respetivo regime contratual, seja ele de 35, 40 ou 42 horas), mas também em função de ausências prolongadas ao trabalho. Assim, por exemplo, um profissional com um contrato base de 35 horas contratado ""meio tempo"" vale ""0,5"" se exercer funções durante 12 meses e ""0,25"" se exercer funções durante 6 meses.
+3. O valor apurado para cada unidade funcional para o [nº de horas a contratualizar por ano] 
+    deve ser calculado na plataforma de introdução de dados, tendo como parâmetros 
+    de entrada as variáveis Med_p, Enf_p, SC_p e O_Prof_p. Os parâmetros de entrada 
+    devem ser registados pela unidade funcional. Os cálculos necessários para obter 
+    o [nº máximo de horas a contratualizar por ano] são feitos de forma automática 
+    pela plataforma. O resultado final de [nº máximo de horas a contratualizar por ano] 
+    deve ser validado pelo conselho clínico e de saúde do ACES.
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Variável
+Valor
+Observações
+Med_p
+6
+6 médicos a tempo inteiro durante os 12 meses 
+         de 2017
+Enf_p
+5,5
+5 enfermeiros a tempo inteiro durante os 12 meses de 2017 e 1 enfermeiro de 
+         julho a dezembro de 2017
+SC_p
+4,5
+4 secretários clínicos a tempo inteiro durante os 12 meses de 2017 e 1 
+         secretário clínico a 50% de horário semana (17,5 horas) durante os 12 meses de 
+         2017
+O_Prof_p
+0
+Não aplicável às UCSP
+[nº de horas a contratualizar por ano] = 11 x 0,8 x (Med_p + Enf_p + SC_p + O_Prof_p) 
+    = 11 x 0,8 x (6 + 5,5 + 4,5 + 0) = 8,8 x 16 = 140,8 horas
+C06
+A - Horas contratualizadas
+Número de horas contratualizadas com a equipa para o período em análise (ano de 
+    contratualização) para atividade não assistencial em atividades de governação 
+    clínica do ACES.
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+ID
+Tipologia de atividade não 
+         assistencial
+Descrição da atividade
+Contratualizado?
+Mês de início
+Mês de fim
+Horas *
+1
+T01 - Qualificação da prescrição
+--
+N
+--
+--
+0
+2
+T02 - Formação
+Formação em tratamento de úlceras
+S
+Julho
+Dezembro
+40
+3
+T03 -  Investigação
+--
+N
+--
+--
+0
+4
+T04 - Auditoria Clínica
+--
+N
+--
+--
+0
+5
+T05 -  Qualidade e Segurança
+Grupo de trabalho sobre gestão de não conformidades
+S
+Janeiro
+Dezembro
+24
+6
+T05 -  Qualidade e Segurança
+Grupo de trabalho e prevenção e controlo de infeções e resistência a 
+         antimicrobianos
+S
+Outubro
+Dezembro
+30
+7
+T06 -  Reuniões plenárias dos conselhos técnicos e conselho clínico e de 
+         saúde.
+Participação nas reuniões plenárias do CCS
+S
+Janeiro
+Dezembro
+36
+TOTAL
+--
+--
+130
+Legenda:
+* Nº de horas contratualizadas por ano
+Notas:
+1
+.
+    As horas contratualizadas com cada unidade funcional devem ser recolhidas 
+    desagregadas por [Tipologias de ""serviços não assistenciais"" a contratualizar] 
+    (C01) .
+2. O formulário de suporte à introdução de dados deve ter pré-carregadas 6 linhas 
+    (uma para cada tipologia de serviço não assistencial), pré-preenchidas com ""N"" 
+    na coluna [contratualizado*] e com 0 (zero) nas colunas das ""horas""
+3. Deve ser possível a adição de mais linhas do que as 6 inicialmente 
+    carregadas, pois é possível que o mesmo ACES tenham mais do que uma atividade 
+    não assistencial comum de cada tipologia.
+4. Caso o total apurado para A (horas contratualizadas) se devie de HC (Número 
+    obrigatório de horas a contratualizar com cada unidade funcional por ano) em 
+    mais ou menos de 5%, 
+    deve surgir uma mensagem com essa indicação, que deve ficar visível quer para a 
+    unidade funcional quer para o ACES, sendo a mesma alvo de validação por este 
+    último.
+C07
+B - Horas realizadas
+Número de horas realizadas em atividades não assistenciais.
+De forma a poder calcular este indicador, ao longo de todos os meses do ano, 
+    para efeitos de acompanhamento do processo de contratualização, é necessário que 
+    seja registado o mês a que dizem respeito as horas.
+Assim, a plataforma de recolha de dados deve permitir a introdução desta 
+    informação através de um formulário onde se escolhe:
+a) o serviço previamente preenchido no quadro C06
+b) o mês do ano a que dizem respeito as horas
+c) o nº de horas realizadas
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Serviço
+Mês
+Nº de horas realizadas
+2 - Formação em tratamento de úlceras
+JUL-2017
+5
+2 - Formação em tratamento de úlceras
+AGO-2017
+5
+5 - Grupo de trabalho sobre gestão de não conformidades
+JUN-2017
+4
+A introdução dos dados atrás exemplificados permitirá o seguinte output de forma 
+    automática: forma 
+    automática:
+ID
+Tipologia de serviço
+Descrição do serviço
+Contratualizado?
+Mês de início
+Mês de fim
+Horas *
+1
+T01 - Qualificação da prescrição
+--
+N
+--
+--
+0
+2
+T02 - Formação
+Formação em tratamento de úlceras
+S
+Julho
+Dezembro
+10
+3
+T03 -  Investigação
+--
+N
+--
+--
+0
+4
+T04 - Auditoria Clínica
+--
+N
+--
+--
+0
+5
+T05 -  Qualidade e Segurança
+Grupo de trabalho sobre gestão de não conformidades
+S
+Janeiro
+Dezembro
+4
+6
+T05 -  Qualidade e Segurança
+Grupo de trabalho e prevenção e controlo de infeções e resistência a 
+         antimicrobianos
+S
+Outubro
+Dezembro
+0
+7
+T06 -  Reuniões plenárias dos conselhos técnicos e conselho clínico e de 
+         saúde.
+Participação nas reuniões plenárias do CCS
+S
+Janeiro
+Dezembro
+0
+TOTAL
+--
+--
+--
+--
+14
+Legenda:
+* Nº de horas não asseguradas por falta por ano
+Notas:
+1. Neste exemplo, B = 10 horas.
+2. O formulário de suporte à introdução de dados de ""horas realizadas"" deve ser 
+    pré-carregado com a 
+    informação das tipologias de serviços contratualizados, descrição dos serviços e 
+    horas contratadas.
+3. Apenas deve ser possível adicional ""horas realizadas"" em serviços onde 
+    o número de horas contratualizadas seja superior a 0 (zero).
+C08
+Amplitude temporal (em meses) a que dizem respeito as ""horas realizadas""
+De forma a impedir o cálculo subvalorizado deste indicador por atraso de registo 
+    das horas realizadas, a plataforma de registo de dados deve recolher a 
+    informação sobre a [amplitude temporal (em meses) a que dizem respeito as ""horas 
+    realizadas""].
+Assim, o sistema de recolha deverá ter uma combobox com as 12 possibilidades 
+    seguintes:
+Código
+Designação
+1
+Todas as horas realizadas referentes a janeiro do ano de contratualização foram registadas
+2
+Todas as horas realizadas referentes ao período compreendido entre janeiro e fevereiro do 
+         ano de contratualização foram registadas
+3
+Todas as horas realizadas referentes ao período compreendido entre janeiro e março do ano 
+         de contratualização foram registadas
+4
+Todas as horas realizadas referentes ao período compreendido entre janeiro e abril do ano 
+         de contratualização foram registadas
+5
+Todas as horas realizadas referentes ao período compreendido entre janeiro e maio do ano 
+         de contratualização foram registadas
+6
+Todas as horas realizadas referentes ao período compreendido entre janeiro e junho do ano 
+         de contratualização foram registadas
+7
+Todas as horas realizadas referentes ao período compreendido entre janeiro e julho do ano 
+         de contratualização foram registadas
+8
+Todas as horas realizadas referentes ao período compreendido entre janeiro e agosto do ano 
+         de contratualização foram registadas
+9
+Todas as horas realizadas referentes ao período compreendido entre janeiro e setembro do 
+         ano de contratualização foram registadas
+10
+Todas as horas realizadas referentes ao período compreendido entre janeiro e outubro do 
+         ano de contratualização foram registadas
+11
+Todas as horas realizadas referentes ao período compreendido entre janeiro e novembro do 
+         ano de contratualização foram registadas
+12
+Todas as horas realizadas referentes ao período compreendido entre janeiro e dezembro do 
+         ano de contratualização foram registadas
+O presente indicador apenas será calculado para os meses em que a unidade 
+    reporte ter feito o preenchimento das ""horas realizadas"".
+Assim, por exemplo se em julho de 2017 a unidade reportar ""Todas as 
+    horas realizadas 
+    referentes ao período compreendido entre janeiro e abril do ano de 
+    contratualização foram registadas"", o indicador será calculado entre janeiro e 
+    abril de 2017 e não será calculado para os meses de maio, junho e julho de 2017. 
+    Neste caso particular, caso existam resultados previamente calculados para os 
+    meses de maio, junho ou julho, os mesmos devem ser apagados.
+C09
+PA - Plano de Ação
+RA - Relatório de atividades
+Os diversos grupos de trabalho organizados pelo ACES para atividades de 
+    govenarção clínica deverão fazer um plano de ação (aquando da criação do grupo, 
+    revisto anualmente) e um relatório de atividades anual.
+A responsabilidade de execução do plano de ação e do relatório de atividades 
+    compete ao coordenador de cada grupo e a todos os respetivos elementos.
+A existência ou não de um plano de ação e de um relatório de atividades por 
+    atividade de governação clínica definida pelo ACES, influência todas as unidades 
+    funcionais que partilhem esse grupo.
+A recolha de informação sobre ""registo 
+    da existência de um plano de ação"" e ""registo da existência de um relatório 
+    de atividades"" deve ser possibilitado para cada uma das atividades 
+    contratualizadas com a unidade funcional.
+As possibilidades para o ""relatório 
+    de atividades"" devem ser as seguintes:
+Código
+Designação
+Abreviado
+0
+A unidade funcional não registou se existe ou não existe um 
+         relatório de atividades para a 
+         atividade não assistencial
+--
+1
+Não existe relatório de atividades para a atividade não assistencial
+N
+2
+Existe relatório de atividades para a atividade não assistencial
+S
+As possibilidades para o ""plano de ação"" devem ser as seguintes:
+Código
+Designação
+Abreviado
+0
+A unidade funcional não registou se existe ou não existe um plano de ação para a 
+         atividade não assistencial
+--
+1
+Não existe plano de ação para a atividade não assistencial
+N
+2
+Existe plano de ação para a atividade não assistencial
+S
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+ID
+Tipologia de atividade não 
+         assistencial
+Descrição da atividade
+Contratualizado?
+Mês de início
+Mês de fim
+PA
+RA
+1
+T01 - Qualificação da prescrição
+--
+N
+--
+--
+--
+--
+2
+T02 - Formação
+Formação em tratamento de úlceras
+S
+Julho
+Dezembro
+S
+S
+3
+T03 -  Investigação
+--
+N
+--
+--
+--
+--
+4
+T04 - Auditoria Clínica
+--
+N
+--
+--
+--
+--
+5
+T05 -  Qualidade e Segurança
+Grupo de trabalho sobre gestão de não conformidades
+S
+Janeiro
+Dezembro
+S
+N
+6
+T05 -  Qualidade e Segurança
+Grupo de trabalho e prevenção e controlo de infeções e resistência a 
+         antimicrobianos
+S
+Outubro
+Dezembro
+S
+--
+7
+T06 -  Reuniões plenárias dos conselhos técnicos e conselho clínico e de 
+         saúde.
+Participação nas reuniões plenárias do CCS
+S
+Janeiro
+Dezembro
+S
+--
+C10
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados pertencentes 
+    ao intervalo [0; 2] numa escala contínua, não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável
+C11
+IDS da dimensão ""serviços não  assistenciais""
+O [IDS da dimensão ""serviços não assistenciais""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""serviços 
+    não assistenciais""] = 100 x [Score dimensão ""serviços 
+    não assistenciais""] / 2
+C12
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C13
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente:
+- O número obrigatório de horas a contratualizar por ano (C05)
+- As tipologias e descrição dos serviços contratados (C06)
+- A lista de tipologias de serviços não contratualizados (C06)
+- Total anual de horas contratualizadas (C06)
+- Total anual de horas realizadas entre janeiro e dezembro do ano de contratualização para os serviços 
+    contratualizados e para todos os grupos profissionais (C07)
+- Os registos realizados referentes à existência ou não de ""planos de ação"" e de ""relatórios de atividades"".
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Variável B (horas realizadas): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável A (horas contratualizadas): Duração de 12 meses. Qualquer que seja o mês de referência do indicador, o valor de A acumula as horas contratualizadas para o período compreendido entre 1 de janeiro e 31 de dezembro do ano de referência do indicador.
+- Restantes variáveis: Não aplicável.
+Fórmula"
+Fórmula,Somatório de resultados
+Período em Análise,Unidade de medida
+Unidade de medida,Score
+Output,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,Serviços | Serviços não Assistenciais | Governação Clínica
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

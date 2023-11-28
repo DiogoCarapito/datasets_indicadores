@@ -1,0 +1,52 @@
+titulo,texto
+ID,439
+Código,6.01.20
+Código SIARS,2021.439.01
+Nome abreviado,"Proporção DPOC +6M, c/ vac. gripe"
+Designação,"Proporção de utentes com DPOC com idade superior a 6 meses, com a vacina da gripe prescrita ou efetuada nos últimos 12 meses"
+Objetivo,"Monitorização do programa de doenças respiratórias: Parâmetro ""vacina da gripe"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com a vacina da gripe prescrita nos últimos 12 meses, de entre inscritos com DPOC e com idade superior a 6 meses.
+Numerador: Contagem de utentes inscritos com DPOC com a vacina da gripe prescrita ou efetuada nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com DPOC e idade superior a 6 meses."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma prescrição de vacina da gripe nos últimos 12 meses (ver alíneas A e D de OBSERVAÇÕES GERAIS).
+C. Pelo menos uma inoculação de vacina da gripe nos últimos 12 meses (ver vacinas equivalentes com código
+[GRIPE]
+e as alíneas B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 6 meses (medida na data de referência do indicador).
+C. O diagnóstico de doença pulmonar obstrutiva crónica (rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador."
+Observações Gerais,"A. Incluem-se as prescrições pertencentes ao grupo 18.1 (Vacinas simples e conjugadas) da classificação CFT e com um dos códigos seguintes da classificação ATC:
+- J07BB01 - VÍRUS DA GRIPE, INATIVADO, TOTAL.
+- J07BB02 - VÍRUS INFLUENZA FRACIONADO INATIVADO OU ANTIGÉNIO DE SUPERFÍCIE.
+- J07BB03 - VÍRUS INFLUENZA VIVO ATENUADO.
+- J07BB04 - PARTÍCULAS SEMELHANTES AO VÍRUS INFLUENZA.
+B. O SIARS lê a informação da inoculação de vacinas a partir do RSE Vacinas. Contabilizam-se também os utentes com registo de prescrição médica de vacina.
+C. Contabilizam-se todas as inoculações, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, mas apenas na área de abrangência da respetiva ARS.
+D. Contabilizam-se todas as prescrições de vacina da gripe, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, desde que ocorra na região de saúde (ARS) de inscrição do utente."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnósticos podem estar inseridos quer na [lista de problemas] quer na [lista de outros problemas]. Necessitam estar classificados como ""ativo"" e não ter sido classificados como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacina"" e variável ""prescrição de vacina""): Duração de 12 meses. Termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 6 ou mais meses.
+- Denominador (variável ""código ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2020
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório
+Intervalo Aceitável,"Ano de 2023: [75; 100]
+Ano de 2024: [75; 100]"
+Intervalo Esperado,"Ano de 2023: [65; 100]
+Ano de 2024: [65; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

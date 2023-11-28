@@ -1,0 +1,1151 @@
+titulo,texto
+ID,393
+Código,8.19.01
+Código SIARS,2017.393.01
+Nome abreviado,"Score dimensão ""formação equipa multiprofis."""
+Designação,"Score para avaliação da dimensão ""formação da equipa multiprofissional"" da subárea ""formação interna"""
+Objetivo,"Possibilitar a avaliação da dimensão ""formação da equipa multiprofissional"" da subárea ""formação interna"" da matriz de contratualização das unidades funcionais dos ACES."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional cumpre os critérios definidos pela
+checklist
+de avaliação desta dimensão."
+Regras de cálculo,"Este indicador tem 3
+resultados possíveis
+, que se obtém através do preenchimento 
+    anual de uma
+checklist
+que possui um conjunto de
+critérios/regras
+para obtenção dos resultados em pontos para este 
+    indicador.
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se de seguida as variáveis que é necessário recolher para que seja possível produzir 
+    o score da dimensão ""formação da equipa multiprofissional"":
+ID
+Código da Variável
+Nome da Variável / definição da variável / fórmula
+Valores possíveis para a variável
+Obrigatória
+Upload de evidências
+Quem preenche
+Inicio
+Fim
+1
+393.01
+Tem plano de formação que identifica as necessidades formativas, designadamente 
+         a sua relação com as restantes áreas e dimensões do Plano de Ação
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+2
+393.02
+O plano de formação abrange todos os grupos profissionais
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+3
+393.03
+O plano de formação identifica os objetivos, as atividades, cronograma, 
+         formadores (internos e externos) e os destinatários
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+4
+393.04
+O plano de formação define a metodologia de avaliação.
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+5
+393.05.DEN
+Nº de reuniões ocorridas durante o ano de contratualização, independentemente de terem carácter formativo ou organizativo.
+Contabilizar quer reuniões apenas entre elementos da equipa quer reuniões 
+         externas em que tenha existido autorização formal para a participação de 1 ou 
+         mais elementos da equipa
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Unidade funcional
+2017
+--
+6
+393.05.NUM
+Nº de reuniões de formação ocorridas durante o ano de contratualização entre as 
+         elegíveis para [393.05.DEN].
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Unidade funcional
+2017
+--
+7
+393.05.RES
+Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas.
+Fórmula:
+100 x [393.05.NUM] / [393.05.DEN]
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2017
+--
+8
+393.05.META
+Meta para ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]"".
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2017
+--
+9
+393.05.CUMPRE
+Cumpriu meta para ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]""?
+Se [393.05.RES] >= [393.05.META], [393.05.CUMPRE] = ""C""
+Caso contrário, [393.05.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2017
+--
+10
+393.05.ELEG
+O critério ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]"" é 
+         elegível para avaliar a unidade funcional no presente ano de contratualização?
+S - Sim
+Sim
+Não
+Automático
+2017
+--
+11
+393.06.DEN
+Nº de reuniões de formação planeadas para ocorrer durante o ano de 
+         contratualização.
+Contabilizar quer reuniões apenas entre elementos da equipa quer reuniões 
+         externas em que se tenha prevista a participação de 1 ou mais elementos da equipa.
+Caso ao longo do ano exista a necessidade de agendar mais reuniões do que as inicialmente previstas, isso deve ser registado no módulo de acompanhamento, nos trimestres subsequentes.
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, plano de formação ou respetivas adendas
+Unidade funcional
+2018
+--
+12
+393.06.NUM
+Nº de reuniões de formação ocorridas durante o ano de contratualização entre as 
+         elegíveis para [393.06.DEN].
+Nota: O valor de [393.06.NUM] deve ser igual ao valor de [393.05.NUM], pois ambos os numeradores representam as reuniões de formação efetivamente ocorridas.
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Unidade funcional
+2018
+--
+13
+393.06.RES
+Proporção de reuniões formativas realizadas entre o total reuniões formativas planeadas
+Fórmula:
+100 x [393.06.NUM] / [393.06.DEN]
+Este indicador pretende medir a capacidade para realizar as ações de formação inicialmente previstas no plano de formação.
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2018
+--
+14
+393.06.META
+Meta para ""Proporção de reuniões formativas realizadas entre o total reuniões formativas planeadas [393.06.RES]""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2018
+--
+15
+393.06.CUMPRE
+Cumpriu meta para ""Proporção de reuniões formativas realizadas entre o total reuniões formativas planeadas [393.06.RES]""?
+Se [393.06.RES] >= [393.06.META], [393.06.CUMPRE] = ""C""
+Caso contrário, [393.06.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2018
+--
+16
+393.06.ELEG
+O critério ""Proporção de reuniões formativas realizadas entre o total reuniões formativas planeadas [393.06.RES]"" é elegível para avaliar a unidade funcional no presente 
+         ano de contratualização?
+S - Sim
+Sim
+Não
+Automático
+2018
+--
+17
+393.07.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 médico da equipa.
+Corresponde a um subconjunto das [393.05.NUM] (reuniões de formação efetivamente realizadas).
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP 
+         e USP -
+         Sim
+Em UCC e URAP - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+18
+393.07.VAR2
+Somatório do nº de médicos da equipa que participou em cada uma das reuniões de 
+         formação ocorridas durante o ano de contratualização
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP e USP -
+         Sim
+Em UCC e URAP - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+19
+393.07.VAR3
+Nº médio de médicos da equipa
+Fórmula:
+[Nº médio de médicos da equipa] = ([nº de médicos em janeiro] + [nº de médicos 
+         em fevereiro] + ... + [nº de médicos em dezembro]) / 12
+Nota: Os internos não devem ser contabilizados.
+Valor real
+Em USF, UCSP e USP -
+         Sim
+Em UCC e URAP - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Automático
+2017
+--
+20
+393.07.RES
+Proporção de médicos envolvidos em reuniões formativas enquanto formandos
+Fórmula:
+(100 x [393.07.VAR2]) / ([393.07.VAR1] x [393.07.VAR3])
+Valor numérico real pertencente ao intervalo [0; 100]
+Em USF, UCSP e USP -
+         Sim
+Em UCC e URAP - Não
+Não
+Automático
+2017
+--
+21
+393.07.META
+Meta para ""Proporção de médicos envolvidos em reuniões formativas enquanto 
+         formandos""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2017
+--
+22
+393.07.CUMPRE
+Cumpriu meta para ""Proporção de médicos envolvidos em reuniões formativas 
+         enquanto formandos""?
+Se [393.07.RES] >= [393.07.META], [393.07.CUMPRE] = ""C""
+Caso contrário, [393.07.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2017
+--
+23
+393.07.ELEG
+O critério ""Proporção de médicos envolvidos em reuniões formativas enquanto 
+         formandos"" é elegível para avaliar a unidade funcional no presente ano de 
+         contratualização?
+Nota: O critério pode não ser elegível em unidades funcionais sem médicos. Se não for elegível, não será avaliada por este critério.
+S - Sim
+N - Não
+Sim
+Não
+Unidade funcional
+2017
+--
+24
+393.08.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 enfermeiro da equipa.
+Corresponde a um subconjunto das [393.05.NUM] (reuniões de formação efetivamente realizadas).
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+25
+393.08.VAR2
+Somatório do nº de enfermeiros da equipa que participou em cada uma das reuniões 
+         de formação ocorridas durante o ano de contratualização
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+26
+393.08.VAR3
+Nº médio de enfermeiros da equipa
+Fórmula:
+[Nº médio de enfermeiros da equipa] = ([nº de enfermeiros em janeiro] + [nº de 
+         enfermeiros em fevereiro] + ... + [nº de enfermeiros em dezembro]) / 12
+Valor real
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Automático
+2017
+--
+27
+393.08.RES
+Proporção de enfermeiros envolvidos em reuniões formativas enquanto formandos
+Fórmula:
+(100 x [393.08.VAR2]) / ([393.08.VAR1] x [393.08.VAR3])
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2017
+--
+28
+393.08.META
+Meta para ""Proporção de enfermeiros envolvidos em reuniões formativas enquanto 
+         formandos""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2017
+--
+29
+393.08.CUMPRE
+Cumpriu meta para ""Proporção de enfermeiros envolvidos em reuniões formativas 
+         enquanto formandos""?
+Se [393.08.RES] >= [393.08.META], [393.08.CUMPRE] = ""C""
+Caso contrário, [393.08.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2017
+--
+30
+393.08.ELEG
+O critério ""Proporção de enfermeiros envolvidos em reuniões formativas enquanto 
+         formandos"" é elegível para avaliar a unidade funcional no presente ano de 
+         contratualização?
+Nota: O critério pode não ser elegível em unidades funcionais sem enfermeiros. Se não for elegível, não será avaliada por este critério.
+S - Sim
+N - Não
+Sim
+Não
+Unidade funcional
+2017
+--
+31
+393.09.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 secretário clínico da equipa.
+Corresponde a um subconjunto das [393.05.NUM] (reuniões de formação efetivamente realizadas).
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP 
+         USP e URAP -
+         Sim
+Em UCC - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+32
+393.09.VAR2
+Somatório do nº de secretários clínicos da equipa que participou em cada uma das 
+         reuniões de formação ocorridas durante o ano de contratualização
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP USP e URAP -
+         Sim
+Em UCC - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2017
+--
+33
+393.09.VAR3
+Nº médio de secretários clínicos da equipa
+Fórmula:
+[Nº médio de secretários clínicos da equipa] = ([nº de secretários clínicos em 
+         janeiro] + [nº de secretários clínicos em fevereiro] + ... + [nº de secretários 
+         clínicos em dezembro]) / 12
+Valor real
+Em USF, UCSP USP e URAP -
+         Sim
+Em UCC - Não
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Automático
+2017
+--
+34
+393.09.RES
+Proporção de secretários clínicos envolvidos em reuniões formativas enquanto 
+         formandos
+Fórmula:
+(100 x [393.09.VAR2]) / ([393.09.VAR1] x [393.09.VAR3])
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2017
+--
+35
+393.09.META
+Meta para ""Proporção de secretários clínicos envolvidos em reuniões formativas 
+         enquanto formandos""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2017
+--
+36
+393.09.CUMPRE
+Cumpriu meta para ""Proporção de secretários clínicos envolvidos em reuniões 
+         formativas enquanto formandos""?
+Se [393.09.RES] >= [393.09.META], [393.09.CUMPRE] = ""C""
+Caso contrário, [393.09.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2017
+--
+37
+393.09.ELEG
+O critério ""Proporção de secretários clínicos envolvidos em reuniões formativas 
+         enquanto formandos"" é elegível para avaliar a unidade funcional no presente ano 
+         de contratualização?
+Nota: O critério pode não ser elegível em unidades funcionais sem secretários clínicos. Se não for elegível, não será avaliada por este critério.
+S - Sim
+N - Não
+Sim
+Não
+Unidade funcional
+2017
+--
+38
+393.12.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 profissional de saúde (fisioterapêuta, psicólogo, 
+         higienista oral, etc) da equipa.
+Corresponde a um subconjunto das [393.05.NUM] (reuniões de formação efetivamente realizadas).
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP 
+         e UCC - Não
+Em 
+         USP e URAP - Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2019
+--
+39
+393.12.VAR2
+Somatório do nº 
+         de ""outros profissionais de saúde"" da equipa (fisioterapêuta, psicólogo, 
+         higienista oral, etc) que participaram em cada uma das 
+         reuniões de formação ocorridas durante o ano de contratualização
+Numéricos inteiros iguais ou superiores a 0
+Em USF, UCSP e UCC - Não
+Em USP e URAP - Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título, 
+         entidade que organizou e nº de participantes por grupo profissional
+Unidade funcional
+2019
+--
+40
+393.12.VAR3
+Nº médio de ""outros profissionais de saúde"" da equipa
+Fórmula:
+[Nº médio de ""outros profissionais 
+         de saúde"" da equipa] = ([nº de ""outros profissionais de saúde"" em 
+         janeiro] + [nº de ""outros profissionais de saúde"" em fevereiro] + ... + [nº de 
+         ""outros profissionais de saúde"" em dezembro]) / 12
+Valor real
+Em USF, UCSP e UCC - Não
+Em USP e URAP - Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Automático
+2019
+--
+41
+393.12.RES
+Proporção de ""outros profissionais de saúde"" envolvidos em reuniões formativas enquanto 
+         formandos
+Fórmula:
+(100 x [393.12.VAR2]) / ([393.12.VAR1] x [393.12.VAR3])
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2019
+--
+42
+393.12.META
+Meta para ""Proporção de outros 
+         profissionais de saúde envolvidos em reuniões formativas 
+         enquanto formandos""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2019
+--
+43
+393.12.CUMPRE
+Cumpriu meta para ""Proporção de outros 
+         profissionais de saúde envolvidos em reuniões 
+         formativas enquanto formandos""?
+Se [393.12.RES] >= [393.12.META], [393.12.CUMPRE] = ""C""
+Caso contrário, [393.12.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2019
+--
+44
+393.12.ELEG
+O critério ""Proporção de outros 
+         profissionais de saúde envolvidos em reuniões formativas 
+         enquanto formandos"" é elegível para avaliar a unidade funcional no presente ano 
+         de contratualização?
+Nota: O critério pode não ser elegível em unidades funcionais sem este tipo de profissionais nas equipas (por exemplo USF/UCSP). Se não for elegível, não será avaliada por este critério.
+S - Sim
+N - Não
+Sim
+Não
+Unidade funcional
+2019
+--
+45
+393.10.DEN
+Nº de ações de formação externas ocorridas durante o ano de contratualização.
+Contabilizar ações de formação ocorridas fora das instalações da unidade 
+         funcional em que tenha existido autorização formal para a participação de 1 ou 
+         mais elementos da equipa
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, lista de reuniões com data e hora de início, data e hora de fim, título e 
+         entidade que organizou
+Unidade funcional
+2017
+--
+46
+393.10.NUM
+Nº de ações de formação externas ocorridas durante o ano de contratualização 
+         entre as elegíveis para [393.05.DEN] em que ocorreu partilha dos conteúdos com 
+         restantes elementos do grupo profissional da equipa em reunião interna
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim, acta das reuniões em que ocorreu a partilha
+Unidade funcional
+2017
+--
+47
+393.10.RES
+Proporção de [reuniões com partilha] / [total das reuniões formativas externas]
+Fórmula:
+100 x [393.10.NUM] / [393.10.DEN]
+Valor numérico real pertencente ao intervalo [0; 100]
+Sim
+Não
+Automático
+2017
+--
+48
+393.10.META
+Meta para ""Proporção de [reuniões com partilha] / [total das reuniões formativas 
+         externas]""
+Valor numérico real pertencente ao intervalo [0; 100]
+Não
+Não
+Unidade funcional
+2017
+--
+49
+393.10.CUMPRE
+Cumpriu meta para ""Proporção de [reuniões com partilha] / [total das reuniões 
+         formativas externas]""?
+Se [393.10.RES] >= [393.10.META], [393.10.CUMPRE] = ""C""
+Caso contrário, [393.10.CUMPRE] = ""NC""
+C - Cumpre
+NC - Não cumpre
+Não
+Não
+Automático
+2017
+--
+50
+393.10.ELEG
+O critério ""Proporção de [reuniões com partilha] / [total das reuniões 
+         formativas externas]"" é elegível para avaliar a unidade funcional no presente 
+         ano de contratualização?
+S - Sim
+N - Não
+Sim
+Não
+Unidade funcional
+2017
+--
+51
+393.11
+Contagem das variáveis usadas para definir a elegibilidade de critérios (códigos 
+         [393.05.ELEG], [393.06.ELEG], [393.07.ELEG], [393.08.ELEG], [393.09.ELEG], 
+         [393.10.ELEG] e [393.12.ELEG]) que têm registo ""S""
+Valor inteiro igual ou superior a 0
+Sim
+Não
+Automático
+2017
+--
+52
+393.12
+Contagem dos critérios elegíveis e cumpridores
+Para que um critério XX seja contabilizado, a variável [393.XX.ELEG] deve ser 
+         igual a ""S"" e a variável [393.XX.CUMPRE] deve ser igual a ""C"".
+Valor inteiro igual ou superior a 0
+Sim
+Não
+Automático
+2017
+--
+53
+393.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+Data no formato dd-mm-yyyy
+Sim
+Não
+Automático
+2017
+--
+54
+393.DATA.C.FIM
+Último dia do ano de contratualização
+Data no formato dd-mm-yyyy
+Sim
+Não
+Automático
+2017
+--
+CRITÉRIOS PARA AVALIAÇÃO DA CHECKLIST PARA ATRIBUIÇÃO DE 0, 1 OU 2 PONTOS AO 
+    RESULTADO DO INDICADOR
+O resultado do presente indicador é definido pelas condições seguintes:
+Critério
+Condição
+Resultado
+A unidade funcional 
+         cumpre todos os requisitos pré-definidos e tem avaliação positiva da sua 
+         execução em todos os itens definidos na metodologia de avaliação.
+Obtém 2 pontos como resultado no indicador (score)
+A condição [A e B e C e D e E e 
+         F] for verdadeira:
+A. [393.01] = ""C""
+B. [393.02] = ""C""
+C. [393.03] = ""C""
+D. [393.04] = ""C""
+E. [393.11] >= 4
+F. [393.12] = [393.11]
+2
+A unidade funcional 
+         cumpre todos os requisitos pré-definidos e tem avaliação positiva da sua 
+         execução em pelo menos 50% dos itens definidos na metodologia de avaliação.
+Obtém 1 ponto como resultado no indicador (score)
+A condição [A e B e C e D e E e 
+         F e G] for verdadeira:
+A. [393.01] = ""C""
+B. [393.02] = ""C""
+C. [393.03] = ""C""
+D. [393.04] = ""C""
+E. [393.11] >= 4
+F. [393.12] < [393.11]
+G. [393.12] >= 0.5 x [393.11]
+1
+A unidade funcional não cumpre critérios para ter 2 pontos nem para ter 1 ponto.
+Adicionalmente o dia de recolha das variáveis da
+checklist
+para o cálculo do 
+         indicador ultrapassa o último dia do ano de contratualização.
+A condição [A e B] é verdadeira:
+A. Não cumpre critérios para ter 2 pontos;
+B. Não cumpre critérios para ter 1 ponto
+0"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades 
+        adicionais associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencentes ao conjunto {-1, 0, 1, 2}, não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+Quando o resultado é igual a ""-1"", tal significa que não estão reunidas as 
+    condições para calcular o indicador pelo que a ponderação da dimensão na subárea 
+    é distribuída pelas restantes dimensões da mesma subárea, tal como definido na 
+    legislação aplicável ao cálculo do IDG.
+C02
+IDS da dimensão ""formação da equipa multiprofissional""
+O [IDS da dimensão ""formação da equipa multiprofissional""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""formação da equipa multiprofissional""] = 100 x [Score dimensão ""formação 
+    da equipa multiprofissional""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO, 
+    registadas pela unidade funcional.
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --
+Exemplo de Cálculo
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Unidade funcional que já preencheu o RAUF relativamente ao ano de 
+    2018.
+Data de referência do indicador a ser calculado: dezembro de 2018.
+Data de recolha das variáveis: 05-01-2019
+ID
+Código da Variável
+Nome da Variável / definição da variável / fórmula
+Valor
+1
+393.01
+Tem plano de formação que identifica as necessidades formativas, designadamente 
+         a sua relação com as restantes áreas e dimensões do Plano de Ação
+C
+2
+393.02
+O plano de formação abrange todos os grupos profissionais
+C
+3
+393.03
+O plano de formação identifica os objetivos, as atividades, cronograma, 
+         formadores (internos e externos) e os destinatários
+C
+4
+393.04
+O plano de formação define a metodologia de avaliação.
+C
+5
+393.05.DEN
+Nº de reuniões ocorridas durante o ano de contratualização.
+Contabilizar quer reuniões apenas entre elementos da equipa quer reuniões 
+         externas em que tenha existido autorização formal para a participação de 1 ou 
+         mais elementos da equipa
+50
+6
+393.05.NUM
+Nº de reuniões de formação ocorridas durante o ano de contratualização entre as 
+         elegíveis para [393.05.DEN].
+25
+7
+393.05.RES
+Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas.
+Fórmula:
+100 x [393.05.NUM] / [393.05.DEN]
+50
+8
+393.05.META
+Meta para ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]""
+45
+9
+393.05.CUMPRE
+Cumpriu meta para ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]""?
+Se [393.05.RES] >= [393.05.META], [393.05.CUMPRE] = ""C""
+Caso contrário, [393.05.CUMPRE] = ""NC""
+C
+10
+393.05.ELEG
+O critério ""Proporção de reuniões com carácter formativo entre o total das reuniões ocorridas - [393.05.RES]"" é 
+         elegível para avaliar a unidade funcional no presente ano de contratualização?
+S
+11
+393.06.DEN
+Nº de reuniões de formação programadas para ocorrer durante o ano de 
+         contratualização.
+Contabilizar quer reuniões apenas entre elementos da equipa quer reuniões 
+         externas em que tenha se prevista a participação de 1 ou mais elementos da equipa.
+30
+12
+393.06.NUM
+Nº de reuniões de formação ocorridas durante o ano de contratualização entre as 
+         elegíveis para [393.06.DEN].
+25
+13
+393.06.RES
+Proporção de [reuniões formativas realizadas] / [total reuniões formativas 
+         programadas]
+Fórmula:
+100 x [393.06.NUM] / [393.06.DEN]
+83,3
+14
+393.06.META
+Meta para ""Proporção de [reuniões formativas realizadas] / [total reuniões 
+         formativas programadas]""
+80
+15
+393.06.CUMPRE
+Cumpriu meta para ""Proporção de [reuniões formativas realizadas] / [total 
+         reuniões formativas programadas]""?
+Se [393.06.RES] >= [393.06.META], [393.06.CUMPRE] = ""C""
+Caso contrário, [393.06.CUMPRE] = ""NC""
+C
+16
+393.06.ELEG
+O critério ""Proporção de [reuniões formativas realizadas] / [total reuniões 
+         formativas programadas]"" é elegível para avaliar a unidade funcional no presente 
+         ano de contratualização?
+S
+17
+393.07.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 médico da equipa
+15
+18
+393.07.VAR2
+Somatório do nº de médicos da equipa que participou em cada uma das reuniões de 
+         formação ocorridas durante o ano de contratualização
+55
+19
+393.07.VAR3
+Nº médio de médicos da equipa
+Fórmula:
+[Nº médio de médicos da equipa] = ([nº de médicos em janeiro] + [nº de médicos 
+         em fevereiro] + ... + [nº de médicos em dezembro]) / 12
+Nota: Os internos não devem ser contabilizados.
+8
+20
+393.07.RES
+Proporção de médicos envolvidos em reuniões formativas enquanto formandos
+Fórmula:
+(100 x [393.07.VAR2]) / ([393.07.VAR1] x [393.07.VAR3])
+45,83
+21
+393.07.META
+Meta para ""Proporção de médicos envolvidos em reuniões formativas enquanto 
+         formandos""
+45
+22
+393.07.CUMPRE
+Cumpriu meta para ""Proporção de médicos envolvidos em reuniões formativas 
+         enquanto formandos""?
+Se [393.07.RES] >= [393.07.META], [393.07.CUMPRE] = ""C""
+Caso contrário, [393.07.CUMPRE] = ""NC""
+C
+23
+393.07.ELEG
+O critério ""Proporção de médicos envolvidos em reuniões formativas enquanto 
+         formandos"" é elegível para avaliar a unidade funcional no presente ano de 
+         contratualização?
+S
+24
+393.08.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 enfermeiro da equipa
+8
+25
+393.08.VAR2
+Somatório do nº de enfermeiros da equipa que participou em cada uma das reuniões 
+         de formação ocorridas durante o ano de contratualização
+20
+26
+393.08.VAR3
+Nº médio de enfermeiros da equipa
+Fórmula:
+[Nº médio de enfermeiros da equipa] = ([nº de enfermeiros em janeiro] + [nº de 
+         enfermeiros em fevereiro] + ... + [nº de enfermeiros em dezembro]) / 12
+7
+27
+393.08.RES
+Proporção de enfermeiros envolvidos em reuniões formativas enquanto formandos
+Fórmula:
+(100 x [393.07.VAR2]) / ([393.07.VAR1] x [393.07.VAR3])
+35,7
+28
+393.08.META
+Meta para ""Proporção de enfermeiros envolvidos em reuniões formativas enquanto 
+         formandos""
+25
+29
+393.08.CUMPRE
+Cumpriu meta para ""Proporção de enfermeiros envolvidos em reuniões formativas 
+         enquanto formandos""?
+Se [393.07.RES] >= [393.07.META], [393.07.CUMPRE] = ""C""
+Caso contrário, [393.07.CUMPRE] = ""NC""
+C
+30
+393.08.ELEG
+O critério ""Proporção de enfermeiros envolvidos em reuniões formativas enquanto 
+         formandos"" é elegível para avaliar a unidade funcional no presente ano de 
+         contratualização?
+S
+31
+393.09.VAR1
+Nº de reuniões formativas ocorridas durante o ano de contratualização com a 
+         participação de pelo menos 1 secretário clínico da equipa
+5
+32
+393.09.VAR2
+Somatório do nº de secretários clínicos da equipa que participou em cada uma das 
+         reuniões de formação ocorridas durante o ano de contratualização
+10
+33
+393.09.VAR3
+Nº médio de secretários clínicos da equipa
+Fórmula:
+[Nº médio de secretários clínicos da equipa] = ([nº de secretários clínicos em 
+         janeiro] + [nº de secretários clínicos em fevereiro] + ... + [nº de secretários 
+         clínicos em dezembro]) / 12
+5
+34
+393.09.RES
+Proporção de secretários clínicos envolvidos em reuniões formativas enquanto 
+         formandos
+Fórmula:
+(100 x [393.07.VAR2]) / ([393.07.VAR1] x [393.07.VAR3])
+40
+35
+393.09.META
+Meta para ""Proporção de secretários clínicos envolvidos em reuniões formativas 
+         enquanto formandos""
+35
+36
+393.09.CUMPRE
+Cumpriu meta para ""Proporção de secretários clínicos envolvidos em reuniões 
+         formativas enquanto formandos""?
+Se [393.07.RES] >= [393.07.META], [393.07.CUMPRE] = ""C""
+Caso contrário, [393.07.CUMPRE] = ""NC""
+C
+37
+393.09.ELEG
+O critério ""Proporção de secretários clínicos envolvidos em reuniões formativas 
+         enquanto formandos"" é elegível para avaliar a unidade funcional no presente ano 
+         de contratualização?
+S
+38
+393.10.DEN
+Nº de ações de formação externas ocorridas durante o ano de contratualização.
+Contabilizar ações de formação ocorridas fora das instalações da unidade 
+         funcional em que tenha existido autorização formal para a participação de 1 ou 
+         mais elementos da equipa
+10
+39
+393.10.NUM
+Nº de ações de formação externas ocorridas durante o ano de contratualização 
+         entre as elegíveis para [393.05.DEN] em que ocorreu partilha dos conteúdos com 
+         restantes elementos do grupo profissional da equipa em reunião interna
+10
+40
+393.10.RES
+Proporção de [reuniões com partilha] / [total das reuniões formativas externas]
+Fórmula:
+100 x [393.10.NUM] / [393.10.DEN]
+100
+41
+393.10.META
+Meta para ""Proporção de [reuniões com partilha] / [total das reuniões formativas 
+         externas]""
+90
+42
+393.10.CUMPRE
+Cumpriu meta para ""Proporção de [reuniões com partilha] / [total das reuniões 
+         formativas externas]""?
+Se [393.10.RES] >= [393.10.META], [393.10.CUMPRE] = ""C""
+Caso contrário, [393.10.CUMPRE] = ""NC""
+C
+43
+393.10.ELEG
+O critério ""Proporção de [reuniões com partilha] / [total das reuniões 
+         formativas externas]"" é elegível para avaliar a unidade funcional no presente 
+         ano de contratualização?
+S
+44
+393.11
+Contagem das variáveis usadas para definir a elegibilidade de critérios (códigos 
+         [393.05.ELEG], [393.06.ELEG], [393.07.ELEG], [393.08.ELEG], [393.09.ELEG] e 
+         [393.10.ELEG]) que têm registo ""S""
+6
+45
+393.12
+Contagem dos critérios elegíveis e cumpridores
+Para que um critério XX seja contabilizado, a variável [393.XX.ELEG] deve ser 
+         igual a ""S"" e a variável [393.XX.CUMPRE] deve ser igual a ""C"".
+6
+46
+393.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+05-01-2019
+47
+393.DATA.C.FIM
+Último dia do ano de contratualização
+31-12-2018
+RESULTADO DO INDICADOR
+Os dados introduzidos na
+checklist
+permitem afirmar que a condição [A e B e C e D e E e 
+         F] for verdadeira:
+A. [393.01] = ""C""
+B. [393.02] = ""C""
+C. [393.03] = ""C""
+D. [393.04] = ""C""
+E. [393.11] >= 4
+F. [393.12] = [393.11]
+Assim, a unidade funcional 
+         cumpre todos os requisitos pré-definidos e tem avaliação positiva da sua 
+         execução em todos os itens definidos na metodologia de avaliação.
+Obtém 2 pontos como resultado no indicador (score)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
+Fórmula,Aplicação de checklist
+Unidade de medida,Score
+Output,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,Formação | Formação Interna | Formação da Equipa Multiprofissional
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

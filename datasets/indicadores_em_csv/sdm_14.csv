@@ -1,0 +1,83 @@
+titulo,texto
+ID,014
+Código,6.12.01
+Código SIARS,2013.014.01
+Nome abreviado,Proporção RN c/ cons. méd. vigil. até 28 dias vida
+Designação,Proporção de recém-nascidos com pelo menos uma consulta médica de vigilância realizada até aos 28 dias de vida
+Objetivo,Monitorizar a vigilância precoce dos recém-nascidos.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de recém-nascidos que efetuam a primeira consulta médica de vigilância na vida até aos 28 dias e o total de recém-nascidos inscritos.
+Numerador: Contagem de recém-nascidos com pelo menos uma consulta médica de vigilância nos primeiros 28 dias de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com pelo menos uma consulta médica de vigilância (contacto direto), nos primeiros 28 dias de vida (ver alíneas A, B, C e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2016.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise.
+B. Com [
+inscrição ativa
+] ou [esporádica] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 28 dias de vida (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 60 dias de vida (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2017.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise.
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 28 dias de vida (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] de recém-nascido, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+B. Contabilizam-se no numerador os domicílios médicos realizados a recém-nascidos.
+C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+D. Contabilizam-se crianças que se inscrevam antes do 28º dia de vida na unidade de saúde como esporádicas (p.e. por o nome ainda não estar registado na conservatória do registo civil), desde que o registo da [
+inscrição ativa
+] seja feito até ao 60º dia de vida e desde que se processe a uma alteração do registo de [inscrição esporádica] para [
+inscrição ativa
+] (ver conceito de [
+inscrição ativa
+]). Caso o procedimento seja o da anulação do registo ""esporádico"", com criação de um novo registo com [
+inscrição ativa
+, a criança será contabilizada no denominador mas a entrada para o numerador fica dependente da existência de uma consulta médica de vigilância associada a esta novo registo de utente. Assim, o prazo para registos neste indicador é de 30 dias por forma a possibilitar os registos de [
+inscrição ativa
+] até ao 60º dia de vida. Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+E. Se uma criança apenas se inscrever na unidade de saúde após os 28 dias de vida (p.e. por internamento hospitalar até aos 30 dias de vida), não é contabilizada no denominador (nem no numerador). Exceptuam-se os casos em que a própria maternidade efetua os registos no âmbito do ""Nascer Cidadão"", incluindo inscrição do recém-nascido no RNU, com posterior migração da informação para o SINUS (com data de inscrição na unidade de saúde igual à data do registo no âmbito do ""nascer cidadão""). Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+F. A partir de janeiro de 2017 o SIARS tem como fonte de dados para ""inscrição de utentes"" o RNU, que não contempla o conceito de ""inscrição esporádica"".
+G. Contabilizam-se consultas médicas registadas em qualquer unidade funcional do centro de saúde de inscrição do recém-nascido (regra válida para indicadores com data de referência igual ou posterior a janeiro de 2019)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. São incluídas crianças que completam 30 dias de vida nesse período.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento (D1) e termina ao 28º dia de vida (D28)
+.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador. São incluídas crianças que completam 30 dias de vida nesse período.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento (D1) e termina ao 28º dia de vida (D28)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [96.5; 100]
+Ano de 2023: [96.5; 100]
+Ano de 2024: [96.5; 100]"
+Intervalo Esperado,"Ano de 2022: [90; 100]
+Ano de 2023: [90; 100]
+Ano de 2024: [90; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias

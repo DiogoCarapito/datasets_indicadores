@@ -1,0 +1,57 @@
+titulo,texto
+ID,462
+Código,3.40.01
+Código SIARS,2023.462.01
+Nome abreviado,Tempo médio espera para 1ª consulta CICT no ACES
+Designação,Tempo médio de espera entre o pedido de consulta e a realização da 1ª consulta de apoio intensivo à cessação tabágica no ACES
+Objetivo,"Monitorizar a implementação da norma de atuação em consultas de apoio intensivo à cessação tabágica.
+Avaliar a eficiência dos serviços.
+Apoiar processos de governação clínica que possam conduzir à diminuição do consumo de tabaco nos utentes inscritos."
+Descrição do Indicador,"Indicador que exprime o tempo médio que decorre entre a referenciação ou a marcação para o programa de apoio intensivo à cessação tabágica (CICT) e a primeira consulta de CICT nos últimos 12 meses, no ACES.
+Numerador: Somatório de dias de espera entre pedido de CICT e a realização da 1ª consulta de apoio intensivo à cessação tabágica.
+Denominador: Contagem utentes com 1ª consulta de apoio intensivo à cessação tabágica nos últimos 12 meses."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do tempo decorrido entre o pedido ou referenciação para CICT e a data da 1ª consulta médica de apoio intensivo à cessação tabágica efetuada aos utentes identificados no denominador.
+Quando não existe registo de um pedido ou referenciação para CICT ou quando se está a medir o tempo até uma consulta de seguimento não precedida, durante 6 meses, de outras CICT, contabiliza-se o tempo decorrido entre a data/hora em que a consulta é agendada e a data/hora em que a consulta é realizada (ver alínea E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Registo de 1ª consulta de apoio intensivo à cessação tabágica, realizada por qualquer médico ou interno do ACES, em qualquer UF do ACES, nos últimos 12 meses (ver alíneas C e F de OBSERVAÇÕES GERAIS).
+C. Registo de consulta seguimento de apoio intensivo à cessação tabágica, realizada por qualquer médico ou interno do ACES, em qualquer UF do ACES, nos últimos 12 meses, ocorrida após pelo menos 6 meses sem consultas de CICT (ver alíneas C e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Este indicador pode ser medido para os seguintes tipos de unidades de observação: ACES, URAP, USF, UCSP, CS-SM, listas utentes de médicos e listas de utentes de enfermeiros.
+Em função do tipo de unidade de observação em avaliação, a [
+inscrição ativa
+] tem o domínio de análise a seguir especificado:
+- ACES - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES em análise.
+- URAP - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise.
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - Inscrição em qualquer código RNU na hierarquia de locais dependente da unidade funcional em análise.
+- Listas utentes de médico de uma UF - Inscrição no médico em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o médico em análise.
+- Listas de utentes de enfermeiro de uma UF - Inscrição no enfermeiro em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o enfermeiro em análise.
+B. O módulo de CICT do SClínico permite agrupar as consultas realizadas a cada utente em cada episódio de cuidados, entre a 1ª consulta realizada e a consulta onde é dada ""alta"". Para efeitos do presente indicador, considera-se que um novo episódio de cuidados se iniciou quando, determinada consulta de seguimento, é precedida por 6 ou mais meses sem CICT.
+C. A análise das CICT no DENOMINADOR é feita de forma independente da unidade de observação em análise no indicador, em todo o ACES.
+Em função do tipo de unidade de observação em avaliação, as CICT no DENOMINADOR têm o domínio de análise a seguir especificado:
+- ACES - CICT realizada em qualquer unidade funcional do ACES.
+- URAP - CICT realizada em qualquer unidade funcional do ACES (e não apenas na URAP).
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - CICT realizada em qualquer unidade funcional do ACES (e não apenas UF de inscrição dos utentes).
+- Listas utentes de médico de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no médico e UF de inscrição dos utentes).
+- Listas de utentes de enfermeiro de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no enfermeiro e UF de inscrição dos utentes).
+D. O tempo entre a referenciação ou agendamento e a consulta é medido em horas, somado para todos os utentes em horas, dividido pelo nº de utentes e finalmente reduzido para dias, arredondado a 2 casas decimais.
+E. O resultado deste indicador é dado pela fórmula seguinte:
+RESULTADO = NUMERADOR / DENOMINADOR_01 x 100"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de referenciação para CICT""): Duração de 24 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
+- Denominador (variável ""registo de 1ª consulta""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,DIA/UTE
+Output,Número médio de dias de espera
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,91 @@
+titulo,texto
+ID,027
+Código,6.01.01
+Código SIARS,2013.027.01
+Nome abreviado,"Proporção crianças 2A, c/ PNV cumprido até 2A"
+Designação,"Proporção de crianças com 2 anos, com PNV totalmente cumprido até ao 2º aniversário"
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 2 anos.
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com PNV totalmente cumprido na data do 2º aniversário, entre as que completam 2 anos.
+Numerador: Contagem de crianças com PNV totalmente cumprido na data do 2º aniversário.
+Denominador: Contagem de crianças que completam 2 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm o PNV totalmente cumprido às zero horas do dia em que completam 2 anos (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 2 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
+B. São incluídos no numerador, as crianças que à data de referência do indicador, tenham registos de inoculações de vacinas que permitam afirmar que às zero horas do dia em que completam 2 anos de idade, tinham o PNV totalmente cumprido pelo [esquema cronológico recomendado] ou pelo [esquema cronológico de recurso] adaptado à idade. Assim, as datas de inoculação devem ser anteriores à data do 2º aniversário de cada criança, mas as datas de registo podem ir até à data de referência do indicador.
+C. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
+D. Quando uma criança tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se uma criança tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
+E. Uma criança é incluída no numerador se a condição [AA e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK) e (LL ou MM) e (NN ou OO ou PP)] for verdadeira:
+AA. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 2º aniversário). Esta regra deixa de ser aplicável para indicadores com data de referência igual ou superior a maio de 2015 (por rotura de stock nacional da BCG a partir desse mês).
+BB. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+CC. Registo de [vacina contra hepatite B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+DD. Inoculação de [vacina contra Infeção por Haemofilus Influenzae b], realizada no intervalo [15; 24[ meses de idade, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[HAEM_INFL_B]
+).
+EE. Registo de [vacina contra Infeção por Haemofilus Influenzae b] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HAEM_INFL_B]
+).
+FF. Inoculação da 4ª dose (ou superior) de [vacina contra a difteria, tétano e tosse convulsa] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+).
+GG. Registo de [vacina contra a difteria, tétano e tosse convulsa] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+).
+HH. Inoculação da 3ª dose (ou superior) de [vacina contra a poliomielite] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+II. Registo de [vacina contra a poliomielite] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+JJ. Nas crianças nascidas antes de 1-12-2010, é necessária pelo menos uma inoculação de [vacina contra doença por Meningococcus serogrupo C] após a data do 1º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+); Nas crianças nascidas em 1-12-2010 ou depois, pelo menos uma inoculação de [vacina contra doença por Meningococcus serogrupo C] anterior à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+);
+KK. Registo de [vacina contra doença por Meningococcus serogrupo C] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+).
+LL. Inoculação de [vacina contra sarampo, parotidite epidémica e rubéola] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+MM. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+NN. Nascido antes de 1 de janeiro de 2015.
+OO. Inoculação da 3ª dose (ou superior) de [vacina contra infeção por Pneumococcus] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+).
+PP. Registo de [vacina contra infeção por Pneumococcus] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+).
+F. São incluídos no denominador deste indicador todos os utentes inscritos na unidade de observação à data de referência do indicador. O SIARS contabiliza no denominador também os utentes [excluídos] quer no módulo de vacinação do SINUS quer no RSE Vacinas;"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacinas do PNV""): Coincidente com os 2 primeiros anos de vida de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem [2, 3[ anos.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacinas do PNV""): Coincidente com os 2 primeiros anos de vida de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [2, 3[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

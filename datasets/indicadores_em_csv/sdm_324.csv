@@ -1,0 +1,349 @@
+titulo,texto
+ID,324
+Código,6.68.01
+Código SIARS,2016.324.01
+Nome abreviado,Taxa de internamento por hipertensão arterial
+Designação,Taxa de internamento por hipertensão arterial
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP a utentes com hipertensão arterial, no respetivo controlo e prevenção de complicações, usando como medida a ""taxa de internamento hospitalar com diagnóstico principal relacionado com hipertensão arterial"". Ver alíneas F, G e H de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos hospitalares com diagnóstico principal de ""hipertensão arterial"", por cada 100.000 residentes com 18 ou mais anos.
+Numerador: Contagem episódios de internamento hospitalar com diagnóstico principal de ""hipertensão arterial"".
+Denominador: Contagem de utentes residentes com 18 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de internamentos hospitalares em que a expressão [A e B e C e D e E e F e G e H e I] é verdadeira:
+A. Referentes a utentes internados com data de alta incluída no período em análise (ver alínea K de OBSERVAÇÕES GERAIS);
+B. Internados com duração superior a 24 horas (ver alínea K de OBSERVAÇÕES GERAIS);
+C. Não são considerados os utentes transferidos de outros hospitais.
+D. Na data de admissão têm 18 ou mais anos;
+E. O registo da freguesia de residência no internamento hospitalar pertence à área de abrangência da unidade de observação em análise (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS);
+F. O utente internado tem diagnóstico principal compatível com ""hipertensão arterial"" (ver alíneas A e J de OBSERVAÇÕES GERAIS).
+G. Sem registos de procedimentos cardíacos (ver alíneas B e J de OBSERVAÇÕES GERAIS).
+H. Sem registos de doença hipertensiva renal (ver alíneas C e J de OBSERVAÇÕES GERAIS) simultaneamente com procedimentos de ""acesso de diálise"" (ver alíneas D e J de OBSERVAÇÕES GERAIS).
+I. Excluem-se episódios de internamento por gravidez, parto e puerpério.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas E, F, G, H e I de OBSERVAÇÕES GERAIS).
+B. Com 18 ou mais anos."
+Observações Gerais,"A. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""hipertensão arterial"":
+ICD-10-CM:
+I10 - Essential (primary) hypertension
+I119 - Hypertensive heart disease without heart failure
+I129 - Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+I1310 - Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+ICD-9-CM:
+4010 - Hipertensão essencial especificada como maligna
+4019 - Hipertensão essencial não especificada como maligna ou benigna
+40200 - Doença cardíaca hipertensiva maligna sem insuficiencia cardíaca
+40210 - Doença cardíaca hipertensiva benigna sem insuficiencia cardíaca
+40290 - Doença cardíaca hipertensiva não especificada, sem insuficiencia cardíaca
+40300 - Doença do rim, hipertensiva maligna, com doença crónica, estadio I-IV ou n/especificada
+40310 - Doença renal hipertensiva benigna, com doença crónica, estadio I-IV ou n/especificada
+40390 - Doença renal hipertensiva não especificada, com doença crónica, estadio I-IV ou n/especifi
+40400 - Doença hipertensiva cardio-renal, maligna, s/insuf.card c/drc est.I-IV ou n/especificada
+40410 - Doença hipertensiva cardio-renal, benigna, s/insuf.card c/drc est.I-IV ou n/especificada
+40490 - Doença hipertensiva cardio-renal, n/especif s/insuf.card c/drc est.I-IV ou n/especificada
+B. Consideram-se os seguintes códigos de procedimento ICD-9-CM e ICD-10-CM para ""procedimento cardíaco"":
+ICD-10-CM:
+Códigos disponíveis em
+https://www.qualityindicators.ahrq.gov/Downloads/Modules/PQI/V60-ICD10/TechSpecs/PQI_Appendix_B.pdf
+ICD-9-CM:
+0050 - Implant.pacem.ressincróniz.card. s/menção desfibril., sist.total
+0051 - Implant.desfibrilador ressincrónização cardíaca, sistema total
+0052 - Implant./subst. electr.transv. no sist.venoso coronar.ventr.esq.
+0053 - Implant./subst. de gerador impulsos de pacemaker ressincr. card.
+0054 - Implant./subst. de gerador impulsos de desfibr.ressincr.cardiaco
+0056 - Ins/subst sensor pressão implant c/terminal p/monit.hemod.intracard ou gr. vasos
+0057 - Impl/subst disp subcut p/ monitor.hemodin. intracard ou gr.vaso
+0066 - Angioplastia coronaria percutanea transluminal [ptca]
+1751 - Implant de disposit recarreg modulação contract card sist total
+1752 - Implant/subst disp recarreg modulação contract card gerad apenas
+1755 - Aterectomia coronaria transluminal
+3500 - Valvotomia fechada do coração, válvula não especificada
+3501 - Valvotomia fechada do coração, válvula ãortica
+3502 - Valvotomia fechada do coração, válvula mitral
+3503 - Valvotomia fechada do coração, válvula pulmonar
+3504 - Valvotomia fechada do coração, válvula tricuspida
+3505 - Substituição endovascular da válvula ãortica
+3506 - Substituição trans-apical da válvula ãortica
+3507 - Substituição endovascular da válvula pulmonar
+3508 - Substituição trans-apical da válvula pulmonar
+3509 - Substituição endovascular de válvula cardíaca SOE
+3510 - Valvuloplastia a ceu aberto de válvula n/especif s/substituição
+3511 - Valvuloplastia a ceu aberto da válvula ãortica sem substituição
+3512 - Valvuloplastia a ceu aberto da válvula mitral sem substituição
+3513 - Valvuloplastia a ceu aberto da válvula pulmonar sem substituição
+3514 - Valvuloplastia a ceu aberto da válvula tricuspida sem substituic
+3520 - Substituição aberta e/ou NCOP de válvula cardíaca SOE
+3521 - Substituição aberta e/ou NCOP de valv ula ãortica c/enxerto de tecido
+3522 - Substituição aberta e/ou NCOP da válvula ãortica
+3523 - Substituição aberta e/ou NCOP da válvula mitral c/enxerto de tecido
+3524 - Substituição aberta e/ou NCOP da válvula mitral
+3525 - Substituição aberta e/ou NCOP da válvula pulmonar c/enxerto de tecido
+3526 - Substituição aberta e/ou NCOP da válvula pulmonar
+3527 - Substituição aberta e/ou NCOP da válvula tricuspide c/enxerto de tecido
+3528 - Substituição aberta e/ou NCOP da válvula tricuspide
+3531 - Operações no musculo papilar
+3532 - Operações nas cordas tendinosas
+3533 - Aneloplastia
+3534 - Infundibulectomia
+3535 - Operações nas cordas trabeculares do coração
+3539 - Operações em estroturas NCOP adjacentes as válvulas cardíacas
+3541 - Alargamento de defeito existente no septo auricular tecnica de r
+3542 - Criação de defeito septal no coração
+3550 - Reparação de defeito septal cardiaco não especificado com protes
+3551 - Reparação de defeito do septo auricular com protese tecnica aber
+3552 - Reparação de defeito do septo auricular com protese tecnica fech
+3553 - Reparação a ceu aberto de defeito do septo ventricular c/protese
+3554 - Reparação de defeito de coxim endocardico com protese
+3555 - Reparação fechada de defeito do septo ventricular, com protese
+3560 - Reparação de defeito septal do coração não especificado com enxe
+3561 - Reparação de defeito do septo auricular com enxerto de tecido
+3562 - Reparação de defeito do septo ventricular com enxerto de tecido
+3563 - Reparação de defeito do coxim endocardico
+3570 - Reparação NCOP ou n/espec de defeito septal cardiaco não especif
+3571 - Reparação NCOP ou não especificada de defeito do septo auricular
+3572 - Reparação NCOP ou não especificada de defeito do septo ventricul
+3573 - Reparação NCOP ou não especificada de defeito do coxim endocardi
+3581 - Reparação total de tetralogia de fallot
+3582 - Reparação total de retorno venoso pulmonar anomalo total
+3583 - Reparação total do troncus arteriosus
+3584 - Correcção total de transposição dos grandes vasos, NCOP
+3591 - Transposição interauricular de retorno venoso baffle
+3592 - Criação de canal entre o ventriculo direito e a arteria pulmonar
+3593 - Criação de canal entre o ventriculo esquerdo e a ãorta
+3594 - Criação de canal entre a auricula e a arteria pulmonar
+3595 - Revisão de actos cirurgicos correctivos no coração
+3596 - Valvuloplastia percutanea com balão
+3597 - Reparação percutanea da válvula mitral com implante
+3598 - Intervenções nos septos cardiacos NCOP
+3599 - Intervenções nas válvulas cardíacas NCOP
+3601 - Angiopl.percut.translum. 1 coron. ou aterect.coron.,s/m/ag.tromb
+3602 - Angiopl.percut.translum. 1 coron.,ou aterect.coron.,c/ag.trombol
+3603 - Angioplastia de arteria coronaria, por toracotomia
+3604 - Infusão de agente trombolitico em arteria coronaria
+3605 - Angiopl.percut.translum. var.coron. ou ater.cor.,num acto operat
+3606 - Inserção de stent(s) n/diluidores de farmacos em arteria coronar
+3607 - Inserção de stent(s) coronario(s) diluidores de farmacos
+3609 - Remoção de obstrução de arteria coronaria, NCOP
+3610 - Bypass ãortocoronario p/revasc coração, n/especific outro modo
+3611 - Bypass (ãorto)coronario de uma arteria coronaria
+3612 - Bypass (ãorto)coronario de duas arterias coronarias
+3613 - Bypass (ãorto)coronario de tres arterias coronarias
+3614 - Bypass (ãorto)coronario de quatro ou mais arterias coronarias
+3615 - Bypass simples da arteria mamaria interna a coronaria
+3616 - Bypass duplo da arteria mamaria interna a coronaria
+3617 - Bypass arterial abdomino-coronario
+3619 - Bypass para revascularização do coração NCOP
+362 - Revascularização do coração por implante arterial
+363 - Revascularizações do coração NCOP
+3631 - Revascularização transmiocardica a ceu aberto
+3632 - Revascularização transmiocardica NCOP
+3633 - Revascularização transmiocardica endoscopia
+3634 - Revascularização transmiocardica percutanea
+3639 - Revascularização cardíaca NCOP
+3691 - Reparação de aneurisma de vaso coronario
+3699 - Intervenção cirurgica nos vasos do coração NCOP
+3731 - Pericardiectomia
+3732 - Excisão de aneurisma do coração
+3733 - Excisão/destruição de lesão/tecido NCOP coração, cirurgia aberta
+3734 - Excisão/destruição endovascular de lesão/tecido NCOP coração
+3735 - Ventriculectomia parcial
+3736 - Excisão, destruição e/ou exclusão do apendice da auricula esquerda (laa)
+3737 - Excisão ou destruição toracoscopica de lesão/tecido coração NCOP
+3741 - Implantação dispositivo protesico suporte card a volta do coraca
+375 - Procedimentos de substituição do coração
+3751 - Transplantação cardíaca
+3752 - Implantação de coração [artificial] biventricular interno total
+3753 - Subst/reparação unid.toracica sist substituição (total) coração
+3754 - Subst/repar. compon.implant.NCOP sist.substit. (total) coração
+3755 - Remoção de sistema biventricular interno de substituição coração
+3760 - Implantação/inserção sistema biventricular ext assist ão coração
+3761 - Implante de balão de pulsação
+3762 - Inserção dispositivo extracorp temp n/implant assist circulatori
+3763 - Reparação de sistema de assistência ão coração
+3764 - Remoção dispositivo(s) ou sistema(s) ext assistência ão coração
+3765 - Implant sist (extracorp) ventriculo unico assistência ão coração
+3766 - Inserção de sistema implantável de assistência ão coração
+3770 - Inserção inicial de terminal de pacemaker [electrodo], SOE
+3771 - Inserção inicial de terminal transvenoso de pacemaker no ventric
+3772 - Inserção inicial term.transven.de pacemaker na auricula e ventri
+3773 - Inserção inicial terminal transvenoso de pacemaker na auricula
+3774 - Inserção ou substituição de terminal de pacemaker no epicardio
+3775 - Revisão de terminal de pacemaker [electrodo]
+3776 - Substit. terminal transvenoso auricular e/ou ventric. pacemaker
+3777 - Remoção de terminais de pacemaker [electrodos], sem substituição
+3778 - Inserção de pacemaker temporario transvenoso
+3779 - Revisão ou mudanca de sitio da bolsa do pacemaker
+3780 - Inserção inicial ou subst.pacemaker, n/espec.como ritmo-reactivo
+3781 - Inserc.inicial pacemaker camara simples n/esp.como ritmo-reactiv
+3782 - Inserção inicial de pacemaker de camara simples, ritmo-reactivo
+3783 - Inserção inicial de pacemaker de camara dupla
+3785 - Substit.qualquer tipo pacemaker camara simp,n/esp.c/ritmo-reacti
+3786 - Subst. de qualquer tipo pacemaker camara simples, ritmo-reactivo
+3787 - Substituição de qualquer tipo de pacemaker com camara dupla
+3789 - Revisão ou remoção de pacemaker
+3794 - Implantação ou substit.cardioversor/desfibr.autom, sistema total
+3795 - Implantação de cardioversor/desfibr. automat.,apenas termin(ais)
+3796 - Implantação cardiovers./desfribilador autom.,so gerador impulsos
+3797 - Substituição cardioversor/desfribilador autom., so terminal(ais)
+3798 - Substituição cardiovers./desfribilador autom.,so gerador impulso
+3826 - Inserção sensor pressão implant s/terminal p/monit.hemod.intracard ou gr. vaso
+C. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""doença hipertensiva renal"":
+ICD-10-CM:
+I129 - Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+I1310 - Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+ICD-9-CM:
+40300 - Doença do rim, hipertensiva maligna, com doença crónica, estadio I-IV ou n/especificada
+40310 - Doença renal hipertensiva benigna, com doença crónica, estadio I-IV ou n/especificada
+40390 - Doença renal hipertensiva não especificada, com doença crónica, estadio I-IV ou n/especifi
+40400 - Doença hipertensiva cardio-renal, maligna, s/insuf.card c/drc est.I-IV ou n/especificada
+40410 - Doença hipertensiva cardio-renal, benigna, s/insuf.card c/drc est.I-IV ou n/especificada
+40490 - Doença hipertensiva cardio-renal, n/especif s/insuf.card c/drc est.I-IV ou n/especificada
+D. Consideram-se os seguintes códigos de procedimento ICD-9-CM e ICD-10-CM para ""acesso de diálise"":
+ICD-10-CM:
+031209D - Bypass Innominate Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031209F - Bypass Innominate Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03120AD - Bypass Innominate Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03120AF - Bypass Innominate Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03120JD - Bypass Innominate Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03120JF - Bypass Innominate Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03120KD - Bypass Innominate Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03120KF - Bypass Innominate Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03120ZD - Bypass Innominate Artery to Upper Arm Vein, Open Approach
+03120ZF - Bypass Innominate Artery to Lower Arm Vein, Open Approach
+031309D - Bypass Right Subclavian Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031309F - Bypass Right Subclavian Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03130AD - Bypass Right Subclavian Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03130AF - Bypass Right Subclavian Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03130JD - Bypass Right Subclavian Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03130JF - Bypass Right Subclavian Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03130KD - Bypass Right Subclavian Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03130KF - Bypass Right Subclavian Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03130ZD - Bypass Right Subclavian Artery to Upper Arm Vein, Open Approach
+03130ZF - Bypass Right Subclavian Artery to Lower Arm Vein, Open Approach
+031409D - Bypass Left Subclavian Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031409F - Bypass Left Subclavian Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03140AD - Bypass Left Subclavian Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03140AF - Bypass Left Subclavian Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03140JD - Bypass Left Subclavian Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03140JF - Bypass Left Subclavian Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03140KD - Bypass Left Subclavian Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03140KF - Bypass Left Subclavian Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03140ZD - Bypass Left Subclavian Artery to Upper Arm Vein, Open Approach
+03140ZF - Bypass Left Subclavian Artery to Lower Arm Vein, Open Approach
+031509D - Bypass Right Axillary Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031509F - Bypass Right Axillary Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03150AD - Bypass Right Axillary Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03150AF - Bypass Right Axillary Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03150JD - Bypass Right Axillary Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03150JF - Bypass Right Axillary Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03150KD - Bypass Right Axillary Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03150KF - Bypass Right Axillary Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03150ZD - Bypass Right Axillary Artery to Upper Arm Vein, Open Approach
+03150ZF - Bypass Right Axillary Artery to Lower Arm Vein, Open Approach
+031609D - Bypass Left Axillary Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031609F - Bypass Left Axillary Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03160AD - Bypass Left Axillary Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03160AF - Bypass Left Axillary Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03160JD - Bypass Left Axillary Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03160JF - Bypass Left Axillary Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03160KD - Bypass Left Axillary Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03160KF - Bypass Left Axillary Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03160ZD - Bypass Left Axillary Artery to Upper Arm Vein, Open Approach
+03160ZF - Bypass Left Axillary Artery to Lower Arm Vein, Open Approach
+031709D - Bypass Right Brachial Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031709F - Bypass Right Brachial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03170AD - Bypass Right Brachial Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03170AF - Bypass Right Brachial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03170JD - Bypass Right Brachial Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03170JF - Bypass Right Brachial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03170KD - Bypass Right Brachial Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03170KF - Bypass Right Brachial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03170ZD - Bypass Right Brachial Artery to Upper Arm Vein, Open Approach
+03170ZF - Bypass Right Brachial Artery to Lower Arm Vein, Open Approach
+031809D - Bypass Left Brachial Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach
+031809F - Bypass Left Brachial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03180AD - Bypass Left Brachial Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach
+03180AF - Bypass Left Brachial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03180JD - Bypass Left Brachial Artery to Upper Arm Vein with Synthetic Substitute, Open Approach
+03180JF - Bypass Left Brachial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03180KD - Bypass Left Brachial Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03180KF - Bypass Left Brachial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03180ZD - Bypass Left Brachial Artery to Upper Arm Vein, Open Approach
+03180ZF - Bypass Left Brachial Artery to Lower Arm Vein, Open Approach
+031909F - Bypass Right Ulnar Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+03190AF - Bypass Right Ulnar Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+03190JF - Bypass Right Ulnar Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+03190KF - Bypass Right Ulnar Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+03190ZF - Bypass Right Ulnar Artery to Lower Arm Vein, Open Approach
+031A09F - Bypass Left Ulnar Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+031A0AF - Bypass Left Ulnar Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+031A0JF - Bypass Left Ulnar Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+031A0KF - Bypass Left Ulnar Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+031A0ZF - Bypass Left Ulnar Artery to Lower Arm Vein, Open Approach
+031B09F - Bypass Right Radial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+031B0AF - Bypass Right Radial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+031B0JF - Bypass Right Radial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+031B0KF - Bypass Right Radial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+031B0ZF - Bypass Right Radial Artery to Lower Arm Vein, Open Approach
+031C09F - Bypass Left Radial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach
+031C0AF - Bypass Left Radial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach
+031C0JF - Bypass Left Radial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach
+031C0KF - Bypass Left Radial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach
+031C0ZF - Bypass Left Radial Artery to Lower Arm Vein, Open Approach
+03PY07Z - Removal of Autologous Tissue Substitute from Upper Artery, Open Approach
+03PY0JZ - Removal of Synthetic Substitute from Upper Artery, Open Approach
+03PY0KZ Removal of Nonautologous Tissue Substitute from Upper Artery, Open Approach
+03PY37Z - Removal of Autologous Tissue Substitute from Upper Artery, Percutaneous Approach
+03PY3JZ - Removal of Synthetic Substitute from Upper Artery, Percutaneous Approach
+03PY3KZ Removal of Nonautologous Tissue Substitute from Upper Artery, Percutaneous Approach
+03PY47Z - Removal of Autologous Tissue Substitute from Upper Artery, Percutaneous Endoscopic Approach
+03PY4JZ - Removal of Synthetic Substitute from Upper Artery, Percutaneous Endoscopic Approach
+03PY4KZ Removal of Nonautologous Tissue Substitute from Upper Artery, Percutaneous Endoscopic Approach
+03WY0JZ Revision of Synthetic Substitute in Upper Artery, Open Approach
+03WY3JZ Revision of Synthetic Substitute in Upper Artery, Percutaneous Approach
+03WY4JZ Revision of Synthetic Substitute in Upper Artery, Percutaneous Endoscopic Approach
+03WYXJZ Revision of Synthetic Substitute in Upper Artery, External Approach
+05HY33Z - Insertion of Infusion Device into Upper Vein, Percutaneous Approach
+06HY33Z - Insertion of Infusion Device into Lower Vein, Percutaneous Approach
+ICD-9-CM:
+3895 - Cateterização venosa para dialise renal
+3927 - Arteriovenostomia para dialise renal
+3929 - Shunt ou bypass vascular (periferico) NCOP
+3942 - Revisão de shunt arteriovenoso para hemodialise
+3943 - Remoção de shunt arteriovenoso para hemodialise
+3993 - Inserção da canula topo a topo
+3994 - Substituição de canula topo a topo
+E. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias.
+F. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+G. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 10.000 residentes estimados pelo INE, 2500 serão atribuídos à UF1 e 7500 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 5000 residentes estimados pelo INE, 4000 serão atribuídos à UF2 e 1000 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 11500 utentes residentes estimados por esta metodologia (7500 da freguesia X e 4000 da freguesia Y).
+Esta metodologia é aplicável não só às estimativas de residentes do INE (denominador) mas também à informação de internamentos cuja fonte é a base de dados de GDH, cujos dados são fornecidos agregados por freguesia.
+H. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) Idade da UF. Os resultados em saúde relacionados com o controlo da HTA medidos por este indicador não são imediatos.
+b) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+c) O nível de rigor no registo da freguesia de residência dos utentes internados. As UF com área de abrangência próxima de unidades de hospitalares de referência no tratamento e controlo da(s) patologias monitorizadas, podem ter um aumento do numerador se existirem utentes que para acederem aos cuidados hospitalares falseiam a respetiva morada para uma que possibilite o acesso.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias, da proximidade com hospitais e da respetiva idade. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+I. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (antes da data de referência do indicador).
+J. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+K. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
+https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador)."
+Fórmula,AA / BB x 100.000
+Unidade de medida,por 100.000
+Output,Taxa internamento (por 100.000 residentes por ano)
+Estado do indicador,Com dados desde Dezembro de 2013
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

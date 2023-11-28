@@ -1,0 +1,41 @@
+titulo,texto
+ID,206
+Código,2.12.09
+Código SIARS,MORB.206.01
+Nome abreviado,"Proporção de utentes c/ ""perturb. depressivas"""
+Designação,"Proporção de utentes com o diagnóstico de ""perturbação depressiva"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de perturbação depressiva"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""perturbação depressiva"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""perturbação depressiva"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""perturbação depressiva"" (rubrica ICPC P76) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alínea A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de P76 (ICPC-2): Distúrbio importante do estado de espírito no sentido da depressão. O estado de espírito, a energia e a atividade diminuem, assim como diminui a alegria, o interesse e a concentração. O sono e o apetite são normalmente alterados e a auto-estima e a confiança diminuem.
+C. O P76 inclui (ICPC-2): Psicose afectiva NE; neurose depressiva; psicose depressiva; misto de ansiedade e depressão; depressão reactiva; depressão pós-natal/puerperal.
+D. O P76 exclui (ICPC-2): Reacção aguda ao stress (P02 da ICPC-2).
+E. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

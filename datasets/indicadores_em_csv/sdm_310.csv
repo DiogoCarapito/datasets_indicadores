@@ -1,0 +1,198 @@
+titulo,texto
+ID,310
+Código,5.34.04
+Código SIARS,2015.310.01
+Nome abreviado,Índice realização exames laborat. 1º trim. grav.
+Designação,Índice de realização de exames laboratoriais do 1º trimestre na gravidez
+Objetivo,"Monitorização do cumprimento da norma de orientação clínica da DGS 37/2011 (revista em 20-12-2013) sobre ""Exames laboratoriais na gravidez de baixo risco"", em particular à componente da norma que se refere aos exames do 1º trimestre."
+Descrição do Indicador,"Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de realização de exames laboratoriais de gravidez durante o 1º trimestre (de acordo com a norma 37/2011 da DGS).
+Numerador: Somatório do ""score de realização de exames laboratoriais do 1º trimestre"" determinado para cada grávida. O ""score de realização de exames laboratoriais do 1º trimestre"" de cada grávida pode variar entre 0 e 1 de acordo com o número e qualidade dos exames realizados e com a ponderação definida para cada um deles.
+Denominador: Contagem de grávidas."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do ""score de realização de exames laboratoriais do 1º trimestre"" determinado para cada grávida incluída no denominador. O ""score de realização de exames laboratoriais do 1º trimestre"" de cada grávida pode variar entre 0 e 1 de acordo com o número e qualidade dos exames realizados e com a ponderação definida para cada um deles.
+O ""score de realização de exames laboratoriais do 1º trimestre"" é calculado apenas para os utentes incluídos no denominador, somando, para cada utente, as ponderações das regras a seguir discriminadas que sejam verdadeiras.
+Regra
+Descrição de Regra
+Ponder.
+Validade
+A
+Ter pelo menos um registo de resultado de [hemograma], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+B
+Ter pelo menos um registo de resultado de [tipagem ABO e Rh], entre a data de nascimento da grávida e o 98º dia de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+C
+Ter pelo menos um registo de resultado de [Pesquisa de aglutininas irregulares (teste de Coombs indireto)], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+D
+Ter pelo menos um registo de resultado de [Glicémia em jejum], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+E
+Ter pelo menos um registo de resultado de [VDRL], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+F
+A condição [F1 ou F2 ou (F3 e F4) ou F5] é verdadeira (ver alíneas A, B e G de OBSERVAÇÕES GERAIS):
+F1. Inoculação e registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola], com realização antes da [data de início da gravidez] e registo até 154º dia de gravidez (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+F2. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado], entre o nascimento da grávida e o 154º dia de gravidez (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+F3. Ter pelo menos um registo de resultado de [Serologia Rubéola - IgG], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+F4. Ter pelo menos um registo de resultado de [Serologia Rubéola - IgM], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+F5. Ter pelo menos um registo de resultado positivo de [Serologia Rubéola - IgG], com data de realização entre o nascimento da mulher e o final da 14ª semana de gravidez (dia 98 de gestação). Ver alínea L de OBSERVAÇÕES GERAIS.
+0,15
+Desde JAN-2023
+G
+A condição [G1 ou (G2 e G3)] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+G1. Registo de estado de [imune para a toxoplasmose] (serologia toxoplasmose - IgG positiva), com registo entre o nascimento da grávida e o 154º dia de gravidez.
+G2. Ter pelo menos um registo de resultado de [Serologia Toxoplasmose - IgG], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+G3. Ter pelo menos um registo de resultado de [Serologia Toxoplasmose - IgM], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+0,07
+Sempre
+H
+A condição [H1 ou H2 ou H3] é verdadeira (ver alíneas A, B e K de OBSERVAÇÕES GERAIS):
+H1. O diagnóstico de ""Infeção VIH/SIDA"" (rubrica ICPC B90) encontra-se na lista de problemas, com o estado de ""ativo"" ao 98º dia de gravidez.
+H2. Ter pelo menos um registo de resultado de [Ac. VIH 1 e 2], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+H3. Existência de pelo menos um resultado de ""teste rápido para VIH"", com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+0,15
+Sempre
+I
+A condição [I1 ou I2] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+I1. O diagnóstico de ""Hepatite viral"" (rubrica ICPC D72) encontra-se na lista de problemas, com o estado de ""ativo"" ao 98º dia de gravidez.
+I2. Ter pelo menos um registo de resultado de [AgHBs], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+0,15
+Sempre
+J
+Ter pelo menos um registo de resultado de [Urocultura com eventual TSA], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,07
+Sempre
+K
+A condição [K1 ou K2 ou K3 ou K4] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+K1. Pelo menos um resultado de [colpocitologia em lâmina] nos 3 anos que antecedem o 98º dia de gestação.
+K2. Pelo menos um resultado de [colpocitologia em meio líquido] nos 5 anos que antecedem o 98º dia de gestação.
+K3. Pelo menos um resultado [pesquisa de DNA do HPV por PCR] nos últimos 5 anos que antecedem o 98º dia de gestação (ver alíneas H e I de OBSERVAÇÕES GERAIS).
+K4. Idade inferior a 25 anos.
+0,06
+Sempre
+F
+A condição [F1 ou F2 ou (F3 e F4)] é verdadeira (ver alíneas A, B e G de OBSERVAÇÕES GERAIS):
+F1. Inoculação e registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola], com realização antes da [data de início da gravidez] e registo até 154º dia de gravidez (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+F2. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado], entre o nascimento da grávida e o 154º dia de gravidez (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+F3. Ter pelo menos um registo de resultado de [Serologia Rubéola - IgG], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+F4. Ter pelo menos um registo de resultado de [Serologia Rubéola - IgM], com data de realização entre as [0; 14[ semanas ([1; 98] dias) de gestação.
+0,15
+Até DEZ-2022
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Ser mulher;
+B. Gravidez registada no módulo ou no programa de saúde materna;
+C. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez] (ver alíneas C e D de OBSERVAÇÕES GERAIS);
+D. Gravidez não classificada como aborto (ver alínea J de OBSERVAÇÕES GERAIS);
+E. O 154º dia de gestação (21 Semanas e 6 Dias) pertencente ao período em análise (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+F. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período compreendido entre as [0; 14[ semanas ([1; 98] dias) de gestação (ver alíneas A e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Neste indicador, a datação da gravidez faz-se a partir da [data prevista de parto corrigida] (DPPC) registada no módulo ou programa de saúde materna, caso o registo da mesma ocorra, pela datação de gravidez que essa data determina, entre o D1 e o D75. Caso a DPPC não esteja registada ou seja registada após o D75 (pela datação da DPPC), a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+B. Os códigos da tabela de MCDT convencionados válidos para este indicador são os seguintes:
+a) Hemograma: Código A1080.9 e descritivo ""Hemograma com fórmula leucocitária (eritrograma, contagem de leucócitos, contagem de plaquetas, fórmula leucocitária e morfologia), s"".
+b) Tipagem ABO e Rh: Código 079.5 e descritivo ""Tipagem ABO e Rh (D)""
+c) Pesquisa de aglutininas irregulares (teste de Coombs indireto): Código A1169.4 e descritivo ""Anticorpos irregulares, anti-eritrocitários, pesquisa em meio de antiglobulina humana (em doentes)""
+d) Glicémia em jejum: Código A1270.4 e descritivo ""Glucose, doseamento, s/u/l""
+e) VDRL: Código A875.3 e descritivo ""Reação de VDRL com titulação""
+f) Serologia Rubéola - IgG: Código A1161.9 e descritivo ""Anticorpos para Rubéola – IgG""
+g) Serologia Rubéola - IgM: Código A1162.7 e descritivo ""Anticorpos para Rubéola – IgM""
+h) Serologia Toxoplasmose - IgG: Código A1164.3 e descritivo ""Anticorpos para Toxoplasma gondii - IgG""
+i) Serologia Toxoplasmose - IgM: Código A1165.1 e descritivo ""Anticorpos para Toxoplasma gondii – IgM""
+j) Ac. VIH 1 e 2: Código A1308.5 e descritivo ""Anticorpos para VIH 1 e 2 (inclui confirmação)""
+k) Anticorpos para VIH 1 e 2, código A868.0 (código atualmente inválido para prescrever)
+l) AgHBs: Código A1130.9 e descritivo ""Antigénio de vírus da Hepatite B - Hbs""
+m) Urocultura com eventual TSA: Código A1265.8 e descritivo ""Urina - exame direto, cultural, identificação e TSA (Urocultura)""
+n) Colpocitologia em lâmina: Código B008.6 e descritivo ""Exame citológico cervico-vaginal""
+o) Colpocitologia em meio líquido: Código B012.4 e descritivo ""Exame citológico cervico-vaginal com processamento automatizado em camada fina""
+Os exames laboratoriais só são considerados no numerador se tiverem um resultado registado. A requisição do exame, sem registo de resultado não é suficiente para fazer cumprir a regra relacionada com o exame.
+A data que deve ser usada para verificar se estes exames são ou não realizados até às 21 semanas mais 6 dias (154º dia de gestação) é a ""data de realização"". O resultado deve ser preenchido, no máximo, até ao 154º dia de gestação, que supera em 8 semanas a data limite superior para a respetiva realização.
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data início] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+E. Excluem-se do denominador (e consequentemente do numerador) as grávidas que não tenham estado inscritas na unidade de saúde durante pelo menos um dia do período em que é necessária a realização dos exames laboratoriais ([1; 98] dias).
+F. Consideram-se no denominador as grávidas com 22 semanas completas de gestação para existir tempo para que os resultados dos exames laboratoriais sejam registados nos sistemas de informação.
+G. Caso a IgG da rubéola seja positiva (grávida imunizada) numa consulta pré-concecional, a grávida não tem indicação para repetir o exame no 1º trimestre de gravidez. Caso a grávida não tenha efetuado a [vacina contra sarampo, parotidite epidémica e rubéola], deve-se proceder ao registo do estado [Imunizado] associado à [vacina contra sarampo, parotidite epidémica e rubéola], para que a regra possa ser dada como cumprida.
+H. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+I. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+J. A classificação do registo de gravidez como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS.
+K. Os ""Testes rápidos serológicos para deteção do VIH-1/VIH-2"" quando disponíveis para realização na unidade de saúde, devem ser registados no módulo de análises/MCDT (sem registo de requisição), usando o código disponível para o exame laboratorial convencionado (referido na alínea C de OBSERVAÇÕES GERAIS). Adicionalmente pode também ser usado o teste referenciado na tabela de preços do SNS com o código 26344: ""VIH (vírus da imunodeficiência humana) – teste rápido"".
+L. No SClínico são considerados registos de resultado positivo de [Serologia Rubéola - IgG] os seguintes:
+- ""POSITIVO | IMUNE | DOENÇA PRÉVIA OU ATUAL""
+- ""POSITIVO""
+- ""POS""."
+Observações Sobre Software,"MEDICINEONE
+A. Não possui local próprio para registo de ""Testes rápidos serológicos para deteção do VIH-1/VIH-2"". Os mesmos, quando realizados são registados no módulo de análises, usando o campo para a serologia do VIH, sem emissão prévia de requisição de MCDT.
+B. A datação da gravidez no 1º trimestre não entra em linha de conta com a DPPC, pois neste software não existe regista da data de registo da DPPC.
+SClínico - perfil médico:
+A. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea C de OBSERVAÇÕES GERAIS deve ter a seguinte leitura:
+O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+B. O registo do resultado do teste rápido VIH encontra-se disponível na janela de MCDT's, na área ou grupo ""Outros MCDT não comparticipados"", com a designação ""VIH (vírus da imunodeficiência humana) – teste rápido"" e código = ""9999"". O código interno correspondente é o do respetivo exame na tabela de preços do SNS: 26344.
+SClínico - perfil de enfermagem:
+A. O registo do resultado do teste rápido VIH encontra-se acessível no SClínico - perfil de enfermagem, nas versões 2.3 e seguintes, através da intervenção de enfermagem ""Avaliar teste diagnóstico""(9004384) que se encontra associada á atitude terapêutica ""TESTE RAPIDO VIH""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 154º dia de gestação (medido a partir da DUM) pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Os períodos em análise das variáveis do denominador e do numerador têm maioritariamente como referencial a datação da gestação, medida a partir da DUM:
+A. Numerador (Variável ""Hemograma""): A data de realização deve pertencer ao intervalo [0; 98] dias de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+B. Numerador (Variável ""Tipagem ABO e Rh""): A data de realização deve estar entre a data de nascimento da grávida e o 98º dia de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+C. Numerador (Variável ""Pesquisa de aglutininas irregulares (teste de Coombs indireto)""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo de resultado deve ser anterior ao 154º dia de gestação.
+D. Numerador (Variável ""Glicémia em jejum""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+E. Numerador (Variável ""VDRL""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+F. Numerador (Variável ""Inoculação e registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola]""): A realização deve ter ocorrido antes da [data de início da gravidez] e o registo até ao 154º dia de gravidez.
+G. Numerador (Variável ""Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado]""): A data de registo pode estar entre o nascimento da grávida e o 154º dia de gestação.
+H. Numerador (Variável ""Serologia Rubéola – IgG""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+I. Numerador (Variável ""Serologia Rubéola – IgM""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+J. Numerador (Variável ""Imune para a toxoplasmose""): A data de registo pode estar entre o nascimento da grávida e o 154º dia de gestação.
+K. Numerador (Variável ""Serologia Toxoplasmose – IgG""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+L. Numerador (Variável ""Serologia Toxoplasmose – IgM""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+M. Numerador (Variável ""Diagnóstico de Infeção VIH/SIDA""): Deve estar ativo no 98º dia de gravidez.
+N. Numerador (Variável ""Ac. VIH 1 e 2""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+O. Numerador (Variável ""Diagnóstico de ""hepatite viral""""): Deve estar ativo no 98º dia de gravidez.
+P. Numerador (Variável ""AgHBs""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+Q. Numerador (Variável ""Urocultura com eventual TSA""): A data de realização deve estar entre as [0; 14[ semanas ([1; 98] dias) de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+R. Numerador (Variável ""Colpocitologia em lâmina""): A data de realização deve pertencer aos 3 anos que antecedem o 98º dia de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+S. Numerador (Variável ""Colpocitologia em meio líquido""): A data de realização deve pertencer aos 5 anos que antecedem o 98º dia de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+T. Numerador (variável ""Pesquisa de DNA do HPV por PCR""): A data de realização deve pertencer aos 5 anos que antecedem o 98º dia de gestação. A data de registo deve ser anterior ao 154º dia de gestação.
+U. Numerador (Variável ""Idade da mulher""): Idade inferior a 25 anos ao 98º dia de gestação.
+V. Denominador (Variável ""Ser mulher""): Medido na data de referência do indicador.
+W. Denominador (Variável ""Gravidez registada no módulo ou no programa de saúde materna""): à data de referência do indicador.
+X. Denominador (Variável ""Aborto""): à data de referência do indicador.
+Y. Denominador (Variável ""Registo do diagnóstico médico de gravidez""): Medido na data de referência do indicador, tendo que ter estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez];
+Z. Denominador (Variável ""Inscrição ativa""): Analisada no intervalo [1; 98] dias de gestação."
+Fórmula,AA / BB
+Unidade de medida,Índice (escala valores entre 0 e 1)
+Output,Com dados desde Dezembro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [0.79; 1]
+Ano de 2023: [0.79; 1]
+Ano de 2024: [0.79; 1]"
+Intervalo Esperado,"Ano de 2022: [0.62; 1]
+Ano de 2023: [0.62; 1]
+Ano de 2024: [0.62; 1]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias

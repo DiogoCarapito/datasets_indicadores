@@ -1,0 +1,67 @@
+titulo,texto
+ID,007
+Código,7.10
+Código SIARS,2013.007.01
+Nome abreviado,Proporção utiliz. referenciados p/ consulta hosp.
+Designação,Proporção de utilizadores referenciados para consulta hospitalar
+Objetivo,Monitorizar a taxa de referenciação hospitalar de unidades de saúde
+Descrição do Indicador,"Indicador que exprime a proporção de utentes utilizadores que são referenciados por ano para consulta hospitalar.
+Numerador: Contagem de utilizadores com pelo menos uma referenciação hospitalar.
+Denominador: Contagem de utilizadores de consultas médicas presenciais ou não presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma referenciação para consulta hospitalar, durante o período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [(A ou B ou C) e (D ou E ou F)] é verdadeira:
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico, à data de referência do indicador, ou ter falecido ou sido transferido para outra unidade de saúde durante o período em análise.
+C. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.
+D. Se a unidade de observação é uma USF ou uma UCSP: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde). Ver alínea D de OBSERVAÇÕES GERAIS.
+E. Se a unidade de observação é um médico: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador). Ver alínea D de OBSERVAÇÕES GERAIS.
+F. Se a unidade de observação é um ACES: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise, realizada por qualquer médico ou interno do ACES, incluindo também as realizadas em [consultas de reforço] e as realizadas em [serviço de apoio permanente] (ou outros equivalentes). Ver alínea D de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Quando a unidade de observação é um médico ou uma unidade de saúde (USF / UCSP), pelo menos uma das consultas tem que ser efetuada na própria unidade de saúde. Quer isto dizer que se um utente tiver uma única consulta num atendimento complementar (ou afim), não é contabilizado no denominador deste indicador.
+B. Quando a unidade de observação é um ACES, um utente ativo que tenha apenas uma consulta no período em análise realizada num atendimento complementar é incluído no denominador.
+C. A fonte de dados para os utentes referenciados é o sistema de informação de registo clínico das unidades de saúde. O SIARS não acede à base de dados do Alert P1 (CTH).
+D. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne"
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Sempre que um médico acede ao ALERT P1, para proceder a uma referenciação, a informação da referenciação fica guardada nas bases de dados do Alert P1 (CTH), mas também numa tabela de dados do SCLÍNICO. É nesta última que o SIARS procede à leitura do indicador.
+B. Caso o médico proceda à referenciação diretamente através do Alert P1, sem que a mesma tenha sido inicada no SCLÍNICO, a mesma não é contabilizada no SIARS.
+C. Não se contabilizam referenciações para o serviço de urgência.
+MEDICINEONE:
+A. Indicador incompatível com o software MedicineOne."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utilizadores
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

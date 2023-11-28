@@ -1,0 +1,69 @@
+titulo,texto
+ID,046
+Código,5.03.01
+Código SIARS,2013.046.01
+Nome abreviado,"Proporção utentes [50; 75[A, c/ rastreio cancro CR"
+Designação,"Proporção de utentes com idade entre [50; 75[ anos, com rastreio de cancro do cólon e reto efetuado"
+Objetivo,"Monitorizar o programa de rastreio oncológico. Parâmetro ""rastreio e deteção precoce do cancro do cólon e reto""..
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional) e também salvaguardando a possibilidade de leitura de registos clínicos efetuados pelas equipas de saúde familiar em contexto de rastreios oportunísticos ou de rastreios organizados de forma sistemática por essas unidades funcionais aos respetivos utentes (em complementaridade com as ações e registos no âmbito dos rastreios de base populacional)."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade compreendida no intervalo [50; 75[ anos, com rastreio do cancro do cólon e reto efetuado.
+Numerador: Contagem de utentes inscritos com rastreio do cancro do cólon e reto efetuado.
+Denominador: Contagem de utentes inscritos com idade compreendida no intervalo [50; 75[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de pesquisa de sangue oculto nas fezes (PSOF), nos últimos 2 anos (ver alíneas A, D e E de OBSERVAÇÕES GERAIS).
+C. Pelo menos um resultado de retossigmoidoscopia, nos últimos 5 anos (ver alíneas B, D e E de OBSERVAÇÕES GERAIS).
+D. Pelo menos um resultado de colonoscopia, nos últimos 10 anos (ver alíneas C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Ter idade compreendida no intervalo [50; 75[ anos (ver alínea F de OBSERVAÇÕES GERAIS).
+B. Com inscrição ativa na Unidade de Saúde na data de referência do indicador."
+Observações Gerais,"A. O exame da tabela de MCDT convencionados, válido para identificar [PSOF] é o seguinte:
+- [Sangue oculto nas fezes, fezes], código 607.6, área A.
+- [Sangue oculto nas fezes, fezes], código SNS 22768.
+B. Os exames da tabela de MCDT convencionados, válidos para identificar [retossigmoidoscopia] são os seguintes:
+- [Retossigmoidoscopia flexível], código 007.8, área F.
+- [Retossigmoidoscopia flexível], código SNS 52270.
+- [Colonoscopia esquerda], código 006.0, área F.
+- [Colonoscopia esquerda], código 102.3, área F.
+- [Colonoscopia esquerda], código SNS 50910.
+C. O exames da tabela de MCDT convencionados, válidos para identificar [colonoscopia] são os seguintes:
+- [Colonoscopia total], código 005.1, área F.
+- [Colonoscopia total], código 101.5, área F.
+- [Colonoscopia, pacote de procedimentos], código 100.7, área F.
+- [Colonoscopia total], código SNS 50940.
+D. Para que um exame seja contabilizado, deve ter um resultado.
+E. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+F. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo""."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os resultados dos exames de rastreio devem ser registados no módulo de MCDT.
+MEDICINEONE:
+A. Para que sejam contabilizados neste indicador, os exames [colonoscopia] e [retossigmoidoscopia] podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+B. O [PSOF] poder ser registado quer no módulo de análises quer no módulo de MCDT quer no módulo de rastreio oncológico (o SIARS procede à leitura a partir dos 3 módulos).
+C. Os resultados da [colonoscopia] e [retossigmoidoscopia] podem ser registados quer em formato de texto, quer em formato parametrizado, quer em formato multimédia."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""PSOF""): Duração de 24 meses, terminando na data de referência do indicador.
+- Numerador (variável ""retossigmoidoscopia""): Duração de 60 meses, terminando na data de referência do indicador.
+- Numerador (variável ""colonoscopia""): Duração de 120 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""PSOF""): Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Numerador (variável ""retossigmoidoscopia""): Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Numerador (variável ""colonoscopia""): Duração de 109 a 120 meses. Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [67; 100]
+Ano de 2023: [67; 100]
+Ano de 2024: [65; 100]"
+Intervalo Esperado,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

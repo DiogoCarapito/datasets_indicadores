@@ -1,0 +1,69 @@
+titulo,texto
+ID,259
+Código,6.75.02
+Código SIARS,2017.259.01
+Nome abreviado,Proporção coxibes entre AINEs faturados (DDD)
+Designação,"Proporção de inibidores da COX-2 entre anti-inflamatórios não esteroides faturados (DDD, a utentes inscritos)"
+Objetivo,"Monitorizar a prescrição de fármacos na componente de ""quantidade de inibidor da COX-2 prescritas""."
+Descrição do Indicador,"Indicador que exprime a proporção entre a DDD de inibidor da COX-2 e a DDD de anti-inflamatórios não esteroides faturados, a utentes com inscrição ativa.
+Numerador: DDD de inibidor da COX-2 aceites para faturação no CCF.
+Denominador: DDD de anti-inflamatórios não esteroides aceites para faturação no CCF, a utentes com inscrição ativa."
+Regras de cálculo,"NUMERADOR (AA):
+Soma da quantidade de DDD de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Medicamento pertencente a uma das classes ATC dos Coxibes. Ver alíneas E, F, G, H e I de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Soma da quantidade de DDD de medicamentos em que a expressão [A e B e C e D e E e (F ou G ou H)] é verdadeira:
+A. Utente com inscrição ativa na unidade funcional na data da prescrição.
+B. Medicamento prescrito por qualquer médico ou interno.
+C. Medicamento aceite para faturação durante o período em análise.
+D. Medicamento pertencente à classe ATC ""M01A"" (medicamentos anti-inflamatórios e anti-reumáticos não esteroides). Ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS.
+E. Medicamento administrado por via oral (ver alínea I de OBSERVAÇÕES GERAIS).
+F. Se a unidade de observação do indicador for um ACES, a receita médica é emitida com um código de local de prescrição pertencente ao ACES (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+G. Se a unidade de observação do indicador for uma unidade funcional, a receita médica é emitida com um código de local de prescrição que lhe pertence (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+H. Se a unidade de observação é um médico ou enfermeiro com lista de utentes na unidade funcional, a receita médica é emitida com um código de local de prescrição pertence à unidade funcional (ver alíneas C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Os medicamentos prescritos e não dispensados não são contabilizados.
+B. Os medicamentos que sejam prescritos manualmente são contabilizados, desde que dispensados numa farmácia.
+C. Quando a unidade de observação é uma unidade funcional, os medicamentos prescritos a utentes inscritos na unidade funcional utilizando um código de local de prescrição não pertencente a essa unidade, não são contabilizados nem no denominador nem no numerador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP não são contabilizados na USF ou UCSP de inscrição do utente.
+D. Quando a unidade de observação é um ACES, os medicamentos prescritos a utentes inscritos em qualquer unidade funcional desse ACES utilizando um código de local de prescrição não pertencente à unidade funcional de inscrição do utente mas pertencente ao ACES, são contabilizados no denominador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP do ACES a utentes de uma UCSP do ACES são contabilizado no denominador do indicador referente ao ACES.
+E. As classes ATC de medicamentos que podem ser contabilizados no numerador são as seguintes:
+- M01AH - Coxibes;
+- N02AJ16 - TRAMADOL E CELECOXIBE
+F.
+DDD
+(definição): é a dose diária média de manutenção de um fármaco em adultos quando usado para o tratamento da sua principal indicação terapêutica (
+http://www.whocc.no/ddd/definition_and_general_considera/
+).
+G. As DDD que estão a ser usadas neste indicador, por cada embalagem de medicamento prescrito, são as que resultam da aplicação da informação que pode ser consultada em
+http://www.whocc.no/atc_ddd_index/
+às caraterísticas (dosagem e dimensão da embalagem) do medicamento em questão.
+Assim, por exemplo, a prescrição de uma embalagem de 60 comprimidos de 
+ ibuprofeno 200 mg, corresponde a 10 DDD e a prescrição de 1 embalagem de 20 comprimidos de 
+ ibuprofeno 400 mg corresponde a 6,67 DDD.
+Se a um utente, ao longo do período em análise do indicador, for prescrita uma embalagem de 20 comprimidos de 
+ celecoxib 100 mg e 2 embalagens de 60 comprimidos de nimesulida 100 mg, tal corresponderá a 
+ 10 DDD referentes ao celecoxib e a 60 DDD referentes ao nimesulida, ou seja, um total de 
+ 703 DDD de medicamentos do tipo ""anti-inflamatórios não esteroides"".
+H. Os medicamentos pertencentes a estas classes ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+I. Nas situações em que não exista a definição de DDD, cada comprimido, ampola ou frasco prescrito é contabilizado como equivalente a 1 DDD.
+J. Apenas se contabilizam, no denominador e no numerador, fármacos administráveis por ""via oral""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de DDD
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
+Intervalo Aceitável,"Ano de 2022: [0; 5.5]
+Ano de 2023: [0; 5.5]
+Ano de 2024: [0; 5.5]"
+Intervalo Esperado,"Ano de 2022: [0; 9]
+Ano de 2023: [0; 9]
+Ano de 2024: [0; 9]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

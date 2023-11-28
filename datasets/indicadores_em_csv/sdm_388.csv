@@ -1,0 +1,80 @@
+titulo,texto
+ID,388
+Código,6.83.01
+Código SIARS,2017.388.01
+Nome abreviado,Prop. utentes c/ melhoria no controlo de sintomas
+Designação,Proporção de utentes com melhoria no controlo de sintomas
+Objetivo,Avaliar os ganhos expressos no controlo de sintomas (náusea e obstipação) nos utentes acompanhados em ações paliativas na UCC.
+Descrição do Indicador,"Exprime a proporção de utentes, com pelo menos uma consulta na UCC, com melhoria do score associado aos diagnósticos de enfermagem ""Náusea"" ou ""Obstipação"".
+Numerador: Contagem de utentes com pelo menos uma consulta de enfermagem no âmbito de ações paliativas na UCC, com melhoria do score associado aos diagnósticos de enfermagem ""Náusea"" ou ""Obstipação"".
+Denominador: Contagem de utentes com pelo menos uma consulta de enfermagem no âmbito de ações paliativas na UCC, com pelo menos um diagnóstico de enfermagem que manifeste problemas relacionados com os focos ""Náusea"" ou ""Obstipação""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B] é verdadeira:
+A. Todas as condições definidas no denominador.
+B. A soma dos scores da última avaliação de ""Náusea"" e da última avaliação de ""Obstipação"" é inferior á soma dos valores máximos de score obtidos para esses sintomas durante o período de 13 meses que antecede a data de referência do indicador. Ver alínea C e D de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2020.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade funcional do ACES a que pertence a UCC (durante pelo menos um dia do período em análise).
+B. Com pelo menos uma consulta de enfermagem na UCC nos últimos 12 meses, com associação ao programa ""P.N. Cuidados Paliativos"" e com pelo menos um diagnóstico de enfermagem com problemas relacionados com o foco ""náusea"" ou ""obstipação"" (ver alínea A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2019.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade funcional do ACES a que pertence a UCC (válida à data de referência do indicador).
+B. Com pelo menos uma consulta de enfermagem na UCC nos últimos 12 meses, com pelo menos um diagnóstico de enfermagem com problemas relacionados com o foco ""náusea"" ou ""obstipação"" (ver alínea A e B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem presencial - SClínico
+B. O resultado da avaliação de ""Náusea"" ou ""Obstipação"" é passível de ser documentado através dos seguintes grupos de status de diagnóstico:
+Náusea:
+N1. Sem náusea (8002265)
+N2. Náusea (8002264)
+Obstipação:
+O1. Sem obstipação (8003298)
+O2. Obstipação (8003297)
+C. Escalas e scores que operacionalizam os grupos de status de diagnóstico de ""Náusea"" ou ""Obstipação"":
+Náusea:
+N1. Sem náusea (8002265) – 0 pontos
+N2. Náusea (8002264) – 1 ponto
+Obstipação:
+O1. Sem obstipação (8003298) – 0 pontos
+O2. Obstipação (8003297) – 1 ponto
+D. Apenas são elegíveis para denominador, utentes que tenham pelo menos um diagnóstico entre os seguintes: N2 e O2.
+É possível a um utente ser avaliado por ""náusea"" e não ser por ""obstipação"" e vice-versa.
+Cumprem o numerador os utentes em que a soma da última avaliação no período é inferior à soma dos valores máximos obtidos nestas 2 avaliações ao longo do período de 13 meses que antecede a data de referência do indicador.
+Exemplos:
+1 – Um utente ""Sem náusea"" e ""Sem obstipação"" não é considerado para o denominador nem para o numerador;
+2 - Um utente com ""Náusea"" e ""Sem obstipação"" na primeira avaliação tem um score de 1 ponto. Este mesmo utente apresenta na última avaliação ""Sem náusea"" e ""Sem obstipação"" e um score 0 pontos. Desta forma este utente é considerado cumpridor das regras para inclusão quer no denominador quer no numerador.
+3 - Um utente sem ""Náusea"" e ""Sem obstipação"" na primeira avaliação, ""com obstipação"" na 2ª avaliação (nesse dia ""náusea"" não avaliada) e ""com náusea"" na 3ª avaliação (nesse dia ""obstipação"" não avaliada) tem um score máximo de 2 pontos. Este mesmo utente apresenta-se na 4ª e última avaliação ""Sem náusea"" e ""Sem obstipação"" com um score 0 pontos. Desta forma este utente é considerado cumpridor das regras para inclusão quer no denominador quer no numerador.
+4 - Utentes com apenas uma avaliação relacionada com os focos ""Náusea"" ou ""Obstipação"" são incluídos no denominador e são considerados não cumpridores (sem evolução) no numerador.
+E. As ações paliativas estão consignadas na carteira de serviços das UCC (Despacho nº 10143/2009). Esta abordagem paliativa poderá ter como clientes, aqueles que estão integrados em ECCI, como outros que façam parte de projetos de intervenção domiciliária com indivíduos dependentes e famílias/cuidadores, como sejam, cuidados de natureza preventiva, curativa, reabilitadora e ações paliativas."
+Observações Sobre Software,"SClínico:
+A. O [SClínico perfil enfermagem], encontra-se parametrizado com os status diagnósticos descritos em OBSERVAÇÕES GERAIS e necessários à produção de dados para monitorização desta métrica.
+B. Os gestores locais da parametrização devem garantir que esta parametrização está disponível e não sofre alterações.
+OUTROS SOFTWARES CLÍNICOS:
+Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Numerador: Duração de 13 meses, terminando na data de referência do indicador.
+Denominador: Duração de 12 meses, compreendidos entre os meses N-12 e N-1, em que N é o mês de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Abordagem Paliativa
+Intervalo Aceitável,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [35; 100]
+Ano de 2023: [35; 100]
+Ano de 2024: [35; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Cuidados Paliativos
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

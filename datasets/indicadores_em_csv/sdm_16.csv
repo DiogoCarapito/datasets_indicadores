@@ -1,0 +1,87 @@
+titulo,texto
+ID,016
+Código,6.22.01
+Código SIARS,2013.016.01
+Nome abreviado,Proporção crianças c/ 6+ cons. méd. vigil. 1º ano
+Designação,Proporção de crianças com pelo menos 6 consultas médicas de vigilância de saúde infantil no 1º ano de vida
+Objetivo,Acompanhamento do Programa de Saúde Infantil - 1º ano de vida. Monitorizar o cumprimento das orientações técnicas definidas para a vigilância deste grupo vulnerável.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de crianças que efetuaram pelo menos 6 consultas médicas de vigilância durante o 1º ano de vida, no total de crianças que completaram 1 ano de idade.
+Numerador: Contagem de crianças que efetuaram pelo menos 6 consultas médicas durante o 1º ano de vida.
+Denominador: Contagem de crianças que completaram 1 ano de idade."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter pelo menos 6 consultas médicas de vigilância (contacto direto) até aos 11 meses de vida ([1, 330[ dias). Ver alíneas A, B, C e E de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2016.
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 1 ano de idade durante o período em análise;
+B. Inscrição de qualquer tipo (inclui esporádica) na unidade de saúde desde data anterior ao 15º dia de vida (ver alínea D de OBSERVAÇÕES GERAIS);
+C. [
+Inscrição ativa
+] durante a totalidade do período compreendido entre os 45 e os 330 dias de vida (ver alínea D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2017.
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 1 ano de idade durante o período em análise;
+B. [
+inscrição ativa
+] na unidade de saúde durante a totalidade do período compreendido entre os 15 e os 330 dias de vida (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+B. Apenas se contabiliza uma consulta médica, por utente, por dia.
+C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+D. Contabilizam-se crianças que se inscrevam precocemente na unidade de saúde como esporádicas (p.e. por o nome ainda não estar registado na conservatória do registo civil), desde que o registo da [
+inscrição ativa
+] seja feito até ao 45º dia de vida e desde que se processe a uma alteração do registo de [inscrição esporádica] para [
+inscrição ativa
+]. Deve ser evitado o procedimento de ""anular"" a inscrição esporádica e criar de novo [
+inscrição ativa
+, pois as consultas entretanto efetuadas (associadas à inscrição esporádica) não migram para a nova [
+inscrição ativa
+]. Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+E. O intervalo de tempo [1, 330[ dias, definido no numerador, destina-se a detetar as 6 consultas de vigilância em saúde infantil previstas pela DGS para o 1º ano de vida:
+- 1ª consulta da vida;
+- Consulta do 1º mês;
+- Consulta dos 2 meses;
+- Consulta dos 4 meses;
+- Consulta dos 6 meses;
+- Consulta dos 9 meses.
+F. A partir de janeiro de 2017 o SIARS tem como fonte de dados para ""inscrição de utentes"" o RNU, que não contempla o conceito de ""inscrição esporádica""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 1 ano de vida durante o período em análise do denominador, anteriormente definido.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento e termina ao 330º dia de vida.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [1, 2[ anos de idade.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 1 ano de vida durante o ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento e termina ao 330º dia de vida.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [1, 2[ anos de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [89; 100]
+Ano de 2023: [89; 100]
+Ano de 2024: [89; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado
+Prazo para Registos,5 dias

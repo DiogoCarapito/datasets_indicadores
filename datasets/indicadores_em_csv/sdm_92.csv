@@ -1,0 +1,62 @@
+titulo,texto
+ID,092
+Código,5.29
+Código SIARS,2013.092.01
+Nome abreviado,Proporção hipocoagulados controlados na unidade
+Designação,Proporção de doentes hipocoagulados que são controlados na unidade de saúde
+Objetivo,"Monitorizar o programa de saúde de adultos. Parâmetro ""realização do controlo da hipocoagulação na unidade de saúde"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes hipocoagulados que efetuam controlo na unidade de saúde
+Numerador: Contagem de utentes inscritos com pelo menos 6 resultados de INR nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos hipocoagulados."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos 6 resultados de INR nos últimos 12 meses (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. A terapêutica crónica teve registo de anticoagulante oral durante pelo menos 6 dos 12 meses que antecedem a data de referência do indicador (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Existem pelo menos 2 prescrições de anticoagulante oral, nos 12 meses que antecedem a data de referência do indicador, abrangendo 2 semestres (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O código da tabela de MCDT, válido para registar INR é o A1086.8. Quando esta análise for efetuada na unidade de saúde (utilizando doseadores próprios) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Apenas se contabilizam INR com resultado registado.
+C. A data que deve ser usada para verificar se o INR está ou não dentro do período em análise é a ""data de realização"". O(s) resultado(s) deve(m) ser preenchido(s), no máximo até 30 dias após o fim do período em análise.
+D. São contabilizadas todas as prescrições e registos na terapêutica crónica de medicamentos pertencentes ao grupo 4.3.1.2 (antivitamínicos K) da classificação farmacoterapêutica de medicamentos (CFT). Corresponde aos DCI ""acenocumarol"" e ""varfarina"".
+E. Os medicamentos pertencentes a esta classe CFT podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. O INR pode ser registado quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza em ambos os módulos.
+B. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo nas avaliações mensais que efetua.
+SCLÍNICO - PERFIL MÉDICO:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador.
+SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. A forma de proceder ao registo normalizado da informação sobre o resultado de INR é através da intervenção de enfermagem ""Monitorizar INR"" (1037) ou ""Monitorizar INR"" (91117).
+SClínico com normalização:
+A. Após outubro de 2015, com a instalação versão SClínico 2.0, a forma de proceder ao registo normalizado da informação sobre o resultado de INR é através da intervenção de enfermagem ""Monitorizar I.N.R. (índice internacional normalizado)"" (9001294). A intervenção de enfermagem está associada ao foco de atenção ""Perda Sanguínea"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""6 resultados de INR""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""registo de anticoagulante oral na terapêutica crónica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""prescrição de anticoagulante oral""): Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""6 resultados de INR""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""registo de anticoagulante oral na terapêutica crónica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""prescrição de anticoagulante oral""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

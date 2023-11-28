@@ -1,0 +1,57 @@
+titulo,texto
+ID,040
+Código,5.09
+Código SIARS,2013.040.01
+Nome abreviado,Proporção DM c/ exame oftalmológico último ano
+Designação,"Proporção de utentes com diabetes, com pelo menos uma referenciação ou pelo menos um registo de realização de exame à retina, no último ano"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""referenciação para oftalmologia""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes com pelo menos uma referenciação para oftalmologia ou pelo menos um resultado de exame à retina no último ano.
+Numerador: Contagem de utentes inscritos com diabetes com pelo menos uma referenciação para oftalmologia ou pelo menos um resultado de exame à retina no último ano.
+Denominador: Contagem de utentes inscritos com diabetes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos um registo de referenciação para oftalmologia, nos últimos 12 meses (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+C. Com pelo menos um registo de referenciação para exame à retina, nos últimos 12 meses (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+D. Com pelo menos um resultado de exame à retina, nos últimos 12 meses (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Neste indicador pretende-se medir a intenção dos médicos de família de procederem ao encaminhamento dos utentes com diabetes para rastreio de retinopatia e não a acessibilidade dos utentes à realização do exame. Por esse motivo, o utente entra para o numerador caso tenha sido referenciado, mesmo que não tenha conseguido a realização do exame.
+B. Para que um utente seja incluído no numerador, basta que esteja incluído no denominador e que uma das seguintes condições seja verdadeira no período em análise:
+i) foi-lhe emitida uma credencial de MCDT relacionada com consulta de oftalmologia (códigos N41.8, N42.6, N100.7 e N101.5);
+ii) No módulo ou área do sistema de registo clínico, relacionado com referenciações destinadas aos sistema ""consulta a tempo e horas"" ou ao setor privado ou social, existe pelo menos um registo para:
+- a especialidade de ""oftalmologia""
+- ou para ""técnico de retinografia""
+- ou para ""Oftalmologia - Rastreio da Retinopatia Diabética"" (código CTH 154);
+- ou para ""Oftalmologia – Retinopatia Diabética Seguimento"", (código CTH 563).
+iii) Existe resultado de ""rastreio de retinopatia"" ou resultado de ""retinografia"" (exame com código SNS 70251) ou resultado de ""fundoscopia"" ou resultado de ""observação oftalmológica"" ou resultado de ""exame à retina"" ou resultado de ""exame oftalmológico"" ou outro que seja sinónimo dos anteriores.
+C. São contabilizados os registos de resultados, feitos por qualquer médico, interno ou enfermeiro da unidade de saúde."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+SCLÍNICO - PERFIL MÉDICO:
+Na ficha de diabetes, na zona de registo da [consulta corrente], no campo [Oftal.], existe a possibilidade de se fazer o registo de [referenciação] ou [consulta], sendo esta informação lida pelo SIARS para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

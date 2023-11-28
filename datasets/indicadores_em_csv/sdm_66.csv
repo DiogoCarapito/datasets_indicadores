@@ -1,0 +1,57 @@
+titulo,texto
+ID,066
+Código,7.09.01
+Código SIARS,2013.066.01
+Nome abreviado,"Proporção medicam. faturados, que são genéricos"
+Designação,"Proporção de embalagens de medicamentos faturados, que são genéricos"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""proporção de embalagens de genéricos"""
+Descrição do Indicador,"Indicador que exprime a proporção de embalagens de medicamentos faturados, que são genéricos.
+Numerador: Contagem de embalagens de medicamentos genéricos faturados.
+Denominador: Contagem de embalagens faturadas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de embalagens de medicamentos prescritos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ser uma embalagem de medicamento genérico (ver alínea E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de embalagens de medicamentos em que a expressão [A e B e C] é verdadeira:
+A. Prescritas a utentes com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+B. Prescritas por qualquer médico ou interno da unidade de saúde, usando o código identificador da unidade de saúde (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Enviadas pelas farmácias para faturação junto do Ministério da Saúde. A [data de aceitação para faturação] na base de dados de faturação pertence aos 12 meses que antecedem a data de referência do indicador."
+Observações Gerais,"A. Se a unidade de observação for um médico, contabilizam-se no denominador as embalagens em que todas as condições seguintes são verdadeiras:
+- Prescritas por qualquer médico ou interno da unidade de saúde;
+- Prescritas numa receita com o código identificador da unidade de saúde a que pertence o [médico em análise] na data de referência do indicador;
+- Prescritas a utentes inscritos no ficheiro do médico em análise na data de referência do indicador, ou a utentes que faleceram e que estavam inscritos no médico em análise antes de falecerem, ou que foram transferidos para uma unidade de saúde diferente tendo estado inscritos pela última vez na unidade, no ficheiro do médico em análise;
+- Que foram aceites para faturação no centro de conferência de faturas, e em que [data de aceitação para faturação] na base de dados de faturação pertence aos 12 meses que antecedem a data de referência do indicador.
+B. Se a unidade de observação for uma USF ou UCSP, contabilizam-se no denominador as embalagens em que todas as condições seguintes são verdadeiras:
+- Prescritas por qualquer médico ou interno da unidade de saúde;
+- Prescritas numa receita com o código identificador da unidade de saúde; não se contabilizam receitas prescritas no atendimento complementar (ou serviço apoio permanente ou outro equivalente) se o código identificador da receita for distinto do da unidade de saúde a que pertence o doente;
+- Prescritas a utentes com [
+inscrição ativa
+] durante pelo menos um dia do período em análise;
+- Que foram aceites para faturação no centro de conferência de faturas, e em que [data de aceitação para faturação] na base de dados de faturação pertence aos 12 meses que antecedem a data de referência do indicador.
+C. Se a unidade de observação for um ACES, contabilizam-se todas as prescrições efetuadas por qualquer médico ou interno do ACES a utentes inscritos durante pelo menos um dia numa das unidades de saúde desse ACES, independentemente do código identificador da unidade (inscrito na receita), desde que aceites para faturação no centro de conferência de faturas, com [data de aceitação para faturação] pertencente aos 12 meses que antecedem a data de referência do indicador. Contabilizam-se assim as embalagens prescritas no âmbito dos serviços de atendimento complementar, nas consultas de reforço, etc.
+D. As embalagens contabilizadas no denominador (e consequentemente no numerador) pertencem a utentes utilizadores durante o período em análise e inscritos durante pelo menos um dia do período em análise (não necessitam estar inscritos à data de referência do indicador).
+E. O SIARS contabiliza como medicamentos genéricos, quer os prescritos por DCI (sem referência ao titular da autorização de introdução no mercado), quer os que não sendo prescritos por DCI, sejam medicamentos considerados ""genéricos"" pelo Infarmed (tenham o símbolo ""MG"" na embalagem)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de embalagens
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Intervalo Esperado,"Ano de 2022: [47.5; 100]
+Ano de 2023: [47.5; 100]
+Ano de 2024: [47.5; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

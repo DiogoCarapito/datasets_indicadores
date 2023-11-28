@@ -1,0 +1,54 @@
+titulo,texto
+ID,344
+Código,3.31.01
+Código SIARS,2017.344.01
+Nome abreviado,Propor. consultas médicas realiz. no dia agendam.
+Designação,Proporção de consultas médicas realizadas no próprio dia de registo do agendamento
+Objetivo,Monitorizar a proporção de consultas médicas realizadas no próprio dia de registo do agendamento.
+Descrição do Indicador,"Exprime a proporção de consultas médicas presenciais que são realizadas no próprio dia em que é efetuado o registo do agendadamento.
+Numerador - Contagem de consultas médicas presenciais, que são realizadas no próprio dia em que é efetuado o registo do agendadamento.
+Denominador - Contagem de consultas médicas presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Consulta realizada no próprio dia em que é efetuado o registo do agendadamento (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C] é verdadeira:
+A. Efetuada por qualquer médico ou interno da unidade funcional durante o período em análise.
+B. Do tipo ""consulta médica presencial"" (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Realizada a utente com [
+inscrição ativa
+] na unidade de observação no mês da realização da consulta."
+Observações Gerais,"A. Cumprem as consultas médicas que são agendadas e realizadas no mesmo dia em que o agendamento é registado, por exemplo, consulta solicitada por um utente no dia 20 de agosto, agendada e realizada no dia 20 de agosto. A classificação das consultas em ""programada"" / ""não programada"" não é tida em conta, nas regras do numerador.
+B. Os registos  da consulta podem ser efetuados até 5 dias após a data da respetiva realização.
+C. Para se considerar uma [Consulta Médica de Presencial], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+-
+C008
+[Consulta médica presencial - MedicineOne]."
+Observações Sobre Software,"SClínico
+A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
+B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
+C. Apesar do indicador ser ""flutuante"", o problema de leitura de dados a partir do SClínico até janeiro de 2018, faz com que o indicador tenha um período em análise inferior a 12 meses para os resultados entre fevereiro de 2018 e janeiro de 2019. Assim, por exemplo em junho de 2018, o indicador estará a ler 5 meses de consultas no denominador e 5 meses de consultas no numerador (1-2-2018 a 30-6-2018)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""data de pedido da consulta""): É um atributo da variável ""consulta médica"".
+- Denominador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição do utente""): Apurado no último dia do mês da realização da consulta."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
+Intervalo Aceitável,"Ano de 2022: [26; 41]
+Ano de 2023: [26; 41]
+Ano de 2024: [26; 41]"
+Intervalo Esperado,"Ano de 2022: [21; 46]
+Ano de 2023: [21; 46]
+Ano de 2024: [21; 46]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

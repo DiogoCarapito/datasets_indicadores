@@ -1,0 +1,41 @@
+titulo,texto
+ID,233
+Código,2.12.33
+Código SIARS,MORB.233.01
+Nome abreviado,"Proporção utentes com ""HBP"""
+Designação,"Proporção de utentes com o diagnóstico de ""hipertrofia prostática benigna"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de hipertrofia prostática benigna"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""hipertrofia prostática benigna"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""hipertrofia prostática benigna"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""hipertrofia prostática benigna"" (rubrica ICPC Y85) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de Y85 (ICPC-2): Próstata aumentada, lisa, dura, revelada por palpação, cistoscopia, ou imagiologia, sem sinais de carcinoma prostático.
+C. O Y85 inclui (ICPC-2): Fibroma; hiperplasia; barra mediana prostática; obstrução da próstata; prostatomegalia.
+D. Quem regista Y85 deve considerar (ICPC-2): sintomas, sinais da micção U01 a U05; retenção da urina U08.
+E. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

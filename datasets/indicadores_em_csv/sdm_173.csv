@@ -1,0 +1,34 @@
+titulo,texto
+ID,173
+Código,2.09
+Código SIARS,8.5
+Nome abreviado,Percent. de inscritos com diagnóstico diabetes
+Designação,Percentagem de inscritos com diagnóstico de diabetes
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""prevalência de diabetes entre a população inscrita"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de diabetes registado na lista de problemas.
+Denominador: Contagem de utentes inscritos com idade no intervalo [18; 76[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de diabetes (rubrica ICPC T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise.
+B. Com idade compreendida no intervalo [18; 76[ anos."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""diagnóstico na lista de problemas""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

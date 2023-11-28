@@ -1,0 +1,817 @@
+titulo,texto
+ID,430
+Código,8.23.01
+Código SIARS,2019.430.01
+Nome abreviado,"Score dimensão ""participação do cidadão"""
+Designação,"Score para avaliação da dimensão ""participação do cidadão"""
+Objetivo,"Possibilitar a avaliação da dimensão ""participação do cidadão"" da matriz de contratualização das unidades funcionais dos ACES.
+Pretende-se avaliar em que medida a unidade funcional está organizada colocando o cidadão/utente no centro do sistema."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional implementou processos que demonstram preocupação com as necessidades dos utentes, designadamente com a respetiva satisfação."
+Regras de cálculo,"FÓRMULA:
+A fórmula de cálculo deste score é baseada numa
+checklist
+de autopreenchimento pela unidade funcional 
+    e pelo ACES, entrando em linha de conta com 
+    os seguintes aspetos:
+1. A existência de evidências de monitorização da 
+    satisfação de utentes;
+2. A existência de evidências de implementação de mudanças decorrentes dessa 
+    monitorização;
+3. A existência de uma ponderação para cada área de avaliação.
+A fórmula, para as UF, é a seguinte:
+Resultado (em percentagem) = 100 x (A01 + A02 + A03 + A04 + A05 + A06 + A07 + A08 + A09 + A10 + A11 + A12) / 100
+Score (numa escala contínua de 0 a 2) = 2 x (A01 + A02 + A03 + A04 + A05 + A06 + A07 + A08 + A09 + A10 + A11 + A12) / 100
+A fórmula, para os ACES, é a seguinte:
+Resultado (em percentagem) = 100 x (B01 + B02 + B03 + B04 + B05 + B06 + B07 + B08 + B09 + B10 + B11 + B12) / 100
+Score (numa escala contínua de 0 a 2) = 2 x (B01 + B02 + B03 + B04 + B05 + B06 + B07 + B08 + B09 + B10 + B11 + B12) / 100
+CHECKLIST
+DE AUTOPREENCHIMENTO PARA AS UNIDADES FUNCIONAIS DO ACES
+Para cada item da
+checklist
+a unidade deve ter a possibilidade de submeter evidências que permitam ao conselho clínico e de saúde do respetivo ACES proceder à respetiva validação.
+COD
+Área de Avaliação
+Critérios de Cumprimento
+Valorização (%)
+Validade
+A01
+A unidade funcional realizou um questionário de satisfação de utentes durante o 
+    período em análise
+Nas USF e UCSP, para que este critério seja considerado cumprido é necessário ter 
+    recolhido, ao longo do ano de contratualização, pelo 
+    menos 10 questionários realizados a utentes, por cada profissional (medido em 
+    equivalentes em tempo completo) que integre a equipa (não 
+    necessariamente no mesmo dia).
+No caso das UCC, para que este critério seja considerado cumprido é necessário ter 
+    recolhido, ao longo do ano de contratualização, pelo 
+    menos 10 questionários realizados a utentes, por cada profissional (medido em 
+    equivalentes em tempo completo) que integre a equipa (não 
+    necessariamente no mesmo dia), envolvendo utentes nas principais atividades realizadas na UCC.
+Nas URAP, para que este critério seja considerado cumprido é necessário ter 
+    recolhido, ao longo do ano de contratualização, pelo 
+    menos 7 questionários realizados a utentes, por cada profissional (medido em 
+    equivalentes em tempo completo) que integre a equipa (não 
+    necessariamente no mesmo dia), envolvendo todas as atividades realizadas na URAP 
+    em proporções semelhantes.
+Nas USP, para que este critério seja considerado cumprido é necessário ter 
+    recolhido, ao longo do ano de contratualização, pelo 
+    menos 7 questionários realizados a utentes, por cada profissional (medido em 
+    equivalentes em tempo completo) que integre a equipa (não 
+    necessariamente no mesmo dia).
+Os questionários para serem considerados válidos, poderão ser aplicados pela 
+    própria equipa, pelo ACES, ARS ou entidade nacional (por exemplo ACSS).
+A partir do ano de 2022, considera-se válida a aplicação do questionário de satisfação especificado em
+https://sdm.min-saude.pt/bi.aspx?id=184
+, sem prejuízo das ARS poderem aplicar outro(s) modelo(s) que cumpra(m) a mesma finalidade, aprovado(s) pelo respetivo conselhos diretivos.
+No caso particular do questionários aplicados por equipas, os mesmos serão 
+    considerados válidos para este critério desde que o processo (questionário em si 
+    e método de aplicação) tenha sido validado pelo Gabinete do Cidadão do ACES ou 
+    pelo Conselho Clínico e de Saúde.
+Este critério será excecionado sempre que o questionário de satisfação não possa ser aplicado, com a alegação, por parte da unidade funcional, de que não foi possível a respetiva aplicação por indefinição do processo por parte das entidades competentes, sem prejuízo das próprias unidades funcionais unidades poderem, caso entendam, aplicar um questionário por sua iniciativa, nos termos referidos no parágrafo anterior.
+5
+Inicio: 01-01-2021;
+Fim: --
+A02
+A unidade funcional analisou as respostas do questionário de satisfação
+Para que este critério seja considerado cumprido é necessário:
+a) Ter feito um relatório com análise descritiva das respostas ao questionário;
+b) Ter discutido esse relatório em Conselho Geral.
+Cada um dos 2 itens anteriores valoriza 50% deste critério.
+Este critério será excecionado sempre que o critério A01 também o seja.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+15
+Inicio: 01-01-2021;
+Fim: --
+A03
+A unidade funcional tem publicitada a possibilidade dos utentes fazerem 
+    sugestões e reclamações
+Para que este critério seja considerado cumprido é necessário:
+a) Ter publicitado a possibilidade dos utentes fazerem sugestões e reclamações 
+    em todas as salas de espera;
+b) Ter referência a essa possibilidade no guia do utente;
+c) Existir um formulário próprio para sugestões, disponível para entrega na(s) 
+    secretaria(s).
+d) Existir livro de reclamações 
+    (em todos os locais de prestação).
+Cada um dos 4 itens anteriores valoriza 25% deste critério.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+5
+Inicio: 01-01-2021;
+Fim: --
+A04
+A unidade funcional analisou as sugestões
+Para que este critério seja considerado cumprido é necessário:
+a) Ter feito um relatório com análise descritiva das sugestões entregues;
+b) Ter discutido esse relatório em Conselho Geral.
+Cada um dos 2 itens anteriores valoriza 50% deste critério.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+15
+Inicio: 01-01-2021;
+Fim: --
+A05
+A unidade funcional tem um processo de gestão de não conformidades
+Uma ""não conformidade"" é um acontecimento relacionado com um utente em que o 
+    ocorrido está aquém da meta estabelecida pela unidade funcional para esse processo.
+Por exemplo, esperar 30 minutos para além da hora de agendamento é uma não 
+    conformidade se a unidade funcional tiver definido na sua carta de qualidade que 
+    o tempo de espera recomendado é inferior.
+Para que este critério seja considerado cumprido é necessário ter um documento 
+    com o  procedimento interno de gestão de ""não conformidades"".
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+5
+Inicio: 01-01-2021;
+Fim: --
+A06
+A unidade funcional nomeia gestores internos de vários grupos profissionais para a análise 
+    das não conformidades.
+Para que este critério seja considerado cumprido é necessário identificar os 
+    gestores de não conformidades durante o ano de contratualização, o grupo 
+    profissional a que pertencem e o nº de processos concluídos durante o ano (com 
+    discussão em conselho geral).
+Caso nomeie gestores internos apenas de um grupo profissional, valorizar metade da pontuação prevista.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+10
+Inicio: 01-01-2021;
+Fim: --
+A07
+A unidade funcional possui um sistema de registo sistemático de todas as não 
+    conformidades
+Esse sistema permite registar todas as ações necessárias para fazer a gestão do 
+    processo desde a sua identificação até à definição e aprovação de uma proposta de 
+    melhoria.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+5
+Inicio: 01-01-2021;
+Fim: --
+A08
+A unidade funcional discutiu em conselho geral pelo menos 75% das não 
+    conformidades apresentadas pelos utentes
+Este critério apenas é cumprido se existir um ""um sistema de registo sistemático 
+    de todas as não conformidades"" e se ao longo do ano tiverem sido discutidos e 
+    aprovadas, em conselho geral, propostas de modificação de procedimentos em pelo menos 75% das não 
+    conformidades apresentadas durante o ano.
+Valorizar na direta proporção do nº de propostas discutidas em conselho geral 
+    relativamente ao nº de não conformidades identificadas durante o ano, através da 
+    seguinte fórmula:
+[valorização] = 100 / 7.5 x [nº de propostas discutidas em conselho geral] / [Nº 
+    de não conformidades identificadas durante o ano]
+Se [valorização] superior a 10, corrigir para 10.
+Se [Nº de não conformidades identificadas durante o ano] for igual a 0 (zero), a valorização é 10.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+10
+Inicio: 01-01-2021;
+Fim: --
+A09
+Taxa de ""não conformidades"" por 10000 consultas diretas por ano
+Fórmula:
+[taxa ""não conformidades""] = 10.000 x [nº de ""não conformidades"" da UF apresentadas no período em análise] / [nº consultas presenciais da UF no período em análise]
+Intervalo esperado:
+[0; 2,6] ""não conformidades"" por 10000 consultas diretas por ano 
+    (equivalente a USF/UCSP com 10000 utentes inscritos ter 10 ou menos ""não conformidades"" por 
+    ano).
+Intervalo de variação aceitável
+[0; 5,2] ""não conformidades"" por 10000 consultas diretas por ano 
+    (equivalente a USF/UCSP com 10000 utentes inscritos ter 20 ou menos ""não conformidades"" por ano)
+Aplicável a unidades funcionais com pelo menos 10.000 
+    consultas presenciais por ano.
+Este critério é valorizado em 15% para UF com [0; 2,6] ""não conformidades"" por 
+    10000 consultas diretas por ano.
+Este critério é valorizado em 0% para UF com [5.2; +INF] ""não conformidades"" por 
+    10000 consultas diretas por ano.
+Este critério é valorizado com valores entre 15% e 0% para taxas de não 
+    conformidades entre 2,6 e 5,2 ""não conformidades"" por 10000 consultas diretas 
+    por ano através da fórmula:
+[valorização]  = 30 - [taxa ""não conformidades""] x 15 / 2,6
+Uma ""não conformidade"" é um acontecimento relacionado com um utente, em que o 
+    ocorrido está aquém da meta estabelecida pela unidade funcional para esse processo. 
+    Adicionalmente, deve ter sido formalmente apresentada no livro de reclamações.
+É o Gabinete do Cidadão de cada ACES que define quais as reclamações 
+    apresentadas no livro de reclamações constituem e não constituem ""não 
+    conformidades"".
+As reclamações sobre temas aparentemente não relacionados com a prestação de 
+    cuidados de saúde, como sejam, o conforto, a higiene e limpeza das instalações,  
+    dificuldade em telefonar para a unidade de saúde, a ausência de seguranças, etc, 
+    devem ser consideradas na unidade funcional onde foi efetuada a reclamação.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+15
+Inicio: 01-01-2021;
+Fim: --
+A10
+A unidade funcional fomentou a criação de uma comissão de utentes
+Para que este critério seja considerado cumprido é necessária a existência de 
+    evidências da criação de condições efetivas para a existência de uma comissão de 
+    utentes.
+Por exemplo publicitação desta possibilidade ou contactos com as entidades 
+    locais e, eventualmente, a disponibilização de instalações para o funcionamento 
+    da mesma.
+Aplicável apenas a USF e UCSP.
+5
+Inicio: 01-01-2021;
+Fim: --
+A11
+A unidade funcional mantem em funcionamento uma comissão de utentes
+Para que este critério seja considerado cumprido é necessária a existência atas de reuniões da comissão de utentes.
+Valorizar uma reunião por semestre, 50% por cada reunião até um máximo de 2.
+Aplicável apenas a USF e UCSP.
+5
+Inicio: 01-01-2021;
+Fim: --
+A12
+A unidade funcional discutiu e aprovou em conselho geral propostas da comissão 
+    de utentes para melhoria do seu funcionamento
+Para que este critério seja considerado cumprido é necessária a existência atas dos 
+    respetivos conselhos gerais.
+Valorizar uma reunião por semestre, 50% por cada reunião até um máximo de 2.
+Aplicável apenas a USF e UCSP.
+5
+Inicio: 01-01-2021;
+Fim: --
+CHECKLIST
+DE AUTOPREENCHIMENTO PARA O ACES
+Para cada item da
+checklist
+o ACES deve ter a possibilidade de submeter evidências que permitam 
+    à ARS respetiva proceder à respetiva validação.
+No caso dos ACES das ULS, a validação é feita pela ARS respetiva.
+COD
+Área de Avaliação
+Critérios de Cumprimento
+Valorização (%)
+Validade
+B01
+O Gabinete do Cidadão do ACES teve um responsável nomeado ao longo de pelo menos 
+    9 dos 12 meses do período de contratualização
+Cálculos feitos de forma automática pela ACSS com base nos registos existentes 
+    na ficha de caracterização de cada Gabinete de Cidadão de ACES, no
+https://sdm.min-saude.pt/
+.
+No caso das ULS que não possuem um Gabinete do Cidadão específico do ACES, o 
+    critério aplica-se ao responsável do Gabinete de Cidadão da própria ULS, que 
+    deve estar referenciado especificamente no(s) Gabinete(s) do Cidadão do(s) ACES da 
+    ULS.
+No final do ano de contratualização (4º trimestre), a avaliação ""pelo menos 9 em 12 meses"" é medida em dias, ou seja, na prática o critério considera-se cumprido se existir responsável nomeado em 3/4 dos dias do ano.
+Também nos 1º, 2º e 3º trimestres, o critério considera-se cumprido se existir nomeação de responsável do gabinete do cidadão em pelo menos 3/4 do tempo decorrido (medido em dias).
+Para ACES com responsáveis de gabinete de cidadão nomeados em menos de 3/4 do tempo, pondera-se na direta proporção do tempo, medido em dias, em que tenha existido nomeação registada no SDM.
+Os registos dos responsáveis, no SDM, devem ser efetuados até ao final do trimestre seguinte a que diz respeito a avaliação, para poderem ser contabilizados neste indicador.
+5
+Inicio: 01-01-2021;
+Fim: --
+B02
+A alocação de recursos ao Gabinete do Cidadão é de pelo menos 0,5 ETC por 
+    100.000 inscritos do grupo profissional ""técnico superior""
+Cálculos feitos de forma automática pela ACSS com base nos registos de equivalentes em tempo completo (ETC) de ""técnicos superiores"" (ou equivalentes), existentes 
+    no Relatório de Recursos Humanos de cada ACES no SDM, em
+https://sdm.min-saude.pt/
+(fonte: RHV).
+Este critério é valorizado da seguinte forma:
+- ACES com 0.50 ETC por 100.000 inscritos ou valores superiores: Valorização máxima (5);
+- ACES com 0.25 ETC por 100.000 inscritos ou valores inferiores: Valorização nula (0);
+- ACES com valores ETC entre 0.25 e 0.50, valorizar de acordo com a fórmula seguinte:
+Valorização = 5 x ([ETC por 100.000 inscritos] - 0.25) x 4
+O cálculo dos ETC a aplicar a este critério é a média dos ETC registados no RHV para o grupo profissional ""técnico superior"", durante o período em análise.
+Contabilizam-se profissionais da carreira de técnicos superiores e carreiras que impliquem que o profissional tenha uma licenciatura, desde que inscritos, em RHV, no módulo de trabalhadores ou no módulo de prestadores.
+Os ETC contabilizados incluem os do responsável pelo gabinete do cidadão, caso seja ""Técnico superior"" (ou equivalente).
+Nas ULS, com centro de custo específico para ""gabinete do cidadão"" ao nível do(s) respetivo(s) ACES, faz-se uma contabilização direta dos ETC dos profissionais nesse(s) centros de custo.
+Nas ULS, sem centro de custo específico para ""gabinete do cidadão"" ao nível do(s) respetivo(s) ACES, faz-se um rateio dos ETC dos profissionais elegíveis no centro de custo do gabinete do cidadão da ULS, na direta proporção do nº de consultas médicas presenciais existentes nesse período nos CSP, relativamente ao nº de consultas hospitalares e de episódios de urgência no mesmo período. Assim, por exemplo, uma ULS com 1.5 ETC de técnicos superiores no gabinete de cidadão da ULS, 50.000 consultas médicas presenciais nos CSP, 80.000 consultas hospitalares e 20.000 episódios de urgência contabiliza 0.5 ETC de técnicos superiores rateados pelos CSP, para efeitos dos cálculos necessários a este critério.
+A contagem de inscritos ativos também é uma média dos inscritos nos meses pertencentes ao período em análise.
+5
+Inicio: 01-01-2021;
+Fim: --
+B03
+A alocação de recursos ao Gabinete do Cidadão é de pelo menos 0,66 ETC por 
+    100.000 inscritos do grupo profissional ""assistente técnico"".
+Cálculos feitos de forma automática pela ACSS com base nos registos de equivalentes em tempo completo (ETC) de ""assistentes técnicos"" existentes 
+    no Relatório de Recursos Humanos de cada ACES no SDM, em
+https://sdm.min-saude.pt/
+(fonte: RHV).
+Este critério é valorizado da seguinte forma:
+- ACES com 0.66 ETC por 100.000 inscritos ou valores superiores: Valorização máxima (5);
+- ACES com 0.33 ETC por 100.000 inscritos ou valores inferiores: Valorização nula (0);
+- ACES com valores ETC entre 0.33 e 0.66, valorizar de acordo com a fórmula seguinte:
+Valorização = 5 x ([ETC por 100.000 inscritos] - 0.33) / 0.33
+O cálculo dos ETC a aplicar a este critério é a média dos ETC registados no RHV para o grupo profissional ""assistente técnico"", durante o período em análise, independentemente de registado no módulo de trabalhadores ou no de prestadores.
+Nas ULS, com centro de custo específico para ""gabinete do cidadão"" ao nível do(s) respetivo(s) ACES, faz-se uma contabilização direta dos ETC dos profissionais nesse(s) centros de custo.
+Nas ULS, sem centro de custo específico para ""gabinete do cidadão"" ao nível do(s) respetivo(s) ACES, faz-se um rateio dos ETC dos profissionais elegíveis no centro de custo do gabinete do cidadão da ULS, na direta proporção do nº de consultas médicas presenciais existentes nesse período nos CSP, relativamente ao nº de consultas hospitalares e de episódios de urgência no mesmo período. Assim, por exemplo, uma ULS com 0.6 ETC de assistentes técnicos no gabinete de cidadão da ULS, 50.000 consultas médicas presenciais nos CSP, 80.000 consultas hospitalares e 20.000 episódios de urgência contabiliza 0.2 ETC de assistentes técncios rateados pelos CSP, para efeitos dos cálculos necessários a este critério.
+A contagem de inscritos ativos também é uma média dos inscritos nos meses pertencentes ao período em análise.
+5
+Inicio: 01-01-2021;
+Fim: --
+B04
+As unidades funcionais prestadoras de cuidados de saúde do ACES possuem, nos 
+    respetivos manuais de articulação, um capítulo dedicado ao Gabinete do Cidadão
+Por cada unidade funcional prestadora de cuidados, valorizar os seguintes 
+    critérios de forma a calcular o valor do numerador da fórmula de valorização deste 
+    critério (ver notas 1 e 2):
+1. Existe capítulo sobre gabinete do cidadão;
+2. O capítulo sobre o gabinete do cidadão refere que tipo de responsabilidades 
+    são atribuídas ao Gabinete do Cidadão, na análise das sugestões efetuadas pelos 
+    utentes;
+3. O capítulo sobre o gabinete do cidadão refere que tipo de responsabilidades 
+    são atribuídas ao Gabinete do Cidadão, na aplicação e tratamento de resultados 
+    dos questionários de satisfação;
+4. O capítulo sobre o gabinete do cidadão refere que tipo de responsabilidades 
+    são atribuídas ao Gabinete do Cidadão, na gestão das reclamações que constituem 
+    não conformidades;
+A fórmula para valorizar este critério tem as seguintes adaptações em função do trimestre em análise.
+Fórmula 1º trimestre:
+Valorização = [Nº critérios cumpridos nos manuais de articulação das unidades 
+    funcionais do ACES existentes a 31 de março do ano de contratualização] / (4 x [Nº de unidades funcionais do ACES existentes a 31 de março do ano de contratualização])
+Fórmula 2º trimestre:
+Valorização = [Nº critérios cumpridos nos manuais de articulação das unidades 
+    funcionais do ACES existentes a 30 de junho do ano de contratualização] / (4 x [Nº de unidades funcionais do ACES existentes a 30 de junho do ano de contratualização])
+Fórmula 3º trimestre:
+Valorização = [Nº critérios cumpridos nos manuais de articulação das unidades 
+    funcionais do ACES existentes a 30 de setembro do ano de contratualização] / (4 x [Nº de unidades funcionais do ACES existentes a 30 de setembro do ano de contratualização])
+Fórmula 4º trimestre:
+Valorização = [Nº critérios cumpridos nos manuais de articulação das unidades 
+    funcionais do ACES existentes na totalidade do período compreendido entre 
+    1 de julho e 31 de dezembro do ano de contratualização] / (4 x [Nº de unidades funcionais do ACES existentes na totalidade do período compreendido entre 
+    1 de julho e 31 de dezembro do ano de contratualização])
+Notas:
+1. Os 4 critérios referidos só podem ser considerados cumpridos nas unidades funcionais com manual de articulação aprovado pela Direção Executiva do ACES para o ano de contratualização.
+2. Devem ser contabilizadas, para o numerador e para o denominador das fórmulas de valorização deste critério, as unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+5
+Inicio: 01-01-2021;
+Fim: --
+B05
+O Gabinete do Cidadão do ACES possui um plano de ação
+Para que este critério seja cumprido é necessário que o documento:
+a) Exista e esteja assinado quer pelo coordenador quer pelo Diretor Executivo do 
+    ACES;
+b) Que faça referência aos recursos (humanos e outros) necessários à execução do 
+    Plano de Ação.
+c) Faça referência aos objetivos em termos de índices de satisfação de utentes.
+d) Faça referência a objetivos em termos de nº de reclamações (não 
+    conformidades) para o ACES por 10.000 consultas presenciais por ano.
+e) Que descreva as atividades previstas.
+f) Que descreva os investimentos necessários.
+Cada um dos 6 itens anteriores valoriza 1/6 deste critério.
+5
+Inicio: 01-01-2021;
+Fim: --
+B06
+O Gabinete do Cidadão do ACES efetua um relatório de atividades
+Para que este critério seja considerado cumprido, no 4º trimestre, é necessário:
+a) Que o gabinete do cidadão tenha publicado um relatório de atividades 
+    relativamente ao ano de contratualização;
+b) Que esse relatório de atividades elenque as recomendações mais importantes, 
+    que decorrem das sugestões efetuadas pelos utentes, para cada unidade funcional.
+c) Que esse relatório de atividades descreva que modificações foram 
+    implementadas nas unidades funcionais do ACES, na sequência dos respetivos 
+    processos de gestão de não conformidades.
+d) Que esse relatório de atividades recomende estratégias de melhoria a serem 
+    implementadas no futuro, pela Direção Executiva do ACES, ou pelas unidades 
+    funcionais, com vista a melhorar a satisfação dos utentes.
+Cada um dos 4 itens anteriores valoriza 25% deste critério.
+Para que este critério seja considerado cumprido, nos 1º, 2º e 3º trimestres, é necessário:
+a) Que o gabinete do cidadão tenha publicado um relatório de atividades 
+    relativamente ao ano prévio ao da contratualização;
+b) Que o relatório de atividades relativo ao ano prévio ao da contratualização ou o plano de ação para o ano corrente, elenque as recomendações mais importantes, 
+    que decorrem das sugestões efetuadas pelos utentes, para cada unidade funcional.
+c) Que esse relatório de atividades descreva que modificações foram 
+    implementadas nas unidades funcionais do ACES, na sequência dos respetivos 
+    processos de gestão de não conformidades.
+d) Que o relatório de atividades relativo ao ano prévio ao da contratualização ou o plano de ação para o ano corrente recomende estratégias de melhoria a serem 
+    implementadas no futuro, pela Direção Executiva do ACES, ou pelas unidades 
+    funcionais, com vista a melhorar a satisfação dos utentes.
+Cada um dos 4 itens anteriores valoriza 25% deste critério.
+5
+Inicio: 01-01-2021;
+Fim: --
+B07
+O Gabinete do Cidadão do ACES promoveu pelo menos uma reunião de Conselhos 
+    Técnicos e de coordenadores, envolvendo todas as UF do ACES
+Foi realizada pelo menos uma reunião, organizada pelo Gabinete dos Cidadão, 
+    envolvendo todas os coordenadores e conselhos técnicos de unidades funcionais, 
+    para discussão de boas práticas relacionadas com ""participação do cidadão"".
+A reunião deve também ter a presença da Direção Executiva e do Conselho Clínico 
+    e de Saúde.
+Para que este critério seja cumprido, no 4º trimestre, é necessária a existência de uma ata, que 
+    demonstre:
+a) a presença de pelo menos 2/3 das UF (existentes na data da reunião).
+b) a presença da Direção Executiva e do Conselho Clínico e de Saúde.
+c) que foi feita a partilha de boas práticas, seja relacionadas com sugestões, 
+    aplicação de questionários de satisfação, ou implementação de processos de 
+    gestão de não conformidades.
+Cada um dos 3 itens anteriores valoriza 1/3 deste critério.
+No 1º, 2º e 3º trimestres, o critério é avaliado da seguinte forma:
+1. Se a reunião já tiver ocorrido, aplicam-se os critérios especificados anteriormente, cada 1 valorizando 1/3.
+2. Se a reunião ainda não tiver ocorrido e já tiver sido divulgada uma proposta de reunião com ordem de trabalhos, valorizam-se no documento que agenda a reunião, a 
+	existência ou não das características seguintes, valendo cada uma 1/3 deste critério:
+a) Proposta de participação de todas as UF do ACES.
+b) Proposta de particiação da Direção Executiva e do Conselho Clínico e de Saúde do ACES.
+c) Proposta de participação de algumas unidades funcionais para partilha de boas práticas.
+3. Se a reunião ainda não tiver ocorrido e não tiver sido agendada, valorizar 0 (zero).
+5
+Inicio: 01-01-2021;
+Fim: --
+B08
+O Gabinete do Cidadão apoia as unidades funcionais na implementação dos 
+    respetivos processos de gestão de não conformidades
+O Gabinete do Cidadão participa na implementação e na manutenção processos de 
+    gestão de não conformidades nas unidades funcionais prestadoras de cuidados.
+Para que este critério seja considerado cumprido no 4º trimestre, é necessário que ACES, através do respetivo Gabinete do Cidadão, demonstre (ver nota 1):
+a) Conhecer que unidades funcionais prestadoras de cuidados de saúde do ACES 
+    possuem processos de gestão de não conformidades estruturados, com sistemas 
+    próprios de registo, nomeação de gestores internos e discussão de soluções em 
+    conselho geral.
+b) O que fez para promover a implementação de processos de gestão de não 
+    conformidades em unidades funcionais sem essa prática.
+Cada um dos 2 itens anteriores valoriza 50% deste critério.
+Para que este critério seja considerado cumprido no 1º, 2º e 3º trimestres, é necessário que ACES, através do respetivo Gabinete do Cidadão, demonstre (ver nota 2):
+a) Conhecer que unidades funcionais prestadoras de cuidados de saúde do ACES 
+    possuem processos de gestão de não conformidades estruturados, com sistemas 
+    próprios de registo, nomeação de gestores internos e discussão de soluções em 
+    conselho geral.
+b) O que se propõe fazer durante o corrente ano para promover a implementação de processos de gestão de não 
+    conformidades em unidades funcionais sem essa prática.
+Cada um dos 2 itens anteriores valoriza 50% deste critério.
+Notas:
+1. Este critério é valorizado, no 4º trimetre através do conteúdo do relatório de atividades do Gabinete do Cidadão ou documento equivalente aprovado por esse serviço e pela Direção Executiva do ACES.
+2. Este critério é valorizado, no 1º, 2º e 3º trimetres através do conteúdo do Plano de Ação do Gabinete do Cidadão ou documento equivalente aprovado por esse serviço e pela Direção Executiva do ACES.
+5
+Inicio: 01-01-2021;
+Fim: --
+B09
+Proporção de unidades funcionais do ACES com sistema de recolha de sugestões e 
+    reclamações
+Por cada unidade funcional prestadora de cuidados, valorizar os seguintes 
+    critérios de forma a saber o valor do numerador da fórmula de valorização deste critério (ver nota 1):
+a) Ter publicitado a possibilidade dos utentes fazerem sugestões e reclamações em todas as salas de espera;
+b) Ter referência a essa possibilidade no guia do utente;
+c) Existir um formulário próprio para sugestões, disponível para entrega na(s) secretaria(s).
+d) Existir livro de reclamações.
+A fórmula para valorizar este critério tem as seguintes adaptações em função do trimestre em análise.
+Fórmula 1º trimestre:
+Valorização = [Nº critérios cumpridos das unidades funcionais dos ACES existentes a 31 de março do ano de contratualização] / (4 x 
+    [Nº de unidades funcionais dos ACES existentes existentes a 31 de março do ano de contratualização])
+Fórmula 2º trimestre:
+Valorização = [Nº critérios cumpridos das unidades funcionais dos ACES existentes a 30 de junho do ano de contratualização] / (4 x 
+    [Nº de unidades funcionais dos ACES existentes existentes a 30 de junho do ano de contratualização])
+Fórmula 3º trimestre:
+Valorização = [Nº critérios cumpridos das unidades funcionais dos ACES existentes a 30 de setembro do ano de contratualização] / (4 x 
+    [Nº de unidades funcionais dos ACES existentes existentes a 30 de setembro do ano de contratualização])
+Fórmula 4º trimestre:
+Valorização = [Nº critérios cumpridos das unidades funcionais dos ACES existentes na totalidade do período compreendido entre 
+    1 de julho e 31 de dezembro do ano de contratualização] / (4 x 
+    [Nº de unidades funcionais dos ACES existentes na totalidade do período compreendido entre 
+    1 de julho e 31 de dezembro do ano de contratualização])
+Notas:
+1. Devem ser contabilizadas, para o numerador e para o denominador das fórmulas de valorização deste critério, as unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+5
+Inicio: 01-01-2021;
+Fim: --
+B10
+Proporção de unidades funcionais do ACES que realizaram um questionário de 
+    satisfação de utentes durante o ano de contratualização
+Para que este critério seja considerado cumprido no 4º trimestre, é necessário ter 
+    recolhido em cada unidade funcional, ao longo do ano de contratualização, pelo 
+    menos 5 questionários de satisfação de utentes por cada profissional que integre a equipa (não necessariamente no mesmo dia). Ver notas.
+Fórmula:
+Valorização = [Nº de unidades funcionais do ACES existentes na totalidade do período compreendido entre julho e dezembro do ano de contratualização, com o critério cumprido] / [Nº de unidades funcionais dos ACES 
+    existentes na totalidade do período compreendido entre julho e dezembro do ano de contratualização]
+Para que este critério seja considerado cumprido no 1º, 2º e 3º trimestres, é necessário prever vir a implementar, ao longo do ano de contratualização um inquérito de satisfação de utentes com recolha de pelo 
+    menos 5 questionários por cada profissional que integre a equipa (ver notas).
+Fórmula para o 1º trimestre:
+Valorização = [Nº de unidades funcionais do ACES existentes a 31 de março do ano de contratualização, com o critério cumprido] / [Nº de unidades funcionais dos ACES existentes a 31 de março do ano de contratualização]
+Fórmula para o 2º trimestre:
+Valorização = [Nº de unidades funcionais do ACES existentes a 30 de junho do ano de contratualização, com o critério cumprido] / [Nº de unidades funcionais dos ACES existentes a 30 de junho do ano de contratualização]
+Fórmula para o 3º trimestre:
+Valorização = [Nº de unidades funcionais do ACES existentes a 30 de setembro do ano de contratualização, com o critério cumprido] / [Nº de unidades funcionais dos ACES existentes a 30 de setembro do ano de contratualização]
+Notas:
+1. A quantificação de profissionais é efetuada em equivalentes em tempo completo (ETC) no último dia do período em análise.
+2. Devem ser contabilizadas, para o numerador e para o denominador das fórmulas de valorização deste critério, as unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+3. A partir do ano de 2022, considera-se válida a aplicação do questionário de satisfação especificado em
+https://sdm.min-saude.pt/bi.aspx?id=184
+, sem prejuízo das ARS poderem aplicar outro(s) modelo(s) que cumpra(m) a mesma finalidade, aprovado(s) pelo respetivo conselhos diretivos.
+5
+Inicio: 01-01-2021;
+Fim: --
+B11
+As unidades funcionais 
+    do ACES discutiram em conselho geral pelo menos 75% das não 
+    conformidades apresentadas pelos utentes
+Este critério apenas é cumprido em cada unidade funcional, se existir um ""um sistema de registo sistemático 
+    de todas as não conformidades"" e se ao longo do ano tiverem sido discutidos e 
+    aprovadas, em conselho geral, propostas de modificação de procedimentos em pelo menos 75% das não 
+    conformidades apresentadas durante o período em análise.
+Valorizar na direta proporção do nº de propostas discutidas em conselho geral 
+    relativamente ao nº de não conformidades identificadas durante o período em análise, através da 
+    seguintes fórmulas, adaptadas a cada trimestre:
+Fórmula 1º trimestre (ver notas 1, 2, 3, 4 e 5):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral no 1º trimetre] / [Nº 
+    de não conformidades identificadas durante o 1º trimestre]
+[valorização do ACES] = média ponderada ([valorização de cada UF])
+Fórmula 2º trimestre (ver notas 1, 2, 3, 4 e 5):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e junho] / [Nº 
+    de não conformidades identificadas entre janeiro e junho]
+[valorização do ACES] = média ponderada ([valorização de cada UF])
+Fórmula 3º trimestre (ver notas 1, 2, 3, 4 e 5):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e setembro] / [Nº 
+    de não conformidades identificadas entre janeiro e setembro]
+[valorização do ACES] = média ponderada ([valorização de cada UF])
+Fórmula 4º trimestre (ver notas 1, 2, 3, 4 e 5):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e dezembro] / [Nº 
+    de não conformidades identificadas entre janeiro e dezembro]
+[valorização do ACES] = média ponderada ([valorização de cada UF])
+Notas:
+1. Em qualquer trimestre, se a [valorização do ACES], calculada através da média ponderada das valorizações das UF, for superior a 20, corrigir para 20.
+2. O ponderador da ""média ponderada"" é a média dos ETC dos respetivos profissionais, nos vários meses do período em análise. Quer isto dizer, por exemplo para o 1º trimestre, se uma unidade funcional tiver uma equipa de 10 ETC em janeiro e fevereiro e 13 ETC em março, a dimensão média dessa equipa é [(10 + 10 + 13)  / 3], ou seja 11.
+3. Em qualquer trimestre, caso não exista em determinada UF, um ""um sistema de registo sistemático de todas as não conformidades"", a valorização a conferir à mesma é de 0 (zero), mesmo que não existam não conformidades (ver nota 4).
+4. Caso em determinada UF, o denominador da fórmula ou seja o [Nº de não conformidades identificadas entre janeiro e XXX] seja zero, a valorização deve ser máxima. Esta regra não é aplicável se a UF não tiver ""um sistema de registo sistemático de todas as não conformidades"" (ver nota 3).
+5. Devem ser contabilizadas as unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+20
+Inicio: 01-01-2023;
+Fim:  --
+B11
+As unidades funcionais 
+    do ACES discutiram em conselho geral pelo menos 75% das não 
+    conformidades apresentadas pelos utentes
+Este critério apenas é cumprido em cada unidade funcional, se existir um ""um sistema de registo sistemático 
+    de todas as não conformidades"" e se ao longo do ano tiverem sido discutidos e 
+    aprovadas, em conselho geral, propostas de modificação de procedimentos em pelo menos 75% das não 
+    conformidades apresentadas durante o período em análise.
+Valorizar na direta proporção do nº de propostas discutidas em conselho geral 
+    relativamente ao nº de não conformidades identificadas durante o período em análise, através da 
+    seguintes fórmulas, adaptadas a cada trimestre:
+Fórmula 1º trimestre (ver notas 1 e 2):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral no 1º trimetre] / [Nº 
+    de não conformidades identificadas durante o 1º trimestre]
+[valorização do ACES] = média ([valorização de cada UF])
+Fórmula 2º trimestre (ver notas 1 e 2):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e junho] / [Nº 
+    de não conformidades identificadas entre janeiro e junho]
+[valorização do ACES] = média ([valorização de cada UF])
+Fórmula 3º trimestre (ver notas 1 e 2):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e setembro] / [Nº 
+    de não conformidades identificadas entre janeiro e setembro]
+[valorização do ACES] = média ([valorização de cada UF])
+Fórmula 4º trimestre (ver notas 1 e 2):
+[valorização de cada UF] = 200 / 7.5 x [nº de propostas discutidas em conselho geral entre janeiro e dezembro] / [Nº 
+    de não conformidades identificadas entre janeiro e dezembro]
+[valorização do ACES] = média ([valorização de cada UF])
+Notas:
+1. Em qualquer trimestre, se a [valorização do ACES], calculada através da média das valorizações das UF, for superior a 20, corrigir para 20.
+2. Em qualquer trimestre, caso não exista em determinada UF, um ""um sistema de registo sistemático de todas as não conformidades"", a valorização a conferir à mesma é de 0 (zero).
+3. Devem ser contabilizadas as unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+20
+Inicio: 01-01-2021;
+Fim:  31-12-2022.
+B12
+Taxa de não conformidades por 10000 consultas presenciais por ano
+Intervalo esperado [0; 2.6] ""não conformidades"" por 10000 consultas diretas por ano 
+    (equivalente a USF/UCSP com 10000 utentes inscritos ter 10 ou menos ""não conformidades"" por 
+    ano).
+Intervalo de variação aceitável [0; 5.2] ""não conformidades"" por 10000 consultas diretas por ano 
+    (equivalente a USF/UCSP com 10000 utentes inscritos ter 20 ou menos ""não conformidades"" por ano)
+Este critério é valorizado em 25% para ACES com [0; 2.6] ""não conformidades"" por 
+    10.000 consultas presenciais por ano.
+Este critério é valorizado em 0% para ACES com [5.2; +INF] ""não conformidades"" por 
+    10000 consultas presencaiis por ano.
+Este critério é valorizado com valores entre 25% e 0% para taxas de não 
+    conformidades entre 2.6 e 5.2 ""não conformidades"" por 10000 consultas presenciais 
+    no período em análise através da fórmula:
+[valorização] = 50 - [taxa ""não conformidades""] x 25 / 2,6
+Em que:
+[taxa ""não conformidades""] = 10.000 x [nº de ""não conformidades"" das UF do ACES apresentadas no período em análise] / [nº consultas presenciais do ACES no período em análise]
+Uma ""não conformidade"" é um acontecimento relacionado com um utente, em que o 
+    ocorrido está aquém da meta estabelecida pela unidade funcional para esse processo. 
+    Adicionalmente, deve ter sido formalmente apresentada no livro de reclamações.
+É o Gabinete do Cidadão de cada ACES que define quais as reclamações 
+    apresentadas no livro de reclamações constituem e não constituem ""não 
+    conformidades"".
+As reclamações sobre temas aparentemente não relacionados com a prestação de 
+    cuidados de saúde, como sejam, o conforto, a higiene e limpeza das instalações,  
+    dificuldade em telefonar para a unidade de saúde, a ausência de seguranças, etc, 
+    devem ser consideradas na unidade funcional onde foi efetuada a reclamação.
+Notas:
+1. Devem ser contabilizadas, as não conformidades e as consultas presenciais das unidades funcionais do ACES dos tipos seguintes: USF-A, USF-B, UCSP, UCC, ECCI, USP e URAP.
+25
+Inicio: 01-01-2021;
+Fim: --
+B13
+Proporção de unidades funcionais do ACES com comissão de utentes ativa.
+No 4º trimestre, este critério é medido através da fórmula:
+[Valorização] = 5 x ([Nº de unidades funcionais com reuniões de comissões de utentes no 1º semestre, entre as existentes em todo o 1º semestre] + [Nº de unidades funcionais com reuniões de comissões 
+    de utentes no 2º semestre, entre as existentes em todo o 1º semestre])
+/
+([Nº de unidades funcionais do ACES existentes em todo o 1º semestre] + [Nº de unidades funcionais do ACES existentes em todo o 2º semestre])
+No 1º trimestre, este critério é medido através da fórmula:
+[Valorização] = 5 x [Nº de unidades funcionais com reuniões de comissões de utentes já ocorridas no 1º trimestre ou previstas até ao final do 1º semestre, entre as existentes a 31 de março]
+/
+[Nº de unidades funcionais do ACES existentes a 31 de março]
+No 2º trimestre, este critério é medido através da fórmula:
+[Valorização] = 5 x [Nº de unidades funcionais com reuniões de comissões de utentes ocorridas no 1º semestre, entre as existentes a 30 de junho]
+/
+[Nº de unidades funcionais do ACES existentes a 30 de junho]
+No 3º trimestre, este critério é medido através da fórmula:
+[Valorização] = 5 x ([Nº de unidades funcionais com reuniões de comissões de utentes no 1º semestre, entre as existentes em todo o 1º semestre] + [Nº de unidades funcionais com reuniões de comissões 
+    de utentes no 3º trimestre ou previstas até ao final do 2º semestre, entre as existentes a 30 de setembro])
+/
+([Nº de unidades funcionais do ACES existentes em todo o 1º semestre] + [Nº de unidades funcionais do ACES existentes a 30 de setembro])
+Notas:
+1. Aplicável apenas a USF e UCSP.
+5
+Inicio: 01-01-2021;
+Fim: --"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados (formulário do RAUF, para as UF e formulário do PD-ACES para os ACES) necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Aplicável a
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+RAUF e PDACES
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencentes ao intervalo [0; 2], não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+C02
+IDS da dimensão ""centralidade do cidadão""
+RAUF e PDACES
+O [IDS da dimensão ""centralidade do cidadão""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""centralidade do cidadão""] = 100 x [Score dimensão ""segurança 
+    dos utentes""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+RAUF
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C03
+Periodicidade de registo nos formulários do BI-CSP
+PD-ACES
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelos ACES e de validação pelas ARS no 
+                            PD-ACES*
+Objetivo do preenchimento
+Validação pela ARS
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ARS deverá gerir com os respetivos ACES, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade da ARS conseguir validar todos os formulários dos respetivos ACES, no máximo, até ao último dia do prazo definido. Assim, compete a cada ARS definir prazos internos para o preenchimento da plataforma pelos respetivos ACES.
+C04
+Validação pelo ACES
+RAUF
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO, 
+    registadas pela unidade funcional.
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --
+C04
+Validação pela ARS
+PD-ACES
+1. O estado de validação pela ARS, pode assumir 3 valores:
+a) Não preenchido;
+b) Não validado pela ARS;
+c) Validado pela ARS;
+2. A ARS deve ""validar"" ou ""não validar"" especificamente todas as variáveis da 
+                CHECKLIST de autopreenchimento, registadas pelo ACES.
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" da ARS. A 
+    ""validação"" da ARS é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades do ACES, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando a ARS preenche o campo de validação, o formulário fica bloqueado para edição pelo ACES. Para permitir que o ACES corrija informações de um formulário 
+    com o estado de validação já preenchido pela ARS, esta última deverá ""desbloquear"" a edição do formulário pelo ACES.
+6. Caso o estado definido pela ARS seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pelo ACES seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pela ARS deverão ser corrigidos pelo ACES, de forma a que a ARS possa ""validar"" a informação contida no formulário de introdução de dados.
+7. A tabela seguinte resume as consequências do estado do campo ""validação"" em 
+    função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da 
+    data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, 
+             calculado em data igual ou superior a 1 de abril do ano seguinte ao da 
+             contratualização
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- Para os ACES, o resultado do indicador é recolhido mensalmente a partir do PD-ACES com o valor que lá esteja calculado em função de dados introduzidos pelos respetivos utilizadores.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
+Fórmula,Aplicação de checklist
+Unidade de medida,Score
+Output,Com dados desde Setembro de 2021
+Área | Subárea | Dimensão,Qualidade Organizacional | Centralidade no Cidadão | Participação do Cidadão
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

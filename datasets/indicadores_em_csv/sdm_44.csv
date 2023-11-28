@@ -1,0 +1,54 @@
+titulo,texto
+ID,044
+Código,5.01.01
+Código SIARS,2013.044.01
+Nome abreviado,"Proporção mulheres [50; 70[ A, c/ mamogr. (2 anos)"
+Designação,"Proporção de mulheres entre [50; 70[ anos, com mamografia registada nos últimos dois anos"
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro da mama""..
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional) e também salvaguardando a possibilidade de leitura de registos clínicos efetuados pelas equipas de saúde familiar em contexto de rastreios oportunísticos ou de rastreios organizados de forma sistemática por essas unidades funcionais aos respetivos utentes (em complementaridade com as ações e registos no âmbito dos rastreios de base populacional)."
+Descrição do Indicador,"Indicador que exprime a proporção entre as mulheres com registo de mamografia nos últimos dois anos e as mulheres com idades compreendidas no intervalo [50, 70[ anos.
+Numerador: Contagem de mulheres com registo de mamografia nos últimos dois anos.
+Denominador: Contagem de mulheres com idades compreendidas no intervalo [50, 70[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de mamografia nos últimos 2 anos (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [50; 70[ anos (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Com inscrição ativa na Unidade de Saúde na data de referência do indicador."
+Observações Gerais,"A. Os MCDT válidos para este indicador, pela tabela de MCDT convencionados são os seguintes:
+- [Mamografia], código 446.4, área M (mamografia bilateral, duas incidências por mama).
+- [Mamografia unilateral], código 447.2, área M.
+São também contabilizados códigos historicamente pertencentes à tabela de MCDT convencionados, usados no passado para requisitar e registar mamografias, designadamente o M449.9 (Mamografia de rastreio) e o M116.3 (Mamografia - 4 incidencias 2 de cada lado).
+B. Para que uma mamografia seja contabilizada deve ter um resultado.
+C. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+D. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo""."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SIIMA-rastreios"".
+B. Os resultados da mamografia podem também ser registados manualmente, pelos médicos, no módulo de MCDT.
+MEDICINEONE:
+A. Para que sejam contabilizados neste indicador, as mamografias podem ser registadas quer no módulo de MCDT quer no módulo de rastreio oncológico.
+B. O resultado da mamografia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 24 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [57; 80]
+Ano de 2023: [57; 80]
+Ano de 2024: [57; 80]"
+Intervalo Esperado,"Ano de 2022: [50; 85]
+Ano de 2023: [50; 85]
+Ano de 2024: [50; 85]"
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

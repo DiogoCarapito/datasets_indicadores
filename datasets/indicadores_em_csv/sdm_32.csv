@@ -1,0 +1,52 @@
+titulo,texto
+ID,032
+Código,5.13.04
+Código SIARS,2013.032.01
+Nome abreviado,"Proporção jovens 14A, c/ peso e altura [11; 14[A"
+Designação,"Proporção de jovens com 14 anos, com peso e altura registados no intervalo [11; 14[ anos"
+Objetivo,"Monitorizar o programa de saúde infantil e juvenil. Parâmetro ""registo do peso e da altura""."
+Descrição do Indicador,"Indicador que exprime a proporção de jovens com peso e altura registados no intervalo [11; 14[ anos (entre as que completam 14 anos).
+Numerador: Contagem de jovens que completam 14 anos e com peso e altura registados no intervalo [11; 14[ anos.
+Denominador: Contagem de jovens que completam 14 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm pelo menos um registo de peso com [data de medição] pertencente ao intervalo etário [11; 14[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Têm pelo menos um registo de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [11; 14[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 14 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador."
+Observações Gerais,"A. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC.
+D. Não é obrigatório que o peso e altura sejam registados no mesmo dia."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. No SCLÍNICO, o IMC, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+MEDICINEONE:
+A. O IMC, o peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variáveis ""peso e altura""): Coincidente com o intervalo etário [11; 14[ anos de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem [14, 15[ anos.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variáveis ""peso e altura""): Coincidente com o intervalo etário [11; 14[ anos de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [14, 15[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de jovens
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [75; 100]
+Ano de 2023: [75; 100]
+Ano de 2024: [75; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

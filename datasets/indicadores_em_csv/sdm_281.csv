@@ -1,0 +1,76 @@
+titulo,texto
+ID,281
+Código,3.18.01
+Código SIARS,2013.281.01
+Nome abreviado,"Número médio visitas domic. por utente, por mês"
+Designação,"Número médio de visitas domiciliárias por qualquer elemento da equipa, por utente, por mês de internamento"
+Objetivo,Monitorizar a frequência de cuidados da equipa multiprofissional aos utentes integrados na ECCI
+Descrição do Indicador,"Indicador que exprime o número médio de visitas domiciliárias por qualquer elemento da equipa, por utente, por mês.
+Fator 1: Contagem de domicílios realizados a utentes [integrados na ECCI].
+Fator 2: Somatório do número de dias de internamento de utentes [integrados na ECCI].
+Fórmula: [Fator 1] / [Fator 2] x 365,25 / 12"
+Regras de cálculo,"Fator 1 (AA):
+Contagem de domicílios realizados a utentes em que a expressão [A e B e C] é verdadeira:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alínea B de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias.
+C. Realizados por qualquer elemento da equipa multiprofissional, durante o período de integração do utente na ECCI (ver alíneas C, D, E e F de OBSERVAÇÕES GERAIS)
+Fator 2 (BB):
+Somatório do número de dias de internamento de utentes [integrados na ECCI], em que a expressão [A e B e C] é verdadeira (ver alínea A e F de OBSERVAÇÕES GERAIS):
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alínea B de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam os dias de [suspensão de vaga] (independentemente do motivo), que decorram entre a [data de internamento] e a [data de alta].
+C. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias."
+Observações Gerais,"A. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+B. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+C. Os grupos profissionais admissíveis para análise neste indicador são: enfermeiros; assistentes socias; médicos; fisioterapeutas; nutricionistas; psicólogos; outros profissionais de saúde com funções clínicas (exclui secretários clínicos).
+São contabilizados domicílios cujo registo clínico seja feito no local de trabalho da UCC. Os profissionais de saúde devem, aquando do login no SCLÍNICO, escolher o local de trabalho correspondente à UCC onde o utente está integrado.
+No caso dos registos de domicílios médicas (por médicos ou internos), contabilizam-se para além dos realizados com login no local ""UCC"", também os registados com login na ""USF"" ou ""UCSP"" de inscrição do utente.
+D. As consultas contabilizadas no numerador são do tipo [Consulta presencial no domicílio] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C020
+| Consulta presencial de ""outro profissional"" - [SClínico - Perfil ""outro profissional""], incluindo:
+a) Consulta presencial (domicílio) realizada por psicólogo
+b) Consulta presencial (domicílio) realizada por fisioterapeuta
+c) Consulta presencial (domicílio) realizada por assistente social
+d) Consulta presencial (domicílio) realizada por nutricionista
+e) Consulta presencial (domicílio) realizada por outro tipo de profissional de saúde
+E. Pode-se contabilizar mais do que 1 domicílio, por dia, pelo mesmo profissional.
+F. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os dias de integração prévios à constituição da UCC, não influenciam o denominador deste indicador. Da mesma forma, os domicílios realizados aos utentes, com ""data de realização"" prévia à abertura da UCC não influenciam o numerador.
+G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ADMINISTRAÇÃO:
+A. Os perfis de SClínico dos diferentes profissionais de saúde permitem, no momento do login, escolher a unidade funcional na qual vão desenvolver a sua atividade clínica, em ""Lista de locais do utilizador"".
+Cada utilizador pode ter associado ao seu perfil vários locais, correspondentes às unidades funcionais onde está em cada momento a prestar cuidados.
+Neste caso, é considerado ""local de utilizador"" UCC para todos os profissionais de saúde e, adicionalmente, o ""local de utilizador"" USF/UCSP para os médicos de família ou internos da unidade de inscrição do utente.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A admissão é registada no painel de utentes referenciados da ECCI através do botão [Admissão].
+B. A alta é registada no painel de utentes referenciados da ECCI através do botão [Termo].
+C. Os contactos devem ser associados à equipa ECCI."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Fator 1 (variável ""contacto no domicílio""): Duração de 24 meses, terminando na data de referência do indicador. Apenas se contabilizam os domicílios que decorram entre o período temporal de cada integração na ECCI.
+- Fator 2 (variável ""data alta da ECCI"") : Duração de 12 meses, terminando na data de referência do indicador.
+- Fator 2 (variável ""data de integração na ECCI"") : Duração de 24 meses, terminando na data de referência do indicador. A data de admissão pode ser analisada até 1 ano antes da data de alta.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Fator 1 (variável ""contacto no domicílio""): Duração de 13 a 24 meses, iniciando a 1 de janeiro do ano N-1 e terminando na data de referência do indicador. Apenas se contabilizam os domicílios que decorram entre o periodo temporal de cada integração na ECCI.
+- Fator 2 (variável ""data alta da ECCI"") : Duração de 1 a 12 meses, entre 1 de janeiro do ano em curso e a data de referência do indicador.
+- Fator 2 (variável ""data de integração na ECCI"") : Duração de 13 a 24 meses, entre 1 de janeiro do ano N-1 e a data de referência do indicador. A data de admissão pode ser analisada até 1 ano antes da data de alta."
+Fórmula,"AA / BB x 365,25 / 12"
+Unidade de medida,DOM / UTE / MES
+Output,Média de domicílios por utente por mês de integração
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Acesso | Distribuição da Atividade
+Intervalo Aceitável,"Ano de 2022: [12; 31]
+Ano de 2023: [12; 31]
+Ano de 2024: [12; 31]"
+Intervalo Esperado,"Ano de 2022: [9; 31]
+Ano de 2023: [9; 31]
+Ano de 2024: [9; 31]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,41 @@
+titulo,texto
+ID,137
+Código,5.07.02
+Código SIARS,5.7
+Nome abreviado,Percent. DM com exame pés último ano
+Designação,Percentagem de utentes com diabetes com pelo menos um exame dos pés registado no ano
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""realização de exame de pés""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes, com exame dos pés realizado no último ano.
+Numerador: Contagem de utentes inscritos com diabetes com exame dos pés realizado no último ano.
+Denominador: Contagem de utentes inscritos com diabetes vigiados em programa."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um registo de exame dos pés, nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) sinalizado como ativo na lista de problemas.
+C. Ter entre [18, 76[ anos.
+D. Ter compromisso de vigilância na Unidade Funcional no programa de Diabetes."
+Observações Gerais,"A. O [exame de pés] pode ser registado por qualquer médico, interno ou enfermeiro da unidade de saúde. Se num determinado ano existir um registo médico, não é necessário existir nesse ano registo de enfermagem, e vice-versa."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O exame de enfermagem dos pés é feito na ficha de diabetes do SCLÍNICO, utilizando a intervenção ""Monitorizar o risco de úlcera do pé diabético"".
+SCLÍNICO - PERFIL MÉDICO:
+A. O registo médico do exame aos pés é feito exclusivamente na ficha de diabetes.
+MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. Os registos de exame dos pés devem ser realizados no módulo de diabetes, usando um dos campos seguintes: a) rastreio do pé; b) exames dos pés."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

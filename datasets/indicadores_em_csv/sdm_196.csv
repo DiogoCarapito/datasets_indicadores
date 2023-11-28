@@ -1,0 +1,58 @@
+titulo,texto
+ID,196
+Código,5.10.07
+Código SIARS,2017.196.01
+Nome abreviado,Proporção DM com PA em cada semestre
+Designação,"Proporção de utentes com diabetes, com registo de pressão arterial em cada semestre"
+Objetivo,"Monitorizar o acompanhamento dos utentes com Diabetes Mellitus: parâmetro ""registo de pressão arterial""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com Diabetes Mellitus, com registo de pelo menos 2 pressões arteriais nos últimos 12 meses (abrangendo 2 semestres).
+Numerador: Contagem de utentes inscritos com Diabetes Mellitus, com registo de pelo menos 2 pressões arteriais nos últimos 12 meses (abrangendo 2 semestres).
+Denominador: Contagem de utentes inscritos com Diabetes Mellitus."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos uma pressão arterial registada no último semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS e comentários de PERÍODO EM ANÁLISE).
+C. Com pelo menos uma pressão arterial registada no penúltimo semestre (ver alíneas A, B e C de OBSERVAÇÕES GERAIS e comentários de PERÍODO EM ANÁLISE).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. O diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos os 6 meses que antecedem a data de referência do indicador (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+C. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;
+D. Os utentes com Diabetes Mellitus diagnosticados de novo só são incluídos no denominador 6 meses após o registo do diagnóstico, por forma a que passe tempo suficiente para a realização das atividades avaliadas no numerador."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil. Pode também ser registada no ""perfil de enfermagem"".
+MEDICINEONE
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador. O último semestre corresponde aos 6 meses que antecedem a data de referência do indicador. O penúltimo semestre corresponde aos 6 meses anteriores. Por exemplo se a data de referência do indicador for 30-04-2012, o 1º semestre fica compreendido entre 01-05-2011 e 31-10-2011 e o 2º semestre entre 01-11-2011 e 30-04-2012.
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""DM na lista de problemas""): Duração de 6 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+Os resultados do indicador calculado pelo método PERÍODO EM ANÁLISE FIXO crescem progressivamente entre 31 de janeiro e 30 de junho e novamente entre 31 de julho e 31 de dezembro. Está construído para acumular resultados a partir de 1 de janeiro e a partir de 1 de julho. Os resultados de determinado mês são comparáveis com os resultados calculados 6 meses antes.
+Quando a data de referência do indicador pertence aos meses entre janeiro e junho, entram para o denominador os utentes com Diabetes Mellitus diagnosticados nos anos anteriores e para o numerador os que têm uma pressão arterial entre 1 de Julho e 31 de dezembro do ano anterior e outra pressão arterial entre 1 de Janeiro do ano em curso e a data de referência do indicador.
+Quando a data de referência do indicador pertence aos meses julho e dezembro entram para o denominador os utentes com Diabetes Mellitus com diagnóstico anterior a 30 de junho e para o numerador os que têm uma pressão arterial entre 1 de janeiro e 30 de junho do ano em curso e outra pressão arterial entre 1 de julho do ano em curso e a data de referência do indicador.
+- Numerador: Duração de 7 a 12 meses. Termina na data de referência do indicador. Quando a data de referência do indicador pertence ao primeiro semestre do ano civil, o 1º semestre do [período em análise] fica compreendido entre 1 de Julho e 31 de dezembro do ano precedente e o segundo semestre entre 1 de janeiro e 30 de junho do ano em curso. Quando a data de referência do indicador pertence ao segundo semestre do ano civil, o 1º semestre do [período em análise] fica compreendido entre 1 de janeiro e 30 de junho (do ano em curso) e o segundo semestre entre 1 de Julho e 31 de dezembro (do ano em curso).
+- Denominador (variável ""inscrição ativa na unidade de saúde""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""DM na lista de problemas""): Duração de 1 a 6 meses, terminando na data de referência do indicador. Se a data de referência do indicador pertence ao 1º semestre, o período em análise inicia-se a 1 de janeiro do ano corrente e o diagnóstico de HTA deve estar registado como ""ativo"" na lista de problemas com data anterior a 1 de janeiro até à data de referência do indicador, para que se considere verdadeira a condição B do denominador (assume-se que se manterá ""ativa"" até 30 de junho). Se a data de referência do indicador pertence ao 2º semestre, o período em análise inicia-se a 1 de Julho do ano corrente e o diagnóstico de HTA deve estar registado como ""ativo"" na lista de problemas com data anterior a 1 de Julho até à data de referência do indicador, para que se considere verdadeira a condição B do denominador (assume-se que se manterá ""ativo"" até 31 de dezembro)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise
+Prazo para Registos,5 dias

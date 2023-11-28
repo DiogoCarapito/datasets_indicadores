@@ -1,0 +1,96 @@
+titulo,texto
+ID,280
+Código,3.17.01
+Código SIARS,2013.280.01
+Nome abreviado,Proporção ute. aval. equi. multip. prim. 48h
+Designação,Proporção de utentes com contacto pela equipa multiprofissional nas primeiras 48h
+Objetivo,Permite monitorizar a acessibilidade à primeira avaliação das necessidades em cuidados por parte da equipa multiprofissional.
+Descrição do Indicador,"Exprime a proporção de utentes [integrados na ECCI] no ano, com contacto nas primeiras 48h pela equipa multiprofissional.
+Numerador: Contagem de utentes [integrados na ECCI], com contacto nas primeiras 48h pela equipa multiprofissional.
+Denominador: Contagem de utentes [integrados na ECCI]."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de integrações em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições do denominador.
+B. Com pelo menos dois contactos realizados nas primeiras 48h após [data de admissão], por elementos de grupos profissionais diferentes, pertencentes à equipa multiprofissional da UCC, podendo um deles também ser realizado por um médico ou interno da unidade funcional onde o utente tem inscrição activa (ver alíneas B, C, D e F de OBSERVAÇÕES GERAIS).
+C. Com pelo menos um dos contactos contabilizados na alínea B deverá ser do tipo [visita domiciliária].
+DENOMINADOR (BB):
+Contagem de integrações em que a expressão [A e B e C] é verdadeira:
+A. Pertencentes a utentes com [alta da ECCI], durante o período em análise do denominador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias (ver alínea E e F de OBSERVAÇÕES GERAIS).
+C. Não se contabilizam utentes com [suspensão de vaga] (independentemente do motivo), até ao 2º dia após a [data de admissão]."
+Observações Gerais,"A. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+B. Os grupos profissionais admissíveis para análise neste indicador são: enfermeiros; assistentes socias; médicos; fisioterapeutas; nutricionistas; psicólogos; outros profissionais de saúde com funções clínicas (exclui secretários clínicos).
+São contabilizadas consultas, desde que o registo clínico seja feito no local de trabalho da UCC. Os profissionais de saúde devem, aquando do login no SCLÍNICO, escolher o local de trabalho correspondente à UCC onde o utente está integrado.
+No caso dos registos de consultas médicas (por médicos ou internos), contabilizam-se para além das realizadas com login no local ""UCC"", também as registadas com login na ""USF"" ou ""UCSP"" de inscrição do utente.
+C. As consultas contabilizadas no numerador são do tipo [Consulta presencial no domicílio] ou [Consulta não presencial] de um dos tipos seguintes:
+-
+C004
+| Consulta de enfermagem sem a presença do utente (indireta) - SClínico
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico (domicílio)
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico (domicílios)
+-
+C019
+| Consulta de ""outro profissional"" não presencial - [SClínico - Perfil ""outro profissional""], incluindo:
+a) Consulta não presencial realizada por fisioterapeuta
+b) Consulta não presencial realizada por assistente social
+c) Consulta não presencial realizada por psicólogo
+d) Consulta não presencial realizada por nutricionista
+e) Consulta não presencial realizada por outro tipo de profissional de saúde
+-
+C020
+| Consulta presencial de ""outro profissional"" - [SClínico - Perfil ""outro profissional""], incluindo:
+a) Consulta presencial (domicílio) realizada por fisioterapeuta
+b) Consulta presencial (domicílio) realizada por assistente social
+c) Consulta presencial (domicílio) realizada por psicólogo
+d) Consulta presencial (domicílio) realizada por nutricionista
+e) Consulta presencial (domicílio) realizada por outro tipo de profissional de saúde
+D. A data de realização dos contactos contabilizadas no numerador deve ocorrer até ao segundo dia após a [data de admissão na ECCI]. Significa que se um utente for admitido na ECCI no dia 23 de outubro (independentemente da hora de realização), os 2 contactos contabilizáveis para o numerador, devem ser realizados até ao final do dia 25 de outubro.
+E. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+F. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, utentes integrados na ECCI com data prévia à constituição da UCC, não influenciam o denominador deste indicador. Da mesma forma, os domicílios realizados aos utentes, com ""data de realização"" prévia à abertura da UCC não influenciam o numerador.
+G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ADMINISTRAÇÃO:
+A. Os perfis de SClínico dos diferentes profissionais de saúde permitem, no momento do login, escolher a unidade funcional na qual vão desenvolver a sua atividade clínica, em ""Lista de locais do utilizador"".
+Cada utilizador pode ter associado ao seu perfil vários locais, correspondentes às unidades funcionais onde está em cada momento a prestar cuidados.
+Neste caso, é considerado ""local de utilizador"" UCC para todos os profissionais de saúde e, adicionalmente, o ""local de utilizador"" USF/UCSP para os médicos de família ou internos da unidade de inscrição do utente.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A admissão é registada no painel de utentes referenciados da ECCI através do botão [Admissão].
+B. A alta é registada no painel de utentes referenciados da ECCI através do botão [Termo].
+C. Considera-se domicílio desde que seja selecionado um dos seguintes itens, em [local da consulta], na janela de [efetivação do contacto]:
+- [Domicílio] (válido desde sempre);
+- [Lar de idosos] (válido a partir de janeiro 2023);
+- [Centro de dia] (válido a partir de janeiro 2023);
+- [Locais comunitários] (válido a partir de janeiro 2023);
+- [Estabelecimento prisional] (válido a partir de janeiro 2023).
+É irrelevante assinalar [ato de enfermagem] ou [consulta de enfermagem].
+A consulta não pode ficar [pendente]. Deve ser [terminada]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""data de admissão""): Para cada utente incluído no denominador, analisam-se as ""datas de admissão"" até 24 meses antes da data de referência do indicador.
+- Numerador (variável ""data de contacto""): Para cada utente incluído no denominador, analisam-se as ""datas de contacto"" até ao 2º dia após a ""data de admissão"".
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""data de admissão""): Para cada utente incluído no denominador, analisam-se as ""datas de admissão"" entre 1 de janeiro do ano N-1 e a data de referência do indicador.
+- Numerador (variável ""data de contacto""): Para cada utente incluído no denominador, analisam-se as ""datas de contacto"" até ao 2º dia após a ""data de admissão"".
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
+Intervalo Aceitável,"Ano de 2022: [92; 100]
+Ano de 2023: [92; 100]
+Ano de 2024: [92; 100]"
+Intervalo Esperado,"Ano de 2022: [65; 100]
+Ano de 2023: [65; 100]
+Ano de 2024: [70; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

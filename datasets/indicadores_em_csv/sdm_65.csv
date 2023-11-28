@@ -1,0 +1,72 @@
+titulo,texto
+ID,065
+Código,5.22.01
+Código SIARS,2013.065.01
+Nome abreviado,"Proporção utentes >= 75 A, c/ presc. cró. < 5 fár."
+Designação,"Proporção de utentes com idade igual ou superior a 75 anos, com prescrição crónica inferior a cinco fármacos"
+Objetivo,"Monitorizar o programa de saúde de adultos. Parâmetro ""prescrição crónica inferior a cinco fármacos em grandes idosos""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com 75 ou mais anos de idade, com prescrição crónica inferior a 5 fármacos.
+Numerador: Contagem de utentes inscritos com prescrição crónica inferior a 5 fármacos.
+Denominador: Contagem de utentes inscritos com 75 ou mais anos de idade."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, existem menos de 5 substâncias ativas nos medicamentos registados na terapêutica crónica (ver alíneas A, B, C, D, E e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade superior ou igual a 75 anos (ver alínea G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizados todos os registos na terapêutica crónica de medicamentos pertencentes aos grupos (e respetivos subgrupos) da classificação farmacoterapêutica de medicamentos (CFT) a seguir apresentados:
+- Grupo 2 - Sistema nervoso central;
+- Grupo 3 - Aparelho cardiovascular;
+- Grupo 4 - Sangue;
+- Grupo 5 - Aparelho respiratório;
+- Grupo 6 - Aparelho digestivo;
+- Grupo 7 - Aparelho geniturinário;
+- Grupo 8 - Hormonas e medicamentos usados no tratamento
+das doenças endócrinas;
+- Grupo 9 - Aparelho locomotor;
+- Grupo 10 - Medicação antialérgica.
+- Grupo 16 - Medicamentos antineoplásicos e imunomoduladores;
+B. Não se contabilizam registos na terapêutica crónica de medicamentos pertencentes aos grupos (e respetivos subgrupos) da classificação CFT a seguir apresentados:
+- Grupo 1 - Medicamentos anti-infecciosos;
+- Grupo 12 - Correctivos da volémia e das alterações electrolíticas;
+- Grupo 13 - Medicamentos usados em afecções cutâneas;
+- Grupo 14 - Medicamentos usados em afecções otorrinolaringológicas;
+- Grupo 15 - Medicamentos usados em afecções oculares;
+- Grupo 17 - Medicamentos usados no tratamento de intoxicações;
+- Grupo 18 - Vacinas e imunoglobulinas;
+- Grupo 19 - Meios de diagnóstico;
+- Grupo 20 - Material de penso, hemostáticos locais, gases medicinais
+e outros produtos.
+C. Sempre que os medicamentos registados correspondam a associações de medicamentos, somam-se o número de substâncias ativas associadas a cada registo na terapêutica crónica. Assim, p.e., se um utente tiver na terapêutica crónica um medicamento com o DCI ""Glibenclamida + Metformina"", contabiliza 2 substâncias ativas por esse medicamento.
+D. Sempre que o mesmo DCI esteja em 2 ou mais registos (medicamentos) diferentes na terapêutica crónica, é apenas contabilizada uma vez.
+E. Caso um medicamento esteja na terapêutica crónica, pertença a um dos grupos da classificação CFT referido na alínea A de OBSERVAÇÕES GERAIS e não tenha prescrições no ano anterior, é igualmente contabilizado para efeitos da condição B das REGRAS DE CÁLCULO do numerador. Isto pode ser gerador de falsos positivos no numerador, caso os utilizadores médicos ou internos não apaguem da terapêutica crónica os medicamentos que deixaram de ser prescritos.
+F. Caso um medicamento pertencente a um dos grupos da classificação CFT referido na alínea A de OBSERVAÇÕES GERAIS e seja repetidamente prescrito ao longo do ano anterior, mas não conste da terapêutica crónica na data de referência do indicador, não pode ser contabilizado para efeitos da condição B das REGRAS DE CÁLCULO do numerador. Isto pode ser gerador de falsos negativos no numerador, pelo que também aqui os utilizadores médicos e internos devem ter o cuidado de atualizar a terapêutica crónica sempre que prescrevam a um utente um medicamento ""crónico"".
+G. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+H. Os medicamentos pertencentes a estas classes CFT podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador.
+SCLÍNICO - PERFIL MÉDICO:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Idoso
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

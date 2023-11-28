@@ -1,0 +1,117 @@
+titulo,texto
+ID,412
+Código,3.38.02
+Código SIARS,2018.412.01
+Nome abreviado,[Cons. dia UF inscr.] / ([cons. dia] + [urgênc.])
+Designação,"Proporção de consultas médicas de ""doença aguda"" efetuadas na UF de inscrição do utente, contabilizando no denominador a soma de episódios de urgência dos utentes inscritos com as consultas de doença aguda efetuadas no ACES de inscrição"
+Objetivo,"Monitorizar a frequência com que utentes com médico de família atribuído em unidades funcionais de cuidados personalizados (USF e UCSP) têm consultas médicas agendadas e realizadas na própria unidade funcional de inscrição, contabilizando no denominador a soma de episódios de urgência dos utentes inscritos na unidade de observação com as consultas de doença aguda efetuadas pelos utentes em unidades funcionais e serviços do ACES.
+Trata-se de um indicador que pretende medir, de forma indireta, a acessibilidade dos utentes à unidade funcional de inscrição, devendo o respetivo resultado variar na proporção direta do nível de acessibilidade disponibilizado:
+- Em USF e UCSP com uma oferta de consultas médicas adequada à procura, a necessidade dos respetivos utentes procurarem os serviços de urgência ou consultas no próprio dia em unidades do tipo ""SAP e Afins"" deverá ser diminuta.
+- Por outro lado, em USF e UCSP com oferta de serviços inferior à procura, os respetivos utentes terão necessidade de procurar resolver os seus problemas ""agudos"" em serviços de urgência e em unidades funcionais diferentes do mesmo ACES."
+Descrição do Indicador,"Exprime a proporção de consultas médicas presenciais realizadas na própria unidade funcional de inscrição e no dia em que é efetuado o registo do agendamento, relativamente à soma de episódios de urgência e consultas do dia agendadas para o ACES de inscrição, entre os utentes inscritos na unidade de observação, com ajustamento ao horário semanal da unidade funcional.
+Numerador - Contagem de consultas médicas presenciais que realizadas na própria unidade funcional de inscrição e no próprio dia em que é efetuado o registo do agendamento, com ajustamento ao horário semanal da unidade funcional.
+Denominador - Soma de (1) contagem de consultas médicas presenciais que são realizadas no próprio dia em que é efetuado o registo do agendamento, realizadas no ACES de inscrição do utente, independentemente da realização ocorrer ou não na unidade funcional onde o utente se encontra inscrito com (2) contagem de episódios na rede de urgência hospitalar."
+Regras de cálculo,"VARIÁVEL AA:
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições definidas para a VARIÁVEL BB.
+B. A unidade funcional onde a consulta é realizada coincide com a unidade funcional de inscrição do utente no último dia do mês de realização da consulta.
+VARIÁVEL BB:
+Contagem de consultas em que a expressão [(A ou B ou C) e D e E e F e G e H e I e J e K e L] é verdadeira:
+A. Se a unidade de observação for um ACES, realizada em qualquer unidade funcional do ACES a utente com [
+inscrição ativa
+] nesse ACES, no último dia do mês de realização da consulta.
+B. Se a unidade de observação for uma USF ou uma UCSP, realizada em qualquer unidade funcional do respetivo ACES a utente com [
+inscrição ativa
+] nessa unidade funcional, no último dia do mês de realização da consulta.
+C. Se a unidade de observação for um profissional de saúde (médico ou enfermeiros com utentes inscritos), realizada em qualquer unidade funcional do respetivo ACES a utente com [
+inscrição ativa
+] nesse profissional de saúde, no último dia do mês de realização da consulta.
+D. Do tipo ""consulta médica presencial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+E. Efetuada numa unidade funcional de um dos tipos seguintes: UCSP, USF-A, USF-B, IPSS-C, CON, CS-SM (CS - utentes sem médico), CS-INE (CS Inespecífico), SAP e ADR.
+F. Agendada por iniciativa do utente, ou equivalente (Ver alínea J de OBSERVAÇÕES GERAIS).
+G. Efetuada por qualquer médico ou interno (consulta médica);
+H. Efetuada durante os 12 meses que antecedem a data de referência do indicador.
+I. Agendada e realizada (efetivada) no próprio dia em que é efetuado o registo do agendamento (ver alíneas B e C de OBSERVAÇÕES GERAIS).
+J. Agendada num dia em que a unidade funcional de inscrição do utente esteja em funcionamento (ver alínea D de OBSERVAÇÕES GERAIS).
+K. Efetivada até 1 hora após o horário de encerramento da unidade funcional de inscrição do utente, definido para o dia da semana para o qual a consulta foi agendada (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+L. Efetivada no mínimo 1 hora antes do horário de abertura da unidade funcional de inscrição do utente, definido para o dia da semana para o qual a consulta foi agendada (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+VARIÁVEL CC:
+Contagem de episódios de urgência em que a expressão [A e (B ou C ou D) e E e F e G e H e I e J] é verdadeira:
+A. Efetuado num dos serviços de urgência pertencentes à rede de urgência de Portugal continental, incluindo centros de trauma, urgência polivalente, urgência medicocirúrgica e serviços de urgência básica.
+B. Se a unidade de observação for um ACES, realizado a utente com [
+inscrição ativa
+] nesse ACES, no último dia do mês de realização do episódio de urgência.
+C. Se a unidade de observação for uma USF ou uma UCSP, realizado a utente com [
+inscrição ativa
+] nessa unidade funcional, no último dia do mês de realização do episódio de urgência.
+D. Se a unidade de observação for um profissional de saúde (médico ou enfermeiros com utentes inscritos), realizado a utente com [
+inscrição ativa
+] nesse profissional de saúde, no último dia do mês de realização do episódio de urgência.
+F. Admissão à urgência efetuada durante os 12 meses que antecedem a data de referência do indicador.
+G. Admissão à urgência efetuada num dia em que a unidade funcional de inscrição do utente esteja em funcionamento (ver alínea D de OBSERVAÇÕES GERAIS).
+H. Admissão à urgência efetuada no máximo até 1 hora após o horário de encerramento da unidade funcional de inscrição do utente, definido para o dia da semana para o qual o episódio foi realizado (ver alínea E de OBSERVAÇÕES GERAIS).
+I. Admissão à urgência efetuada no mínimo 1 hora antes do horário de abertura da unidade funcional de inscrição do utente, definido para o dia da semana para o qual o episódio foi realizado (ver alínea E de OBSERVAÇÕES GERAIS).
+J. Contabilizam-se apenas episódios em que o utente não tenha sido transferido e admitido, até 5 horas após a alta, noutro serviço de urgência (ver alínea I de OBSERVAÇÕES GERAIS).
+VARIÁVEL CC_C:
+Correção à VARIÁVEL CC por falta de dados de serviços de urgência.
+Sempre que existam hospitais relativamente aos quais não existam dados de episódios de urgência, procede-se à correção dos resultados tendo em conta a área de abrangência em freguesias dos serviços de urgência, os utentes inscritos em cada freguesia por unidade funcional e a quantidade de meses de falha nos dados (ver alínea G de OBSERVAÇÕES GERAIS)
+RESULTADO = 100 x [VARIÁVEL AA] / ([VARIÁVEL BB] + [VARIÁVEL CC_C])"
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Presencial], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+-
+C008
+[Consulta médica presencial - MedicineOne].
+B. Cumprem as consultas médicas que são agendadas, realizadas e fetivadas no mesmo dia em que o agendamento é registado, por exemplo, consulta solicitada por um utente no dia 20 de agosto, agendada e realizada no dia 20 de agosto.
+C. Não são contabilizadas consultas efetivadas em dias posteriores ao de agendamento.
+D. Não se contabilizam no indicador nem consultas agendadas nem episódios de urgência efetuados em dias em que a UF de inscrição do utente esteja encerrada (por exemplo fins-de-semana ou dias de feriado ou tolerância oficial). São contabilizadas consultas em dias de feriado municipal.
+E. Se uma unidade funcional de inscrição do utente tiver à segunda-feira um horário entre as 9:00 e as 18:00, contabilizam-se: (1) Todas as consultas agendadas para 2ªs feiras e efetivadas entre as 8:00 e as 18:59; e episódios de urgência efetuados às 2ªs feiras com hora de admissão entre 8:00 e 18:59.
+F. Mesmo para as consultas realizadas em unidades funcionais diferentes da de inscrição de utente, o horário que conta para definir se uma consulta entra ou não para o denominador é o horário da unidade funcional de inscrição no mês em que ocorre a consulta (e não o horário da unidade onde a consulta é efetivada). Assim se a 4 maio de 2018 (6ª feira) o utente efetuar uma consulta num SAP e no final desse mês estiver inscrito na USF YY, o que conta é o horário de entrada e o horário de encerramento às sextas-feiras da USF YY.
+G. Sempre que existam hospitais relativamente aos quais não existam dados de episódios de urgência, quer seja relativamente a uma parte ou à totalidade do período em análise, procede-se à correção dos resultados para cada unidade de observação (médico, unidade funcional, ACES, ARS ou ULS), tendo em conta a área de abrangência em freguesias dos serviços de urgência, os utentes inscritos em cada freguesia por unidade funcional e a quantidade de meses de falha nos dados.
+A correção supra referida só é efetuada quando a proporção de episódios existentes relativamente aos esperados é igual ou superior aos limiares abaixo definidos:
+- Médico ou UF: 75.0%
+- ACES ou ULS: 66.6%
+- ARS ou Nacional: 50.0%
+Nas unidades de observação em que a proporção de episódios existentes relativamente aos esperados seja inferior aos limiares referidos, os resultados não são calculados/apresentados.
+Assim, se uma unidade funcional tiver:
+1. 10% dos seus utentes inscritos numa freguesia abrangida por um serviço de urgência, relativamente aos qual não existem dados sobre ""episódios de urgência"" durante 6 meses, de onde resulta 95% do tempo e freguesias com dados (P).
+2.	Contabilizados 5000 episódios de urgência associados aos respetivos utentes.
+O valor correigido a atribuir à variável CC será:
+[VARIÁVEL CC_CCC_C] = CC x 100 / P = 5000 x 100 / 95 = 5263
+H. Para cada unidade de observação e mês disponibilizam-se os resultados seguintes:
+- AA - Contagem de consultas médicas presenciais, do dia, por iniciativa do utente, efetuada na UF de incrição
+- BB - Contagem de consultas médicas presenciais, do dia, por iniciativa do utente
+- CC - Contagem de episódios de urgência (sem correção para falhas de carregamento de dados)
+- CC_C - Contagem de episódios de urgência (com correção para falhas de carregamento de dados)
+- P_CARR - Proporção de episódios de urgência carregados nos sistemas de informação
+- R - Resultado (AA / (BB + CC_C) x 100)
+I. Quando um utente é tranferido de um serviço de urgência para outro, apenas se contabiliza 1 episódio de urgência (o último).
+J. A condição F da VARIÁVEL BB (Agendada por iniciativa do utente, ou equivalente), é operacionalizada contabilizando-se consultas em que a [AA ou BB ou CC ou DD] é verdadeira:
+AA. Consulta agendada por iniciativa do utente (inclui agendamentos através da internet/e-agenda);
+BB. Consulta ""não programada"" por motivo ""doença"" (excluidas consultas programadas ou de vigilância);
+CC. Consulta por motivo ""doença"" e iniciativa do agendamento não registada;
+DD. Consulta agendada em módulo de urgência;"
+Observações Sobre Software,"SClínico
+A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
+B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
+C. Apesar do indicador ser ""flutuante"", o problema de leitura de dados a partir do SClínico até janeiro de 2018, faz com que o indicador tenha um período em análise inferior a 12 meses para os resultados entre fevereiro de 2018 e janeiro de 2019. Assim, por exemplo em junho de 2018, o indicador estará a ler 5 meses de consultas nas variáveis AA e BB e 5 meses de episódios de urgência na variável CC (1-2-2018 a 30-6-2018)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+Nota: A iscrição do utente é analisada mês a mês ao longo dos 12 meses do período em análise, estando garantido que se o utente a meio do período em análise mudar de unidade funcional, ou perder médico de família, o indicador ajusta os critérios de cumprimento nas variáveis AA, BB e CC com granularidade mensal e com referência ao que seja vigente no último dia do mês."
+Fórmula,100 x AA / (BB + CC_C)
+Unidade de medida,%
+Output,Proporção de consultas/urgências
+Estado do indicador,Com dados desde Fevereiro de 2018
+Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
+Intervalo Aceitável,"Ano de 2022: [60; 85]
+Ano de 2023: [60; 85]
+Ano de 2024: [60; 85]"
+Intervalo Esperado,"Ano de 2022: [40; 95]
+Ano de 2023: [40; 95]
+Ano de 2024: [40; 95]"
+Tipo de Indicador,Resultado
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

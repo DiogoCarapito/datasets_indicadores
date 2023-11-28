@@ -1,0 +1,88 @@
+titulo,texto
+ID,073
+Código,8.08.01
+Código SIARS,---
+Nome abreviado,"Núm. dias c/ reclam. por fechar, por 1000 cons."
+Designação,"Número de dias com reclamações por fechar, por cada 1000 consultas médicas ou de enfermagem realizadas"
+Objetivo,Monitorizar a satisfação dos utentes que utilizam os serviços de saúde; Monitorizar a velocidade de resposta dos serviços às reclamações.
+Descrição do Indicador,"Indicador que exprime a razão entre o somatório do número de dias necessários para encerrar cada reclamação e cada 1.000 consultas médicas ou de enfermagem realizadas.
+Numerador: somatório do número de dias necessários para encerrar cada reclamação.
+Denominador: Contagem de consultas médicas ou de enfermagem, presenciais ou não presenciais"
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do [número de dias] que medeia entre a [data de entrada da reclamação nos serviços] e a [data de fecho da reclamação por parte dos serviços], para cada uma das reclamações em que a expressão [A e B e (C ou D ou E) e F] é verdadeira (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS):
+A. Recebida pelos serviços durante o período em análise;
+B. Refletindo insatisfação (ver alíneas E e F de OBSERVAÇÕES GERAIS);
+C. Se a unidade de observação é uma USF ou UCSP: Relacionada com a unidade de saúde em análise (ver alínea G de OBSERVAÇÕES GERAIS);
+D. Se a unidade de observação é um ACES: Relacionada com uma USF ou UCSP do ACES em análise (ver alíneas G e H de OBSERVAÇÕES GERAIS);
+E. Relacionada com utentes com [
+inscrição ativa
+] ou esporádica na unidade de observação, durante pelo menos um dia do período em análise;
+F. Registada no Sistema de Gestão de Sugestões e Reclamações (SGSR);
+DENOMINADOR (BB):
+Soma das consultas médicas (presenciais ou não presenciais) com as consultas de enfermagem (presenciais ou não presenciais), realizadas nos últimos 12 meses, a utentes em que a expressão [A ou B] é verdadeira (ver alínea I de OBSERVAÇÕES GERAIS):
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] ou esporádica nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] ou esporádica numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise."
+Observações Gerais,"A. Um utente insatisfeito que reclama constitui uma excelente oportunidade de aprendizagem para a organização que recebeu a reclamação. Para além disso, por cada dia que passa depois de uma reclamação, o utente divulga junto de familiares e amigos o que se passou, denegrindo a imagem da(s) pessoas envolvidas, da instituição e do SNS.
+O processo de gestão de uma reclamação deve ter como objetivos:
+1. Deixar o utente tão satisfeito quanto possível no mais curto espaço de tempo.
+2. Introduzir melhorias nos processos que conduziram à reclamação de forma a evitar novas reclamações no futuro.
+Um ACES (A) que receba 366 reclamações por ano e demore em média 7 dias a resolver cada uma delas, tem todos os dias, em média, 7 utentes insatisfeitos.
+Outro ACES (B) que receba 183 reclamações por ano e demore em média 14 dias a resolver cada uma delas, tem todos os dias, em média, também 7 utentes insatisfeitos.
+Se ambos os ACES (A e B) tiverem sensivelmente o mesmo número de consultas médicas e de enfermagem por ano, ficarão com o mesmo resultado neste indicador.
+Este é assim um indicador que valoriza tanto o número de reclamações, como o número de dias que a organização demora concluir o processo de gestão interna da reclamação (que inclui a audição do utente e a de todos os intervenientes).
+Este processo de gestão interna de uma reclamação é habitualmente feito pelo gabinete do cidadão do ACES. No entanto, existem unidades de saúde que possuem também processos estroturados de gestão de reclamações, que antecipam e complementam o processo do gabinete do cidadão.
+B. As reclamações têm origem em contactos entre o utente e a organização, surgindo principalmente no contexto de [contactos médicos], [contactos de enfermagem] e [contactos administrativos]. Na impossibilidade de medir [contactos administrativos], optou-se por construir o denominador deste indicador a partir da soma do número de consultas médicas (presenciais ou não presenciais) com o número de consultas de enfermagem (presenciais ou não presenciais).
+C. O [número de dias] que medeia entre a [data de entrada da reclamação nos serviços] e a [data de fecho da reclamação por parte dos serviços] é calculado para cada reclamação, através da fórmula seguinte:
+[número de dias] = [data de fecho da reclamação por parte dos serviços] - [data de entrada da reclamação nos serviços] + 1
+D. A [data de fecho da reclamação por parte dos serviços] é a data em que a unidade de saúde conclui o processo de audição interna e envia para o gabinete do cidadão o relatório dessa audição. Nas situações em que 30 dias após o fim do período em análise, existem reclamações que ainda não têm o processo de audição concluído, atribui-se à [data de fecho da reclamação por parte dos serviços] a data do 30º dia após a data de referência.
+E. Excluem-se os registos que correspondam a elogios, louvores e sugestões. Existe uma reclamação sempre que o ""ocorrido"" seja pior do que o que era ""esperado"" pelo reclamante e sempre que este expresse a sua insatisfação, por escrito, à unidade de saúde (não necessariamente no livro de reclamações).
+F. Existe uma [não conformidade] sempre que o ""ocorrido"" seja pior do que o ""contratado"".
+O ""ocorrido"" é o que sucedeu, tal qual é descrito ou sentido pelo utente.
+O ""contratado"" é o que está definido no(s) manuais de procedimento(s) da unidade de saúde à data da reclamação.
+As ""insatisfações"" dos utentes podem estar ""conformes"" ou ""não conformes"".
+Para este indicador contabilizam-se quer as ""insatisfações conformes"" quer as ""não conformes"".
+G. Esta condição destina-se a impedir que sejam contabilizadas reclamações entregues na unidade de saúde, mas dirigidas a outros serviços. Por exemplo não devem ser contabilizadas as reclamações entregues numa UCSP, mas dirigidas ao serviço de estomatologia ou ao serviço de psicologia. Caso existam reclamações aos serviços de limpeza, aos serviços de segurança, ou relacionados com aparelhos de venda de alimentos (ou equivalentes), as mesmas devem ser contabilizadas no indicador da unidade de saúde onde estão alocados os serviços ou equipamentos.
+H. Quando a unidade de onservação é um ACES, nas situações em que uma reclamação de um utente envolva mais do que uma unidade funcional, contabiliza-se uma única reclamação para o numerador.
+I. As consultas contabilizados no denominador, são as compatíveis com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+-
+C004
+| Consulta enfermagem sem a presença do utente (indireta) - SClínico
+-
+C010
+| Consulta enfermagem sem a presença do utente (indireta) - MedicineOne
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,DIAS / 1.000 CONS
+Output,Número de dias de reclamações por fechar por mil consultas realizadas
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

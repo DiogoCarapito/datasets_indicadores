@@ -1,0 +1,171 @@
+titulo,texto
+ID,448
+Código,8.09.04
+Código SIARS,2022.448.01
+Nome abreviado,Número UCs atividades específicas sec. cli. V2
+Designação,Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2
+Objetivo,"1. Calcular as UC que determinam o pagamento mensal de 100%, 50% ou 0% dos ""incentivos financeiros"" a secretários clínicos das USF modelo B, nos termos do artigo 38º do
+Decreto-Lei 298/2007
+(na sua redação atual), dos artigos 3º e 12º da
+Portaria 212/2017
+bem como do respetivo anexo nº 6.
+2. Determinar valores equivalentes para secretários clínicos de USF-A e UCSP.
+NOTA IMPORTANTE
+:
+As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
+aqui
+."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de utentes com hipertensão arterial, Diabetes Mellitus, saúde materna, planeamento familiar, saúde infantil 1º e 2º ano de vida (atividades específicas), calculado para secretários clínicos.
+No artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto, na sua redação atual (compensação associada às atividades específicas), pode ler-se:
+A compensação prevista na alínea a) do nº 4 do artigo anterior e no nº 3 do artigo 38º está associada ao aumento das unidades ponderadas da lista mínima de utentes dos médicos e dos enfermeiros por força das atividades específicas de vigilância a utentes vulneráveis e de risco, segundo orientações técnicas da Direção-Geral da Saúde, nos termos seguintes:
+a) A vigilância, em planeamento familiar, de uma mulher em idade fértil, por ano: uma unidade;
+(vigente até 2022-11-18)
+a) O acompanhamento em saúde sexual e reprodutiva, de uma pessoa em idade fértil ou sexualmente ativa, por ano - uma unidade;
+(vigente a partir de 2022-11-19, nos termos da
+Lei 22/2022 de 18 de novembro
+)
+b) A vigilância de uma gravidez: oito unidades;
+c) A vigilância de uma criança, no primeiro ano de vida, por ano: sete unidades;
+d) A vigilância de uma criança, no segundo ano de vida, por ano: três unidades;
+e) A vigilância de uma pessoa diabética, por ano: quatro unidades;
+f) A vigilância de uma pessoa hipertensa, por ano: duas unidades.
+2. As atividades específicas previstas no número anterior são contratualizadas anualmente e constam da carta de compromisso.
+3. Os critérios para atribuição de unidades ponderadas às atividades específicas previstas no nº 1 são definidos pela Direção-Geral da Saúde.?
+Assim, as 6 áreas de atividade em análise neste indicador são as seguintes:
+• Planeamento familiar (PF);
+• Saúde materna (SMAT);
+• Saúde infantil - 1º ano de vida (SI1);
+• Saúde infantil - 2º ano de vida (SI2);
+• Diabetes Mellitus(DM);
+• Hipertensão Arterial(HTA).
+Os critérios que constam neste indicador foram definidos por um grupo técnico criado por Despacho da Sra. Ministra da Saúde, constituído pela Direção-Geral da Saúde (nos termos previstos no nº 3 do artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual, na sua redação atual), pela Administração Central do Sistema de Saúde (ACSS) e pelo Grupo de Apoio às Políticas de Saúde na área dos Cuidados de Saúde Primários (GAPS-CSP).
+Estes critérios substituem os que estão definidos no indicador com ID
+179
+e assentam nos seguintes princípios:
+• Foco em resultados em saúde (p.e. internamentos evitáveis e episódios de urgência), valorizando a gestão integrada do percurso dos cidadãos e não centrados na atividade isolada de cada profissão;
+• Valorização da acessibilidade real à unidade funcional e resposta à doença aguda (p.e. através do cálculo da percentagem de medicamentos anti-inflamatórios, analgésicos ou antibióticos prescritos na própria unidade funcional de inscrição ou do cálculo da percentagem de fármacos para controlo da Diabetes Mellitus ou da Hipertensão Arterial prescritos na própria unidade funcional);
+• Atualização dos critérios segundo as boas práticas reconhecidas cientificamente (p.e. contraceção com estrogénios em fumadoras) e com a aprendizagem que resultou da pandemia;
+• Manutenção de um núcleo de critérios obrigatórios em todas as áreas das atividades específicas (critérios a 100%) e introdução de critérios ponderados (0 a 100%) consoante o valor de cada critério para o aumento do nível de saúde e melhoria do desempenho ou eficiência da unidade funcional;
+Os critérios que constam neste indicador e as unidades de contratualização que dai resultarem serão calculados a partir do mês de dezembro de 2021, serão monitorizados pelas unidades funcionais ao longo de 2022 e terão tendo eventual aplicabilidade remuneratória nos profissionais das USF modelo B a partir de janeiro de 2023 com base nos cálculos das UC referentes a dezembro de 2022.
+Considerando que os critérios definidos são de boa prática clínica, os cálculos são efetuados para todos os tipos de UF com utentes inscritos e não apenas para USF modelo B.
+Assim, o cálculo deste indicador passa, de forma resumida, pelas fases seguintes:
+Fase 1
+- Determinação dos score de acompanhamento adequado para cada uma das 6 áreas das atividades específicas:
+Fase 2
+- Determinação das Unidades Ponderadas (UP) associadas ao PF (UP_PF) à SMAT (UP_SMAT) à SI1 (UP_SI1), à SI2 (UP_SI2) à DM (UP_DM) e à HTA (UP_HTA)
+Fase 3
+- Determinação das Unidades Ponderadas Totais (UP_T)
+Fase 4
+- Determinação do número de secretários clínicos que integram a unidade funcional
+Fase 5
+- Determinação das unidades de contratualização (UC) para efeitos de suplementos remuneratórios secretários clínicos (UC_SC)"
+Regras de cálculo,"O cálculo deste indicador é composto por 5 fases:
+FASE 1
+Determinação dos
+score de acompanhamento adequado
+para cada uma das 6 áreas das atividades específicas, nos termos definidos para os numeradores do indicadores seguintes:
+•
+434
+- Índice de acompanhamento adequado em Planeamento Familiar - V2.
+•
+441
+- Índice de acompanhamento adequado em Saúde Materna - V2.
+•
+442
+- Índice de acompanhamento adequado em Saúde Infantil no 1º ano de vida - V2.
+•
+443
+- Índice de acompanhamento adequado em Saúde Infantil no 2º ano de vida - V2.
+•
+444
+- Índice de acompanhamento adequado em Diabetes Mellitus - V2.
+•
+445
+- Índice de acompanhamento adequado em Hipertensão Arterial - V2.
+O numerador destes 6 indicadores, em termos resumidos, sequencialmente calculado da seguinte forma:
+1. Para cada utente inscrito na unidade funcional, verificar se cumpre ou não os critérios do denominador e mais alguns obrigatórios para o próprio numerador.
+2. Para cada utente que cumpra ""critérios obrigatórios"" do numerador, analisa os critérios não obrigatórios, de forma a verificar o respetivo cumprimento e valorizar cada utente entre 0 (utentes que não cumprem qualquer critério) e 1 (utentes que cumprem todos os critérios) somando as ponderações definidas para cada critério. Determina-se assim, para cada utente, e para cada área/indicador, um valor, daqui para a frente designado PF_U, SMAT_U, SI1_U, SI2_U, HTA_U e DM_U, consoante a área das atividades específicas onde esteja incluído (nos termos das siglas definidas na legenda deste indicador).
+3. Somam-se os valores calculados de PF_U para todos os utentes do PF e determina-se PF_T (score de acompanhamento em PF), pelas regras de cálculo do numerador do indicador com ID
+434
+.
+4. Somam-se os valores calculados de SMAT_U para todos os utentes da SMAT e determina-se SMAT_T (score de acompanhamento em SMAT), pelas regras de cálculo do numerador do indicador com ID
+441
+.
+5. Somam-se os valores calculados de SI1_U para todos os utentes do SI1 e determina-se SI1_T (score de acompanhamento em SI1), pelas regras de cálculo do numerador do indicador com ID
+442
+.
+6. Somam-se os valores calculados de SI2_U para todos os utentes do SI2 e determina-se SI2_T (score de acompanhamento em SI2), pelas regras de cálculo do numerador do indicador com ID
+443
+.
+7. Somam-se os valores calculados de DM_U para todos os utentes do DM e determina-se DM_T (score de acompanhamento em DM), pelas regras de cálculo do numerador do indicador com ID
+444
+.
+8. Somam-se os valores calculados de HTA_U para todos os utentes do HTA e determina-se HTA_T (score de acompanhamento em HTA), pelas regras de cálculo do numerador do indicador com ID
+445
+.
+FASE 2
+Determinam-se as Unidades Ponderadas (UP) associadas ao PF (UP_PF) multiplicando-se o valor de PF_T pela ponderação determinada no nº 1 do artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto, na sua redação atual, ""uma unidade"", de acordo com a fórmula seguinte:
+UP_PF = PF_T x 1
+De forma análoga, determinam-se as UP das outras 5 áreas usando as fórmulas seguintes:
+UP_SMAT = SMAT_T x 8
+UP_SI1 = SI1_T x 7
+UP_SI2 = SI2_T x 3
+UP_DM = DM_T x 4
+UP_HTA = HTA_T x 2
+FASE 3
+Determinam-se as Unidades Ponderadas Totais (UP_T) somando as unidades ponderadas de cada uma das 6 áreas, calculadas na fase anterior, através da fórmula:
+UP_T = UP_PF + UP_SMAT + UP_SI1 + UP_SI2 + UP_DM + UP_HTA
+FASE 4
+Cálculo da variável SC_ETC.
+Determina-se o número médio de equivalentes em tempo completo (ETC) de secretários clínicos associados em RHV ao(s) centro(s) de custo da unidade funcional ao longo dos 12 meses que antecedem a data de referência do indicador.
+FASE 5
+Determinam-se as unidades de contratualização (UC) para efeitos de suplementos remuneratórios a pagar a médicos secretários clínicos (UC_SC) em USF modelo B através da fórmula seguinte:
+UC_SC = UP_T / 71 / SC_ETC
+Nota: Usa-se o valor 71 pois é esse o nº de UP definidas para as UC de secretários clínicos no
+Decreto-Lei 298/2007
+(na sua redação atual)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Variável PF_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+434
+- Índice de acompanhamento adequado em Planeamento Familiar - V2.
+Variável UP_PF - Medida na data de referência do indicador
+Variável SMAT_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+441
+- Índice de acompanhamento adequado em Saúde Materna - V2.
+Variável UP_SMAT - Medida na data de referência do indicador
+Variável SI1_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+442
+- Índice de acompanhamento adequado em Saúde Infantil no 1º ano de vida - V2.
+Variável UP_SI1 - Medida na data de referência do indicador
+Variável SI2_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+443
+- Índice de acompanhamento adequado em Saúde Infantil no 2º ano de vida - V2.
+Variável UP_SI2 - Medida na data de referência do indicador
+Variável DM_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+444
+- Índice de acompanhamento adequado em Diabetes Mellitus - V2.
+Variável UP_DM - Medida na data de referência do indicador
+Variável HTA_T - Medida na data de referência do indicador pelas regras do numerador do indicador
+445
+- Índice de acompanhamento adequado em Hipertensão Arterial - V2.
+Variável UP_HTA - Medida na data de referência do indicador
+Variável UP_T - Medida na data de referência do indicador
+Variável SC_ETC - 12 meses, terminando na data de referência do indicador
+Variável UC_SC - Medida na data de referência do indicador"
+Fórmula,UP_T / 71 / SC_ETC
+Unidade de medida,UC
+Output,Score: Unidade de Contratualização
+Estado do indicador,Com dados desde Dezembro de 2021
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

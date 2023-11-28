@@ -1,0 +1,63 @@
+titulo,texto
+ID,377
+Código,6.80.01
+Código SIARS,2017.377.01
+Nome abreviado,Proporção úlceras pressão melhoradas
+Designação,"Proporção de diagnósticos de enfermagem de ""úlcera de pressão"" com melhoria do score de avaliação"
+Objetivo,Avaliar a efectividade dos cuidados de enfermagem na melhoria de úlcera de pressão.
+Descrição do Indicador,"Exprime a proporção ""úlceras de pressão"" com melhoria do respetivo score de avaliação, em utentes [integrados na ECCI].
+Numerador: Contagem de úlceras de pressão com melhoria do respetivo score de avaliação, em utentes [integrados na ECCI].
+Denominador: Contagem de úlceras de pressão em utentes [integrados na ECCI]."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de diagnósticos de enfermagem de ""úlcera de pressão"" (8000233) em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições do denominador.
+B. Com pelo duas avaliações de úlcera de pressão, realizadas no mesmo período de integração na ECCI e durante o período em análise e documentadas pelos enfermeiros da UF (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+C. A última avaliação efetuada em cada integração tem melhor resultado (score) do que a primeira da mesma integração (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2019.
+Contagem de diagnósticos de enfermagem de ""úlcera de pressão"" (8000233) em que a expressão [A e B e C] é verdadeira (ver alínea A de OBSERVAÇÕES GERAIS):
+A. Documentados em utentes cuja [alta da ECCI] ocorreu nos 12 meses que antecedem a data de referência do indicador (ver alíneas B e D de OBSERVAÇÕES GERAIS).
+B. Documentados durante ou antes do período de integração na ECCI (no máximo 365 dias antes da data de alta), independentemente de o terem sido por enfermeiros da unidade funcional ou por enfermeiros de outras unidades funcionais.
+C. Não são considerados os diagnósticos em utentes com pelo menos uma integração nos 12 meses que antecedem a data de referência do indicador, em que o motivo de referenciação enunciado na admissão seja ""CUIDADOS PALIATIVOS"" (ver alínea H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2018.
+Contagem de diagnósticos de enfermagem de ""úlcera de pressão"" (8000233) em que a expressão [A e B] é verdadeira (ver alínea A de OBSERVAÇÕES GERAIS):
+A. Documentados em utentes com [alta da ECCI], durante o período em análise do denominador (ver alíneas B e D de OBSERVAÇÕES GERAIS).
+B. Nos utentes com duração de internamento superior a 365 dias, não se contabilizam os documentados mais de 24 meses antes da data de referência do indicador (ver alíneas C e D e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Pode ser contabilizado no denominador mais do que um diagnóstico por utente. Os diagnósticos contabilizados no numerador são um subconjunto dos do denominador. São considerados todos os diagnósticos independentemente do local de registo e de o enfermeiro pertencer ou não à UCC.
+B. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+C. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+D. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de integração] na ECCI prévia à constituição da UCC, não influenciam o denominador nem o numerador deste indicador.
+E. A avaliação da úlcera de pressão é realizada através da intervenção de enfermagem ""Avaliar úlcera de pressão"" (9003735). Esta intervenção de enfermagem, permite, através da avaliação das várias características presentes na úlcera de pressão, a monitorização da evolução deste problema. O registo destas características gera um score (0 a 35) que traduz a melhor ou pior condição do problema. Apenas são considerados os registos efetuados por enfermeiro da UCC.
+F. No denominador contabiliza-se um diagnóstico por cada úlcera de pressão em dada doente e em cada nova integração. Quer isto dizer que se um utente tiver uma única integração e 3 úlceras, contabiliza 3 para o denominador. Se um utente tiver 2 integrações, na primeira 2 úlceras e na segunda 3 úlceras, contabiliza 5 diagnósticos, independentemente das úlceras da segunda e da primeira integração serem ou não as mesmas. Quando uma integração é interrompida alguns dias por internamento hospitalar de curta duração ou outro motivo, funciona como 1 integração.
+G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+H. Só são considerados os utentes com motivo de referenciação enunciado na admissão como: ""CUIDADOS DE ENFERMAGEM DE REABILITAÇÃO"", ""CUIDADOS DE ENFERMAGEM"", ""CUIDADOS DE FISIOTERAPIA"""
+Observações Sobre Software,"SClínico: 
+A. O SClínico encontra-se parametrizado com o diagnóstico de enfermagem ""úlcera de pressão"" (8000233) e com a intervenção ""avaliar úlcera de pressão"" (9003735).Os gestores locais da parametrização devem garantir que esta parametrização não sofre alterações.
+B. A alta é efetuada no painel ""utentes referenciados (ECCI)"", através do botão ""Termo"".
+C. O campo motivo de referenciação está disponível no SClínico e é de preenchimento obrigatório na admissão do utente da ECCI. Os valores disponíveis deste campo são:
+- ""CUIDADOS DE ENFERMAGEM DE REABILITAÇÃO"" (MOT_REF 2);
+- ""CUIDADOS DE ENFERMAGEM"" (MOT_REF 3);
+- ""CUIDADOS PALIATIVOS"" (MOT_REF 4);
+- ""CUIDADOS DE FISIOTERAPIA"" (MOT_REF 5)"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""úlcera de pressão""): Duração de 24 meses, terminando na data de referência do indicador, restringido, utente a utente, ao período temporal de cada integração na ECCI.
+- Numerador (variável ""avaliar úlcera de pressão""): Duração de 24 meses, terminando na data de referência do indicador, restringido, utente a utente, ao período temporal de cada integração na ECCI.
+- Denominador (variável ""data alta da ECCI""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""úlcera de pressão""): Duração de 24 meses, terminando na data de referência do indicador, restringido, utente a utente, ao período temporal de 12 meses que antecede a alta da ECCI."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de úlceras
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Intervalo Esperado,"Ano de 2022: [20; 100]
+Ano de 2023: [20; 100]
+Ano de 2024: [20; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

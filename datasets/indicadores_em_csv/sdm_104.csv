@@ -1,0 +1,125 @@
+titulo,texto
+ID,104
+Código,8.04.02
+Código SIARS,2013.104.01
+Nome abreviado,Número UCs PF (ativ. específ.)
+Designação,Número de unidades de contratualização relacionadas com planeamento familiar de mulheres em idade fértil (atividades específicas)
+Objetivo,"Monitorizar o programa de planeamento familiar e cálculo do número de UCs a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas""."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada em planeamento familiar nas mulheres em idade fértil (atividades específicas).
+Numerador: Produto entre o [número de mulheres em idade fértil com acompanhamento adequado relacionado com ""planeamento familiar""] e o [fator de ponderação 1].
+Denominador: Contagem de médicos da unidade."
+Regras de cálculo,"MULHERES EM IDADE FÉRTIL COM ACOMPANHAMENTO ADEQUADO EM PF (AA):
+Contagem de utentes em que a expressão [A e B e C e D e (E ou F ou G) e H e I e J] é verdadeira:
+A. Ser mulher.
+B. Ter pelo menos uma consulta médica de PF realizada por qualquer médico ou interno da unidade de saúde, nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Ter pelo menos um registo parametrizado do método de planeamento familiar utilizado (ou da não utilização do método). Ver alíneas B e C de OBSERVAÇÕES GERAIS.
+D. Ter pelo menos 1 registo de pressão arterial, nos últimos 12 meses (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+E. Para mulheres com idades entre [25, 50[ anos, ter pelo menos um registo de resultado de colpocitologia
+em lâmina
+, nos últimos 36 meses (ver alíneas G, H, I e J de OBSERVAÇÕES GERAIS).
+F. Para mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado de colpocitologia
+em meio líquido
+nos últimos 5 anos (ver alíneas H, I, K e M de OBSERVAÇÕES GERAIS).
+G. Para mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+nos últimos 5 anos (ver alíneas N e O de OBSERVAÇÕES GERAIS).
+H. Ter idade pertencente ao intervalo [15; 50[ anos (ver alínea J de OBSERVAÇÕES GERAIS).
+I. Ter [
+inscrição ativa
+] na unidade de saúde, válida durante pelo menos um dia do período em análise (ver comentários sobre PERÍODO EM ANÁLISE).
+J.
+(Válido para indicadores com data de referência igual ou superior a janeiro de 2019)
+- Ter pelo menos uma consulta de enfermagem de PF realizada por qualquer enfermeiro da unidade de saúde, nos últimos 36 meses (ver alínea P de OBSERVAÇÕES GERAIS).
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador (ver alínea L de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Vigilância] de PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15.
+B. O registo do método de PF pode ser realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+C. Aceitam-se registos de método de PF realizados em qualquer data (desde que anterior à data de referência do indicador), ou seja, não se faz validação da ""idade"" desse registo.
+D. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+E. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+F. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP.
+G. O código da tabela de MCDT convencionados válido para registar colpocitologias é o seguinte:
+- [Exame citológico cervico-vaginal], código 008.6, área B. Código da tabela de preços do SNS: 30510.
+H. Para que uma colpocitologia seja contabilizada deve ter um resultado.
+I. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+J. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+L. O número de médicos a contabilizar quando a unidade de observação é uma USF é o que se encontra no documento de candidatura ou no último documento oficial publicado onde se especifique o nº de lugares no quadro para a equipa médica. Se um médico se encontra a meio tempo, conta meia unidade para esta variável. Se uma unidade de saúde possui um ou vários médicos com ausências de longa duração, esses médicos são contabilizados. Quando a unidade de observação é uma UCSP, o número de médicos é o que constar do respetivo mapa de pessoal. Quando a unidade de observação é o próprio médico, a variável assume o valor 1 ou 0,5 respetivamente para médicos a tempo inteiro ou a meio tempo. Quando a unidade de observação é o ACES, a variável é igual ao somatório dos médicos das respetivas USF e UCSP (contabilizadas de acordo com as regras acima discriminadas).
+M. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em meio líquido"" é o seguinte:
+- [Exame citológico cervico-vaginal com processamento automatizado em camada fina], código 012.4, área B. Código da tabela de preços do SNS: 30650.
+N. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+O. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+P. Para se considerar uma [Consulta de Enfermagem de Vigilância] em PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.4
+| Consulta de enfermagem de vigilância em saúde reprodutiva e planeamento familiar - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+B. Não é possível proceder ao ""registo parametrizado do método de planeamento familiar utilizado"", de forma normalizada a nível nacional. Assim, o SIARS não consegue ler estes registos a partir do ""perfil de enfermagem"".
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna e planeamento familiar.
+B. É possível registar que a mulher não faz nenhum método contracetivo, selecionando o item [NENHUM] na lista [Método], no programa de planeamento familiar.
+C. Os resultados da ""colpocitologia em lâmina"" devem ser registados no módulo de MCDT.
+D. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O registo é efetuado no módulo de MCDT.
+E. O exame [Pesquisa de DNA por PCR, cada PCR] também deve ser registado no módulo de MCDT.
+F. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+MEDICINEONE:
+A. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+B. Para que sejam contabilizados neste indicador, as colpocitologias podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+C. O resultado da colpocitologia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+D. É possível registar que a mulher não faz ""nenhum"" método contracetivo, selecionando a opção ""SNC - Sem Necessidades Contracetivas"", na área de registo do método contracetivo, no módulo de planeamento familiar.
+E. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""consulta médica"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""registo de pressão arterial"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""registo de método de PF"": Coincidente com a data de referência do indicador (1 dia).
+- Variável ""registo de colpocitologia em lâmina"": Duração de 36 meses, terminando na data de referência do indicador.
+- Variável ""registo de colpocitologia em meio líquido"": Duração de 60 meses, terminando na data de referência do indicador.
+- Variável ""registo de pesquisa de DNA do HPV por PCR"": Duração de 60 meses, terminando na data de referência do indicador.
+- Variável ""idade"": Medida em relação à data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saude"": Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano corrente e termina na data de referência do indicador.
+- Variável ""registo de pressão arterial"": Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano corrente e termina na data de referência do indicador.
+- Variável ""registo de método de PF"": Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Variável ""colpocitologia em lâmina"": Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Variável ""colpocitologia em meio líquido"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""registo de pesquisa de DNA do HPV por PCR"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""idade"": Medida em relação a 31 de dezembro do ano em curso
+- Variável ""inscrição ativa na unidade de saude"": Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Planeamento Familiar
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

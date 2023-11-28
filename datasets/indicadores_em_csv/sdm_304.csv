@@ -1,0 +1,48 @@
+titulo,texto
+ID,304
+Código,8.01.01
+Código SIARS,---
+Nome abreviado,Propor. mulheres com result. colpoct. inválido
+Designação,Proporção de mulheres com resultado de colpocitologia inválido
+Objetivo,Apoio a processos de auditoria interna ou externa a registos clínicos relacionados com exames complementares de diagnóstico e rastreio oncológico.
+Descrição do Indicador,"Indicador que exprime a proporção de mulheres com registo de resultado inválido de colpocitologia no ano em curso.
+Numerador: Contagem de mulheres com resultado inválido de colpocitologia no ano em curso.
+Denominador: Contagem de mulheres com idades compreendidas no intervalo [25, 60[ anos e colpocitologia registada no ano em curso."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições definidas para o denominador.
+B. Existência de pelo menos um registo de resultado inválido de colpocitologia no período em análise (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [25; 60[ anos (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com inscrição ativa na Unidade de Saúde na data de referência do indicador.
+D. Pelo menos um resultado de colpocitologia registado desde janeiro do ano em curso (ver alíneas B, C, D e E de OBSERVAÇÕES GERAIS).
+E. Nenhuma colpocitologia em lâmina registada nos 2 anos que antecedem 1 de janeiro do ano em análise.
+F. Nenhuma colpocitologia em meio líquido registada nos 4 anos que antecedem 1 de janeiro do ano em análise."
+Observações Gerais,"A. Consideram-se registos ""inválidos"" aqueles que não correspondam à efetiva realização de uma colpocitologia, designadamente registos para indicar ""recusa da utente em realizar o exame"", ""impossibilidade de contatar o utente"", entre outros.
+B. Os códigos da tabela de MCDT convencionados válidos para registar colpocitologias são os seguintes:
+- [Exame citológico cervico-vaginal], código 008.6, área B. Código da tabela de preços do SNS: 30510.
+- [Exame citológico cervico-vaginal com processamento automatizado em camada fina], código 012.4, área B. Código da tabela de preços do SNS: 30650.
+C. Para que uma colpocitologia seja contabilizada deve ter um resultado.
+D. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"" do exame. O resultado, para que seja contabilizado, deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+E. Apesar das colpocitologias terem uma validade de 3 e 5 anos, consoante sejam em lâmina ou em meio líquido, este indicador no numerador apenas avalia as que foram registadas de forma inválida no próprio ano.
+F. A idade deve ser medida em relação à data 31 de dezembro do ano da data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""colpocitologia inválida""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): Medida a 31 de dezembro do ano em referência.
+- Denominador (variável ""D. colpocitologia registada""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""E. nenhuma colpocitologia em lâmina registada""): 24 meses de amplitude. Início a 1 de janeiro do ano N-2 e fim a 31 de dezembro do ano N-1.
+- Denominador (variável ""F. nenhuma colpocitologia em meio líquido registada""): 48 meses de amplitude. Início a 1 de janeiro do ano N-4 e fim a 31 de dezembro do ano N-1."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Descontinuado em Janeiro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

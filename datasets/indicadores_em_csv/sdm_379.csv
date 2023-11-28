@@ -1,0 +1,71 @@
+titulo,texto
+ID,379
+Código,8.12.02
+Código SIARS,2017.379.01
+Nome abreviado,Propor. PVP medicam. prescr. MF em UF diferentes
+Designação,"Proporção do PVP faturado em medicamentos a utentes inscritos nos CSP, prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES)."
+Objetivo,"Monitorizar a frequência de prescrição de medicamentos realizada por médicos de família aos próprios utentes que é efetuada em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES). Ver alíneas H, I, J, K e L de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a proporção do PVP faturado em medicamentos a utentes inscritos nos CSP, prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES).
+Numerador: Somatório do PVP de medicamentos dispensados a utentes inscritos nos CSP que foi prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES).
+Denominador: Somatório do PVP de medicamentos dispensados a utentes inscritos nos CSP."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B e C e D e E] é verdadeira:
+A. Todas as condições do denominador.
+B. O médico prescritor é o médico de família do utente no mês da faturação.
+C. O local de prescrição pertence, em termos de ""hierarquia de locais"", ao ACES onde o utente tem [
+inscrição ativa
+] no mês de faturação do medicamento (ver alíneas H, I, J e K de OBSERVAÇÕES GERAIS).
+D. O local de prescrição é diferente do(s) local(ais) de inscrição RNU pertencente(s) à unidade funcional onde o utente tem [
+inscrição ativa
+] no mês de faturação do medicamento (ver alíneas H, I, J e K de OBSERVAÇÕES GERAIS).
+E. Utente inscrito na mesma unidade funcional há pelo menos 6 meses (ver alíneas I, J e K de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Somatório do PVP dos medicamentos em que a expressão [A e (B ou C ou D)] é verdadeira (ver alínea G de OBSERVAÇÕES GERAIS):
+A. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde e foram aceites para faturação durante o período em análise, independentemente da origem do local de prescrição (ver alíneas A, B, C, D, E e F de OBSERVAÇÕES GERAIS).
+B. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, no final do mês em que ocorre a faturação.
+C. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico e da unidade funcional a que este pertence, no final do mês em que ocorre a faturação.
+D. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise."
+Observações Gerais,"A. A despesa com medicamentos contabilizada no denominador é aquela que durante o período em análise é associável a utentes inscritos nos CSP. A distribuição dessa despesa pelo ACES, unidade funcional ou médico que constitui a ""unidade de observação"" é feita pela titularidade da inscrição do utente no mês da faturação do medicamento. Significa isto que estamos a contabilizar no denominador a despesa com medicamentos faturados aos utentes inscritos nos CSP independentemente do médico prescritor estar inscrito na ""ordem dos médicos"" ou na ""ordem dos médicos dentistas"" e independentemente da prescrição ter sido efetuada nos CSP, hospitais do SNS, hospitais privados, clínicas privadas, médicos em consultório particular ou em qualquer outro contexto de atividade.
+B. A data que importa para verificar se determinado medicamento está ou não dentro do período em análise e assim decidir incluir ou não o respetivo [PVP] no indicador é a [data de aceitação da receita pelo CCF]. A [data de prescrição] e a [data de venda] são ignoradas.
+C. Existem alguns medicamentos contabilizados no denominador (aceites para faturação durante o período em análise) que foram prescritos no ano anterior. Existem medicamentos prescritos durante o período em análise que só serão aceites para faturação depois desse período.
+D. Até 31 de março de 2013 as farmácias enviavam para o CCF as receitas de utentes do SNS e de utentes da ADSE prescritas em locais de prescrição do SNS. A partir de 1 de abril passou a ser considerada despesa do SNS todas as receitas prescritas a utentes dos subsistemas públicos, ou seja, ADSE (independentemente do local de prescrição), IASFA, SAD-PSP e SAD-GNR
+E. Caso uma farmácia pertencente a uma ARS receba uma receita de uma unidade de saúde de outra ARS, isso não constitui impedimento para que o indicador contabilize essa despesa para a unidade de saúde respetiva.
+F. Não são contabilizados no denominador nem no numerador as despesas relacionadas com:
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra);
+- Medicamentos não comparticipados: são prescritos por médicos, dispensados nas farmácias, mas não são enviados pelas farmácias para faturação junto do Ministério da Saúde;
+- Medicamentos de alguns subsistemas, designadamente SAD-PSP, SAD-GNR, IASFA, SS CGD e SAMS (até 31 de março de 2013): eram prescritos nas unidades de saúde, dispensados nas farmácias, mas a faturação era efetuada junto dos respetivos subsistemas;
+G. Contabiliza-se o PVP do medicamento em vigor na data de venda. Caso a marca do medicamento dispensado seja diferente da marca do medicamento prescrito ou a prescrição for CNPEM contabiliza-se o PVP do medicamento dispensado. Caso o PVP na data da venda seja diferente do PVP na data de prescrição, contabiliza-se o da data da venda. A métrica que serve de base a este indicador está definida na especificação
+M013 dos [conceitos e métricas relacionadas com medicamentos]
+.
+H. Quando uma unidade funcional tem mais do que um código de inscrição de utentes no RNU, para que a prescrição cumpra critérios para o numerador deste indicador é necessário que ocorra com um código de local de prescrição diferente de todos os locais de inscrição do RNU, mas pertencente ao ACES a que pertence a unidade funcional.
+I. O facto da data usada para cruzar o ""medicamento"" com a ""inscrição nos CSP"" ser a ""data de faturação"" e não e ""data de prescrição"", poderia levar a que fossem colocados no numerador medicamentos em que na data de prescrição o médico prescritor ainda não era o médico de família do utente (falsos positivos do numerador). Isso é evitado assegurando que só entram para o numerador medicamentos em que na data de faturação o utente á se encontra inscrito na unidade funcional há pelo menos 6 meses. O limiar de 6 meses está relacionado com a validade máxima das receitas. Ainda assim, existe alguma possibilidade existirem receitas que entram na faturação mais de 6 meses após a prescrição. No entanto isto só deverá ocorrer de forma significativa em ficheiros de utentes totalmente novos em que o médico herda a maioria dos utentes a de uma unidade funcional antiga, por exemplo criação de uma USF modelo A a partir de uma UCSP em que a maioria dos médicos e utentes da USF também existiam na UCSP.
+J. Para ficheiros com dimensões estáveis, em que as entradas de novos utentes servem apenas para compensar as saídas por óbito ou transferência, não existe qualquer possibilidade de existência de ""falsos positivos"" para o numerador.
+K. Valores residuais no numerador podem também decorrer do médico esporadicamente consultar utentes inscritos no próprio ficheiro, por exemplo em serviços de atendimento complementar (SAP ou afins), um UCC ou até (com menor probabilidade) noutras USF ou UCSP.
+L. A prescrição de medicamentos em ""serviços ou unidades funcionais do mesmo ACES diferentes da unidade a que pertence"" por um médico de família aos utentes inscritos no seu ficheiro ou inscritos nos ficheiros de outros médicos na unidade funcional onde trabalha coloca-o em situação de potencial conflito de interesses pois dessa prática decorre a alteração de indicadores usados para medir o desempenho da unidade funcional (por exemplo o indicador com ID=70, ""Despesa média (PVP) de medicamentos prescritos e comparticipados, por utente utilizador""), melhorando os scores e taxas de cumprimento usadas para medir o desempenho, daí podendo resultar benefícios económicos para o próprio ou para a equipa (incentivos institucionais). Eventuais processos de auditoria interna ou externa decorrentes dos outputs deste indicador devem ter em conta as possíveis excepções elencadas nos pontos anteriores bem como outras que não tenham sido previstas na data de construção do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB X 100
+Unidade de medida,%
+Output,Proporção de PVP
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
+Intervalo Aceitável,"Ano de 2022: [0; 0.01]
+Ano de 2023: [0; 0.01]
+Ano de 2024: [0; 0.01]"
+Intervalo Esperado,"Ano de 2022: [0; 0.04]
+Ano de 2023: [0; 0.04]
+Ano de 2024: [0; 0.04]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

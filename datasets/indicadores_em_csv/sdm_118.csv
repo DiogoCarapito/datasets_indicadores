@@ -1,0 +1,51 @@
+titulo,texto
+ID,118
+Código,4.30.02
+Código SIARS,4.30
+Nome abreviado,Taxa visit.domic. enfermagem por 1.000 inscritos
+Designação,Taxa de visitas domiciliárias de enfermagem por 1.000 inscritos
+Objetivo,Permite monitorizar produtividade relacionada com a realização de domicílios de enfermagem.
+Descrição do Indicador,"Exprime o número de domicílios de enfermagem realizados por ano por cada 1000 utentes inscritos.
+Numerador: Contagem de domicílios de enfermagem realizados no período em análise.
+Denominador: Contagem de utentes com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Contactos realizados aos utentes definidos no denominador, durante o período em análise do numerador.
+B. Realizados no domicílio, por qualquer enfermeiro da unidade de saúde (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na Unidade de Saúde, durante pelo menos um dia do período em análise."
+Observações Gerais,"A. Apenas se contabiliza um contacto, por utente, por dia;
+B. No denominador, contabilizam-se utentes inscritos em pelo menos um dia do período em análise, pois existe um número significativo de consultas domiciliárias que são realizadas a utentes que acabam por falecer antes do último dia do período em análise, o que provocaria uma quebra significativa de domicílios no numerador (quando comparada com os domicílios efetivamente realizados pelos profissionais no período em análise).
+C. Quando a unidade de observação é um ACES, contabilizam-se as visitas domiciliárias realizadas por enfermeiros das UCC a utentes a utentes com [
+inscrição ativa
+] numa das unidades (USF ou UCSP) do ACES. Esses domicílios realizados por enfermeiros da UCC não são contabilizadas nos indicadores em que a unidade de observação é uma USF, uma UCSP ou um médico."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. No SCLÍNICO, considera-se domicílio desde que seja selecionado um dos seguintes itens, em [local da consulta], na janela de [efetivação do contacto]:
+- [Domicílio] (válido desde sempre);
+- [Lar de idosos] (válido a partir de janeiro 2023);
+- [Centro de dia] (válido a partir de janeiro 2023);
+- [Locais comunitários] (válido a partir de janeiro 2023);
+- [Estabelecimento prisional] (válido a partir de janeiro 2023).
+É irrelevante assinalar [ato de enfermagem] ou [consulta de enfermagem].
+A consulta não pode ficar [pendente]. Deve ser [terminada].
+MEDICINEONE:
+A. Um contacto fica como [domicílio] se o respetivo [Tipo de contacto] foi definido como [domicílio]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,por 1.000
+Output,Taxa de consultas domiciliárias (Enf.)
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

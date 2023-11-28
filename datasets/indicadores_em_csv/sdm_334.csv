@@ -1,0 +1,66 @@
+titulo,texto
+ID,334
+Código,5.35.01
+Código SIARS,2017.334.01
+Nome abreviado,Proporção cons. indir. c/ proc. taxa moder. efet.
+Designação,Proporção de consultas não presenciais com procedimentos administrativos de cobrança de taxa moderadora efetuados
+Objetivo,"Monitorizar a frequência com que nas consultas não presenciais, os procedimentos administrativos de cobrança de taxa moderadora são efetivamente realizados."
+Descrição do Indicador,"Exprime a proporção de consultas médicas ou de enfermagem não presenciais efetivadas, com efetiva cobrança de taxa moderadora ou com registo de dispensa ou de isenção de taxa.
+Numerador: Contagem de consultas em que existe recebimento de taxa moderadora ou registo de ""dispensa de taxa moderadora"" ou registo de ""isenção de taxa moderadora"".
+Denominador: Contagem de consultas médicas ou de enfermagem não presenciais efetivadas a utentes com inscrição ativa na unidade funcional."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe recebimento do valor faturado de taxa moderadora, no máximo até 30 dias após a data de realização/efetivação (ver alíneas C e D de OBSERVAÇÕES GERAIS).
+C. Existe registo de dispensa de taxa moderadora.
+D. Existe registo de isenção de taxa moderadora.
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C e D e E] é verdadeira:
+A. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde na data de realização da consulta.
+C. Realizada num dos locais pertencentes à unidade de observação (ver alínea A de OBSERVAÇÕES GERAIS).
+D. Realizada por médico, interno ou enfermeiro (ver alínea B de OBSERVAÇÕES GERAIS).
+E. Do tipo ""não presencial"" (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Se a unidade de observação do indicador for uma unidade funcional (USF, UCSP ou equivalente), a consulta médica ou de enfermagem deve estar associada a um dos códigos RNU que lhe estejam associados na hierarquia de locais. Os locais RNU pertencentes a cada unidade funcional podem ser consultados, na RIS, em
+https://sdm.min-saude.pt/hierarquia.aspx
+. O mesmo sucede se a unidade de observação do indicador for um ACES. Se a unidade de observação for um médico ou enfermeiro, surgirão no denominador as consultas realizadas por qualquer médico ou enfermeiro da unidade funcional a utentes que na data de referência do indicador pertençam ao ficheiro de utentes do profissional de saúde (unidade de observação do indicador). Os utentes que na data de referência do indicador já não esteja inscritos na unidade funcional, aparecem associados ao último médico de família e ao último enfermeiro de família de inscrição.
+B. As consultas contabilizados no denominador são do tipo [Consulta médica não presencial] ou do tipo [Consulta de enfermagem sem a presença do utente (indireta)], com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C004
+| Consulta de enfermagem sem a presença do utente (indireta) - SClínico
+-
+C010
+| Consulta de enfermagem sem a presença do utente (indireta) - MedicineOne
+C. Apenas se contabilizam no numerador utentes com registo de dispensa de taxa moderadora, com registo de isenção ou com registo de efetivo recebimento do valor faturado. Não se contabilizam com consultas com registo de faturação de taxa mas sem registo de cobrança. Uma vez que se tratam de consultas ""não presenciais"" em que a cobrança e recebimento da taxa moderadora sucede muitas vezes aquando do levantamento dos documentos solicitados pelo utente, por vezes alguns dias após o pedido, a leitura do ""recebimento"" deve ser efetuada até 1 mês após a data de realização da consulta.
+D. Uma vez que o objetivo do indicador é a medição da efetividade dos procedimentos implementados para cobrança de taxas moderadoras nas consultas não presenciais, a leitura do ""recebimento"" do valor faturado deve ser efetuada no máximo até 30 dias após a data de realização/efetivação da consulta."
+Observações Sobre Software,"Indicador compatível com os seguintes sistemas de registo e cobrança de taxas moderadoras:
+- SINUS
+- Marta
+- MedicineOne"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""recebimento de taxa moderadora""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data de pedido da consulta pelo utente e fim 1 mês após o registo de realização/efetivação da mesma.
+- Numerador (variável ""registo de dispensa da taxa moderadora""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data de pedido da consulta pelo utente e fim 1 mês após o registo de realização/efetivação da mesma.
+- Numerador (variável ""registo de isenção da taxa moderadora""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data de pedido da consulta pelo utente e fim 1 mês após o registo de realização/efetivação da mesma.
+- Denominador (variável ""inscrição ativa""): Ancorada na data de realização da consulta.
+- Denominador (variável ""consulta""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Setembro de 2019
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

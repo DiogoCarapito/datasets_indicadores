@@ -1,0 +1,54 @@
+titulo,texto
+ID,037
+Código,6.19.01
+Código SIARS,2013.037.01
+Nome abreviado,Proporção DM c/ cons. enf. vigil. DM último ano
+Designação,"Proporção de utentes com diabetes, com consulta de enfermagem de vigilância em diabetes no último ano"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""consulta de vigilância de enfermagem""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes, com consulta de vigilância de enfermagem.
+Numerador: Contagem de utentes inscritos com diabetes com consulta de vigilância de enfermagem.
+Denominador: Contagem de utentes inscritos com diabetes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma consulta de enfermagem de vigilância de diabetes (ver alínea A de OBSERVAÇÕES GERAIS), nos últimos 12 meses.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Para se considerar uma [Consulta de Enfermagem de Vigilância] em diabetes, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.5
+| Consulta de enfermagem de vigilância em diabetes - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de diabetes, que podem ser usados para a classificar como ""problema de saúde da consulta"" são o T89 ou o T90."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [87; 100]
+Ano de 2023: [87; 100]
+Ano de 2024: [87; 100]"
+Intervalo Esperado,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

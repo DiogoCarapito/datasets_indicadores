@@ -1,0 +1,535 @@
+titulo,texto
+ID,392
+Código,8.18.01
+Código SIARS,2017.392.01
+Nome abreviado,"IDS da dimensão ""melhoria cont. qualid. e PAI"""
+Designação,"IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados"""
+Objetivo,"Possibilitar o cálculo do IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados"" da subárea ""melhoria contínua da qualidade"" da matriz de contratualização das unidades funcionais dos ACES."
+Descrição do Indicador,"Dado que nesta dimensão podem ser contratualizadas um ou mais processos de melhoria contínua da qualidade, este indicador materializa o cálculo do próprio IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados""."
+Regras de cálculo,"Este indicador é cumprido através de:
+1 - Verificação de um processo de certificação pelo DQS/DGS ou certificação pela DIOR-CSP válido no fim do ano de contratualização.
+ou
+2 - Execução de um ou mais processos de melhoria contínua da qualidade, que se verifica pelo preenchimento anual de uma que possui um conjunto de critérios/regras para 
+    obtenção dos resultados em pontos (para este indicador) e que é validado no módulo PAUF do BI-CSP.
+PROCESSO DE MELHORIA CONTÍNUA DA QUALIDADE
+A melhoria contínua da qualidade deve ser uma prática comum em organizações que pretendem atingir um nível de qualidade organizacional de excelência.
+Para a implementar um ciclo de melhoria da qualidade este indiacdor utiliza o ciclo PDCA, que engloba:
+- Plan (Planeamento) - Fase 1, 2, 3, 4;
+- Do (Implementação) - Fase 5;
+- Check (avaliar) - Fase 6;
+- Act (ação/ajuste) - Fase 7.
+FASES DE UM PROCESSO DE MELHORIA CONTÍNUA DA QUALIDADE
+Cada ciclo de um processo de melhoria contínua da qualidade contempla as fases elencadas na tabela seguinte:
+Fase
+Nome da fase
+Descrição
+Critérios para cumprimento
+1
+Identificação
+Identificação e caracterização do ""problema"" ou ""área"" ou ""processo de cuidados"" 
+         na vertente clínica ou organizacional
+Registo com validação pelo conselho clínico e de saúde do ACES
+2
+Definição do processo e resultado esperado
+Responder à questão ""O que deve acontecer?""
+Registo com validação pelo conselho clínico e de saúde do ACES
+3
+Avaliação do desempenho atual
+Responder à questão ""O que está a acontecer?""
+Registo com validação pelo conselho clínico e de saúde do ACES
+4
+Discussão, e análise dos resultados
+Fazer a discussão, análise dos resultados e eventuais medidas corretoras.
+A 
+         proposta de melhoria deve descrever as estratégias a implementar, respetivo 
+         cronograma de implementação bem como os responsáveis pela implementação
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução da auditoria
+5
+Implementação das estratégias de melhoria
+Corresponde à implementação das estratégias identificadas na proposta de 
+         melhoria descrita na fase 4.
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução das auditorias
+6
+Reavaliação do desempenho atual
+Corresponde a responder à questão ""O que está a acontecer?""
+Esta fase é equivalente à fase 3 do 1º ciclo de auditoria, só deve ocorrer 
+         depois concluída a fase 5.
+Corresponde simultaneamente ao fecho de um ciclo e início do ciclo seguinte de 
+         auditoria
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução das auditorias
+7
+Repetição do ciclo a partir da fase 4
+Repetição do ciclo (fases 4, 5 e 6) até resultado esperado ou definição de 
+         indicadores, intervalos esperados e mecanismos automáticos de alerta que 
+         permitam monitorizar esse processo
+Não tem
+Cada ciclo de um processo de melhoria contínua de qualidade tem habitualmente a duração de 1 ano embora outras durações sejam aceitáveis.
+Um processo de melhoria contínua de qualidade tem habitualmente mais do que um ciclo.
+O processo pode terminar quando a equipa considerar que os níveis de qualidade atingiram os valores esperados, ou quando, no seu planeamento estratégico, considerar que existem áreas mais prioritárias para investir.
+FÓRMULA DO IDS DA DIMENSÃO
+Para calcular o IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e 
+    Processos Assistenciais Integrados"" é necessário determinar sequencialmente:
+1. Quantos ciclos de melhoria contínua da qualidade foram contratualizadas nesta dimensão com a unidade 
+    funcional?
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Valor por Defeito
+Quem preenche
+392.NUM.MCQ
+Nº de ciclos de melhoria contínua da qualidade contratualizados nesta dimensão com a unidade funcional no ano 
+         de contratualização
+Valor numérico inteiro maior ou igual a 0 (zero)
+Sim
+0
+Unidade funcional
+2. A valorização dos resultados 
+    da avaliação de cada processo de melhoria contínua da qualidade (MCQ), nos termos descritos nas seções [392.AVALIA.CADA.MCQ],
+[392.FASES], 
+    [392.CHECK.Q1], [392.CHECK.Q2] e [392.CRIT], de forma a obter a seguinte matriz 
+    de valorizações de auditorias:
+ID
+Nome do Processo de MCQ
+Resultado
+Valores possíveis
+Obrigatória
+Quem preenche
+1
+MCQ 1
+A1
+{-1,0,1,2}
+Sim
+Automático
+2
+MCQ 2
+A2
+{-1,0,1,2}
+Sim
+Automático
+...
+...
+A3
+{-1,0,1,2}
+Sim
+Automático
+N = [392.NUM.MCQ]
+MCQ N
+AN
+{-1,0,1,2}
+Sim
+Automático
+3. O IDS propriamente dito através da fórmula
+IDS =
+(100 x [Somatório de resultados de valorização de MCQ entre as 
+    valorizadas com um dos seguintes: {0;1;2}])
+/
+(2 x [Contagem de MCQ entre as valorizadas com um dos seguintes: 
+    {0;1;2}])
+Nota: O documento de operacionalização da contratualização para os CSP, pode, em cada ano, definir um nº mínimo de MCQ obrigatórias.
+[392.AVALIA.CADA.MCQ]
+Cada processo de melhoria contínua da qualidade tem 4
+resultados possíveis
+, que se obtém através do preenchimento 
+    anual de uma
+checklist
+que possui um conjunto de
+critérios/regras
+para obtenção dos resultados em pontos (para este 
+    indicador).
+[392.CHECK.Q1]
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se as variáveis que é necessário recolher para perceber se esta 
+    dimensão foi contratualizada e se estamos a avaliar o 1º ciclo de implementação 
+    ou ciclos seguintes:
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Valor por Defeito
+Quem preenche
+392.IDENT.MCQ
+Título do processo de melhoria contínua da qualidade
+Texto livre
+Sim
+Unidade funcional
+392.CONTR
+A unidade funcional contratualizou a implementação deste processo de melhoria contínua da qualidade?
+S - Sim
+N - Não
+Sim
+S
+Unidade funcional
+392.ACREDITA
+A unidade funcional concluiu o ano de contratualização com certificação pela DQS/DGS válida (plataforma @credita)?
+S - Sim
+N - Não
+Sim
+N
+Unidade funcional
+392.DIOR
+A unidade funcional concluiu o ano de contratualização com certificação pela DIOR-CSP válida (plataforma E-qualidade)?
+S - Sim
+N - Não
+Sim
+N
+Unidade Funcional
+392.CICLO
+Nº ciclos de melhoria contínua da qualidade nesta área [392.IDENT.AUD] já iniciados pela unidade funcional
+Valor numérico inteiro maior ou igual a 1
+Sim
+1
+Unidade funcional
+392.DATA.FIM
+Data em que está previsto terminar a fase 6 do atual ciclo de melhoria contínua 
+         relacionado com [392.IDENT.AUD]
+Data no formato dd-mm-yyyy.
+Deve pertencer ao ano de contratualização 
+         (mas pode pertencer ao seguinte).
+Caso pertença ao próprio ano, e a uma data passada, é obrigatoriamente igual a 
+         [392.DATA.F6].
+Sim
+Último dia do ano de contratualização
+Unidade funcional
+392.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+Data no formato dd-mm-yyyy.
+Sim
+--
+Automático
+[392.CHECK.Q2]
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se de seguida as variáveis que é necessário recolher em associação a cada uma das 
+    fases, para que seja possível produzir resultados de avaliação do cumprimento do 
+    processo de melhoria contínua:
+Fase
+Nome da fase
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Upload de evidências
+Quem preenche
+1
+Identificação
+392.DATA.F1
+Data de início de implementação do processo de melhoria contínua da qualidade
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+1
+Identificação
+392.CUMPRE.F1
+Cumpriu fase 1 ciclo de melhoria contínua de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2
+Definição do processo e resultado esperado
+392.DATA.F2
+Data de execução da fase 2 do ciclo de melhoria contínua da qualidade.
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+2
+Definição do processo e resultado esperado
+392.CUMPRE.F2
+Cumpriu fase 2 do 1º ciclo de melhoria contínua 
+         de qualidade [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+3
+Avaliação do desempenho atual
+392.DATA.F3
+Data de execução da fase 3 do ciclo de melhoria contínua de qualidade
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+3
+Avaliação do desempenho atual
+392.CUMPRE.F3
+Cumpriu fase 3 do ciclo de melhoria contínua de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+4
+Discussão, e análise dos resultados
+392.DATA.F4
+Data de execução da fase 4 do ciclo de melhoria contínua da qualidade.
+Data no formato dd-mm-yyyy.
+Não
+Não
+Unidade funcional
+4
+Discussão, e análise dos resultados
+392.CUMPRE.F4
+Cumpriu fase 4 do último ciclo de melhoria contínua de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa com discussão 
+         de estratégias)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.F5.M.INI
+Primeiro mês do ano de contratualização em que está prevista a implementação de estratégias de melhoria contínua de qualidade de [392.IDENT.MCQ]
+Mês no formato mm-yyyy
+Não aceitar introdução de valores que não pertençam ao ano de contratualização.
+Não
+Não
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.F5.M.FIM
+Último mês do ano de contratualização (ou do  período em análise quando se está a avaliar antes do final do ano) em que está prevista a implementação de estratégias de melhoria da qualidade
+Mês no formato mm-yyyy.
+Na avaliação de dezembro, não aceitar introdução de valores que não pertençam ao ano de contratualização.
+Nas avaliações do 1º, 2º e 3º trimestres, não aceitar valores que ultrapassem o 
+         último mês do trimestre a avaliar.
+392.F5.M.FIM deve ser maior ou igual a 392.F5.M.INI
+Não
+Não
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.CUMPRE.F5
+Percentagem das estratégias já implementadas entre as descritas na fase 4 (com 
+         cronograma de implementação previsto para o ano de contratualização)
+Valor numérico inteiro entre 0 e 100 que corresponde à percentagem das 
+         estratégias já implementadas entre as descritas na fase 4.
+Devem ser incluídas no denominador também as estratégias/atividades que no 
+         cronograma se estendem para além do último dia do período em analise. Nessas, 
+         deverá ser avaliado no numerador se se cumpriu ou não o que estava previsto para 
+         o período de tempo em avaliação, tendo em atenção que o período de tempo em 
+         avaliação se inicia sempre em janeiro e termina no último mês do trimestre de 
+         referência.
+Fórmula:
+V.392.11 = 100 x [Nº de estratégias implementadas durante o ano de 
+         contratualização entre as elegíveis para o denominador desta fórmula] / [Nº de 
+         estratégias previstas na fase 4 do ciclo de melhoria com datas de implementação 
+         previstas para os meses compreendidos entre 392.F5.M.INI e 392.F5.M.FIM]
+Sim
+Sim
+Unidade funcional
+6
+Reavaliação do desempenho atual
+392.DATA.F6
+Data de execução da fase 6 do ciclo de melhoria contínua de qualidade
+Data no formato dd-mm-yyyy.
+Não
+Não
+Unidade funcional
+6
+Reavaliação do desempenho atual
+392.CUMPRE.F6
+Cumpriu fase 6 do último ciclo de melhoria contínua contínua de qualidade de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa com discussão 
+         de estratégias)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+[392.CRIT]
+CRITÉRIOS PARA AVALIAÇÃO DA CHECKLIST PARA ATRIBUIÇÃO DE 0, 1 OU 2 PONTOS A CADA 
+    AUDITORIA
+O resultado 
+    da avaliação do processo de melhoria da qualidade é definido pelas condições seguintes:
+Critério
+Significado
+Resultado
+A unidade funcional 
+         encontra-se acreditada ou implementou o processo de auditoria interna com cumprimento cumulativo, durante o ano de 
+         contratualização, das fases 4, 5 e 6, ou seja se a condição [(A e B e C e D e E e ((F 
+         e G) ou H)) ou I ou J] for verdadeira:
+A. [392.CONTR] = ""S""
+B. [392.CICLO] >= 1
+C. [392.DATA.F4] pertence ao ano de contratualização;
+D. [392.CUMPRE.F4] = ""C"";
+E. [392.CUMPRE.F5] = 100;
+F. [392.DATA.F6] pertence ao ano de contratualização;
+G. [392.CUMPRE.F6] = ""C"";
+H. [392.DATA.FIM] > [Data fim do período em análise];
+I. [392.ACREDITA] = ""S"";
+J.[392.DIOR] = ""S""
+A unidade funcional realizou todo o processo de melhoria contínua da qualidade, chegando à fase 
+         de introdução de estratégias de melhoria e avaliação do impacto das mesmas.
+Obtém 2 pontos como resultado no indicador (score)
+2
+Não cumpre critérios para ter ""2 pontos"" e a condição [(A e B e C e D e E e F e G e H e J) ou (K e L e M e N e O e P)] é verdadeira:
+A. [392.CONTR] = ""S""
+B. [392.CICLO] = 1
+C. [392.DATA.F1] pertence ao ano de contratualização;
+D. [392.CUMPRE.F1] = ""C"";
+E. [392.DATA.F2] pertence ao ano de contratualização;
+F. [392.CUMPRE.F2] = ""C"";
+G. [392.DATA.F3] pertence ao ano de contratualização;
+H. [392.CUMPRE.F3] = ""C"";
+I. [392.DATA.F4] pertence ao ano de contratualização;
+J. [392.CUMPRE.F4] = ""C"";
+K. [392.CONTR] = ""S""
+L. [392.CICLO] >= 1
+M. [392.DATA.F3] pertence a anos anteriores ao da contratualização;
+N. [392.DATA.F4] pertence ao ano de contratualização;
+O. [392.CUMPRE.F4] = ""C"";
+P. [392.CUMPRE.F5] >= 50;
+A unidade funcional realizou parte do ciclo de melhoria contínua de 
+         qualidade, chegando à fase de ""Avaliação do desempenho atual"" (fase 3)
+Obtém 1 ponto como resultado no indicador (score)
+1
+A condição [A e B] é verdadeira:
+A. Não cumpre critérios para ter 2 pontos;
+B. Não cumpre critérios para ter 1 ponto;
+A unidade funcional ou não realizou qualquer fase do ciclo de melhoria contínua 
+         ou realizou mas não chegou a discutir o ""estado atual""
+0
+CERTIFICAÇÃO PELO DQS/DGS
+Corresponde ao Modelo de Certificação de Unidades de Saúde do Ministério da Saúde português. O processo de certificação é conduzido pelo Departamento da Qualidade na Saúde (DQS) da Direção-Geral da Saúde (DGS), e tem como marco de referência a Estratégia Nacional para a Qualidade na Saúde e os procedimentos documentados em vigor no DQS. Tem validade de 5 anos e é apoiado pela plataforma @credita. Para mais informações:
+https://acredita.dgs.pt/
+CERTIFICAÇÃO PELO DIOR-CSP
+Corresponde à certificação a modelo B pela ERA e  ou CCS da respectiva região de saúde ou ACES. É realizada com o apoio da plataforma E-qualidade e tem a validade 2 anos."
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador já incorpora as regras de calculo do IDS da dimensão não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+Quando o resultado do indicador for nulo (não calculado), tal significa que não estão reunidas as 
+    condições para calcular o IDS pelo que a ponderação da dimensão na subárea 
+    é distribuída pelas restantes dimensões da mesma subárea, tal como definido na 
+    legislação aplicável ao cálculo do IDG.
+C02
+IDS da dimensão ""qualidade organizacional - processos assistenciais integrados""
+O [IDS da dimensão ""qualidade organizacional - processos assistenciais integrados""] é diretamente 
+    obtido a partir do resultado do indicador sem aplicação de qualquer fórmula.
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente:
+- Todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO - Q1, 
+    registadas pela unidade funcional
+- Todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO - Q2, 
+    registadas pela unidade funcional
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O resultado do indicador é recolhido mensalmente a partir do PAUF - módulo de acomapnahmento com o valor que lá esteja calculado em função de dados introduzidos pelas equipas e validado pela CCS.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
+Fórmula,Aplicação de checklist
+Unidade de medida,Score
+Output,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,Qualidade Organizacional | Melhoria Contínua | Prog. Melh. Contínua Qual. e Proc. Assist. Integr.
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

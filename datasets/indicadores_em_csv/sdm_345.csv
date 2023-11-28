@@ -1,0 +1,49 @@
+titulo,texto
+ID,345
+Código,3.32.01
+Código SIARS,2017.345.01
+Nome abreviado,Propor. consul. enfer. realiz. no dia do agendam.
+Designação,Proporção de consultas de enfermagem realizadas no dia do agendamento
+Objetivo,Monitorizar a proporção de consultas de enfermagem realizadas no dia do agendamento.
+Descrição do Indicador,"Exprime a proporção de consultas de enfermagem presenciais que são realizadas no dia em que são agendadas.
+Numerador - Contagem de consultas de enfermagem presenciais que são realizadas no dia em que são agendadas.
+Denominador - Contagem de consultas de enfermagem presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Consulta realizada no dia do agendamento (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C] é verdadeira:
+A. Efetuada por qualquer enfermeiro da unidade funcional durante o período em análise.
+B. Do tipo ""consulta de enfermagem presencial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Realizado a utente com [
+inscrição ativa
+] na unidade de observação no mês da realização da consulta."
+Observações Gerais,"A. Para se considerar uma [Consulta enfermagem com a presença do utente (direta)], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne
+B. Uma consulta é considerada no numerador do indicador sempre que a data de realização seja igual à data em que o agendamento é efetuado na agenda do Sclinico. Por exemplo, consulta solicitada por um utente no dia 20 de agosto, agendada e realizada no dia 20 de agosto. A classificação das consultas em ""programada"" / ""não programada"" não é tida em conta, nas regras do numerador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""data de pedido da consulta""): É um atributo da variável ""consulta de enfermagem"".
+- Denominador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição do utente""): Apurado no último dia do mês da realização da consulta."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Fevereiro de 2018
+Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
+Intervalo Aceitável,"Ano de 2022: [23; 40]
+Ano de 2023: [23; 40]
+Ano de 2024: [23; 40]"
+Intervalo Esperado,"Ano de 2022: [18; 45]
+Ano de 2023: [18; 45]
+Ano de 2024: [18; 45]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

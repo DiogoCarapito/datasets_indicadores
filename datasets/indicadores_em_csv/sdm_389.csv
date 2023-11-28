@@ -1,0 +1,646 @@
+titulo,texto
+ID,389
+Código,8.15.01
+Código SIARS,2017.389.01
+Nome abreviado,"Score dimensão ""serviços de caráter assistencial"""
+Designação,"Score para avaliação da dimensão ""serviços de caráter assistencial"""
+Objetivo,"Possibilitar a avaliação da dimensão ""serviços de caráter assistencial"" da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de atividade assistencial em serviços comuns do ACES."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de cumprimento do compromisso assumido por cada equipa para a prestação de atividade assistencial em ""serviços comuns do ACES"".
+As regras de medição deste ""grau de cumprimento"" são definidas anualmente desde o ano de 2017 e encontram-se plasmadas nos documentos de ""operacionalização dos termos de referência para a contratualização"", sendo transpostas para ""bilhete de identidade de indicador"", para que possa ser operacionalizado o respetivo cálculo de forma automática."
+Regras de cálculo,"FÓRMULA
+[Score dimensão ""serviços assistenciais""] = 2 x (1 - MM x F / (C x M))
+Em que:
+MM - Número de meses do ano de contratualização que são contratualizados com a unidade funcional;
+C - Número de horas contratualizadas com a equipa para o ano de contratualização, para atividade assistencial em serviços comuns do ACES, registadas até à data de cálculo do indicador;
+F - Número de horas não realizadas por falta dos respetivos elementos no período em análise da variável (entre janeiro e o mês de referência do indicador), registadas até à data de cálculo do indicador. Considera-se ""falta dos respetivos elementos"" quando a equipa não assegurou a substituição atempada (por elemento da própria equipa ou por elemento de outra equipa).
+M - Nº de meses do ano decorridos entre o início do período de contratualização e o mês de referência do indicador.
+Notas:
+1. MM varia entre um mínimo de 1 (1º mês do período de contratualização) e um máximo de M (último mês do período de contratualização). Quando a unidade funcional contratualiza 12 meses, MM é igual as 12 e M varia entre 1 (em janeiro) de 12 (em dezembro).
+2. Ver regras ou condições C01 a C13 em OBSERVAÇÕES GERAIS"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Tipologias de ""serviços assistenciais comuns"" a contratualizar
+As tipologias de ""serviços assistenciais comuns"" a contratualizar são as seguintes:
+Código
+Designação
+T01
+Alargamento de horário
+T02
+Colaboração 
+         com outras unidades funcionais
+T03
+Serviços de atendimento permanente ou prolongado
+T04
+Utentes sem equipas de saúde familiar (consulta geral, saúde infantil, saúde da 
+         mulher e doença crónica)
+T05
+Atividade 
+         sazonal
+T06
+Consulta de cessação tabágica
+T07
+Pequena cirurgia
+T08
+Outros tipos
+Nota
+:
+Uma unidade funcional pode contratualizar 0, 1 ou mais atividades de cada tipologia de serviços assistenciais.
+C02
+Tipos de unidades funcionais
+As tipologias de unidades funcionais a que se aplica este indicador são as 
+    seguintes:
+Código
+Designação
+USF-B
+Unidade de Saúde Familiar modelo B
+USF-A
+Unidade de Saúde Familiar modelo A
+UCSP
+Unidade de Cuidados de Saúde Personalizados
+UCC
+Unidade de Cuidados na Comunidade
+URAP
+Unidade de Recursos Assistenciais Partilhados
+USP
+Unidade de Saúde Pública
+C03
+Tipologia de grupos profissionais nas USF-A, USF-B e UCSP
+A recolha de informação sobre ""nº de profissionais ponderados"" deve ser feita nas USF-A, 
+    USF-B e UCSP, de forma agregada (e não profissional a profissional) para os 
+    seguintes grupos profissionais:
+Código
+Designação
+MED
+Médicos da equipa (exclui internos)
+ENF
+Enfermeiros da equipa
+SC
+Secretários clínicos da equipa
+C04
+Tipologia de grupos profissionais nas UCC, 
+    URAP e USP
+A recolha de informação sobre ""nº de profissionais ponderados"" deve ser feita nas UCC, 
+    de forma agregada (e não profissional a profissional) para os seguintes grupos 
+    profissionais:
+Código
+Designação
+ENF
+Enfermeiros da equipa
+MED
+Médicos da equipa (exclui internos)
+OUT
+Outros profissionais de saúde da equipa
+SC
+Secretários clínicos da equipa
+C05
+1. Número máximo de horas a contratualizar com cada unidade funcional por ano
+2. Número máximo de horas a contratualizar com cada grupo profissional da unidade funcional por ano
+O valor máximo de horas a contratualizar com cada unidade funcional é de 2 
+    horas por profissional (pertencente à equipa) por semana, sendo determinado pela 
+    fórmula seguinte:
+[nº máximo de horas a contratualizar por ano] = 44 x (2 x Med_p + 2 x Enf_p + 2 x SC_p + 2 x O_Prof_p)
+[nº máximo de horas a contratualizar por grupo profissional por ano] = 44 x (2 x [Med_p | Enf_p | SC_p | O_Prof_p])
+Em que:
+Med_p
+Ponderação do nº de médicos da equipa ao longo do ano de 
+         contratualização, tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+Enf_p
+Ponderação do nº de enfermeiros da equipa ao longo do ano de contratualização 
+         tendo em atenção a carga horária semanal de cada um e o nº de meses de exercício 
+         de funções.
+SC_p
+Ponderação do nº de secretários clínicos da equipa ao longo do ano de 
+         contratualização tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+O_Prof_p
+Ponderação do nº de ""outros profissionais de saúde"" da equipa ao longo do ano de 
+         contratualização tendo em atenção a carga horária semanal de cada um e o nº de 
+         meses de exercício de funções.
+Notas
+:
+1. Na fórmula de [nº máximo de horas a contratualizar por ano], consideram-se 44 semanas úteis por ano.
+2. Para a definição do nº máximo de horas a contratualizar por profissional deve ser considerada a métrica de ""profissional ponderado"", não só em função do horário semanal de trabalho efetivo (comparado com horário semanal a tempo completo para o respetivo regime contratual, seja ele de 35, 40 ou 42 horas), mas também em função de ausências prolongadas ao trabalho. Assim, por exemplo, um profissional com um contrato base de 35 horas contratado ""meio tempo"" vale ""0,5"" se exercer funções durante 12 meses e ""0,25"" se exercer funções durante 6 meses.
+3. O valor apurado para cada unidade funcional para o [nº máximo de horas a contratualizar por ano] 
+    deve ser calculado na plataforma de introdução de dados, tendo como parâmetros 
+    de entrada as variáveis Med_p, Enf_p, SC_p e O_Prof_p. Os parâmetros de entrada 
+    devem ser registados pela unidade funcional. Os cálculos necessários para obter 
+    o [nº máximo de horas a contratualizar por ano] são feitos de forma automática 
+    pela plataforma. O resultado final de [nº máximo de horas a contratualizar por ano] 
+    deve ser validado pelo conselho clínico e de saúde do ACES.
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Variável
+Valor
+Observações
+Med_p
+6
+6 médicos a tempo inteiro durante os 12 meses 
+         de 2017
+Enf_p
+5,5
+5 enfermeiros a tempo inteiro durante os 12 meses de 2017 e 1 enfermeiro de 
+         julho a dezembro de 2017
+SC_p
+4,5
+4 secretários clínicos a tempo inteiro durante os 12 meses de 2017 e 1 
+         secretário clínico a 50% de horário semana (17,5 horas) durante os 12 meses de 
+         2017
+O_Prof_p
+0
+Não aplicável às UCSP
+[nº máximo de horas a contratualizar por ano] = 44 x (2 x Med_p + 2 x Enf_p + 2 x SC_p + 2 x O_Prof_p) 
+    = 44 x (2 x 6 + 2 x 5,5 + 2 x 4,5 + 2 x 0) = 44 x 32 = 1408 horas
+[nº máximo de horas a contratualizar com médicos por ano] = 44 x 2 x Med_p 
+    = 44 x 2 x 6 = 44 x 32 = 528 horas
+[nº máximo de horas a contratualizar com enfermeiros por ano] = 44 x 2 x Enf_p 
+    = 44 x 2 x 5,5 = 44 x 11 = 484 horas
+[nº máximo de horas a contratualizar com secretários clínicos por ano] = 44 x 2 x SC_p  
+    = 44 x 2 x 4,5 = 44 x 9 = 396 horas
+[nº máximo de horas a contratualizar com outros profissionais por ano] = 44 x 2 x O_Prof_p 
+    = 44 x 2 x 0 = 0 horas
+C06
+C - Horas contratualizadas
+Número de horas contratualizadas com a equipa para o período em análise (ano de 
+    contratualização) para atividade assistencial em serviços comuns do ACES.
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+ID
+Tipologia de serviço
+Descrição do serviço
+Contratualizado?
+Médico*
+Enferm.*
+SC*
+TOTAL
+1
+T01 -
+         Alargamento de horário
+Alargamento de horário na UCSP X em dias 
+         úteis das 20h às 21h (1 médico, 1 enfermeiro e 1 secretário clínico 12 meses por 
+         ano)
+S
+260
+260
+260
+780
+2
+T02 - Colaboração 
+         com outras unidades funcionais
+Apoio médico à UCC Y - 4 horas por semana - 1 médico - 12 meses por ano
+S
+208
+0
+0
+208
+3
+T02 - Colaboração 
+         com outras unidades funcionais
+Apoio de secretários clínicos à UCC Z - 1 secretário clínico - 3 horas por 
+         semana - 12 meses por ano
+S
+0
+0
+156
+156
+4
+T03 -
+         Serviços de atendimento permanente ou prolongado
+Participação na escala de fim-de-semana do serviço de atendimento complementar 
+         da sede do centro de saúde Y - 1 enfermeiro durante 12 horas de 2 em 2 meses
+S
+0
+72
+0
+72
+5
+T04 -
+         Utentes sem equipas de saúde familiar (consulta geral, saúde infantil, saúde da 
+         mulher e doença crónica)
+--
+N
+0
+0
+0
+0
+6
+T05 - Atividade 
+         sazonal
+--
+N
+0
+0
+0
+0
+7
+T06 -  Consulta 
+         de cessação tabágica
+--
+N
+0
+0
+0
+0
+8
+T07 -
+         Pequena cirurgia
+--
+N
+0
+0
+0
+0
+9
+T08 -
+         Outros tipos
+--
+N
+0
+0
+0
+0
+TOTAL
+--
+--
+468
+332
+416
+1216
+Legenda:
+* Nº de horas contratualizadas por ano
+Notas:
+1. Neste exemplo, C = 1216 horas.
+2.
+    As horas contratualizadas com cada unidade funcional devem ser recolhidas 
+    desagregadas por [Tipologias de ""serviços assistenciais comuns"" a contratualizar] 
+    (C01) e por [Tipologia de grupos profissionais] (C03 e C04), devendo o respetivo 
+    total ser calculado de forma automática pela plataforma.
+3. O formulário de suporte à introdução de dados deve ter pré-carregadas 8 linhas 
+    (uma para cada tipologia de serviço assistencial comum), pré-preenchidas com ""N"" 
+    na coluna [contratualizado*] e com 0 (zero) nas colunas das ""horas""
+4. Deve ser possível a adição de mais linhas do que as 8 inicialmente 
+    carregadas, pois é possível que o mesmo ACES tenham mais do que um serviço 
+    assistencial comum de cada tipologia.
+5. Caso o total apurado para C (horas contratualizadas) seja superior a [Número máximo de horas a contratualizar com cada unidade funcional por ano], 
+    deve surgir uma mensagem com essa indicação, que deve ficar visível quer para a 
+    unidade funcional quer para o ACES, sendo a mesma alvo de validação por este 
+    último.
+C07
+F -
+    Horas com falta
+Número de horas contratualizadas com a equipa para o período em análise (ano de 
+    contratualização), não realizadas por falta dos respetivos elementos.
+Considera-se ""falta dos respetivos elementos"" quando a equipa não assegurou a 
+    substituição atempada (por elemento da própria equipa ou por elemento de outra 
+    equipa).
+De forma a poder calcular este indicador, ao longo de todos os meses do ano, 
+    para efeitos de acompanhamento do processo de contratualização, é necessário que 
+    seja registado o mês a que dizem respeito as faltas.
+Assim, a plataforma de recolha de dados deve permitir a introdução desta 
+    informação através de um formulário onde se escolhe:
+a) o serviço previamente preenchido no quadro C06
+b) o mês do ano a que dizem respeito as faltas
+c) o grupo profissional a que dizem respeito as faltas
+d) o nº de horas de faltas
+Exemplo para uma UCSP em 2017:
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Serviço
+Grupo Profissional
+Mês
+Nº de faltas
+2 -
+         Apoio médico à UCC Y - 4 horas por semana - 1 médico - 12 meses por ano
+Médico
+FEV-2017
+4
+2 -
+         Apoio médico à UCC Y - 4 horas por semana - 1 médico - 12 meses por ano
+Médico
+FEV-2017
+4
+3 -
+         Apoio de secretários clínicos à UCC Z - 1 secretário clínico - 3 horas por 
+         semana - 12 meses por ano
+SC
+JUN-2017
+2
+A introdução dos dados atrás exemplificados permitirá o seguinte output de forma 
+    automática:
+ID
+Tipologia de serviço
+Descrição do serviço
+Contratualizado?
+Médico*
+Enferm.*
+SC*
+TOTAL
+1
+T01 -
+         Alargamento de horário
+Alargamento de horário na UCSP X em dias 
+         úteis das 20h às 21h (1 médico, 1 enfermeiro e 1 secretário clínico 12 meses por 
+         ano)
+S
+0
+0
+0
+0
+2
+T02 - Colaboração 
+         com outras unidades funcionais
+Apoio médico à UCC Y - 4 horas por semana - 1 médico - 12 meses por ano
+S
+8
+0
+0
+8
+3
+T02 - Colaboração 
+         com outras unidades funcionais
+Apoio de secretários clínicos à UCC Z - 1 secretário clínico - 3 horas por 
+         semana - 12 meses por ano
+S
+0
+0
+2
+2
+4
+T03 -
+         Serviços de atendimento permanente ou prolongado
+Participação na escala de fim-de-semana do serviço de atendimento complementar 
+         da sede do centro de saúde Y - 1 enfermeiro durante 12 horas de 2 em 2 meses
+S
+0
+0
+0
+0
+5
+T04 -
+         Utentes sem equipas de saúde familiar (consulta geral, saúde infantil, saúde da 
+         mulher e doença crónica)
+--
+N
+0
+0
+0
+0
+6
+T05 - Atividade 
+         sazonal
+--
+N
+0
+0
+0
+0
+7
+T06 -  Consulta 
+         de cessação tabágica
+--
+N
+0
+0
+0
+0
+8
+T07 -
+         Pequena cirurgia
+--
+N
+0
+0
+0
+0
+9
+T08 -
+         Outros tipos
+--
+N
+0
+0
+0
+0
+TOTAL
+--
+--
+8
+0
+2
+10
+Legenda:
+* Nº de horas não asseguradas por falta por ano
+Notas:
+1. Neste exemplo, F = 10 horas.
+2.
+    As horas não realizadas por falta de cada unidade funcional devem ser recolhidas 
+    desagregadas por [Tipologias de ""serviços assistenciais comuns"" a contratualizar] 
+    (C01) e por [Tipologia de grupos profissionais] (C03 e C04), devendo o respetivo 
+    total ser calculado de forma automática pela plataforma.
+3. O formulário de suporte à introdução de dados deve ser carregado com a 
+    informação das tipologias de serviços contratualizados, descrição dos serviços e 
+    horas contratadas.
+4. Apenas deve ser possível a edição de faltas em serviços e profissionais onde 
+    o número de horas contratualizadas seja superior a 0 (zero).
+C08
+Amplitude temporal (em meses) a que dizem respeito as faltas
+Uma vez que o mais frequente será não existirem faltas a serviços previamente 
+    contratualizados, e dado que nessas circunstâncias não será necessário registar 
+    qualquer informação para o quadro C07, é necessário distinguir ""0 faltas porque 
+    efetivamente não ocorreram faltas"" e ""0 faltas simplesmente porque ainda não 
+    foram registadas"".
+Assim, o sistema de recolha deverá ter uma combobox com as 12 possibilidades 
+    seguintes:
+Código
+Designação
+1
+Todas as faltas referentes a janeiro do ano de contratualização foram registadas
+2
+Todas as faltas referentes ao período compreendido entre janeiro e fevereiro do 
+         ano de contratualização foram registadas
+3
+Todas as faltas referentes ao período compreendido entre janeiro e março do ano 
+         de contratualização foram registadas
+4
+Todas as faltas referentes ao período compreendido entre janeiro e abril do ano 
+         de contratualização foram registadas
+5
+Todas as faltas referentes ao período compreendido entre janeiro e maio do ano 
+         de contratualização foram registadas
+6
+Todas as faltas referentes ao período compreendido entre janeiro e junho do ano 
+         de contratualização foram registadas
+7
+Todas as faltas referentes ao período compreendido entre janeiro e julho do ano 
+         de contratualização foram registadas
+8
+Todas as faltas referentes ao período compreendido entre janeiro e agosto do ano 
+         de contratualização foram registadas
+9
+Todas as faltas referentes ao período compreendido entre janeiro e setembro do 
+         ano de contratualização foram registadas
+10
+Todas as faltas referentes ao período compreendido entre janeiro e outubro do 
+         ano de contratualização foram registadas
+11
+Todas as faltas referentes ao período compreendido entre janeiro e novembro do 
+         ano de contratualização foram registadas
+12
+Todas as faltas referentes ao período compreendido entre janeiro e dezembro do 
+         ano de contratualização foram registadas
+O presente indicador apenas será calculado para os meses em que a unidade 
+    reporte ter feito o preenchimento.
+Assim, por exemplo se em julho de 2017 a unidade reportar ""Todas as faltas 
+    referentes ao período compreendido entre janeiro e abril do ano de 
+    contratualização foram registadas"", o indicador será calculado entre janeiro e 
+    abril de 2017 e não será calculado para os meses de maio, junho e julho de 2017. 
+    Neste caso particular, caso existam resultados previamente calculados para os 
+    meses de maio, junho ou julho, os mesmos devem ser apagados.
+C09
+Score dimensão ""serviços assistenciais""
+O [Score dimensão ""serviços assistenciais""] é calculado pela fórmula seguinte:
+O
+[Score dimensão ""serviços assistenciais""] = 2 x (1 - MM x F / (C x M))
+Em que:
+MM - Número de meses do ano de contratualização que são contratualizados com a unidade funcional;
+C - Número de horas contratualizadas com a equipa para o período em análise (ano de contratualização) para atividade assistencial em serviços comuns do ACES 
+    (C07);
+F - Número de horas contratualizadas com a equipa para o período em análise (ano de contratualização), não realizadas por falta dos respetivos elementos 
+    (C08) entre janeiro e o mês de referência do indicador.
+Considera-se ""falta dos respetivos elementos"" quando a equipa não assegurou a substituição atempada (por elemento da própria equipa ou por elemento de outra equipa).
+M - Nº de meses do ano decorridos entre o início do período de contratualização e o mês de referência do indicador.
+Notas:
+1. É esta métrica que é disponibilizada como resultado final deste indicador´.
+2. MM varia entre um mínimo de 1 (1º mês do período de contratualização) e um máximo de M (último mês do período de contratualização). Quando a unidade funcional contratualiza 12 meses, MM é igual as 12 e M varia entre 1 (em janeiro) de 12 (em dezembro).
+C10
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados pertencentes 
+    ao intervalo [0; 2] numa escala contínua, não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável
+C11
+IDS da dimensão ""serviços assistenciais""
+O [IDS da dimensão ""serviços assistenciais""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""serviços assistenciais""] = 100 x [Score dimensão ""serviços 
+    assistenciais""] / 2
+C12
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetvas unidades funcionais.
+C13
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente:
+- O número máximo de horas a contratualizar por ano (C05)
+- As tipologias e descrição dos serviços contratados (C06)
+- A lista de tipologias de serviços não contratualizados (C06)
+- Total anual de horas contratualizadas (C06)
+- Total anual de horas não realizadas por falta entre janeiro e dezembro do ano de contratualização para os serviços 
+    contratualizados e para todos os grupos profissionais (C07)
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável F (horas de faltas): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável C (horas contratualizadas): Duração de 12 meses. Qualquer que seja o mês de referência do indicador, o valor de C acumula as horas contratualizadas para o período compreendido entre 1 de janeiro e 31 de dezembro do ano de referência do indicador.
+- Variável M (Meses acumulados): Não aplicável."
+Fórmula,2 x (1 - MM x F / (C x M))
+Unidade de medida,Score
+Output,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,Serviços | Serviços Assistenciais | Serviços Assistenciais
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

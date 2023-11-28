@@ -1,0 +1,77 @@
+titulo,texto
+ID,276
+Código,6.48.01
+Código SIARS,2013.276.01
+Nome abreviado,Rácio DDD prescrita DPP-4 e antidiabét. orais
+Designação,"Rácio entre o somatório de DDD prescrita em inibidores DPP-4 e o somatório de DDD prescrita em antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2"
+Objetivo,"Monitorizar a efetividade da terapêutica farmacológica da Diabetes Mellitus tipo 2. Parâmetro ""Rácio de DDD prescrita em terapêutica com inibidores DPP-4""."
+Descrição do Indicador,"Indicador que exprime o rácio entre o somatório de DDD prescrita com inibidores DPP-4 e o somatório de DDD prescrita com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2.
+Numerador: Somatório de DDD prescrita com inibidores DPP-4 em doentes com Diabetes Mellitus tipo 2.
+Denominador: Somatório de DDD prescrita com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório de DDD dos medicamentos prescritos (ver alíneas D e E de OBSERVAÇÕES GERAIS) em que a expressão [A e B] é verdadeira:
+A. Incluídos no denominador.
+B. Pertencentes ao grupo dos inibidores DPP-4 (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Somatório de DDD dos medicamentos prescritos (ver alíneas D e E de OBSERVAÇÕES GERAIS) em que a expressão [A e B e C e D] é verdadeira:
+A. Prescritos a utentes com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Prescritos a utentes com o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) na lista de problemas, com o estado de ""ativo"" (na data de referência do indicador).
+C. Pertencentes ao grupo dos antidiabéticos não insulínicos (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Prescritos em receitas que não tenham sido posteriormente anuladas"
+Observações Gerais,"A. Consideram-se pertencentes ao grupo dos inibidores DPP-4, os medicamentos pertencentes às classes seguintes da classificação ATC:
+- A10BH01 - SITAGLIPTINA
+- A10BH02 - VILDAGLIPTINA
+- A10BH03 - SAXAGLIPTINA
+- A10BH04 - ALOGLIPTINA
+- A10BH05 - LINAGLIPTINA
+- A10BD07 - METFORMINA E SITAGLIPTINA
+- A10BD08 - METFORMINA E VILDAGLIPTINA
+- A10BD09 - PIOGLITAZONA E ALOGLIPTINA
+- A10BD10 - METFORMINA E SAXAGLIPTINA
+- A10BD11 - METFORMINA E LINAGLIPTINA
+- A10BD12 - PIOGLITAZONA E SITAGLIPTINA (após 2021)
+- A10BD13 - METFORMINA E ALOGLIPTINA
+- A10BD18 - METFORMINA E GEMIGLIPTINA (após 2021)
+- A10BD19 - LINAGLIPTINA E EMPAGLIFLOZINA (após 2021)
+- A10BD21 - SAXAGLIPTINA E DAPAGLIFLOZINA (após 2021)
+- A10BD22 - METFORMINA E EVOGLIPTINA (após 2021)
+- A10BD27 - METFORMINA, LINAGLIPTINA E EMPAGLIFLOZINA (após 2021)
+B. Consideram-se pertencentes ao grupo dos [antidiabéticos não insulínicos], os medicamentos pertencentes à classe 8.4.2 da classificação CFT.
+C. Os medicamentos pertencentes a estas classes (CFT e ATC) podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+D. As DDD que estão a ser usadas por cada embalagem de medicamento simples (sem associação) prescrito são as que resultam da aplicação da informação que pode ser consultada em
+http://www.whocc.no/atc_ddd_index/
+às caraterísticas (dosagem e dimensão da embalagem) do medicamento em questão.
+E. As DDD que estão a ser usadas por cada embalagem de medicamento composto (com associação de DCI) prescrito são as que resultam da aplicação da informação que pode ser consultada em
+http://www.whocc.no/atc_ddd_index/
+à dimensão da embalagem do medicamento em questão."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""DDD de inibidores de DPP-4 prescritos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""DDD de antidiabéticos não insulínicos prescritos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de diabetes tipo 2""): Duração 12 meses, terminaNDO na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""DDD de inibidores de DPP-4 prescritos""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""DDD de antidiabéticos não insulínicos prescritos""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de diabetes tipo 2""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Rácio de DDD
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
+Intervalo Aceitável,"Ano de 2022: [0; 28]
+Ano de 2023: [0; 28]
+Ano de 2024: [0; 23]"
+Intervalo Esperado,"Ano de 2022: [0; 38]
+Ano de 2023: [0; 38]
+Ano de 2024: [0; 30]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

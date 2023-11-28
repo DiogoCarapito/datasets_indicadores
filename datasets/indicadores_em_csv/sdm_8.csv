@@ -1,0 +1,73 @@
+titulo,texto
+ID,008
+Código,3.22.01
+Código SIARS,2013.008.01
+Nome abreviado,Taxa de utilização de consultas de PF (méd./enf.)
+Designação,Taxa de utilização de consultas de planeamento familiar (médicas ou de enfermagem)
+Objetivo,Monitorizar a utilização das consultas de saúde reprodutiva e planeamento familiar (PF) pelas mulheres em idade fértil (MIF)
+Descrição do Indicador,"Indicador que exprime a proporção de MIF, que tiveram pelo menos uma consulta médica ou de enfermagem de planeamento familiar nos últimos 12 meses.
+Numerador: Contagem de MIF que tiveram uma consulta médica ou de enfermagem de planeamento familiar, nos últimos 12 meses.
+Denominador: Contagem de MIF."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta médica de PF (ver alínea A de OBSERVAÇÕES GERAIS) realizada por qualquer médico ou interno da unidade de saúde, nos últimos 12 meses.
+C. Ter pelo menos uma consulta de enfermagem de PF (ver alínea B de OBSERVAÇÕES GERAIS) realizada por qualquer enfermeiro da unidade de saúde, nos últimos 12 meses.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de saúde, válida à data do último dia do período em análise.
+B. Ser mulher.
+C. Ter idade pertencente ao intervalo [15; 50[ anos (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Vigilância] de PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15.
+B. Para se considerar uma [Consulta de Enfermagem de Vigilância] em PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.4
+| Consulta de enfermagem de vigilância em saúde reprodutiva e planeamento familiar - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15.
+C. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo""."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+Nos automatismos de codificação do SCLÍNICO (aquando do registo do método contracetivo), a correspondência entre os métodos de contraceção e os códigos ICPC é a seguinte:
+- Barreira, natural ou nenhum - W14
+- Disp. intra-uterino - W12
+- Esterilização - W13
+- Hormonal - W11"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [38; 100]
+Ano de 2023: [38; 100]
+Ano de 2024: [38; 100]"
+Tipo de Indicador,Processo
+Área clínica,Planeamento Familiar
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

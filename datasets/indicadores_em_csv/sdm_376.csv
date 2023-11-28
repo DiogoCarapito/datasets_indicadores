@@ -1,0 +1,71 @@
+titulo,texto
+ID,376
+Código,6.79.01
+Código SIARS,2017.376.01
+Nome abreviado,Prop. utentes c/ ganho gestão stress prest. cuid.
+Designação,Proporção de utentes acompanhados no âmbito da saúde mental com ganhos expressos na gestão do stress do prestador de cuidados
+Objetivo,"Avaliar os ganhos expressos na melhoria da gestão do stress do prestador de cuidados nos utentes acompanhados no âmbito do Programa Nacional para a Saúde Mental, nas UCC."
+Descrição do Indicador,"Exprime a proporção de utentes com diagnósticos de enfermagem relacionados com o foco ""Stress do Prestador de cuidados"" com modificação positiva do mesmo.
+Numerador: Contagem de utentes com pelo menos uma consulta de enfermagem na UCC no âmbito do P. N. Saúde Mental, com diagnóstico de enfermagem relacionado com o foco ""Stress do Prestador de cuidados"" e com modificação positiva do mesmo.
+Denominador: Contagem de utentes com pelo menos uma consulta de enfermagem na UCC no âmbito do P. N. Saúde Mental e pelo menos um diagnóstico de enfermagem relacionado com o foco ""Stress do Prestador de cuidados""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições definidas no denominador.
+B. Com pelo menos 2 diagnósticos de enfermagem relacionados com o foco ""Stress do Prestador de cuidados"" documentados durante o período em análise.
+C. O último diagnóstico de enfermagem relacionado com o foco ""Stress do Prestador de cuidados"" documentado no período em análise, por um dos enfermeiros da UCC, tem um nível inferior ao valor máximo documentado para esse doente durante o período em análise (ver alíneas A e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2020.
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (durante pelo menos um dia do período em análise).
+B. Com pelo menos uma consulta de enfermagem na UCC (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Com associação do ""Programa Nacional de Saúde Mental"" à consulta de enfermagem.
+D. Com pelo menos um diagnóstico de enfermagem relacionado com o foco ""Stress do Prestador de cuidados"", documentado durante o período em análise, por um dos enfermeiros da UCC (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2019.
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (válida à data de referência do indicador).
+B. Com pelo menos uma consulta de enfermagem na UCC (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Com associação do ""Programa Nacional de Saúde Mental"" à consulta de enfermagem.
+D. Com pelo menos um diagnóstico de enfermagem relacionado com o foco ""Stress do Prestador de cuidados"", documentado durante o período em análise, por um dos enfermeiros da UCC (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Os grupos de status diagnósticos associados ao foco ""Stress do Prestador de cuidados"", elegíveis para o numerador são:
+1. Sem Stress do Prestador de cuidados;
+2. Stress do prestador de cuidados presente, em grau reduzido;
+3. Stress do prestador de cuidados presente, em grau elevado;
+B. Os grupos de status diagnósticos associados ao foco ""Stress do Prestador de cuidados"", elegíveis para o denominador são:
+2. Stress do prestador de cuidados presente, em grau reduzido;
+3. Stress do prestador de cuidados presente, em grau elevado;
+C. Indicador apenas calculado para UCC com SClínico.
+Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico.
+D. As consultas contabilizadas no denominador são do tipo [Consulta presencial] com o código seguinte:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) – SClínico.
+E. A monitorização dos resultados é efetuado no utente num determinado período temporal, independentemente no número de consultas na UCC ou do número de episódios de integração/internamento nas ECCI. Esta observação continuada sobre o utente durante um determinado período de tempo apenas tem em conta o resultado da primeira e última avaliação do problema no utente."
+Observações Sobre Software,"SClínico:
+A. O SClínico módulo de enfermagem, encontra-se parametrizado com os seguintes status:
+- Sem Stress do Prestador de cuidados (8000415);
+- Stress do prestador de cuidados presente, em grau reduzido (8000416)
+- Stress do prestador de cuidados presente, em grau elevado (8013937)
+Os gestores locais da parametrização devem garantir que esta parametrização está disponível e não sofre alterações."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Saúde Mental
+Intervalo Aceitável,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Intervalo Esperado,"Ano de 2022: [25; 100]
+Ano de 2023: [25; 100]
+Ano de 2024: [25; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

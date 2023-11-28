@@ -1,0 +1,34 @@
+titulo,texto
+ID,169
+Código,5.21.02
+Código SIARS,8.17
+Nome abreviado,"Consumo ansio., sedat., hipnót. ou antides."
+Designação,"Consumo de medicamentos ansiolíticos, hipnóticos, sedativos e antidepressivos, em DDD por 1000 residentes por dia"
+Objetivo,"Monitorizar o programa de prescrição de fármacos e o programa de saúde mental. Parâmetro ""Prescrição de ansiolíticos, sedativos e hipnóticos e antidepressivos""."
+Descrição do Indicador,"Indicador que exprime o consumo de medicamentos ansiolíticos, hipnóticos, sedativos e antidepressivos, em DDD por 1000 residentes por dia.
+Numerador: Contagem de DDD de medicamentos ansiolíticos, sedativos, hipnóticos e antidepressivos faturados durante o período em análise.
+Denominador: Contagem de residentes x 365"
+Regras de cálculo,"NUMERADOR: (AA)
+AA = B + C + D + E
+B. Número de DDD de ansiolíticos faturados no período em análise aos utentes do SNS inscritos na unidade de observação.
+C. Número de DDD de hipnóticos faturados no período em análise aos utentes do SNS inscritos na unidade de observação.
+D. Número de DDD de sedativos faturados no período em análise aos utentes do SNS inscritos na unidade de observação.
+E. Número de DDD de antidepressivos faturados no período em análise aos utentes do SNS inscritos na unidade de observação.
+DENOMINADOR (BB):
+BB = F x P
+F. Número de residentes na área de abrangência (CENSOS 2011, INE)
+P. Duração do período em análise quando a data de referência do indicador é 31 de dezembro (366 ou 365 dias, consoante o ano seja ou não bissexto, respetivamente)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,DDD / 1.000 residentes /dia
+Output,DDD / 1.000 residentes /dia
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

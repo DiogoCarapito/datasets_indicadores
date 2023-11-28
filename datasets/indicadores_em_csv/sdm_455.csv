@@ -1,0 +1,56 @@
+titulo,texto
+ID,455
+Código,6.01.22
+Código SIARS,2021.455.01
+Nome abreviado,"Proporção DPOC +18A, c/ vacinação antipneumocócica"
+Designação,"Proporção de utentes com DPOC com idade igual ou superior a 18 anos, com esquema vacinal antipneumocócico completo"
+Objetivo,"Monitorização do programa de doenças respiratórias: Parâmetro ""vacinação antipneumocócica"".
+Este indicador é contruído com base nas regras da
+Norma 11/2015 da DGS, atualizada em 01-11-2021
+."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com esquema vacinal antipneumocócico completo, entre inscritos com DPOC e idade igual ou superior a 18 anos.
+Numerador: Contagem de utentes inscritos com DPOC, idade igual ou superior a 18 anos e esquema vacinal antipneumocócico completo.
+Denominador: Contagem de utentes inscritos com DPOC e idade igual ou superior a 18 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma inoculação de vacina Pn13 e pelo menos uma inoculação de vacina Pn23 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Ter pelo menos uma inoculação de vacina Pn15 e pelo menos uma inoculação de vacina Pn23 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+D. Ter pelo menos uma inoculação de vacina Pn20 (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador).
+C. O diagnóstico de doença pulmonar obstrutiva crónica (rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador."
+Observações Gerais,"A. A vacina Pn13SNS é equivalente à Pn13 e a Pn23SNS é equivalente à Pn23 (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+)
+B. O SIARS lê a informação da inoculação de vacinas a partir do RSE Vacinas.
+C. Contabilizam-se todas as inoculações, desde que registadas no ""RSE Vacinas"", independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado.
+D. A
+Norma 011/2015 da DGS
+, sobre vacinação contra infeções por Streptococcus pneumoniae de grupos com risco acrescido para doença invasiva pneumocócica (DIP) preconiza em adultos (≥18 anos de idade) a vacinação da população com DPOC com a vacina Pn13 e Pn23. Atendendo à autorização de introdução no mercado e comercialização das vacinas conjugadas Pn15 e Pn20 em Portugal em 2022, de acordo com as sociedades científicas
+CDC
+e
+GRESP/APMGF
+, são também aceites os esquemas previstos nas alíneas C (Pn15 e Pn23) e D (Pn20 isolada) e D do NUMERADOR."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacinas Pn13, Pn15, Pn23 e Pn20""): Duração igual à da idade de cada utente. Termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 18 ou mais anos.
+- Denominador (variável ""código ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2023
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2023: [93; 100]
+Ano de 2024: [93; 100]"
+Intervalo Esperado,"Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

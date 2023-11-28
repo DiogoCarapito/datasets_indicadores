@@ -1,0 +1,60 @@
+titulo,texto
+ID,024
+Código,6.16.01
+Código SIARS,2013.024.01
+Nome abreviado,Proporção hipertensos com registo de GRT
+Designação,"Proporção de utentes com hipertensão arterial, com registo da gestão do regime terapêutico (3 itens) no último ano"
+Objetivo,"Monitorizar o programa de hipertensão: parâmetro ""gestão do regime terapêutico"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com registo da gestão do regime terapêutico (3 itens), no último ano.
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com registo da gestão do regime terapêutico (3 itens).
+Denominador: Contagem de utentes inscritos com hipertensão arterial."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um novo registo de gestão do regime terapêutico nos 3 itens (hábitos alimentares, hábitos de exercício físico e regime medicamentoso), ou manutenção do estado ativo, efetuado por um dos enfermeiros da unidade de saúde, nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. O registo resultante da avaliação no âmbito da gestão do regime terapêutico varia em função do software e versões disponibilizadas. Existe todavia, de forma transversal, a necessidade de avaliar e registar dados relativos às componentes:
+- Exercício físico/regime de exercício.
+- Hábitos alimentares/regime alimentar.
+- Regime medicamentoso.
+A forma como devem ser registados os dados, em função do software, está operacionalizada em OBSERVAÇÕES SOBRE SOFWARE."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. A leitura deste indicador é baseada nos registos da [Especificação] do [Fenómeno].
+Apenas são contabilizados fenómenos parametrizados a partir do registo da CIPE (versão beta) com o código 1A.1.1.2.2.1.1.9.1.5 (Gestão do Regime Terapêutico).
+O indicador não verifica o juízo associado ao fenómeno, isto é, não verifica se foi ou não ""demonstrado"".
+Apenas verifica se ao longo do período em análise do indicador existem registos de GRT para cada um dos 3 eixos avaliados:
+- Conhecimento sobre exercício físico. A expressão ""exercício físico"" pode estar escrita com ou sem acentos. A expressão ""exercício físico"" pode ser substituída pela expressão ""actividade física"" ou pela expressão ""atividade física"".
+- Conhecimento sobre hábitos alimentares. A palavra ""hábitos"" pode estar escrita com ou sem acentos. A expressão ""hábitos alimentares"" pode ser substituída pela palavra ""alimentação"" ou pela expressão ""regime alimentar"".
+- Conhecimento sobre regime medicamentoso. A expressão ""regime medicamentoso"" pode ser substituída pela palavra ""medicamento"" ou pela palavra ""fármaco"" (com ou sem acentos).
+Esta ação não implica que seja necessário dar termo aos diagnósticos anteriores. É possível proceder a um novo registo, mantendo o histórico de diagnósticos.
+SCLÍNICO - PERFIL DE ENFERMAGEM (com normalização):
+A leitura deste indicador é baseada nos registos da intervenção de enfermagem ""Avaliar gestão do regime terapêutico"" (código 9004025), onde se encontram especificados dados relativos às componentes:
+- Capacidade para gerir regime de exercício.
+- Capacidade para gerir regime dietético.
+- Capacidade para gerir regime medicamentoso.
+A intervenção ""Avaliar gestão do regime terapêutico"" (código 9004025) está disponível no [SClínico com normalização], associada ao foco de atenção ""Gestão do Regime Terapêutico"".
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. O registo de GRT nos 3 eixos (exercício físico, alimentação e terapêutica) pode ser feito no módulo de hipertensão, devendo ser assinaladas as 3 ""chekbox"". Não é necessário que as 3 estejam assinaladas no mesmo dia."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

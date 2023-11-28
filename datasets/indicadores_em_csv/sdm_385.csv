@@ -1,0 +1,51 @@
+titulo,texto
+ID,385
+Código,6.81.01
+Código SIARS,2017.385.01
+Nome abreviado,Propor. doentes referenc. p/ hosp. devolvidos
+Designação,"Proporção de doentes referenciados dos cuidados de saúde primários para hospitais, não aceites por falta de informação administrativa ou de informação clínica"
+Objetivo,Monitorizar a efetividade do processo de referenciação entre os cuidados de saúde primários e os hospitais.
+Descrição do Indicador,"Indicador que exprime a proporção de referenciações hospitalares devolvidas por insuficiente informação administrativa ou clínica.
+Numerador: Contagem de referenciações devolvidas por insuficiente informação administrativa ou clínica.
+Denominador: Contagem de referenciações."
+Regras de cálculo,"NUMERADOR (AA)
+Contagem de referenciações em que é verdadeira a expressão [A e B]
+A. Todas as condições definidas no denominador.
+B. Devolvida pela entidade hospitalar de destino da referenciação, com data de devolução compreendida no intervalo [data de referênciação; data de referência do do indicador], por insuficiente informação administrativa ou por insuficiente informação clínica.
+DENOMINADOR (BB)
+Contagem de referenciações em que é verdadeira a expressão [A e B e C]
+A. Realizada através de aplicações de suporte CTH.
+B. Realizada entre o mês N-12 e o mês N-1, sendo N o mês de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Realizada a utente com [
+inscrição ativa
+] na unidade de observação no final do mês de referenciação (ver alíneas B, C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizadas referenciações realizadas durante um período temporal de amplitude de 12 meses, com um desvio para a esquerda de um mês na reta temporal (relativamente à data de referência do indicador), por forma a se assegurar que:
+1. Se analisam no denominador as referenciações de 12 meses de atividade;
+2. O indicador incorpora nas suas regras o tempo razoável para que as referenciações efetuadas no final do período em análise possam ser ""devolvidos"" pelo hospital ainda durante o período em análise do indicador.
+B. São contabilizadas para o denominador todas as referenciações independentemente da unidade de observação que referência ser ou não a mesma da inscrição do utente.
+C. As unidades de observação possíveis para este indicador são as seguintes:
+1. [Médico de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+2. [Enfermeiro de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+3. [Unidade funcional de inscrição de utentes];
+4. [ACES de inscrição de utentes].
+D. As referenciações são contabilizadas para a unidade de observação onde o utente tinha [
+inscrição ativa
+] no mês da referenciação, independentemente de na data de referência do indicador, o utente estar ou não inscrito na unidade de observação."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 13 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, tendo início no mês N-12 e fim no mês N-1, sendo N o mês de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de referenciações
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
+Intervalo Aceitável,"Ano de 2022: [0; 3]
+Ano de 2023: [0; 3]
+Ano de 2024: [0; 3]"
+Intervalo Esperado,"Ano de 2022: [0; 5]
+Ano de 2023: [0; 5]
+Ano de 2024: [0; 5]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,46 @@
+titulo,texto
+ID,329
+Código,6.52.02
+Código SIARS,2016.329.01
+Nome abreviado,Taxa de resolução da ineficácia/compromisso na GRT
+Designação,Taxa de resolução da ineficácia/compromisso na GRT
+Objetivo,Avaliar a efetividade dos cuidados de enfermagem na resolução da ineficácia/compromisso da GRT.
+Descrição do Indicador,"Exprime a proporção de utentes com diagnóstico de enfermagem de ""GRT Ineficaz/comprometido"" com modificação positiva do diagnóstico para ""sem GRT comprometido"" ou de ""GRT eficaz"".
+Numerador: Contagem de utentes com pelo menos um contacto de enfermagem com a UCC e com diagnóstico de enfermagem de ""GRT comprometido"" com modificação positiva do diagnóstico para ""sem GRT comprometido "" ou de ""GRT ineficaz"" com modificação positiva do diagnóstico para ""GRT eficaz"".
+Denominador: Contagem de utentes com pelo menos um contacto de enfermagem com a UCC e com diagnóstico de enfermagem de ""GRT comprometido"" ou de ""GRT ineficaz""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e (C ou D)] é verdadeira:
+A. Utente incluído no denominador.
+B. Com pelo um contacto de enfermagem realizado nos 18 meses que antecedem a data de referência do indicador, por qualquer enfermeiro da UCC.
+C. Com diagnóstico de enfermagem documentado como ""sem GRT comprometido"", após um diagnóstico de ""GRT comprometido"" (incluído na alínea B do denominador) e com associação de ambos ao mesmo foco.
+D. Com diagnóstico de enfermagem documentado como ""GRT eficaz"", após um diagnóstico de ""GRT ineficaz"" (incluído na alínea C do denominador) e com associação de ambos ao mesmo foco.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Com pelo um contacto de enfermagem realizado entre o mês N-17 e o mês N-6 (considerando que N é o mês de referência do indicador), por qualquer enfermeiro da UCC.
+B. Com diagnóstico de enfermagem ""GRT comprometido"" documentado por qualquer enfermeiro da UCC num dos contactos especificados no ponto A do denominador.
+C. Com diagnóstico de enfermagem ""GRT ineficaz"" documentado por qualquer enfermeiro da UCC num dos contactos especificados no ponto A do denominador."
+Observações Gerais,"A. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. Os grupos de status necessários à obtenção de dados para este indicador são os seguintes: Gestão do Regime Terapêutico Ineficaz; Gestão do Regime Terapêutico Eficaz. Os gestores locais da parametrização devem garantir que esta parametrização não sofre alterações.
+SClínico com normalização:
+A. O SClínico com normalização encontra-se parametrizado com o status: Gestão do regime terapêutico comprometida (8000316); Sem gestão do regime terapêutico comprometida (8000317)"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""contacto de enfermagem""): Duração de 18 meses, terminando na data de referência do indicador.
+- Numerador (variável ""diagnóstico de enfermagem""): Duração de 18 meses, terminando na data de referência do indicador.
+- Denominador (variável ""contacto de enfermagem""): Duração de 12 meses, terminando 6 meses antes da data de referência do indicador.
+- Denominador (variável ""diagnóstico de enfermagem""): Duração de 12 meses, terminando 6 meses antes da data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doença Crónica
+Intervalo Aceitável,"Ano de 2022: [72; 100]
+Ano de 2023: [72; 100]
+Ano de 2024: [72; 100]"
+Intervalo Esperado,"Ano de 2022: [35; 100]
+Ano de 2023: [35; 100]
+Ano de 2024: [35; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

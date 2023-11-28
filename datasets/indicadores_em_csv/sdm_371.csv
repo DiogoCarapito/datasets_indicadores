@@ -1,0 +1,89 @@
+titulo,texto
+ID,371
+Código,6.76.01
+Código SIARS,2017.371.01
+Nome abreviado,Proporção de grávidas com parto por cesariana
+Designação,Proporção de grávidas com parto por cesariana
+Objetivo,Monitorizar o impacto da acção das UCC na diminuição da taxa de cesarianas
+Descrição do Indicador,"Exprime a proporção de grávidas acompanhadas pelos profissionais da UCC, que tiveram parto por cesariana.
+Numerador: Contagem de grávidas acompanhadas pela UCC com parto por cesariana.
+Denominador: Contagem de grávidas acompanhadas pela UCC."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes com registo de cesariana em tipo de parto (ver alínea H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2019.
+(Aplicável a UCC e ACES)
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G e H] é verdadeira:
+A. Ser mulher;
+B. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78 ou W79) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a DUM e [data de fim da gravidez] (ver alínea C de OBSERVAÇÕES GERAIS);
+C. O 42º dia de puerpério, contabilizado a partir da [data de fim da gravidez], pertence ao período em análise do denominador (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Com registo de [tipo de parto] efetuado até à data de referência do indicador.
+E. Gravidez não classificada como aborto (ver alínea D de OBSERVAÇÕES GERAIS);
+F. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea E de OBSERVAÇÕES GERAIS), durante pelo menos 7 meses do período compreendido entre a DUM e a [data de fim da gravidez].
+G. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas F e G de OBSERVAÇÕES GERAIS.
+H. Utentes que tiveram pelo menos uma consulta de enfermagem (presencial), no período compreendido entre a DUM e o 1º dia de puerpério realizada por qualquer enfermeiro da UCC (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2018.
+(Aplicável a UCC e ACES)
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G e H] é verdadeira:
+A. Ser mulher;
+B. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a DUM e [data de fim da gravidez] (ver alínea C de OBSERVAÇÕES GERAIS);
+C. O 42º dia de puerpério, contabilizado a partir da [data de fim da gravidez], pertence ao período em análise do denominador (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Com registo de [tipo de parto] efetuado até à data de referência do indicador.
+E. Gravidez não classificada como aborto (ver alínea D de OBSERVAÇÕES GERAIS);
+F. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea E de OBSERVAÇÕES GERAIS), durante pelo menos 7 meses do período compreendido entre a DUM e a [data de fim da gravidez].
+G. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas F e G de OBSERVAÇÕES GERAIS.
+H. Utentes que tiveram pelo menos uma consulta de enfermagem (presencial), no período compreendido entre a DUM e o 1º dia de puerpério realizada por qualquer enfermeiro da UCC (ver alíneas A e B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde materna, é necessária a existência de registos compatíveis com o conceito de [consulta] seguinte, desde que sejam realizados entre a DUM e a [data de fim da gravidez]:
+-
+C006.2
+| Consulta de enfermagem de vigilância em saúde materna - [SClínico (Perfil Enfermagem)]
+B. A [data de fim da gravidez] corresponde ao 1º dia do puerpério e é determinada da seguinte forma:
+a) se a [data de parto] estiver registada, a [data de fim da gravidez] é igual à [data de parto].
+b) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] estiver registada e se a [data de referência do indicador] for superior à [data prevista de parto corrigida] em 8 semanas (56 dias), a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] não estiver registada e se a [data de referência do indicador] for superior à [data da última menstruação] em 48 semanas (336 dias), a [data de fim da gravidez] é igual à soma da [data da última menstruação] com [39 semanas e 6 dias] (280 dias).
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim da gravidez] (ver definição mais à frente em OBSERVAÇÕES GERAIS).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. Apenas são incluídas no denominador as mulheres em que o [tipo de parto] (por exemplo ""parto eutócico"", ""parto distócico"", ""cesariama"", ""aborto"") foi registado. No entanto, a classificação do [tipo de parto] como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS.
+E. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
+F. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+G. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.
+H. A classificação do tipo de parto como [cesariana] pode ser efetuado por qualquer médico ou interno de qualquer unidade funcional do ACES."
+Observações Sobre Software,"SClínico [perfil médico]:
+A. É possível registar [Aborto] ou [Cesariana] na janela [Revisão do puerpério]. Esta funcionalidade está acessível a partir do botão [RP] do [programa de saúde materna]. O [aborto] é selecionado na mesma lista em que é possível escolher o [tipo de parto].
+OUTROS SOFTWARES CLÍNICOS:
+Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise do denominador.
+- Numerador (variável ""registo de cesariana""): Entre a [data de fim da gravidez] e o últimod dia do período em análise.
+- Denominador (variável ""mulher""): Mês correspondente á [data de fim da gravidez].
+- Denominador (variável ""gravidez""): Duração entre DUM e a [data de fim da gravidez].
+- Denominador (variável ""gravidez não classificada como aborto""): Duração entre DUM e a [data de fim da gravidez].
+- Denominador (variável ""registo de tipo de parto""): Deve ser registada até À data de referência do indicador.
+- Denominador (variável ""42º dia do puerpério""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa numa unidade de saúde do ACES ""): Duração entre DUM e a [data de fim da gravidez].
+- Denominador (variável "" residência numa das freguesias de abrangência da UCC ""): Duração entre DUM e a [data de fim da gravidez].
+- Denominador (variável ""consulta de enfermagem""): Duração entre DUM e a [data de fim da gravidez]."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Reprodutiva
+Intervalo Aceitável,"Ano de 2022: [15; 25]
+Ano de 2023: [15; 25]
+Ano de 2024: [15; 25]"
+Intervalo Esperado,"Ano de 2022: [15; 40]
+Ano de 2023: [15; 40]
+Ano de 2024: [15; 40]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

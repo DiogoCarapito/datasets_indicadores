@@ -1,0 +1,84 @@
+titulo,texto
+ID,090
+Código,7.06.03
+Código SIARS,2013.090.01
+Nome abreviado,"Despesa medic. fatur., por utiliz. (v. compart.)"
+Designação,"Despesa média de medicamentos faturados, por utente utilizador (baseado no valor comparticipado pelo SNS)"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa em medicamentos faturados, baseado no valor comparticipado pelo SNS"""
+Descrição do Indicador,"Indicador que exprime a despesa média de medicamentos faturados, por utente utilizador, baseado no valor comparticipado pelo SNS.
+Numerador: Somatório da despesa com comparticipações de medicamentos faturados.
+Denominador: Contagem de utentes utilizadores."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do valor comparticipado pelo estado dos medicamentos em que a expressão [A e (B ou C ou D) e E] é verdadeira:
+A. Prescritos a utentes com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise (ver alínea A de OBSERVAÇÕES GERAIS);
+B. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno da unidade de saúde numa receita com código identificador dessa unidade de saúde;
+C. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador, numa receita com código identificador dessa unidade de saúde;
+D. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno do ACES numa receita com código identificador de qualquer unidade do ACES;
+E. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde (ver alíneas C, D, E, F e G de OBSERVAÇÕES GERAIS) e foram aceites para faturação durante o período em análise (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [(A ou B ou C) e (D ou E ou F)] é verdadeira:
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico, à data de referência do indicador, ou ter falecido ou sido transferido para outra unidade de saúde durante o período em análise.
+C. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.
+D. Se a unidade de observação é uma USF ou uma UCSP: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde). Ver alínea H de OBSERVAÇÕES GERAIS.
+E. Se a unidade de observação é um médico: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador). Ver alínea H de OBSERVAÇÕES GERAIS.
+F. Se a unidade de observação é um ACES: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise, realizada por qualquer médico ou interno do ACES, incluindo também as realizadas em [consultas de reforço] e as realizadas em [serviço de apoio permanente] (ou outros equivalentes). Ver alínea H de OBSERVAÇÕES GERAIS"
+Observações Gerais,"A. As despesas com medicamentos são contabilizadas a partir dos utentes inscritos durante pelo menos um dia do período em análise e com pelo menos um medicamento faturado nesse período. Os utentes incluídos no denominador são os utentes inscritos durante pelo menos um dia do período em análise e utilizadores de consultas médicas presenciais ou não presenciais. No numerador podem existir utentes não utilizadores no ano em análise (receita prescrita no ano N-1 e faturada no ano N). A métrica que serve de base a este indicador está definida na especificação
+M014 dos [conceitos e métricas relacionadas com medicamentos]
+.
+B. Contabiliza-se o PVP do medicamento em vigor na data de venda. Caso a marca do medicamento dispensado seja diferente da marca do medicamento prescrito ou a prescrição for CNPEM contabiliza-se o PVP do medicamento dispensado. Caso o PVP na data da venda seja diferente do PVP na data de prescrição, contabiliza-se o da data da venda. A métrica que serve de base a este indicador está definida na especificação
+M013 dos [conceitos e métricas relacionadas com medicamentos]
+;
+C. A data que importa para verificar se determinado medicamento está ou não dentro do período em análise e assim decidir incluir ou não o respetivo [valor comparticipado] no somatório do numerador do indicador é a [data de aceitação da receita pelo CCF]. A [data de prescrição] e a [data de venda] são ignoradas.
+D. Existem alguns medicamentos contabilizados no numerador (aceites para faturação durante o período em análise) que foram prescritos no ano anterior. Existem medicamentos prescritos durante o período em análise que só serão aceites para faturação depois desse período.
+E. Até 31 de março de 2013 as farmácias enviavam para o CCF as receitas de utentes do SNS e de utentes da ADSE prescritas em locais de prescrição do SNS. A partir de 1 de abril passou a ser considerada despesa do SNS todas as receitas prescritas a utentes dos subsistemas públicos, ou seja, ADSE (independentemente do local de prescrição), IASFA, SAD-PSP e SAD-GNR;
+F. Caso uma farmácia pertencente a uma ARS receba uma receita de uma unidade de saúde de outra ARS, isso não constitui impedimento para que o SIARS contabilize esses despesas para a unidade de saúde respetiva.
+G. Não são contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra);
+- Medicamentos não comparticipados: são prescritos nas unidades de saúde, dispensados nas farmácias, mas não são enviados pelas farmácias para faturação junto do Ministério da Saúde;
+- Medicamentos de alguns subsistemas, designadamente SAD-PSP, SAD-GNR, IASFA, SS CGD e SAMS (até 31 de março de 2013): eram prescritos nas unidades de saúde, dispensados nas farmácias, mas a faturação era efetuada junto dos respetivos subsistemas;
+- Medicamentos prescritos no final do ano a utentes que saem da unidade de saúde e cujas receitas entram na faturação no ano seguinte: no ano seguinte o doente já não pertence à unidade de saúde pelo que a receita não pode ser contabilizada.
+H. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+M. Os valores calculados para a unidade de observação [MED (médico)] são obtidos por desagregação dos resultados da respetiva unidade de saúde, tal como especificado em
+[Unidades de observação]
+. No caso do centro de conferência de faturas não identificar o utente, o valor fica associado ao um [médico desconhecido] por não ser possível identificar o utente e, por consequência, o médico de família.
+N. Os valores calculados para o numerador de uma unidade funcional não têm que ser iguais aos valores obtidos através de relatórios do SIARS, relacionados com medicamentos faturados, porque as regras de inclusão de despesa no numerador do indicador são mais restritivas dos que as regras para o relatório. Por exemplo, o relatório de faturação de medicamentos do SIARS considera a despesa com doentes ""esporádicos"", que não é incluída no numerador do indicador.
+O. Sempre que a informação que é remetida pelo CCF não contenha o número de utente registado (o que sucede com frequência nas receitas prescritas manualmente), não é possível ao SIARS identificar o respetivo médico de família. Nestes casos, os relatórios do MIM@UF associam esta despesa a um médico designado como ""DESCONHECIDO"", sendo a respetiva despesa contabilizada integralmente no numerador do indicador. ""MÉDICO DESCONHECIDO"" apenas significa que o médico de família do utente é ""desconhecido"". Existe a garantia, nestes utentes, que o ""médico prescritor"" é um médico ou interno da unidade de saúde.
+P. É natural que o denominador deste indicador dê resultados ligeiramente superiores aos do numerador do indicador 2013.002.01 (Taxa de utilização global de consultas médicas), porque o primeiro mede utilizadores entre inscritos durante pelo menos um dia do período em análise e o último utilizadores entre inscritos na data de referência."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com medicamentos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

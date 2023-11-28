@@ -1,0 +1,66 @@
+titulo,texto
+ID,454
+Código,5.03.04
+Código SIARS,2023.454.01
+Nome abreviado,"Prop. ut. [50; 75[A, c/ colonosc. e s/ PSOF+"
+Designação,"Proporção de utentes com idade entre [50; 75[ anos, com colonoscopia ou retossigmoidoscopia e sem resultado positivo prévio para pesquisa de sangue oculto nas fezes"
+Objetivo,"Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), com o objetivo de avaliar em que medida a colonoscopia ou a retossigmoidoscopia estão a ser usadas sem a existência prévia de um resultado positivo de pesquisa de sangue oculto nas fezes (PSOF)."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade compreendida no intervalo [50; 75[ anos, com colonoscopia ou retosigmoidiscopia sem resultado positivo prévio para pesquisa de sangue oculto nas fezes nos 24 meses prévios.
+Numerador: Contagem de utentes com colonoscopia ou retossigmoidoscopia, sem resultado positivo prévio para pesquisa de sangue oculto nas fezes.
+Denominador: Contagem de utentes inscritos ativos com idade compreendida no intervalo [50; 75[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C) e D] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com registo de resultado de colonoscopia registados em 12 meses, entre os meses N-14 e N-3 (N é o mês de referência do indicador). Ver alíneas C, D e E de OBSERVAÇÕES GERAIS.
+C. Com registo de resultado de retossigmoidoscopia registados em 12 meses entre os meses N-14 e N-3 (N é o mês de referência do indicador). Ver alíneas B, D e E de OBSERVAÇÕES GERAIS.
+D. Sem qualquer resultado positivo de pesquisa de sangue oculto nas fezes (PSOF), nos últimos 24 meses que antecedem o primeiro resultado de colonoscopia ou de retossigmoidoscopia identificado pela condição [B ou C] do NUMERADOR. (ver alíneas A, D, E e G de OBSERVAÇÕES GERAIS)
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ter idade compreendida no intervalo [50; 75[ anos no mês N-3 (N é o mês de referência do indicador). (ver alínea F de OBSERVAÇÕES GERAIS).
+B. Com
+[inscrição ativa]
+na Unidade de Saúde na data de referência do indicador.
+C. Sem diagnóstico de ""neoplasia maligna do cólon/recto"" (código ICPC-2 D75), nem diagnóstico de ""doença inflamatória intestinal"" (código ICPC-2 D94) na lista de problemas, no mês de referência do indicador."
+Observações Gerais,"A. O exame da tabela de MCDT convencionados, válido para identificar [PSOF] é o seguinte:
+- [Sangue oculto nas fezes, fezes], código 607.6, área A.
+- [Sangue oculto nas fezes, fezes], código SNS 22768.
+- O método laboratorial da PSOF, recomendado pelo programa de rastreio, é o imunoquímico.
+B. Os exames da tabela de MCDT convencionados, válidos para identificar [retossigmoidoscopia] são os seguintes:
+- [Retossigmoidoscopia flexível], código 007.8, área F.
+- [Retossigmoidoscopia flexível], código SNS 52270.
+- [Colonoscopia esquerda], código 006.0, área F.
+- [Colonoscopia esquerda], código 102.3, área F.
+- [Colonoscopia esquerda], código SNS 50910.
+C. O exames da tabela de MCDT convencionados, válidos para identificar [colonoscopia] são os seguintes:
+- [Colonoscopia total], código 005.1, área F.
+- [Colonoscopia total], código 101.5, área F.
+- [Colonoscopia, pacote de procedimentos], código 100.7, área F.
+- [Colonoscopia total], código SNS 50940.
+D. Para que um exame seja contabilizado, deve ter um resultado.
+E. Para a colonoscopia e retossigmoidoscopia, a data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". Para a PSOF, a data relevante para análise é a ""data de resultado"" (considerando que a data de realização não é registada nos sistemas de informação). Em qualquer destes exames, o resultado deve ser preenchido, no máximo, até 90 dias após o fim do período em análise.
+F. A idade deve ser medida em relação à data de referência do indicador.
+G. Apenas se contabilizam na alínea D do numerador, resultados de exames sem requisição médica associada ou resultados marcados no sistema de informação como tendo sido integrados a partir do SIIMA rastreios ou outro sistema autorizado para gerir a informação dos rastreios oncológicos de base populacional.
+H. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SiiMA-rastreios"".
+B. O exame [PSOF] também pode ser registado no módulo de MCDT.
+C. Os resultados dos exames de rastreio podem ser consultados (mas não registados) no módulo de ""rastreio oncológico""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""retossigmoidoscopia""): Duração entre os meses N-14 e N-3 (N é o mês de referência do indicador).
+- Numerador (variável ""colonoscopia""): Duração entre os meses N-14 e N-3 (N é o mês de referência do indicador).
+- Numerador (variável ""Resultado positivo de PSOF""): Duração de 36 meses, terminando no mês N-3. (N é o mês de referência do indicador).
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""neoplasia maligna do cólon/recto""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""doença inflamatória intestinal""): no mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

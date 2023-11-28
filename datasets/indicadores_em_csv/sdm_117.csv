@@ -1,0 +1,45 @@
+titulo,texto
+ID,117
+Código,6.26.03
+Código SIARS,4.22M
+Nome abreviado,Percent. grávidas c/ 6+ cons. vigil. enferm.
+Designação,Percentagem de grávidas com 6 ou mais consultas de enfermagem em saúde materna
+Objetivo,"Monitorização do Programa de Vigilância em Saúde Materna, área de acesso às consultas de enfermagem de saúde materna."
+Descrição do Indicador,"Indicador que exprime a proporção grávidas vigiadas que realizaram pelo menos 6 consultas de enfermagem de vigilância da gravidez.
+Numerador: Contagem de grávidas que realizaram pelo menos 6 consultas de enfermagem de vigilância da gravidez.
+Denominador: Contagem de grávidas vigiadas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos 6 consultas de enfermagem de vigilância de gravidez, no período compreendido entre a [data da última menstruação] e a data de referência do indicador.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Sexo feminino.
+B. [
+Inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+C. Ter pelo menos um destes diagnósticos sinalizado como ativo na sua lista de problemas (classificação ICPC-2 W78, W79 e W84).
+D. Ter compromisso de vigilância em Saúde Materna no período em análise.
+E. Ter registo de data de parto no período em análise."
+Observações Gerais,"A. Indicador com 2 problemas:
+1. O fato de a data de parto ser a data usada para as incluir ou não no denominador (ter data de parto durante o ano civil em curso), faz com que as grávidas com parto em dezembro possam ter consultas de puerpério em janeiro que não são contabilizadas.
+2. O fato de as consultas serem contabilizadas entre a DUM e a data de referência do indicador, faz com que possam ser contabilizadas consultas de revisão de puerpério realizadas 2 ou 3 meses depois da data de parto.
+B. As consultas de revisão do puerpério são contabilizadas, podendo se-lo mais do que uma por gravidez. Para efeitos deste indicador são consideradas ""consultas de enfermagem de revisão do puerpério"" aquelas que reunem as seguintes condições:
+1. Realizadas por enfermeiro;
+2. Associadas ao programa de saúde materna;
+3. Realizadas após a data de parto e até à data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada mulher a este indicador é o facto de ter data de parto durante o ano civil em curso.
+- Para cada mulher incluída no denominador, o período em análise para deteção de consultas inicia-se com a data da última menstruação e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

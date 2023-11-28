@@ -1,0 +1,57 @@
+titulo,texto
+ID,370
+Código,6.36.02
+Código SIARS,2017.370.01
+Nome abreviado,Proporção de crianças com amamentação exclusiva 6M
+Designação,"Proporção de crianças que completam 1 ano, com aleitamento materno exclusivo até aos 6 meses de idade"
+Objetivo,Monitorizar os resultados das práticas de promoção e suporte ao aleitamento materno dos profissionais das UCC.
+Descrição do Indicador,"Exprime a proporção de crianças que completam 1 ano de vida e que completa como prática alimentar o aleitamento materno exclusivo nos primeiros 6 meses de vida.
+Numerador: Contagem de crianças com aleitamento materno exclusivo até aos 6 meses de idade.
+Denominador: Contagem de crianças com 1 ano de vida."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Registo de ""aleitamento materno exclusivo"" efetuado no intervalo [160; 365[ dias (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Que completam 1 ano de idade durante os 12 meses que antecedem a data de referência do indicador;
+B. Cuja mãe teve pelo menos uma consulta realizada por enfermeiro da UCC entre 120 dias que antecedem o nascimento e os 180 dias que lhe sucedem (ver alíneas A, D e E de OBSERVAÇÕES GERAIS).
+C. Com registo de ""tipo de alimentação"" efetuado no intervalo [160; 365[ dias (ver alíneas A, B e C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para efeitos de datação das consultas ou outros registos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia. Quando a contagem ocorra em períodos que antecedam o nascimento (como sucede neste indicador nas consultas da mãe), o dia do nascimento é o dia -1 (D-1). Assim, não existindo ""dia 0"", as consultas da mãe da criança são as que tenham ocorrido no intervalo definida pelo intervalo [-120; -1] U [1; 180] dias. Por exemplo, uma criança nascida a 1-1-2017, as consultas da mãe são as que tenham ocorrido entre 4-9-2016 (119 dias subtraídos à data de nascimento) e 29-6-2017 (179 dias adicionados à data de nascimento).
+B. O registo do [Tipo de alimentação] ou do [Aleitamento materno exclusivo] pode ser feito por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde.
+C. O registo de [Tipo de alimentação] ou do [Aleitamento materno exclusivo] só é válido se for efetuado após o 160º dia de vida da criança para se garantir que essa informação se aproxima o mais possível dos 6 primeiros meses de vida. Quando um profissional regista, por exemplo aos 5.5 meses que uma criança tem [Aleitamento materno exclusivo], o que efetivamente está a registar é que ""até esse dia esteve em aleitamento materno exclusivo"". No entanto não se garante que venha a manter esse estado aos 6 meses. Quando a criança volta à consulta aos 9 meses, já em diversificação alimentar, apesar de os pais da criança informarem que esteve em [aleitamento materno exclusivo] até aos 6 meses de vida, o profissional não pode registar a ""data de fim"" desse estado, devendo registar que nesse dia da consulta (9 meses) a criança está em ""diversificação alimentar"". Assim, o limiar de 160 dias foi escolhido para minimizar esta insuficiência do sistema de informação.
+D. Para que uma consulta seja considerada como pertencente a uma UCC, o profissional de saúde deve efetuar essa consulta associando-a à UCC em questão (ver OBSERVAÇÕES SOBRE SOFTWARE).
+E. As consultas contabilizadas no denominador (alínea B) são dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - [SClínico (Perfil Enfermagem)].
+As consultas de enfermagem no domicílio são um subconjunto das presenciais (
+C005
+), pelo que também são contabilizadas."
+Observações Sobre Software,"[SClínico perfil de médico]:
+O registo de aleitamento materno exclusivo deve ser feito no [Modulo de Saúde Infantil] em [Cuidados Antecipatórios] > [PR (parâmetros relacionados)] > [CL1 aleitamento materno exclusivo] (desde junho 2013).
+[SClínico perfil de enfermagem]:
+A. A associação de uma consulta a uma UCC é efetuada no momento da credenciação inicial. Quando um profissional tem acesso a mais do que uma unidade de saúde deve escolher especificamente a UCC a sua atividade fique associada a esta unidade de saúde.
+B. O registo de aleitamento materno exclusivo deve ser feito através da intervenção de enfermagem ""Identificar tipo de amamentação/aleitamento"" (9004214). A característica associada à intervenção referida anteriormente e que define o aleitamento materno exclusivo é ""Exclusiva"".
+OUTROS SOFTWARES CLÍNICOS:
+Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de aleitamento materno exclusivo""): O período em análise desta variável encontra-se ancorado na data de nascimento de cada criança avaliada, sendo a sua amplitude definida pelo intervalo [160; 365[ dias.
+- Denominador (variável ""idade da criança""): Avaliada na data de referência do indicador, devendo nessa data estar compreendida no intervalo [1; 2[ anos.
+- Denominador (variável ""consulta da criança""): O período em análise desta variável encontra-se ancorado na data de nascimento de cada criança avaliada, sendo a sua amplitude definida pelo intervalo [0; 180] dias.
+- Denominador (variável ""consulta da mãe da criança""): O período em análise desta variável encontra-se ancorado na data de nascimento de cada criança avaliada, sendo a sua amplitude definida pelo intervalo [-120; -1] U [1; 180] dias."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Reprodutiva
+Intervalo Aceitável,"Ano de 2022: [40; 100]
+Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Intervalo Esperado,"Ano de 2022: [15; 100]
+Ano de 2023: [15; 100]
+Ano de 2024: [15; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

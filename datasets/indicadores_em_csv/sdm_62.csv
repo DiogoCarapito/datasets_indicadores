@@ -1,0 +1,111 @@
+titulo,texto
+ID,062
+Código,6.36.01
+Código SIARS,2013.062.01
+Nome abreviado,"Propor. crianças 1A, c/ aleit. mat. exclus. até 4M"
+Designação,"Proporção de crianças que completam 1 ano, com aleitamento materno exclusivo até aos 4 meses de idade"
+Objetivo,Monitorizar os resultados das práticas de promoção e suporte ao aleitamento materno dos profissionais das diferentes unidades funcionais.
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com aleitamento materno exclusivo até aos 4 meses de idade, entre as que completam 1 ano de vida no período em análise.
+Numerador: Contagem de crianças com aleitamento materno exclusivo até aos 4 meses de idade.
+Denominador: Contagem de crianças com 1 ano de vida."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Registo de ""aleitamento materno exclusivo"" efetuado no intervalo [100; 150[ dias de vida (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+(Aplicável a USF, UCSP, CON, IPSS-C e ACES):
+Contagem dos utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Crianças que completam 1 ano de idade durante os 12 meses que antecedem a data de referência do indicador;
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador;
+C. Cuja mãe teve pelo menos uma consulta de vigilância em saúde materna, ou uma consulta de revisão do puerpério, efetuada por qualquer enfermeiro, médico ou interno da unidade funcional entre 120 dias que antecedem o nascimento e os 42 dias que o sucedem (ver alíneas A, D, E, F, G e H de OBSERVAÇÕES GERAIS).
+D. Com registo de ""tipo de alimentação"" efetuado no intervalo [100; 150[ dias (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+(Aplicável a UCC):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 1 ano de idade durante os 12 meses que antecedem a data de referência do indicador;
+B. Cuja mãe teve pelo menos uma consulta de vigilância realizada por enfermeiro da UCC entre 120 dias que antecedem o nascimento e os 42 dias que lhe sucedem (ver alíneas A, F e H de OBSERVAÇÕES GERAIS);
+C. Com registo de ""tipo de alimentação"" efetuado no intervalo [100; 150[ dias (ver alíneas A, B e C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+B. O registo do [Tipo de alimentação] ou do [Aleitamento materno exclusivo] pode ser feito por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde.
+C. O registo de [Tipo de alimentação] ou do [Aleitamento materno exclusivo] só é válido se for efetuado entre o 100º e o 149º dia de vida da criança para se garantir que essa informação se aproxima o mais possível da idade dos 4 meses. Quando um profissional regista, por exemplo aos 3,5 meses que uma criança tem [Aleitamento materno exclusivo], o que efetivamente está a registar é que ""até esse dia esteve em aleitamento materno exclusivo. Quando a criança volta à consulta após os 6 meses, já em diversificação alimentar, apesar de os pais da criança informarem que esteve em [aleitamento materno exclusivo] até aos 4 meses de vida, o profissional não pode registar a ""data de fim"" desse estado, devendo registar que nesse dia da consulta (6 meses) a criança está em ""diversificação alimentar"".
+D. A. Para se considerar uma [Consulta Médica de Vigilância] em saúde materna, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de gravidez, que podem ser usados para a classificar como ""problema de saúde da consulta"" são W78, W79, W84.
+E. Para se contabilizar uma [Consulta Médica] de revisão do puerpério, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta] e que sejam realizados durante o puerpério (entre a [data de fim da gravidez] e o 42º dia seguinte a essa data):
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, não existem códigos ICPC-2 específicos de ""revisão do puerpério"". A identificação deste tipo de consulta faz-se assinalando [revisão do puerpério] nos registos de consulta efetuados nos módulos ou programas de saúde materna.
+F. A. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde materna, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta] que sejam realizados entre a DUM e a [data de fim da gravidez]:
+-
+C006.2
+| Consulta de enfermagem de vigilância em saúde materna - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de gravidez, que podem ser usados para a classificar como ""problema de saúde da consulta"" são W78, W79, W84.
+G. Para se considerar uma [Consulta de Enfermagem de Vigilância] de apoio à Revisão do Puerpério, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta] que sejam realizados durante o puerpério (entre a [data de fim da gravidez] e o 42º dia seguinte a essa data):
+-
+C006.3
+| Consulta de enfermagem de vigilância em puerpério - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Nas normas
+C012
+e C18 é possível a criação de um registo no módulo ou programa de saúde materna onde se assinala [revisão do puerpério].
+.
+H. Para que uma consulta seja considerada como pertencente a uma unidade funcional, o profissional de saúde deve efetuar essa consulta associando-a à unidade funcional em questão (ver OBSERVAÇÕES SOBRE SOFTWARE)."
+Observações Sobre Software,"SClínico - PERFIL MÉDICO:
+O registo de aleitamento materno exclusivo deve ser feito através do [Modulo de Saúde Infantil] em [Cuidados Antecipatórios] > [PR (parâmetros relacionados)] > [CL1 aleitamento materno exclusivo] (desde junho 2013).
+SClínico - PERFIL DE ENFERMAGEM:
+A. A associação de uma consulta a uma UCC é efetuada no momento da credenciação inicial. Quando um profissional tem acesso a mais do que uma unidade de saúde deve escolher especificamente a UCC a sua atividade fique associada a esta unidade de saúde.
+B. O registo de aleitamento materno exclusivo deve ser feito através da intervenção de enfermagem ""Identificar tipo de amamentação/aleitamento"" (9004214). A característica associada à intervenção referida anteriormente e que define o aleitamento materno exclusivo é ""Exclusiva"".
+MEDICINEONE:
+A. Nas USF e UCSP, o registo de aleitamento materno exclusivo deve ser feito no módulo de saúde infantil, tabulador [alimentação].
+B. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O indicador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o seu período em análise a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de Novembro inicia o seu período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 12 meses de vida durante o período em análise.
+- O período em análise da variável ""aleitamento materno exclusivo"" aplica-se a cada criança avaliada: O registo deve ser igual ou posterior à data em que realiza 100 dias de vida e ocorrer até ao dia anterior a completar 150 dias.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""Registo de alimentação""): O registo deve ser igual ou posterior à data em que realiza 100 dias de vida e ocorrer até ao dia anterior a completar 150 dias.
+- Denominador (variável ""consulta""): Deve ser efetuada entre 120 dias antes do nascimento 42 dias após o mesmo.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [12, 24[ meses de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Janeiro de 2019
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Reprodutiva
+Intervalo Aceitável,"Ano de 2022: [67; 100]
+Ano de 2023: [67; 100]
+Ano de 2024: [65; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

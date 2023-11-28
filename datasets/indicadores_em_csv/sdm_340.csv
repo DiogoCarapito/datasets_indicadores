@@ -1,0 +1,106 @@
+titulo,texto
+ID,340
+Código,8.11.01
+Código SIARS,2017.340.01
+Nome abreviado,Taxa de mortalidade global ajustada
+Designação,Taxa de mortalidade global ajustada
+Objetivo,Monitorizar a mortalidade por qualquer causa nos utentes inscritos nos cuidados de saúde primários.
+Descrição do Indicador,"Exprime a taxa de mortalidade global por cada 1.000 utentes inscritos nos cuidados de saúde primários, com ajustamento para a distribuição da população padrão por género e idade.
+Numerador da taxa bruta: Contagem de óbitos ocorridos nos 12 meses anteriores a utentes com [
+inscrição ativa
+].
+Denominador da taxa bruta: Contagem de utentes com [
+inscrição ativa
+] na data de referência do indicador.
+O algoritmo de ajustamento da taxa bruta de mortalidade à população padrão (idade e género) encontra-se descrito
+aqui
+."
+Regras de cálculo,"VARIÁVEL AA
+CONTAGEM ÓBITOS EM UTENTES COM IDADE [X; Y[ E GÉNERO Z (ver alínea A e B de OBSERVAÇÕES GERAIS)
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+Contagem de óbitos em que a condição [A e B e C e D] é verdadeira.
+A. Ocorridos a utentes que no último dia do mês anterior ao do óbito tinham [
+inscrição ativa
+] na unidade de observação.
+B. Ocorridos a utentes do género Z.
+C. Ocorridos a utentes que na data de referência do indicador têm idade em anos pertencente ao intervalo [X; Y[.
+D. Ocorridos nos 12 meses que antecedem a data de referência do indicador.
+VARIÁVEL BB
+CONTAGEM DE UTENTES COM INSCRIÇÃO ATIVA, IDADE [X; Y[ E GÉNERO Z
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+Trata-se da contagem de utentes em que a condição [A e B e C] é verdadeira.
+A. Com [
+inscrição ativa
+] na unidade de observação, no último dia 
+    do período em análise.
+B. Têm género Z.
+C. Na data de referência do indicador, têm idade (em anos) pertencente ao intervalo [X; Y[.
+TAXA BRUTA DE MORTALIDADE POR 1.000 INSCRITOS (CC)
+CC = Somatório(AA) / Somatório(BB) x 1.000
+TAXA AJUSTADA DE MORTALIDADE POR 1.000 INSCRITOS
+O algoritmo de cálculo da taxa ajustada de mortalidade a uma população padrão (por sexo e idade) encontra-se descrito
+aqui
+, estando previstas 8 fases:
+1. CLASSES DE INTERVALOS ETÁRIOS E DE GÉNERO PARA A PADRONIZAÇÃO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+2. DEFINIÇÃO DA POPULAÇÃO PADRÃO
+Aplica-se, sem alterações, o método definido
+aqui
+, ou seja, escolhe-se sempre como população padrão a totalidade dos utentes com [
+inscrição ativa
+] em Portugal Continental a 31 de dezembro do ano anterior ao da data de referência do indicador.
+3. DISTRIBUIÇÃO DA POPULAÇÃO PADRÃO POR IDADE E SEXO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+Calcula-se também a [DIMENSÃO DA POPULAÇÃO PADRÃO (DD)], que não é mais do que o somatório das frequências absolutas de utentes em cada um dos grupos etários e de género da referida população padrão.
+4. DISTRIBUIÇÃO DOS UTENTES DA UNIDADE DE OBSERVAÇÃO POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL BB.
+5. DISTRIBUIÇÃO DOS ÓBITOS DOS UTENTES DA UNIDADE DE OBSERVAÇÃO POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL AA.
+6. DETERMINAÇÃO DOS ÓBITOS ESPERADOS
+Aplica-se, sem alterações, o método definido
+aqui
+.
+7. TOTAL DE ÓBITOS ESPERADOS
+Aplica-se, sem alterações, o método definido
+aqui
+de forma a calcular o [NÚMERO ESPERADO DE ÓBITOS NA POPULAÇÃO PADRÃO (EE)].
+8. CÁLCULO DA TAXA AJUSTADA DE ÓBITOS POR 1.000 UTENTES INSCRITOS
+Aplica-se, sem alterações, o método definido
+aqui
+.
+[TAXA AJUSTADA DE ÓBITOS POR 1.000 INSCRITOS] = [NÚMERO ESPERADO DE ÓBITOS NA POPULAÇÃO PADRÃO (EE)] / [DIMENSÃO DA POPULAÇÃO PADRÃO (DD)] x 1.000"
+Observações Gerais,"A. Neste indicador, os óbitos dos utentes são atribuídos à unidade funcional onde o utente, no mês anterior ao do óbito, tem [
+inscrição ativa
+]. O cruzamento, para cada utente, entre os óbitos e a respetiva inscrição nos CSP é feito pelo respetivo número de utente.
+B. Nas raras situações em que um utente tenha duas ou mais [
+inscrições ativas
+] em unidades de observação diferentes, os óbitos são contabilizados em todas."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável AA (""óbitos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês anterior àquele em que ocorre o óbito.
+- Variável AA (""idade""): Avaliada na data de referência do indicador.
+- VARIÁVEL BB (""inscrição ativa""): Avaliada na data de referência do indicador.
+- Variável BB (""idade""): Avaliada na data de referência do indicador."
+Fórmula,EE / DD x 1.000
+Unidade de medida,por 1.000
+Output,Taxa ajustada
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

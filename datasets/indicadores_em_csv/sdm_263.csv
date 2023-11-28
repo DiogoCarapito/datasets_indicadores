@@ -1,0 +1,85 @@
+titulo,texto
+ID,263
+Código,7.06.10
+Código SIARS,2013.263.01
+Nome abreviado,Despesa medic. pres. utili. (PVP) comp. não comp.
+Designação,"Despesa média de medicamentos prescritos por utente utilizador (baseado no PVP), comparticipados e não comparticipados"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa em medicamentos prescritos, comparticipados e não comparticipados."""
+Descrição do Indicador,"Indicador que exprime a despesa média de medicamentos prescritos, comparticipados e não comparticipados, por utente utilizador, baseado no preço de venda ao público.
+Numerador: Somatório do PVP de medicamentos prescritos, comparticipados e não comparticipados.
+Denominador: Contagem de utentes utilizadores."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do [PVP equivalente] dos medicamentos comparticipados e não comparticipados (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS) em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Prescritos durante o período em análise, a utentes incluídos no denominador (ver alínea F de OBSERVAÇÕES GERAIS);
+B. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno da unidade de saúde numa receita com código identificador dessa unidade de saúde;
+C. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador, numa receita com código identificador dessa unidade de saúde;
+D. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno do ACES numa receita com código identificador de qualquer unidade do ACES;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [(A ou B ou C) e (D ou E ou F)] é verdadeira:
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico, à data de referência do indicador, ou ter falecido ou sido transferido para outra unidade de saúde durante o período em análise.
+C. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.
+D. Se a unidade de observação é uma USF ou uma UCSP: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde). Ver alínea F de OBSERVAÇÕES GERAIS.
+E. Se a unidade de observação é um médico: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador). Ver alínea F de OBSERVAÇÕES GERAIS.
+F. Se a unidade de observação é um ACES: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise, realizada por qualquer médico ou interno do ACES, incluindo também as realizadas em [consultas de reforço] e as realizadas em [serviço de apoio permanente] (ou outros equivalentes). Ver alínea F de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Caso a prescrição seja por DCI:
+1. Contabiliza-se o PVP do ""3º medicamento mais barato"" de entre os que possuem o mesmo CNPEM que o medicamento prescrito.
+2. Para a determinação do ""3º medicamento mais barato"" excluem-se os que têm PVP igual a zero.
+3. A determinação do 3º mais barato por CNPEM é feita a partir dos dados de faturação de medicamentos recolhidos a partir do CCF e referentes a um mês tão próximo quanto possível da data de referência do indicador.
+4. Se um CNPEM tiver menos do que 3 preços distintos, escolhe-se o mais elevado (o 2º mais barato ou o preço único de faturação).
+B. Caso a prescrição
+não
+seja por DCI, contabiliza o preço do medicamento efetivamente prescrito, independentemente de:
+1. Ser um genérico de marca;
+2. Ser um medicamento de marca ""original"" (não genérico), pertencente a um grupo farmacológico
+com
+genéricos no mercado português;
+3. Ser um medicamento de marca ""original"" (não genérico), pertencente a um grupo farmacológico
+sem
+genéricos no mercado português;
+C. A data que importa para verificar se determinado medicamento está ou não dentro do ""período em análise"" e assim decidir incluir ou não o respetivo PVP no somatório do numerador do indicador é a [data de prescrição].
+D. São contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos e dispensados, quer sejam comparticipados quer não. No caso dos medicamentos ""não comparticipados"" apenas são contabilizados os medicamentos em que o campo ""preço"", nas tabelas de medicamentos do Infarmed, tenha um valor superior a 0 (zero);
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra), quer sejam comparticipados quer não.
+E. Não são contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos, sem CNPEM, cujo PVP não esteja registado nas tabelas de medicamentos do Infarmed. Sucede assim com a maior parte dos medicamentos ""não comparticipados"".
+- Medicamentos prescritos e pertencentes a receitas anuladas até 30 dias após a data de prescrição;
+- Medicamentos prescritos em receitas manuais (p.e. por falência do sistema eletrónico de prescrição).
+- Medicamentos prescritos na área de ""outros medicamentos"" dos software de prescrição. Esta área apenas deve ser usada para prescrever medicamentos não existentes na tabela de medicamentos do Infarmed.
+F. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+G. É natural que o denominador deste indicador dê resultados ligeiramente superiores aos do numerador do indicador 2013.002.01 (Taxa de utilização global de consultas médicas), porque o primeiro mede utilizadores entre inscritos durante pelo menos um dia do período em análise e o último utilizadores entre inscritos na data de referência."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com medicamentos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

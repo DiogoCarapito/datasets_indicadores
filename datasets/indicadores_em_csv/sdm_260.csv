@@ -1,0 +1,37 @@
+titulo,texto
+ID,260
+Código,7.10.10
+Código SIARS,---
+Nome abreviado,Rácio entre despesa c/ trimetaz. e despesa total
+Designação,"Rácio entre a despesa com trimetazidina e a despesa total com medicamentos (pelo PVP, a utentes inscritos)"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa com trimetazidina"""
+Descrição do Indicador,"Indicador que exprime a proporção da despesa com trimetazidina, face à despesa total com medicamentos (PVP), a utentes inscritos.
+Numerador: Despesa com trimetazidina aceite para faturação.
+Denominador: Despesa com medicamentos aceite para faturação."
+Regras de cálculo,"NUMERADOR (AA):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Medicamento pertencente à classe ATC C01EB15 (Trimetazidina).
+DENOMINADOR (BB):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B e C e D] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante o período em análise.
+B. Medicamento prescrito na unidade de saúde.
+C. Medicamento aceite para faturação durante o período em análise.
+D. Medicamento classificado com qualquer classe ATC (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Os medicamentos prescritos e não aviados não são contabilizados.
+B. Os medicamentos prescritos por médicos privados ou por hospitais a utentes da unidade de observação não são contabilizados.
+C. O denominador deste indicador, apesar de em teoria dever dar resultados semelhantes aos do numerador dos indicadores de ""despesa média com medicamentos faturados por utilizador (PVP)"", com códigos 7.6 d4 e 2013.068.01, na realidade tem valores inferiores por existirem medicamentos relativamente aos quais não é possível apurar a classificação ATC."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de despesa
+Estado do indicador,Descontinuado em Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

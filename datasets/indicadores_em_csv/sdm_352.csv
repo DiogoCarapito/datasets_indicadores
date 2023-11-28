@@ -1,0 +1,48 @@
+titulo,texto
+ID,352
+Código,7.22.01
+Código SIARS,2017.352.01
+Nome abreviado,Custo c/ terapêut. do doente c/ HTA
+Designação,Custo com terapêutica do doente com Hipertensão Arterial
+Objetivo,Monitorizar o custo do tratamento da Hipertensão Arterial.
+Descrição do Indicador,"Exprime a despesa média com antihipertensores nos doentes com Hipertensão Arterial.
+Numerador - Somatório do Preço de Venda ao Público (PVP) dos antihipertensores prescritos aos doentes com Hipertensão Arterial.
+Denominador - Contagem de doentes com Hipertensão Arterial."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP de medicamentos (ver alínea D de OBSERVAÇÕES GERAIS) em que a expressão [A e B] é verdadeira:
+A. Prescritos por qualquer médico ou interno da unidade de saúde durante o período em análise aos utentes incluídos no denominador.
+B. Pertencente à classe dos antihipertensores (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Hipertensão Arterial (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Consideram-se pertencentes ao grupo dos [antihipertensores], os medicamentos pertencentes à classe 3.4 da classificação CFT.
+B. Os medicamentos pertencentes à classes CFT e ATC acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+C. A fonte de dados para a informação do numerador é a BDNP, bastando que um medicamento seja prescrito, para ser contabilizado (não se valida se é ou não dispensado em farmácia).
+D. Quando a prescrição é feita por ""marca de medicamento"", o preço usado é o do medicamento prescrito. Quando é feita por DCI, o preço usado é o do 3º mais barato desse DCI, com a mesma dosagem e apresentação.
+E. Quando a prescrição é uma associação fixa, basta que nessa associação exista um medicamento pertencente ao grupo dos [antihipertensores] para que seja contabilizado na totalidade."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de hipertensão arterial pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""prescrição de medicamentos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de Hipertensão Arterial""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTE
+Output,Preço médio por utente
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2022: [40; 80]
+Ano de 2023: [40; 80]
+Ano de 2024: [40; 80]"
+Intervalo Esperado,"Ano de 2022: [40; 90]
+Ano de 2023: [40; 90]
+Ano de 2024: [40; 95]"
+Tipo de Indicador,Resultado
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

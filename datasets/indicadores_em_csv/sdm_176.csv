@@ -1,0 +1,33 @@
+titulo,texto
+ID,176
+Código,2.08.02
+Código SIARS,8.8
+Nome abreviado,Percent. de inscritos com diagnóstico DPOC
+Designação,Percentagem de inscritos com diagnóstico de doença pulmonar obstrutiva crónica
+Objetivo,"Monitorizar o programa de cuidados respiratórios. Parâmetro ""prevalência de DPOC entre a população inscrita"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos que têm o diagnóstico de DPOC registado na lista de problemas.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de DPOC registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de DPOC (rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""diagnóstico na lista de problemas""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

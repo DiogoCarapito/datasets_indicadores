@@ -1,0 +1,313 @@
+titulo,texto
+ID,184
+Código,8.07.01
+Código SIARS,---
+Nome abreviado,Proporção utiliz. muito satisfeitos
+Designação,Proporção de utilizadores muito satisfeitos
+Objetivo,Monitorizar a satisfação dos utentes que utilizam os serviços de saúde
+Descrição do Indicador,"Indicador que exprime a proporção de utentes muito satisfeitos, calculado pelo rácio entre a soma das respostas ""muito satisfeito"" (ou equivalentes) e o número de respostas válidas nos questionários de satisfação realizados durante o período em análise.
+Numerador: Contagem de perguntas com resposta equivalente a ""muito satisfeito"" nos questionários de satisfação realizados.
+Denominador: Contagem de perguntas com resposta válida nos questionários de satisfação realizados."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de respostas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O utente assinalou a resposta [muito satisfeito] ou equivalente (ver ANEXO B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de respostas em que a expressão [A e B e C e D] é verdadeira:
+A. Pertencentes ao questionário de satisfação descrito no ANEXO A de OBSERVAÇÕES GERAIS.
+B. Respondidas por utentes que acederam presencialmente à unidade de saúde durante a realização de questionário de satisfação (durante o período em análise).
+C. O questionário de satisfação foi realizado nas condições definidas no ANEXO C de OBSERVAÇÕES GERAIS.
+D. Classificadas como válidas (ver ANEXO B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"ANEXO A
+Apresenta-se o modelo de [questionário de satisfação] válido para monitorizar a [satisfação dos utentes] das unidades de saúde no âmbito da contratualização interna (USF e UCSP) e externa (ACES).
+O questionário é constituído por 19 questões, pretendendo medir a satisfação dos utentes nas dimensões seguintes:
+A. Acesso à unidade de saúde: transportes para a unidade, contacto telefónico e horário proposto para consulta;
+B. Estrutura: conforto e limpeza instalações;
+C. Organização do funcionamento: resposta às necessidades especiais dos utilizadores, rapidez de resolução de problemas urgentes, identificação dos profissionais e pontualidade de atendimento;
+D. Informação: divulgação sobre o tipo de cuidados oferecidos e qualidade da informação fornecida pelos serviços administrativos;
+E. Qualidade dos serviços prestados: tempo e atenção dedicada ao atendimento clínico, qualidade dos cuidados clínicos recebidos, qualidade da Informação fornecida sobre os cuidados a ter com a saúde e envolvimento nas decisões;
+F. Privacidade;
+G. Satisfação global;
+O modelo do questionário é constituído pelas seções seguintes:
+1. Titulo do questionário;
+2. Nota introdutória;
+3. Questões e respostas;
+4. Perfil do utilizador;
+5. Identificação do utilizador.
+1. TÍTULO DO QUESTIONÁRIO
+""OUVIR"" O NOSSO UTENTE
+2. NOTA INTRODUTÓRIA
+Exmo(a) Sr(a),
+A equipa da [NOME DA UNIDADE DE SAÚDE] ([NOME ABREVIADO DA UNIDADE DE SAÚDE]) está preocupada em prestar cuidados de saúde com qualidade.
+Este questionário foi construído para que possamos conhecer o grau de satisfação dos nossos utentes em relação aos serviços prestados aos próprios ou a pessoas que acompanham.
+Agradecemos, desde já, a disponibilidade para nos dar a sua opinião, respondendo às questões abaixo apresentadas, bem como para escrever as sugestões ou comentários que achar oportunos. O preenchimento demorará cerca de 5 minutos.
+Contamos consigo, para podermos melhorar continuamente os nossos serviços!
+Ass:___________________
+(Coordenador da [NOME ABREVIADO DA UNIDADE DE SAÚDE])
+Ass:___________________
+(Diretor executivo do [NOME DO ACES])
+3. QUESTÕES E RESPOSTAS
+Questão 1
+Como avalia a sua satisfação em relação à facilidade em se deslocar para a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 2
+Como avalia a facilidade em contactar telefonicamente com a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito fácil
+2 - Fácil
+3 - Difícil
+4 - Muito difícil
+5 - Não sei / Não respondo
+Questão 3
+Como avalia a sua satisfação com o horário proposto pela [NOME ABREVIADO DA UNIDADE DE SAÚDE] para os serviços que lhe são prestados?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 4
+Como considera o conforto (comodidade, temperatura, ambiente, ruído e iluminação) das instalações da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito bom
+2 - Bom
+3 - Razoável
+4 - Mau
+5 - Não sei / Não respondo
+Questão 5
+Como considera a limpeza das instalações da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito boa
+2 - Boa
+3 - Razoável
+4 - Má
+5 - Não sei / Não respondo
+Questão 6
+Como avalia a resposta da [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos utilizadores com necessidades especiais (por exemplo, de crianças, grávidas, idosos e portadores de deficiência)?
+1 - Muito boa
+2 - Boa
+3 - Razoável
+4 - Inexistente
+5 - Não sei / Não respondo
+Questão 7
+Como classifica a forma como a [NOME ABREVIADO DA UNIDADE DE SAÚDE] divulga os tipos de cuidados que oferece (por exemplo vacinação, consultas médicas, consultas de enfermagem, rastreio de certos tipos de cancro, cuidados a grávidas, cuidados a crianças e domicílios)?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+Questão 8
+Como avalia a sua satisfação em relação ao tempo que decorre até ao agendamento e realização das consultas por si solicitadas?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 9
+Como avalia a sua satisfação relativamente à forma como os profissionais se identificam (nome e função) ao fazer o atendimento telefónico ou presencial?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 10
+Como avalia a sua satisfação em relação à pontualidade com que foi atendido pelos serviços clínicos?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 11
+Como classifica a informação fornecida pelo secretariado clínico da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+Questão 12
+Como avalia a sua satisfação relativamente ao tempo e atenção que o profissional de saúde (médico, enfermeirso ou outro) dedicou ao seu atendimento?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 13
+Como avalia a sua satisfação relativamente à qualidade dos cuidados clínicos recebidos (prestados por médico, enfermeirso ou outro)?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 14
+Como classifica a informação clínica que lhe foi fornecida sobre os cuidados a ter com a sua saúde?
+1 - Muito útil
+2 - Útil
+3 - Pouco útil
+4 - Inútil
+5 - Não sei / Não respondo
+Questão 15
+Como avalia a sua satisfação em relação à forma como foi envolvido(a) nas decisões sobre os cuidados a ter com a sua saúde?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 16
+Como avalia o modo como os profissionais de saúde zelam pela sua privacidade?
+1 - Muito bom
+2 - Bom
+3 - Razoável
+4 - Mau
+5 - Não sei / Não respondo
+Questão 17
+Como avalia a sua satisfação global em relação à [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+(Utilizando uma escala de 1 a 10, em que 1 corresponde a ""muito insatisfeito"" e 10 a ""muito satisfeito"")
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 18
+Recomendaria a [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos seus familiares e amigos?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 19
+Na sua opinião, como poderíamos melhorar os nossos serviços?
+1 - ______________________________________________________________
+2 - ______________________________________________________________
+3 - ______________________________________________________________
+4. PERFIL DO UTENTE
+Caso entenda, poderá preencher os dados seguintes que servem para nos ajudar a perceber um pouco melhor as características dos utentes que usaram os serviços.
+Ano de nascimento: ______
+Sexo:
+1 - Fem.
+2 - Masc.
+Escolaridade (anos): _____
+Profissão: _____________
+5. IDENTIFICAÇÃO
+Caso entenda, este inquérito poderá ser mantido em anonimato.
+Se desejar manter o anonimato, não preencha os dados de identificação abaixo referidos.
+No entanto, se desejar que a equipa de gestão da qualidade da [NOME ABREVIADO DA UNIDADE DE SAÚDE] entre em contacto consigo para esclarecer alguma das sugestões de melhoria dos nossos serviços, ou alguma área em que tenha revelado insatisfação (questão 19), preencha abaixo os seus dados de identificação.
+Caso deseje revelar a sua identidade, garantimos que não serão adotados quaisquer procedimentos discriminatórios no contexto da sua assistência nesta unidade de saúde.
+Nome: ____________________________________________________________
+Nº Utente: _______________
+Telefone: _______________
+Preferencia de horário para contacto: ________
+E-mail: __________________________________
+ANEXO B
+Neste anexo operacionaliza-se a forma de classificar as respostas ao questionário.
+O indicador exprime a proporção de utentes muito satisfeitos, calculado pelo rácio entre a soma das respostas [muito satisfeito] (ou equivalentes) e o número respostas [válidas]. Assim, torna-se relevante definir, para cada questão, quais as respostas que são equivalentes a [muito satisfeito] e o que são respostas [inválidas] (não contabilizadas no denominador nem no numerador).
+As questões podem ser agrupadas em 3 classes, em função do tipo de escala usada para as respostas:
+1. Questões 1 a 16 e questão 18: Estão operacionalizadas com 4 opções de resposta válida e 1 opção de resposta [Não sei / Não respondo].
+2. Questão 17: Está operacionalizadas com 10 opções de resposta válida.
+3. Questão 19: Resposta em texto livre.
+Define-se a seguir o que deve ser considerado equivalente a [muito satisfeito] (contabilizado no numerador) e o que deve ser considerado [inválido] (não contabilizado no numerador nem no denominador).
+Questões 1 a 16 e questão 18
+As respostas às questões 1 a 16 e à questão 18 estão operacionalizadas com 4 opções de resposta válida e 1 opção de resposta [Não sei / Não respondo]. Nestas questões, as respostas estão numeradas de 1 a 5, sendo que em todas elas, a número 1 é sempre a que qualifica a melhor satisfação (ou a opinião mais positiva) e a número 4 a que qualifica a opinião mais negativa. A resposta número 5 permite responder [Não sei / Não respondo].
+A resposta número 1 pode assumir um dos seguintes significados nas questões referidas: [Muito satisfeito], [Muito claro], [Muito fácil], [Muito bom], [Muito boa] e [Muito útil]. Assim, neste grupo de questões, para efeitos de determinação dos resultados deste indicador, são consideradas com resposta [Muito satisfeito] (ou equivalente), aquelas em que o respondente assinalar a número 1.
+As respostas a este grupo de questões devem ser consideradas inválidas para o denominador (e consequentemente para o numerador) se:
+a) nenhuma das 5 opções for assinalada;
+b) ou se mais do que uma for assinalada;
+c) ou se a opção 5 (Não sei / Não respondo) for a única assinalada.
+Questão 17
+As resposta à questão 17 está operacionalizada com 10 opções de resposta válida. As respostas estão numeradas de 1 a 10. O 10 é o que qualifica a melhor satisfação (ou a opinião mais positiva). O 1 a que qualifica a opinião mais negativa.
+Para efeitos de determinação dos resultados deste indicador, são consideradas com resposta [Muito satisfeito] (ou equivalente), aquelas em que o utente assinalar as respostas número 8, 9 ou 10.
+A resposta é considerada inválida para o denominador (e consequentemente para o numerador) se nenhuma for assinalada ou se mais do que uma for assinalada.
+Questão 18
+As respostas são em texto livre, devem ser usadas para implementar eventuais melhorias na prestação de cuidados. As respostas a estas questões
+não
+são usados para o cálculo dos resultados deste indicador.
+ANEXO C
+A. O questionário deve ser aplicado entre os meses de março e maio ou entre os meses de outubro e novembro, a uma 3ª feira ou 4ª feira. O dia selecionado não deve ser um dia especial na área de abrangência da unidade de saúde (p.e., não deve ser um dia de feira).
+B. Nos dias em que for aplicado, deve ser entregue, sem discriminação, a todos os utentes que acedam à unidade de saúde, independentemente do destino dos mesmos e de estarem ou não inscritos na unidade de saúde. Deve também ser entregue aos utentes que pretendam apenas aceder ao secretariado clínico da unidade de saúde.
+C. Os questionários a serem entregues devem estar sequencialmente numerados por forma a poder avaliar, no final, qual a taxa de devolução de questionários preenchidos. Deverão também ser rubricados pelo coordenador da unidade e pelo diretor executivo do ACES.
+D. O questionário deverá ser formatado para que caiba, no máximo, em 3 páginas. Deverão ser usadas todas as 18 questões, colocadas pela ordem aqui apresentada. O título do questionário pode ser alterado para outro que esteja mais de acordo com as políticas de qualidade da unidade de saúde. As seções [nota introdutória] e [identificação], podem também ser alteradas de acordo com essas mesmas orientações (por exemplo eliminando a [identificação] e alterando a [nota introdutória] por forma a garantir o anonimato do respondente;
+E. Nos pontos de entrega dos questionários deverão existir urnas que podem ser improvisadas com caixas de cartão. Nessas urnas deverá ser colado um cartaz A4 com o seguinte texto ou equivalente:
+""OUVIR"" O NOSSO UTENTE
+ESTAMOS INTERESSADOS EM CONHECER A SUA OPINIÃO SOBRE O NOSSO TRABALHO
+Coloque aqui o seu questionário preenchido
+MUITO OBRIGADO
+F. A unidade de saúde deverá solicitar a alguns dos seus utentes que funcionem como voluntários no dia de aplicação do questionário. A função dos voluntários deverá ser a de entregar e receber os questionários e a de apoiar utentes nas respostas, caso os mesmos manifestem dificuldades de leitura ou de escrita. Deverão ainda ser instruídos para verificar se o questionário foi totalmente preenchido antes da colocação na urna, de forma a dar oportunidade aos utentes para os acabar de preencher, com particular relevo para os casos em que o preenchimento do questionário foi interrompido pela chamada para a consulta. Deverão ser instruídos para não responder ao questionário e para não influenciar os restantes utentes nas respostas.
+G. Recomenda-se a organização de pontos de entrega e recolha de questionário pelo menos junto à(s) entrada(s) da unidade. Outra opção é a de organizar esses pontos na(s) sala(s) de espera desde que se garanta a todos os utentes a possibilidade de responder.
+H. Na(s) entrada(s) e sala(s) de espera deverão ser afixados, cartazes do tamanho A3 com o seguinte texto ou equivalente:
+QUESTIONÁRIO DE SATISFAÇÃO: ""OUVIR"" O NOSSO UTENTE
+ESTAMOS INTERESSADOS EM CONHECER A SUA OPINIÃO SOBRE O NOSSO TRABALHO
+Por favor preencha o questionário de satisfação e coloque-o numa das caixas assinaladas para o efeito, existentes nas salas de espera/à saída da unidade.
+AGRADECEMOS AS SUAS RESPOSTAS E COMENTÁRIOS
+I. Toda a logística necessária para a entrega do questionário (afixação de cartazes, colocação de urnas de recolha, impressão e numeração de questionários) deverá ser concluída no final do dia anterior ao da realização do questionário. A afixação de cartazes e colocação da(s) urna(s) deve ocorrer no final do dia anterior para que não existam, de véspera, utentes conhecedores da realização do questionário.
+J. O número mínimo de questionários que devem ser recolhidos para considerar válido o presente indicador depende do número de unidades ponderadas (UP) dos utentes inscritos na unidade de saúde na data de referência do indicador, calculado pela fórmula seguinte:
+[Número mínimo de questionários devolvidos e tratados estatisticamente durante o período em análise] = [Número de UPs de utentes inscritos na data de referência do indicador] / 82.5
+Assim, p.e. uma unidade de saúde com 14000 UPs de utentes inscritos e uma equipa com 17 profissionais na equipa, deverá receber, desejavelmente, 170 questionários para tratamento estatístico.
+K. Caso a unidade de saúde não consiga recolher num único dia questionários suficientes para atingir o número mínimo definido na alínea anterior, deverá o mesmo ser aplicado no(s) dia(s) úteis seguinte(s), podendo neste caso ser aplicado à 4ª, 5ª ou 6ª feira. Para cada dia em que seja implementado um questionário de satisfação na unidade de saúde, esta deverá preencher a informação que consta do ANEXO D.
+L. Depois de terminada a aplicação do questionário, deverá a unidade de saúde preencher o(s) FORMULÁRIO(S) DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO (ver ANEXO D) e remetê-lo(s) conjuntamente com os respondidos para a unidade de apoio à gestão (UAG) ou para o gabinete do cidadão do ACES para que aí se proceda ao tratamento estatístico. Por forma a aumentar ainda mais a isenção do tratamento estatístico dos dados, os ACES poderão agrupar-se 2 a 2 e estabelecer protocolos para proceder ao tratamento estatístico das unidades contra laterais. A entidade que proceder ao tratamento estatístico do questionário deverá preencher o FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO (ver anexo E).
+M. Os questionários respondidos, a análise estatística efetuada pela unidade de saúde, o(s) FORMULÁRIO(S) DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO e o FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO devem ser arquivados até 3 anos após a data de referência do indicador.
+ANEXO D
+Este anexo especifica o modelo de dados a preencher para cada dia em que o questionário é aplicado:
+FORMULÁRIO DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO
+Nome da unidade de saúde: _____________________________________
+Ano de contratualização: ________
+Data de realização: ___/___/20____
+Hora de início da entrega de questionários: ___:___
+Hora de fim da entrega de questionários: ___:___
+Nº de questionários entregues aos utentes: ____
+Nº de questionários colocados pelos utentes nas urnas: ____
+Nome do voluntário 1: _____________________________________
+Número de utente do voluntário 1: _________________
+Assinatura do voluntário 1: _________________
+Nome do voluntário 2: _____________________________________
+Número de utente do voluntário 2: _________________
+Assinatura do voluntário 2: _________________
+Nome do voluntário 3: _____________________________________
+Número de utente do voluntário 3: _________________
+Assinatura do voluntário 3: _________________
+Nome do voluntário 4: _____________________________________
+Número de utente do voluntário 4: _________________
+Assinatura do voluntário 4: _________________
+Nome do coordenador da unidade: _____________________________________
+Assinatura do coordenador da unidade: _________________
+Nome do diretor do ACES: _____________________________________
+Assinatura do diretor do ACES: _________________
+ANEXO E
+Este anexo especifica o modelo de dados relevante para a determinação dos resultados:
+FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO
+Nome da unidade de saúde: _____________________________________
+Ano de contratualização: ________
+Data de realização: de ___/___/20____ a ___/___/20____
+(A) Nº de questionários entregues aos utentes: ____
+(B) Nº de questionários colocados pelos utentes nas urnas: ____
+(C) Nº de respostas entregues pelos utentes: ____ (B x 18)
+(D) Nº de respostas consideradas [inválidas]: ____
+(E) Nº de respostas consideradas [válidas]: ____ (C - D)
+(F) Nº de respostas consideradas equivalentes a [muito satisfeito]: ____
+(G) Proporção de utentes [muito satisfeitos] (F / E): ____
+Nome do coordenador da unidade: _____________________________________
+Assinatura do coordenador da unidade: _________________
+Nome do diretor do ACES: _____________________________________
+Assinatura do diretor do ACES: _________________
+Serviço que procedeu ao tratamento estatístico: ____________________
+Data em que terminou o tratamento estatístico: ____________________
+Nome do coordenador do tratamento estatístico: ____________________
+Função do coordenador do tratamento estatístico: ____________________
+Assinatura do coordenador do tratamento estatístico: ____________________"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração coincidente com a(s) data(s) de realização do questionário.
+- Denominador: Duração coincidente com a(s) data(s) de realização do questionário."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utilizadores
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,0 dias

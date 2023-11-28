@@ -1,0 +1,46 @@
+titulo,texto
+ID,061
+Código,6.15.01
+Código SIARS,2013.061.01
+Nome abreviado,"Proporção crianças 6A, livres cárie dentária"
+Designação,Proporção de crianças com 6 anos livres de cárie dentária
+Objetivo,"Monitorizar o programa de saúde infantil. Parâmetro ""ausência de cárie dentária""."
+Descrição do Indicador,"Indicador que exprime a proporção de crianças livres de cárie dentária, entre as que completam 6 anos.
+Numerador: Contagem de crianças livres de cárie dentária.
+Denominador: Contagem de crianças que completam 6 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Existe pelo menos um registo parametrizado de [Dentes sem doença] (ou equivalente), realizado no intervalo etário [5; 6[ anos (ver alíneas A e B de OBSERVAÇÕES GERAIS e OBSERVAÇÕES SOBRE SOFTWARE).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador.
+B. Crianças que completam 6 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+C. Com pelo menos um registo de parametrizado de [Avaliação dos dentes], realizado no intervalo etário [5; 6[ anos (ver alíneas A e B de OBSERVAÇÕES GERAIS e OBSERVAÇÕES SOBRE SOFTWARE)."
+Observações Gerais,"A. O registo de [Avaliação dos dentes] (e respetivos atributos) pode ser feito por qualquer médico, interno ou enfermeiro da unidade de saúde, mas também por higienistas orais e outros técnicos de saúde.
+B. O registo de [Avaliação dos dentes] (e respetivos atributos) deve ser contabilizado independentemente da origem do autor do registo pertencer ou não à unidade funcional onde o utente está inscrito."
+Observações Sobre Software,"SClínico - PERFIL DE ENFERMAGEM:
+O registo de cáries deve ser feito da intervenção ""Avaliar Dentição"" (9004013), que se encontra parametrizado associado ao Foco ""Desenvolvimento Infantil"".
+Na tabela associada à intervenção, são considerados os utentes com total de dentes cariados=0 quer na Dentição Decídua, quer na Dentição Definitiva.
+SClínico - PERFIL MÉDICO:
+A. O SCLÍNICO permite o registo de alterações nos dentes em [Ficha de saúde infantil] > [Parâmetros a avaliar] > [Dentição], podendo registar-se o estado [normal] (cor verde) ou o estado [anormal] (cor vermelha).
+MEDICINEONE:
+A. O MedicineOne permite o registo de alterações nos dentes em [Módulo de saúde infantil] > [Consultas] > [Estado da boca normal], podendo registar-se o estado [normal] (assinalando a quadrícula) ou o estado [anormal] (não assinalando a quadricula)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de [Dentes sem doença]""): Coincidente com o intervalo etário [5; 6[ anos de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [6; 7[ anos de idade.
+- Denominador (variável ""Avaliação dos dentes""): Coincidente com o intervalo etário [5; 6[ anos de cada criança."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Janeiro de 2019
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

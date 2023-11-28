@@ -1,0 +1,38 @@
+titulo,texto
+ID,150
+Código,6.04.02
+Código SIARS,6.4
+Nome abreviado,Percent. grávidas c/ consulta RP efetuada
+Designação,Percentagem de grávidas com revisão do puerpério efetuada
+Objetivo,"Monitorização do programa de vigilância em saúde materna. Parâmetro ""consulta médica de revisão do puerpério""."
+Descrição do Indicador,"Indicador que exprime a proporção de puérperas vigiadas, com pelo menos uma consulta médica de revisão do puerpério.
+Numerador: Contagem de puérperas com pelo menos uma consulta médica de revisão do puerpério.
+Denominador: Contagem de puérperas com compromisso de vigilância."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos 1 consulta médica de revisão do puerpério, realizada entre a [data de parto] e o 42º dia de puerpério.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Ser mulher;
+B. Com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+C. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo];
+D. Com compromisso de vigilância em Saúde Materna no período em análise.
+E. O 42º dia de puerpério, contabilizado a partir da [data de parto], pertence ao período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O denominador tem um período em análise de 1 a 12 meses, terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada puérpera a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Para cada utente incluída no denominador, o período em análise da variável ""existência de pelo menos uma consulta de RP"" inicia-se na [data de parto] e termina no 42º dia do puerpério."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,75 @@
+titulo,texto
+ID,384
+Código,8.14.01
+Código SIARS,2017.384.01
+Nome abreviado,Propor. RN cuja mãe tem registo de gravidez
+Designação,Proporção de recém-nascidos cuja mãe tem registo de gravidez
+Objetivo,"Monitorizar a frequência de potenciais falhas no registo de ""gravidezes"" no processo clínico eletrónico. Ver alíneas I, J, K, L, M, N, O, P, Q e R de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Proporção de recém-nascidos com mães utilizadoras de consultas médicas durante o período de gestação, em que se verifica a existência de registo clínico de ""gravidez"".
+Numerador: Contagem de recém-nascidos cujas mães tiveram consultas médicas durante tempo de gestação e registo clínico de ""gravidez"".
+Denominador: Contagem de recém-nascidos cujas mães tiveram consultas médicas durante tempo de gestação."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de agregados familiares em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O elemento feminino do agregado familiar identificado na condição C do denominador tem gravidez registada no módulo clínico de saúde materna com [data de fim da gravidez] compreendida no intervalo [DN-90; DN+90[ em que DN corresponde à data de nascimento do recém-nascido que cumpre a condição A do denominador (ver alínea H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de recém-nascidos em que a expressão [A e B e C] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+A. Com data de nascimento pertencente ao intervalo [DR-425; DR-60[ em que DR é a data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+B. O recém-nascido que cumpre a condição A do denominador tem [
+inscrição ativa
+] na unidade de funcional durante pelo menos 1 dia do período compreendido entre [DR-425; DR[ em que DR é a data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+C. O agregado familiar a que pertence o recém-nascido que cumpre as condições A e B do denominador tem pelo menos um elemento do sexo feminino com idade compreendida no intervalo [13; 50[ anos, com inscrição ativa durante a totalidade do intervalo [DN-90; DN], e com pelo menos uma consulta médica de qualquer tipo no intervalo [DN-225; DN[ (DN corresponde à data de nascimento). Ver alíneas D, E, F e G de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Se existirem dois ou mais recém-nascidos pertencentes ao mesmo agregado familiar, nascidos no mesmo dia (gémeos), contabiliza-se para o denominador o nº de crianças nascidas e para o numerador zero se não existir ""gravidez"" registada, ou o número de nascidos caso contrário. Se o mesmo agregado familiar tiver mais do que um recém-nascido com datas de nascimento diferentes ao longo deo período em análise, serão todos contabilizados no denominador, estando a contabilização no numerador dependente do registo de cada gravidez.
+B. Um agregado familiar corresponde ao conjunto de utentes com [
+inscrição ativa
+] que têm em comum o mesmo local de inscrição (definido pelo campo ""COD_RNU"" no sistema RNU ou pelos campos ""EXT"" ou ""LOCAL"" em cada base de dados SINUS) e pelo mesmo nº de processo familiar. Por sua vez, o nº de processo local de cada utente, designado por NOP (nº identificador do utente nos sistemas locais SINUS, SClínico e MedicineOne), obtém-se a partir do respetivo ""nº de processo familiar"", acrescentando-lhe 2 dígitos em sufixo. Significa isto que 2 utentes inscritos no mesmo código RNU, um com o NOP 2122101 e outro com o NOP 2122103 pertencem ao mesmo processo familiar cujo nº identificador é o 21221.
+.
+C. O intervalo [DR-425; DR-60[ tem 12 meses de amplitude com um desvio de 2 meses a esquerda (passado) relativamente à data de referência do indicador. Isto é feito neste indicador por se verificar que em determinadas zonas de Portugal com piores condições socioeconómicas existem com alguma frequência atrasos máximos de 2 meses entre o nascimento e a inscrição dos recém-nascidos.
+D. A condição do denominador que requer a existência de pelo menos um elemento do sexo feminino com idade compreendida no intervalo [13; 50[ anos, com inscrição ativa durante a totalidade do intervalo [DN-90; DN], e com pelo menos uma consulta médica de qualquer tipo no intervalo [DN-225; DN[ faz com que só sejam contabilizados para o denominador recém-nascidos cujo agregado familiar tem um elemento inscrito nos 3 meses que antecedem o nascimento e que para além disso foi utilizador de consultas médicas na unidade funcional nos 7.5 últimos meses de gravidez, evitando assim que sejam adicionados ao denominador, recém-nascidos cujas mães não estavam inscritas na unidade funcional ou a ela não acederam antes do nascimento.
+E. Uma vez que com alguma frequência, os processos clínicos dos agregados familiares são reorganizados na altura do nascimento e inscrição de crianças, os cruzamentos efetuados para identificar a inscrição da mãe em momentos passados não devem usar o nº de processo familiar conhecido no futuro, pois é frequente que esse nº seja efetivamente ""novo"" e inexistente antes do nascimento. Assim, esses cruzamentos serão feitos usando o procedimento sequencial seguinte:
+a) Validação da existência do elemento do sexo feminino com idade compreendida no intervalo [13; 50[ anos, no processo familiar do recém-nascido no primeiro mês em que se deteta a sua inscrição após o nascimento.
+b) Com o nº de utente do ""elemento do sexo feminino"" identificado na alínea anterior, verifica-se as restantes condições de inscrição e de utilização desse elemento do sexo feminino no passado, garantindo apenas que a inscrição e as consultas ocorrem na unidade funcional de inscrição do recém-nascido, sem necessidade que esse elemento tenha no passado o mesmo nº de processo familiar que se identifica no futuro.
+F. As utentes contabilizados que cumprem a condição C. do denominador devem ter pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+G. Caso nas alíneas A e B do denominador se identifique mais do que um recém-nascido com datas de nascimento diferentes, não é obrigatória a identificação de mais do que um elemento do sexo feminino. No entanto devem ser garantidas as condições de inscrição e de utilização de consultas médicas relativamente às datas de nascimento de cada um dos recém-nascidos. Assim, se no mesmo processo familiar existirem 2 recém-nascidos, 1 deles nascido em janeiro e outro nascido em dezembro de determinado ano, e se apenas for possível identificar consultas da ""mãe"" após fevereiro desse ano, nesse agregado familiar esses 2 recém-nascidos contam apenas 1 unidade para o denominador. No entanto, se tivesse sido possível confirmar a inscrição da mãe também desde dezembro do ano anterior e consultas da mãe em setembro ou outubro do ano anterior bem como após fevereiro do ano em curso, esses 2 recém-nascidos contabilizariam 2 unidades no denominador.
+H. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+I. Este indicador monitoriza a qualidade dos registos associados ao programa de saúde materna, designadamente os pontos críticos para que cada gravidez ocorrida fique registada nos sistemas de informação dos CSP.
+J. Mesmo que a gravidez não seja vigiada na unidade funcional, o registo no programa ou módulo de saúde materna é recomendado, já que é ai que podem ser registados algum parâmetros relevantes para a história clínica da utente.
+K. O indicador foi desenhado de forma a minimizar a probabilidade de falsos positivos para o denominador, isto é, de forma a evitar que lá vão parar recém-nascidos em que não teria sido possível, de forma alguma, registar a gravidez, ou porque a mãe não estava inscrita enquanto grávida ou porque de todo não recorreu ao médico durante a gravidez.
+L. Existem indicadores de desempenho usados na matriz de contratualização dos CSP, em que a inclusão dos utentes no denominador pressupõe que os médicos procedam ao registo da gravidez no módulo de saúde materna.
+M. O não registo ou o registo inadequado de uma gravidez tem as consequências seguintes:
+a) Aumenta o risco de erro associado às consultas que venham a ocorrer no futuro com esses utentes, pelos próprios ou por outros médicos da equipa, por exemplo devido à prescrição de fármacos contraindicados na gravidez.
+b) Dificulta o planeamento e a gestão em saúde;
+c) Coloca o médico em potencial conflito de interesses por dessa omissão poder resultar uma alteração do resultado de vários indicadores, com benefício para o próprio ou para a equipa nas comparações/""benchmarking"" com outras unidades e potencial benefício económico para o próprio ou para a equipa, já que essas alterações em resultados de indicadores podem induzir um aumento do Índice de Desempenho Global e alteração da decisão de atribuir ou não atribuir incentivos institucionais a toda a equipa. No entanto, eventuais processos de auditoria interna ou externa decorrentes dos outputs deste indicador devem ter em conta as possíveis excepções elencadas nos pontos anteriores bem como outras que não tenham sido previstas na data de construção do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 17 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 14 meses, terminando da data de referência do indicador."
+Fórmula,AA / BB X 100
+Unidade de medida,%
+Output,Proporção de Recém-nascidos
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [94; 100]
+Ano de 2023: [94; 100]
+Ano de 2024: [90; 100]"
+Intervalo Esperado,"Ano de 2022: [89; 100]
+Ano de 2023: [89; 100]
+Ano de 2024: [80; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

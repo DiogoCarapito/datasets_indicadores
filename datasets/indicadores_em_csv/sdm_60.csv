@@ -1,0 +1,147 @@
+titulo,texto
+ID,060
+Código,6.32.01
+Código SIARS,2013.060.01
+Nome abreviado,"Proporção crianças 2 anos, c/ acompanham. adequado"
+Designação,"Proporção de crianças com 2 anos de vida, com acompanhamento adequado na área da saúde infantil durante o 2º ano de vida"
+Objetivo,"Monitorizar o programa de saúde infantil, 2º ano de vida."
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com 2 anos de vida, com acompanhamento de acordo com as normas da DGS.
+Numerador: Contagem de crianças com 2 anos de vida, que cumpriram a totalidade dos requisitos definidos para a vigilância durante o 2º ano de vida.
+Denominador: Contagem de crianças com 2 anos de vida."
+Regras de cálculo,"NUMERADOR: (AA)
+Válido para indicadores com data de referência igual ou superior a janeiro de 2019.
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter pelo menos 3 consultas médicas de vigilância em saúde infantil (contacto direto) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas A, B, C e P de OBSERVAÇÕES GERAIS.
+C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas C, E e F de OBSERVAÇÕES GERAIS.
+D. Com o PNV totalmente cumprido às zero horas do dia em que completam 2 anos de vida (ver alíneas D, H, I, J e K de OBSERVAÇÕES GERAIS).
+E. Têm pelo menos 3 registos de peso com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
+F. Têm pelo menos 3 registos de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
+G. Ter pelo menos 3 consultas de enfermagem de vigilância em saúde infantil (contacto direto) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas C, G e P de OBSERVAÇÕES GERAIS.
+NUMERADOR: (AA)
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2018.
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter pelo menos 3 consultas médicas de vigilância (contacto direto) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas A, B, C e P de OBSERVAÇÕES GERAIS.
+C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas C, E e F de OBSERVAÇÕES GERAIS.
+D. Com o PNV totalmente cumprido às zero horas do dia em que completam 2 anos de vida (ver alíneas D, H, I, J e K de OBSERVAÇÕES GERAIS).
+E. Têm pelo menos 3 registos de peso com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
+F. Têm pelo menos 3 registos de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 2 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, durante a totalidade do período compreendido entre os 12 e os 23 meses de vida ([365; 700[ dias)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+B. Apenas se contabiliza uma consulta médica, por utente, por dia.
+C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+D. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
+E. Os testes de desenvolvimento de Sheridan podem ser registados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+F. Para que sejam contabilizados, os testes de desenvolvimento de Sheridan devem ser registados no máximo até 5 dias depois de uma consulta médica de vigilância ou de enfermagem de vigilância, tal como especificadas respetivamente na alínea A e na alínea G de OBSERVAÇÕES GERAIS.
+G. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.1
+| Consulta de enfermagem de vigilância em saúde infantil e juvenil - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+H. São incluídos no numerador, as crianças que à data de referência do indicador, tenham registos de inoculações de vacinas que permitam afirmar que às zero horas do dia em que completam 2 anos de idade, tinham o PNV totalmente cumprido pelo [esquema cronológico recomendado] ou pelo [esquema cronológico de recurso] adaptado à idade. Assim, as datas de inoculação devem ser anteriores à data do 2º aniversário de cada criança, mas as datas de registo podem ir até à data de referência do indicador.
+I. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
+J. Quando uma criança tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se uma criança tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
+K. Uma criança é incluída no numerador se a condição [(AA ou QQ) e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK) e (LL ou MM) e (NN ou OO ou PP)] for verdadeira:
+AA. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 2º aniversário).
+QQ. data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
+BB. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+CC. Registo de [vacina contra hepatite B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+DD. Inoculação de [vacina contra Infeção por Haemofilus Influenzae b], realizada no intervalo [15; 24[ meses de idade, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[HAEM_INFL_B]
+).
+EE. Registo de [vacina contra Infeção por Haemofilus Influenzae b] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HAEM_INFL_B]
+).
+FF. Inoculação da 4ª dose (ou superior) de [vacina contra a difteria, tétano e tosse convulsa] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+).
+GG. Registo de [vacina contra a difteria, tétano e tosse convulsa] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+).
+HH. Inoculação da 3ª dose (ou superior) de [vacina contra a poliomielite] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+II. Registo de [vacina contra a poliomielite] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+JJ. Inoculação de [vacina contra doença por Meningococcus serogrupo C] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+).
+KK. Registo de [vacina contra doença por Meningococcus serogrupo C] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+).
+LL. Inoculação de [vacina contra sarampo, parotidite epidémica e rubéola] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+MM. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+NN. Nascido antes de 1 de janeiro de 2015.
+OO. Inoculação da 3ª dose (ou superior) de [vacina contra infeção por Pneumococcus] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+).
+PP. Registo de [vacina contra infeção por Pneumococcus] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[PNEUMOCOCUS]
+).
+L. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+M. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+N. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC.
+O. Não é obrigatório que o peso e altura sejam registados no mesmo dia.
+P. O intervalo de tempo [330; 700[ dias, definido no numerador, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O peso e a estatura podem ser registados neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. No SCLÍNICO, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes e saúde infantil.
+MEDICINEONE:
+A. O peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes e saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O indicador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o seu período em análise a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de Novembro inicia o seu período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida durante o período em análise.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [2, 3[ anos de idade.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O indicador tem um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida no ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Março de 2013
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado
+Prazo para Registos,5 dias

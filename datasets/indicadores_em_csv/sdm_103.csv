@@ -1,0 +1,139 @@
+titulo,texto
+ID,103
+Código,8.03.02
+Código SIARS,2013.103.01
+Nome abreviado,Número UCs grávidas (ativ. específ.)
+Designação,Número de unidades de contratualização relacionadas com vigilância de grávidas (atividades específicas)
+Objetivo,"Monitorizar o programa de saúde materna e cálculo do número de UCs a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas""."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de grávidas(atividades específicas).
+Numerador: Produto entre o [número de grávidas com acompanhamento adequado] e o [fator de ponderação 8].
+Denominador: Contagem de médicos da unidade."
+Regras de cálculo,"GRÁVIDAS COM ACOMPANHAMENTO ADEQUADO (AA):
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G e H e I e J e K e L] é verdadeira:
+A. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos 1 dia do período compreendido entre a DUM e o 42º dia a contar da [data de fim da gravidez] (ver alíneas F e K de OBSERVAÇÕES GERAIS).
+B. Ser mulher.
+C. Gravidez registada por um médico ou interno da unidade de saúde, no módulo ou no programa de saúde materna;
+D. Gravidez não classificada como aborto (ver alínea L de OBSERVAÇÕES GERAIS);
+E. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] (ver alínea D de OBSERVAÇÕES GERAIS);
+F. O 42º dia de puerpério, contabilizado a partir da [data de fim da gravidez], pertence ao período em análise do numerador (ver alíneas F e K de OBSERVAÇÕES GERAIS e comentários sobre PERÍODO EM ANÁLISE).
+G. Utentes que tiveram pelo menos 6 consultas médicas de vigilância de gravidez ou de revisão do puerpério, no período compreendido entre a DUM e o 42º dia de puerpério (ver alíneas A, B, C, F e K de OBSERVAÇÕES GERAIS).
+H. Utentes que tiveram pelo menos uma consulta médica de vigilância de gravidez nos primeiros 90 dias de gestação (ver alíneas A e G de OBSERVAÇÕES GERAIS).
+I. Utentes que tiveram pelo menos 1 consulta médica de revisão do puerpério, realizada entre a [data de fim da gravidez] e o 42º dia de puerpério (ver alíneas B, F e K de OBSERVAÇÕES GERAIS).
+J. Ter pelo menos um registo de resultado de ecografia obstétrica do 1º trimestre, com data de realização entre as [11; 14[ semanas ([78; 98] dias) de gestação (ver alíneas G e H de OBSERVAÇÕES GERAIS).
+K.
+(Válido para indicadores com data de referência igual ou superior a janeiro de 2019)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica, com data de realização entre as [19; 23[ semanas ([134; 161] dias) de gestação (ver alíneas I, J e O de OBSERVAÇÕES GERAIS).
+K.
+(Válido para indicadores com data de referência igual ou inferior a dezembro de 2018)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica, com data de realização entre as [18; 24[ semanas ([127; 168] dias) de gestação (ver alíneas I e J de OBSERVAÇÕES GERAIS).
+L.
+(Válido para indicadores com data de referência igual ou superior a janeiro de 2019)
+- Utentes que tiveram pelo menos 6 consultas de enfermagem de vigilância de gravidez ou de revisão do puerpério, no período compreendido entre a DUM e o 42º dia de puerpério (ver alíneas F, K, M e N de OBSERVAÇÕES GERAIS).
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Vigilância] em saúde materna, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de gravidez, que podem ser usados para a classificar como ""problema de saúde da consulta"" são W78, W79, W84.
+B. Para se contabilizar uma [Consulta Médica] de revisão do puerpério, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta] e que sejam realizados durante o puerpério (entre a [data de fim da gravidez] e o 42º dia seguinte a essa data):
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, não existem códigos ICPC-2 específicos de ""revisão do puerpério"". A identificação deste tipo de consulta faz-se assinalando [revisão do puerpério] nos registos de consulta efetuados nos módulos ou programas de saúde materna.
+C. Contabiliza-se no máximo uma consulta médica de RP por grávida.
+D. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim da gravidez] (ver definição mais à frente em OBSERVAÇÕES GERAIS).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+E. O número de médicos a contabilizar quando a unidade de observação é uma USF é o que se encontra no documento de candidatura ou no último documento oficial publicado onde se especifique o nº de lugares no quadro para a equipa médica. Se um médico se encontra a meio tempo, conta meia unidade para esta variável. Se uma unidade de saúde possui um ou vários médicos com ausências de longa duração, esses médicos são contabilizados. Quando a unidade de observação é uma UCSP, o número de médicos é o que constar do respetivo mapa de pessoal. Quando a unidade de observação é o próprio médico, a variável assume o valor 1 ou 0,5 respetivamente para médicos a tempo inteiro ou a meio tempo. Quando a unidade de observação é o ACES, a variável é igual ao somatório dos médicos das respetivas USF e UCSP (contabilizadas de acordo com as regras acima discriminadas).
+F. A [data de fim da gravidez] corresponde ao 1º dia do puerpério e é determinada da seguinte forma:
+a) se a [data de parto] estiver registada, a [data de fim da gravidez] é igual à [data de parto].
+b) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] estiver registada e se a [data de referência do indicador] for superior à [data prevista de parto corrigida] em 8 semanas (56 dias), a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) se a [data de parto] não estiver registada e a [data prevista de parto corrigida] não estiver registada e se a [data de referência do indicador] for superior à [data da última menstruação] em 48 semanas (336 dias), a [data de fim da gravidez] é igual à soma da [data da última menstruação] com [39 semanas e 6 dias] (280 dias).
+G. Para as condições [1ª consulta no 1º trimestre] e [1ª ecografia na gravidez] do numerador, a datação da gravidez faz-se a partir da [data prevista de parto corrigida] (DPPC) registada no módulo ou programa de saúde materna, caso o registo da mesma ocorra, pela datação de gravidez que essa data determina, entre o D1 e o D75. Caso a DPPC não esteja registada ou seja registada após o D75 (pela datação da DPPC), a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+H. Os códigos da tabela de MCDT válidos para [ecografia obstétrica do 1º trimestre] são o M272.0, o M490.1, o 17190 e o 17193. A data que deve ser usada para verificar se este exame está ou não dentro das [11; 14[ semanas ([78; 98] dias) é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 30 dias após a data de referência do indicador.
+I. Os códigos da tabela de MCDT válidos para [ecografia obstétrica morfológica] são o M292.5, o M291.7 e o 17195. A data que deve ser usada para verificar se este exame está ou não dentro das [18; 24[ semanas ([127; 168] dias) é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 30 dias após a data de referência do indicador.
+J. Para a condição [ecografia morfológica] do numerador, a datação da gravidez faz-se por regra a partir da [data prevista de parto corrigida] registada no módulo ou programa de saúde materna. Caso a [data prevista de parto corrigida] não esteja registada, a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna.
+K. Para efeitos de contabilização do puerpério, considera-se que a [data de fim da gravidez], tal como definida na alínea anterior, é o 1º dia de puerpério (P1).
+L. A classificação do registo de gravidez como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS.
+M. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde materna, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta] que sejam realizados entre a DUM e a [data de fim da gravidez]:
+-
+C006.2
+| Consulta de enfermagem de vigilância em saúde materna - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de gravidez, que podem ser usados para a classificar como ""problema de saúde da consulta"" são W78, W79, W84.
+N. Para se considerar uma [Consulta de Enfermagem de Vigilância] de apoio à Revisão do Puerpério, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta] que sejam realizados durante o puerpério (entre a [data de fim da gravidez] e o 42º dia seguinte a essa data):
+-
+C006.3
+| Consulta de enfermagem de vigilância em puerpério - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Nas normas
+C012
+e C18 é possível a criação de um registo no módulo ou programa de saúde materna onde se assinala [revisão do puerpério].
+O. De acordo norma de orientação clínica da DGS 23/2011 (revista em 21-05-2013) sobre ""Exames ecográficos na gravidez de baixo risco"":
+a) Existe indicação para a realização de ecografia obstétrica, realizada entre as 20 e as 22 semanas (Nível de evidência A, Grau de recomendação I).
+b) A ecografia do segundo trimestre permite confirmar alguns dados da ecografia do primeiro trimestre, mas destina-se, sobretudo, à identificação de malformações fetais. São de especial relevância as malformações incompatíveis com a vida ou associadas a elevada morbilidade pós-natal, anomalias com potencial para tratamento intrauterino ou que exigem tratamento ou investigação pós-natal.
+c) Existe evidência científica de aumento da qualidade do exame e de diminuição da probabilidade de ter que ser repetido, que quando realizado entre as 20 e as 22 semanas, em comparação com a realização às ""18 semanas"".
+Por outro lado:
+a) Existe o limite legal das 24 semanas (no máximo até ao 168º dia de gestação) para a realização de interrupção de gravidez motivada por anomalias fetais graves.
+b) Existem contextos territoriais em que é particularmente difícil que todas as grávidas realizem a ecografia do 2º trimestre entre as 20 e as 22 semanas.
+c) O indicador tem uma função de monitorização do desempenho das equipas no cumprimento da norma da DGS, existindo restrições externas às equipas, que limitam a sua capacidade para cumprir, com todo o rigor, os limites temporais definidos.
+Assim sendo, opta-se por:
+Alargar o intervalo para a realização da ecografia do 2º trimestre, medido pelo indicador, para entre as 19 e as 22 semanas e seis dias."
+Observações Sobre Software,"SClínico:
+A. É possível registar [Aborto] na janela [Revisão do puerpério]. Esta funcionalidade está acessível a partir do botão [RP] do [programa de saúde materna]. O [aborto] é selecionado na mesma lista em que é possível escolher o [tipo de parto].
+B. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea D de OBSERVAÇÕES GERAIS deve ter a seguinte leitura: D. O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver como se determina a [data de fim da gravidez] nas OBSERVAÇÕES GERAIS).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna.
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+MEDICINEONE:
+A. O diagnóstico de gravidez pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico não necessita estar classificado como ""ativo"", mas não pode ter sido classificado como ""inválido"".
+B. Para que sejam contabilizados neste indicador, as [ecografias obstétricas] podem ser registadas quer no módulo de MCDT quer no módulo de saúde materna.
+C. O resultado das [ecografias obstétricas] podem ser registados quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+D. O [aborto] pode ser registado no módulo de saúde materna (por baixo da zona de registo da [data da última menstruação] e da [data de parto]).
+E. A datação da gravidez no 1º trimestre não entra em linha de conta com a DPPC, pois neste software não existe regista da data de registo da DPPC."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O numerador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do numerador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise.
+- Os períodos em análise das restantes variáveis do numerador dependem do período da gestação ou do puerpério em que devem ser realizados.
+- Denominador: O período em análise coincide com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O numerador tem um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise.
+- Os períodos em análise das restantes variáveis do numerador dependem do período da gestação ou do puerpério em que devem ser realizados.
+- Denominador: O período em análise coincide com a data de referência do indicador."
+Fórmula,AA x 8 / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

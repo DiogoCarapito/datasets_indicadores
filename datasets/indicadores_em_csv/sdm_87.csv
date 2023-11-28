@@ -1,0 +1,237 @@
+titulo,texto
+ID,087
+Código,6.41
+Código SIARS,2016.087.01
+Nome abreviado,"Taxa internam. DCV, entre residentes < 65 A"
+Designação,"Taxa de internamentos por doença cerebrovascular, entre residentes com menos de 65 anos"
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP na prevenção da doença cerebrovascular, usando como medida a ""taxa de internamentos por doença cerebrovascular em residentes com menos de 65 anos"". Ver alíneas B, C e D de OBSERVAÇÕES GERAIS"
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos por ano com doença cerebrovascular e o número de utentes residentes com menos de 65 anos.
+Numerador: Contagem de episódios de internamento hospitalar com doença cerebrovascular em doentes com menos de 65 anos.
+Denominador: Contagem de utentes residentes com menos de 65 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem episódios de internamento hospitalar em que a expressão [A e B e C e D] é verdadeira:
+A. Data de alta incluída no período em análise;
+B. O registo da freguesia de residência no internamento hospitalar pertence à área de abrangência da unidade de observação em análise. Ver alíneas B e C de OBSERVAÇÕES GERAIS;
+C. Pertencentes a utentes com idade inferior a 65 anos (à data da admissão hospitalar);
+D. Alta com diagnóstico principal compatível com ""doença cerebrovascular"" (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas B, C, E e F de OBSERVAÇÕES GERAIS.
+B. Ter idade inferior a 65 anos."
+Observações Gerais,"A. Os códigos ICD-9-CM e ICD-10-CM que permitem codificar DCV são os seguintes:
+ICD-10-CM:
+G450 - Vertebro-basilar artery syndrome
+G451 - Carotid artery syndrome (hemispheric)
+G454 - Transient global amnesia
+G458 - Oth transient cerebral ischemic attacks and related synd
+G459 - Transient cerebral ischemic attack, unspecified
+I6000 - Nontraumatic subarachnoid hemorrhage from unspecified carotid siphon and bifurcation
+I6001 - Nontraumatic subarachnoid hemorrhage from right carotid siphon and bifurcation
+I6002 - Nontraumatic subarachnoid hemorrhage from left carotid siphon and bifurcation
+I6010 - Nontraumatic subarachnoid hemorrhage from unspecified middle cerebral artery
+I6011 - Nontraumatic subarachnoid hemorrhage from right middle cerebral artery
+I6012 - Nontraumatic subarachnoid hemorrhage from left middle cerebral artery
+I602 - Nontraumatic subarachnoid hemorrhage from anterior communicating artery
+I6030 - Nontraumatic subarachnoid hemorrhage from unspecified posterior communicating artery
+I6031 - Nontraumatic subarachnoid hemorrhage from right posterior communicating artery
+I6032 - Nontraumatic subarachnoid hemorrhage from left posterior communicating artery
+I604 - Nontraumatic subarachnoid hemorrhage from basilar artery
+I6050 - Nontraumatic subarachnoid hemorrhage from unspecified vertebral artery
+I6051 - Nontraumatic subarachnoid hemorrhage from right vertebral artery
+I6052 - Nontraumatic subarachnoid hemorrhage from left vertebral artery
+I606 - Nontraumatic subarachnoid hemorrhage from other intracranial arteries
+I607 - Nontraumatic subarachnoid hemorrhage from unspecified intracranial artery
+I608 - Other nontraumatic subarachnoid hemorrhage
+I609 - Nontraumatic subarachnoid hemorrhage, unspecified
+I610 - Nontraumatic intracerebral hemorrhage in hemisphere, subcortical
+I611 - Nontraumatic intracerebral hemorrhage in hemisphere, cortical
+I612 - Nontraumatic intracerebral hemorrhage in hemisphere, unspecified
+I613 - Nontraumatic intracerebral hemorrhage in brain stem
+I614 - Nontraumatic intracerebral hemorrhage in cerebellum
+I615 - Nontraumatic intracerebral hemorrhage, intraventricular
+I616 - Nontraumatic intracerebral hemorrhage, multiple localized
+I618 - Other nontraumatic intracerebral hemorrhage
+I619 - Nontraumatic intracerebral hemorrhage, unspecified
+I6200 - Nontraumatic subdural hemorrhage, unspecified
+I6201 - Nontraumatic acute subdural hemorrhage
+I6202 - Nontraumatic subacute subdural hemorrhage
+I6203 - Nontraumatic chronic subdural hemorrhage
+I629 - Nontraumatic intracranial hemorrhage, unspecified
+I63011 - Cerebral infarction due to thrombosis of right vertebral artery
+I63012 - Cerebral infarction due to thrombosis of left vertebral artery
+I63013 - Cerebral infarction due to thrombosis of bilateral vertebral arteries
+I63019 - Cerebral infarction due to thrombosis of unspecified vertebral artery
+I63111 - Cerebral infarction due to embolism of right vertebral artery
+I63112 - Cerebral infarction due to embolism of left vertebral artery
+I63113 - Cerebral infarction due to embolism of bilateral vertebral arteries
+I63119 - Cerebral infarction due to embolism of unspecified vertebral artery
+I63131 - Cerebral infarction due to embolism of right carotid artery
+I63132 - Cerebral infarction due to embolism of left carotid artery
+I63133 - Cerebral infarction due to embolism of bilateral carotid arteries
+I63139 - Cerebral infarction due to embolism of unspecified carotid artery
+I6320 - Cereb infrc due to unsp occls or stenos of unsp precerb art
+I63211 - Cerebral infarction due to unspecified occlusion or stenosis of right vertebral arteries
+I63212 - Cerebral infarction due to unspecified occlusion or stenosis of left vertebral arteries
+I63213 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral vertebral arteries
+I63219 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified vertebral arteries
+I6322 - Cerebral infrc due to unsp occls or stenosis of basilar art
+I63231 - Cerebral infarction due to unspecified occlusion or stenosis of right carotid arteries
+I63232 - Cerebral infarction due to unspecified occlusion or stenosis of left carotid arteries
+I63233 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral carotid arteries
+I63239 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified carotid arteries
+I6330 - Cerebral infarction due to thrombosis of unspecified cerebral artery
+I63311 - Cerebral infarction due to thrombosis of right middle cerebral artery
+I63312 - Cerebral infarction due to thrombosis of left middle cerebral artery
+I63313 - Cerebral infarction due to thrombosis of bilateral middle cerebral arteries
+I63319 - Cerebral infarction due to thrombosis of unspecified middle cerebral artery
+I63321 - Cerebral infarction due to thrombosis of right anterior cerebral artery
+I63322 - Cerebral infarction due to thrombosis of left anterior cerebral artery
+I63323 - Cerebral infarction due to thrombosis of bilateral anterior arteries
+I63329 - Cerebral infarction due to thrombosis of unspecified anterior cerebral artery
+I63331 - Cerebral infarction due to thrombosis of right posterior cerebral artery
+I63332 - Cerebral infarction due to thrombosis of left posterior cerebral artery
+I63333 - Cerebral infarction to thrombosis of bilateral posterior arteries
+I63339 - Cerebral infarction due to thrombosis of unspecified posterior cerebral artery
+I63341 - Cerebral infarction due to thrombosis of right cerebellar artery
+I63342 - Cerebral infarction due to thrombosis of left cerebellar artery
+I63343 - Cerebral infarction to thrombosis of bilateral cerebellar arteries
+I63349 - Cerebral infarction due to thrombosis of unspecified cerebellar artery
+I6339 - Cerebral infarction due to thrombosis of other cerebral artery
+I6350 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebral artery
+I63511 - Cerebral infarction due to unspecified occlusion or stenosis of right middle cerebral artery
+I63512 - Cerebral infarction due to unspecified occlusion or stenosis of left middle cerebral artery
+I63513 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral middle arteries
+I63519 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified middle cerebral artery
+I63521 - Cerebral infarction due to unspecified occlusion or stenosis of right anterior cerebral artery
+I63522 - Cerebral infarction due to unspecified occlusion or stenosis of left anterior cerebral artery
+I63523 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral anterior arteries
+I63529 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified anterior cerebral artery
+I63531 - Cerebral infarction due to unspecified occlusion or stenosis of right posterior cerebral artery
+I63532 - Cerebral infarction due to unspecified occlusion or stenosis of left posterior cerebral artery
+I63533 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral posterior arteries
+I63539 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified posterior cerebral artery
+I63541 - Cerebral infarction due to unspecified occlusion or stenosis of right cerebellar artery
+I63542 - Cerebral infarction due to unspecified occlusion or stenosis of left cerebellar artery
+I63543 - Cerebral infarction due to unspecified occlusion or stenosis of bilateral cerebellar arteries
+I63549 - Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebellar artery
+I6359 - Cereb infrc due to unsp occls or stenosis of cerebral artery
+I6501 - Occlusion and stenosis of right vertebral artery
+I6502 - Occlusion and stenosis of left vertebral artery
+I6503 - Occlusion and stenosis of bilateral vertebral arteries
+I6509 - Occlusion and stenosis of unspecified vertebral artery
+I651 - Occlusion and stenosis of basilar artery
+I6521 - Occlusion and stenosis of right carotid artery
+I6522 - Occlusion and stenosis of left carotid artery
+I6523 - Occlusion and stenosis of bilateral carotid arteries
+I6529 - Occlusion and stenosis of unspecified carotid artery
+I658 - Occlusion and stenosis of other precerebral arteries
+I659 - Occlusion and stenosis of unspecified precerebral artery
+I6601 - Occlusion and stenosis of right middle cerebral artery
+I6602 - Occlusion and stenosis of left middle cerebral artery
+I6603 - Occlusion and stenosis of bilateral middle cerebral arteries
+I6609 - Occlusion and stenosis of unspecified middle cerebral artery
+I6611 - Occlusion and stenosis of right anterior cerebral artery
+I6612 - Occlusion and stenosis of left anterior cerebral artery
+I6613 - Occlusion and stenosis of bilateral anterior cerebral arteries
+I6619 - Occlusion and stenosis of unspecified anterior cerebral artery
+I6621 - Occlusion and stenosis of right posterior cerebral artery
+I6622 - Occlusion and stenosis of left posterior cerebral artery
+I6623 - Occlusion and stenosis of bilateral posterior cerebral arteries
+I6629 - Occlusion and stenosis of unspecified posterior cerebral artery
+I669 - Occlusion and stenosis of unspecified cerebral artery
+I671 - Cerebral aneurysm, nonruptured
+I672 - Cerebral atherosclerosis
+I674 - Hypertensive encephalopathy
+I675 - Moyamoya disease
+I676 - Nonpyogenic thrombosis of intracranial venous system
+I677 - Cerebral arteritis, not elsewhere classified
+I6781 - Acute cerebrovascular insufficiency
+I6782 - Cerebral ischemia
+I67848 - Other cerebrovascular vasospasm and vasoconstriction
+I6789 - Other cerebrovascular disease
+I679 - Cerebrovascular disease, unspecified
+ICD-9-CM:
+430 - Hemorragia subaracnoideia
+431 - Hemorragia intracerebral
+432 - Hemorragia intracraniana não especificada
+4320 - Hemorragia extradural não traumática
+4321 - Hemorragia subdural
+4329 - Hemorragia intracraniana não especificada
+433 - Oclusão e estenose de artérias pré-cerebrais
+4330 - Oclusão e estenose da artéria basilar
+43300 - Oclusão e estenose de artéria basilar, sem menção de enfarte cerebral
+43301 - Oclusão e estenose de artéria basilar, com enfarte cerebral
+4331 - Oclusão e estenose da artéria carótida
+43310 - Oclusão e estenose de artéria carótida, sem menção de enfarte cerebral
+43311 - Oclusão e estenose de artéria carótida, com enfarte cerebral
+4332 - Oclusão e estenose da artéria vertebral
+43320 - Oclusão e estenose de artéria vertebral, sem menção de enfarte cerebral
+43321 - Oclusão e estenose de artéria vertebral, com enfarte cerebral
+4333 - Oclusão e estenose de artérias pré-cerebrais múltiplas ou bilaterais
+43330 - Oclusão/estenose arterpré-cerebrmúltiplas/bilaterais s/menção enfarte cerebral
+43331 - Oclusão e estenose arterpré-cerebrmúltiplas ou bilaterais, com enfarte cerebr
+4338 - Oclusão e estenose de artérias pré-cerebrais
+43380 - Oclusão e estenose de artéria pré-cerebral especificada NCOP, s/enfarte cerebral
+43381 - Oclusão e estenose de artéria pré-cerebral especificada NCOP, com enfarte cerebral
+4339 - Oclusão e estenose de artérias pré-cerebrais não especificadas
+43390 - Oclusão e estenose de artéria pré-cerebral n/especific, sem enfarte cerebral
+43391 - Oclusão e estenose de artéria pré-cerebral não especificada, com enfarte cerebral
+434 - Oclusão de artérias cerebrais
+4340 - Trombose cerebral
+43400 - Trombose cerebral, sem menção de enfarte cerebral
+43401 - Trombose cerebral, com enfarte cerebral
+4341 - Embolia cerebral
+43410 - Embolia cerebral, sem menção de enfarte cerebral
+43411 - Embolia cerebral, com enfarte cerebral
+4349 - Oclusão de artéria cerebral
+43490 - Oclusão de artéria cerebral não especificada, sem menção de enfarte cerebral
+43491 - Oclusão de artéria cerebral não especificada, com enfarte cerebral
+435 - Isquemia cerebral transitória
+4350 - Síndroma da artéria basilar
+4351 - Síndroma da artéria vertebral
+4352 - Síndroma de roubo da subclávia
+4353 - Síndroma da artéria vertebro-basilar
+4358 - Isquemia cerebral transitória
+4359 - Isquemia cerebral transitória, não especificada
+436 - Doença vascular cerebral aguda, mas mal definida
+437 - Doença vascular cerebral NCOP ou mal definida
+4370 - Aterosclerose cerebral
+4371 - Doença vascular cerebral isquémica generalizada
+4372 - Encefalopatia hipertensiva
+4373 - Aneurisma cerebral, sem rotura
+4374 - Arterite cerebral
+4375 - Doença de moyamoya
+4376 - Trombose não piogenica dos seios venosos intracranianos
+4377 - Amnesia global transitória
+4378 - Doença vascular cerebral NCOP
+4379 - Doença vascular cerebral não especificada
+B. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+C. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 200 internamentos por AVC, 50 serão atribuídos à UF1 e 150 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 100 internamentos por AVC, 80 serão atribuídos à UF2 e 20 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 230 utentes internamentos por AVC estimados por esta metodologia (150 da freguesia X e 80 da freguesia Y).
+Esta metodologia é aplicável não só à informação de internamentos cuja fonte é a base de dados de GDH, mas também às estimativas de residentes do INE (denominador), cujos dados são fornecidos agregados por freguesia.
+D. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) Idade da UF. Os resultados em saúde relacionados com o risco cardiovascular, medidos por este indicador não são imediatos.
+b) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+c) O nível de rigor no registo da freguesia de residência dos utentes com AVC. As UF com área de abrangência próxima de grandes centros cirúrgicos hospitalares podem ter um aumento do numerador se existirem utentes que para acederem aos serviços desses centros falseiam a respetiva morada para uma compatível com a área hospitalar.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias ou da proximidade com hospitais. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+E. Os residentes são os estimados pelo INE, para o ano da data de referência do indicador, ou, caso não exista estimativa para esse ano, a estimativa mais recente possível.
+F. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data da última estimativa de residentes disponível (anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data da última estimativa de residentes disponível (anterior à data de referência do indicador)."
+Fórmula,AA / BB x 10.000
+Unidade de medida,por 10.000
+Output,Taxa internamento (por 10.000 residentes por ano)
+Estado do indicador,Descontinuado em Dezembro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Cardiovascular
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

@@ -1,0 +1,123 @@
+titulo,texto
+ID,312
+Código,5.34.06
+Código SIARS,2015.312.01
+Nome abreviado,Índice realização exames laborat. 3º trim. grav.
+Designação,Índice de realização de exames laboratoriais do 3º trimestre na gravidez
+Objetivo,"Monitorização do cumprimento da norma de orientação clínica da DGS 37/2011 (revista em 20-12-2013) sobre ""Exames laboratoriais na gravidez de baixo risco"", em particular à componente da norma que se refere aos exames do 3º trimestre."
+Descrição do Indicador,"Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de realização de exames laboratoriais de gravidez durante o 3º trimestre (de acordo com a norma 37/2011 da DGS).
+Numerador: Somatório do ""score de realização de exames laboratoriais do 3º trimestre"" determinado para cada grávida. O ""score de realização de exames laboratoriais do 3º trimestre"" de cada grávida pode variar entre 0 e 1 de acordo com o número e qualidade dos exames realizados e com a ponderação definida para cada um deles.
+Denominador: Contagem de grávidas."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do ""score de realização de exames laboratoriais do 3º trimestre"" determinado para cada grávida incluída no denominador. O ""score de realização de exames laboratoriais do 3º trimestre"" de cada grávida pode variar entre 0 e 1 de acordo com o número e qualidade dos exames realizados e com a ponderação definida para cada um deles.
+O ""score de realização de exames laboratoriais do 3º trimestre"" é calculado apenas para os utentes incluídos no denominador, somando, para cada utente, as ponderações das regras a seguir discriminadas que sejam verdadeiras.
+Regra
+Descrição de Regra
+Ponder.
+A
+Ter pelo menos um registo de resultado de [hemograma], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,125
+B
+Ter pelo menos um registo de resultado de [VDRL], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,125
+C
+A condição [C1 ou (C2 e C3)] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+C1. Registo de estado de [imune para a toxoplasmose] (serologia toxoplasmose - IgG positiva), com registo entre o nascimento da grávida e o 301º dia de gravidez.
+C2. Ter pelo menos um registo de resultado de [Serologia Toxoplasmose - IgG], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação.
+G3. Ter pelo menos um registo de resultado de [Serologia Toxoplasmose - IgM], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação.
+0,125
+D
+A condição [D1 ou D2 ou D3] é verdadeira (ver alíneas A, B e H de OBSERVAÇÕES GERAIS):
+D1. O diagnóstico de ""Infeção VIH/SIDA"" (rubrica ICPC B90) encontra-se na lista de problemas, com o estado de ""ativo"" ao 266º dia de gravidez.
+D2. Ter pelo menos um registo de resultado de [Ac. VIH 1 e 2], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação.
+D3. Existência de pelo menos um resultado de ""teste rápido para VIH"", com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação.
+0,25
+E
+A condição [E1 ou E2 ou E3] é verdadeira (ver alíneas A e B de OBSERVAÇÕES GERAIS):
+E1. O diagnóstico de ""Hepatite viral"" (rubrica ICPC D72) encontra-se na lista de problemas, com o estado de ""ativo"" ao 266º dia de gravidez.
+E2. Inoculação e registo da 3ª dose (ou superior) de [vacina contra hepatite B], com data de realização e data de registo até ao 266º dia de gravidez (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+E3. Ter pelo menos um registo de resultado de [AgHBs], com data de realização entre as [32; 38[ semanas ([218; 266] dias) de gestação.
+0,125
+F
+Ter pelo menos um registo de resultado de [Pesquisa de streptococcus ß hemolítico do grupo B], com data de realização entre as [35; 38[ semanas ([246; 266] dias) de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+0,25
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Ser mulher;
+B. Gravidez registada no módulo ou no programa de saúde materna;
+C. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez] (ver alíneas C e D de OBSERVAÇÕES GERAIS);
+D. Gravidez não classificada como aborto (ver alínea G de OBSERVAÇÕES GERAIS);
+E. O 301º dia de gestação (41 Semanas e 6 Dias) pertencente ao período em análise (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+F. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período compreendido entre as [32; 38[ semanas ([218; 266] dias) de gestação (ver alíneas A e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A datação da gravidez faz-se por regra a partir da [data prevista de parto corrigida] registada no módulo ou programa de saúde materna. Caso a [data prevista de parto corrigida] não esteja registada, a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+B. Os códigos da tabela de MCDT convencionados válidos para este indicador são os seguintes:
+a) Hemograma: Código A1080.9 e descritivo ""Hemograma com fórmula leucocitária (eritrograma, contagem de leucócitos, contagem de plaquetas, fórmula leucocitária e morfologia), s"".
+b) VDRL: Código A875.3 e descritivo ""Reação de VDRL com titulação""
+c) Serologia Toxoplasmose - IgG: Código A1164.3 e descritivo ""Anticorpos para Toxoplasma gondii - IgG""
+d) Serologia Toxoplasmose - IgM: Código A1165.1 e descritivo ""Anticorpos para Toxoplasma gondii – IgM""
+e) Ac. VIH 1 e 2: Código A1308.5 e descritivo ""Anticorpos para VIH 1 e 2 (inclui confirmação)""
+f) Anticorpos para VIH 1 e 2, código A868.0 (código atualmente inválido para prescrever)
+g) AgHBs: Código A1130.9 e descritivo ""Antigénio de vírus da Hepatite B - Hbs""
+h) Pesquisa de streptococcus ß hemolítico do grupo B: Código A1214.3 e descritivo ""Streptococcus do grupo B - deteção em exsudado vaginal/rectal em grávidas""
+Os exames laboratoriais só são considerados no numerador se tiverem um resultado registado. A requisição do exame, sem registo de resultado não é suficiente para fazer cumprir a regra relacionada com o exame.
+A data que deve ser usada para verificar se estes exames são ou não realizados atá às 41 semanas mais 6 dias (301º dia de gestação) é a ""data de realização"". O resultado deve ser preenchido, no máximo, até ao 301º dia de gestação, que supera em 8 semanas a data limite superior para a respetiva realização.
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data início] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+E. Excluem-se do denominador (e consequentemente do numerador) as grávidas que não tenham estado inscritas na unidade de saúde durante pelo menos um dia do período em que é necessária a realização dos exames laboratoriais ([218; 266] dias).
+F. Consideram-se no denominador as grávidas com 41 semanas e seis dias de gestação para existir tempo para que os resultados dos exames laboratoriais sejam registados nos sistemas de informação.
+G. A classificação do registo de gravidez como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS.
+H. Os ""Testes rápidos serológicos para deteção do VIH-1/VIH-2"" quando disponíveis para realização na unidade de saúde, devem ser registados no módulo de análises/MCDT (sem registo de requisição), usando o código disponível para o exame laboratorial convencionado (referido na alínea C de OBSERVAÇÕES GERAIS). Adicionalmente pode também ser usado o teste referenciado na tabela de preços do SNS com o código 26344: ""VIH (vírus da imunodeficiência humana) – teste rápido""."
+Observações Sobre Software,"MEDICINEONE
+A. Não possui local próprio para registo de ""Testes rápidos serológicos para deteção do VIH-1/VIH-2"". Os mesmos, quando realizados são registados no módulo de análises, usando o campo para a serologia do VIH, sem emissão prévia de requisição de MCDT.
+SClínico - perfil médico:
+A. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea C de OBSERVAÇÕES GERAIS deve ter a seguinte leitura:
+O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+B. O registo do resultado do teste rápido VIH encontra-se disponível na janela de MCDT's, na área ou grupo ""Outros MCDT não comparticipados"", com a designação ""VIH (vírus da imunodeficiência humana) – teste rápido"" e código = ""9999"". O código interno correspondente é o do respetivo exame na tabela de preços do SNS: 26344.
+SClínico - perfil de enfermagem:
+A. O registo do resultado do teste rápido VIH encontra-se acessível no SClínico - perfil de enfermagem, nas versões 2.3 e seguintes, através da intervenção de enfermagem ""Avaliar teste diagnóstico""(9004384) que se encontra associada á atitude terapêutica ""TESTE RAPIDO VIH""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 301º dia de gestação (medido a partir da DUM) pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Os períodos em análise das variáveis do denominador e do numerador têm maioritariamente como referencial a datação da gestação:
+A. Numerador (Variável ""Hemograma""): A data de realização deve pertencer ao intervalo [218; 266] dias de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+B. Numerador (Variável ""VDRL""): A data de realização deve estar entre as [32; 38[ semanas ([218; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+C. Numerador (Variável ""Imune para a toxoplasmose""): A data de registo pode estar entre o nascimento da grávida e o 301º dia de gestação.
+D. Numerador (Variável ""Serologia Toxoplasmose – IgG""): A data de realização deve estar entre as [32; 38[ semanas ([218; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+E. Numerador (Variável ""Serologia Toxoplasmose – IgM""): A data de realização deve estar entre as [32; 38[ semanas ([218; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+F. Numerador (Variável ""Diagnóstico de Infeção VIH/SIDA""): Deve estar ativo ao 266º dia de gravidez.
+G. Numerador (Variável ""Ac. VIH 1 e 2""): A data de realização deve estar entre as [32; 38[ semanas ([218; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+H. Numerador (Variável ""Diagnóstico de ""Hepatite viral""""): Deve estar ativo ao 266º dia de gravidez.
+I. Numerador (Variável ""Registo de ""3ª dose (ou superior) de [vacina contra hepatite B]""""): Registo entre o nascimento e o 266º dia de gravidez.
+J. Numerador (Variável ""AgHBs""): A data de realização deve estar entre as [32; 38[ semanas ([218; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+K. Numerador (Variável ""Pesquisa de streptococcus ß hemolítico do grupo B""): A data de realização deve estar entre as [35; 38[ semanas ([246; 266] dias) de gestação. A data de registo deve ser anterior ao 301º dia de gestação.
+S. Denominador (Variável ""Ser mulher""): Medido na data de referência do indicador.
+T. Denominador (Variável ""Gravidez registada no módulo ou no programa de saúde materna""): à data de referência do indicador.
+U. Denominador (Variável ""Registo do diagnóstico médico de gravidez""): Medido na data de referência do indicador, tendo que ter estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez];
+V. Denominador (Variável ""Aborto""): à data de referência do indicador.
+X. Denominador (Variável ""Inscrição ativa""): Analisada no intervalo [218; 266] dias de gestação."
+Fórmula,AA / BB
+Unidade de medida,Índice (escala valores entre 0 e 1)
+Output,Com dados desde Dezembro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [0.43; 1]
+Ano de 2023: [0.43; 1]
+Ano de 2024: [0.43; 1]"
+Intervalo Esperado,"Ano de 2022: [0.3; 1]
+Ano de 2023: [0.3; 1]
+Ano de 2024: [0.3; 1]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias

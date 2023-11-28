@@ -1,0 +1,44 @@
+titulo,texto
+ID,171
+Código,6.37.02
+Código SIARS,8.3
+Nome abreviado,"Percent. crianças 6A, c/ ex. global saúde"
+Designação,"Percentagem de crianças, com 6 anos completos, que realizaram o exame global de saúde"
+Objetivo,"Monitorizar o programa de saúde infantil (coorte dos 6 anos). Parâmetro ""exame global de saúde"""
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com exame global de saúde realizado, entre as que completam 6 anos.
+Numerador: Contagem de crianças com exame global de saúde realizado.
+Denominador: Contagem de crianças que completam 6 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter exame global de saúde realizado entre os 5 anos e a data de referência do indicador.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 6 anos de idade durante o ano civil em curso;
+B. [
+Inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise."
+Observações Gerais,"A. O programa de saúde infantil prevê que o exame global de saúde dos 5-6 anos seja realizado entre as datas do 5º e do 7º aniversário.
+No entanto, este indicador inclui no denominador as crianças cujo 6º aniversário ocorre durante o período em análise, e no numerador as crianças com pelo menos uma consulta realizada entre o 5º aniversário e a data de referência do indicador.
+Assim, a forma como o indicador foi concebido, faz com que existam falsos negativos no numerador, isto é, que existam crianças que realizaram o exame global antes do 7º aniversário e após a data de referência do indicador, que são contabilizadas no denominador e não são no numerador."
+Observações Sobre Software,"SClínico:
+A. A deteção do exame global de saúde faz-se através do respetivo registo nas avaliações do programa de saúde infantil.
+MEDICINEONE
+A. A deteção do exame global de saúde faz-se através do respetivo registo nas biometrias do programa de saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O indicador tem um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar6 anos de vida no ano civil em curso.
+- Numerador (variável ""exame global de saúde""): Coincidente com o intervalo compreendido entre a data do 5ºaniversário de cada criança incluída no denominador e a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): duração de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [6; 7[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

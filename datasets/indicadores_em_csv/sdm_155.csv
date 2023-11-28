@@ -1,0 +1,42 @@
+titulo,texto
+ID,155
+Código,7.06.06
+Código SIARS,7.6 d2
+Nome abreviado,"Despesa med. prescritos, por utiliz. SNS (V.Comp)"
+Designação,"Despesa média de medicamentos prescritos, por utente utilizador do SNS (baseado no valor comparticipado)"
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa em medicamentos prescritos a utilizadores do SNS - valor comparticipado"""
+Descrição do Indicador,"Indicador que exprime a despesa média de medicamentos prescritos, por utente utilizador do SNS, baseada no valor comparticipado.
+Numerador: Somatório do valor comparticipado de medicamentos prescritos.
+Denominador: Contagem de utentes utilizadores do SNS."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do valor comparticipado dos medicamentos em que a expressão [A e B] é verdadeira:
+A. Prescritos durante o período em análise, a utentes incluídos no denominador;
+B. Prescritos por qualquer médico ou interno da unidade de observação;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de observação, durante pelo menos um dia do período em análise.
+B. Ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde).
+C. Ter o SNS como entidade responsável pelo pagamento de receitas."
+Observações Gerais,"A. Não inclui no numerador as receitas de subsistemas.
+B. Não inclui no denominador os utentes dos subsistemas.
+C. Não são contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos, cujo PVP não esteja registado nas tabelas de medicamentos do Infarmed. Sucede assim com a maior parte dos medicamentos ""não comparticipados"".
+- Medicamentos prescritos e pertencentes a receitas anuladas até 30 dias após a data de prescrição;
+- Medicamentos prescritos em receitas manuais (p.e. por falência do sistema eletrónico de prescrição).
+- Medicamentos prescritos na área de ""outros medicamentos"" dos software de prescrição. Esta área apenas deve ser usada para prescrever medicamentos não existentes na tabela de medicamentos do Infarmed."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com medicamentos
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

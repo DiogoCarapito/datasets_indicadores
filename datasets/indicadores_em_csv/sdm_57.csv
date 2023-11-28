@@ -1,0 +1,78 @@
+titulo,texto
+ID,057
+Código,6.13.01
+Código SIARS,2013.057.01
+Nome abreviado,Proporção RN com TSHPKU realizado até ao 6º dia
+Designação,"Proporção de recém-nascidos, com diagnóstico precoce (TSHPKU) realizado até ao sexto dia de vida"
+Objetivo,"Monitorizar o programa de saúde infantil. Parâmetro ""realização de diagnóstico precoce""."
+Descrição do Indicador,"Indicador que exprime a proporção de recém-nascidos com diagnóstico precoce (TSHPKU) realizado até ao sexto dia de vida.
+Numerador: Contagem de recém-nascidos com diagnóstico precoce (TSHPKU) realizado até ao sexto dia de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com realização de diagnóstico precoce (TSHPKU), nos primeiros 6 dias de vida (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2016.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise (ver alíneas A, C e D de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] ou [esporádica] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 30 dias de vida (ver alíneas A, C e D de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 60 dias de vida (ver alíneas A, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2017.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 30 dias de vida (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para efeitos de datação do tempo de vida em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido no final do dia.
+B. Contabilizam-se registos de TSHPKU (ou teste de Guthrie) desde que a respetiva data de realização ocorra até ao 7º dia de vida da criança, e desde que o registo ocorra até 30 dias após a data de referência do indicador. Os registos podem ser feitos por qualquer médico, interno ou enfermeiro da unidade de saúde. Aceitam-se registos até ao D7 porque os sistemas fonte não registam a hora de nascimento da criança, nem a hora de realização do teste. Desta forma garante-se que os utentes incluídos no numerador, realizam o exame até, em média, 144 horas (6 dias completos) após a hora de nascimento.
+C. Contabilizam-se crianças que se inscrevam antes do 30º dia de vida na unidade de saúde como esporádicas (p.e. por o nome ainda não estar registado na conservatória do registo civil), desde que o registo da [
+inscrição ativa
+] seja feito até ao 60º dia de vida e desde que se processe a uma alteração do registo de [inscrição esporádica] para [
+inscrição ativa
+] (ver conceito de [
+inscrição ativa
+]). Caso o procedimento seja o da anulação do registo ""esporádico"", com criação de um novo registo com [
+inscrição ativa
+], a criança será contabilizada no denominador mas não será possível a contabilização para o numerador pois o novo registo não terá o TSHPKU registado. Assim, o prazo para registos neste indicador é de 30 dias por forma a possibilitar os registos de [
+inscrição ativa
+] até ao 60º dia de vida. Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+D. Se uma criança apenas se inscrever na unidade de saúde após os 30 dias de vida (p.e. por internamento hospitalar até aos 35 dias de vida), não é contabilizada no denominador (nem no numerador). Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+E. O teste do pezinho pode também ser designado por teste de Guthrie.
+F. A partir de janeiro de 2017 o SIARS tem como fonte de dados para ""inscrição de utentes"" o RNU, que não contempla o conceito de ""inscrição esporádica""."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Registo de TSHPKU deve ser feito na [avaliação inicial], em [saúde infantil] > [desenvolvimento infantil] > [diagnóstico precoce], ou através da [atitude terapêutica] “COLHEITA DE SANGUE P/ ESTUDO DE DIAGNÓSTICO PRECOCE” (90000045)
+B. São considerados os dados documentados na [avaliação inicial] ou na [atitude terapêutica].
+C. O Código lido na [avaliação inicial] é o ""TREDIAP"".
+SCLÍNICO - PERFIL MÉDICO:
+A. Não existe campo de registo de TSHPKU.
+MEDICINEONE:
+A. O registo de TSHPKU deve ser feito no módulo de saúde infantil, tabulador [pré/neo-natal]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. São incluídas crianças que completam 30 dias de vida nesse período.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de TSHKPU inicia-se com o nascimento e termina 30 dias após a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador. São incluídas crianças que completam 30 dias durante o respetivo período em análise.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de TSHKPU inicia-se com o nascimento e termina 30 dias após a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [94; 100]
+Ano de 2023: [94; 100]
+Ano de 2024: [94; 100]"
+Intervalo Esperado,"Ano de 2022: [83; 100]
+Ano de 2023: [83; 100]
+Ano de 2024: [83; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias

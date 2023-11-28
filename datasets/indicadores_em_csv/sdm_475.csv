@@ -1,0 +1,52 @@
+titulo,texto
+ID,475
+Código,6.01.25
+Código SIARS,2023.475.01
+Nome abreviado,Proporção utentes DPOC com registo de GRT
+Designação,"Proporção de utentes com DPOC, com registo de gestão do regime terapêutico no último ano"
+Objetivo,"Avaliar a gestão do regime terapêutico na asma.
+Monitorizar o Programa Nacional para as Doenças Respiratórias - Parâmetro ""gestão do regime terapêutico""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com doença pulmonar obstrutiva crónica, com registo da gestão do regime terapêutico no último ano.
+Numerador: Contagem de utentes inscritos com doença pulmonar obstrutiva crónica com registo da gestão do regime terapêutico no último ano.
+Denominador: Contagem de utentes inscritos com codificação de doença pulmonar obstrutiva crónica (R95 da ICPC-2) na lista de problemas ativos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma avaliação e registo de gestão do regime terapêutico nos 3 itens (hábitos alimentares, hábitos de exercício físico e regime medicamentoso), ou manutenção do estado ativo, efetuado por um dos enfermeiros da unidade de saúde, nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B ] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. O diagnóstico de ""DPOC"" (rubrica ICPC R95) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas B, C, D e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O registo resultante da avaliação no âmbito da gestão do regime terapêutico está operacionalizado no processo de enfermagem através da correspondente intervenção diagnóstica e processo descrito em OBSERVAÇÕES SOBRE SOFWARE.
+Esta intervenção de enfermagem recolhe informação sobre cada uma das 3 componentes indexadas à gestão do regime terapêutico, nomeadamente:
+- Regime de exercício.
+- Regime dietético.
+- Regime medicamentoso.
+Para este efeito, são considerados os dados documentados em qualquer uma das 3 componentes.
+B. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+C. Critérios de R95 (ICPC-2): Evidências objetivas de obstrução das vias respiratórias, não aliviada ou apenas parcialmente aliviada pelos broncodilatores.
+D. O R95 inclui (ICPC-2): Enfisema; obstrução crónica das vias respiratórias, do pulmão, doença pulmonar; limitação crónica das vias respiratórias.
+E. O R95 exclui (ICPC-2): Bronquite crónica R79, asma R96, bronquiectásias R99, fibrose quística T99."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A leitura deste indicador é baseada nos registos da intervenção de enfermagem ""Avaliar gestão do regime terapêutico"" (código 9004025), onde se encontram especificados dados relativos às componentes:
+- Capacidade para gerir regime de exercício.
+- Capacidade para gerir regime dietético.
+- Capacidade para gerir regime medicamentoso.
+A intervenção ""Avaliar gestão do regime terapêutico"" (código 9004025) está disponível no [SClínico], associada ao foco de atenção ""Gestão do Regime Terapêutico""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de GRT”): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""código ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,337 @@
+titulo,texto
+ID,394
+Código,8.20.01
+Código SIARS,2017.394.01
+Nome abreviado,"Score dimensão ""formação internos e alunos"""
+Designação,"Score para avaliação da dimensão ""formação de internos e alunos"" da subárea ""formação interna"""
+Objetivo,"Possibilitar a avaliação da dimensão ""formação de internos e alunos"" da subárea ""formação interna"" da matriz de contratualização das unidades funcionais dos ACES."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional cumpre os critérios definidos pela
+checklist
+de avaliação desta dimensão."
+Regras de cálculo,"Este indicador tem 3
+resultados possíveis
+, que se obtém através do preenchimento 
+    anual de uma
+checklist
+que possui um conjunto de
+critérios/regras
+para obtenção dos resultados em pontos para este 
+    indicador.
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se de seguida as variáveis que é necessário recolher para que seja possível produzir 
+    o score da dimensão ""formação de internos e alunos"":
+ID
+Código da Variável
+Nome da Variável / definição da variável / fórmula
+Valores possíveis para a variável
+Obrigatória
+Upload de evidências
+Quem preenche
+Inicio
+Fim
+1
+394.01
+O Manual de Acolhimento dos Internos / Alunos contempla a resposta às questões 
+         ""Quem somos?"", ""Quem servimos?"" e ""O que oferecemos?""
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+2
+394.02
+O Manual de Acolhimento dos Internos / Alunos define ""Como estamos organizados?"" 
+         (por exemplo núcleos, grupos de atividades, etc) e ""procedimentos em vigor"" (por 
+         exemplo férias, intersubstituição, utilização do bar, etc.)
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+3
+394.03
+O Manual de Acolhimento dos Internos / Alunos responde à questão ""O que 
+         fazemos?"" (por exemplo resumo do Relatório de Atividades e do Plano de Ação, 
+         Plano de Formação Interna, entre outros)
+C - Cumpre
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2017
+--
+4
+394.04
+Nº de internos de medicina que entraram para a unidade funcional durante o ano 
+         de contratualização.
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Não
+Unidade funcional
+2017
+--
+5
+394.05
+Nº de internos de medicina que a quem foi formalmente entregue e com quem foi 
+         formalmente discutido o ""manual de acolhimento"".
+Numéricos inteiros iguais ou superiores a 0
+Sim
+Sim
+Unidade funcional
+2017
+--
+7
+394.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+Data no formato dd-mm-yyyy
+Sim
+Não
+Automático
+2017
+--
+7
+394.DATA.C.FIM
+Último dia do ano de contratualização
+Data no formato dd-mm-yyyy
+Sim
+Não
+Automático
+2017
+--
+CRITÉRIOS PARA AVALIAÇÃO DA CHECKLIST PARA ATRIBUIÇÃO DE 0, 1 OU 2 PONTOS AO 
+    RESULTADO DO INDICADOR
+O resultado do presente indicador é definido pelas condições seguintes:
+Critério
+Condição
+Resultado
+A unidade funcional 
+         cumpre todos os requisitos pré-definidos relativamente ao manual de acolhimento 
+         de internos e alunos e entregou-o e discutiu-o formalmente com todos.
+Obtém 2 pontos como resultado no indicador (score)
+A condição [A e B e C e D e E e 
+         F] for verdadeira:
+A. [394.01] = ""C""
+B. [394.02] = ""C""
+C. [394.03] = ""C""
+D. [394.04] >= 1
+F. [394.04] = [394.05]
+2
+A unidade funcional 
+         cumpre todos os requisitos pré-definidos relativamente ao manual de acolhimento 
+         de internos e alunos mas não o entregou ou discutiu formalmente com todos.
+Obtém 1 ponto como resultado no indicador (score)
+A condição [A e B e C e 
+         (D ou (E e F))] for verdadeira:
+A. [394.01] = ""C""
+B. [394.02] = ""C""
+C. [394.03] = ""C""
+D. [394.04] = 0
+E. [394.04] > 0
+F. [394.04] 
+         > [394.05]
+1
+A unidade funcional não cumpre critérios para ter 2 pontos nem para ter 1 ponto.
+Adicionalmente o dia de recolha das variáveis da
+checklist
+para o cálculo do 
+         indicador ultrapassa o último dia do ano de contratualização.
+A condição [A e B] é verdadeira:
+A. Não cumpre critérios para ter 2 pontos;
+B. Não cumpre critérios para ter 1 ponto;
+0"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades 
+        adicionais associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencenteas ao conjunto {-1, 0, 1, 2}, não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+Quando o resultado é igual a ""-1"", tal significa que não estão reunidas as 
+    condições para calcular o indicador pelo que a ponderação da dimensão na subárea 
+    é distribuída pelas restantes dimensões da mesma subárea, tal como definido na 
+    legislação aplicável ao cálculo do IDG.
+C02
+IDS da dimensão ""formação de internos e alunos""
+O [IDS da dimensão ""formação de internos e alunos""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""formação de internos e alunos""] = 100 x [Score dimensão ""formação 
+    da equipa multiprofissional""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO, 
+    registadas pela unidade funcional.
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --
+Exemplo de Cálculo
+(a
+amarelo
+campos de preenchimento pela 
+    equipa)
+Unidade funcional que já preencheu o RAUF relativamente ao ano de 
+    2017.
+Data de referência do indicador a ser calculado: dezembro de 2017.
+Data de recolha das variáveis: 05-01-2018
+ID
+Código da Variável
+Nome da Variável / definição da variável / fórmula
+Valor
+1
+394.01
+O Manual de Acolhimento dos Internos / Alunos contempla a resposta às questões 
+         ""Quem somos?"", ""Quem servimos?"" e ""O que oferecemos?""
+C
+2
+394.02
+O Manual de Acolhimento dos Internos / Alunos define ""Como estamos organizados?"" 
+         (por exemplo núcleos, grupos de atividades, etc) e ""procedimentos em vigor"" (por 
+         exemplo férias, intersubstituição, utilização do bar, etc.)
+C
+3
+394.03
+O Manual de Acolhimento dos Internos / Alunos responde à questão ""O que 
+         fazemos?"" (por exemplo resumo do Relatório de Atividades e do Plano de Ação, 
+         Plano de Formação Interna, entre outros)
+C
+4
+394.04
+Nº de internos de medicina que entraram para a unidade funcional durante o ano 
+         de contratualização.
+3
+5
+394.05
+Nº de internos de medicina que a quem foi formalmente entregue e com quem foi 
+         formalmente discutido o ""manual de acolhimento"".
+2
+46
+394.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+05-01-2018
+47
+394.DATA.C.FIM
+Último dia do ano de contratualização
+31-12-2017
+RESULTADO DO INDICADOR
+Os dados introduzidos na
+checklist
+permitem afirmar que a condição [A e B e C e 
+    (D ou (E e F))] for verdadeira:
+A. [394.01] = ""C""
+B. [394.02] = ""C""
+C. [394.03] = ""C""
+D. [394.04] = 0
+E. [394.04] > 0
+F. [394.04] 
+         > [394.05]
+Assim, a unidade funcional cumpre todos os requisitos pré-definidos 
+    relativamente ao manual de acolhimento de internos e alunos mas não o entregou 
+    ou discutiu formalmente com todos.
+Obtém 1 ponto como resultado no indicador (score)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
+Fórmula,Aplicação de checklist
+Unidade de medida,Score
+Output,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,Formação | Formação Interna | Formação de Internos e Alunos
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

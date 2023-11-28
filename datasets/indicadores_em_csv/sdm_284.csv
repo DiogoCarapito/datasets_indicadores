@@ -1,0 +1,51 @@
+titulo,texto
+ID,284
+Código,6.49.01
+Código SIARS,2013.284.01
+Nome abreviado,Propor. uten. c/ alta ECCI c/ objet. atingidos
+Designação,Proporção de utentes com alta da ECCI com objetivos atingidos
+Objetivo,"Avaliar a capacidade da ECCI para implementar o [plano individual de intervenção multidisciplinar] de cada utente, de forma a atingir os objetivos inicialmente estabelecidos."
+Descrição do Indicador,"Exprime a proporção de utentes [integrados na ECCI] no ano, com alta e [objetivos atingidos].
+Numerador: Contagem de utentes [integrados na ECCI] no ano, com alta e [objetivos atingidos].
+Denominador: Contagem de utentes [integrados na ECCI]."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições do denominador.
+B. A alta foi qualificada no sistema de informação como ""Atingidos os objetivos"" (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alíneas B e D de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias (ver alínead C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São consideradas as altas qualificadas no sistema de informação como ""Atingidos os objetivos"". Não são contabilizadas as que são qualificadas como um dos seguintes ou equivalentes:
+- Óbito
+- Internamento hospitalar
+- Transferência para outra tipologia
+- Outros
+B. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+C. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+D. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de alta] da ECCI prévia à constituição da UCC, não influenciam o denominador nem o numerador deste indicador.
+E. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO. O GestCare nunca é fonte de dados para este indicador."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A alta é efetuada no painel ""utentes referenciados (ECCI)"", através do botão ""Termo""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [75; 100]
+Ano de 2023: [75; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [62; 100]
+Ano de 2023: [62; 100]
+Ano de 2024: [62; 100]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

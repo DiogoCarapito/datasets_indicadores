@@ -1,0 +1,99 @@
+titulo,texto
+ID,080
+Código,8.02.01
+Código SIARS,2013.080.01
+Nome abreviado,Número UCs diabéticos (ativ. específ.)
+Designação,Número de unidades de contratualização relacionadas com vigilância de utentes com diabetes (atividades específicas)
+Objetivo,"Monitorizar o programa de diabetes e cálculo do número de UCs a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas""."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de utentes com diabetes (atividades específicas).
+Numerador: Produto entre o [número de utentes com diabetes com acompanhamento adequado] e o [fator de ponderação 4].
+Denominador: Contagem de médicos da unidade."
+Regras de cálculo,"UTENTES COM DIABETES COM ACOMPANHAMENTO ADEQUADO (AA):
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G e H] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+B. O diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+C. Ter pelo menos 2 consultas médicas de vigilância da diabetes, realizadas nos últimos 12 meses, em dias diferentes (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+D. Com pelo menos 2 registos de pressão arterial registados nos últimos 12 meses (ver alíneas C, D e E de OBSERVAÇÕES GERAIS).
+E. Com pelo menos 2 registos de resultado de HbA1c nos últimos 12 meses, em dias diferentes (ver alíneas F, G e H de OBSERVAÇÕES GERAIS e comentários de PERÍODO EM ANÁLISE).
+F. Com pelo menos um resultado de HbA1c igual ou inferior a 8.5%, registado nos últimos 12 meses (ver alíneas F, G e H de OBSERVAÇÕES GERAIS).
+G. Ter pelo menos um resultado de microalbuminúria (ou análise equivalente), realizada nos últimos 12 meses (ver alínea J de OBSERVAÇÕES GERAIS).
+H. Ter pelo menos um resultado de colesterol total, colesterol HDL e triglicéridos, realizados nos últimos 12 meses (ver alínea K de OBSERVAÇÕES GERAIS).
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador (ver alínea I de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em diabetes, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de diabetes, que podem ser usados para a classificar como ""problema de saúde da consulta"" são o T89 ou o T90.
+B. Apenas se contabiliza uma consulta médica por utente por dia;
+C. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+D. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+E. Não se contabilizam registos de pressão arterial realizados em texto livre no SOAP;
+F. O código da tabela de MCDT, válido para registar HbA1c é o A531.2. Quando esta análise for efetuada na unidade de saúde (utilizando doseadores próprios) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+G. Apenas se contabilizam HbA1c com resultado registado.
+H. A data que deve ser usada para verificar se a HbA1c está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+I. O número de médicos a contabilizar quando a unidade de observação é uma USF é o que se encontra no documento de candidatura ou no último documento oficial publicado onde se especifique o nº de lugares no quadro para a equipa médica. Se um médico se encontra a meio tempo, conta meia unidade para esta variável. Se uma unidade de saúde possui um ou vários médicos com ausências de longa duração, esses médicos são contabilizados. Quando a unidade de observação é uma UCSP, o número de médicos é o que constar do respetivo mapa de pessoal. Quando a unidade de observação é o próprio médico, a variável assume o valor 1 ou 0,5 respetivamente para médicos a tempo inteiro ou a meio tempo. Quando a unidade de observação é o ACES, a variável é igual ao somatório dos médicos das respetivas USF e UCSP (contabilizadas de acordo com as regras acima discriminadas).
+J. Os códigos da tabela de MCDT, válidos para registar microalbuminúria (ou análise equivalente) são os seguintes: A560.6 (microalbuminúria), A1318.2 (Albumina de baixa concentração) e A596.7 (proteinúria). O código da microalbuminúria A560.6 permite requisitar a [microalbuminúria de 24 horas], a [microalbuminúria de 12 horas] e a [microalbuminúria em amostra de urina]. Quando esta análise for efetuada na unidade de saúde (utilizando p.e. o Micralteste) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. Apenas se contabilizam microalbuminúrias ou as proteinúrias com resultado registado. A data que deve ser usada para verificar se a microalbuminúria está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+K. Os códigos da tabela de MCDT, válidos para o colesterol total, para o colesterol HDL e para os triglicéridos são respetivamente o A1029.9, o A412.0 e o A620.3. A data que deve ser usada para verificar se estas análises estão ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 30 dias após a data de referência do indicador. As análises podem ser requisitadas em documentos diferentes. A data de realização das 3 análises pode ser diferente."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna e planeamento familiar.
+C. A microalbuminúria pode ser registada no módulo de MCDT e em campos específicos existentes na ficha de hipertensão e na ficha de diabetes.
+MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+C. A HbA1c podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS apenas contabiliza os registados no módulo de análises.
+D. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+E. A proteinúria, o colesterol total, o colesterol HDL e os triglicéridos podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+F. A microalbuminúria pode ser requisitada e registada quer através do módulo de análises quer através do módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+G. A microalbuminúria pode também ser registada nos campos criados para o efeito quer no módulo de hipertensão, quer no módulo de diabetes.
+H. Os registos de exame dos pés devem ser realizados no módulo de diabetes, usando um dos campos seguintes: a) rastreio do pé; b) exames dos pés."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""Diabetes na lista de problemas"": Coincidente com a data de referência do indicador.
+- variável ""Consulta médicas"": Duração de 12 meses, terminando na data de referência do indicador.
+- variável ""Registos de pressão arterial"": Duração de 12 meses, terminando na data de referência do indicador.
+- variável ""Registo de HbA1c"": Duração de 12 meses, terminando na data de referência do indicador.
+- variável ""HbA1c igual ou inferior a 8,5%"": Duração de 12 meses, terminando na data de referência do indicador.
+- variável ""microalbuminúria"": Duração de 12 meses, terminando na data de referência do indicador.
+- variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Variável ""Diabetes na lista de problemas"": Coincidente com a data de referência do indicador.
+- variável ""Consulta médicas"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registos de pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registo de HbA1c"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""HbA1c igual ou inferior a 8,5%"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA x 4 / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

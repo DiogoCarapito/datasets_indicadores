@@ -1,0 +1,71 @@
+titulo,texto
+ID,476
+Código,3.41.01
+Código SIARS,2023.476.01
+Nome abreviado,Prop. utentes referenc. SNS 24 p/ CSP c/ consulta
+Designação,"Proporção de utentes referenciados pelo SNS 24 para os CSP, com consulta médica na UF de inscrição no tempo definido no fluxograma de referenciação"
+Objetivo,"Avaliar a realização de consulta médica nos CSP após referenciação pelo SNS 24, nos tempos definidos pelo mesmo."
+Descrição do Indicador,"Este indicador avalia a realização de consulta médica após referenciação do SNS 24 para os CSP, a utentes na UF de inscrição.
+O SNS 24 é um serviço é o balcão digital do SNS que permite ao cidadão aceder a informações e serviços de saúde, de forma cómoda e simples.
+A avaliação pelo SNS 24 é realizada por enfermeiros e segue fluxogramas definidos. Desta avaliação podem ocorrer referenciações para os CSP com 2 tipos de tipologia:
+- Recomendação para consulta médica até 3 dias (CSP-3D);
+- Recomendação para consulta médica até 12 horas (CSP-12H).
+Este indicador exprime a proporção entre o número de referenciações pela SNS 24 para os CSP e o número de utentes com pelo menos uma consulta médica realizada na sua uniadde funcional de inscrição até ao termo do tempo recomendado para que essa consulta ocorresse.
+Numerador: Contagem de utentes com consultas médica realizada na UF de inscrição no tempo previsto aquando da referenciação (CSP-12H e CSP-3D).
+Denominador: Contagem de utentes referenciados pelo SNS 24 aos CSP."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos com o SNS 24 em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Para referenciações do tipo CSP-3D, ter pelo menos uma consulta médica presencial ou não presencial, na UF de inscrição, até 3 dias após o dia em que ocorreu a referenciação pelo SNS 24 (ver alíneas B e C de OBSERVAÇÕES GERAIS).
+C. Para referenciações do tipo CSP-12H, ter pelo menos uma consulta médica presencial ou não presencial, na UF de inscrição, até ao dia seguinte àquele em que ocorreu a referenciação pelo SNS 24 (ver alíneas B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de contactos com o SNS 24 em que a expressão [A e B e C e D e E e Fe G] é verdadeira (ver alíneas A, D, E, F e G de OBSERVAÇÕES GERAIS):
+A. Contacto com o SNS 24 terminado nos 12 meses que antecedem a data de referencia do indicador.
+B. Contacto com SNS 24 culminou numa referenciação para os CSP com indicação para consulta médica nas 12 horas seguintes (CSP-12H) ou nos 3 dias seguintes (CSP-3D).
+C. O Utente que efetuou o contacto com o SNS 24 tem
+[inscrição ativa]
+numa unidade funcional dos CSP no mês de contacto com o SNS 24 (ver alínea A de OBSERVAÇÕES GERAIS).
+D. São excluídas do denominador as referenciações do SNS 24 do tipo CSP-12H realizadas à sexta-feira, sábado e na véspera de feriados nacionais ou municipais.
+E. São excluídas do denominador as referenciações do SNS 24 do tipo CSP-3D realizadas à quinta-feira sempre que o dia seguinte seja feriado nacional ou municipal.
+F. São excluídas do denominador as referenciações do SNS 24 do tipo CSP-3D realizadas à sexta-feira sempre que a segunda-feira seguinte seja feriado nacional ou municipal.
+G. São excluídas do denominador as referenciações do SNS 24 do tipo CSP-12H e CSP-3D realizadas respetivamente nos 2 e nos 4 últimos dias do período em análise do indicador."
+Observações Gerais,"A. São contabilizados no denominador (e consequentemente no numerador) apenas os utentes com
+[Inscrição ativa]
+nos CSP no mês de referenciação pelo SNS 24.
+B. São contabilizadas no numerador as consultas realizadas por qualquer médico ou interno, desde que registadas com login SClínico na uniade funcional de inscrição do utente. Significa isto que consultas realizadas por exemplo em serviços de atendimento complementar, ainda que dentro do tempo indicado aquando da referenicação, não são contabilizadas no numerador.
+C. Os utentes contabilizados no numerador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial], com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+D. Quando a unidade de observação do indicador é um médico ou um enfermeiro, contabilizam-se no denominador os contactos com o SNS 24 cujos utentes estavam iscritos no no respetivo ficheiro na data de referenciação e no numerador os utentes com consulta médica nessa UF, por qualquer médico ou interno, no tempo definido no fluxograma de referenciação.
+E. Quando a unidade de observação do indicador é uma unidade funcional (USF, UCSP ou unidades afins), contabilizam-se no denominador os contactos com o SNS 24 de utentes que na data de referenciação estavam inscritos na UF em análise e no numerador os utentes com consulta médica nessa UF, por qualquer médico ou interno, no tempo definido no fluxograma de referenciação.
+F. Quando a unidade de observação do indicador é um ACES, ULS, ARS ou Portugal, contabilizam-se no denominador os contactos com o SNS 24 de utentes que na data de referenciação estavam inscritos numa UF pertencente à unidade de observação e no numerador os utentes com consulta médica na UF de inscrição, por qualquer médico ou interno, no tempo definido no fluxograma de referenciação.
+G. A fonte da dados dos contactos com o SNS 24 é o respetivo sistema de informação."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""contacto com o SNS 24""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Julho de 2023
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [40; 100]
+Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,60 @@
+titulo,texto
+ID,386
+Código,6.81.02
+Código SIARS,2017.386.01
+Nome abreviado,Tempo médio resolução referenciações devolvidas
+Designação,Tempo médio gasto pelos cuidados de saúde primários na resolução das referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica
+Objetivo,Monitorizar a efetividade do processo de referenciação entre os cuidados de saúde primários (CSP) e os hospitais em particular os tempos de resposta dos CSP na resolução de referenciações devolvidas pela entidade hospitalar por falta de informação clínica ou administrativa. Ver alínea F de OBSERVAÇÕES GERAIS.
+Descrição do Indicador,"Indicador que exprime o tempo médio gasto pelos cuidados de saúde primários na resolução das referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica.
+Numerador: Somatório do tempo que medeia entre a data de devolução ou recusa pelo hospital e a data em que os cuidados de saúde primários ""resolvem"" a referenciação devolvida.
+Denominador: Contagem de referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica."
+Regras de cálculo,"NUMERADOR (AA)
+Somatório do tempo que medeia entre a data de devolução ou recusa pelo hospital e a data em que os cuidados de saúde primários ""resolvem"" a referenciação devolvida, de todas as referenciações contabilizadas no denominador, medida em dias úteis, através da fórmula:
+AA = Somatório [Máximo [R2; R3] - R1 - 1 - FSem - FerNac]
+Em que:
+R1 - Data de devolução ou recusa pelo hospital;
+Máximo [R2; R3] - Valor máximo entre R2 e R3; Se R3 não existir, o máximo será R2 (ver alínea A de OBSERVAÇÕES GERAIS);
+R2 - Data em que os cuidados de saúde primários ""resolvem"" a referenciação;
+R3 - Data de nova referenciação para mesma especialidade após anulação de referenciação devolvida, desde que ocorra até 90 dias após anulação e até data de referência do indicador;
+Fsem - Número de dias de fim-de-semana existentes no intervalo [R1; Máximo [R2; R3]];
+FerNac - Número de dias de feriado nacional existentes no intervalo [R1; Máximo [R2; R3]];
+DENOMINADOR (BB)
+Contagem de referenciações em que é verdadeira a expressão [A e B e C e D]
+A. Realizada através de aplicações de suporte CTH.
+B. Realizada entre o mês N-12 e o mês N-1, sendo N o mês de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS).
+C. Realizada a utente com [
+inscrição ativa
+] na unidade de observação no final do mês de referenciação (ver alíneas C, D e E de OBSERVAÇÕES GERAIS).
+D. Devolvida pela entidade hospitalar de destino da referenciação, com data de devolução compreendida no intervalo [data de referênciação; data de referência do do indicador], por insuficiente informação administrativa ou por insuficiente informação clínica."
+Observações Gerais,"A. Contabiliza-se como data final da contagem de tempo, o valor máximo entre [R2 - Data em que os cuidados de saúde primários ""resolvem"" a referenciação] e [R3 - Data de nova referenciação para mesma especialidade após anulação de referenciação devolvida, desde que ocorra até 90 dias após anulação e até data de referência do indicador] por forma a evitar que o procedimento correspondente a R3 possa ser usado para melhorar o resultado deste indicador sem qualquer benefício para os utentes, maximizando assim a capacidade do mesmo para comparar unidades de observação entre si.
+B. São contabilizadas referenciações realizadas durante um período temporal de amplitude de 12 meses, com um desvio para a esquerda de um mês na reta temporal (relativamente à data de referência do indicador), por forma a se assegurar que:
+1. Se analisam no denominador as referenciações de 12 meses de atividade;
+2. O indicador incorpora nas suas regras o tempo razoável para que as referenciações efetuadas no final do período em análise possam ser ""devolvidas"" pelo hospital ainda durante o período em análise do indicador.
+C. São contabilizadas para o denominador todas as referenciações independentemente da unidade de observação que referência ser ou não a mesma da inscrição do utente.
+D. As unidades de observação possíveis para este indicador são as seguintes:
+1. [Médico de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+2. [Enfermeiro de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+3. [Unidade funcional de inscrição de utentes];
+4. [ACES de inscrição de utentes].
+E. As referenciações são contabilizadas para a unidade de observação onde o utente tinha [
+inscrição ativa
+] no mês da referenciação, independentemente de na data de referência do indicador, o utente estar ou não inscrito na unidade de observação.
+F. Um médico com um ficheiro de 1650 utentes, receberá em média uma devolução de 20 em 20 semanas. Sucedendo que estas ""devoluções"" ficam na própria aplicação CTH, sem que o médico seja alertado por qualquer mecanismo. Por outro lado, é sabido que os médicos executam as referenciações através do próprio SClínico e através do MedicineOne. Nenhuma destas aplicações recebe informação em feedback do Alert. Assim, para que os médicos tomem conhecimento das recusas hospitalares e consigam melhorar os tempos de resposta, terão que aceder ao CTH (Alert), em ambiente web, quase diariamente, para encontrarem uma ""recusa"" de 20 em 20 semanas. Recomenda-se assim que a SPMS desenvolva um mecanismo de interoperabilidade entre o CTH e o SClínico (e também com o MedicineOne) de forma a que os médicos possam receber as notificações de recusa nos seus sistemas de registo clínico."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 13 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, tendo início no mês N-12 e fim no mês N-1, sendo N o mês de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,dia/referenciação
+Output,Tempo médio
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
+Intervalo Aceitável,"Ano de 2022: [0; 7]
+Ano de 2023: [0; 7]
+Ano de 2024: [0; 7]"
+Intervalo Esperado,"Ano de 2022: [0; 10]
+Ano de 2023: [0; 10]
+Ano de 2024: [0; 10]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

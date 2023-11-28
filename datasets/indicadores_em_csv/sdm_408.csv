@@ -1,0 +1,68 @@
+titulo,texto
+ID,408
+Código,7.08.04
+Código SIARS,2018.408.01
+Nome abreviado,Rácio despesa agon. GLP-1 e antidiab. não insul.
+Designação,"Rácio entre a despesa faturada com Agonistas GLP-1 e com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""Rácio de despesa faturada com Agonistas GLP-1""."
+Descrição do Indicador,"Indicador que exprime o rácio entre a despesa faturada com Agonistas GLP-1 e a despesa faturada com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2.
+Numerador: Somatório da despesa faturada com Agonistas GLP-1 em doentes com Diabetes Mellitus tipo 2.
+Denominador: Somatório da despesa faturada com antidiabéticos não insulínicos, em doentes com Diabetes Mellitus tipo 2."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B] é verdadeira:
+A. Incluídos no denominador.
+B. Pertencentes ao grupo dos Agonistas GLP-1 (ver alínea F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Somatório do PVP dos medicamentos em que a expressão [A e B e C e D e (E ou F ou G)] é verdadeira:
+A. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde (ver alíneas A, C, D e E de OBSERVAÇÕES GERAIS) e foram aceites para faturação durante o período em análise (ver alínea B de OBSERVAÇÕES GERAIS).
+B. Pertencentes ao grupo dos antidiabéticos não insulínicos (ver alínea G de OBSERVAÇÕES GERAIS).
+C. Prescritos a utentes com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+D. Prescritos a utentes com o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) na lista de problemas, com o estado de ""ativo"" (na data de referência do indicador).
+E. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno da unidade de saúde numa receita com código identificador dessa unidade de saúde.
+F. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador, numa receita com código identificador dessa unidade de saúde.
+G. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno do ACES numa receita com código identificador de qualquer unidade do ACES."
+Observações Gerais,"A. Contabiliza-se o PVP do medicamento em vigor na data de venda. Caso a marca do medicamento dispensado seja diferente da marca do medicamento prescrito contabiliza-se o do dispensado. Caso o PVP na data da venda seja diferente do PVP na data de prescrição, contabiliza-se o da data da venda;
+B. A data que importa para verificar se determinado medicamento está ou não dentro do período em análise e assim decidir incluir ou não o respetivo [PVP] no somatório do numerador ou do denominador é a [data de aceitação da receita pelo CCF]. A [data de prescrição] e a [data de venda] são ignoradas.
+C. Existem alguns medicamentos contabilizados no indicador (aceites para faturação durante o período em análise) que foram prescritos no ano anterior. Existem medicamentos prescritos durante o período em análise que só serão aceites para faturação depois desse período.
+D. Caso uma farmácia pertencente a uma ARS receba uma receita de uma unidade de saúde de outra ARS, isso não constitui impedimento para que o SIARS contabilize essas despesas para a unidade de saúde respetiva.
+E. Não são contabilizados no indicador as despesas relacionados com:
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra);
+- Medicamentos prescritos no final do ano a utentes que saem da unidade de saúde e cujas receitas entram na faturação no ano seguinte: no ano seguinte o doente já não pertence à unidade de saúde pelo que a receita não pode ser contabilizada.
+F. Consideram-se pertencentes ao grupo dos Agonistas GLP-1, os medicamentos pertencentes às classes seguintes da classificação ATC:
+- A10BJ01 - EXENATIDO
+- A10BJ02 - LIRAGLUTIDO
+- A10BJ03 - LIXISENATIDO
+- A10BJ04 - ALBIGLUTIDO
+- A10BJ05 - DULAGLUTIDO
+- A10BJ06 - SEMAGLUTIDO
+- A10BJ07 - BEINAGLUTIDA
+- A10BX04 - EXENATIDE
+- A10BX07 - LIRAGLUTIDE
+- A10BX10 - LIXISENATIDE
+- A10BX13 - ALBIGLUTIDE
+H. Consideram-se pertencentes ao grupo dos [antidiabéticos não insulínicos], os medicamentos pertencentes à classe 8.4.2 da classificação CFT.
+I. Os medicamentos pertencentes a estas classes (CFT e ATC) podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""despesa faturada com Agonistas GLP-1""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""despesa com antidiabéticos não insulínicos""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Rácio de despesas
+Estado do indicador,Com dados desde Dezembro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [0; 2]
+Ano de 2023: [0; 2]
+Ano de 2024: [0; 2]"
+Intervalo Esperado,"Ano de 2022: [0; 3]
+Ano de 2023: [0; 3]
+Ano de 2024: [0; 3]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

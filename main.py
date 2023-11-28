@@ -15,15 +15,7 @@ from scripts.sdm_scrapper import scrapper
 
 
 def main():
-    st.title("SDM Scrapper")
-
-    table = scrapper(begin=314, end=314)
-    table = pd.DataFrame(table)
-    st.table(table)
-
-    # save as csv
-    table.to_csv("datasets/indicadores_em_csv/sdm.csv", index=False)
-
+    scrapper(begin=1, end=476)
 
 if __name__ == "__main__":
     main()

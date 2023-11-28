@@ -1,0 +1,41 @@
+titulo,texto
+ID,140
+Código,6.13.02
+Código SIARS,6.13
+Nome abreviado,Percent. RN com TSHPKU realizado até ao 7º dia
+Designação,Percentagem de diagnósticos precoces (TSHPKU) realizados até ao 7.º dia de vida do recém-nascido
+Objetivo,"Monitorizar o programa de saúde infantil. Parâmetro ""realização de diagnóstico precoce""."
+Descrição do Indicador,"Indicador que exprime a proporção de recém-nascidos com diagnóstico precoce (TSHPKU) realizado até ao sétimo dia de vida.
+Numerador: Contagem de recém-nascidos com diagnóstico precoce (TSHPKU) realizado até ao sétimo dia de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com realização de diagnóstico precoce (TSHPKU), nos primeiros 7 dias de vida.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 7 dias de vida durante o período em análise.
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Registo de TSHPKU deve ser feito na [avaliação inicial], em [saúde infantil] > [desenvolvimento infantil] > [diagnóstico precoce].
+B. São desde sempre lidos pelos SIARS os itens da [avaliação inicial] com código ""TREDIAP""
+SCLÍNICO - PERFIL MÉDICO:
+A. Não existe campo de registo de TSHPKU.
+MEDICINEONE:
+A. O registo de TSHPKU deve ser feito no módulo de saúde infantil, tabulador [pré/neo-natal]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

@@ -1,0 +1,61 @@
+titulo,texto
+ID,450
+Código,5.01.03
+Código SIARS,2023.450.01
+Nome abreviado,"Prop. mulheres [50; 70[ A, c/ mamogr. rastreio"
+Designação,"Proporção de mulheres entre 50-69 anos, com rastreio do cancro da mama efetuado por ""mamografia de rastreio""."
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro da mama por mamografia de rastreio, a realizar de 2 em 2 anos"".
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional).
+Os resultados neste indicador poderão diferir dos do indicador
+Proporção mulheres [50; 70[ A, c/ mamogr. (2 anos)
+, com ID 44 porque os denominadores são diferentes e também porque no presente indicador só se aceitam como cumpridoras, mulheres com o tipo de mamografia recomendada para o programa de rastreio."
+Descrição do Indicador,"Indicador que exprime a proporção de mulheres inscritas e com idades compreendidas no intervalo [50, 70[ anos (sem critérios de exclusão para o rastreio do cancro da mama), com rastreio do cancro da mama efetuado (com mamografia de rastreio).
+Numerador: Contagem de mulheres com rastreio do cancro da mama efetuado com mamografia de rastreio, efetuada nos últimos 2 anos.
+Denominador: Contagem de mulheres com inscrição ativa numa unidade de saúde e com idades compreendidas no intervalo [50-70[ anos, sem critérios de exclusão para a realização do rastreio do cancro da mama."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado mamografia de rastreio, nos últimos 2 anos (entre os meses N-26 e N-3, N é o mês de referência do indicador), realizada no contexto do programa nacional de rastreio oncológico de base populacional (ver alíneas A, B, C e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F e G] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [50; 70[ anos no mês N-3 (N é o mês de referência do indicador) (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na Unidade de Saúde na data de referência do indicador.
+D. Sem diagnóstico de ""neoplasia da mama"" (código ICPC-2 X76), na lista de problemas, no mês N-3 (N é o mês de referência do indicador).
+E. Sem registo de mastectomia nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador).
+F. Sem registo de próteses mamárias nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador).
+G. No mês N-3 (N é o mês de referência do indicador) a mulher não está grávida nem em puerpério."
+Observações Gerais,"A. O MCDT válido para este indicador, pela tabela de MCDT convencionados, é o seguinte:
+- [Mamografia], código 446.4, área M (mamografia bilateral, duas incidências por mama).
+B. Para que uma mamografia seja contabilizada deve ter um resultado.
+C. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 90 dias após o fim do período em análise.
+D. A idade deve ser medida no mês N-3 (N é o mês de referência do indicador).
+E. Apenas se contabilizam na alínea B do numerador, resultados de exames sem requisição médica associada ou resultados marcados no sistema de informação como tendo sido integrados a partir do SIIMA rastreios ou outro sistema autorizado para gerir a informação dos rastreios oncológicos de base populacional.
+F. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SIIMA-rastreios"".
+B. Os resultados da mamografia podem também ser registados manualmente, pelos médicos, no módulo de MCDT.
+C. Os resultados dos exames de rastreio podem ser consultados (mas não registados) no módulo de ""rastreio oncológico"".
+D. A informação sobre mastectomia (antecedentes pessoais) pode ser registada no perfil médico, no programa de planeamento familiar.
+E. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""mamografia de rastreio""): Duração de 24 meses, entre os meses N-26 e N-3, N é o mês de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): medida no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""neoplasia maligna da mama""): medido no mês N-3 (N é o mês de referência do indicador)
+- Denominador (variável ""mastectomia""): medido no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""próteses mamárias""): medido no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""gravidez ou puerpério""): medido no mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,90 dias

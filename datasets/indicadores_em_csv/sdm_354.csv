@@ -1,0 +1,128 @@
+titulo,texto
+ID,354
+Código,7.24.01
+Código SIARS,2017.354.01
+Nome abreviado,Despesa MCDT prescr. p/ insc. padrão (p. conv.)
+Designação,"Despesa média, baseada no preço convencionado de MCDT prescritos, por utente inscrito padrão"
+Objetivo,"Monitorizar a despesa com MCDT prescritos, efetuada no contexto de atividade das unidades funcionais dos cuidados de saúde primários. Os resultados do indicador são ajustados para a distribuição por sexo e idade de uma população padrão."
+Descrição do Indicador,"Exprime a despesa média anual em MCDT prescritos, baseada no preço convencionado, por cada utente ponderado à proporção de  tempo de [
+inscrição ativa
+] na unidade de observação, relativamente ao período em análise e também com ajustamento a uma população padrão (distribuição por género e idade).
+Numerador da despesa média bruta: Somatório do preço convencionado de MCDT prescritos a utentes com [
+inscrição ativa
+] na unidade de observação.
+Denominador da despesa média bruta: Contagem de utentes com [
+inscrição ativa
+] na unidade de observação, ponderados à proporção de tempo de inscrição relativamente ao máximo possível no período em análise.
+Os utentes entram para o denominador desde que inscritos pelo menos 1 dia do período em análise, sendo no entanto ponderados pela proporção de meses de inscrição, desde um mínimo de 1/12 (utente inscrito 1 mês) até um máximo de 12/12 (utente inscrito 1 ano).
+O algoritmo de ajustamento da despesa média por utente à população padrão (idade e género) encontra-se descrito
+aqui
+."
+Regras de cálculo,"VARIÁVEL AA
+Trata-se do somatório do preço convencionado dos MCDT prescritos (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS) a utentes com idade [X; Y[ e género Z em que a condição [A e B e C e (D ou E ou F)] é verdadeira:
+A. Prescritos durante o período em análise de 12 meses que antecedem a data de referência do indicador, a utentes com [
+inscrição ativa
+] na unidade de observação no mês da prescrição (ver alíneas A, B e C de OBSERVAÇÕES GERAIS);
+B. Prescritos a utentes do género Z.
+C. Prescritos a utentes que na data de referência do indicador têm idade em anos pertencente ao intervalo [X; Y[.
+D. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno da unidade de saúde numa requisição com código identificador dessa unidade de saúde;
+E. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador, numa requisição com código identificador dessa unidade de saúde;
+F. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno do ACES numa requisição com código identificador de qualquer unidade do ACES;
+Em que:
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+VARIÁVEL BB
+Contagem de utentes com inscrição ativa, ponderados ao número de meses de inscrição, com idade [X; Y[ e género Z, em que a condição [A e B e C] é verdadeira.
+A. Com [
+inscrição ativa
+] na unidade de observação durante pelo mesmo um dia do período em análise.
+B. Têm género Z.
+C. Na data de referência do indicador, têm idade (em anos) pertencente ao intervalo [X; Y[.
+Em que:
+X - Valor inteiro representando o limite inferior fechado do intervalo de idades (em anos).
+Y - Valor inteiro representando o limite superior aberto do intervalo de idades (em anos).
+Z - Representa o género do utente, sendo possíveis ""masculino"" e ""feminino"".
+Nota: A ponderação é efetuada utente a utente, pela proporção de meses de inscrição ativa relativamente ao número de meses do período em análise (12), sendo a inscrição verificada apenas no último dia de cada mês. Ou seja, p.e., se um utente estiver inscrito numa unidade de saúde 12 meses conta ""1"". Se tiver inscrito 6 meses numa unidade e 6 meses noutra, conta ""0.5"" para cada uma delas.
+DESPESA MÉDIA BRUTA POR UTENTE INSCRITO (CC)
+CC = Somatório(AA) / Somatório(BB)
+DESPESA MÉDIA AJUSTADA POR UTENTE INSCRITO PADRÃO
+O algoritmo de cálculo de uma taxa ou proporção a uma população padrão (por sexo e idade) encontra-se descrito
+aqui
+, estando previstas 8 fases:
+1. CLASSES DE INTERVALOS ETÁRIOS E DE GÉNERO PARA A PADRONIZAÇÃO
+Aplica-se, sem alterações, o método definido
+aqui
+, isto é 44 grupos de utentes por unidade de observação e também para a população padrão.
+2. DEFINIÇÃO DA POPULAÇÃO PADRÃO
+Aplica-se, sem alterações, o método definido
+aqui
+, ou seja, escolhe-se sempre como população padrão a totalidade dos utentes com [
+inscrição ativa
+] em Portugal Continental a 31 de dezembro do ano anterior ao da data de referência do indicador.
+3. DISTRIBUIÇÃO DA POPULAÇÃO PADRÃO POR IDADE E SEXO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+Calcula-se também a [DIMENSÃO DA POPULAÇÃO PADRÃO (DD)], que não é mais do que o somatório das frequências absolutas de utentes em cada um dos grupos etários e de género da referida população padrão.
+4. DISTRIBUIÇÃO DOS UTENTES DA UNIDADE DE OBSERVAÇÃO POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL BB, isto é, não sobre a distribuição de utentes inscritos na data de referência do indicador, mas sim sobre a distribuição de utentes ponderados ao número de meses de inscrição.
+5. DISTRIBUIÇÃO DA DESPESA COM MCDT (PREÇO CONVENCIONADO) DA UNIDADE DE OBSERVAÇÃO POR GRUPO ETÁRIO E GÉNERO
+Aplica-se o método definido
+aqui
+, com as regras definidas em cima para a VARIÁVEL AA.
+6. DETERMINAÇÃO DA DESPESA COM MCDT (PREÇO CONVENCIONADO) ESPERADA
+Aplica-se, sem alterações, o método definido
+aqui
+.
+7. TOTAL DA DESPESA COM MCDT (PREÇO CONVENCIONADO) ESPERADA
+Aplica-se, sem alterações, o método definido
+aqui
+de forma a calcular o [DESPESA MCDT PRESCRITOS ESPERADA NA POPULAÇÃO PADRÃO (EE)].
+8. CÁLCULO DA DESPESA AJUSTADA COM MCDT PRESCRITOS, POR UTENTE INSCRITO PADRÃO
+Aplica-se, sem alterações, o método definido
+aqui
+.
+[DESPESA MÉDIA AJUSTADA POR UTENTE INSCRITO PADRÃO] = [DESPESA MCDT PRESCRITOS ESPERADA NA POPULAÇÃO PADRÃO (EE)] / [DIMENSÃO DA POPULAÇÃO PADRÃO (DD)]"
+Observações Gerais,"A. Neste indicador, a despesa com MCDT dos utentes é atribuída à unidade funcional onde o utente, no mês da prescrição, tem [
+inscrição ativa
+]. O cruzamento, para cada utente, entre as prescrições e a respetiva inscrição nos CSP é feito pelo respetivo número de utente.
+B. A despesa com a prescrição de MCDT que ocorre num ano é distribuída pelas unidades funcionais de Portugal, sem duplicações, pela inscrição do utente no último dia do mês em que ocorre a prescrição, ou caso o utente tenha deixado de estar inscrito por óbito, anulação da inscrição ou qualquer outro tipo de ""inativação de inscrição"", pela inscrição no mês anterior ao da prescrição. Assim, caso no mês da prescrição existe uma inscrição ativa nos CSP é essa que conta. Caso não exista nenhuma nesse mês, usa-se a disponível no mês anterior. Se por algum motivo no mês anterior não existir qualquer inscrição ativa, essa despesa não é contabilizada neste indicador.
+C. Nas raras situações em que um utente tenha duas ou mais [
+inscrições ativas
+] em unidades de observação diferentes, a despesa desse mês é contabilizada em todas.
+D. A ponderação de cada utente ao número de meses de inscrição permite ajustar os resultados do indicador ao tempo de inscrição dos utentes. Por exemplo se uma unidade com 10.000 utentes, tiver 400 utentes que deixam de estar inscritos e outros 400 que se inscrevem e que as saídas e entradas sucedem, utente a utente, no mesmo mês, a dimensão ponderada do denominador da despesa média bruta é 10.000. Se outra unidade, com 17.000 utentes, perder 1.700 utentes (por saída de médico e alteração do compromisso assistencial) em 30 de junho de determinado ano, esses 1700 utentes apenas contarão como 850 no denominador e a dimensão ponderada ao número de meses de inscrição dos 17.000 utentes é de apenas 16.150. Em ambos os casos, a prescrição de 12 meses (numerador) é dividida pelo nº médio de utentes ao longo desse período.
+E. Contabiliza-se o [preço] do MCDT que foi prescrito (em vigor na data de prescrição). Entende-se por [preço], o valor que consta da coluna ""preço"" da tabela oficial de MCDT convencionados (www.acss.min-saude.pt). A coluna ""preço"" da tabela de MCDT convencionados da ACSS é o valor que os convencionados devem receber do estado por cada exame efetuado e faturado. A [taxa moderadora] é o valor que o utente paga ao estado pelo exame. Como a [taxa moderadora] é recebida pelo convencionado, o que este acaba por faturar e efetivamente receber do estado é a diferença entre o [preço] e a [taxa moderadora]. Assim, para um exame com 2 euros de [taxa moderadora] e 20 euros de [preço], o convencionado fatura 18 euros se o utente paga [taxa moderadora] e 20 euros se o utente é isento. Em qualquer das 2 situações atrás referidas, o SIARS contabiliza 20 euros. A métrica que serve de base a este indicador está definida na especificação
+M008 dos [Conceitos e métricas relacionadas com MCDT]
+.
+F. A data que importa para verificar se determinado MCDT está ou não dentro do período em análise e assim decidir incluir ou não a respetiva despesa no somatório do numerador do indicador é a [data de prescrição].
+G. São contabilizados no numerador as despesas relacionadas com MCDT prescritos e pertencentes à tabela de MCDT convencionados, quer sejam realizados quer não;
+H. Não são contabilizados no numerador as despesas relacionadas com:
+- MCDT prescritos que não pertencem à tabela de convencionados (MCDT não comparticipados);
+- Para requisições efetuadas até dezembro 2022, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até ao 5º dia do mês seguinte ao mês de requisição;
+- Para requisições efetuadas após janeiro 2023, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até final do 6º mês após o mês de requisição e no máximo até ao mês que sucede o mês de referência do indicador. Isto significa que para um indicador calculado para dezembro de determinado ano, não são contabilizadas credenciais requisitadas em janeiro desse ano, desde que anuladas até 31 de julho desse ano. No entanto, para credenciais requisitadas por exemplo em outubro desse ano, não serão contabilizadas credenciais desde que anuladas até 31 de janeiro do ano seguinte.
+- MCDT prescritos manualmente (p.e. por falência do sistema eletrónico de prescrição).
+I. A fonte de dados para a informação do numerador é a BDNP, bastando que um MCDT seja prescrito, para ser contabilizado (não se valida se é ou não realizado)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável AA (""despesa com MCDT""): Duração de 12 meses, terminando na data de referência do indicador.
+- Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a prescrição.
+- Variável AA (""idade""): Avaliada na data de referência do indicador.
+- VARIÁVEL BB (""inscrição ativa""): Duração de 12 meses, terminando na data de referência do indicador.
+- Variável BB (""idade""): Avaliada na data de referência do indicador."
+Fórmula,EE / DD
+Unidade de medida,€ / UTE
+Output,Despesa com MCDT
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
+Intervalo Aceitável,"Ano de 2022: [0; 42.5]
+Ano de 2023: [0; 42.5]
+Ano de 2024: [0; 45]"
+Intervalo Esperado,"Ano de 2022: [0; 49]
+Ano de 2023: [0; 49]
+Ano de 2024: [0; 56]"
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

@@ -1,0 +1,38 @@
+titulo,texto
+ID,126
+Código,5.10.04
+Código SIARS,5.10 i
+Nome abreviado,Percent. hipertensos c/ PA 6 meses
+Designação,Percentagem de hipertensos com registo de pressão arterial nos últimos 6 meses
+Objetivo,Monitorizar o acompanhamento dos utentes com hipertensão arterial - parâmetro registo de pressão arterial.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial com registo de pelo menos 1 registo de pressão arterial no último semestre.
+Numerador: Contagem de utentes inscritos com hipertensão arterial com registo de pelo menos 1 registo de pressão arterial no último semestre.
+Denominador: Contagem de utentes inscritos com hipertensão arterial vigiados em programa."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos uma pressão arterial registada no último semestre.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se sinalizado como ativo na lista de problemas.
+C. Ter compromisso de vigilância no programa de hipertensão."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+Código SIARS: 5.10 i
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. Entre janeiro e junho o resultado é zero. Entre julho e dezembro verifica quais os utentes que têm pelo menos um registo de pressão arterial após 1 de julho.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Código SIARS: 5.10 i(f)
+- Numerador: Duração de 6 meses. Termina na data de referência do indicador.
+- Denominador: Duração de 6 meses. Termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

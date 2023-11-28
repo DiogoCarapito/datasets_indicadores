@@ -1,0 +1,70 @@
+titulo,texto
+ID,006
+Código,3.15.02
+Código SIARS,2013.006.01
+Nome abreviado,Taxa de utilização de consultas médicas - 3 anos
+Designação,Taxa de utilização global de consultas médicas nos últimos 3 anos
+Objetivo,Avaliar o acesso a consultas médicas pela população inscrita.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos que tiveram consulta médica, de qualquer tipo, nos últimos 3 anos.
+Numerador: Contagem de utentes inscritos com pelo menos uma consulta médica presencial ou não presencial, nos últimos 3 anos.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma consulta médica, presencial ou não presencial, nos últimos 3 anos (ver alíneas A, B, C, D e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Quando a unidade de observação é um médico ou uma unidade de saúde (USF ou UCSP), pelo menos uma das consultas tem que ser efetuada na própria unidade de saúde. Quer isto dizer que se, durante o período em análise, um utente tiver uma única consulta num atendimento complementar (ou afim), não é contabilizado no numerador deste indicador.
+B. Quando a unidade de observação é um ACES, um utente com [
+inscrição ativa
+] que tenha apenas uma consulta no período em análise realizada num atendimento complementar é incluído no numerador.
+C. Quando a unidade de observação é um ACES, se um utente com [
+inscrição ativa
+] tiver, durante o período em análise, uma única consulta numa unidade de saúde diferente da sua, mas pertencente ao ACES, utilizando para isso uma inscrição esporádica, é contabilizado uma única vez no denominador e também no numerador (desde que ambas as inscrições tenham o registo do nº de utente). Se uma das inscrições não tiver registo de nº de utente, o mesmo será contabilizado no denominador e não será contabilizado no numerador.
+D. Os utentes contabilizados no numerador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+E. Ver conceito de [
+inscrição ativa
+].
+F. Os registos no processo clínico que constituam meros atos de caráter administrativo isolado (embora realizados por médicos ou enfermeiros), não solicitados pelo utente, não podem ser considerados consultas/contactos. Estas são atividades que se destinam a enriquecer o processo clínico, mas das quais pode não resultar qualquer intervenção em saúde, pelo que não podem ser consideradas ""contacto/consulta"".
+São exemplos:
+- As convocatórias por carta ou telefone para vacinação, consulta enfermagem, consulta consulta médica.
+- Registos de tentativa de contacto com utente que não se realizou.
+- Registos no processo clínico relativamente a reclamações.
+- Registos no processo clínico de transcrições da PDS, não solicitadas pelo utente.
+- Transcrição de boletins de vacinas, quando não solicitados pelo utente."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 36 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [88; 100]
+Ano de 2023: [88; 100]
+Ano de 2024: [88; 100]"
+Intervalo Esperado,"Ano de 2022: [75; 100]
+Ano de 2023: [75; 100]
+Ano de 2024: [75; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

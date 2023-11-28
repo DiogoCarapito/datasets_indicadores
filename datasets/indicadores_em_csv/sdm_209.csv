@@ -1,0 +1,40 @@
+titulo,texto
+ID,209
+Código,2.12.12
+Código SIARS,MORB.209.01
+Nome abreviado,"Proporção de utentes com ""bronquite crónica"""
+Designação,"Proporção de utentes com o diagnóstico de ""bronquite crónica"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de bronquite crónica"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""bronquite crónica"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""bronquite crónica"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""bronquite crónica"" (rubrica ICPC R79) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de R79 (ICPC-2): Tosse com expectoração quase diária durante pelo menos 3 meses/ano durante pelo menos 2 anos; estridor ou roncos à auscultação do tórax durante estes episódios.
+C. O R79 exclui (ICPC-2): Enfisema, doença pulmonar obstrutiva crónica (pulmão, vias respiratórias) R95; bronquiectasia R99.
+D. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,1085 @@
+titulo,texto
+ID,337
+Código,3.27.01
+Código SIARS,2017.337.01
+Nome abreviado,Prop. cons. médic. doença aguda p/ telef. e-mail
+Designação,"Proporção de consultas médicas por doença aguda, realizadas por telefone ou por e-mail"
+Objetivo,Monitorizar a acessibilidade dos utentes a consultas médicas realizadas por telefone ou por e-mail no contexto da doença aguda
+Descrição do Indicador,"Exprime a proporção de consultas médicas agendadas no próprio dia, efetivadas e com diagnóstico compatível com ""doença aguda"", que são realizadas por ""telefone"" ou por ""e-mail"".
+Numerador: Contagem de consultas médicas agendadas no próprio dia, efetivadas e com diagnóstico compatível com ""doença aguda"", que são realizadas por ""telefone"" ou por ""e-mail"".
+Denominador: Contagem de consultas médicas agendadas no próprio dia, efetivadas e com diagnóstico compatível com ""doença aguda"", que são realizadas por ""telefone"" ou por ""e-mail"" ou são registadas como ""presenciais""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B e C e D e E e F e G e I e (J ou K)] é verdadeira:
+A. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde na data de realização da consulta.
+C. Realizada num dos locais pertencentes à unidade de observação (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Realizada por médico ou interno (ver alínea C de OBSERVAÇÕES GERAIS).
+E. Agendada no dia da realização (ver alínea D de OBSERVAÇÕES GERAIS).
+F. Com registo de pelo menos um diagnóstico de problema de saúde na consulta compatível com ""doença aguda"", classificado pela ICPC-2 (ver alínea E de OBSERVAÇÕES GERAIS).
+G. Com emissão do registo administrativo de contacto e faturação de taxa moderadora ou registo de dispensa de taxa moderadora ou registo de isenção de taxa moderadora.
+I. Registada como ""não presencial"" (ver alínea C de OBSERVAÇÕES GERAIS).
+J. Registada como tendo sido ""efetuada por telefone"" (ver alínea A de OBSERVAÇÕES GERAIS).
+K. Registada como tendo sido ""efetuada por e-mail"" (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C e D e E e F e G e (H ou I e (J ou K))] é verdadeira:
+A. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde na data de realização da consulta.
+C. Realizada num dos locais pertencentes à unidade de observação (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Realizada por médico ou interno (ver alínea C de OBSERVAÇÕES GERAIS).
+E. Agendada no dia da realização (ver alínea D de OBSERVAÇÕES GERAIS).
+F. Com registo de pelo menos um diagnóstico de problema de saúde na consulta compatível com ""doença aguda"", classificado pela ICPC-2 (ver alínea D de OBSERVAÇÕES GERAIS).
+G. Com emissão do registo administrativo de contacto e faturação de taxa moderadora ou registo de dispensa de taxa moderadora ou registo de isenção de taxa moderadora.
+H. Registada como ""presencial"" (ver alínea C de OBSERVAÇÕES GERAIS).
+I. Registada como ""não presencial"" (ver alínea C de OBSERVAÇÕES GERAIS).
+J. Registada como tendo sido ""efetuada por telefone"" (ver alínea A de OBSERVAÇÕES GERAIS).
+K. Registada como tendo sido ""efetuada por e-mail"" (ver alínea A de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As consultas realizadas por ""telefone"" ou por ""e-mail"" correspondem a subtipos de ""consulta não presencial"", tal como especificado
+aqui
+. Para que uma consulta seja considerada no numerador, a mesma tem que ter os procedimentos de cobrança de taxa realizados, tem que ser agendada no dia em que é realizada e tem que ter uma codificação de sintoma, queixa, diagnóstico ou doença compatível com ""doença aguda"".
+B. Se a unidade de observação do indicador for uma unidade funcional (USF, UCSP ou equivalente), a consulta médica deve estar associada a um dos códigos RNU que lhe estejam associados na hierarquia de locais. Os locais RNU pertencentes a cada unidade funcional podem ser consultados, na RIS, em
+https://sdm.min-saude.pt/hierarquia.aspx
+. O mesmo sucede se a unidade de observação do indicador for um ACES. Se a unidade de observação for um médico ou enfermeiro, surgirão no denominador as consultas realizadas por qualquer médico da unidade funcional a utentes que na data de referência do indicador pertençam ao ficheiro de utentes do profissional de saúde (unidade de observação do indicador). Os utentes que na data de referência do indicador já não esteja inscritos na unidade funcional, aparecem associados ao último médico de família e ao último enfermeiro de família de inscrição.
+C. As consultas contabilizados são do tipo [Consulta médica presencial] ou [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+D. O ""agendamento no dia da realização"" é verificado comparando a ""data de realização da consulta"" com a data em que a marcação da mesma é efetuada (data introduzida automaticamente pelo sistema). Considera-se que ocorreu ""agendamento no dia da realização"" quando a ambas as datas (de ""realização"" e de ""inserção"" do agendamento) no formato YYYYMMDD são iguais.
+E. Os códigos ICPC elegíveis são os que constam da tabela seguinte:
+A01
+Dor generalizada/múltiplos locais
+H13
+Sensação de ouvido tapado
+P20
+Alteração da memória
+U08
+Retenção urinária
+A02
+Arrepios
+H27
+Medo de doença do ouvido
+P22
+Sintoma/queixa do comportamento da criança
+U13
+Sintoma/queixa da bexiga outro
+A03
+Febre
+H28
+Limitação funcional/incapacidade (H)
+P23
+Sintoma/queixa do comportamento do adolescente
+U14
+Sintoma/queixa do rim
+A04
+Debilidade/cansaço geral
+H29
+Sintoma/queixa do ouvido outro
+P25
+Problema numa fase da vida de um adulto
+U26
+Medo de cancro do aparelho urinário
+A05
+Sentir-se doente
+H70
+Otite externa
+P27
+Medo de perturbação mental
+U27
+Medo de doença urinária outra
+A06
+Desmaio/síncope
+H71
+Otite média aguda/miringite
+P28
+Limitação funcional/incapacidade (P)
+U28
+Limitação funcional/incapacidade (U)
+A07
+Coma
+H72
+Otite média serosa
+P29
+Sintoma/queixa psicológico outro
+U29
+Sintoma/queixa do aparelho urinário outro
+A08
+Inchaço
+H73
+Inflamação da trompa de eustáquio
+P74
+Distúrbio ansioso/estado de ansiedade
+U70
+Pielonefrite/pielite
+A09
+Problema de sudorese
+H74
+Otite média crónica
+P75
+Somatização
+U71
+Cistite/infecção urinária outra
+A10
+Sangramento/hemorragia NE
+H76
+Corpo estranho no ouvido
+P77
+Suicídio/tentativa de suicídio
+U72
+Uretrite
+A11
+Dor torácica NE
+H77
+Perfuração do tímpano
+P78
+Neurastenia/surmenage
+U80
+Lesão traumática do aparelho urinário
+A13
+Preocupação com/medo de tratamento médico
+H78
+Traumatismo superficial do ouvido
+P79
+Fobia/perturbação compulsiva
+U88
+Glomerulonefrite/nefrose
+A16
+Bebé irritavél
+H79
+Traumatismo do ouvido outro
+R01
+Dor aparelho respiratório
+U95
+Cálculo urinário
+A25
+Medo da morte/de morrer
+H81
+Cerumen no ouvido em excesso
+R02
+Dificuldade respiratória/dispneia
+U98
+Análise de urina anormal NE
+A26
+Medo de cancro, NE
+H82
+Síndrome vertiginosa
+R03
+Pieira
+U99
+Doença urinária outra
+A27
+Medo de outra doença NE
+K01
+Dor do coração
+R04
+Problema respiratório outro
+W01
+Suspeita de gravidez
+A28
+Limitação funcional/incapacidade NE
+K02
+Pressão/aperto do coração
+R05
+Tosse
+W02
+Medo de estar grávida
+A29
+Sintoma/queixa geral outro
+K03
+Dor cardiovascular NE
+R06
+Hemorragia nasal/epistáxis
+W03
+Hemorragia antes do parto
+A70
+Tuberculose
+K04
+Palpitações/percepção do coração
+R07
+Espirro/congestão nasal
+W05
+Vómitos/náuseas na gravidez
+A71
+Sarampo
+K05
+Irregularidade do batimento cardíaco outra
+R08
+Sintoma/queixa nasal outro
+W10
+Contracepção pós-coital
+A72
+Varicela
+K06
+Veias proeminentes
+R09
+Sintoma/queixa dos seios perinasais
+W17
+Hemorragia pós-parto
+A73
+Malária
+K07
+Tornozelos inchados/edema
+R21
+Sinal/queixa da garganta
+W18
+Sintoma/queixa do pós-parto outro
+A74
+Rubéola
+K24
+Medo de doença cardíaca
+R23
+Sintoma/queixa da voz
+W19
+Sintoma/queixa da lactação
+A75
+Mononucleose infecciosa
+K25
+Medo de hipertensão
+R24
+Hemoptise
+W27
+Medo de complicações da gravidez
+A76
+Exantema viral outro
+K27
+Medo de doença cardiovascular outra
+R25
+Expectoração/mucosidade anormal
+W28
+Limitação funcional/incapacidade (W)
+A77
+Doença viral outra/NE
+K28
+Limitação funcional/incapacidade (K)
+R26
+Medo de cancro do sistema respiratório
+W70
+Sépsis/infecção puerperal
+A78
+Outra doença infecciosa/NE
+K29
+Sintoma/queixa cardiovascular outro
+R27
+Medo de doença respiratória outra
+W71
+Infecção que complica a gravidez/puerpério outra
+A80
+Traumatismo/ferimento NE
+K70
+Infecção do aparelho circulatório
+R28
+Limitação funcional/incapacidade (R)
+W75
+Lesão traumática que complica a gravidez
+A81
+Traumatismos/ferimentos múltiplos
+K71
+Febre/doença cardíaca reumática
+R29
+Sintoma/queixa do aparelho respiratório outro
+W94
+Mastite puerperal
+A82
+Efeito secundário de traumatismo
+K85
+Pressão arterial elevada
+R71
+Tosse convulsa
+W96
+Complicação do puerpério outra
+A84
+Intoxicação por medicamento
+K88
+Hipotensão postural
+R72
+Infecção estreptocócica da garganta
+W99
+Problema da gravidez/parto outro
+A85
+Efeito adverso de um medicamento
+K94
+Flebite/tromboflebite
+R73
+Abcesso/furúnculo no nariz
+X01
+Dor genital feminina
+A86
+Efeito tóxico de uma substância não-medicinal
+K96
+Hemorróidas
+R74
+Infecção respiratória superior aguda
+X02
+Dor menstrual
+A87
+Complicação de tratamento médico
+L01
+Sintoma/queixa do pescoço
+R75
+Sinusite aguda/crónica
+X03
+Dor intermenstrual
+A88
+Efeito adverso por factor físico
+L02
+Sintoma/queixa da região dorsal
+R76
+Amigdalite aguda
+X04
+Relação sexual dolorosa feminina
+A89
+Efeito de uma prótese
+L03
+Sintoma/queixa da região lombar
+R77
+Laringite/traqueíte aguda
+X05
+Menstruação escassa/ausente
+A91
+Investigação com resultado anormal NE
+L04
+Sintoma/queixa do tórax
+R78
+Bronquite/bronquiolite aguda
+X06
+Menstruação excessiva
+A92
+Alergia/reacção alérgica NE
+L05
+Sintoma/queixa do flanco/axila
+R79
+Bronquite crónica
+X07
+Menstruação irregular/frequente
+B02
+Gânglio(s) linfático(s) aumentado(s) de volume/doloroso(s)
+L07
+Sintoma/queixa da mandíbula
+R80
+Gripe
+X08
+Hemorragia inter-menstrual
+B04
+Sintoma/queixa do sangue
+L08
+Sintoma/queixa do ombro
+R81
+Pneumonia
+X09
+Sintoma/queixa pré-menstrual
+B25
+Medo de SIDA/VIH
+L09
+Sintoma/queixa do braço
+R82
+Pleurisia/derrame pleural
+X10
+Desejo de alterar a data da menstruação
+B26
+Medo de cancro do sangue/linfático
+L10
+Sintoma/queixa do cotovelo
+R83
+Infecção respiratória outra
+X11
+Sintoma/queixa da menopausa
+B27
+Medo de doença do sangue/linfática outra
+L11
+Sintoma/queixa do punho
+R87
+Corpo estranho no nariz/laringe/brônquio
+X12
+Hemorragia pós-menopausa
+B28
+Limitação funcional/incapacidade (B)
+L12
+Sintoma/queixa da mão/dedo da mão
+R88
+Lesão respiratória outra
+X13
+Hemorragia pós-coito
+B29
+Sintoma/queixa linfática/de mecanismo imunológico outro
+L13
+Sintoma/queixa da anca
+R96
+Asma
+X14
+Secreção vaginal
+B70
+Linfadenite aguda
+L14
+Sintoma/queixa da perna/coxa
+R97
+Rinite alérgica
+X15
+Sintoma/queixa da vagina outro
+B71
+Linfadenite crónica/inespecífica
+L15
+Sintoma/queixa do joelho
+R98
+Sindrome de hiperventilação
+X16
+Sintoma/queixa da vulva
+B76
+Rotura do baço traumática
+L16
+Sintoma/queixa do tornozelo
+S01
+Dor/sensibilidade dolorosa da pele
+X17
+Sintoma/queixa da pélvis feminina
+B77
+Lesão do sangue/linfa/baço outra
+L17
+Sintoma/queixa do pé/dedo do pé
+S02
+Prurido
+X18
+Dor na mama feminina
+D01
+Dor/cólica abdominal generalizada
+L18
+Dor muscular
+S03
+Verrugas
+X19
+Tumor/nódulo da mama feminina
+D02
+Dor abdominal epigástrica
+L19
+Sintoma/queixa muscular NE
+S04
+Tumor/massa localizada
+X20
+Sintoma/queixa do mamilo feminino
+D03
+Azia
+L20
+Sintoma/queixa de articulação NE
+S05
+Tumores/inchaços generalizados
+X21
+Sintoma/queixa da mama feminina outro
+D04
+Dor anal/rectal
+L26
+Medo de cancro músculo-esquelético
+S06
+Erupção cutânea localizada
+X22
+Preocupação com a aparência da mama feminina
+D05
+Irritação perianal
+L27
+Medo de doença músculo-esquelética outra
+S07
+Erupção cutânea generalizada
+X23
+Medo de deonça sexualmente transmissível na mulher
+D06
+Dor abdominal localizada outra
+L28
+Limitação funcional/incapacidade (L)
+S08
+Alteração da cor da pele
+X24
+Medo de disfunção sexual feminina
+D07
+Dispepsia/indigestão
+L29
+Sintoma/queixa músculo-esquelético outro
+S09
+Infecção do dedo da mão/pé
+X25
+Medo de cancro genital feminino
+D08
+Flatulência/gases/eructação
+L70
+Infecção do sistema músculo-esquelético
+S10
+Furúnculo/antraz
+X26
+Medo de cancro da mama feminina
+D09
+Náusea
+L72
+Fractura: rádio/cúbito
+S11
+Infecção pós-traumática da pele
+X27
+Medo de doença genital/da mama feminina outra
+D10
+Vómito
+L73
+Fractura: tíbia/peróneo
+S12
+Picada/mordedura de insecto
+X28
+Limitação funcional/incapacidade (X)
+D11
+Diarreia
+L74
+Fractura: osso da mão/pé
+S13
+Mordedura animal/humana
+X29
+Sintoma/queixa do aparelho genital feminino outro
+D12
+Obstipação
+L75
+Fractura: fémur
+S14
+Queimadura/escaldão
+X70
+Sífilis feminina
+D13
+Icterícia
+L76
+Fractura: outra
+S15
+Corpo estranho na pele
+X71
+Gonorreia feminina
+D14
+Hematemese/vómito de sangue
+L77
+Entorse/distensão do tornozelo
+S16
+Traumatismo/contusão
+X72
+Candidíase genital feminina
+D15
+Melena
+L78
+Entorse/distensão do joelho
+S17
+Abrasão/arranhão/bolha
+X73
+Tricomoníase genital feminina
+D16
+Hemorragia rectal
+L79
+Entorse/distensão de articulação NE
+S18
+Laceração/corte
+X74
+Doença inflamatória pélvica
+D17
+Incontinência intestinal
+L80
+Luxação/subluxação
+S19
+Lesão cutânea outra
+X82
+Lesão traumática genital feminina
+D18
+Alteração nas fezes/movimentos intestinais
+L81
+Traumatismo músculo-esquelético NE
+S20
+Calo/calosidade
+X84
+Vaginite/vulvite NE
+D19
+Sintoma/queixa dos dentes/gengivas
+L83
+Síndrome do pescoço
+S21
+Sintoma/queixa da textura da pele
+X87
+Prolapso útero-vaginal
+D20
+Sintoma/queixa da boca/língua/lábio
+L84
+Síndrome da coluna sem irradiação de dor
+S22
+Sintoma/queixa da unha
+X89
+Síndrome de tensão pré-menstrual
+D21
+Problema de deglutição
+L85
+Deformação adquirida da coluna
+S23
+Queda de cabelo/calvície
+X90
+Herpes genital feminino
+D23
+Hepatomegália
+L86
+Síndrome da coluna com irradiação de dor
+S24
+Sintoma/queixa do cabelo/couro cabeludo outro
+X91
+Condiloma acuminado feminino
+D24
+Massa Abdominal NE
+L87
+Bursite/tendinite/sinovite NE
+S26
+Medo de cancro da pele
+X92
+Infecção genital por chlamydia
+D25
+Distensão abdominal
+L88
+Artrite reumatóide/seropositiva
+S27
+Medo de doença da pele outra
+Y01
+Dor no pénis
+D26
+Medo de cancro do sistema digestivo
+L89
+Osteoartrose da anca
+S28
+Limitação funcional/incapacidade (S)
+Y02
+Dor no escroto/testículo
+D27
+Medo de doença do sistema digestivo outra
+L90
+Osteoartrose do joelho
+S29
+Sintoma/queixa da pele outro
+Y03
+Corrimento uretral masculino
+D28
+Limitação funcional/incapacidade (D)
+L91
+Osteoartrose outra
+S70
+Herpes zoster
+Y04
+Sintoma/queixa do pénis outro
+D29
+Sintoma/queixa digestivo outro
+L92
+Síndrome do ombro doloroso
+S71
+Herpes simplex
+Y05
+Sintoma/queixa do escroto/testículo outro
+D70
+Infecção gastrointestinal
+L93
+Cotovelo de tenista
+S72
+Escabiose/outra acaríase
+Y06
+Sintoma/queixa da próstata
+D71
+Papeira/parotidite epidémica
+L96
+Lesão interna aguda do joelho
+S73
+Pediculose/infestação da pele outra
+Y07
+Impotência NE
+D72
+Hepatite viral
+N01
+Cefaleia
+S74
+Dermatofitose
+Y08
+Sintoma/queixa da função sexual masculina
+D73
+Gastroenterite com infecção presumível
+N03
+Dor da face
+S75
+Monilíase/candidíase da pele
+Y16
+Sintoma/queixa da mama masculina
+D79
+Corpo estranho no sistema digestivo
+N04
+Pernas inquietas
+S76
+Infecção da pele outra
+Y24
+Medo de disfunção sexual masculina
+D80
+Lesão do sistema digestivo outra
+N05
+Formigueiro nos dedos/mãos/pés
+S79
+Neoplasia cutânea benigna/não especificada
+Y25
+Medo de doença sexualmente transmissível masculina
+D82
+Doença dos dentes/gengiva
+N06
+Alteração da sensibilidade outra
+S80
+Queratose/queimadura solar
+Y26
+Medo de cancro genital masculino
+D83
+Doença da boca/lingua/lábio
+N07
+Convulsão/ataque
+S81
+Hemangioma/linfangioma
+Y27
+Medo de doença genital masculina outra
+D84
+Doença do esófago
+N08
+Movimentos involuntários anormais
+S82
+Nevo/sinal da pele
+Y28
+Limitação funcional/incapacidade (Y)
+D85
+Úlcera duodenal
+N16
+Alteração do olfacto/gosto
+S83
+Lesão congénita da pele outra
+Y29
+Sintoma/queixa genital masculino outro
+D86
+Úlcera péptica outra
+N17
+Vertigem/tontura
+S84
+Impetigo
+Y70
+Sífilis masculina
+D87
+Alteração funcional do estômago
+N18
+Paralisia/fraqueza
+S85
+Quisto/fístula pilonidal
+Y71
+Gonorreia masculina
+D88
+Apendicite
+N19
+Perturbação do discurso
+S86
+Dermatite seborreica
+Y72
+Herpes genital masculino
+D89
+Hérnia inguinal
+N26
+Medo de cancro do sistema neurológico
+S87
+Dermatite/eczema atópico
+Y73
+Prostatite/vesiculite seminal
+D92
+Doença diverticular
+N27
+Medo de doença neurológica outra
+S88
+Dermatite de contacto/alérgica
+Y74
+Orquite/epididimite
+D93
+Síndrome do cólon irritável
+N28
+Limitação funcional/incapacidade (N)
+S89
+Eritema das fraldas
+Y75
+Balanite
+D94
+Enterite crónica/colite ulcerosa
+N29
+Sintoma/queixa neurológico outro
+S90
+Pitiríase rosada
+Y76
+Condiloma acuminado masculino
+D95
+Fissura anal/abcesso perianal
+N70
+Poliomielite
+S91
+Psoríase
+Y80
+Traumatismo genital masculino
+D96
+Lombrigas/outros parasitas
+N71
+Meningite/encefalite
+S92
+Doença das glândulas sudoríparas
+Y81
+Fimose/prepúcio redundante
+D98
+Colecistite/colelitíase
+N72
+Tétano
+S93
+Quisto sebáceo
+Z01
+Pobreza/problema económico
+F01
+Dor no olho
+N73
+Infecção neurológica outra
+S94
+Unha encravada
+Z02
+Problema com a água/alimentação
+F02
+Olho vermelho
+N79
+Concussão
+S95
+Molusco contagioso
+Z03
+Problema de habitação/vizinhança
+F03
+Secreção ocular
+N80
+Lesão craniana outra
+S96
+Acne
+Z04
+Problema sócio-cultural
+F04
+Moscas volantes/manchas visuais
+N81
+Lesão do sistema nervoso outra
+S97
+Úlcera crónica da pele
+Z05
+Problema com o trabalho
+F05
+Perturbação visual outra
+N89
+Enxaqueca
+S98
+Urticária
+Z06
+Problema de desemprego
+F13
+Sensação ocular anormal
+N90
+Cefaleia em cluster
+S99
+Doença da pele outra
+Z07
+Problema com a educação
+F14
+Movimentos oculares anormais
+N91
+Paralisia facial/paralisia de Bell
+T01
+Sede excessiva
+Z08
+Problema com o sistema de segurança social
+F15
+Aparência anormal do olho
+N92
+Nevralgia do trigémio
+T02
+Apetite excessivo
+Z09
+Problema legal
+F16
+Sintoma/queixa da pálpebra
+N93
+Síndrome do canal cárpico
+T03
+Perda de apetite
+Z10
+Problema com o sistema de saúde
+F17
+Sintoma/queixa relacionado com os óculos
+N94
+Nevrite/neuropatia periférica
+T04
+Problema alimentar do lactente/criança
+Z11
+Problema com o estar doente/adesão
+F18
+Sintoma/queixa relacionado com as lentes de contacto
+N95
+Cefaleia de tensão
+T05
+Problema alimentar do adulto
+Z12
+Problema relacional com o parceiro
+F27
+Medo de doença do olho
+P01
+Sensação de ansiedade/nervosismo/tensão
+T07
+Aumento de peso
+Z13
+Problema comportamental do parceiro
+F28
+Limitação funcional/incapacidade (F)
+P02
+Reacção aguda ao stress
+T08
+Perda de peso
+Z14
+Problema por doença do parceiro
+F29
+Sintoma/queixa ocular outro
+P03
+Sensação de depressão
+T11
+Desidratação
+Z15
+Perda/falecimento do parceiro
+F70
+Conjuntivite infecciosa
+P04
+Sentir-se/comportar-se de forma irritável/zangada
+T26
+Medo de cancro do sistema endócrino
+Z16
+Problema relacional com uma criança
+F71
+Conjuntivite alérgica
+P05
+Senilidade, sentir-se/comportar-se como velho
+T27
+Medo de doença endócrina/metabólica outra
+Z18
+Problema com uma criança doente
+F72
+Blefarite/treçolho/calázio
+P06
+Perturbação do sono
+T28
+Limitação funcional/incapacidade (T)
+Z19
+Perda/falecimento de uma criança
+F73
+Infecção/inflamação ocular outra
+P07
+Diminuição do desejo sexual
+T29
+Sintoma/queixa do sistema endócrino/metabolico/nutricional outro
+Z20
+Problema relacional com pai/mãe/membro da família
+F75
+Contusão/hemorragia ocular
+P08
+Diminuição da satisfação sexual
+T70
+Infecção endócrina
+Z21
+Problema comportamental do pai/mãe/membro da familília
+F76
+Corpo estranho ocular
+P09
+Preocupação com a preferencia sexual
+T85
+Hipertiroidismo/tirotoxicose
+Z22
+Problema por doença do pai/mãe/membro da familília
+F79
+Lesão traumática ocular outra
+P10
+Gaguejar/balbuciar/tique
+T87
+Hipoglicémia
+Z23
+Perda/falecimento do pai/mãe/membro da familília
+F80
+Obstrução do canal lacrimal da criança
+P11
+Problema de alimentação da criança
+T92
+Gota
+Z24
+Problema relacional com amigo
+F86
+Tracoma
+P12
+Molhar a cama/enurese
+U01
+Disúria/micção dolorosa
+Z25
+Problema por agressão/acontecimento violento
+H01
+Dor do ouvido
+P13
+Encoprese/problema de treino do intestino
+U02
+Micção frequente/urgente
+Z27
+Medo de problema social
+H02
+Queixa de audição
+P15
+Abuso crónico do álcool
+U04
+Incontinência urinária
+Z28
+Limitação funcional/incapacidade (Z)
+H03
+Acufeno, zumbido/ruído no ouvido
+P16
+Abuso agudo do álcool
+U05
+Problema com a micção outro
+Z29
+Problema social NE
+H04
+Secreção do ouvido
+P18
+Abuso de medicação
+U06
+Hematúria
+H05
+Hemorragia do ouvido
+P19
+Abuso de droga
+U07
+Sintoma/queixa da urina outro"
+Observações Sobre Software,"SClínico:
+A. Na data de criação da especificação deste indicador (2017-02-02), o SClínico não permite a especificação que uma ""consulta não presencial"" é do subtipo ""realizada por telefone"" ou ""realizada por e-mail"".
+B. O SClínico deve desenvolver uma funcionalidade que permita que esse atributo da consulta seja criado no SINUS e visível no SClínico na área onde o profissional de saúde efetiva a consulta, por forma a que o mesmo tenha como muito evidente que está a efetivar uma ""consulta não presencial"" realizada ""por telefone"" ou ""por e-mail"", tal como especificado
+aqui
+.
+MEDICINEONE:
+A. O MedicineOne permite a especificação que uma ""consulta não presencial"" é do subtipo ""realizada por telefone"" ou ""realizada por e-mail"".
+B. Esse atributo está disponível para edição por médicos, enfermeiros e secretário clínicos na área de marcação de consultas e de gestão de contactos"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""Inscrição do utente"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""Consulta"": Duração de 12 meses, terminando na data de referência do indicador.
+- Variável ""Taxas moderadoras"": Duração de 12 meses, terminando na data de referência do indicador. Ancorado na consulta.
+- Variável ""Codificação de problemas de saúde na consulta"": Duração de 12 meses, terminando na data de referência do indicador. Ancorado na consulta.
+- Variável ""Tipo de consulta - telefone ou e-mail"": Duração de 12 meses, terminando na data de referência do indicador. Ancorado na consulta."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

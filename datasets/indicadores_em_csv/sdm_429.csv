@@ -1,0 +1,516 @@
+titulo,texto
+ID,429
+Código,8.22.01
+Código SIARS,2019.429.01
+Nome abreviado,"Score dimensão ""outras ativ. não assistenciais"""
+Designação,"Score para avaliação da dimensão ""outras atividades não assistenciais"""
+Objetivo,"Possibilitar a avaliação da dimensão ""Outras Atividades não Assistenciais"", da subárea ""Serviços de Carácter não Assistencial"", da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de serviços não assistenciais não relacionados com a governação clínica do ACES.
+Pretende-se avaliar o grau de implementação de processos de melhoria de contínua da qualidade dirigidas à segurança dos utentes, nos termos do Plano Nacional para a Segurança dos Doentes 2015-2020 (DGS)."
+Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de participação de cada equipa em atividades não assistenciais não relacionadas com a governação clínica e de saúde."
+Regras de cálculo,"SOBRE O CÁLCULO DO SCORE
+A fórmula de cálculo deste score entra em linha de conta com 3 aspetos:
+1. Proporção de horas de serviços não assistenciais realizadas pelos elementos da unidade funcional relativamente ao total de horas contratualizadas.
+2. 
+    A existência ou não de compensação específica (remuneratória, por diminuição do 
+    nº de utentes ou da participação em atividades assistenciais) para a realização 
+    de cada atividade não assistencial. As atividades com compensação específica têm 
+    menor ponderação neste score.
+3. A possibilidade de registar atividades não assistenciais, realizadas por cada 
+    profissional, em 10 classes diferentes de atividades.
+TIPOS DE ATIVIDADES - Q1
+COD
+Designação
+Observações
+Aplicável a USF e UCSP?
+Aplicável a UCC?
+Aplicável a URAP?
+Aplicável a USP?
+Ponderação*
+(POND_ATI_1)
+T01
+Formação de médicos do internato complementar (mesma especialidade do médico 
+         orientador)
+Com presença física do médico interno na UF
+Sim
+Não
+Sim
+Sim
+0,2
+T02
+Formação de médicos do internato complementar (especialidade diferente do médico 
+         orientador)
+Com presença física do médico interno na UF
+Sim
+Não
+Sim
+Sim
+0,3
+T03
+Formação de médicos do ano comum do internato complementar
+Com presença física do médico interno na UF
+Sim
+Não
+Sim
+Sim
+0,4
+T04
+Formação de alunos (tutoria de estágios na UF) de faculdades de medicina
+Com presença física do aluno/estagiário na UF
+Sim
+Sim
+Sim
+Sim
+0,4
+T05
+Formação pré-graduada de alunos (tutoria de estágios na UF) de faculdades de enfermagem
+Com presença física do aluno/estagiário na UF
+Sim
+Sim
+Sim
+Sim
+0,4
+T06
+Formação pós-graduada de alunos (tutoria de estágios na UF) de faculdades de enfermagem
+Com presença física do aluno/estagiário na UF
+Sim
+Sim
+Sim
+Sim
+0,4
+T07
+Formação de alunos (tutoria de estágios na UF) de faculdades de outros grupos 
+         profissionais na saúde
+Com presença física do aluno/estagiário na UF
+Sim
+Sim
+Sim
+Sim
+0,4
+T08
+Formação de alunos (tutoria de estágios na UF) de faculdades por Secretários 
+         Clínicos
+Com presença física do aluno/estagiário na UF
+Sim
+Sim
+Sim
+Sim
+0,4
+T09
+Participação em grupos de trabalho nos serviços centrais da ARS ou dos 
+         organismos centrais do ministério da saúde
+Não devem ser consideradas situações em que o elemento da equipa tenha uma parte 
+         específica do respetivo horário de trabalho dedicada a essas atividades, com 
+         remuneração (base ou em horas extra) própria para as executar.
+Sim
+Sim
+Sim
+Sim
+8
+T10
+Participação como formador nos serviços centrais da ARS ou dos organismos 
+         centrais do ministério da saúde
+Não devem ser consideradas situações em que o elemento da equipa tenha uma parte 
+         específica do respetivo horário de trabalho dedicada a essas atividades, com 
+         remuneração (base ou em horas extra) própria para as executar.
+Sim
+Sim
+Sim
+Sim
+8
+T11
+Atividades com a comunidade (organizador)
+Atividades como organizador, como sejam formações, palestras e 
+         projetos devidamente enquadrados no plano local de saúde. No caso das UCC e das 
+         USP, registar apenas atividades que não façam parte das respetivas carteiras 
+         básicas de serviços
+Sim
+Sim
+Sim
+Sim
+8
+T12
+Atividades com a comunidade (participante)
+Atividades como participante, como sejam formações, palestras e 
+         projetos devidamente enquadrados no plano local de saúde. No caso das UCC e das 
+         USP, registar apenas atividades que não façam parte das respetivas carteiras 
+         básicas de serviços
+Sim
+Sim
+Sim
+Sim
+6
+Legenda: * Horas por dia útil de trabalho
+VARIÁVEIS RELACIONADAS COM A UNIDADE FUNCIONAL, NECESSÁRIAS PARA O CÁLCULO DO 
+    SCORE - Q2
+Variável
+Descrição da variável
+Frequência de registo"
+Fórmula,Valores possíveis
+Unidade de medida,"Quem preenche?
+PROF
+Nº ponderado de profissionais da equipa
+Trimestral
+Ponderação do nº de elementos da equipa, tendo em atenção a carga horária 
+         semanal de cada um e o nº de meses de exercício de funções durante o período em 
+         análise
+Reais
+Profissionais ponderados
+Unidade funcional
+M1
+Mês de início do período em análise
+Trimestral
+Para a generalidade das UF, o 1º mês de contratualização é janeiro (1). Se uma 
+         UF abre ao longo do ano de contratualização, M1 assume o valor do mês de 
+         abertura.
+Valores inteiros entre 1 e 12
+--
+Unidade funcional
+M2
+Mês de fim do período em análise
+Trimestral
+Quando se recolhe a informação do 1º trimestre, M1 = 3;
+Quando se recolhe a informação do 1º e 2º trimestres, M1 = 6;
+Quando se recolhe a informação do 1º, 2º e 3º trimestres, M1 = 9;
+Quando se recolhe a informação do 1º, 2º, 3º e 4º trimestres, M1 = 12;
+Valores inteiros pertencentes ao conjunto {3; 6; 9; 12}
+--
+HC
+Horas de contratualização obrigatórias para o período em análise
+Trimestral
+1,5 x PROF x 11 
+         x (M2 - M1 + 1) / 12
+Reais
+Hora
+Automático
+VARIÁVEIS RELACIONADAS COM CADA ATIVIDADE CONTRATUALIZADA, NECESSÁRIAS PARA O 
+    CÁLCULO DO SCORE - Q3
+Para que o score possa ser calculado, será necessário o registo das atividades 
+    não assistenciais realizadas, com a identificação do profissional responsável 
+    pela realização, o nº de dias úteis alocados à atividade e se a mesma teve ou 
+    não uma compensação específica (remuneratória, por diminuição do nº de utentes 
+    ou por diminuição da participação em atividades assistenciais), a seguir 
+    especificadas:
+COD
+Nome da variável
+Fórmula / Descrição
+Valores possíveis
+Unidade de medida
+Quem preenche?
+COD_ATI
+Código do tipo de atividade.
+Um dos valores da coluna COD da tabela Q1.
+Por inerência, ficam registados os restantes campos da tabela Q1 (Designação, 
+         Observações, Aplicável a USF e UCSP?, Aplicável a UCC?, Aplicável a URAP?, 
+         Aplicável a USP? e Ponderação)
+{T01, T02, ..., T10}
+--
+Unidade funcional
+RES_ATIV
+Resumo da atividade
+Pequeno resumo da atividade realizada
+Texto livre
+--
+Unidade funcional
+NIF_PROF
+NIF do profissional, elemento da equipa, responsável pela execução da 
+         atividade
+Por inerência, será carregado o nome do profissional.
+Apenas aceites profissionais pertencentes à equipa, registados em RHV durante 
+         pelo menos 1 mês entre M1 e M2.
+Se determinada atividade não assistencial é feita por mais do que 1 
+         profissional, deverão ser criados tantos registos quantos os profissionais 
+         participantes.
+Inteiros
+--
+Unidade funcional
+DIAS
+Nº de dias úteis alocados à atividade
+Somatório de dias úteis que o profissional dedica à atividade no período em 
+         análise (entre M1 e M2).
+Deve aceitar valores decimais para poder colocar atividades que não ocupem dias 
+         inteiros.
+Exemplos:
+1. Se uma atividade ocupar 3 manhãs de 4 horas e for realizada por um médico com 
+         contrato de 40 horas por semana, registar 1,5.
+2. Se uma atividade ocupar 3 manhãs de 4 horas e for realizada por um secretário 
+         clínico com contrato de 35 horas, registar 1,71 (12 horas a dividir por 7 
+         horas).
+3. Se uma atividade ocupar 3 manhãs de 4 horas e for realizada por um médico em 
+         trabalho a tempo parcial de 20 horas, derivado de um contrato de 40 horas, 
+         registar na mesma 1,5. A ponderação do trabalho a tempo parcial é feito na 
+         variável PROF e não nesta variável.
+reais, com 2 casas decimais
+Dia
+Unidade funcional
+FL_COMP
+Compensação específica?
+Permite especificar se atividade teve ou não uma compensação específica, de 
+         carácter remuneratório (remuneração base, suplementos ou trabalho 
+         extraordinário), por diminuição do nº de utentes ou por diminuição da 
+         participação em atividades assistenciais.
+São possíveis 3 valores:
+- REMUN - A atividade tem uma compensação específica de carácter remuneratório;
+- HORAS - A atividade tem uma compensação específica de carácter não 
+         remuneratório.
+- ZERO - A atividade não tem qualquer conpensação específica, tendo sido 
+         efetuada em paralelo com a atividade assistencial ou para além do horário normal 
+         de trabalho.
+Exemplos de atividades que devem ser registadas com ""REMUN"":
+a) Orientador de internato médico numa USF modelo B;
+b) Tutoria de alunos ou estagiários enquadradas em protocolo com universidade 
+         que prevê pagamento de honorários aos tutores;
+Exemplos de atividades que devem ser registadas com ""HORAS"":
+a) Orientador de internato numa UCSP, em que o médico orientador tem, no 
+         respetivo horário, horas não assistenciais para o exercício da função de 
+         orientador;
+b) Grupo de trabalho num organismo central do ministério da saúde com direito a 
+         dispensa da atividade assistencial
+{REMUN; HORAS;ZERO}
+---
+Unidade funcional
+POND_ATI_2
+Ponderação a atribuir à atividade em função do tipo de atividade (COD_ATI) 
+         e em função existir ou não compensação específica (FL_COMP)
+Ponderação a atribuir à atividade em função do tipo de atividade (COD_ATI) e em 
+         função existir ou não compensação específica (FL_COMP), nos termos da tabela 
+         seguinte:
+FL_COMP
+Fórmula de POND_ATI_2
+REMUN
+POND_ATI_2 = POND_ATI_1 x 0,20
+HORAS
+POND_ATI_2 = POND_ATI_1 x 0,40
+ZERO
+POND_ATI_2 = POND_ATI_1
+reais, com 2 casas decimais
+---
+Automático
+HP_ATIIV
+Horas ponderadas associadas à atividade
+HP_ATIV = POND_ATI_2 x DIAS
+reais, com 2 casas decimais
+Hora
+Automático
+FÓRMULA
+RESULTADO = 100 x SOMATORIO (HP_ATIV) / HC
+FÓRMULA DE CÁLCULO DO SCORE
+SCORE = 2 x SOMATORIO (HP_ATIV) / HC
+Se SCORE maior que 2, corrigir para 2.
+EXEMPLO DE CÁLCULO DO SCORE
+Este exemplo é referente a 
+        UCC com uma equipa constituída por 12,5 profissionais, que contratualizou 4 atividades de carácter 
+        não assistencial, totalizando xxx horas em contexto de 55 ""obrigatórias"" 
+        (para 6 meses).
+Mês de referência: Junho do ano de contratualização.
+Variável
+Descrição da variável
+Frequência de registo
+Fórmula
+Valor
+PROF
+Nº ponderado de profissionais da equipa
+Trimestral
+Ponderação do nº de elementos da equipa, tendo em atenção a carga horária 
+         semanal de cada um e o nº de meses de exercício de funções durante o período em 
+         análise
+12,5
+M1
+Mês de início do período em análise
+Trimestral
+Para a generalidade das UF, o 1º mês de contratualização é janeiro (1). Se uma 
+         UF abre ao longo do ano de contratualização, M1 assume o valor do mês de 
+         abertura.
+1
+M2
+Mês de fim do período em análise
+Trimestral
+Quando se recolhe a informação do 1º trimestre, M1 = 3;
+Quando se recolhe a informação do 1º e 2º trimestres, M1 = 6;
+Quando se recolhe a informação do 1º, 2º e 3º trimestres, M1 = 9;
+Quando se recolhe a informação do 1º, 2º, 3º e 4º trimestres, M1 = 12;
+6
+HC
+Horas de contratualização obrigatórias para o período em análise
+Trimestral
+1,5 x PROF x 11 
+         x (M2 - M1 + 1) / 12
+103,13
+ID
+COD_ATI (Código e designação da atividade)
+RES_ATIV (Resumo da atividade)
+NIF_PROF
+DIAS
+FL_COMP
+POND_ATI_1
+POND_ATI_2
+HP_ATIIV
+1
+T05 -
+         Formação de alunos (tutoria de estágios na UF) de faculdades de enfermagem
+Aluna Ana Rita de Maio a Junho 2020
+222111222 - Enf. Sofia Martins
+44
+ZERO
+0,4
+0,4
+17,6
+2
+T05 -
+         Formação pré-graduada de alunos (tutoria de estágios na UF) de faculdades de enfermagem
+Aluna Carla Pereira de Janeiro a Março 2020
+222111888 - Enf. Rui Jorge
+66
+ZERO
+0,4
+0,4
+36,4
+3
+T08 -
+         Participação em grupos de trabalho nos serviços centrais da ARS ou dos 
+         organismos centrais do ministério da saúde
+Grupo de trabalho sobre contratualização ACSS - 3 manhãs de 4 horas
+222345888 - Enf. Paula Pires
+1,71
+HORAS
+8
+4
+6,84
+4
+T09 -
+         Participação como formador nos serviços centrais da ARS ou dos organismos 
+         centrais do ministério da saúde
+Formação sobre amamentação - ARS Centro - 3 dias completos
+121345888 - Enf. Paula Pires
+3
+REMUN
+8
+2
+6
+TOTAL DE HORAS - SOMATORIO(HP_ATIV)
+66,84
+SCORE = 2 x SOMATORIO (HP_ATIV) / HC = 2 X 66,84 / 103,13 = 1,30
+Ver regras ou condições C01 a C04 em OBSERVAÇÕES GERAIS"
+Observações Gerais,"Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencentes ao intervalo [0; 2], não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+C02
+IDS da dimensão ""outras atividades não assistenciais""
+O [IDS da dimensão ""outras atividades não assistenciais""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""outras atividades não assistenciais""] = 100 x [Score dimensão ""outras 
+    atividades não assistenciais""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da 
+                CHECKLIST DE autopreenchimento, 
+    registadas pela unidade funcional
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS.
+Fórmula"
+Fórmula,Aplicação de checklist
+Período em Análise,Unidade de medida
+Unidade de medida,Score
+Output,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,30 dias

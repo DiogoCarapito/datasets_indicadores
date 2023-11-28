@@ -1,0 +1,53 @@
+titulo,texto
+ID,059
+Código,5.13.02
+Código SIARS,2013.059.01
+Nome abreviado,"Proporção crianças 2 anos, c/ peso e altura 1 ano"
+Designação,"Proporção de crianças com 2 anos, com peso e altura registado no último ano"
+Objetivo,"Monitorizar o programa de saúde infantil, 2º ano de vida, parâmetro ""registo de peso e altura""."
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com peso e altura avaliados no intervalo [1; 2[ anos (entre as que completam 2 anos).
+Numerador: Contagem de crianças com peso e altura avaliados no intervalo [1; 2[ anos.
+Denominador: Contagem de crianças que completam 2 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm pelo menos um registo de peso com [data de medição] pertencente ao intervalo etário [1; 2[ anos (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+C. Têm pelo menos um registo de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [1; 2[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 2 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador."
+Observações Gerais,"A. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Se existir um registo de peso e altura no período em análise, realizado por um enfermeiro, não é necessário, nesse período em análise, a existência de registos médicos e vice-versa.
+B. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC.
+D. Não é obrigatório que o peso e altura sejam registados no mesmo dia.
+E. Se existir um registo de peso e altura no período em análise, realizado por um enfermeiro, não é necessário, nesse período em análise, a existência de registos médicos e vice-versa."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. No SCLÍNICO, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes e saúde infantil.
+MEDICINEONE:
+A. O peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes e saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variáveis ""peso e altura""): Coincidente com o intervalo etário [1; 2[ anos de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [2, 3[ anos de idade.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variáveis ""peso e altura""): Coincidente com o intervalo etário [1; 2[ anos de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [95.5; 100]
+Ano de 2023: [95.5; 100]
+Ano de 2024: [95.5; 100]"
+Intervalo Esperado,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,40 @@
+titulo,texto
+ID,159
+Código,7.07.03
+Código SIARS,7.7
+Nome abreviado,"Despesa MCDT prescrit., por utiliz. (p. conv.)"
+Designação,"Despesa média de MCDT prescritos, por utente utilizador (baseado no preço convencionado)"
+Objetivo,"Monitorizar programa de prescrição de MCDT. Parâmetro ""despesa em MCDT prescritos"""
+Descrição do Indicador,"Indicador que exprime a despesa média de MCDT prescritos, por utente utilizador, baseado no [preço].
+Numerador: Somatório do [preço] dos MCDT prescritos.
+Denominador: Contagem de utentes utilizadores."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do [preço] dos MCDT em que a expressão [A e B] é verdadeira:
+A. Prescritos durante o período em análise, a utentes incluídos no denominador;
+B. Prescritos por qualquer médico ou interno da unidade de saúde numa requisição com código identificador da unidade de observação;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de observação, durante pelo menos um dia do período em análise.
+B. Ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde)."
+Observações Sobre Software,"SClínico:
+A. Não são contabilizados os exames requisitados fora da UF, desde que os respetivos resultados sejam registados sem prévia ""emissão de requisição"".
+B. São contabilizados os exames emitidos no contexto de ""requisições internas"".
+MEDICINEONE:
+A. São contabilizados todos os exames prescritos quer através do módulo de análises quer através do módulo de MCDT.
+B. Não são contabilizados os exames requisitados fora da UF, desde que os respetivos resultados sejam registados sem prévia ""impressão de requisição""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com MCDT
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

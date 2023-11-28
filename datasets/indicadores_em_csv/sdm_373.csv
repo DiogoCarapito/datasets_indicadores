@@ -1,0 +1,74 @@
+titulo,texto
+ID,373
+Código,3.37.01
+Código SIARS,2017.373.01
+Nome abreviado,Prop. utentes c/ asma/DPOC e intervenção na UCC
+Designação,"Proporção de utentes com asma ou DPOC, com intervenção na UCC"
+Objetivo,Monitorização da utilização dos serviços da UCC por utentes com asma ou DPOC.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com asma ou DPOC que utilizaram os serviços da UCC.
+Numerador: Contagem de utentes com asma ou DPOC com pelo menos uma consulta com um profissional da UCC.
+Denominador: Contagem de utentes com asma ou DPOC."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos uma consulta com um profissional da UCC no período em análise (ver alínea A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2020.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Registo do diagnóstico médico de Asma ou DPOC (códigos da ICPC-2 R96 e R95) na lista de problemas, no estado [ativo] durante pelo menos os 190 dias que antecedem a data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC durante pelo menos um dia do período em análise (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas E e F de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2019.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Registo do diagnóstico médico de Asma ou DPOC (códigos da ICPC-2 R96 e R95) na lista de problemas, no estado [ativo] durante pelo menos os 190 dias que antecedem a data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas E e F de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Os grupos profissionais admissíveis para análise neste indicador são: enfermeiros; assistentes socias; médicos; fisioterapeutas; nutricionistas; psicólogos; outros profissionais de saúde com funções clínicas (exclui secretários clínicos).
+B. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C020
+| Consulta presencial de ""outro profissional"" - [SClínico - Perfil ""outro profissional""], incluindo:
+a) Consulta presencial realizada por psicólogo
+b) Consulta presencial realizada por fisioterapeuta
+c) Consulta presencial realizada por assistente social
+d) Consulta presencial realizada por nutricionista
+e) Consulta presencial realizada por outro tipo de profissional de saúde
+C. Os utentes com Asma ou DPOC diagnosticados de novo só são incluídos no denominador 190 dias (6 meses e 7 dias) após o registo do diagnóstico, por forma a que exista um período necessário à referenciação e inclusão destes utentes nos projetos desenvolvidos pelas UCC.
+D. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
+E. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+F. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES."
+Observações Sobre Software,"SClínico:
+A. A associação de uma consulta a uma UCC é efetuada no momento da credenciação inicial. Quando um profissional tem acesso a mais do que uma unidade de saúde deve escolher especificamente a UCC a sua atividade fique associada a esta unidade de saúde."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+A principal variável de ""ancoragem"" de cada utente é de ter pelo menos uma consulta com um profissional da UCC no período em análise.
+- Numerador (variável ""consulta""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""diagnóstico""): Duração de 190 dias, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""residência""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [18; 100]
+Ano de 2023: [18; 100]
+Ano de 2024: [18; 100]"
+Intervalo Esperado,"Ano de 2022: [6; 100]
+Ano de 2023: [6; 100]
+Ano de 2024: [6; 100]"
+Tipo de Indicador,Estrutura
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

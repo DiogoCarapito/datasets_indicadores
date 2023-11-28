@@ -1,0 +1,87 @@
+titulo,texto
+ID,328
+Código,6.72.01
+Código SIARS,2016.328.01
+Nome abreviado,Taxa de internam. evitáveis na população adulta
+Designação,Taxa de internamentos evitáveis na população adulta
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP a utentes com asma, DPOC, pneumonia, ICC, angina de peito, hipertensão e diabetes, no respetivo controlo sintomático, na prevenção de complicações e agudizações, usando como medida a ""taxa de internamento hospitalar"". Ver alíneas C, D e E de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos hospitalares evitáveis (relacionados com asma, DPOC, pneumonia, ICC, angina de peito, hipertensão ou diabetes, em doentes adultos), por cada 100.000 residentes com 18 ou mais anos.
+Numerador: Contagem episódios de internamento hospitalar relacionados com asma, DPOC, pneumonia, ICC, angina de peito, hipertensão ou diabetes, em doentes adultos.
+Denominador: Contagem de utentes residentes com 18 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de internamentos hospitalares em que a expressão [A e B e C e D e E e (F ou G ou H ou I ou J ou K ou L)] é verdadeira:
+A. Referentes a utentes internados com data de alta incluída no período em análise (ver alínea G de OBSERVAÇÕES GERAIS);
+B. Internados com duração superior a 24 horas (ver alínea G de OBSERVAÇÕES GERAIS);
+C. Não são considerados os utentes transferidos de outros hospitais.
+D. Na data de admissão têm 18 ou mais anos;
+E. O registo da freguesia de residência no internamento hospitalar pertence à área de abrangência da unidade de observação em análise (ver alíneas B, C, D e E de OBSERVAÇÕES GERAIS);
+F. Internamento por ""doença pulmonar obstrutiva crónica"" (ver alínea A de OBSERVAÇÕES GERAIS).
+G. Internamento por ""asma"" (ver alínea A de OBSERVAÇÕES GERAIS).
+H. Internamento por ""Diabetes Mellitus"" ou complicações (ver alínea A de OBSERVAÇÕES GERAIS).
+I. Internamento para amputação não traumática de membro inferior (ver alínea A de OBSERVAÇÕES GERAIS).
+J. Internamento por ""hipertensão arterial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+K. Internamento por ""insuficiência cardíaca congestiva"" (ver alínea A de OBSERVAÇÕES GERAIS).
+L. Internamento por ""angina"" (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas B, C, D, E e F de OBSERVAÇÕES GERAIS).
+B. Com 18 ou mais anos."
+Observações Gerais,"A. A condição (F ou G ou H ou I ou J ou K ou L) do numerador deste indicador é constituído pelos episódios de internamento que cumprem as regras dos numeradores dos seguintes indicadores:
+318
+- Taxa de internamento por asma em adultos jovens
+319
+- Taxa de internamento por asma ou DPOC em adultos
+320
+- Taxa de internamento por Diabetes Mellitus não controlada sem menção a complicações agudas nem crónicas de diabetes
+321
+- Taxa de internamento por complicações agudas da Diabetes Mellitus
+322
+- Taxa de internamento por complicações crónicas da Diabetes Mellitus
+323
+- Taxa de internamento para amputação de membro inferior em pessoas com Diabetes Mellitus
+324
+- Taxa de internamento por hipertensão arterial
+325
+- Taxa de internamento por insuficiência cardíaca congestiva
+326
+- Taxa de internamento por pneumonia bacteriana em adultos
+327
+- Taxa de internamento por angina de peito
+B. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias.
+C. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+D. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 10.000 residentes estimados pelo INE, 2500 serão atribuídos à UF1 e 7500 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 5000 residentes estimados pelo INE, 4000 serão atribuídos à UF2 e 1000 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 11500 utentes residentes estimados por esta metodologia (7500 da freguesia X e 4000 da freguesia Y).
+Esta metodologia é aplicável não só às estimativas de residentes do INE (denominador) mas também à informação de internamentos cuja fonte é a base de dados de GDH, cujos dados são fornecidos agregados por freguesia.
+E. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) Idade da UF. Os resultados em saúde relacionados com o controlo de alguns dos problemas crónicos medidos por este indicador não são imediatos.
+b) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+c) O nível de rigor no registo da freguesia de residência dos utentes internados. As UF com área de abrangência próxima de unidades de hospitalares de referência no tratamento e controlo da(s) patologias monitorizadas, podem ter um aumento do numerador se existirem utentes que para acederem aos cuidados hospitalares falseiam a respetiva morada para uma que possibilite o acesso.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias, da proximidade com hospitais ou da respetiva idade. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+F. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (antes da data de referência do indicador).
+G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
+https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador)."
+Fórmula,AA / BB x 100.000
+Unidade de medida,por 100.000
+Output,Taxa internamento (por 100.000 residentes por ano)
+Estado do indicador,Com dados desde Dezembro de 2013
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [200; 850]
+Ano de 2023: [200; 850]
+Ano de 2024: [200; 850]"
+Intervalo Esperado,"Ano de 2022: [200; 1000]
+Ano de 2023: [200; 1000]
+Ano de 2024: [200; 1000]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

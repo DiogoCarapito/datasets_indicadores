@@ -1,0 +1,125 @@
+titulo,texto
+ID,265
+Código,6.44.02
+Código SIARS,2013.265.01
+Nome abreviado,"Percent. DM vigiado, c/ registo risco úlcera pé"
+Designação,"Percentagem de diabéticos com compromisso de vigilância, com registo de risco de ulceração do pé"
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""registo de risco de ulceração do pé""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes, com registo do risco de risco de ulceração do pé, realizado no último ano.
+Numerador: Contagem de utentes inscritos com diabetes, com compromisso de vigilância e com registo do risco de ulceração do pé, realizado no último ano.
+Denominador: Contagem de utentes inscritos com diabetes e com compromisso de vigilância no programa de diabetes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um registo de ""risco de ulceração do pé"", nos últimos 12 meses (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+C. Ter compromisso de vigilância na Unidade Funcional no programa de Diabetes, durante pelo menos um dia do período em análise."
+Observações Gerais,"A. O [risco de ulceração do pé] pode ser registado por qualquer médico, interno ou enfermeiro da unidade de saúde. Se num determinado ano existir um registo médico, não é necessário existir nesse ano registo de enfermagem, e vice-versa.
+B. A registo de risco de ulceração do pé pode ser classificado como:
+- baixo risco
+- médio risco
+- alto risco
+O que se mede no indicador é a existência do registo do risco, independentemente do respetivo grau.
+C. Os sistemas de informação deverão implementar um quadro de registo do risco de úlcera de acordo com as especificações seguintes, decorrentes das orientações atualmente em vigor (norma DGS 005/2011 de 21-1-2011).
+QUADRO DE AVALIAÇÃO DO RISCO DE ULCERAÇÃO DO PÉ (UTENTES COM DIABETES)
+Anamnese
+1. Complicações tardias da diabetes (diminuição da ac. visual, insuficência renal, ...). | S | N | na
+2. Tabagismo. | S | N | na
+3. Conhecimento não demonstrado (risco de doença, autovigilância, ...). | S | N | na
+4. Condições socioeconómicas deficientes. | S | N | na
+5. Calçado ou meias inadequados. | S | N | na
+Exame aos pés
+6. Integridade cutânea alterada (secura, calosidades, gretas ou infeção fúngica). | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+7. Presença de edema. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+8. Deformidades do pé (nas proeminências ósseas ou nos dedos). | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+9a. Neuropatia - deteção por monofilamento. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+9b. Neuropatia - deteção por diapasão. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+9c. Neuropatia - deteção por teste de sensibilidade com algodão. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+9d. Neuropatia - deteção por diminuição dos reflexos tendinosos. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+10a. Isquemia - Ausência do pulso pedioso. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+10b. Isquemia - Ausência do pulso tibial posterior. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+10c. Isquemia - Claudicação da marcha ou dor dos gémeos em repouso. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+10d. Isquemia - Cor e temperatura da pele alterada. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+10e. Isquemia - Índice tíbeo-braquial alterado (< 0,9). | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+11. Antecedentes pessoais de úlcera. | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+12. Antecedentes pessoais de amputação de membro inferior (minor ou major). | PD-S | PD-N | PD-na | PE-S | PE-N | PE-na
+Risco de ulceração do pé
+Alto Risco
+De acordo com a norma DGS 005/2011 de 21-1-2011, são utentes com [isquemia] ou com [neuropatia e deformidades do pé] ou [história 
+de úlcera cicatrizada] ou [amputação prévia].
+Um utente é considerado de ""alto risco"" se a condição [A ou B ou C ou D ou E ou F ou G ou H ou I ou K] é verdadeira.
+A. 10a assinalado (isquemia)
+B. 10b assinalado (isquemia)
+C. 10c assinalado (isquemia)
+D. 10d assinalado (isquemia)
+E. 10e assinalado (isquemia)
+F. 11 assinalado (úlcera anterior)
+G. 12 assinalado (amputação anterior)
+H. 8 e 9a assinalado (deformidades e neuropatia)
+I. 8 e 9b assinalado (deformidades e neuropatia)
+J. 8 e 9c assinalado (deformidades e neuropatia)
+K. 8 e 9d assinalado (deformidades e neuropatia)
+Médio Risco
+De acordo com a norma DGS 005/2011 de 21-1-2011, são utentes com neuropatia periférica.
+Um utente é considerado de ""médio risco"" se a condição [A e (B ou C ou D ou E)] é verdadeira.
+A. O utente não é classificado como ""Alto Risco""
+B. 9a assinalado (neuropatia)
+C. 9b assinalado (neuropatia)
+D. 9c assinalado (neuropatia)
+E. 9d assinalado (neuropatia)
+Baixo Risco
+São os utentes não classificados como ""alto risco"" nem como ""médio risco""
+Um utente é considerado de baixo risco se a condição [A e B e (C ou D ou E ou F ou G ou H ou I ou J ou I)] é verdadeira.
+A. O utente não é classificado como ""Alto Risco""
+B. O utente não é classificado como ""Médio Risco""
+C. 1 assinalado (complicações tardias)
+D. 2 assinalado (tabagismo)
+E. 3 assinalado (conhecimento não demonstrado ...)
+F. 4 assinalado (condições socioeconómicas deficientes)
+G. 5 assinalado (calçado e meias inadequadas)
+H. 6 assinalado (integridade cutânea alterada)
+I. 7 assinalado (presença de edema)
+J. 8 assinalado (deformidades do pé ...)
+H. Nenhum dos itens entre 1 e 8 assinalado
+Orientações para o plano de cuidados em função da determinação do risco (norma DGS 005/2011 de 21-1-2011)
+- Alto Risco: Hospital (equipas de nível II ou eventualmente de nível III;
+- Médio Risco: Avaliação semestral nos CSP (equipa de nível I) ou eventualmente no hospital (equipas de nível II).
+- Baixo Risco: Avaliação anual nos CSP (equipa de nível I).
+Critérios de referenciação hospitalar urgente
+a. Úlcera sem melhoria clínica no período de 1 mês após vigilância e tratamento aparentemente adequados.
+b. Úlcera com sinais de celulite; ou área de rubor peri-úlcera superior a 2 cm de largura; ou exposição óssea; ou evidência de infeção sistémica.
+c. Úlcera com sinais de compromisso vascular importante, com necrose, gangrena ou outros sinais críticos de isquemia.
+d. Suspeita de pé de charcot.
+e. Dor intensa refratária ao tratamento."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Pode ser preenchido no programa/ficha de diabetes e também no plano de trabalho. Esta informação migra para o ""perfil médico"" do SCLÍNICO.
+SCLÍNICO - PERFIL MÉDICO:
+A. Pode ser preenchido no programa/ficha de diabetes. Esta informação migra para o ""perfil de enfermagem"".
+MEDICINEONE:
+A. Disponível para registo no módulo de ""Riscos clínicos"". Realizável por enfermeiros e médicos. Apesar da área de preenchimento contemplar uma [data de início] e uma [data de fim], deve ser realizado um novo registo por ano para que o utente seja contabilizado no numerador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

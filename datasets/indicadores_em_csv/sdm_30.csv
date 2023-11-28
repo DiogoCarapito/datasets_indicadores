@@ -1,0 +1,62 @@
+titulo,texto
+ID,030
+Código,6.01.04
+Código SIARS,2013.030.01
+Nome abreviado,"Proporção idosos ou doença crónica, c/ vac. gripe"
+Designação,"Proporção de utentes com diabetes ou com doença respiratória crónica ou com doença cardíaca crónica ou com idade superior a 65 anos, com a vacina da gripe prescrita ou efetuada nos últimos 12 meses"
+Objetivo,"Monitorização do programa de saúde de adultos: Parâmetro ""vacina da gripe"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com a vacina da gripe prescrita nos últimos 12 meses, de entre inscritos com diabetes ou com doença respiratória crónica ou com doença cardíaca crónica ou com idade superior a 65 anos.
+Numerador: Contagem de utentes inscritos com a vacina da gripe prescrita ou efetuada nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com diabetes ou com doença respiratória crónica ou com doença cardíaca crónica ou com idade superior a 65 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma prescrição de vacina da gripe nos últimos 12 meses (ver alíneas A, D e E de OBSERVAÇÕES GERAIS e comentários sobre esta variável em PERÍODO EM ANÁLISE).
+C. Pelo menos uma inoculação de vacina da gripe nos últimos 12 meses (ver vacinas equivalentes com código
+[GRIPE]
+, as alíneas B e C de OBSERVAÇÕES GERAIS e comentários sobre esta variável em PERÍODO EM ANÁLISE).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C ou D ou E)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 65 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"").
+C. O diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+D. Pelo menos um dos diagnósticos de DPOC, asma ou bronquite crónica (rubricas da ICPC-2 R95 ou R96 ou R79) encontra-se registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+E. Pelo menos um dos diagnósticos de cardiopatia isquémica ou ICC (rubricas da ICPC-2 K74 ou K75 ou K76 ou K77) encontra-se registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador."
+Observações Gerais,"A. Incluem-se as prescrições pertencentes ao grupo 18.1 (Vacinas simples e conjugadas) da classificação CFT e com um dos códigos seguintes da classificação ATC:
+- J07BB01 - Vírus da gripe, inativado, total.
+- J07BB02 - Vírus influenza fracionado inativado ou antigénio de superfície.
+- J07BB03 - Vírus influenza vivo atenuado.
+- J07BB04 - Partículas semelhantes ao vírus influenza.
+B. As vacinas foram historicamente registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica das inoculações da vacina da gripe a partir do SINUS e a mais atual a partir do RSE Vacinas. Contabilizam-se também os utentes com registo de prescrição médica de vacina.
+C. Contabilizam-se todas as inoculações, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, mas apenas na área de abrangência da respetiva ARS.
+D. Contabilizam-se todas as prescrições de vacina da gripe, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, desde que ocorra na região de saúde (ARS) de inscrição do utente.
+E. A partir do no ano de 2021, os utentes com menos de 65 anos e fatores de risco têm direito à vacinação da gripe gratuita, bastando para o efeito serem portadores de uma declaração médica emitida através da PEM. Essa vacina pode ser efetuada, de forma gratuita, quer nas farmácias comunitárias quer nas Unidades Funcionais ou serviços dos ACES, designadamente em ""Centros de Vacinação COVID-19"". Todos os serviços dos ACES e farmácias comunitárias são obrigados a fazer o registo da inoculação desta vacina no e-Vacinas, pelo que estas inoculações são sempre contabilizadas no numerador do indicador. Também os raros registos que possam ser efetuados com alguns dias de atraso relativamente à inoculação, são capturados pelo indicador, tendo em conta que este é um dos que, no final de cada ano, é reprocessado 30 dias após o fim do período em análise (precisamente para contabilização adicional de registos feitos nos 30 dias seguintes, mas ainda referentes ao período em análise)."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnósticos podem estar inseridos quer na [lista de problemas] quer na [lista de outros problemas]. Necessitam estar classificados como ""ativo"" e não ter sido classificados como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacina"" e variável ""prescrição de vacina""): Duração de 12 meses. Termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 65 ou mais anos.
+- Denominador (variáveis ""códigos ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacina"" e variável ""prescrição de vacina""): Duração de 1 a 12 meses. Tem início a 1 de Janeiro e termina data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de Dezembro tem 65 ou mais anos.
+- Denominador (variáveis ""códigos ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
+Intervalo Aceitável,"Ano de 2022: [55; 100]
+Ano de 2023: [55; 100]
+Ano de 2024: [55; 100]"
+Intervalo Esperado,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

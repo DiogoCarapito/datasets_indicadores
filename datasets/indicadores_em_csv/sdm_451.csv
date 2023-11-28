@@ -1,0 +1,59 @@
+titulo,texto
+ID,451
+Código,5.03.03
+Código SIARS,2023.451.01
+Nome abreviado,"Prop. utentes [50; 75[A, c/ rastr. cancro CR PSOF"
+Designação,"Proporção de utentes com idade entre [50; 75[ anos, com rastreio de cancro do cólon e reto efetuado por teste primário (pesquisa de sangue oculto nas fezes)"
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do rastreio de cancro do cólon e reto por teste primário por pesquisa de pesquisa de sangue oculto nas fezes, a realizar de 2 em 2 anos"".
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), destinando-se a comparar as unidades prestadoras em função da capacidade para implementação do programa de rastreio, utilizando o teste primário (pesquisa de sangue oculto nas fezes)."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade compreendida no intervalo [50; 75[ anos (sem critérios de exclusão para o rastreio do cancro do cólon e reto), com rastreio do cancro do cólon e reto efetuado com teste primário (pesquisa de sangue oculto nas fezes), realizado nos últimos 2 anos.
+Numerador: Contagem de utentes inscritos com rastreio do cancro do cólon e reto efetuado com teste primário (pesquisa de sangue oculto nas fezes).
+Denominador: Contagem de utentes inscritos ativos com idade compreendida no intervalo [50; 75[ anos e sem critérios de exclusão para o rastreio do cancro do cólon e reto."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de pesquisa de sangue oculto nas fezes (PSOF), nos últimos 2 anos (entre os meses N-26 e N-3, N é o mês de referência do indicador) , realizada no contexto do programa nacional de rastreio oncológico de base populacional (ver alíneas A, C, D e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Ter idade compreendida no intervalo [50; 75[ anos, medida no mês N-3 (N é o mês de referência do indicador) (ver alínea E de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] na Unidade de Saúde na data de referência do indicador.
+C. Sem diagnóstico de ""neoplasia maligna do cólon/recto"" (código ICPC-2 D75), nem diagnóstico de ""doença inflamatória intestinal"" (código ICPC-2 D94) na lista de problemas, no mês N-3 (N é o mês de referência do indicador).
+D. Sem registo de resultado de colonoscopia nos últimos 10 anos, medida até ao mês N-3 (N é o mês de referência do indicador). (ver alíneas B, C e D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O exame da tabela de MCDT convencionados, válido para identificar [PSOF] é o seguinte:
+- [Sangue oculto nas fezes, fezes], código 607.6, área A.
+- [Sangue oculto nas fezes, fezes], código SNS 22768.
+- O método laboratorial da PSOF, recomendado pelo programa de rastreio, é o imunoqúimico.
+B. O exames da tabela de MCDT convencionados, válidos para identificar [colonoscopia] são os seguintes:
+- [Colonoscopia total], código 005.1, área F.
+- [Colonoscopia total], código 101.5, área F.
+- [Colonoscopia, pacote de procedimentos], código 100.7, área F.
+- [Colonoscopia total], código SNS 50940.
+C. Para que um exame seja contabilizado, deve ter um resultado.
+D. Para a colonoscopia, a data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". Para a PSOF, a data relevante para análise é a ""data de resultado"" (considerando que a data de realização não é registada nos sistemas de informação). O resultado (da colonoscopia e da PSOF) deve ser preenchido, no máximo, até 90 dias após o fim do período em análise.
+E. A idade deve ser medida em relação à data de referência do indicador.
+F. Apenas se contabilizam na alínea B do numerador, resultados de exames sem requisição médica associada ou resultados marcados no sistema de informação como tendo sido integrados a partir do SIIMA rastreios ou outro sistema autorizado para gerir a informação dos rastreios oncológicos de base populacional.
+G. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SIIMA-rastreios"".
+B. O exame [PSOF] também pode ser registado no módulo de MCDT.
+C. Os resultados dos exames de rastreio podem ser consultados (mas não registados) no módulo de ""rastreio oncológico""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""Resultado de PSOF""): realizado entre os meses N-26 e N-3, N é o mês de referência do indicador.
+- Denominador (variável ""inscrição ativa""): coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): medida até ao mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""neoplasia maligna do cólon/recto""): medida até ao mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""doença inflamatória intestinal""): medida até ao mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""colonoscopia""): Duração de 120 meses anteriores ao mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,90 dias

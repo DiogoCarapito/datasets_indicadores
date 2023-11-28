@@ -1,0 +1,41 @@
+titulo,texto
+ID,201
+Código,2.12.04
+Código SIARS,MORB.201.01
+Nome abreviado,"Proporção de utentes com ""abuso de drogas"""
+Designação,"Proporção de utentes com o diagnóstico de ""abuso de drogas"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de abuso de drogas"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""abuso de drogas"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""abuso de drogas"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""abuso de drogas"" (rubrica ICPC P19) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de P19 (ICPC-2): Perturbação devida ao abuso de substâncias psicoactivas que provocam dependência e que leva a uma ou mais das situações seguintes:- intoxicação aguda, - uso abusivo com prejuízo clinicamente grave para a saúde, - dependência, - estado de privação, - distúrbios psicóticos.
+C. O P19 inclui (ICPC-2): Dependência de drogas, privação de drogas.
+D. Notas de P19 (ICPC-2): Abuso de substâncias. As definições de abuso de substâncias devem tomar em conta as diferenças de país para país e de cultura para cultura. Um doente alcoólico ou um tóxico-dependente precisa de atenção médica, mas as definições de ""abuso de haxixe"" são controversas. Alguns utentes pedem e tomam tranquilizantes, comprimidos para dormir, anoréticos e laxativos inadequadamente e por muito tempo. Nestes casos, o médico pode chamar ao episódio ""abuso de drogas"" sem o acordo do doente e, consequentemente, sem a sua predisposição para concordar com qualquer intervenção médica.
+E. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

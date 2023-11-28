@@ -1,0 +1,65 @@
+titulo,texto
+ID,438
+Código,6.90.02
+Código SIARS,2021.438.01
+Nome abreviado,"Proporção asma < 18A, c/ cons. vigil. asma 1A"
+Designação,"Proporção de utentes com asma e idade inferior a 18 anos, a quem foi realizada consulta de vigilância de asma no último ano"
+Objetivo,"Monitorizar o programa doenças respiratórias. Parâmetro ""consulta de vigilância de asma em crianças e adolescentes""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com asma e idade inferior a 18 anos com consulta de vigilância de asma (médica ou de enfermagem) registada no último ano.
+Numerador: Contagem de utentes inscritos, com asma, com idade inferior a 18 anos, que têm consulta de vigilância de asma (médica ou de enfermagem) registada no último ano.
+Denominador: Contagem de utentes inscritos, com asma, com idade inferior a 18 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos 1 consulta médica de vigilância da asma, nos 12 meses que antecedem a data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Ter pelo menos 1 consulta de enfermagem de vigilância da asma, nos 12 meses que antecedem a data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade inferior a 18 anos (medida na data de referência do indicador).
+C. Na data de referência do indicador, o diagnóstico de asma (rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] de doente com asma, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 específico de asma, que pode ser usado para a classificar como ""problema de saúde da consulta"" é o R96.
+B. Para se considerar uma [Consulta de Enfermagem de Vigilância] de doente com asma, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.10
+| Consulta de enfermagem de vigilância relacionada com doenças respiratórias - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE de [diagnóstico de enfermagem] nem de [intervenção de enfermagem] específicos de vigilância em doenças respiratórias estão disponíveis
+aqui
+. [Consulta médica presencial - SClínico]. Adicionalmente, para que a consulta de enfermagem seja classificada como de ""vigilância de asma"", o enfermeiro que regista a consulta deverá associá-la, no SClínico, ao programa ""	P.N. Doenças Respiratórias"", tal como especificado
+aqui
+Nota 2: Na norma
+C012
+, o código ICPC-2 específico de asma, que pode ser usado para a classificar como ""problema de saúde da consulta"", nas consultas de enfermagem registadas no software MedicineOne, é o R96."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de asma pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variáveis ""consulta médica"" e ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""asma na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem [0, 18[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2020
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

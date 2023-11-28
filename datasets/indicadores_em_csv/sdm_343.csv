@@ -1,0 +1,51 @@
+titulo,texto
+ID,343
+Código,3.31.01
+Código SIARS,2017.343.01
+Nome abreviado,Proporção de chamadas telefónicas atendidas
+Designação,Proporção de chamadas telefónicas atendidas
+Objetivo,Monitorizar o atendimento telefónico na unidade funcional.
+Descrição do Indicador,"Exprime a proporção de chamadas telefónicas realizadas para a unidade de observação que são atendidas.
+Numerador - Contagem de chamadas telefónicas realizadas para a unidade de observação que são atendidas.
+Denominador - Contagem de chamadas telefónicas realizadas para a unidade de observação."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de chamadas telefónicas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Que foram atendidas.
+DENOMINADOR (BB):
+Contagem de chamadas telefónicas em que a expressão [A e B] é verdadeira:
+A. Realizadas para um dos números de telefone da unidade de observação (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Realizadas durante o período em análise."
+Observações Gerais,"A. Serão contabilizados em cada unidade funcional exclusivamente os números de telefone que lhe pertençam, dedicados ao atendimento ao público.
+B. Os números de telefone referidos no ponto A serão validados trimestralmente pelo ACES respetivo numa plataforma web desenvolvida para o efeito.
+C. Devem ser disponibilizados adicionalmente as seguintes métricas:
+a) Nº de chamadas realizadas no intervalo horário [8; 11[ horas;
+b) Nº de chamadas atendidas no intervalo horário [8; 11[ horas;
+c) Proporção de chamadas atendidas no intervalo horário [8; 11[ horas;
+d) Nº de chamadas realizadas no intervalo horário [11; 14[ horas;
+e) Nº de chamadas atendidas no intervalo horário [11; 14[ horas;
+f) Proporção de chamadas atendidas no intervalo horário [11; 14[ horas;
+g) Nº de chamadas realizadas no intervalo horário [14; 17[ horas;
+h) Nº de chamadas atendidas no intervalo horário [14; 17[ horas;
+i) Proporção de chamadas atendidas no intervalo horário [14; 17[ horas;
+j) Nº de chamadas realizadas no intervalo horário [17; 20[ horas;
+k) Nº de chamadas atendidas no intervalo horário [17; 20[ horas;
+l) Proporção de chamadas atendidas no intervalo horário [17; 20[ horas;"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""chamada telefónica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""chamada telefónica""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de chamadas telefónicas
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Atendimento Telefónico
+Intervalo Aceitável,"Ano de 2022: [100; 90]
+Ano de 2023: [100; 90]
+Ano de 2024: [100; 90]"
+Intervalo Esperado,"Ano de 2022: [100; 80]
+Ano de 2023: [100; 80]
+Ano de 2024: [100; 80]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,5 dias

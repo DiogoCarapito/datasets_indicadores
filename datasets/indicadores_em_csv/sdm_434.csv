@@ -1,0 +1,229 @@
+titulo,texto
+ID,434
+Código,6.30.03
+Código SIARS,2022.434.01
+Nome abreviado,Índice acompanham. adequado Planeam. Fam. - V2
+Designação,Índice de acompanhamento adequado em Planeamento Familiar - V2
+Objetivo,"1 - Monitorizar o programa de planeamento familiar.
+2 - Determinação de um dos componentes necessários para pagar mensalmente a médicos das USF modelo B por ""atividades específicas"", nos termos do artigo 29º do
+Decreto-Lei 298/2007
+(na sua redação atual) e para o pagamento mensal de 100%, 50% ou 0% dos ""incentivos financeiros"" a enfermeiros e secretários clínicos das USF modelo B, nos termos do artigo 38º do
+Decreto-Lei 298/2007
+(na sua redação atual), dos artigos 3º e 12º da
+Portaria 212/2017
+bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o numerador deste indicador são também usados nos seguintes indicadores:
+•
+446
+- Número de unidades de contratualização relacionadas atividades específicas - Médicos - V2.
+•
+447
+- Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
+•
+448
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
+NOTA IMPORTANTE
+:
+As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
+aqui
+."
+Descrição do Indicador,"Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de planeamento familiar (de acordo com as normas da Direção-Geral da Saúde) nas MIF com idade no intervalo [15; 50[ anos.
+Numerador: Somatório do ""score de acompanhamento"" na área do planeamento familiar (PF), determinado para cada mulher em idade fértil (MIF) inscrita na unidade funcional. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
+Denominador: Contagem de MIF com idade no intervalo [15; 50[ anos."
+Regras de cálculo,"NUMERADOR (PF_T)
+:
+Somatório do ""score de acompanhamento em PF - utente"" determinado para cada MIF inscrita na unidade funcional (UF) em análise.
+O ""score de acompanhamento em PF - utente"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada critério.
+O ""score de acompanhamento em PF - utente"" é calculado apenas para as utentes incluídas no denominador e para as que cumprem a totalidade dos critérios ""obrigatórios"" abaixo referidos (coluna Obrig. (S/N) igual a ""S""), efetuando a soma das ponderações dos critérios ""não obrigatórios"" (coluna Obrig. (S/N) igual a ""N"") a seguir discriminadas que tenham sido cumpridos.
+Cód
+Nome do Critério
+Condições do Critério
+Obrig. (S/N)
+Ponder.
+Validade
+G
+Acessibilidade para a doença aguda (prescrição AINE’s, analgésicos ou antibióticos na UF de inscrição)
+Este critério é considerado cumprido quando é verdadeira a condição [A ou B]
+A. Ter pelo menos uma receita de AINE’s, analgésicos ou de antibióticos prescrita na unidade funcional de inscrição ao longo do ano;
+B. Ter menos de 2 receitas de AINE’s, analgésicos ou antibióticos ao longo do ano (independentemente de terem ou não sido prescritas na unidade funcional de inscrição).
+Ver alíneas D, E e F de OBSERVAÇÕES GERAIS.
+S
+0
+Sempre
+H
+Acessibilidade para a doença aguda (prescrição AINE’s, analgésicos ou antibióticos na UF de inscrição)
+Acessibilidade à unidade funcional na doença aguda.
+A proporção de receitas de AINE’s, analgésicos e antibióticos prescritos ao longo do ano na unidade funcional de inscrição do utente é medida através da fórmula seguinte:
+[Prescrição na UF (%)] = 100 x [Nº receitas de AINE’s, analgésicos ou antibióticos contabilizadas no CCM em 12 meses e prescritos na UF de inscrição do utente] / [Nº receitas de AINE’s, analgésicos ou antibióticos contabilizadas no CCM em 12 meses]
+A valorização deste critério depende da % de receitas de AINE’s, analgésicos e antibióticos prescritos ao longo do ano na unidade funcional de inscrição do utente, nos termos seguintes:
+Prescrição na UF (%)
+Valorização do critério (%)
+[60; 100]%
+100
+[30; 60[%
+Entre 0 e 100
+[Valorização do critério] =
+100 x ([Prescrição na UF] - 30) / 30
+[0; 30[%
+0
+Sem receitas destes fármacos ao longo do ano
+100
+Ver alíneas D e E de OBSERVAÇÕES GERAIS.
+N
+0,15
+Sempre
+I
+Consulta médica
+Ter pelo menos uma consulta médica de PF realizada por qualquer médico ou interno da unidade de saúde, nos últimos 36 meses (ver alínea G de OBSERVAÇÕES GERAIS).
+N
+0,25
+Sempre
+J
+Consulta de enfermagem
+Ter pelo menos uma consulta de enfermagem de PF realizada por qualquer enfermeiro da unidade de saúde, nos últimos 36 meses (ver alínea H de OBSERVAÇÕES GERAIS).
+N
+0,125
+Sempre
+K
+Rastreio cancro colo útero
+A condição [K1 ou K2 ou K3 ou K4] é verdadeira:
+K1. Ter pelo menos um registo de resultado de colpocitologia
+em lâmina
+, nos últimos 36 meses.
+K2. Ter pelo menos um resultado de colpocitologia
+em meio líquido
+nos últimos 5 anos.
+K3. Ter pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+nos últimos 5 anos.
+K4. A utente tem menos de 25 anos (medida na data de referência do indicador).
+Ver alíneas L, M, N, O, P e Q de OBSERVAÇÕES GERAIS
+N
+0,25
+Sempre
+M
+Registo método contracetivo
+Ter pelo menos um registo parametrizado do método de planeamento familiar utilizado (ou da não utilização do método). Ver alíneas R e S de OBSERVAÇÕES GERAIS.
+N
+0,175
+Sempre
+N
+Ter médico de família
+Ter médico de família na unidade funcional durante pelo menos 9 dos 12 meses que antecedem a data de referência do indicador.
+N
+0,03
+Sempre
+O
+Ter enfermeiro de família
+Ter enfermeiro de família na unidade funcional durante pelo menos 9 dos 12 meses que antecedem a data de referência do indicador.
+N
+0,02
+Sempre
+DENOMINADOR (BB)
+:
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ser mulher.
+B. Ter idade pertencente ao intervalo [15; 50[ anos (ver alínea I de OBSERVAÇÕES GERAIS).
+C. Ter [
+inscrição ativa
+] na unidade funcional durante pelo menos 9 meses do período em análise (últimos 12 meses)."
+Observações Gerais,"D
+. Os fármacos usados para a variável ""AINE’s, analgésicos ou antibióticos"" são os que pertencem às seguintes classes da classificação ATC, dispensados em farmácia de oficina, ao longo dos 12 meses que antecedem a data de referência do indicador:
+- M01A - Produtos anti-inflamatórios e antirreumáticos não-esteroides.
+- M01BA	- Fármacos anti-inflamatórios e antirreumáticos em combinação com corticosteroides.
+- J01 - Antibacterianos para uso sistémico.
+- N02 - Analgésicos.
+- A03D - Antiespasmódicos em combinação com analgésicos.
+E
+. Os ""AINE’s, analgésicos ou antibióticos"" são fármacos preferencialmente usados em contexto de doença aguda.
+F
+. Cumprem o critério G (obrigatório), quer as utentes que tenham poucas receitas de ""AINE’s, analgésicos ou antibióticos"" ao longo do ano (0 receitas ou 1 receita), quer as que tendo 2 ou mais receitas, pelo menos uma delas foi prescrita na unidade de saúde de inscrição.
+As utentes com 0 ou 1 receitas ao longo do ano são consideradas cumpridoras, independentemente da receita ter ou não sido prescrita na unidade funcional por se considerar que 1 episódio de doença aguda não é suficiente para avaliar sobre a boa ou má acessibilidade à unidade funcional.
+As utentes com 2 ou mais receitas destes fármacos ao longo do ano são consideradas cumpridoras desde que pelo menos uma dessas receitas tenha sido prescrita na unidade funcional de inscrição, por se considerar que se todas as receitas tiverem sido prescritas fora da unidade funcional isso significar, previsivelmente, má acessibilidade.
+G
+. Para se considerar uma [Consulta Médica de Vigilância] de PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15.
+H
+. Para se considerar uma [Consulta de Enfermagem de Vigilância] em PF, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.4
+| Consulta de enfermagem de vigilância em saúde reprodutiva e planeamento familiar - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para o classificar como ""problema de saúde da consulta"" são W10, W11, W12, W13, W14, W15.
+L
+. O código da tabela de MCDT convencionados válido para registar colpocitologias é o seguinte:
+- [Exame citológico cervico-vaginal], código 008.6, área B. Código da tabela de preços do SNS: 30510.
+M
+. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em meio líquido"" é o seguinte:
+- [Exame citológico cervico-vaginal com processamento automatizado em camada fina], código 012.4, área B. Código da tabela de preços do SNS: 30650.
+N
+. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+O
+. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+P
+. Para que uma colpocitologia ou o teste do HPV sejam contabilizados deve ter um resultado.
+Q
+. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+R
+. O registo do método de PF pode ser realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+S
+. Aceitam-se registos de método de PF realizados em qualquer data (desde que anterior à data de referência do indicador), ou seja, não se faz validação da ""idade"" desse registo.
+T
+. Os medicamentos pertencentes às classes ATC acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Não é possível proceder ao ""registo parametrizado do método de planeamento familiar utilizado"", de forma normalizada a nível nacional. Assim, o SIARS não consegue ler estes registos a partir do ""perfil de enfermagem"".
+SCLÍNICO - PERFIL MÉDICO:
+A. É possível registar que a mulher não faz nenhum método contracetivo, selecionando o item [NENHUM] na lista [Método], no programa de planeamento familiar.
+B. Os resultados da ""colpocitologia em lâmina"" devem ser registados no módulo de MCDT.
+C. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O registo é efetuado no módulo de MCDT.
+D. O exame [Pesquisa de DNA por PCR, cada PCR] também deve ser registado no módulo de MCDT.
+E. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+MEDICINEONE:
+A. Para que sejam contabilizados neste indicador, as colpocitologias podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+B. O resultado da colpocitologia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+C. É possível registar que a mulher não faz ""nenhum"" método contracetivo, selecionando a opção ""SNC - Sem Necessidades Contracetivas"", na área de registo do método contracetivo, no módulo de planeamento familiar.
+D. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O mesmo sucede com o resultado de [Pesquisa de DNA por PCR, cada PCR]"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador, critério E (variável ""idade""): Coincidente com a data de referência do indicador (1 dia).
+- Numerador, critérios G e H (variável ""Dispensa de AINE’s, analgésicos ou antibióticos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério I (variável ""consulta médica""): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador, critério J (variável ""consulta de enfermagem""): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador, critério K (variável ""registo de colpocitologia em lâmina""): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador, critério K (variável ""registo de colpocitologia em meio líquido""): Duração de 60 meses, terminando na data de referência do indicador.
+- Numerador, critério K (variável ""registo de pesquisa de DNA do HPV por PCR""): Duração de 60 meses, terminando na data de referência do indicador.
+- Numerador, critério K (variável ""registo de colpocitologia em lâmina""): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador, critério M (variável ""registo de método de PF""): Coincidente com a data de referência do indicador.
+- Numerador, critério N (variável ""ter médico de família""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador, critério O (variável ""ter enfermeiro de família""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: (variável ""sexo""): Coincidente com a data de referência do indicador.
+- Denominador: (variável ""idade""): Coincidente com a data de referência do indicador.
+- Denominador: (variável ""inscrição na UF""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,PF_T / BB
+Unidade de medida,Índice (escala valores entre 0 e 1)
+Output,Com dados desde Dezembro de 2021
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2023: [0.78; 1]
+Ano de 2024: [0.78; 1]"
+Intervalo Esperado,"Ano de 2023: [0.63; 1]
+Ano de 2024: [0.63; 1]"
+Tipo de Indicador,Resultado
+Área clínica,Planeamento Familiar
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise
+Prazo para Registos,30 dias

@@ -1,0 +1,65 @@
+titulo,texto
+ID,235
+Código,2.12.35
+Código SIARS,MORB.235.01
+Nome abreviado,"Proporção utentes com ""neoplasia maligna"""
+Designação,"Proporção de utentes com diagnóstico de ""neoplasia maligna"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de neoplasia maligna"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""neoplasia maligna"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm pelo menos uma ""neoplasia maligna"" registada na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um diagnóstico de ""neoplasia maligna"" registado na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Inlui as seguintes rubricas e eventuais subrubricas da ICPC-2.
+A79 - NEOPLASIA MALIGNA NE
+B72 - DOENÇA DE HODGKIN/LINFOMA
+B73 - LEUCEMIA
+B74 - NEOPLASIA MALIGNA DO SANGUE, OUTRA
+D74 - NEOPLASIA MALIGNA DO ESTÔMAGO
+D75 - NEOPLASIA MALIGNA DO CÓLON/RECTO
+D76 - NEOPLASIA MALIGNA DO PÂNCREAS
+D77 - NEOPLASIA MALIGNA DO APARELHO DIGESTIVO, OUTRA/NE
+F74 - NEOPLASIA DO OLHO/ANEXOS
+H75 - NEOPLASIA DO OUVIDO
+K72 - NEOPLASIA DO APARELHO CIRCULATÓRIO
+L71 - NEOPLASIA MALIGNA
+N74 - NEOPLASIA MALIGNA DO SISTEMA NEUROLÓGICO
+R84 - NEOPLASIA MALIGNA DO BRÔNQUIO/PULMÃO
+R85 - NEOPLASIA RESPIRATÓRIA MALIGNA, OUTRA
+S77 - NEOPLASIA MALIGNA DA PELE
+T71 - NEOPLASIA MALIGNA DA TIRÓIDE
+T73 - NEOPLASIA ENDÓCRINA, OUTRA/NE
+U75 - NEOPLASIA MALIGNA DO RIM
+U76 - NEOPLASIA MALIGNA DA BEXIGA
+U77 - NEOPLASIA MALIGNA DO APARELHO URINÁRIO, OUTRA
+W72 - NEOPLASIA MALIGNA RELACIONADA COM A GRAVIDEZ
+X75 - NEOPLASIA MALIGNA DO COLO
+X76 - NEOPLASIA MALIGNA DA MAMA FEMININA
+X77 - NEOPLASIA MALIGNA GENITAL FEMININA, OUTRA
+Y77 - NEOPLASIA MALIGNA DA PRÓSTATA
+Y78 - NEOPLASIA MALIGNA GENITAL MASCULINO, OUTRA
+B. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

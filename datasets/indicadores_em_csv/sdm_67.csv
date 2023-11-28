@@ -1,0 +1,52 @@
+titulo,texto
+ID,067
+Código,5.24
+Código SIARS,2013.067.01
+Nome abreviado,"Proporção idosos, sem prescrição trimetaz. (1 ano)"
+Designação,"Proporção de utentes com idade igual ou superior a 65 anos, sem nenhuma prescrição de trimetazidina no último ano"
+Objetivo,"Monitorizar o programa de saúde adultos. Parâmetro ""Prescrição de trimetazidina em idosos""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com 65 ou mais anos de idade, sem prescrição de trimetazidina no último ano.
+Numerador: Contagem de utentes inscritos sem prescrição de trimetazidina no último ano.
+Denominador: Contagem de utentes inscritos com 65 ou mais anos de idade."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, não existe trimetazidina registada na terapêutica crónica (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Não existe qualquer prescrição de trimetazidina nos 12 meses que antecedem a data de referência do indicador (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade compreendida no intervalo [65; +INF[ anos (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizados todas as prescrições e registos na terapêutica crónica de medicamentos pertencentes ao grupo 3.5.1 (Antianginosos) da classificação farmacoterapêutica de medicamentos (CFT) e à classe C01EB15 TRIMETAZIDINA da classificação Terapêutica Anatómica e Química (ATC):
+B. Não se conhecem trimetazidinas em associação.
+C. Não se contabilizam no numerador utentes a quem não tenham sido prescritas trimetazidinas no ano anterior se coexistirem trimatazidinas registadas na terapêutica crónica.
+D. Não se contabilizam no numerador utentes que à data de referência do indicador não tenham trimatazidinas registadas na terapêutica crónica, se tiver sido prescrita pelo menos uma trimatazidinas no último ano.
+E. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+F. Os medicamentos pertencentes a esta classe CFT podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador.
+SCLÍNICO - PERFIL MÉDICO:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utilizadores
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Idoso
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

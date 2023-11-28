@@ -1,0 +1,56 @@
+titulo,texto
+ID,452
+Código,5.02.05
+Código SIARS,2023.452.01
+Nome abreviado,Prop. mulheres 25-60 A c/ colpoc. s/ teste HPV+
+Designação,"Proporção de mulheres entre 25-60 anos, com colpocitologia realizada isoladamente, sem teste HPV positivo prévio"
+Objetivo,"Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), com o objetivo de avaliar em que medida a colpocitologia convencional ou em camada fina estão a ser usadas sem a existência de um resultado positivo prévio para o teste de pesquisa HPV por PCR."
+Descrição do Indicador,"Indicador que exprime a proporção de mulheres inscritas e com idades compreendidas no intervalo [25, 61[ anos (sem critérios de exclusão para o rastreio), com colpocitologia realizada como teste de rastreio primário em detrimento da pesquisa HPV por PCR.
+Numerador: Contagem de mulheres com colpocitologia efetuada no período em análise, como teste de rastreio primário em detrimento da pesquisa HPV por PCR.
+Denominador: Contagem de mulheres com inscrição ativa numa unidade de saúde e com idades compreendidas no intervalo [25-61[ anos, sem critérios de exclusão para a realização do rastreio do cancro do colo do útero."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de colpocitologia em lâmina entre os meses N-14 e N-3 (N é o mês de referência do indicador) (ver alíneas A, D e E de OBSERVAÇÕES GERAIS).
+C. Pelo menos um resultado de colpocitologia em meio líquido entre os meses N-14 e N-3 (N é o mês de referência do indicador) (ver alíneas B, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [25; 61[ anos, no mês N-3 (N é o mês de referência do indicador) (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na Unidade de Saúde na data de referência do indicador.
+D. Sem diagnóstico de ""neoplasia maligna do colo do útero"" (código ICPC-2 X75), na lista de problemas, no mês N-3 (N é o mês de referência do indicador).
+E. Sem registo de histerectomia nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador)."
+Observações Gerais,"A. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em lâmina"" é o seguinte:
+- [Exame citológico cervico-vaginal], código 008.6, área B. Código da tabela de preços do SNS: 30510.
+B. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em meio líquido"" é o seguinte:
+- [Exame citológico cervico-vaginal com processamento automatizado em camada fina], código 012.4, área B. Código da tabela de preços do SNS: 30650.
+C. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio populacional organizados regionalmente (pelas ARS), não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo, o que é efetuado usando a mesma colheita (trata-se de um ""co-teste"").
+D. Para que os exames sejam contabilizados, devem ter um resultado.
+E. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 120 dias após o fim do período em análise.
+F. A idade deve ser medida no mês N-3 (N é o mês de referência do indicador).
+H. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SIIMA-rastreios"".
+B. O exame [Pesquisa de DNA por PCR, cada PCR] também pode ser registado por médicos no módulo de MCDT.
+C. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+D. A informação sobre ""histerectomia"" (antecedentes pessoais) pode ser registada no perfil médico, no programa de planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""Colpocitologia em lâmina""): Duração de 12 meses, entre os meses N-14 e N-3 (N é o mês de referência do indicador).
+- Numerador (variável ""Colpocitologia em meio líquido""): Duração de 12 meses, entre os meses N-14 e N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""neoplasia maligna do colo do útero""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""histerectomia""): no mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

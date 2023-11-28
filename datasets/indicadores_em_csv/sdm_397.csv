@@ -1,0 +1,289 @@
+titulo,texto
+ID,397
+Código,6.28.03
+Código SIARS,2018.397.01
+Nome abreviado,Prop. fumador c/ int. breve ou muito breve 1 ano
+Designação,"Proporção de utentes fumadores e idade igual ou superior a 15 anos, a quem foi realizada uma intervenção de aconselhamento, tendo por base uma abordagem breve ou muito breve, no último ano"
+Objetivo,"Monitorizar a frequência com que os serviços de saúde dos cuidados de saúde primários intervêm na promoção da cessação tabágica.
+Apoiar processos de governação clínica que possam conduzir à diminuição do consumo de tabaco nos utentes inscritos nas unidades funcionais.
+Promover a realização de intervenções breves e muito breves relacionadas com tabagismo.
+Em conjunto com outros indicadores, avaliar a eficiência dos serviços de saúde."
+Descrição do Indicador,"Indicador que exprime a proporção de fumadores utilizadores dos serviços de saúde e idade igual ou superior a 15 anos, a quem foi feita uma intervenção de tipo breve ou muito breve, relacionada com tabagismo, no último ano.
+Numerador: Contagem de utentes incluídos no denominador, a quem foi feita uma intervenção de tipo breve ou muito breve, relacionada com tabagismo, no último ano.
+Denominador: Contagem de fumadores com idade igual ou superior a 15 anos e pelo menos uma consulta médica ou de enfermagem no último ano."
+Regras de cálculo,"NUMERADOR (AA):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2023.
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma [intervenção breve] ou uma [intervenção muito breve] relacionada com tabagismo, realizada por qualquer médico, interno ou enfermeiro da unidade de saúde, nos 12 meses que antecedem a data de referência do indicador (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma consulta realizada nos 12 meses que antecedem a data de referência do indicador em que o profissional (médico, interno ou enfermeiro) registou ""não"" na questão ""Fuma atualmente?"" ou em que o campo ""nº de cigarros dia"" ficou preenchido com 0 (zero) (ver alíneas B e I de OBSERVAÇÕES GERAIS).
+NUMERADOR (AA):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2022.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma [intervenção breve] ou uma [intervenção muito breve] relacionada com tabagismo, realizada por qualquer médico, interno ou enfermeiro da unidade de saúde, nos 12 meses que antecedem a data de referência do indicador (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e (C ou D) e (E ou F)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 15 anos (ver alínea C de OBSERVAÇÕES GERAIS).
+C. O diagnóstico de tabagismo (rubrica da ICPC-2 P17) esteve com o estado de ""ativo"" na lista de problemas, durante pelo menos 1 dia do período em análise (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+D. O último registo de hábitos tabágicos, registado durante o período em análise, é superior a 0 (zero) cigarros por dia. Ver alíneas D e E de OBSERVAÇÕES GERAIS.
+E. Pelo menos uma consulta médica presencial nos 12 meses que antecedem a data de referência do indicador (ver alínea F de OBSERVAÇÕES GERAIS).
+F. Pelo menos uma consulta de enfermagem presencial nos 12 meses que antecedem a data de referência do indicador (ver alínea G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O registo de intervenções breves e muito breves relacionadas com o tabagismo faz-se em módulo próprio, disponível para médicos e enfermeiros, existente no SClínico.
+B. Existe registo de uma [intervenção breve] ou de uma [intervenção muito breve] quando o profissional de saúde executa registos durante o período em análise do indicador, que cumprem as condições de pelo menos um dos 7 ""algoritmos"" especificados na tabela seguinte:
+COD
+COD_A
+Dia D
+Acompanhar
+Descritivo
+Condição
+Tipo Intervenção
+INT01
+--
+Não
+Não
+Utente refere 
+        já se encontrar em abstinência tabágica e o profissional de saúde regista isso em campo próprio do sistema de informação..
+(Válido para indicadores com data de referência igual ou superior a janeiro 2023)
+A condição [A ou B] é 
+        verdadeira:
+A. O profissional registou ""não"" na questão ""Fuma atualmente?"";
+B. O campo ""nº de cigarros dia"" ficou preenchido com 0 (zero).
+n.a.
+INT02
+AA
+Não
+Não
+Utente refere 
+        ""não"" pretender parar de fumar e o profissional de saúde faz uma abordagem através da metodologia dos AA: [Abordar], [Aconselhar].
+A condição [A e B e C e D] é 
+        verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""não"" à questão ""Quer fazer uma tentativa para deixar de 
+        fumar?"", registada no separador [Aconselhar].
+D. O registo referido na alínea C foi efetuado durante o período em análise.
+Notas
+1. Os registos avaliados no separador [Abordar] são os seguintes:
+a) Resposta à questão ""Fuma atualmente"";
+b) Resposta à questão ""Alguma vez fumou"";
+c) Preenchimento do campo ""ano de início do consumo"" ou ""nº de anos de consumo"";
+d) Preenchimento do campo ""nº de cigarros dia"";
+2. A [carga tabágica] em unidades-maço-ano (UMA), deve ser calculada de forma 
+        automática.
+Muito breve
+INT03
+AR
+Não
+Não
+Utente refere pretender parar de fumar e o profissional 
+        ""referência"" o utente para uma intervenção intensiva no ACES ou em ambiente 
+        hospitalar. É efetuada uma abordagem do tipo AR: [Abordar], [Referenciar].
+A condição [A e B e C e D e (E ou F ou G ou H)] é verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""sim"" à questão ""Quer fazer uma tentativa para deixar de 
+        fumar?"", registada no separador [Aconselhar].
+D. O registo referido na alínea C foi efetuado durante o período em análise.
+E. Existe pelo menos um registo de referenciação para [consulta intensiva de 
+        tabagismo] no ACES, realizado durante o período em análise.
+F. Existe pelo menos um registo de referenciação para consulta de hospitalar em 
+        que o diagnóstico principal codificado é tabagismo (código ICPC-2 P17), 
+        realizado durante o período em análise.
+G. Não existe registo no separador [Avaliar], ou seja, não existe resposta à questão 
+		""Pretende fazer uma tentativa nos próximos 30 dias?""
+H. Não existe registo no separador [Apoiar].
+Muito breve
+INT04
+AAAAA
+Sim
+Sim
+Utente tem a intenção de parar de fumar nos 30 dias seguintes e 
+        o profissional de saúde faz uma abordagem através da metodologia dos 5 A: 
+        [Abordar], [Aconselhar], [Avaliar], [Apoiar] e [Acompanhar]
+A condição [A e 
+        B e C e D e E e F e G] é verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""sim"" à questão ""Quer fazer uma tentativa para deixar de 
+        fumar?"", registada no separador [Aconselhar].
+D. O utente responde ""sim"" à questão ""Pretende fazer uma tentativa nos próximos 
+        30 dias?"", registada no separador [Avaliar].
+E. Existe registo de ""dia D"" no separador [apoiar] e a data de criação desse 
+        registo ocorreu no período em análise
+F. Existe registo de resposta à questão [abstinência (sim/não)], do separador 
+        [acompanhar] realizado até 7 dias depois da data definida como ""dia D""
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+F. Existe registo de resposta à questão [abstinência (sim/não)], do separador 
+        [acompanhar] realizado até 40 dias depois da data definida como ""dia D""
+((critério válido para indicadores com data de referência igual ou superior a janeiro 2023).
+.
+G. O registo referido na alínea F foi efetuado durante o período em análise.
+Breve
+INT05
+AAAA0
+Sim
+Não
+Utente tem a intenção de parar de fumar nos 30 dias seguintes e 
+        o profissional de saúde faz uma abordagem através da metodologia dos 4 A: 
+        [Abordar], [Aconselhar], [Avaliar] e [Apoiar]
+A condição [A e B e C e D e 
+        E e F] é verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""sim"" à questão ""Quer fazer uma tentativa para deixar de 
+        fumar?"", registada no separador [Aconselhar].
+D. O utente responde ""sim"" à questão ""Pretende fazer uma tentativa nos próximos 
+        30 dias?"", registada no separador [Avaliar].
+E. Existe registo de ""dia D"" no separador [apoiar] e a data de criação desse 
+        registo ocorreu no período em análise
+F. Não existe registo de resposta à questão [abstinência (sim/não)], do 
+        separador [acompanhar] realizado até 7 dias depois da data definida como 
+        ""dia D"" e registado durante o período em análise
+(critério válido para indicadores com data de referência até dezembro 2022)
+. Ver nota 1.
+F. Não existe registo de resposta à questão [abstinência (sim/não)], do 
+        separador [acompanhar] realizado até 40 dias depois da data definida como 
+        ""dia D"" e registado durante o período em análise
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+. Ver nota 1.
+Notas:
+1. A ausência de registos no separador ""Acompanhar"", pode resultar do facto do 
+        utente ter faltado à consulta agendada para fazer o acompanhamento após o ""dia 
+        D"", se ter tornado incontactável, ou simplesmente porque o dia D é demasiado 
+        próximo do fim do período em análise para que esse acompanhamento possa ainda 
+        ser registado para ser lido no indicador.
+Breve
+INT06
+AAAA5R
+Não
+Não
+Utente tem a intenção de parar de fumar mas responde que ""não"" o 
+        pretende fazer nos 30 dias seguintes. O profissional de saúde faz uma abordagem  
+        motivacional guiada pela metodologia dos 5R: [Relevância], [Riscos], 
+        [Recompensas], [Resistências] e [Repetição].
+Efetuaou também os regstos relacionados com [Abordar], [Aconselhar], [Avaliar] e [Apoiar].
+A condição [A e B e C e D e 
+        E e F] é verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""sim"" à questão ""Quer fazer uma tentativa para deixar de 
+        fumar?"", registada no separador [Aconselhar].
+D. O utente responde ""não"" à questão ""Pretende fazer uma tentativa nos próximos 
+        30 dias?"", registada no separador [Avaliar].
+E. Existe registo de realização de uma abordagem motivacional guiada pela 
+        metodologia dos 5R: [Relevância], [Riscos], [Recompensas], [Resistências] e 
+        [Repetição], assinalando pelo menos uma das 5 ""
+checkboxes
+"" associadas no separador [Apoiar].
+F. O registo referido na alínea E foi efetuado durante o período em análise.
+Breve
+INT07
+AAAA1M
+Não
+Não
+Utente tem a intenção de parar de fumar mas responde que 
+            ""talvez"" o pretenda fazer nos 30 dias seguintes. O profissional de saúde faz uma 
+            abordagem motivacional orientada para a resposta.
+Efetuaou também os regstos relacionados com [Abordar], [Aconselhar], [Avaliar] e [Apoiar].
+A condição [A e B e C e D e 
+            E e F] é verdadeira:
+A. O utente é fumador.
+B. O profissional preencheu os todos os registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência até dezembro 2022)
+.
+B. O profissional preencheu pelo menos 1 dos registos do separador [Abordar] referidos na nota 1 em INT01
+(critério válido para indicadores com data de referência igual ou superior a janeiro 2023)
+.
+C. O utente responde ""sim"" à questão ""Quer fazer uma tentativa para deixar de 
+            fumar?"", registada no separador [Aconselhar].
+D. O utente responde ""talvez"" à questão ""Pretende fazer uma tentativa nos 
+            próximos 30 dias?"", registada no separador [Avaliar].
+E. Existe registo de realização de uma abordagem motivacional assinalando a 
+            checkbox respetiva no separador [Apoiar].
+F. O registo referido na alínea E foi efetuado durante o período em análise.
+Breve
+C. A idade deve ser medida em relação à data de referência do indicador.
+D. Os registos de hábitos tabágicos podem ser feitos por qualquer médico, interno ou enfermeiro da unidade de saúde.
+E. Um utente sem P17 na lista de problemas e sem qualquer registo de hábitos tabágicos, não é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente sem P17 na lista de problemas e com registo de ""0 cigarros por dia"" (ou equivalente), não é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente com P17 na lista de problemas (ativo) é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente com registo de hábitos tabágicos superior a 0 (zero) é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente que no registo de ""hábitos tabágicos"" é classificado como ""fumador"", é contabilizado como cumpridor da condição (C ou D) do denominador (ver OBSERVAÇÕES SOBRE SOFTWARE).
+F. Para se contabilizar uma [Consulta Médica] presencial, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C008
+| Consulta médica presencial - MedicineOne
+G. Para se considerar uma [Consulta de Enfermagem] presencial, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta de enfermagem presencial - SClínico
+-
+C011
+| Consulta de enfermagem presencial - MedicineOne.
+I. A condição C do numerador foi adicionada para permitir que sejam considerados no numerador utentes que numa determinada consulta informam o médico que já não fumam desde há longa data."
+Observações Sobre Software,"SClínico:
+A. Os hábitos tabágicos podem ser registados na [ficha individual] e nos diversos módulos de programas de saúde ([diabetes], [hipertensão], [planeamento familiar], [saúde materna] e [tabagismo]).
+Podem ser usados os seguintes campos:
+1. Campo ""Tabaco"" no grupo ""Hábitos"", que tem os seguintes itens para escolha: Sim; Não; Sem preenchimento. No módulo de ""tabagismo"" o campo correspondente tem o descritivo ""Fuma atualmente?"". O SCLÍNICO regista as datas em que os profissionais de saúde procedem a alterações a este campo.
+2. Campo ""Tabaco"" no grupo ""Consultas"". Campo usado para registar o nº de [cigarros por dia] que o doente consome na data em que é feito o registo.
+3. Campo ""Carga tabágica"" no grupo ""Consultas"". Campo usado para registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O registo normalizado da informação de hábitos tabágicos é efetuado através da intervenção de enfermagem ""Monitorizar uso de tabaco"" (9001128). A intervenção de enfermagem está associada ao foco de atenção ""Uso de tabaco"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior). A intervenção referida permite registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
+MEDICINEONE:
+A. Os hábitos tabágicos são registados no módulo de hábitos. O registo de utente ""sem hábitos tabágicos"" faz-se colocando um 0 (zero) no campo da quantidade."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo intervenção breve ou intervenção muito breve""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
+- Denominador (variável ""idade""): Medida na data de referência do indicador;
+- Denominador (variável ""registo dos hábitos tabágicos""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""P17 na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [22; 100]
+Ano de 2023: [22; 100]
+Ano de 2024: [25; 100]"
+Intervalo Esperado,"Ano de 2022: [15; 100]
+Ano de 2023: [15; 100]
+Ano de 2024: [15; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

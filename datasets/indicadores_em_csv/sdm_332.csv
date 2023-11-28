@@ -1,0 +1,60 @@
+titulo,texto
+ID,332
+Código,2.16.01
+Código SIARS,2017.332.01
+Nome abreviado,Proporção de utentes com telemóvel
+Designação,"Proporção de utentes com inscrição ativa e idade superior a 18 anos, com um contacto do tipo ""telemóvel"", registado no RNU"
+Objetivo,Monitorizar a proporção de utentes com registo de telemóvel no processo administrativo do RNU
+Descrição do Indicador,"Exprime a proporção de utentes com um contacto telefónico do tipo ""telemóvel"", registado no RNU.
+Numerador: Contagem de utentes com 18 ou mais anos e pelo menos um contacto telefónico do tipo ""telemóvel"", registado no RNU.
+Denominador: Contagem de utentes com 18 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um registo de contacto telefónico do tipo ""telemóvel"" no RNU (ver alíneas A, B, C, D, E, F, G e H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador)."
+Observações Gerais,"A. Os contactos do tipo telemóvel contabilizados são aqueles em que o ""nº telefónico"", depois de ""limpo"" de espaços (em qualquer posição), do símbolo ""+"" (à esquerda), do símbolo ""-"" (em qualquer posição) e de zeros (à esquerda), a condição [(AA e BB) ou (CC e DD)] é verdadeira:
+AA. Os primeiros 2 dígitos pertencem a uma das sequências seguintes: ""91""; ""92"", ""93""; ""96"";
+BB. Comprimento de 9 dígitos;
+CC. Os primeiros 5 dígitos pertencem a uma das sequências seguintes: ""35191""; ""35192"", ""35193""; ""35196"";
+DD. Comprimento de 12 dígitos.
+B. A atualização dos contactos (endereço postal, telefones e endereço de e-mail) é um procedimento facilitador da comunicação entre os profissionais de saúde e o utente.
+C. Embora por vezes seja útil registar nos contactos de determinado elemento do agregado, o telemóvel doutro elemento, tal prática não é incentivada por este indicador, já que não se contabilizam para o numerador, telemóveis repetidos 
+ em elementos diferentes do mesmo agregado familiar.
+D. A ""fonte"" dos contactos de ""telemóvel"" é o campo ""telemóvel"" do separador de ""contactos do utente"" no RNU, 
+ desde que este respeite as regras definidas na alínea A de OBSERVAÇÕES GERAIS.
+E. Não se contabilizam para este indicador eventuais 
+ ""números de telemóvel"" registados no campo ""telefone"" nem no campo ""outro 
+ contacto"" do separador ""CONTACTO"" da ficha do utente no RNU.
+F. Não se contabilizam para este indicador eventuais ""números de telemóvel"" registados 
+ em ""OUTROS CONTACTOS"" no separador ""CONTACTO"" da ficha do utente no RNU, 
+ independentemente do campo de registo ser ""telefone"", ""telemóvel"" ou ""outro 
+ contacto tipificado como telemóvel"".
+G. Não se contabilizam para este indicador eventuais ""números de telemóvel"" registados na ""ficha de família"" do utente.
+H. Se um nº de telemóvel estiver repetido em elementos diferentes do mesmo agregado familiar é contabilizado uma única vez no numerador."
+Observações Sobre Software,"RNU
+A. O nº de telemóvel lido neste indicador deve ser registado na ficha individual, separador ""CONTACTOS"", campo ""telemóvel""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de nº de telemóvel""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 18 ou mais anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [95; 100]
+Ano de 2023: [95; 100]
+Ano de 2024: [95; 100]"
+Intervalo Esperado,"Ano de 2022: [85; 100]
+Ano de 2023: [85; 100]
+Ano de 2024: [85; 100]"
+Tipo de Indicador,Estrutura
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

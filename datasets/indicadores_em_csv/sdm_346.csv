@@ -1,0 +1,125 @@
+titulo,texto
+ID,346
+Código,3.33.02
+Código SIARS,2017.346.01
+Nome abreviado,Propor. consul. realiz. intervalo [8; 11[h (Q1)
+Designação,Proporção de consultas realizadas no intervalo [8; 11[ horas (ou 1º quartil de horário).
+Objetivo,Monitorizar a distribuição horária das consultas presenciais.
+Descrição do Indicador,"Exprime a proporção de consultas médicas ou de enfermagem presenciais que são realizadas no 1º quartil do horário de funcionamento da unidade funcional em cada dia útil da semana.
+Numerador - Contagem de consultas médicas ou de enfermagem presenciais que são realizadas no 1º quartil do horário de funcionamento da unidade funcional em cada dia útil da semana.
+Denominador - Contagem de consultas médicas ou de enfermagem presenciais realizadas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. A hora de efetivação da consulta pertence ao 1º quartil do horário de funcionamento da unidade funcional em cada dia útil da semana. Ver alíneas C, D e H de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e (B ou C) e D e E e F e G] é verdadeira:
+A. Efetuada por qualquer médico ou enfermeiro da unidade funcional durante o período em análise.
+B. Do tipo ""consulta médica presencial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Do tipo ""consulta de enfermagem presencial"" (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Não é do tipo ""domicílio"".
+E. Realizadas a utentes com [
+inscrição ativa
+] na unidade de observação no mês da realização da consulta.
+F. Realizadas nos dias úteis da semana (ver alínea F de OBSERVAÇÕES GERAIS).
+G. A hora de efetivação da consulta pertence ao horário de funcionamento da unidade funcional (ver alíneas C, D e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Presencial], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+-
+C008
+[Consulta médica presencial - MedicineOne].
+B. Para se considerar uma [Consulta enfermagem com a presença do utente (direta)], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne
+C. Cada unidade funcional possui uma hora de início e de fim de funcionamento à 2ªF, 3ªF, 4ªf, 5ªF e à 6F.
+O horário de funcionamento mais típico das unidades funcionais é o seguinte: 2ª a 6ª feira das 8H às 20H; Sábados, domingos e feriados: encerrada.
+Nas unidades funcionais com o horario supra-referido:
+a) O 1º quartil de horário em cada um dos 5 dias da semana é o intervalo de tempo [8; 11[ h.
+b) O 2º quartil de horário em cada um dos 5 dias da semana é o intervalo de tempo [11; 14[ h.
+c) O 3º quartil de horário em cada um dos 5 dias da semana é o intervalo de tempo [14; 17[ h.
+d) O 4º quartil de horário em cada um dos 5 dias da semana é o intervalo de tempo [17; 20] h.
+No entanto, um terço das unidades funcionais do tipo USF e UCSP possuem horários de funcionamento com menos horas por semana, e por vezes com variações entre dias da semana.
+Assim, para efeitos do cumprimento da alínea B do numerador deste indicador, o tempo de funcionamento em cada um dos dias da semana é dividido em 4 partes iguais, determinando-se assim:
+- 1º quartil de horário à 2ª feira (Q1_2F), 2º quartil de horário à 2ª feira (Q2_2F), 3º quartil de horário à 2ª feira (Q3_2F) e 4º quartil de horário à 2ª feira (Q4_2F);
+- 1º quartil de horário à 3ª feira (Q1_3F), 2º quartil de horário à 3ª feira (Q2_3F), 3º quartil de horário à 3ª feira (Q3_3F) e 4º quartil de horário à 3ª feira (Q4_3F);
+- 1º quartil de horário à 4ª feira (Q1_4F), 2º quartil de horário à 4ª feira (Q2_4F), 3º quartil de horário à 4ª feira (Q3_4F) e 4º quartil de horário à 4ª feira (Q4_4F);
+- 1º quartil de horário à 5ª feira (Q1_5F), 2º quartil de horário à 5ª feira (Q2_5F), 3º quartil de horário à 5ª feira (Q3_5F) e 4º quartil de horário à 5ª feira (Q4_5F);
+- 1º quartil de horário à 6ª feira (Q1_6F), 2º quartil de horário à 6ª feira (Q2_6F), 3º quartil de horário à 6ª feira (Q3_6F) e 4º quartil de horário à 6ª feira (Q4_6F);
+A alínea B do numerador é definida através das consultas cuja data de efetivação pertencem a um dos seguintes horários: Q1_2F; Q1_3F; Q1_4F; Q1_5F; Q1_6F.
+D. Caso a unidade funcional tenha contratado um alargamento de horário (horário após as 20 horas em dias úteis da semana ou horário aos sábados, domingos ou feriados), os mesmos não são considerados para delimitação dos quartis necessários para a alínea B do numerador nem tão pouco para a determinação do horário elegível para a alínea G do denominador. Assim sendo, os horários elegíveis para este indicador são os que pertençam ao seguinte: 2ª a 6ª feira das 8H às 20H.
+E. Os horários de funcionamento das unidades funcionais são recolhidos na plataforma SDM@SNS em
+https://sdm.min-saude.pt/
+com validação pelo conselho clínico e de saúde de cada ACES.
+F. São excluídas da análise consultas realizadas aos sábados, domingos e feriados oficiais. Consultas realizadas em feriados municipais são contabilizadas.
+G. Deve ser disponibilizado um relatório que possibilite às equipas fazerem contagens de consultas cruzando ou filtrando pelos seguintes atributos ou dimensões de análise:
+- Data de efetivação de consulta (filtro obrigatório, podendo também ser usado para agrupar contagens);
+- Dia da semana de efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- Quartil de horário de efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- Grupo profissional que efetiva a consulta (opções: médica, de enfermagem ou ambas, filtro opcional, podendo também ser usado para agrupar contagens);
+- Profissional que efetiva a consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- Local RNU de efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- UF de efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- ACES efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens);
+- ARS de efetivação da consulta (filtro opcional, podendo também ser usado para agrupar contagens).
+H.
+Regra aplícável para indicadores com data de referência igual ou posterior a janeiro de 2023.
+A hora usada para definir a ""hora de realização da consulta"" é, para cada consulta médica, a menor das seguintes:
+- Hora de efetivação médica.
+- Hora de registo de SOAP.
+- Hora de registo da 1ª receita médica da consulta.
+- Hora de registo da 1ª requisição de MCDT da consulta.
+A hora usada para definir a ""hora de realização da consulta"" é, para cada consulta de enfermagem, a menor das seguintes:
+- Hora de efetivação de enfermagem.
+- Hora de registo do 1º diagnóstico de enfermagem na consulta.
+- Hora de registo da 1ª intervenção de enfermagem na consulta.
+H.
+Regra aplícável para indicadores com data de referência inferior ou igual a dezembro de 2022.
+A hora usada para definir a ""hora de realização da consulta"" é, para cada consulta, a menor das seguintes:
+- Hora de efetivação (médica, de enfermagem ou administrativa).
+- Hora de registo de SOAP.
+- Hora de registo da 1ª receita médica da consulta.
+- Hora de registo da 1ª requisição de MCDT da consulta.
+- Hora de registo do 1º diagnóstico de enfermagem na consulta.
+- Hora de registo da 1ª intervenção de enfermagem na consulta."
+Observações Sobre Software,"SClínico (PERFIL MÉDICO):
+A. A hora relevante para determinar se uma consulta está ou não incluída no período horário previsto no denominador e no numerador é a ""hora de efetivação da consulta"".
+B. A ""hora de efetivação da consulta"" é gerada quando o médico clica no botão para abrir o SOAP.
+C. Caso um médico volte a reabrir um SOAP, a hora de ""hora de efetivação da consulta"" inicialmente gerada não é alterada.
+D. A ""hora de efetivação da consulta"" pode ser consultada na [agenda do médico] > [Efectivadas], na coluna [H. Efect.].
+SClínico (PERFIL ENFERMAGEM):
+A. A hora relevante para determinar se uma consulta está ou não incluída no período horário previsto no numerador e no denominador é a ""hora de efetivação da consulta"".
+B. A ""hora de efetivação da consulta"" é gerada quando o enfermeiro clica no botão [OK] da janela de configurações do contacto e depois de gerada pela primeira vez já não pode ser alterada.
+C. A ""hora de efetivação da consulta"" pode ser consultada quer na agenda de um [enfermeiro] quer na agenda de uma [sala], em [Realizados], na coluna [H. Efect.].
+MEDICINEONE:
+A. A hora relevante para determinar se uma consulta está ou não incluída no período horário previsto no numerador e no denominador é a ""hora de agendamento da consulta""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""hora de efetivação da consulta""): É um atributo da variável ""consulta médica"" e da variável ""consulta de enfermagem"".
+- Numerador (variável ""horário de funcionamento da unidade funcional""): Apurado no último dia do mês de realização da consulta.
+- Denominador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""hora de efetivação da consulta""): É um atributo da variável ""consulta médica"" e da variável ""consulta de enfermagem"".
+- Numerador (variável ""horário de funcionamento da unidade funcional""): Apurado no último dia do mês de realização da consulta.
+- Denominador (variável ""inscrição do utente""): Apurado no último dia do mês da realização da consulta."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Distribuição das Consultas Presenciais no Dia
+Intervalo Aceitável,"Ano de 2022: [20; 35]
+Ano de 2023: [20; 35]
+Ano de 2024: [20; 35]"
+Intervalo Esperado,"Ano de 2022: [15; 37.5]
+Ano de 2023: [15; 37.5]
+Ano de 2024: [15; 37.5]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

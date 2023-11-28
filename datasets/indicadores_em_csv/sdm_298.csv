@@ -1,0 +1,102 @@
+titulo,texto
+ID,298
+Código,7.07.06
+Código SIARS,2013.298.01
+Nome abreviado,Desp. MCDT fat. util. SNS s/ fisia. (pr. conven.)
+Designação,"Despesa média de MCDT faturados, por utente utilizador do SNS, excluindo tratamentos de fisiatria (baseado no preço convencionado)"
+Objetivo,"Monitorizar programa de prescrição de MCDT. Parâmetro ""despesa em MCDT faturados, por utilizador, sem tratamentos de fisiatria"""
+Descrição do Indicador,"Indicador que exprime a despesa média de MCDT faturados, por utente utilizador, baseado no [preço convencionado], excluindo os tratamentos de fisiatria.
+Numerador: Somatório do [preço convencionado] dos MCDT faturados por entidades convencionadas, com exclusão dos tratamentos de fisiatria.
+Denominador: Contagem de utentes utilizadores pertencentes ao SNS."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do [preço convencionado] dos MCDT em que a expressão [A e B e C e (D ou E) e (F ou G ou H)] é verdadeira (ver alíneas K de OBSERVAÇÕES GERAIS):
+A. Cujos registos de realização foram enviados pelas entidades convencionadas para faturação junto do Ministério da Saúde (ver alíneas A, F e G de OBSERVAÇÕES GERAIS).
+B. Com [data de aceitação da faturação] pertencente ao período em análise (ver alínea B de OBSERVAÇÕES GERAIS);
+C. O exame faturado não pertence à área de convenção G ""fisiatria"" (ver alínea O de OBSERVAÇÕES GERAIS);
+D. Na data de requisição da credencial, o utente tinha [
+inscrição ativa
+] na unidade de observação (ver alínea M de OBSERVAÇÕES GERAIS);
+E. O nº de utente é irreconhecível na credencial (ver alínea N de OBSERVAÇÕES GERAIS);
+F. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno numa requisição com código de um dos locais pertencentes a essa UF;
+G. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno aos utentes inscritos no médico em análise, numa requisição com código de um dos locais pertencentes a essa UF;
+H. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno numa requisição com código identificador de qualquer local de inscrição de utentes pertencentes ao ACES;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [(A ou B ou C) e (D ou E ou F) e G] é verdadeira:
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico, à data de referência do indicador, ou ter pertencido ao médico em análise durante o período em análise e ter falecido ou sido transferido para outra unidade de saúde posteriormente.
+C. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.
+D. Se a unidade de observação é uma USF ou uma UCSP: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde). Ver alínea H de OBSERVAÇÕES GERAIS.
+E. Se a unidade de observação é um médico: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador). Ver alínea H de OBSERVAÇÕES GERAIS.
+F. Se a unidade de observação é um ACES: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise, realizada por qualquer médico ou interno do ACES, incluindo também as realizadas em [consultas de reforço] e as realizadas em [serviço de apoio permanente] (ou outros equivalentes). Ver alínea H de OBSERVAÇÕES GERAIS.
+G. Ser um utente do SNS (ver alíneas E e L de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizadas as despesas com MCDT processadas no CCF.
+B. A data que importa para verificar se determinado MCDT está ou não dentro do período em análise e assim decidir incluir ou não a respetiva despesa no somatório do numerador do indicador é a [data de aceitação da credencial pelo CCF]. A [data de prescrição] e a [data de execução] são ignoradas.
+C. Uma vez que as credenciais têm uma validade de 6 meses, existem alguns MCDT contabilizados no numerador (aceites para faturação durante o período em análise) que foram prescritos no ano anterior. Existem também MCDT prescritos durante o período em análise que só serão aceites para faturação depois desse período:
+D. As despesas com MCDT contabilizadas no numerador não têm necessariamente que ser geradas sobre os utentes do denominador porque existe a possibilidade de a credencial ter sido prescrita a um utente que a realiza e é transferido (ou falece) antes do início do período em análise, sendo a credencial posteriormente apresentada ao CCF já durante o período em análise.
+E. As entidades convencionadas apenas enviam para o centro de conferência de faturas, de forma sistemática, as credencias do SNS. Assim, os MCDT de utentes do SNS são os únicos que garantidamente são contabilizados no numerador.
+F. Não são contabilizados no numerador as despesas relacionadas com:
+- MCDT prescritos e não realizados (p.e. por recusa do utente em fazer o exame ou por extravio da credencial);
+- MCDT não comparticipados: são prescritos nas unidades de saúde, realizados no laboratório, e pagos pelo utente (ou seguradoras) mas não são enviados pelas entidades convencionadas para faturação junto do Ministério da Saúde;
+- MCDT prescritos a utentes dos subsistemas, designadamente ADSE, SAD-PSP, SAD-GNR, IASFA, SS CGD e SAMS: são prescritos nas unidades de saúde, realizados nos laboratórios, mas a faturação é efetuada junto dos respetivos subsistemas;
+G. Caso uma entidade convencionada pertencente a uma ARS receba uma credencial de uma unidade de saúde de outra ARS, isso não constitui impedimento para que o SIARS contabilize essas despesas para a unidade de saúde respetiva.
+H. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+I. Os valores calculados para a unidade de observação [MED (médico)] são obtidos por desagregação dos resultados da respetiva unidade de saúde, tal como especificado em
+[Unidades de observação]
+. No caso do centro de conferência de faturas não identificar o utente, o valor fica associado ao um [médico desconhecido] por não ser possível identificar o utente e, por consequência, o médico de família.
+J. Os valores calculados para o numerador de uma unidade funcional não têm que ser iguais aos valores obtidos através de relatórios do SIARS, relacionados com MCDT faturados, porque as regras de inclusão de despesa no numerador do indicador são mais restritivas dos que as regras para o relatório. Por exemplo, o relatório de faturação de MCDT do SIARS considera a despesa com doentes ""esporádicos"", que não é incluída no numerador do indicador.
+K. O valor contabilizado por cada MCDT é o que consta da coluna ""preço"" da tabela oficial de MCDT convencionados (
+www.acss.min-saude.pt
+). A coluna ""preço"" da tabela de MCDT convencionados da ACSS é o valor que os convencionados devem receber do estado por cada exame efetuado e faturado. A [taxa moderadora] é o valor que o utente paga ao estado pelo exame. Como a [taxa moderadora] é recebida pelo convencionado, o que este acaba por receber do Estado é a diferença entre o [preço] e a [taxa moderadora]. Assim, para um exame com 2 euros de [taxa moderadora] e 20 euros de [preço], o convencionado fatura 20 euros, mas caso o utente não seja isento apenas recebe 18, pois já recebeu por conta do SNS os 2 euros do utente referente à taxa moderadora. Neste exemplo, o SIARS contabiliza 20 euros para este indicador. A métrica que serve de base a este indicador está definida na especificação
+M005 dos [Conceitos e métricas relacionadas com MCDT]
+.
+L. Os utentes contabilizados no denominador são os que pertencem ao SNS, isto á aqueles que no SINUS pertencem a um dos seguintes subsistemas:
+- Qualquer CRSS
+- SNS
+- Segurança social
+- Subsistema desconhecido.
+M. Ver conceito de [
+inscrição ativa
+].
+N. Quando os sistemas de leitura óptica não conseguem identificar o utente e conseguem identificar o local de prescrição, a despesa dessa credencial é contabilizada.
+O. São contabilizadas as despesas com exames de qualquer área, excepto os da G (fisiatria). Nesta área de convenção não são contabilizadas consultas nem tratamentos."
+Observações Sobre Software,"MEDICINEONE:
+A. São contabilizados todos os exames prescritos quer através do módulo de análises quer através do módulo de MCDT."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTI
+Output,Despesa com MCDT
+Estado do indicador,Com dados desde Agosto de 2015
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
+Intervalo Aceitável,"Ano de 2022: [15; 50]
+Ano de 2023: [15; 50]
+Ano de 2024: [15; 50]"
+Intervalo Esperado,"Ano de 2022: [10; 55]
+Ano de 2023: [10; 55]
+Ano de 2024: [10; 55]"
+Tipo de Indicador,Resultado
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

@@ -1,0 +1,83 @@
+titulo,texto
+ID,335
+Código,3.25.01
+Código SIARS,2017.335.01
+Nome abreviado,Prop. cons. ind. receit. c/ resposta 3 dias úteis
+Designação,Proporção de consultas não presenciais com receituário prescrito nos primeiros 3 dias úteis após respetivo pedido
+Objetivo,"Monitorizar os tempos máximos de resposta garantidos (TMRG), aplicados à ""renovação de medicação em caso de doença crónica"" solicitados pelos utentes através de consulta não presencial, nos termos da legislação vigente (72 horas úteis de resposta)."
+Descrição do Indicador,"Exprime a proporção consultas médicas não presenciais com pedido de renovação de receita médica, com resposta nas primeiras 72 horas úteis após o pedido.
+Numerador: Contagem de consultas médicas não presenciais com pedido de renovação de receita médica e com resposta nas primeiras 72 horas úteis após o pedido.
+Denominador: Contagem de consultas médicas não presenciais com pedido de renovação de receita médica."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um medicamento da receita médica prescrito nas primeiras 72 horas úteis após a data de inserção do primeiro registo administrativo associado à consulta (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a março de 2020.
+Contagem de consultas em que a expressão [A e B e C e D e E e F e G] é verdadeira:
+A. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde na data de realização da consulta.
+C. Realizada num dos locais pertencentes à unidade de observação (ver alínea A de OBSERVAÇÕES GERAIS).
+D. Realizada por médico ou interno (ver alínea B de OBSERVAÇÕES GERAIS).
+E. Do tipo ""não presencial"" (ver alínea B de OBSERVAÇÕES GERAIS).
+F. Não é de ""vigilância"" (ver alínea F de OBSERVAÇÕES GERAIS).
+G. Com pelo menos uma receita médica emitida (ver alínea C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a fevereiro de 2020.
+Contagem de consultas em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Realizada a utente com [
+inscrição ativa
+] na unidade de saúde na data de realização da consulta.
+C. Realizada num dos locais pertencentes à unidade de observação (ver alínea A de OBSERVAÇÕES GERAIS).
+D. Realizada por médico ou interno (ver alínea B de OBSERVAÇÕES GERAIS).
+E. Do tipo ""não presencial"" (ver alínea B de OBSERVAÇÕES GERAIS).
+F. Com pelo menos uma receita médica emitida (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Se a unidade de observação do indicador for uma unidade funcional (USF, UCSP ou equivalente), a consulta médica ou de enfermagem deve estar associada a um dos códigos RNU que lhe estejam associados na hierarquia de locais. Os locais RNU pertencentes a cada unidade funcional podem ser consultados, na RIS, em
+https://sdm.min-saude.pt/hierarquia.aspx
+. O mesmo sucede se a unidade de observação do indicador for um ACES. Se a unidade de observação for um médico ou enfermeiro, surgirão no denominador as consultas realizadas por qualquer médico da unidade funcional a utentes que na data de referência do indicador pertençam ao ficheiro de utentes do profissional de saúde (unidade de observação do indicador). Os utentes que na data de referência do indicador já não esteja inscritos na unidade funcional, aparecem associados ao último médico de família e ao último enfermeiro de família de inscrição.
+B. As consultas contabilizados no denominador são do tipo [Consulta médica não presencial], com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico
+C. A fonte de dados para a leitura das receitas de medicamentos é a BDNP. Nas receitas médicas em que a BDNP não tenha um identificador único da consulta médica que a gerou, considera-se que a consulta que lhe deu origem foi a mais recente das que se consigam identificar com igualdade de código de local de prescrição, entre 10 dias antes da prescrição e as 24 horas do dia da prescrição.
+D. A data e hora que contam para o início da contagem das 72 horas é a do primeiro registo administrativo associado à consulta que gera a receita médica, seja ela a do agendamento da consulta, faturação da taxa moderadora, dispensa, isenção registo administrativo do pedido num sistema de tarefas, devendo idealmente ser gerado de forma automática pelo sistema de informação.
+E. Não são contabilizadas no numerador as horas que decorram aos fins-de-semana nem em dias de feriado nacional. As horas que decorram em dias de feriado municipal e em dias de tolerância de ponto são contabilizadas no numerador.
+F. As consultas contabilizados no denominador
+não
+são podem ser do tipo [Consulta médica de vigilância], ou seja não podem ser compatíveis com o seguinte código:
+-
+C003
+| Consulta médica de vigilância - [SClínico - Perfil Médico]"
+Observações Sobre Software,"MEDICINEONE
+A. Indicador incompatível com unidades funcionais com MedicineOne devido a questões de integração com a BDNP.
+SClínico
+A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
+B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
+C. Apesar do indicador ser ""flutuante"", o problema de leitura de dados a partir do SClínico até janeiro de 2018, faz com que o indicador tenha um período em análise inferior a 12 meses para os resultados entre fevereiro de 2018 e janeiro de 2019. Assim, por exemplo em junho de 2018, o indicador estará a ler 5 meses de consultas no denominador e 5 meses de consultas no numerador (1-2-2018 a 30-6-2018)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""data de prescrição de medicamento""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data e hora de registo do pedido da consulta pelo utente e fim 72 horas depois.
+- Denominador (variável ""inscrição ativa""): Ancorada na data de realização da consulta.
+- Denominador (variável ""consulta""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""pelo menos uma receita médica emitida""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data e hora de registo do pedido da consulta pelo utente e fim 10 dias depois."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Junho de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
+Intervalo Aceitável,"Ano de 2022: [85; 100]
+Ano de 2023: [85; 100]
+Ano de 2024: [85; 100]"
+Intervalo Esperado,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

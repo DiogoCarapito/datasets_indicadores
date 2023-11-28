@@ -1,0 +1,62 @@
+titulo,texto
+ID,005
+Código,3.12.02
+Código SIARS,2013.005.01
+Nome abreviado,Proporção de consultas realizadas pelo EF
+Designação,Proporção de consultas realizadas pelo respetivo enfermeiro de família
+Objetivo,Monitorizar o acesso dos utentes ao seu próprio enfermeiro de família e a capacidade de intersubstituição dos enfermeiros da unidade de saúde.
+Descrição do Indicador,"Indicador que exprime a proporção de consultas que cada enfermeiro realiza aos utentes da respetiva lista.
+Numerador: Contagem de consultas presenciais realizadas pelo próprio enfermeiro de família.
+Denominador: Contagem de consultas presenciais realizadas por qualquer enfermeiro da unidade de saúde."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O contacto foi realizado pelo Enfermeiro de Família do utente.
+DENOMINADOR (BB):
+Contagem de contactos em que a expressão [(A ou B) e C e D] é verdadeira:
+A. Compatível com o código
+C005
+[Consulta de enfermagem com a presença do utente (direta) - SClínico].
+B. Compatível com o código
+C011
+[Consulta de enfermagem com a presença do utente (direta) - MedicineOne].
+C. Realizado a utente com [
+inscrição ativa
+] durante pelo menos um dia do período em análise.
+D. Realizado a utente com enfermeiro de família atribuído (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Tanto no numerador como no denominador, apenas se contabiliza uma consulta realizada ao mesmo utente, por dia.
+B. Contabilizam-se consultas programadas e não programadas.
+C. Contabilizam-se consultas realizadas no horário normal ou no horário alargado da unidade de saúde.
+D. Quando a unidade de observação é o enfermeiro, a USF ou a UCSP, não se contabilizam consultas que os enfermeiros realizem no contexto do atendimento complementar ou de serviços de apoio permanente.
+E. Quando a unidade de observação é ACES, não se contabilizam no numerador as consultas que os enfermeiros realizem no contexto do atendimento complementar ou de serviços de apoio permanente, mesmo que tenham sido realizadas pelo enfermeiro de família do utente. Desta forma, variações nos resultados do indicador ficam mais dependentes do esforço das equipas para que os utentes sejam observados pelo respetivo EF na própria unidade de saúde, sem recurso aos horários das ""urgências"".
+F. Ao limitar o denominador (e consequentemente o numerador) aos utentes que têm Enfermeiro de Família atribuído, tornam-se os resultados do indicador imunes à proporção de utentes sem EF. Desta forma, variações nos resultados do indicador ficam mais dependentes do esforço das equipas para que os utentes sejam observados pelo respetivo EF.
+G. Os registos de [Consulta enfermagem com a presença do utente (direta)] devem estar de acordo com um dos seguintes códigos de consulta:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne"
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Não existe a possibilidade de registar SOAPs"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de contactos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Acesso | Personalização
+Intervalo Aceitável,"Ano de 2022: [70; 88]
+Ano de 2023: [70; 88]
+Ano de 2024: [70; 88]"
+Intervalo Esperado,"Ano de 2022: [65; 92]
+Ano de 2023: [65; 92]
+Ano de 2024: [60; 92]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

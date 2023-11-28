@@ -1,0 +1,58 @@
+titulo,texto
+ID,262
+Código,6.45.01
+Código SIARS,2013.262.01
+Nome abreviado,Proporção utentes com avaliação risco DM2 (3A)
+Designação,Proporção de utentes com determinação de risco diabetes tipo 2 registado nos últimos 3 anos
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""registo do risco de diabetes tipo 2""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com 18 ou mais anos, não diabéticos e com pelo menos uma avaliação de risco de diabetes tipo 2, registado nos últimos 36 meses.
+Numerador: Contagem de utentes com 18 ou mais anos, não diabéticos e com pelo menos uma avaliação de risco de diabetes tipo 2, registado nos últimos 36 meses.
+Denominador: Contagem de utentes com 18 ou mais anos e sem diabetes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos uma avaliação de risco de diabetes tipo 2, nos últimos 36 meses (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, nenhum dos diagnósticos de diabetes está ativo na lista de problemas (rubricas da ICPC-2 T89 ou T90).
+C. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"")."
+Observações Gerais,"A. O [risco de diabetes tipo 2] pode ser registado por qualquer médico, interno ou enfermeiro da unidade de saúde, usando a ficha de risco de diabetes tipo 2 publicada no site da DGS em
+http://www.dgs.pt/upload/membro.id/ficheiros/i013278.pdf
+.
+B. O risco de vir a ter diabetes pode ser classificado nos 5 graus seguintes:
+- Baixo - problabilidade inferior a 1% de vir a desenvolver diabetes.
+- ligeiro - Probabilidade inferior a 4%
+- moderado - Probabilidade inferior a 16,7%
+- alto - Probabilidade inferior a 33%
+- muito alto - Probabilidade inferior a 50%
+Neste indicador avalia-se a existência de registo independentemente do grau de risco associado."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A avaliação do risco de diabetes tipo 2 pode ser efetuada através da intervenção de enfermagem ""Avaliar risco de diabetes tipo 2"" (9004012). Esta intervenção está associada ao foco de atenção ""Gestão do Regime Terapêutico"" ou disponível na listagem de todas as intervenções de enfermagem. O resultado da avaliação fica disponível no painel de vigilância do utente e partilhado com os perfis de SClínico de outros profissionais. Os gestores locais da parametrização devem garantir que esta parametrização está disponível para os utilizadores.
+SCLÍNICO - PERFIL MÉDICO:
+A. O risco de diabetes tipo 2 pode ser registado quer na ficha individual quer na ficha de hipertensão, na ficha de saúde materna, planeamento familiar e rastreio oncológico, sendo contabilizado para este indicador independentemente da ficha onde é registado. Esta informação migra para o ""perfil de enfermagem"".
+MEDICINEONE:
+A. Disponível para registo no módulo de ""Riscos clínicos"". Realizável por enfermeiros e médicos. Apesar da área de preenchimento contemplar uma [data de início] e uma [data de fim], deve ser realizado um novo registo de 3 em 3 anos para que o utente seja contabilizado no numerador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 36 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [58; 100]
+Ano de 2023: [58; 100]
+Ano de 2024: [63; 100]"
+Intervalo Esperado,"Ano de 2022: [35; 100]
+Ano de 2023: [35; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

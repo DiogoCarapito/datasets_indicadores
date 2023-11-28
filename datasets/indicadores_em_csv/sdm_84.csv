@@ -1,0 +1,63 @@
+titulo,texto
+ID,084
+Código,8.06.01
+Código SIARS,2013.084.01
+Nome abreviado,Número UCs s. infantil 2º ano (ativ. específ.)
+Designação,Número de unidades de contratualização relacionadas com vigilância de crianças no 2º ano de vida (atividades específicas)
+Objetivo,"Monitorizar o programa de saúde infantil (2º ano de vida) e cálculo do número de UCs a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas""."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de crianças durante o seu 2º ano de vida (atividades específicas).
+Numerador: Produto entre o [número de crianças com acompanhamento adequado em saúde infantil durante o 2º ano de vida] e o [fator de ponderação 3].
+Denominador: Contagem de médicos da unidade."
+Regras de cálculo,"CRIANÇAS COM ACOMPANHAMENTO ADEQUADO EM SAÚDE INFANTIL NO 2º ANO DE VIDA (AA):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Crianças que completam 2 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. Ter pelo menos 3 consultas médicas de vigilância (contacto direto) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas A, B, C e F de OBSERVAÇÕES GERAIS.
+C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas C e D de OBSERVAÇÕES GERAIS.
+D. Com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período compreendido entre o [330; 730[ dias de vida.
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+B. Apenas se contabiliza uma consulta médica, por utente, por dia.
+C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+D. Os testes de desenvolvimento de Sheridan podem ser registados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+E. O número de médicos a contabilizar quando a unidade de observação é uma USF é o que se encontra no documento de candidatura ou no último documento oficial publicado onde se especifique o nº de lugares no quadro para a equipa médica. Se um médico se encontra a meio tempo, conta meia unidade para esta variável. Se uma unidade de saúde possui um ou vários médicos com ausências de longa duração, esses médicos são contabilizados. Quando a unidade de observação é uma UCSP, o número de médicos é o que constar do respetivo mapa de pessoal. Quando a unidade de observação é o próprio médico, a variável assume o valor 1 ou 0,5 respetivamente para médicos a tempo inteiro ou a meio tempo. Quando a unidade de observação é o ACES, a variável é igual ao somatório dos médicos das respetivas USF e UCSP (contabilizadas de acordo com as regras acima discriminadas).
+F. O intervalo de tempo [330; 700[ dias, definido no numerador, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O indicador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o seu período em análise a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de Novembro inicia o seu período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida durante o período em análise.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Variável ""idade"": na data de referência do indicador, cada criança tem [2, 3[ anos de idade.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O indicador tem um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida no ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Variável ""idade"": A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA x 3 / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

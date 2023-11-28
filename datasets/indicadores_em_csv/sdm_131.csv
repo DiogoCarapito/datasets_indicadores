@@ -1,0 +1,33 @@
+titulo,texto
+ID,131
+Código,5.01.02
+Código SIARS,5.1M
+Nome abreviado,"Percent. mulheres [50; 70[ A, c/ mamogr. (2 anos)"
+Designação,"Percentagem de mulheres entre [50; 70[ anos, com mamografia registada nos últimos dois anos"
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro da mama""."
+Descrição do Indicador,"Indicador que exprime a proporção entre as mulheres com registo de mamografia nos últimos dois anos e as mulheres com idades compreendidas no intervalo [50, 70[ anos.
+Numerador: Contagem de mulheres com registo de mamografia nos últimos dois anos.
+Denominador: Contagem de mulheres com idades compreendidas no intervalo [50, 70[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de mamografia nos últimos 2 anos.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [50; 70[ anos.
+C. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

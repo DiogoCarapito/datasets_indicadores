@@ -1,0 +1,69 @@
+titulo,texto
+ID,283
+Código,3.21.01
+Código SIARS,2013.283.01
+Nome abreviado,Proporção crian./jov. c/ NSE c/ interv. S. Escolar
+Designação,Proporção de crianças e jovens com Necessidades de Saúde Especiais (NSE) que foram alvo de intervenção de enfermagem no âmbito da saúde escolar
+Objetivo,Monitorizar a acessibilidade das crianças e jovens com Necessidades de Saúde Especiais (NSE) aos cuidados no âmbito do Programa de Saúde Escolar
+Descrição do Indicador,"Exprime a proporção de crianças e jovens com Necessidades de Saúde Especiais (NSE) que foram alvo de intervenção de enfermagem no âmbito da saúde escolar.
+Numerador: Contagem de crianças e jovens com Necessidades de Saúde Especiais (NSE) que foram alvo de intervenção de enfermagem no âmbito da saúde escolar.
+Denominador: Contagem crianças e jovens com Necessidades de Saúde Especiais (NSE)."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições definidas no denominador;
+B. Pelo menos um contacto realizado durante os 12 meses que antecedem a data de referência do indicador, por qualquer enfermeiro da UCC (ver alínea A e C de OBSERVAÇÕES GERAIS).
+C. O contacto referido no ponto B deve ter uma associação ao [Programa Nacional de Saúde Escolar].
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e (D ou E ou F)] é verdadeira:
+A. Com idade compreendida no intervalo [4; 18[ anos, medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"" (ver alínea G de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas D e E de OBSERVAÇÕES GERAIS.
+D. O diagnóstico de ""Problema com a educação"" (rubrica ICPC Z07) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador.
+E. O diagnóstico de ""Dificuldade específica de aprendizagem"" (rubrica ICPC P24) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador.
+F. Com referenciação para o SNIPI, ativa à data de referência do indicador."
+Observações Gerais,"A. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
+B. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico
+C. Devem ser contabilizadas as consultas realizadas no contexto de inscrições ""esporádicas"" nas bases de dados, desde que o utente tenha pelo penos uma [
+inscrição ativa
+] num dos locais de inscrição pertencente ao ACES a que pertence a UCC, na data de referência do indicador;
+D. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+E. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.
+F. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO.
+G. O PNSE de 2015 desenvolve-se nos Estabelecimentos de Educação e Ensino (EEE) do Ministério da Educação: Agrupamentos Escolares e Escolas não Agrupadas (AE) com atividade em Jardim de infância, Ensino Básico e Secundário (EBS), Instituições Particulares de Solidariedade Social (IPSS) com intervenção na população escolar e, sempre que os recursos humanos o permitam, em instituições privadas com acordo de cooperação. Abrange assim crianças e jovens no grupo etário definido de [4; 18[ anos."
+Observações Sobre Software,"SClínico:
+A. O O [SClínico perfil enfermagem] possui um [Programa Nacional de Saúde Escolar] que deve ser associado aos contactos/consultas no âmbito da intervenção crianças e jovens com NSE.
+B. O [SClínico perfil enfermagem] permite a referenciação SNIPI através do seguinte procedimento: processo do utente > mapa de cuidados > intervenção de enfermagem “Avaliar desenvolvimento infantil e juvenil” > separador SNIPI > efectivar referenciação.
+C. O [SClínico perfil médico] permite a referenciação SNIPI através do seguinte procedimento: processo do utente>>programa saúde infantil>>separador SNIPI>>efectivar referenciação."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consulta de enfermagem""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""idade""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""freguesia de residência""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico na lista de problemas""): Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""idade""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""freguesia de residência""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Intervenção Comunitária | Saúde Escolar
+Intervalo Aceitável,"Ano de 2022: [40; 100]
+Ano de 2023: [40; 100]
+Ano de 2024: [45; 100]"
+Intervalo Esperado,"Ano de 2022: [10; 100]
+Ano de 2023: [10; 100]
+Ano de 2024: [10; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Escolar
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

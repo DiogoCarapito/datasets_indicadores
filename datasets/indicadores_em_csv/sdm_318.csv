@@ -1,0 +1,154 @@
+titulo,texto
+ID,318
+Código,6.62.01
+Código SIARS,2016.318.01
+Nome abreviado,Taxa de internamento por asma em adultos jovens
+Designação,Taxa de internamento por asma em adultos jovens
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP a adultos jovens com ""asma"", no controlo da sintomatologia desta doença, usando como medida de efetividade a ""taxa de internamento hospitalar"" por agudização dessa patologia. Ver alíneas D, E e F de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos hospitalares com diagnóstico principal de ""asma"", por cada 100.000 residentes com idades entre 18 e 39 anos.
+Numerador: Contagem episódios de internamento hospitalar com diagnóstico principal de ""asma"".
+Denominador: Contagem de utentes residentes com idades entre 18 e 39 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de internamentos hospitalares em que a expressão [A e B e C e D e E e F e G e H] é verdadeira:
+A. Referentes a utentes internados com data de alta incluída no período em análise (ver alínea H de OBSERVAÇÕES GERAIS);
+B. Com duração superior a 24 horas (ver alínea H de OBSERVAÇÕES GERAIS);
+C. Não são considerados os utentes transferidos de outros hospitais.
+D. Na data de admissão têm idade compreendida entre 18 e 39 anos (com pelo menos 18 anos já feitos e ainda sem ter ultrapassado o 40º aniversário);
+E. O registo da freguesia de residência no internamento hospitalar pertence à área de abrangência da unidade de observação em análise (ver alíneas C, D, E e F de OBSERVAÇÕES GERAIS);
+F. O utente internado tem diagnóstico principal de ""asma"" (ver alíneas A e I de OBSERVAÇÕES GERAIS).
+G. O utente internado não tem diagnósticos secundários de fibrose quística nem de outras doenças respiratórias crónicas (ver alíneas B e I de OBSERVAÇÕES GERAIS).
+H. Excluem-se episódios de internamento por gravidez, parto e puerpério.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas C, D, E, F e G de OBSERVAÇÕES GERAIS).
+B. Com idades compreendidas entre 18 e 39 anos (com pelo menos 18 anos já feitos e ainda sem ter ultrapassado o 40º aniversário)."
+Observações Gerais,"A. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""asma"":
+ICD-10-CM:
+J4521 - Mild intermittent asthma with (acute) exacerbation
+J4522 - Mild intermittent asthma with status asthmaticus
+J4531 - Mild persistent asthma with (acute) exacerbation
+J4532 - Mild persistent asthma with status asthmaticus
+J4541 - Moderate persistent asthma with (acute) exacerbation
+J4542 - Moderate persistent asthma with status asthmaticus
+J4551 - Severe persistent asthma with (acute) exacerbation
+J4552 - Severe persistent asthma with status asthmaticus
+J45901 - Unspecified asthma with (acute) exacerbation
+J45902 - Unspecified asthma with status asthmaticus
+J45990 - Exercise induced bronchospasm
+J45991 - Cough variant asthma
+J45998 - Other asthma
+ICD-9-CM:
+49300 - Asma extrínseca, não especificada
+49301 - Asma extrínseca, com estado asmático
+49302 - Asma extrínseca, com exacerbação (aguda)
+49310 - Asma intrínseca, não especificada
+49311 - Asma intrínseca, com estado asmático
+49312 - Asma intrínseca, com exacerbação (aguda)
+49320 - Asma crónica obstrutiva, não especificada
+49321 - Asma crónica obstrutiva, com estado asmático
+49322 - Asma crónica obstrutiva, com exacerbação (aguda)
+49381 - Broncospasmo induzido pelo exercício
+49382 - Variante de tosse da asma
+49390 - Asma não especificada, estado não especificado
+49391 - Asma não especificada, com estado asmático
+49392 - Asma não especificada, com exacerbação (aguda)
+B. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""fibrose quística"" ou ""outras doenças respiratórias crónicas"":
+ICD-10-CM:
+E840 - Cystic fibrosis with pulmonary manifestations
+E8411 - Meconium ileus in cystic fibrosis
+E8419 - Cystic fibrosis with other intestinal manifestations
+E848 - Cystic fibrosis with other manifestations
+E849 - Cystic fibrosis, unspecified
+J8483 - Surfactant mutations of the lung
+J84841 - Neuroendocrine cell hyperplasia of infancy
+J84842 - Pulmonary interstitial glycogenosis
+J84843 - Alveolar capillary dysplasia with vein misalignment
+J84848 - Other interstitial lung diseases of childhood
+P270 - Wilson-Mikity syndrome
+P271 - Bronchopulmonary dysplasia originating in the perinatal period
+P278 - Other chronic respiratory diseases originating in the perinatal period
+P279 - Unspecified chronic respiratory disease originating in the perinatal period
+Q254 - Other congenital malformations of aorta
+Q311 - Congenital subglottic stenosis
+Q312 - Laryngeal hypoplasia
+Q313 - Laryngocele
+Q315 - Congenital laryngomalacia
+Q318 - Other congenital malformations of larynx
+Q319 - Congenital malformation of larynx, unspecified
+Q320 - Congenital tracheomalacia
+Q321 - Other congenital malformations of trachea
+Q322 - Congenital bronchomalacia
+Q323 - Congenital stenosis of bronchus
+Q324 - Other congenital malformations of bronchus
+Q330 - Congenital cystic lung
+Q331 - Accessory lobe of lung
+Q332 - Sequestration of lung
+Q333 - Agenesis of lung
+Q334 - Congenital bronchiectasis
+Q335 - Ectopic tissue in lung
+Q336 - Congenital hypoplasia and dysplasia of lung
+Q338 - Other congenital malformations of lung
+Q339 - Congenital malformation of lung, unspecified
+Q340 - Anomaly of pleura
+Q341 - Congenital cyst of mediastinum
+Q348 - Other specified congenital malformations of respiratory system
+Q349 - Congenital malformation of respiratory system, unspecified
+Q390 - Atresia of esophagus without fistula
+Q391 - Atresia of esophagus with tracheo-esophageal fistula
+Q392 - Congenital tracheo-esophageal fistula without atresia
+Q393 - Congenital stenosis and stricture of esophagus
+Q394 - Esophageal web
+Q893 - Situs inversus
+ICD-9-CM:
+27700 - Fibrose quística sem mencao de ileo meconial
+27701 - Fibrose quística com ileo meconial
+27702 - Fibrose quística com manifestações pulmonares
+27703 - Fibrose quística com manifestações gastrintestinais
+27709 - Fibrose quística com manifestações não classificáveis em outra parte
+51662 - Glicogenose intersticial pulmonar
+51663 - Denca pulmonar devida a mutações da surfactante
+51664 - Displasia alveolo-capilar com desalinhamento venoso
+51669 - Doencas pulmonares intersticiais da criança NCOP
+74721 - Anomalia congénita do arco aortico
+7483 - Malformacao congénita da laringe, traqueia ou bronquios NCOP
+7485 - Agenésia,hipoplasia e displasia pulmonar
+74860 - Anomalia congénita pulmão SOE
+74861 - Bronquiectasias congénitas
+7488 - Malformações congénitas especificadas do aparelho respiratório NCOP
+7489 - Malformações congénitas do aparelho respiratório SOE
+7503 - Fistula traqueo-esofágica, atrésia ou estenose do esófago
+7593 - Situs inversus
+7707 - Doenca respiratoria cronica com inicio no período perinatal
+C. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias.
+D. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+E. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 10.000 residentes estimados pelo INE, 2500 serão atribuídos à UF1 e 7500 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 5000 residentes estimados pelo INE, 4000 serão atribuídos à UF2 e 1000 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 11500 utentes residentes estimados por esta metodologia (7500 da freguesia X e 4000 da freguesia Y).
+Esta metodologia é aplicável não só às estimativas de residentes do INE (denominador) mas também à informação de internamentos cuja fonte é a base de dados de GDH, cujos dados são fornecidos agregados por freguesia.
+F. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+b) O nível de rigor no registo da freguesia de residência dos utentes internados. As UF com área de abrangência próxima de unidades de hospitalares de referência no tratamento e controlo da(s) patologias monitorizadas, podem ter um aumento do numerador se existirem utentes que para acederem aos cuidados hospitalares falseiam a respetiva morada para uma que possibilite o acesso.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias ou da proximidade com hospitais. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+G. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (antes da data de referência do indicador).
+H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
+https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador)."
+Fórmula,AA / BB x 100.000
+Unidade de medida,por 100.000
+Output,Taxa internamento (por 100.000 residentes por ano)
+Estado do indicador,Com dados desde Dezembro de 2013
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

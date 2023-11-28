@@ -1,0 +1,58 @@
+titulo,texto
+ID,074
+Código,5.28
+Código SIARS,2013.074.01
+Nome abreviado,"Proporção cons. méd. presenciais, com ICPC-2"
+Designação,Proporção de consultas médicas presenciais que deram origem a pelo menos uma classificação pela ICPC-2
+Objetivo,"Monitorizar a qualidade dos registos clínicos. Parâmetro ""Classificação de problemas de saúde na consulta, pela ICPC-2"""
+Descrição do Indicador,"Indicador que exprime a proporção de consultas médicas presenciais que possuem pelo menos um problema de saúde da consulta classificado pela ICPC-2.
+Numerador: Contagem de consultas médicas presenciais com pelo menos um problema de saúde da consulta classificado pela ICPC-2.
+Denominador: Contagem de consultas médicas presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos um problema de saúde classificado pela ICPC-2 (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de contactos em que a expressão [(A ou B) e C] é verdadeira:
+A. Compatível com o código
+C002
+[Consulta médica presencial - SClínico].
+B. Compatível com o código
+C008
+[Consulta médica presencial - MedicineOne].
+C. Realizado a utente com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Observações Gerais,"A. As rubricas ICPC-2 válidas para classificar problemas de saúde na consulta são os pertencentes ao componente 1 (rubricas compreendidas entre -00 e -29, qualquer capítulo) e ao componente 7 (rubricas compreendidas entre -70 e -99, qualquer capítulo excepto o Z).
+B. Contabilizam-se consultas programadas e não programadas.
+C. Contabilizam-se consultas realizadas no horário normal ou no horário alargado da unidade de saúde.
+D. Quando a unidade de observação é o médico, a USF ou a UCSP, não se contabilizam consultas que os médicos realizem no contexto do atendimento complementar ou de serviços de apoio permanente. No entanto, contabilizam-se as consultas de intersubstituição (nas USF e UCSP) e as consultas de reforço (nas UCSP).
+E. Quando a unidade de observação é ACES, contabilizam-se também as consultas que os médicos realizem no contexto do atendimento complementar, serviços de apoio permanente, consultas de intersubstituição e consultas de reforço."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Para classificar problemas de saúde na consulta é necessário utilizar o sistema de episódios registando:
+- um novo episódio a partir da classificação disponível no botão ""A"" do ecrã SOAP ou a partir do botão ""novo episódio"" da lista de problemas;
+- um episódio já existente na árvore de episódios.
+MEDICINEONE
+A. Para classificar problemas de saúde na consulta não existentes na lista de problemas, é necessário criar o problema de saúde (na lista de ""problemas ativos"" ou na lista de ""outros problemas""), ativar o sistema de episódios para esse problema e garantir que o mesmo fica na lista [episódios deste contacto] anexa ao ""A do SOAP"".
+B. Para classificar problemas de saúde na consulta previamente existentes na lista de problemas, é necessário usar o sistema de episódios anexo ao ""A do SOAP"" e passar pelo menos uma das rubricas da ICPC-2 contida na lista de [episódios ativos] para a lista [episódios deste contacto]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [96; 100]
+Ano de 2023: [96; 100]
+Ano de 2024: [96; 100]"
+Intervalo Esperado,"Ano de 2022: [92; 100]
+Ano de 2023: [92; 100]
+Ano de 2024: [92; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

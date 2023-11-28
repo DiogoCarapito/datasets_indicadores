@@ -1,0 +1,91 @@
+titulo,texto
+ID,015
+Código,6.42.04
+Código SIARS,2013.015.01
+Nome abreviado,Proporção RN c/ domicílio enf. até 15º dia de vida
+Designação,Proporção de recém-nascidos com consulta domiciliária de enfermagem realizada até ao 15º dia de vida
+Objetivo,"Monitorizar os cuidados prestados aos recém-nascidos. Parâmetro ""domicílios de enfermagem a recém-nascidos""."
+Descrição do Indicador,"Indicador que exprime proporção de recém-nascidos, que tiveram pelo menos um domicílio de enfermagem durante os primeiros 15 dias de vida.
+Numerador: Contagem de recém-nascidos que tiveram pelo menos um domicílio de enfermagem durante os primeiros 15 dias de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com pelo menos um domicílio de enfermagem, nos primeiros 15 dias de vida (ver alíneas A, B e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2016.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] ou [esporádica] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 15 dias de vida (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 60 dias de vida (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2017.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 30 dias de vida durante o período em análise (ver alínea B de OBSERVAÇÕES GERAIS).
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 15 dias de vida (ver alíneas B e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para contabilizar este tipo de consultas (domicílios a recém-nascidos) é necessário que:
+a) O [tipo de contacto] seja classificado como [domicílio].
+b) Os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne
+B. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido no final do dia.
+C. Contabilizam-se crianças que se inscrevam antes do 15º dia de vida na unidade de saúde como esporádicas (p.e. por o nome ainda não estar registado na conservatória do registo civil), desde que o registo da [
+inscrição ativa
+] seja feito até ao 60º dia de vida e desde que se processe a uma alteração do registo de [inscrição esporádica] para [
+inscrição ativa
+] (ver conceito de [
+inscrição ativa
+]). Caso o procedimento seja o da anulação do registo ""esporádico"", com criação de um novo registo com [
+inscrição ativa
+], a criança será contabilizada no denominador mas não será possível a contabilização para o numerador pois o novo registo não terá um domicílio de enfermagem até ao 15º dia de vida. Assim, o prazo para registos neste indicador é de 30 dias por forma a possibilitar os registos de [
+inscrição ativa
+] até ao 60º dia de vida. Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+D. Se uma criança apenas se inscrever na unidade de saúde após os 15 dias de vida (p.e. por internamento hospitalar até aos 20 dias de vida), não é contabilizada no denominador (nem no numerador). Exceptuam-se os casos em que a própria maternidade efetua os registos no âmbito do ""Nascer Cidadão"", incluindo inscrição do recém-nascido no RNU, com posterior migração da informação para o SINUS (com data de inscrição na unidade de saúde igual à data do registo no âmbito do ""nascer cidadão""). Esta observação é válida para indicadores com data de referência igual ou inferior a dezembro de 2016.
+E. A partir de janeiro de 2017 o SIARS tem como fonte de dados para ""inscrição de utentes"" o RNU, que não contempla o conceito de ""inscrição esporádica"".
+F. Contabilizam-se consultas médicas registadas em qualquer unidade funcional do centro de saúde de inscrição do recém-nascido (regra válida para indicadores com data de referência igual ou posterior a janeiro de 2019)."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. No SCLÍNICO, considera-se domicílio desde que seja selecionado um dos seguintes itens, em [local da consulta], na janela de [efetivação do contacto]:
+- [Domicílio] (válido desde sempre);
+- [Lar de idosos] (válido a partir de janeiro 2023);
+- [Centro de dia] (válido a partir de janeiro 2023);
+- [Locais comunitários] (válido a partir de janeiro 2023);
+- [Estabelecimento prisional] (válido a partir de janeiro 2023).
+É irrelevante assinalar [ato de enfermagem] ou [consulta de enfermagem].
+A consulta não pode ficar [pendente]. Deve ser [terminada].
+MEDICINEONE:
+A. Um contacto fica como [domicílio] se o respetivo [Tipo de contacto] foi definido como [domicílio].
+B. O SIARS não lê informação que tenha sido registada no módulo de domicílios, a não ser que em simultâneo seja gerado um contacto do tipo [domicílio]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador. São incluídas crianças que completam 30 dias de vida nesse período.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento (D1) e termina ao 15º dia de vida (D15)
+.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador. São incluídas crianças que completam 30 dias de vida nesse período.
+- Numerador: Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento (D1) e termina ao 15º dia de vida (D15)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [50; 100]"
+Intervalo Esperado,"Ano de 2022: [10; 100]
+Ano de 2023: [10; 100]
+Ano de 2024: [10; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias

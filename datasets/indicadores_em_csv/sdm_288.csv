@@ -1,0 +1,42 @@
+titulo,texto
+ID,288
+Código,6.52.01
+Código SIARS,2013.288.01
+Nome abreviado,Taxa de resolução da ineficácia/compromisso na GRT
+Designação,Taxa de resolução da ineficácia/compromisso na GRT
+Objetivo,Avaliar a efetividade dos cuidados de enfermagem na resolução da ineficácia/compromisso da GRT.
+Descrição do Indicador,"Exprime a proporção de utentes com diagnóstico de enfermagem de ""GRT Ineficaz/comprometido"" com modificação positiva do diagnóstico para ""sem GRT comprometido"" ou de ""GRT eficaz"".
+Numerador: Contagem de utentes com diagnóstico de enfermagem de ""GRT comprometido"" com modificação positiva do diagnóstico para ""sem GRT comprometido "" ou de ""GRT ineficaz"" com modificação positiva do diagnóstico para ""GRT eficaz"".
+Denominador: Contagem de utentes com diagnóstico de enfermagem de ""GRT comprometido"" ou de ""GRT ineficaz""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições do denominador.
+B. Com diagnóstico de enfermagem documentado como ""sem GRT comprometido"", após um diagnóstico de ""GRT comprometido"" e com associação de ambos ao mesmo foco.
+C. Com diagnóstico de enfermagem documentado como ""GRT eficaz"", após um diagnóstico de ""GRT ineficaz"" e com associação de ambos ao mesmo foco.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Com pelo um contacto de enfermagem realizado durante os 12 meses que antecedem a data de referência do indicador, por qualquer enfermeiro da UCC.
+B. Com diagnóstico de enfermagem documentado como ""GRT comprometido""
+C. Com diagnóstico de enfermagem documentado como ""GRT ineficaz""."
+Observações Gerais,"A. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. Os grupos de status necessários à obtenção de dados para este indicador são os seguintes: Gestão do Regime Terapêutico Ineficaz; Gestão do Regime Terapêutico Eficaz. Os gestores locais da parametrização devem garantir que esta parametrização não sofre alterações.
+SClínico com normalização:
+A. O SClínico com normalização encontra-se parametrizado com o status: Gestão do regime terapêutico comprometida (8000316); Sem gestão do regime terapêutico comprometida (8000317)"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

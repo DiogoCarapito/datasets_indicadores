@@ -1,0 +1,35 @@
+titulo,texto
+ID,139
+Código,6.12.02
+Código SIARS,6.12
+Nome abreviado,Percent. primeiras consultas até 28 dias
+Designação,Percentagem de primeiras consultas na vida efetuadas até aos 28 dias
+Objetivo,Monitorizar a vigilância precoce dos recém-nascidos.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de recém-nascidos que efetuam a primeira consulta médica na vida até aos 28 dias e o total de recém-nascidos inscritos.
+Numerador: Contagem de recém-nascidos com pelo menos uma consulta médica nos primeiros 28 dias de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com pelo menos uma consulta médica (contacto direto), nos primeiros 28 dias de vida.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 28 dias de vida durante o período em análise.
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O denominador tem um período em análise de 1 a 12 meses, terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto do 28º dia de vida pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Para cada utente incluído no denominador, o período em análise da variável ""existência de consulta"" decorre durante os primeiros 28 dias de vida."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

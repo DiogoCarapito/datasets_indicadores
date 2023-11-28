@@ -1,0 +1,74 @@
+titulo,texto
+ID,054
+Código,6.29
+Código SIARS,2013.054.01
+Nome abreviado,"Proporção utentes consum. álcool, c/ consulta 3A"
+Designação,"Proporção de utentes com 14 ou mais anos e com o problema de ""consumo excessivo de álcool"", a quem foi realizada pelo menos uma consulta relacionada nos últimos 3 anos"
+Objetivo,"Monitorizar o programa de saúde juvenil e de adultos. Parâmetro ""consulta relacionada com consumo excessivo de álcool""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade igual ou superior a 14 anos e com o problema de ""consumo excessivo de álcool"", a quem foi realizada consulta relacionada com esse problema, nos últimos 3 anos.
+Os utentes com ""consumo excessivo de álcool"" deveriam ser identificados nos sistemas de registo clínico a partir da informação existente sobre a quantificação dos respetivos consumos semanais. No entanto, os registos sobre ""consumos de álcool"" existentes nos sistemas informáticos de registo clínico em uso nos cuidados de saúde primários não se encontram padronizados, designadamente em relação às unidades de consumo de álcool usadas. Assim, optou-se por identificar utentes com ""consumo excessivo de álcool"" através de um ""equivalente de registo"". Trata-se do registo realizado por médicos (habitualmente os médicos de família), na lista de problemas do doente, de pelo menos um problema de saúde ativo, codificado pelas rubricas da ICPC-2 P15 (Abuso crónico do álcool) ou P16 (Abuso agudo do álcool).
+Numerador: Contagem utentes inscritos com idade igual ou superior a 14 anos e com o problema de ""consumo excessivo de álcool"", a quem foi realizada consulta médica ou de enfermagem relacionada com esse problema de saúde, nos últimos 3 anos.
+Denominador: Contagem utentes inscritos com idade igual ou superior a 14 anos e com o problema de ""consumo excessivo de álcool""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma [consulta médica de vigilância] relacionada com o problema ""consumo excessivo de álcool"" nos últimos 36 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma [consulta de enfermagem de vigilância] relacionada com o problema ""consumo excessivo de álcool"" nos últimos 36 meses (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e (C ou D)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 14 anos (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Na data de referência do indicador, o diagnóstico de ""Abuso crónico do álcool"" (rubrica da ICPC-2 P15) encontra-se na lista de problemas, com o estado de ""ativo"".
+D. Na data de referência do indicador, o diagnóstico de ""Abuso agudo do álcool"" (rubrica da ICPC-2 P16) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica] relacionada com ""consumo excessivo de álcool"", é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de ""consumo excessivo de álcool"", que podem ser usados para o classificar como ""problema de saúde da consulta"" são o P15, o P16.
+B. Para se considerar uma [Consulta de Enfermagem] relacionada com ""consumo excessivo de álcool"", é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.8
+| Consulta de enfermagem de vigilância relacionada com consumo excessivo de álcool - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa ou área de vigilância. No entanto, entende-se que existe um conjunto de diagnósticos e intervenções altamente frequentes e caracterizadores da consulta de vigilância relacionada com o álcool, que passam a ser utilizados para caracterizar este tipo de consulta de vigilância e disponíveis em
+Diagnósticos e intervenções de enfermagem codificados pela CIPE - Álcool
+.
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de ""consumo excessivo de álcool"", que podem ser usados para o classificar como ""problema de saúde da consulta"" são o P15, o P16.
+C. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+D. Os registos de hábitos alcoólicos são irrelevantes para a ""inclusão"" ou ""não inclusão"" dos utentes no denominador."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de ""Abuso de álcool"" pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 36 meses, terminando na data de referência do indicador;
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [40; 100]
+Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,53 @@
+titulo,texto
+ID,424
+Código,5.45.01
+Código SIARS,2019.424.01
+Nome abreviado,"Prop. crianças [0; 1[A, c/ ""aval. elegib. p/ BCG"""
+Designação,"Proporção de crianças com 1 ano, com avaliação de elegibilidade para vacinação com BCG"
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) e da Norma nº 010/2018 de 17/04/2018 da DGS nos utentes com inscrição ativa e idade inferior a 1 ano.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com 1 ano, sem vacina de BCG, com avaliação de elegibilidade para BCG.
+Numerador: Contagem de utentes inscritos com 1 ano, com avaliação de elegibilidade para BCG.
+Denominador: Contagem de utentes inscritos com 1 ano, sem BCG."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma avaliação de elegibilidade de BCG, registada no máximo até ao 365º dia de vida (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Que completam 1 ano de idade durante os 12 meses que antecedem a data de referência do indicador.
+C. Com [
+Inscrição ativa
+] na unidade de saúde em observação, durante pelo menos 6 meses do 1º ano de vida da criança.
+D. Residência em Portugal (ver alínea A de OBSERVAÇÕES GERAIS).
+E. Sem inoculação de vacina de BCG (ver vacinas equivalentes com código
+[BCG]
+), registada no máximo até ao 365º dia de vida (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A residência é verificada no RNU à data de referência do indicador. São excluídos do denominador (e consequentemente do numerador), os utentes residentes no estrangeiro.
+B. A norma 010/2018 da DGS, refere que é prioritário aproveitar todas as oportunidades para avaliar e reavaliar os critérios de risco (crianças elegíveis para vacinação com BCG) de todas as crianças com idade inferior a 6 anos de idade, em todos os contactos com os serviços de saúde. Nesta circunstância, está em observação, pelo menos uma avaliação de elegibilidade documentada nas crianças com idade inferior a 1 ano.
+C. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Electrónico Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O registo actual de todas as vacinas é efetuado através do SClínico, no RSE Vacinas, em ""Registar Inoculação"".
+B. O registo da avaliação de elegibilidade para vacinação com vacina BCG é efetuado através do SClínico, no RSE Vacinas, em ""Mais acções"" > ""Avaliação Elegibilidade BCG"".
+MEDICINEONE:
+A. O registo de todas as vacinas é efetuado através do acesso ao RSE Vacinas.
+B. O registo da avaliação de elegibilidade para vacinação com vacina BCG é efetuado através do acesso ao RSE Vacinas. No RSE Vacinas estes dados são documentados em ""Mais acções"" > ""Avaliação Elegibilidade BCG""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""avaliação de elegibilidade para BCG""): O período em análise situa-se entre o nascimento e o 365º dia de vida.
+- Denominador (variável ""inscrição ativa""): Avaliada na data de referência do indicador e durante todo o 1º ano de vida da criança.
+- Denominador (variável ""idade""): Avaliada na data de referência do indicador: crianças cuja idade pertence ao intervalo tem [1, 2[ anos.
+- Denominador (variável ""residência""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""registo da inoculação de BCG""): O período em análise situa-se entre o nascimento e o 365º dia de vida."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Dezembro de 2019
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

@@ -1,0 +1,41 @@
+titulo,texto
+ID,114
+Código,6.23.03
+Código SIARS,4.10M 2e
+Nome abreviado,Percent. crianças c/ 3+ cons. enf. vigil. 2º ano
+Designação,Percentagem de crianças com pelo menos 3 consultas de enfermagem de saúde infantil no 2º ano de vida
+Objetivo,Acompanhamento do Programa de Saúde Infantil - 2º ano de vida. Monitorizar o cumprimento das orientações técnicas definidas para a vigilância deste grupo vulnerável.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de crianças que efetuaram pelo menos 3 consultas de enfermagem de vigilância durante o 2º ano de vida, no total de crianças associadas ao programa de vigilância que completaram 2 anos de idade.
+Numerador: Contagem de crianças que efetuaram pelo menos 3 consultas de enfermagem de vigilância, durante o 2º ano de vida.
+Denominador: Contagem de crianças vigiadas em programa, que completaram 2 anos de idade."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter pelo menos 3 consultas de enfermagem de vigilância (contacto direto) no intervalo [330, 700[ dias. Ver alínea A de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 2 anos de idade durante o período em análise;
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+C. Ter compromisso de vigilância na Unidade Funcional no programa de saúde infantil."
+Observações Gerais,"A. O intervalo de tempo [330; 700[ dias, definido no numerador, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 2 anos de vida durante o ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se no 330º e termina ao 700º dia de vida.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

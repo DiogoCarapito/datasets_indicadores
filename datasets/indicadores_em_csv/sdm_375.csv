@@ -1,0 +1,98 @@
+titulo,texto
+ID,375
+Código,6.40.02
+Código SIARS,2017.375.01
+Nome abreviado,"Proporção de RN de termo, de baixo peso"
+Designação,"Proporção de recém-nascidos de termo, de baixo peso"
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelas UCC no âmbito da saúde reprodutiva, na prevenção de complicações fetais e neonatais, usando como medida a ""proporção de recém-nascidos de termo e com baixo peso"""
+Descrição do Indicador,"Indicador que exprime a proporção de recém-nascidos de baixo peso (<2500 gramas) ao nascer, entre os recém-nascidos de termo nascidos no período de tempo considerado.
+Numerador: Contagem de recém-nascidos de termo e de baixo peso.
+Denominador: Contagem de recém-nascidos de termo."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Com baixo peso à nascença (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+(Aplicável a USF, UCSP, CON, IPSS-C e ACES)
+Contagem dos utentes em que a expressão [A e B e C e D] é verdadeira (ver alínea K de OBSERVAÇÕES GERAIS):
+A. Crianças que completam 2 meses de idade durante os 12 meses que antecedem a data de referência do indicador.
+B. [
+inscrição ativa
+] na unidade de saúde, na data de referência do indicador;
+C. Crianças resultantes de gravidez de termo (ver alínea B de OBSERVAÇÕES GERAIS).
+D. Crianças cuja mãe teve pelo menos uma consulta por profissional na UF nos 270 dias que antecedem o parto (ver alíneas C, D, E e I de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+(Aplicável a UCC)
+Contagem dos utentes em que a expressão [A e B e C e D e E] é verdadeira (ver alínea K de OBSERVAÇÕES GERAIS):
+A. Crianças que completam 2 meses de idade durante os 12 meses que antecedem a data de referência do indicador.
+B. Crianças resultantes de gravidez de termo (ver alínea B de OBSERVAÇÕES GERAIS).
+C. Crianças cuja mãe teve pelo menos uma consulta por profissional da UCC nos 270 dias que antecedem o parto (ver alíneas C, D, E, H e I de OBSERVAÇÕES GERAIS).
+D. Crianças com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea F de OBSERVAÇÕES GERAIS), verificado no mês em que a criança completa 2 meses.
+E. Crianças com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Verificado no mês em que a criança completa 2 meses. Ver alíneas G e H de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Considera-se ""baixo peso à nascença"", valores inferiores a 2500 gramas.
+Os registos de ""peso à nascença"" podem ser registados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde (independentemente da unidade de observação do indicador). Os registos médicos tornam prescindíveis os de enfermagem e vice-versa. No caso de não se registar coincidência nos valores de peso à nascença nos registos destes profissionais, será considerado o valor médio (ver OBSERVAÇÕES SOBRE SOFTWARE).
+A possibilidade de fazer a leitura de registos de ""peso à nascença"", efetuados por enfermeiro só foi operacionalizada a partir dos indicadores com mês de referência igual ou superior a janeiro 2022. Para indicadores com mês de referência anterior a leitura era feita apenas com base em registos de médicos e/ou internos de medicina.
+B. Considera-se gravidez de termo, a gravidez com duração igual ou superior a 37 semanas (ver OBSERVAÇÕES SOBRE SOFTWARE).
+C. Para que uma consulta seja considerada como pertencente a uma Unidade Funcional (UF), o profissional de saúde deve efetuar essa consulta efetuando ""login"" na UF em questão (ver OBSERVAÇÕES SOBRE SOFTWARE).
+D. Os grupos profissionais admissíveis para análise neste indicador são: enfermeiros; assistentes socias; médicos; fisioterapeutas; nutricionistas; psicólogos; outros profissionais de saúde com funções clínicas (exclui secretários clínicos).
+E. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta de enfermagem presencial - MedicineOne.
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C008
+| Consulta médica presencial - MedicineOne
+-
+C020
+| Consulta presencial de ""outro profissional"" - [SClínico - Perfil ""outro profissional""], incluindo:
+a) Consulta presencial realizada por psicólogo
+b) Consulta presencial realizada por fisioterapeuta
+c) Consulta presencial realizada por assistente social
+d) Consulta presencial realizada por nutricionista
+e) Consulta presencial realizada por outro tipo de profissional de saúde
+F. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
+G. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+H. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.
+I. São feitas as validações seguintes para garantir correto emparelhamento, nos sistemas de informação entre crianças e respetivas mães:
+a) Mesmo processo familiar;
+b) Data de parto no processo do familiar ""mãe"" é igual à data de nascimento no processo familiar do filho;
+c) O utente identificado como ""mãe"" é do sexo feminino.
+J. A contagem 270 de dias a anteceder o parto inclui o dia do parto. Considerando que D é a data de parto, a identificação da consulta, deve ocorrer no intervalo [D-269; D].
+K. Contabilizam-se no denominador todas as crianças de termo cuja mãe teve consulta na UCC, independentemente do registo do ""peso à nascença"" ser ou não mensurável."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. É possível registar peso à nascença e duração da gravidez no processo da criança. Esta funcionalidade está acessível a partir do botão do [programa de saúde infantil] na janela [Período pré-natal e natal]. Os campos que recolhem esta informação são [peso] (kg) e [duração da gravidez] (semanas).
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+Leitura operacionalizada a partir dos indicadores com mês de referência igual ou superior a janeiro 2022.
+A. É possível registar peso à nascença no processo da criança. Esta funcionalidade está acessível na ""Avaliação Inicial"" >> ""Saúde infantil"" >> ""Desenvolvimento Infantil"" >> ""Período Neonatal"" >> ""Peso ao nascer(gramas)""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+- Numerador (variável ""peso à nascença""): Utilizados para o indicador dados registados até à ""data de referência do indicador"".
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): Medida na data de referência do indicador.
+- Denominador (variável ""gravidez de termo""): Utilizados para o indicador dados desta variável registados no máximo até ""120 dias após o nascimento"", ou até à ""data de referência do indicador"" (a menor de ambas as datas).
+- Denominador (variável ""consulta da mãe""): 270 dias que antecedem a data de nascimento da criança.
+- Denominador (variável ""inscrição ativa""): Verificado no mês em que a criança completa 2 meses.
+- Denominador (variável ""residência""): Verificado no mês em que a criança completa 2 meses."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Reprodutiva
+Intervalo Aceitável,"Ano de 2022: [0; 3]
+Ano de 2023: [0; 3]
+Ano de 2024: [0; 3]"
+Intervalo Esperado,"Ano de 2022: [0; 5]
+Ano de 2023: [0; 5]
+Ano de 2024: [0; 10]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

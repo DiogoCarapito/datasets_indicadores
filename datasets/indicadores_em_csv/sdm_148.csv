@@ -1,0 +1,60 @@
+titulo,texto
+ID,148
+Código,6.01.17
+Código SIARS,6.1M d3
+Nome abreviado,Percent. crianças com PNV atualizado - 14A (S)
+Designação,Percentagem de crianças com PNV atualizado aos 14 anos (registo simplificado)
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 14 anos.
+Descrição do Indicador,"Indicador que exprime a proporção de jovens com PNV totalmente cumprido na data do 14º aniversário, entre os que completam 14 anos.
+Numerador: Contagem de jovens com PNV totalmente cumprido na data do 14º aniversário, registo simplificado.
+Denominador: Contagem de crianças que completam 14 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm o PNV totalmente cumprido às zero horas do dia em que completam 14 anos, registo simplificado (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 14 anos de idade durante o ano civil em curso;
+B. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise;
+C. Ativos para vacinação no SINUS (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Registo simplificado. Em alternativa, aceitam-se como tendo o PNV cumprido das crianças que têm registos da última dose de cada vacina, mesmo que não existam registos das primeiras, desde que a data de administração seja anterior ao dia em que completam 14 anos.
+- Pelo menos 1 inoculação de BCG ou uma prova tuberculínica no intervalo [0; 14[anos. Esta regra deixa de ser aplicável para indicadores com data de referência igual ou superior a maio de 2015 (por rotura de stock nacional da BCG a partir desse mês).
+- Pelo menos um registo da 3ª dose (ou superior) de [vacina contra a poliomielite] no intervalo [0; 14[anos (ver vacinas equivalentes com código
+[POLIOMIELITE]
+);
+- Pelo menos 1 inoculação de [vacina contra a difteria e tétano] no intervalo [10; 14[anos;
+- Pelo menos um registo da 2ª dose (ou superior) de [vacina contra a difteria, tétano e tosse convulsa] no intervalo [0; 10[anos (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+);
+- Pelo menos um registo da 3ª dose (ou superior) de [vacina contra hepatite B] no intervalo [0; 14[anos (ver vacinas equivalentes com código
+[HEPATITE_B]
+);
+- Pelo menos um registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola] no intervalo [0; 4[anos (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+);
+- Pelo menos 1 inoculação de [vacina contra doença por Meningococcus serogrupo C] no intervalo [0; 14[anos (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+);
+- Pelo menos um registo de 2ª dose (ou superior) de [vacina contra infeção pelo HPV] no intervalo [9; 14[anos (ver vacinas equivalentes com código
+[HPV]
+);
+B. Imunizado. as vacinas relativamente às quais é colocado o atributo de ""imunizado"" são classificadas como cumpridas.
+C. Quando um utente tem critérios para ser considerado [inativo para vacinação], tal pode ser assinalado no SINUS VACINAS, fazendo com que deixe de ser contabilizado no denominador deste indicador.
+D. Indicador descontinuado a partir de dezembro de 2014. Regras de cálculo podem não estar adaptadas a alterações ao PNV aprovadas pela DGS a partir de 1-1-2015."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacinas do PNV""): Coincidente com os 14 primeiros anos de vida de cada jovem incluído no denominador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [14, 15[ anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

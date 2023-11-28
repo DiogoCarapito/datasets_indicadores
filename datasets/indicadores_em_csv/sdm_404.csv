@@ -1,0 +1,62 @@
+titulo,texto
+ID,404
+Código,2.19.01
+Código SIARS,2018.404.01
+Nome abreviado,Incidência anual de pessoas em abstin. tabág. 12M
+Designação,"Incidência anual de pessoas que completaram 12 meses em abstinência tabágica, tendo por base a população inscrita com 15 ou mais anos"
+Objetivo,Monitorizar a eficácia e a efetividade das intervenções dos profissionais de saúde para a promoção da abstinência tabágica.
+Descrição do Indicador,"Indicador que exprime a proporção de utentes ex-fumadores que completaram 12 meses em abstinência tabágica, entre os utentes com inscrição ativa com 15 ou mais anos.
+Numerador: Contagem de utentes ex-fumadores que completaram 12 meses em abstinência tabágica, entre os utentes com inscrição ativa com 15 ou mais anos.
+Denominador: Contagem de utentes com inscrição ativa e 15 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D ou E ou F) e G e H e I e J e K (L ou M)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de tabagismo (rubrica da ICPC-2 P17) esteve com o estado de ""ativo"" na lista de problemas, pelo menos um dia nos meses compreendidos N-23 e N-12 (considerando N o mês de referência do indicador). MM_B é o mês máximo em que se verifica a existência do P17 entre N-23 e N-12, para cada utente.
+C. O último ""dia D"" foi agendado no período compreendido pelos meses N-23 e N-12 (considerando N o mês de referência do indicador). MM_C é o mês máximo em que se verifica a existência de um ""dia D"" entre N-23 e N-12, para cada utente.
+D. Existe pelo menos um registo de que ""O utente atualmente fuma"" no período compreendido pelos meses N-23 e N-12 (considerando N o mês de referência do indicador). MM_D é o mês máximo em que se verifica a existência de ""O utente atualmente fuma"" entre N-23 e N-12, para cada utente.
+E. Existe pelo menos um registo de ""mais de 0 cigarros por dia"" no período compreendido pelos meses N-23 e N-12 (considerando N o mês de referência do indicador). MM_E é o mês máximo em que se verifica a existência de ""mais de 0 cigarros por dia"" entre N-23 e N-12, para cada utente.
+F. Existe pelo menos um registo de ""data de recaída"" em que a referida data (e não a data do seu registo) fica compreendida no período compreendido pelos meses N-23 e N-12 (considerando N o mês de referência do indicador). MM_F é o mês máximo em que se verifica a existência de ""data de recaída"" entre N-23 e N-12, para cada utente. MM_FUMA_UT é o mês máximo entre MM_B, MM_C, MM_D, MM_E e MM_F.
+G. Não existe diagnóstico de tabagismo (rubrica da ICPC-2 P17) com o estado de ""ativo"" na lista de problemas, nos 12 meses que sucedem MM_FUMA_UT.
+H. Não existem registos de ""dia D"" nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+I. Não existem registos de que ""O utente atualmente fuma"" nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+J. Não existem registos de mais do que zero cigarros por dia nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+K. Não existem registos de ""data de recaída"" nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+L. Existe pelo menos um registo de que ""O utente atualmente não fuma"" nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+M. Existe pelo menos um registo ""zero cigarros por dia"" nos 12 meses que sucedem MM_FUMA_UT, utente a utente.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Com [
+inscrição ativa
+] em qualquer unidade de saúde no mês N-12 (considerando N o mês de referência do indicador).
+C. Ter idade igual ou superior a 15 anos (ver alínea A de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A idade deve ser medida em relação à data de referência do indicador.
+B. O indicador assegura que só coloca no numerador utentes em que existem 2 evidências muito claras:
+1. O utente era fumador no ano anterior;
+2. O utente nos últimos 12 meses não fumou.
+C. Trata-se por isso um indicador de ""ganhos em saúde"", pois evidência, para cada unidade de observação (ficheiro de utentes de um médico, ficheiro de utentes de um enfermeiro, unidade funcional, ACES, ARS ou ""nacional"") quantos novos utentes deixaram de fumar no ano anterior e se mantiveram em abstinência tabágica até à data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""P17 na lista de problemas""): Duração de 24 meses, terminando na data de referência do indicador;
+- Numerador (variável ""Fuma atualmente?""): Duração de 24 meses, terminando na data de referência do indicador;
+- Numerador (variável ""Nº de cigarros/dia""): Duração de 24 meses, terminando na data de referência do indicador;
+- Numerador (variável ""Dia D""): Duração de 24 meses, terminando na data de referência do indicador;
+- Numerador (variável ""Data de última recaída""): Duração de 24 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador e também analisada entre os meses N-23 e N-12;
+- Denominador (variável ""idade""): Medida na data de referência do indicador."
+Fórmula,AA / BB x 10.000
+Unidade de medida,por 10.000
+Output,Incidência de pessoas em abstinência tabágica (por 10.000 inscritos)
+Estado do indicador,Com dados desde Janeiro de 2018
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [60; 10000]
+Ano de 2023: [60; 10000]
+Ano de 2024: [60; 10000]"
+Intervalo Esperado,"Ano de 2022: [20; 10000]
+Ano de 2023: [20; 10000]
+Ano de 2024: [20; 10000]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

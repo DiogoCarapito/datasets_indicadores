@@ -1,0 +1,72 @@
+titulo,texto
+ID,300
+Código,7.07.08
+Código SIARS,2013.300.01
+Nome abreviado,"Nº médio prescr. consulta fisiatria, p/ utiliz."
+Designação,"Nº médio de prescrições de consulta de fisiatria, por utente utilizador"
+Objetivo,"Monitorizar programa de prescrição de MCDT. Parâmetro ""prescrição de fisiatria"""
+Descrição do Indicador,"Indicador que exprime o nº médio de prescrições de consulta de fisiatria, por utente utilizador.
+Numerador: Contagem de prescrições para fisiatria.
+Denominador: Contagem de utentes utilizadores."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de prescrições para fisiatria, em que a expressão [A e B e (C ou D ou E)] é verdadeira:
+A. Prescritos durante o período em análise, a utentes incluídos no denominador;
+B. O item prescrito pertence à área de convenção G ""fisiatria"" e corresponde a uma consulta de fisiatria (ver alínea C de OBSERVAÇÕES GERAIS);
+C. Se a unidade de observação é uma USF ou uma UCSP: prescritos por qualquer médico ou interno numa requisição com código de um dos locais pertencentes a essa UF;
+D. Se a unidade de observação é um médico: prescritos por qualquer médico ou interno aos utentes inscritos no médico em análise, numa requisição com código de um dos locais pertencentes a essa UF;
+E. Se a unidade de observação é um ACES: prescritos por qualquer médico ou interno numa requisição com código identificador de qualquer local de inscrição de utentes pertencentes ao ACES;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [(A ou B ou C) e (D ou E ou F)] é verdadeira:
+A. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, durante pelo menos um dia do período em análise.
+B. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico, à data de referência do indicador, ou ter pertencido ao médico em análise durante o período em análise e ter falecido ou sido transferido para outra unidade de saúde posteriormente.
+C. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.
+D. Se a unidade de observação é uma USF ou uma UCSP: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde). Ver alínea C de OBSERVAÇÕES GERAIS.
+E. Se a unidade de observação é um médico: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde a que pertence o médico na data de referência do indicador). Ver alínea C de OBSERVAÇÕES GERAIS.
+F. Se a unidade de observação é um ACES: ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise, realizada por qualquer médico ou interno do ACES, incluindo também as realizadas em [consultas de reforço] e as realizadas em [serviço de apoio permanente] (ou outros equivalentes). Ver alínea C de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. A data que importa para verificar se a prescrição de fisiatria está ou não dentro do período em análise e assim decidir incluir ou não a respetiva despesa no somatório do numerador do indicador é a [data de prescrição].
+B. Caso um utente receba mais do que uma credencial para fisiatria ao longo do período em análise, são todas contabilizads no numerdor.
+C. São contabilizados no numerador os seguintes códigos da tabela de MCDT convencionados:
+- G002.7 - Primeira Consulta em Medicina Física e de Reabilitação;
+- G003.5 - Consulta Subsequente em Medicina Física e de Reabilitação;
+- 004.3 - Consulta de Avaliação Final em Medicina Física e de Reabilitação.
+D. São contabilizados no numerador todas as prescrições, quer sejam realizados quer não;
+E. Os utentes contabilizados no denominador são aqueles que possuem pelo menos uma [Consulta médica presencial] ou pelo menos uma [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C007
+| Consulta médica não presencial - MedicineOne
+-
+C008
+| Consulta médica presencial - MedicineOne
+F. É natural que o denominador deste indicador dê resultados ligeiramente superiores aos do numerador do indicador 2013.002.01 (Taxa de utilização global de consultas médicas), porque o primeiro mede utilizadores entre inscritos durante pelo menos um dia do período em análise e o último utilizadores entre inscritos na data de referência."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,Média
+Output,Com dados desde Agosto de 2015
+Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
+Intervalo Aceitável,"Ano de 2022: [0; 0.1]
+Ano de 2023: [0; 0.1]
+Ano de 2024: [0; 0.1]"
+Intervalo Esperado,"Ano de 2022: [0; 0.16]
+Ano de 2023: [0; 0.16]
+Ano de 2024: [0; 0.2]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

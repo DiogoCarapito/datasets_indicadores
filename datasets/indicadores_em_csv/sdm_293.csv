@@ -1,0 +1,40 @@
+titulo,texto
+ID,293
+Código,2.18.01
+Código SIARS,2013.293.01
+Nome abreviado,Tempo médio de permanência em ECCI
+Designação,Tempo médio de permanência em ECCI
+Objetivo,Monitorizar a duração da permanência na ECCI.
+Descrição do Indicador,"Exprime o tempo médio de permanência na ECCI, em dias.
+Numerador: Somatório do número de dias de internamento dos utentes integrados na ECCI.
+Denominador: Número de utentes integrados na ECCI, com alta durante o período em análise."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório de dias de integração na ECCI nos utentes contabilizados no denominador (ver alínea C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alíneas A e C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+B. Os resultados deste indicador devem ser analisados em conjunto com outros, designadamente com a ""taxa de ocupação"" e interpretados em função do tipo de problemas de saúde dos doentes internados.
+C. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de alta] da ECCI prévia à constituição da UCC, não influenciam o denominador deste indicador. Da mesma forma, os dias de integração ocorridos na ECCI, prévios à constituição da UCC, não influenciam o numerador deste indicador.
+D. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 36 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,DIA / UTE
+Output,Média de dias
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [30; 120]
+Ano de 2023: [30; 120]
+Ano de 2024: [30; 120]"
+Intervalo Esperado,"Ano de 2022: [15; 150]
+Ano de 2023: [15; 150]
+Ano de 2024: [15; 150]"
+Tipo de Indicador,Estrutura
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

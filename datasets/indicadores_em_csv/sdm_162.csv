@@ -1,0 +1,34 @@
+titulo,texto
+ID,162
+Código,2.06.02
+Código SIARS,8.10
+Nome abreviado,Percent. hipertensos com compromisso vigilância
+Designação,"Percentagem de utentes com hipertensão arterial, com compromisso de vigilância"
+Objetivo,"Monitorizar o programa de hipertensão. Parâmetro ""utentes com hipertensão arterial vigiados na unidade de saúde"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com compromisso de vigilância face ao número de utentes com hipertensão arterial identificados.
+Numerador: Contagem de utentes inscritos com utentes com hipertensão arterial assinalados como vigiados no programa de HTA.
+Denominador: Contagem de utentes inscritos com utentes com hipertensão arterial ."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, o utente encontra-se associado ao programa de vigilância de hipertensão.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de vigilância no programa de diabetes""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

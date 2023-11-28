@@ -1,0 +1,67 @@
+titulo,texto
+ID,275
+Código,6.47.01
+Código SIARS,2013.275.01
+Nome abreviado,Proporção novos DM2 em terap. c/ metform. monot.
+Designação,Proporção de utentes com novo diagnóstico diabetes tipo 2 que iniciam terapêutica com metformina em monoterapia
+Objetivo,"Monitorizar a efetividade da terapêutica farmacológica da Diabetes Mellitus tipo 2. Parâmetro ""terapêutica com metformina""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com novo diagnóstico de diabetes tipo 2 que iniciam terapêutica farmacológica com metformina em monoterapia.
+Numerador: Contagem de utentes inscritos com novo diagnóstico de diabetes tipo 2 que iniciam terapêutica farmacológica com metformina em monoterapia.
+Denominador: Contagem de utentes inscritos com novo diagnóstico de diabetes tipo 2 e a quem foi iniciada terapêutica farmacológica."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. A primeira prescrição farmacológica relacionável com diabetes tipo 2 (com insulina ou com antidiabéticos não insulínicos), realizada ao utente, é com metformina em monoterapia (ver alíneas A, B, C e G de OBSERVAÇÕES GERAIS).
+C. Durante os 30 dias que sucedem a primeira prescrição relacionável com diabetes tipo 2 identificada na alínea B do NUMERADOR (metformina em monoterapia), não foi prescrita qualquer outra substância ativa relacionável com diabetes tipo 2 (ver alíneas A, B e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2022.
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontra-se na lista de problemas, com o estado de ""ativo"" e a respetiva [data de início] pertence ao período em análise (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+C. A primeira prescrição farmacológica insulina ou com antidiabéticos não insulínicos, realizada ao utente, foi efetuada durante os 12 meses anteriores. Ver alíneas A, B e G de OBSERVAÇÕES GERAIS.
+D. O último registo de Hemoglobina A1c (com data anterior à da primeira prescrição farmacológica insulina ou com antidiabéticos não insulínicos, referida na alínea C do DENOMINADOR) é inferior ou igual a 10.0%. Ver alíneas I, J e K de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2021.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontra-se na lista de problemas, com o estado de ""ativo"" e a respetiva [data de início] pertence ao período em análise (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+C. A primeira prescrição farmacológica insulina ou com antidiabéticos não insulínicos, realizada ao utente, foi efetuada durante os 12 meses anteriores. Ver alíneas A, B e G de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Consideram-se pertencentes ao grupo dos [antidiabéticos não insulínicos], os medicamentos pertencentes à classe 8.4.2 da classificação CFT.
+B. Consideram-se pertencentes ao grupo das [insulinas], as prescrições pertencentes ao grupo 8.4.1.1 (Insulina de ação curta), ao grupo 8.4.1.2 (Insulina de ação intermédia) ou ao grupo 8.4.1.3 (Insulina de ação prolongada) da classificação farmacoterapêutica de medicamentos (CFT).
+C. São consideradas prescrições de ""metformina em monoterapia"" as pertencentes à classe A10BA02 (METFORMINA) da classificação Terapêutica Anatómica e Química (ATC):
+D. Contabilizam-se apenas os utentes com diagnóstico de diabetes tipo 2 com início (campo ""data de início"" do problema) no período em análise. Isto pressupõe que os médicos quando procedem ao registo de um novo problema de saúde alterem a data que é colocada por defeito pelo sistema de registo clínico nesse campo (habitualmente a data atual) para a data aproximada em que o problema foi diagnosticado ao doente. Não o fazendo, tal ocasiona uma sobre-valorização do denominador deste indicador.
+E. No denominador (e consequentemente no numerador), apenas se incluem utentes com novo diagnóstico de diabetes tipo 2 a quem tenha sido iniciada terapêutica farmacológica. Não se incluem utentes a quem nunca tenha sido prescrito nem antidiabéticos não insulínicos nem insulina (doentes apenas com controlo alimentar e exercício-físico).
+F. Apenas se incluem no denominador utentes com data de início do diagnóstico de diabetes pertencente ao período em análise. Pretende-se com isto evitar que doentes com diagnósticos mais antigos e recentemente inscritos na unidade de saúde (com prescrição de longa data não registada no sistema de informação) sejam mal interpretados pelo sistema como ""primeiras prescrições"". Consequentemente, esta opção deixará de fora do denominador (falsos negativos do denominador) utentes com diabetes tipo 2 de longa data que iniciaram pela primeira vez terapêutica farmacológica para a diabetes tipo 2 durante o período em análise.
+G. Os medicamentos pertencentes à classes CFT e ATC acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+H. Incluem-se no denominador utentes com ""primeira prescrição farmacológica com insulina ou com antidiabéticos não insulínicos"", independentemente de a mesma ter ou não sido iniciada por um dos médicos na unidade funcional de inscrição do utente. Ou seja, incluem-se no denominador utentes em que o ""novo diagnóstico de diabetes"" ou a ""primeira prescrição farmacológica"" tenha, por exemplo, ocorrido num SAP ou serviço afim. Assim, unidades funcionais que ofereçam maior acessibilidade aos utentes em situações como aquelas que conduzem a um diagnóstico de diabetes (utente que pretende mostrar análises pedidas por outrém evidenciando diabetes ou utente com sintomas típicos de diabetes) têm maior probabilidade de, seguindo as normas de orientação clínica da DGS, ter melhores resultados neste indicador.
+I. Nos termos da Norma DGS nº 052/2011 (atualização em 27/04/2015): ""Na pessoa com DM2 que se apresenta com hiperglicemia marcadamente sintomática e/ou com glicemias elevadas (300-350 mg/dL) ou HbA1c elevada (>10%) deve iniciar-se terapêutica com insulina podendo, depois da melhoria do seu estado metabólico, reduzir a insulina parcial ou totalmente e iniciar antidiabéticos orais."". Nestes termos, excluem-se do denominador deste indicador os utentes com indicação para início de terapêutica com insulina, ou seja, que tenham uma HgbA1c superior a 10.0%.
+J. Os resultados de HgbA1c referidos na alínea D do DENOMINADOR são os que estejam registados nos 12 meses anteriores à data da primeira prescrição farmacológica de antidiabéticos identificada no doente em análise, sendo incluídos no denominador os utentes que não tenham qualquer resultado deste exame nesses 12 meses.
+K. São analisados resultados de HgbA1c registados em associação a qualquer unidade funcional do ACES de inscrição do utente."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes tipo 2 pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""metformina em monoterapia""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de diabetes tipo 2""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""primeira prescrição farmacológica com insulina ou com antidiabéticos não insulínicos""): Duração de 120 meses (10 anos), terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Intervalo Esperado,"Ano de 2022: [55; 100]
+Ano de 2023: [55; 100]
+Ano de 2024: [50; 100]"
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

@@ -1,0 +1,39 @@
+titulo,texto
+ID,161
+Código,5.28.02
+Código SIARS,8.1
+Nome abreviado,"Percent. cons. méd. presenciais, com ICPC-2"
+Designação,Percentagem consultas médicas presenciais com codificação ICPC2
+Objetivo,"Monitorizar a qualidade dos registos clínicos. Parâmetro ""Codificação do A do SOAP pela ICPC-2"""
+Descrição do Indicador,"Indicador que exprime a proporção de consultas médicas presenciais que possuem pelo menos uma codificação ICPC-2 no A do SOAP.
+Numerador: Contagem de consultas médicas presenciais com codificação do A do SOAP.
+Denominador: Contagem de consultas médicas presenciais."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O A do SOAP possui pelo menos 1 codificação pela ICPC-2.
+DENOMINADOR (BB):
+Contagem de contactos em que a expressão [(A ou B) e C] é verdadeira:
+A. Compatível com o código
+C002
+[Consulta médica presencial - SClínico].
+B. Compatível com o código
+C008
+[Consulta médica presencial - MedicineOne].
+C. Realizado a utente com [
+inscrição ativa
+] durante pelo menos um dia do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

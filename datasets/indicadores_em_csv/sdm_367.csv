@@ -1,0 +1,62 @@
+titulo,texto
+ID,367
+Código,6.53.02
+Código SIARS,2017.367.01
+Nome abreviado,Proporção utentes c/ ganhos controlo dor - palia.
+Designação,Proporção de utentes acompanhados em acções paliativas com ganhos expressos no controlo da intensidade da dor
+Objetivo,Avaliar os ganhos expressos no controlo da intensidade da dor nos utentes acompanhados em acções paliativas na UCC.
+Descrição do Indicador,"Exprime a proporção de utentes com diagnóstico de enfermagem relacionados com o foco ""dor"" com modificação positiva do mesmo.
+Numerador: Contagem de utentes com pelo menos uma consulta de enfermagem no âmbito de acções paliativas na UCC, com diagnóstico de enfermagem relacionado com o foco ""dor"" com modificação positiva do mesmo.
+Denominador: Contagem de utentes com pelo menos uma consulta de enfermagem no âmbito de acções paliativas na UCC, com pelo menos um diagnóstico de enfermagem relacionados com o foco ""dor""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes, em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições definidas no denominador.
+B. Com pelo menos 2 diagnósticos de enfermagem relacionados com o foco ""dor"" documentados durante os 12 meses que antecedem a data de referência do indicador.
+C. O último diagnóstico de enfermagem relacionado com o foco ""dor"" documentado, tem um nível inferior ao valor máximo documentado para esse doente durante os 12 meses que antecedem a data de referência do indicador (ver alínea B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (durante pelo menos um dia do período em análise).
+B. Com pelo menos uma consulta de enfermagem na UCC nos últimos 12 meses com associação ao programa ""P.N. Cuidados Paliativos"" e com pelo menos um diagnóstico de enfermagem relacionado com o foco ""dor"" (ver alíneas A e B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As consultas contabilizadas no numerador são do tipo [Consulta presencial] de um dos tipos seguintes:
+-
+C005
+| Consulta de enfermagem com a presença do utente (direta) - SClínico.
+B. As escalas de dor contemplam a documentação de vários grupos de status diagnósticos. Os grupos de status diagnósticos elegíveis para o numerador são:
+1. Sem dor ou dor ausente;
+2. Dor presente em grau reduzido;
+3. Dor presente em grau moderado;
+4. Dor presente em grau elevado;
+5. Dor presente em grau muito elevado.
+Os grupos de status diagnósticos elegíveis para o denominador são:
+2. Dor presente em grau reduzido;
+3. Dor presente em grau moderado;
+4. Dor presente em grau elevado;
+5. Dor presente em grau muito elevado.
+C. A monitorização dos resultados é efetuada no utente num determinado período temporal, independentemente no número de consultas na UCC ou do número de episódios de integração/internamento nas ECCI. Esta observação continuada sobre o utente durante um determinado período de tempo apenas tem em conta o resultado da primeira e última avaliação do problema no utente.
+D. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+E. As acções paliativas estão consignadas na carteira de serviços das UCC (Despacho nº 10143/2009). Esta abordagem paliativa poderá ter como clientes, aqueles que estão integrados em ECCI, como outros que façam parte de projetos de intervenção domiciliária com indivíduos dependentes e famílias/cuidadores, como sejam, cuidados de natureza preventiva, curativa, reabilitadora e acções paliativas."
+Observações Sobre Software,"SClínico:
+A. O [SClínico perfil enfermagem], encontra-se parametrizado com os seguintes status: Sem dor (8003349); Dor presente em grau reduzido (8003345); Dor presente em grau moderado (8003346); Dor presente em grau elevado (8003347); Dor presente em grau muito elevado (8003348).
+Os gestores locais da parametrização devem garantir que esta parametrização está disponível e não sofre alterações.
+OUTROS SOFTWARES CLÍNICOS:
+Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Outubro de 2017
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Abordagem Paliativa
+Intervalo Aceitável,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [50; 100]
+Ano de 2023: [50; 100]
+Ano de 2024: [60; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Cuidados Paliativos
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

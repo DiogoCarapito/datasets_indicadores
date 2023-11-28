@@ -1,0 +1,1298 @@
+titulo,texto
+ID,330
+Código,3.24.01
+Código SIARS,2017.330.01
+Nome abreviado,Índice de utilização anual de consultas médicas
+Designação,Índice de utilização dimensionado à estimativa de necessidade anual de consultas médicas
+Objetivo,"Monitorizar a frequência com que as consultas médicas previsivelmente necessárias por critérios socio-demográficos e de morbilidade, são efetivamente realizadas."
+Descrição do Indicador,"Índice calibrado para resultar numa escala de valores entre um mínimo de ""0"" e um valor máximo de ""aproximadamente 1"". Desenhado para medir a frequência com que as consultas médicas previsivelmente necessárias por critérios socio-demográficos e de morbilidade, são efetivamente realizadas.
+Numerador: Número ponderado de consultas médicas realizadas no período em análise aos utentes incluídos no denominador, contabilizando-se, utente a utente, no máximo o número inteiro igual ou superior ao valor apurado no denominador.
+Denominador: Número estimado de consultas médicas necessárias por ano, por critérios sociodemográficos e de morbilidade.
+Os resultados deste indicador aproximam-se de ""1"" quando a unidade funcional realiza em média, por utente, tantas ou mais consultas do que as consideradas necessárias por critérios sociodemográficos e de morbilidade.
+Os resultados tendem a afastar-se de ""1"" (em sentido decrescente) quando a unidade funcional faz, em média, menos consultas do que as estimadas como ""necessárias"" pelos critérios já enunciados."
+Regras de cálculo,"1. REGRAS PARA ESTIMAR A NECESSIDADE DE CONSULTAS MÉDICAS POR CRITÉRIOS SÓCIO-DEMOGRÁFICOS - IDADE
+Regra
+Critérios de Inclusão na Regra
+Ponderador
+Observações ou Exemplos
+Validade
+A
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [1; 330[.
+Nota: O intervalo [1; 330[ dias corresponde, aproximadamente, a ter entre
+0 e 11 
+ meses
+."
+Fórmula,"6 x (d2 - d1 + 1) / 329
+Em que:
+d2
+É o valor mínimo, entre os 3 seguintes:
+1. Idade da criança, medida em [dias de vida], na data de referência do indicador.
+2. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que deixou de ter inscrição ativa na unidade funcional.
+3. 329
+d1
+É o valor máximo, entre os 2 seguintes:
+1. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que passou a estar inscrita na unidade funcional.
+2. 1
+A DGS, no programa de saúde infantil e juvenil vigente, recomenda 6 consultas de 
+ vigilância no referido período etário:
+- 1ª consulta
+- Consulta do 1º mês
+- Consulta do 2º mês
+- Consulta do 4º mês
+- Consulta do 6º mês
+- Consulta do 9º mês
+Exemplo
+Uma criança que se tenha inscrito ao 115º dia de vida (um pouco antes de fazer 4 meses) e que à data de referência do indicador esteja inscrita e tenha 278 dias de vida (um pouco mais do que 9 meses) irá ponderar 6 x (278 - 115 + 1) / 329 = 3.
+Inicio: 01-01-2016;
+Fim: --
+B
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [330; 
+ 570[.
+Nota: O intervalo [330; 570[ dias corresponde, aproximadamente, a ter entre
+11 e 
+ 19 meses
+.
+Fórmula
+4.7 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 3 valores seguintes:
+1. Idade da criança, medida em [dias de vida], na data de referência do indicador.
+2. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que deixou de ter inscrição ativa na unidade funcional.
+3. 569
+d1
+É o valor máximo, entre os 2 valores seguintes:
+1. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que passou a estar inscrita na unidade funcional.
+2. Idade da criança, medida em [dias de vida], no 1º dia do período em análise 
+ do indicador.
+À data de referência do indicador, as crianças abrangidas pela regra têm entre 
+ 11 e 19 meses. Dependendo da idade concreta da criança à data de referência do 
+ indicador, a DGS, no programa de saúde infantil e juvenil vigente, recomenda nos 
+ 12 meses anteriores entre um mínimo de 4 consultas e um máximo de 7 consultas. 
+ Assim optou-se por, neste grupo etário, utilizar como ponderador o valor de 4.7, 
+ correspondente à média do [nº de consultas recomendadas] nos 12 meses anteriores 
+ às idades de 12 meses, 13 meses, 14 meses, 15 meses, q6 meses, a7 meses, 19 
+ meses e 19 meses.
+Exemplo
+Uma criança 
+ inscrita logo após o nascimento, e que à data de referência do indicador esteja inscrita e tenha 
+ 490 dias de vida (um pouco mais do que 16 meses) irá ponderar 4.7 x (490 - 126 + 1) / 365 = 
+ 4,7. Efetivamente esta criança no 1º dia do período em análise já tem um pouco 
+ mais de 4 meses pelo que a DGS preconiza para essa criança e para os 12 meses 
+ que constituem o período em análise, as 4 consultas seguintes:
+- Consulta do 6º mês
+- Consulta do 9º mês
+- Consulta do 12º mês
+- Consulta do 15º mês
+Inicio: 01-01-2016;
+Fim: --
+C
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [570; 
+ 2007[.
+Nota: O intervalo [570; 2007[ dias corresponde, aproximadamente, a ter entre
+19 meses e 5.5 anos
+.
+Fórmula
+1 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 3 seguintes:
+1. Idade da criança, medida em [dias de vida], na data de referência do indicador.
+2. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que deixou de ter inscrição ativa na unidade funcional.
+3. 2006
+d1
+É o valor máximo, entre os 2 seguintes:
+1. Idade da criança, medida em [dias de vida], ao 15º dia do mês em que passou a estar inscrita na unidade funcional.
+2. Idade da criança, medida em [dias de vida], no 1º dia do período em análise 
+ do indicador.
+À data de referência do indicador, as crianças abrangidas pela regra têm entre 
+ 19 meses e 5.5 anos.
+Durante esse período de tempo, a DGS, no programa de saúde infantil e juvenil vigente, recomenda 
+ 1 consulta por ano, nas idades chave seguintes:
+- 2 anos;
+- 3 anos;
+- 4 anos;
+- 5 anos.
+A fórmula de cálculo da ponderação do denominador garante que uma criança que 
+ esteja inscrita ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""1"" e que uma criança que por se inscrever durante o período em análise, 
+ ou por sair da unidade antes do fim do período, é ponderada entre ""0"" e ""1"" na 
+ direta proporção do número de dias em que tem a respetiva inscrição ativa.
+Inicio: 01-01-2016;
+Fim: --
+D
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [2007; 
+ 2737[.
+Nota: O intervalo [2007; 2737[ dias corresponde, aproximadamente, a ter entre
+5.5 
+ e 7.5 anos
+.
+Fórmula
+0.5 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+À data de referência do indicador, as crianças abrangidas pela regra têm entre 
+ 5.5 e 7.5 anos.
+Durante esse período de tempo, a DGS, no programa de saúde infantil e juvenil vigente, recomenda 
+ 1 consulta única consulta entre os 6 e os 7 anos, o que confere uma 
+ probabilidade de 50% de a consulta ser necessária e se realizar durante os 12 
+ meses do período em análise do indicador.
+A fórmula de cálculo da ponderação garante que uma criança que 
+ esteja inscrita ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.5"" e que uma criança que por se inscrever durante o período em análise, 
+ ou por sair da unidade antes do fim do período, é ponderada entre ""0"" e ""0.5"" na 
+ direta proporção do número de dias em que tem a respetiva inscrição ativa.
+Inicio: 01-01-2016;
+Fim: --
+E
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [2737; 
+ 3832[.
+Nota: O intervalo [2737; 3832[ dias corresponde, aproximadamente, a ter entre
+7.5 
+ e 10.5 anos
+.
+Fórmula
+0.67 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+À data de referência do indicador, as crianças abrangidas pela regra têm entre 
+ 7.5 e 10.5 anos.
+Durante esse período de tempo, a DGS, no programa de saúde infantil e juvenil vigente, recomenda 
+ 2 consultas diferentes nas idades chave dos ""8 anos"" e ""10 anos"" o que confere 
+ uma probabilidade de 66,7% de a consulta ser necessária e se realizar durante os 
+ 12 meses do período em análise do indicador.
+A fórmula de cálculo da ponderação garante que uma criança que 
+ esteja inscrita ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.67"" e que uma criança que por se inscrever durante o período em análise, 
+ ou por sair da unidade antes do fim do período, é ponderada entre ""0"" e ""0.67"" na 
+ direta proporção do número de dias em que tem a respetiva inscrição ativa.
+Inicio: 01-01-2016;
+Fim: --
+F
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, medida em dias, à data de referência do indicador, pertence ao intervalo [3832; 
+ 7345[.
+Nota: O intervalo [3832; 7345[ dias corresponde, aproximadamente, a ter entre
+10.5 
+ e 20 anos
+.
+Fórmula
+0.21 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+À data de referência do indicador, as crianças 
+ e adolescentes abrangidas pela regra têm entre 10.5 e 20 anos.
+Durante esse período de tempo, a DGS, no programa de saúde infantil e juvenil vigente, recomenda 
+ 2 consultas diferentes, uma entre os 12 e os 13 anos e outra entre os 15 e 18 
+ anos.
+A fórmula de cálculo da ponderação garante que uma criança ou adolescente que 
+ esteja inscrita ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.21"" e que um utente que por se inscrever durante o período em análise, 
+ ou por sair da unidade antes do fim do período, é ponderado entre ""0"" e ""0.21"" na 
+ direta proporção do número de dias em que tem a respetiva inscrição ativa.
+Inicio:01-01-2016;
+Fim: --
+G
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, pertence ao intervalo
+[20; 50[ anos
+.
+Fórmula
+0.2 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+O ponderador assume uma probabilidade de cada utente necessitar de pelo menos 
+ uma consulta médica de 5 em 5 anos, por critérios exclusivamente relacionados 
+ com a idade, isto é, 20% de probabilidade de necessitar de uma consulta ao longo 
+ dos 12 meses que constituem o período em análise do indicador.
+A fórmula de cálculo da ponderação garante que um utente que 
+ esteja inscrito ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.2"". Assegura também que um utente que inscreva durante o período em análise, 
+ ou que saia da unidade antes do fim do período, é ponderado entre ""0"" e ""0.2"" na 
+ direta proporção do número de dias em que a respetiva inscrição se encontrar ativa.
+Inicio:01-01-2016;
+Fim: --
+H
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, pertence ao intervalo
+[50; 65[ anos
+.
+Fórmula
+0.5 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+O ponderador assume uma probabilidade de cada utente necessitar de pelo menos 
+ uma consulta médica de 2 em 2 anos, por critérios exclusivamente relacionados 
+ com a idade, isto é, 50% de probabilidade de necessitar de uma consulta ao longo 
+ dos 12 meses que constituem o período em análise do indicador.
+A fórmula de cálculo da ponderação garante que um utente que 
+ esteja inscrito ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.5"". Assegura também que um utente que inscreva durante o período em análise, 
+ ou que saia da unidade antes do fim do período, é ponderado entre ""0"" e ""0.5"" na 
+ direta proporção do número de dias em que a respetiva inscrição se encontrar ativa.
+Inicio:01-01-2016;
+Fim: --
+I
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, pertence ao intervalo
+[65; 75[ anos
+.
+Fórmula
+0.67 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+O ponderador assume uma probabilidade de cada utente necessitar de pelo menos 
+ uma consulta médica de 1,5 em 1,5 anos, por critérios exclusivamente 
+ relacionados com a idade, isto é, 67% de probabilidade de necessitar de uma 
+ consulta ao longo dos 12 meses que constituem o período em análise do indicador.
+A fórmula de cálculo da ponderação garante que um utente que 
+ esteja inscrito ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.67"". Assegura também que um utente que inscreva durante o período em análise, 
+ ou que saia da unidade antes do fim do período, é ponderado entre ""0"" e ""0.67"" na 
+ direta proporção do número de dias em que a respetiva inscrição se encontrar ativa.
+Inicio:01-01-2016;
+Fim: --
+J
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. A idade do utente, pertence ao intervalo
+[75; +INF[ anos
+.
+Fórmula
+1 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+O ponderador assume uma probabilidade de cada utente necessitar de pelo menos 
+ uma consulta médica por ano, por critérios exclusivamente relacionados com a 
+ idade, isto é, 100% de probabilidade de necessitar de uma consulta ao longo dos 
+ 12 meses que constituem o período em análise do indicador.
+A fórmula de cálculo da ponderação garante que um utente que 
+ esteja inscrito ao longo dos 12 meses do período em análise do indicador, 
+ pondera ""0.67"". Assegura também que um utente que inscreva durante o período em análise, 
+ ou que saia da unidade antes do fim do período, é ponderado entre ""0"" e ""0.67"" na 
+ direta proporção do número de dias em que a respetiva inscrição se encontrar ativa.
+Inicio:01-01-2016;
+Fim: --
+2. REGRAS PARA ESTIMAR A NECESSIDADE DE CONSULTAS MÉDICAS POR 
+ CRITÉRIOS SÓCIO-DEMOGRÁFICOS - INSUFICIÊNCIA ECONÓMICA
+Regra
+Critérios de Inclusão na Regra
+Ponderador
+Observações ou Exemplos
+Validade
+K
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Ter o estado de ""
+insuficiência económica
+"" ativo na data de 
+ referência do indicador, registado no RNU.
+Fórmula
+1.255 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do estado de ""insuficiência económica"".
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.255 consultas por ano corresponde ao acréscimo médio de 
+ consultas médicas a utentes com ""insuficiência económica"" em 2016, quando comparados com 
+ utentes saudáveis, sem insuficiência económica, do mesmo grupo etário e no mesmo 
+ período de tempo (dados de Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente 
+ com ""insuficiência económica"" necessitar em média de 1.255 consultas médicas ao longo 
+ do ano, por critérios exclusivamente 
+ relacionados com esse estado.
+A fórmula de cálculo da ponderação garante que num utente em que 
+ o estado de ""insuficiência económica"" não existe desde o início do período em 
+ análise ou em que a inscrição na unidade funcional não durou a totalidade do 
+ período (por entrada tardia ou saída precoce) a necessidade de consultas é 
+ estimada na direta proporção do número de dias em que o utente e o estado de 
+ insuficiência económica são conhecidos e coincidentes com o referido ""período em 
+ análise"".
+Assim, por exemplo, um estado de ""insuficiência económica"" realizado a 1 de 
+ julho num indicador cuja data de referência é 31 de dezembro, pondera apenas 
+ metade do máximo, ou seja, 0.6275 consultas.
+Inicio: 01-01-2016;
+Fim: --
+3. REGRAS PARA ESTIMAR A NECESSIDADE DE CONSULTAS DECORRENTES DA 
+ EXISTÊNCIA DE PROBLEMAS DE SAÚDE CRÓNICOS OU OUTRAS CONDIÇÕES DEFINIDAS 
+ CLINICAMENTE
+Regra
+Critérios de Inclusão na Regra
+Ponderador
+Observações ou Exemplos
+Validade
+L
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Ter a condição de
+gravidez ou de 
+ puerpério
+ativa durante pelo menos um dia do período em análise.
+Nota: Ver alínea C, D e E das OBSERVAÇÕES GERAIS
+Fórmula
+5.13 x (d2 - d1 + 1) / 322
+Em que:
+d2
+É o valor mínimo, entre os 3 seguintes:
+1. 
+ Data de fim do puerpério (ver alínea C, D e E das OBSERVAÇÕES GERAIS).
+2. data de referência do indicador.
+3. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ Data a que corresponde o 1º dia da gravidez.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 5.13 consultas por ano corresponde ao acréscimo médio de 
+ consultas médicas a grávidas ou puérperas em 2016, quando comparadas com as 
+ mulheres saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente grávida ou puérpera necessitar 
+ em média de 
+ 5.13 consultas médicas ao longo da gravidez e puerpério (322 dias no máximo), por critérios exclusivamente 
+ relacionados com esses estados de saúde.
+A fórmula de cálculo da ponderação garante que uma utente em que 
+ a gravidez é registada por exemplo a 60 dias de terminar o período em análise 
+ pondera na 
+ direta proporção do número de dias em que a gravidez coincide com esse período 
+ (60 dias), ou seja 5.13 x 60 / 322 = 0.956, o que corresponde à necessidade 
+ estimada de um pouco menos que 1 consulta médica.
+Inicio: 01-01-2016;
+Fim: --
+M
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+hipertensão
+(rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+1.96 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de HTA na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.96 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com hipertensão arterial em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com HTA necessitar em média 
+ de 1.96 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de hipertensão não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de hipertensão realizado a 1 de julho num 
+ indicador cuja data de referência é 31 de dezembro, pondera apenas metade do 
+ máximo, ou seja, 0.98 consultas.
+Inicio: 01-01-2016;
+Fim: --
+N
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+diabetes
+(rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+2.71 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de diabetes na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 2.71 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com diabetes Mellitus em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com diabetes necessitar em média 
+ de 2.71 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de diabetes não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de diabetes Mellitus realizado a 1 de julho num 
+ indicador cuja data de referência é 31 de dezembro, pondera apenas metade do 
+ máximo, ou seja, 1,355 consultas.
+Inicio: 01-01-2016;
+Fim: --
+O
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+asma
+(rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+1.04 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de asma na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.04 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com asma em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com asma necessitar em média 
+ de 1.04 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de asma não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de asma 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.502 consultas.
+Inicio: 01-01-2016;
+Fim: --
+P
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+DPOC
+(rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+2.10 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de DPOC na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 2.10 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com DPOC em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ DPOC necessitar em média 
+ de 2.10 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de DPOC não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de 
+ DPOC 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 1.05 consultas.
+Inicio: 01-01-2016;
+Fim: --
+Q
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+depressão
+(rubrica da ICPC-2 P76) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+1.98 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de depressão na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.98 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com depressão em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ depressão necessitar em média 
+ de 1.98 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de depressão não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de 
+ depressão 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.99 consultas.
+Inicio: 01-01-2016;
+Fim: --
+R
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+ansiedade
+(rubrica da ICPC-2 P74) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+1.45 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de ansiedade na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.45 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com ansiedade em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ ansiedade necessitar em média 
+ de 1.45 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de ansiedade não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de 
+ ansiedade 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.725 consultas.
+Inicio: 01-01-2016;
+Fim: --
+S
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, existe pelo menos um diagnóstico de
+neoplasia 
+ maligna
+(rubricas da ICPC-2 consideradas na alínea G das OBSERVAÇÕES GERAIS) na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+1.63 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do primeiro diagnóstico de neoplasia maligna na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 1.63 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com neoplasia maligna em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com neoplasia maligna necessitar em média 
+ de 1.63 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de neoplasia maligna não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de neoplasia maligna 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.815 consultas.
+Inicio: 01-01-2016;
+Fim: --
+T
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+tabagismo
+(rubrica da ICPC-2 P17) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+0.42 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de tabagismo na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 0.42 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com tabagismo em 2016, quando comparados com 
+ utentes sem esse nem outros diagnósticos na lista de problemas, do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ tabagismo necessitar em média 
+ de 0.42 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de tabagismo não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a ""doença"" são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de 
+ tabagismo 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.21 consultas.
+Inicio: 01-01-2016;
+Fim: --
+U
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+abuso 
+ crónico do álcool
+(rubrica da ICPC-2 P15) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+0.81 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de abuso crónico do álcool na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 0.81 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com abuso crónico do álcool em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ abuso crónico do álcool necessitar em média 
+ de 0.81 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de abuso crónico do álcool não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de 
+ abuso crónico do álcool 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.405 consultas.
+Inicio: 01-01-2016;
+Fim: --
+V
+A condição [A e B] é verdadeira:
+A. Utente com inscrição ativa na unidade de saúde durante pelo menos 1 dia do período em análise.
+B. Na data de referência do indicador, o diagnóstico de
+infeção VIH/SIDA
+(rubrica da ICPC-2 B90) encontra-se na lista de problemas, com o estado 
+ de ""ativo"".
+Fórmula
+0.23 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de infeção VIH/SIDA na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+A ponderação de 
+ 0.23 consultas por ano, corresponde ao acréscimo médio de 
+ consultas médicas a utentes com infeção VIH/SIDA em 2016, quando comparados com 
+ utentes saudáveis do mesmo grupo etário e no mesmo período de tempo (dados de 
+ Portugal Continental, disponíveis na 
+ ACSS).
+O ponderador assume uma probabilidade de cada utente com 
+ infeção VIH/SIDA necessitar em média 
+ de 0.23 consultas médicas ao longo do ano, por critérios exclusivamente 
+ relacionados com esse estado de saúde.
+A fórmula de cálculo da ponderação garante que 
+ num utente em que 
+ o diagnóstico de infeção VIH/SIDA não existe desde o início do período em análise ou 
+ em que a inscrição na unidade funcional não durou a totalidade do período (por 
+ entrada tardia ou saída precoce) a necessidade de consultas é estimada na direta proporção do número de dias 
+ em que o doente e a doença são conhecidos e coincidentes com o referido ""período 
+ em análise"".
+Assim, por exemplo, um diagnóstico de infeção 
+ VIH/SIDA 
+ realizado a 1 de julho num indicador cuja data de referência é 31 de dezembro, 
+ pondera apenas metade do máximo, ou seja, 0.115 consultas.
+Inicio: 01-01-2016;
+Fim: --
+4. CRITÉRIOS DE INCLUSÃO E PONDERAÇÃO DE CONSULTAS MÉDICAS REALIZADAS
+Regra
+Critérios de Inclusão na Regra
+Ponderador
+Observações ou Exemplos
+Validade
+W
+São consideradas todas as consultas médicas em que a expressão [A e B e C e (D ou E ou F ou G)] seja 
+ verdadeira.
+A. Realizada na unidade funcional, isto é, com registo 
+ numa agenda de marcação com código de nível 1 de hierarquia de locais 
+ pertencente à unidade funcional no mês da realização da consulta.
+B. Realizada a utente com inscrição ativa na unidade de saúde na data em que a 
+ consulta é realizada.
+C. Realizada por médico ou interno da unidade funcional.
+D. Cumpra os critérios para ser considerada ""consulta não presencial""(ver alínea H de OBSERVAÇÕES GERAIS).
+E. Cumpra os critérios para ser considerada ""consulta presencial"" no consultório (ver alínea I de OBSERVAÇÕES GERAIS).
+F. Cumpra os critérios para ser considerada ""consulta presencial"" no domicílio (ver alínea I de OBSERVAÇÕES GERAIS).
+G. Cumpra os critérios para ser considerada ""consulta presencial"" de vigilância (ver alínea J de OBSERVAÇÕES GERAIS).
+Cada consulta médica presencial e de vigilância pondera 1.
+Cada consulta médica presencial no domicílio pondera 1.
+Cada consulta médica presencial não classificada como ""de 
+ vigilância"" nem como ""domicílio"", pondera 0.75.
+Cada consulta médica não presencial pondera 0.25.
+Um utente que tenha, ao longo do período em análise, 2 consultas de vigilância, 1 
+ domicílio, 3 consultas de doença aguda e 4 consultas não presenciais, tem um 
+ valor ponderado de consultas realizadas, calculado pela fórmula:
+2 + 1 + 3 x 0.75 + 4 x 0.25 = 6.25
+Inicio: 01-01-2016;
+Fim: --
+5. REGRAS DE CÁLCULO ADICIONAIS
+Para cada utente individualmente é necessário calcular sequencialmente:
+E0 - Estimativa de consultas por critérios de idade.
+Cada um dos utentes com inscrição ativa na unidade de saúde durante pelo menos 1 
+ dia do período em análise cumpre critérios de inclusão em uma e apenas uma das 
+ regras do primeiro quadro (REGRAS A, B, C, D, E, F, G, H, I e J).
+O resultado ponderado por essa regra corresponde à ""Estimativa de consultas por 
+ critérios de idade"" (E0).
+E1 - Estimativa de consultas mais elevada por critérios de insuficiência económica, problemas de saúde crónicos ou outras condições definidas clinicamente.
+Cada um dos utentes com inscrição ativa na unidade de saúde durante pelo menos 1 
+ dia do período em análise pode cumprir critérios de inclusão em zero, uma ou mais regras dos 
+ segundo e terceiros quadros (REGRAS K, L, M, N, O, P, Q, R, S , T, U e V).
+Caso o utente tenha critérios para inclusão pelo menos uma dessas regras, 
+ aquela que resultar num valor ponderado mais elevado corresponde a E1.
+Se o utente não tiver critérios de inclusão em nenhuma (por ser saudável e não 
+ ter insuficiência económica), E1 = 0.
+E2 - Segunda estimativa de consultas mais elevada por critérios de insuficiência económica, problemas de saúde crónicos ou outras condições definidas clinicamente.
+Cada um dos utentes com inscrição ativa na unidade de saúde durante pelo menos 1 
+ dia do período em análise pode cumprir critérios de inclusão em zero, uma ou mais regras dos 
+ segundo e terceiros quadros (REGRAS K, L, M, N, O, P, Q, R, S , T, U e V).
+Caso o utente tenha critérios para inclusão pelo menos duas dessas regras, aquela que 
+ resultar no segundo valor ponderado mais elevado corresponde a E2.
+Se o utente não tiver critérios de inclusão em nenhuma regra ou se tiver 
+ apenas em uma, E2 = 0.
+E3 - Terceira estimativa de consultas mais elevada por critérios de insuficiência económica, problemas de saúde crónicos ou outras condições definidas clinicamente.
+Cada um dos utentes com inscrição ativa na unidade de saúde durante pelo menos 1 
+ dia do período em análise pode cumprir critérios de inclusão em zero, uma ou mais regras dos 
+ segundo e terceiros quadros (REGRAS K, L, M, N, O, P, Q, R, S , T, U e V).
+Caso o utente tenha critérios para inclusão pelo menos três dessas regras, aquela que 
+ resultar no terceiro valor ponderado mais elevado corresponde a E3.
+Se o utente não tiver critérios de inclusão em nenhuma 
+ regra ou se tiver apenas em uma ou se tiver apenas em duas, E3 = 0.
+Etotal - Estimativa total anual de consultas médicas.
+Etotal = E0 + E1 + E2 / 2 + E3 / 3
+C0 - Ponderação de consultas.
+A cada utente são associadas as consultas que cumprirem os critérios da regra W 
+ e ponderadas também de acordo com a referida regra (C0).
+Cc - Ponderação corrigida de consultas.
+Para cada utente, ponderação das consultas é corrigida da seguinte forma:
+a) Se (C0 <= Etotal) então (Cc = C0);
+b) Se (Etotal < C0) e (C0 <= [arredondamento por excesso de Etotal]) então (Cc = 
+ C0);
+c) Se (C0 > [arredondamento por excesso de Etotal]) então (Cc = [arredondamento 
+ por excesso de Etotal]);
+6. RESULTADO FINAL DO INDICADOR (RR)
+RR = (Somatório (Cc)) / (Somatório (Etotal))"
+Observações Gerais,"A. Para efeitos da contagem 
+ da idade do utente, em dias, o dia de nascimento corresponde 
+ ao 1º (não existe dia ""0"").
+B. A data usada para medir a idade do utente e verificar se pertence ou não ao intervalo etário é a [data de referência do indicador]..
+C. A datação da gravidez faz-se por regra a partir da [data prevista de parto corrigida] registada no módulo ou programa de saúde materna. Caso a [data prevista de parto corrigida] não esteja registada, a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+D. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data início] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+E. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+F. A [data de fim do puerpério] corresponde a 42 dias após a [data de fim da 
+ gravidez]
+G. Um utente é classificado como tendo ""neoplasia maligna"" se tiver pelo menos uma das seguintes rubricas ICPC-2 na lista de problemas, com estado ""ativo"".
+A79 - NEOPLASIA MALIGNA NEE
+B72 - DOENÇA DE HODGKIN/LINFOMA
+B73 - LEUCEMIA
+B74 - NEOPLASIA MALIGNA DO SANGUE, OUTRA
+D74 - NEOPLASIA MALIGNA DO ESTÔMAGO
+D75 - NEOPLASIA MALIGNA DO CÓLON/RECTO
+D76 - NEOPLASIA MALIGNA DO PÂNCREAS
+D77 - NEOPLASIA MALIGNA DO APARELHO DIGESTIVO, OUTRA/NE
+F74 - NEOPLASIA DO OLHO/ANEXOS
+H75 - NEOPLASIA DO OUVIDO
+K72 - NEOPLASIA DO APARELHO CIRCULATÓRIO
+L71 - NEOPLASIA MALIGNA
+N74 - NEOPLASIA MALIGNA DO SISTEMA NEUROLÓGICO
+R84 - NEOPLASIA MALIGNA DO BRÔNQUIO/PULMÃO
+R85 - NEOPLASIA RESPIRATÓRIA MALIGNA, OUTRA
+S77 - NEOPLASIA MALIGNA DA PELE
+T71 - NEOPLASIA MALIGNA DA TIRÓIDE
+T73 - NEOPLASIA ENDÓCRINA, OUTRA/NE
+U75 - NEOPLASIA MALIGNA DO RIM
+U76 - NEOPLASIA MALIGNA DA BEXIGA
+U77 - NEOPLASIA MALIGNA DO APARELHO URINÁRIO, OUTRA
+W72 - NEOPLASIA MALIGNA RELACIONADA COM A GRAVIDEZ
+X75 - NEOPLASIA MALIGNA DO COLO
+X76 - NEOPLASIA MALIGNA DA MAMA FEMININA
+X77 - NEOPLASIA MALIGNA GENITAL FEMININA, OUTRA
+Y77 - NEOPLASIA MALIGNA DA PRÓSTATA
+Y78 - NEOPLASIA MALIGNA GENITAL MASCULINO, OUTRA
+H. As consultas contabilizadas são do tipo [Consulta médica não presencial] com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C007
+| Consulta médica não presencial - MedicineOne
+I. As consultas contabilizadas do tipo [Consulta médica presencial], quer no domicílio, quer no consultório, possuem um dos códigos seguintes:
+-
+C002
+| Consulta médica presencial - SClínico
+-
+C008
+| Consulta médica presencial - MedicineOne
+O que distingue as consultas ""no consultório"" ou ""no domicílio"" são parametrizações específicas de cada sistema de informação de registo clínico e administrativo.
+J. Para se considerar uma [Consulta Médica de Vigilância], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+No contexto deste indicador é irrelevante qual o subtipo de [Consulta Médica de Vigilância], sendo possíveis, entre outros, diabetes, hiepertensão, saúde materna, planeamento familiar e obesidade.
+Salienta-se que todas as [Consultas Médicas de Vigilância] são também [Consultas médicas presenciais].
+K. Os registos no processo clínico que constituam meros atos de caráter administrativo isolado (embora realizados por médicos ou enfermeiros), não solicitados pelo utente, não podem ser considerados consultas/contactos. Estas são atividades que se destinam a enriquecer o processo clínico, mas das quais pode não resultar qualquer intervenção em saúde, pelo que não podem ser consideradas ""contacto/consulta"".
+São exemplos:
+- As convocatórias por carta ou telefone para vacinação, consulta enfermagem, consulta consulta médica.
+- Registos de tentativa de contacto com utente que não se realizou.
+- Registos no processo clínico relativamente a reclamações.
+- Registos no processo clínico de transcrições da PDS, não solicitadas pelo utente.
+- Transcrição de boletins de vacinas, quando não solicitados pelo utente.
+EXEMPLO DE CÁLCULO
+Apresenta-se de seguida o exemplo de cálculo do índice com data de referência de 
+ 31-12-2016, para um único utente, com as características seguintes:
+- Idade: 55 anos;
+- Inscrito há vários anos na unidade funcional em análise;
+- Com diabetes na lista de problemas com estado ativo, 
+ registado a 1 de abril de 2016;
+- Com tabagismo na lista de problemas com estado ativo, registados 
+ há mais de 1 ano;
+- Sem outros problemas na lista de problemas;
+- Sem registo de ""insuficiência económica"" no RNU;
+- Ao longo de 2016 teve 3 
+ consultas de vigilância, 1 domicílio, 4 consultas presenciais do dia  e 2 consultas não presenciais.
+Regra 
+ / Variável
+Descritivo da regra ou variável
+Cálculos
+Valor
+Observações
+-
+Início do período em análise
+--
+01-01-2016
+--
+-
+Fim do período em análise
+--
+31-12-2016
+--
+A
+Idade [0; 11[ meses
+--
+0
+Utente não pertence ao grupo etário
+B
+Idade [11; 19[ meses
+--
+0
+Utente não pertence ao grupo etário
+C
+Idade [19 meses; 5.5 anos[
+--
+0
+Utente não pertence ao grupo etário
+D
+Idade [5.5; 7.5[ anos
+--
+0
+Utente não pertence ao grupo etário
+E
+Idade [7.5; 10.5[ anos
+--
+0
+Utente não pertence ao grupo etário
+F
+Idade [10.5; 20[ anos
+--
+0
+Utente não pertence ao grupo etário
+G
+Idade [20; 50[ anos
+--
+0
+Utente não pertence ao grupo etário
+H
+Idade [50; 65[ anos
+H =
+ 
+ 0.5 x d3 / 365 = 0.5 x 365 / 365 = 0.5
+0.5
+Utente pertencente ao grupo etário.
+Fórmula
+0.5 x d3 / 365
+Em que:
+d3
+É o valor mínimo, entre os 2 seguintes:
+1. Contagem de dias de inscrição ativa do utente durante os 12 meses do período em 
+ análise.
+2. 365
+I
+Idade [65; 75[ anos
+--
+0
+Utente não pertence ao grupo etário
+J
+Idade [75; +INF[ anos
+--
+0
+Utente não pertence ao grupo etário
+K
+Insuficiência económica
+--
+0
+Utente não tem insuficiência económica
+L
+Gravidez ou puerpério
+--
+0
+Utente sem critérios de inclusão
+M
+Hipertensão
+--
+0
+Utente sem critérios de inclusão
+N
+Diabetes
+d2 = 31-12-2016
+d1 = 15-04-2016
+N =
+ 2.71 x ([31-12-2016] - [15-04-2016] + 1) / 365
+N = 2.71 x 261 / 365
+N = 1.937835
+1.937835
+Utente com critérios de inclusão.
+Fórmula
+2.71 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 15º dia do mês de registo do diagnóstico de diabetes na lista de problemas.
+2. 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+O
+Asma
+--
+0
+Utente sem critérios de inclusão
+P
+DPOC
+--
+0
+Utente sem critérios de inclusão
+Q
+Depressão
+--
+0
+Utente sem critérios de inclusão
+R
+Ansiedade
+--
+0
+Utente sem critérios de inclusão
+S
+Neoplasia maligna
+--
+0
+Utente sem critérios de inclusão
+T
+Tabagismo
+d2 = 31-12-2016
+d1 = 1-1-2016
+T =
+ 0.42 x ([31-12-2016] - [15-04-2016] + 1) / 365
+T = 0.42 x 366 / 365
+T =
+ 0.42115
+0.42115
+Utente com critérios de inclusão.
+Fórmula
+0.42 x (d2 - d1 + 1) / 365
+Em que:
+d2
+É o valor mínimo, entre os 2 seguintes:
+1. data de referência do indicador.
+2. Data correspondente ao 15º dia do mês em que deixou de ter inscrição ativa na 
+ unidade funcional.
+d1
+É o valor máximo, entre os 3 seguintes:
+1. 
+ 15º dia do mês de registo do diagnóstico de tabagismo na lista de problemas.
+2. 
+ 15º dia do mês de inscrição na unidade funcional.
+3. Data a que corresponde o 1º dia do período em análise.
+U
+Abuso crónico do álcool
+--
+0
+Utente sem critérios de inclusão
+V
+Infeção VIH/SIDA
+--
+0
+Utente sem critérios de inclusão
+W
+Ponderação de consultas
+[Consultas não presenciais] - 2
+[Consultas de vigiância] - 3
+[Consultas no domicílio] - 1
+[Consultas presenciais que não são no domicílio nem são de vigilância] = 4
+W = [Consultas não presenciais] x 0.25 + [Consultas de vigiância] x 1 + 
+ [Consultas no domicílio] x 1 + [Consultas presenciais que não são no domicílio 
+ nem são de vigilância] x 0.75
+W = 2 x 0.25 + 3 x 1 + 1 x 1 + 4 x 0.75
+W = 7.5
+7.5
+Cada consulta médica presencial e de vigilância pondera 1.
+Cada consulta médica presencial no domicílio pondera 1.
+Cada consulta médica presencial não classificada como ""de 
+ vigilância"" nem como ""domicílio"", pondera 0.75.
+Cada consulta médica não presencial pondera 0.25.
+E0
+Estimativa de consultas por critérios de idade
+E0 = A + B + C + D + E + F + G + H + I + J
+0.5
+--
+E1
+Estimativa de consultas mais elevada por critérios de insuficiência económica, 
+ problemas de saúde crónicos ou outras condições definidas clinicamente
+E1 = N
+E1 =
+ 1.937835
+1.937835
+Estimativa decorrente de ter diabetes.
+E2
+Segunda estimativa de consultas mais elevada por critérios de insuficiência 
+ económica, problemas de saúde crónicos ou outras condições definidas 
+ clinicamente
+E2 = T
+E2 =
+ 0.42115
+0.42115
+Estimativa decorrente de ter ""tabagismo"".
+E2
+Terceira estimativa de consultas mais elevada por critérios de insuficiência 
+ económica, problemas de saúde crónicos ou outras condições definidas 
+ clinicamente
+E3 = 0
+0
+Apenas existe estimativa de consultas por ""diabetes"" e por ""tabagismo"".
+Etotal
+Estimativa total anual de consultas médicas
+Etotal = E0 + E1 + E2 / 2 + E3 / 3
+Etotal = 0.5 +
+ 1.937835 +
+ 0.42115 / 2 + 0 / 3
+Etotal = 2.64841
+2.64841
+--
+C0
+Ponderação de consultas
+C0 = W
+C0 = 7.5
+7.5
+--
+Cc
+Ponderação corrigida de consultas
+[arredondamento por excesso de Etotal] = 4
+Como C0 > [arredondamento por excesso de Etotal], Cc = 3
+3
+Para cada utente, ponderação das consultas é corrigida da seguinte forma:
+a) Se (C0 <= Etotal) então (Cc = C0);
+b) Se (Etotal < C0) e (C0 <= [arredondamento por excesso de Etotal]) então (Cc = 
+ C0);
+c) Se (C0 > [arredondamento por excesso de Etotal]) então (Cc = [arredondamento 
+ por excesso de Etotal]);
+RR
+RESULTADO FINAL DO INDICADOR
+RR = (Somatório (Cc)) / (Somatório (Etotal))
+RR = 3 / 2.64841
+RR = 1.133
+1.133
+Este utente tem um índice superior a 1. O excesso de 0.133 num indicador real 
+ com todos os utentes de uma unidade funcional, entraria nos cálculos para 
+ compensar utentes que no ano tivessem realizado menos consultas do que as estimadas 
+ por critérios socio-demográficos e clínicos."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Todas as variáveis têm uma duração de 12 meses, terminando na data de referência do indicador.
+Fórmula"
+Fórmula,(Somatório (Cc)) / (Somatório (Etotal))
+Unidade de medida,Índice (escala valores entre 0 e aproximadamente 1)
+Output,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [0.82; 2]
+Ano de 2023: [0.82; 2]
+Ano de 2024: [0.82; 2]"
+Intervalo Esperado,"Ano de 2022: [0.75; 2]
+Ano de 2023: [0.75; 2]
+Ano de 2024: [0.7; 2]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

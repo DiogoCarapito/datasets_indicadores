@@ -1,0 +1,181 @@
+titulo,texto
+ID,415
+Código,6.85.02
+Código SIARS,2019.415.01
+Nome abreviado,Índice acompanham. adequado de úlceras venosas
+Designação,Índice de acompanhamento adequado no tratamento de utentes com úlceras venosas
+Objetivo,"Monitorizar o acompanhamento no tratamento de úlceras venosas, em 5 dimensões:
+- Adequação do processo de cuidados;
+- Trabalho em equipa;
+- Continuidade de cuidados;
+- Resultados / resolutividade
+- Eficiência"
+Descrição do Indicador,"Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento de episódios de tratamento de utentes com úlcera venosa.
+Numerador: Somatório do ""score de acompanhamento"" determinado para cada episódio de tratamento de utentes com úlcera venosa. O ""score de acompanhamento"" de cada episódio de úlcera venosa pode variar entre 0 e 1 de acordo com o número e qualidade dos parâmetros avaliados e com a ponderação definida para cada dimensão avaliada.
+Denominador: Contagem de episódios de tratamento de úlcera venosa."
+Regras de cálculo,"Para efeitos deste indicador, define-se [episódio de tratamento de ""úlcera venosa""], como o conjunto de actos, consultas, diagnósticos, intervenções e procedimentos, efetuados por profissionais de saúde a utentes com o diagnóstico de enfermagem ""úlcera venosa"" (8001332) entre a data de registo desse diagnóstico e a data de fim do mesmo (ver alínea B de OBSERVAÇÕES GERAIS).
+O período em análise deste indicador tem a duração de um ano, monitorizando por isso o acompanhamento de [episódios de tratamento de ""úlcera venosa ""] que terminam nesse período.
+NUMERADOR (AA):Somatório dos ""score de acompanhamento"" que forem determinados para cada [episódio de tratamento de ""úlcera venosa""].
+O ""score de acompanhamento"" de cada [episódio de tratamento de ""úlcera venosa""] é calculado somando os valores ponderados que resultam da aplicação dos critérios definidos no quadro seguinte, regra a regra. Existem regras cujo resultado pode ser ""0"" ou ""1"" e regras cujo resultado pode ser um valor contínuo entre ""0"" e ""1"". Cada resultado de regra deve ser multiplicado pela respetiva ponderação definida na coluna ""ponder."" da tabela seguinte e cada um desses produtos deve ser somado para se obter o "" score de acompanhamento"".
+O ""score de acompanhamento"" de cada [episódio de tratamento de ""úlcera venosa""] pode variar entre 0 e 1 de cordo com o número critérios cumpridos e com a ponderação definida para cada regra avaliada.
+Regra
+Descrição de Regra
+Ponder.
+A
+Avaliação contínua
+Este critério destina-se a avaliar em que medida são ou não efetuados registos das características/evolução da ""úlcera venosa"" pela equipa de enfermagem (ver alínea M de OBSERVAÇÕES GERAIS).
+O resultado deste critério pode variar entre 0 e 1 e é determinado pela fórmula seguinte:
+RES_REGRA_B = A / B
+O significado das variáveis da fórmula é o seguinte:
+A – Nº de meses pertencentes ao [episódio de tratamento de ""úlcera venosa""], em que existe pelo menos um registo de características/evolução da ""úlcera de pressão"". O valor mínimo de A é 0 (zero) e o máximo igual ao valor de B.
+B – Nº de meses pertencentes ao [episódio de tratamento de ""úlcera venosa""] com as seguintes notas adicionais:
+- O mês de início do episódio é sempre contabilizado, independentemente da [data de início do episódio] ocorrer no princípio, meio ou final do mês;
+- Se o episódio [episódio de tratamento de ""úlcera venosa""] iniciar e terminar no mesmo mês, o valor de B é ""1"";
+- Nos casos em que o [episódio de tratamento de ""úlcera venosa""] percorra mais do que 1 mês, o último mês só é contabilizado se a [data de fim do episódio] for igual ao último dia desse mês.
+0,13
+B
+Continuidade de cuidados
+Este critério destina-se a avaliar em que medida as consultas de enfermagem (ver alínea F de OBSERVAÇÕES GERAIS) são ou não efetuadas aos utentes preferencialmente pelo Enfermeiro de Família (USF e UCSP) ou pelo ""Enfermeiro Gestor de Caso"" do utente (UCC) ao longo do tempo. Para efeitos desta fórmula/regra, nas UCC, considera-se que o ""Enfermeiro Gestor de Caso"" de cada utente é aquele que ao longo de cada [episódio de tratamento de ""úlcera venosa""] efetua mais consultas ao mesmo utente.
+O resultado deste critério pode variar entre 0 e 1 e é determinado pela fórmula seguinte:
+RES_REGRA_C = EF x F x Cmax / Ctotal
+Nota: Se o resultado de EF x F x Cmax / Ctotal for superior a 1 o valor é corrigido para 1.
+O significado das variáveis da fórmula é o seguinte:
+EF – Assume o valor 1,1 se o enfermeiro que fizer mais consultas for o enfermeiro de família (USF, UCSP e outras unidades de cuidados personalizados) ou se a consulta for efetuada numa UCC; 1,0 caso contrário.
+F - Fator de correção. F = 1,212121. Esta constante destina-se a assegurar que 75% das consultas realizadas pelo mesmo enfermeiro, majoradas 10% (x 1,1) por força do especificado a propósito da constante EF, são valorizadas como 1 (100% de cumprimento no critério). Tal sucede porque 0,75 x 1,1 x 1,212121 = 1
+Cmax. - Número máximo de consultas realizadas pelo mesmo enfermeiro da unidade funcional em análise.
+Ctotal. – Número total de consultas realizadas na unidade funcional em análise.
+0,20
+C
+Trabalho em equipa
+Este critério pretende avaliar o número de consultas médicas efetuadas para acompanhamento ou tratamento de complicações relativamente às que seriam esperadas em função da duração ou da existência de complicações.
+O resultado deste critério pode variar entre 0 e 1. É definido através de uma fórmula constituída por um numerador e por um denominador, em que no denominador se contabilizam as consultas médicas esperadas em função da existência de complicações de úlcera ou da duração do episódio de tratamento e no numerador são contabilizadas as consultas médicas efetivadas nos termos a seguir especificados:
+RES_REGRA_D = (A x 0,25 + B x 0,75) / (C x 0,25 + D x 0,75)
+Nota: Se o denominador (C x 0,25 + D x 0,75) for igual a 0, ou seja, se não existirem critérios que definam a necessidade de consultas médicas, o valor de RES_REGRA_A é igual a 1, ou seja, esta regra é considerada cumprida.
+O significado das variáveis da fórmula é o seguinte:
+A – Nº de registos de complicações de úlcera venosa (ver alínea E de OBSERVAÇÕES GERAIS) que têm pelo menos uma consulta médica (ver alínea C de OBSERVAÇÕES GERAIS) efetuada por qualquer médico ou interno (de qualquer unidade funcional) nos 15 dias que sucedem o registo de uma complicação de úlcera no processo de enfermagem. O valor de A é no máximo igual ao valor de C.
+B – Nº de segmentos de duração do [episódio de tratamento de ""úlcera venosa""] (ver variável D) que têm pelo menos uma consulta médica (ver alínea C de OBSERVAÇÕES GERAIS) efetuada por qualquer médico ou interno (de qualquer unidade funcional) durante o respetivo segmento de duração que ""determina"" a necessidade de uma consulta médica. O valor de B é no máximo igual ao valor de D.
+C – Nº de registos de complicações de úlcera venosa (ver alínea E de OBSERVAÇÕES GERAIS), limitado a um valor máximo de 3 por [episódio de tratamento de ""úlcera venosa""] e a 1 por mês.
+D – Define o nº de consultas médicas (ver alínea C de OBSERVAÇÕES GERAIS) esperadas em função da duração em meses da ""úlcera venosa"", nos termos seguintes:
+a) Episódio com duração entre 1 e 2 meses: 0 consultas;
+b) Episódio com duração entre 3 e 6 meses: 1 consulta médica realizada durante o episodio de tratamento;
+c) Episódio com duração entre 7 e 12 meses: 3 consultas médicas realizadas durante o episodio de tratamento;
+As regras da variável D limitam o respetivo valor a um máximo de 3 por [episódio de tratamento de ""úlcera venosa""].
+0,16
+D
+Resolutividade
+Presença de terapia compressiva como parte integrante do tratamento em todos os diagnósticos de ""úlcera venosa"" sempre que o valor de IPTB esteja compreendido no intervalo [0,8 – 1,2].
+Esta regra é considerada cumprida sempre que a condição [(A e B) ou (C e D e E)] for verdadeira:
+A. Existe pelo menos uma avaliação inicial IPTB compreendida no intervalo [0,8 – 1,2], durante o [episódio de tratamento de ""úlcera venosa""] (ver alínea H de OBSERVAÇÕES GERAIS).
+B. Existe registo de pelo menos uma intervenção ""aplicar terapia compressiva"" durante o [episódio de tratamento de ""úlcera venosa""], posterior ao registo da avaliação inicial de IPTB referida em A (Ver alínea J de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma avaliação inicial IPTB durante o [episódio de tratamento de ""úlcera venosa""] (ver alínea H de OBSERVAÇÕES GERAIS).
+D. Nenhuma das avaliações iniciais IPTB registadas durante o [episódio de tratamento de ""úlcera venosa""] pertence ao intervalo [0,8 – 1,2] (ver alínea H de OBSERVAÇÕES GERAIS).
+E. Não existem registos de intervenções ""aplicar terapia compressiva"" durante o [episódio de tratamento de ""úlcera venosa""] (Ver alínea J de OBSERVAÇÕES GERAIS).
+0,10
+E
+Resolutividade
+Ausência de registo de complicações após o 8º dia do [episódio de tratamento de ""úlcera venosa""]. Ver alíneas K e L de OBSERVAÇÕES GERAIS.
+0,15
+F
+Resolutividade
+Ausência de prescrição de antibiótico destinado ao tratamento de uma complicação ao longo de todo o [episódio de tratamento de ""úlcera venosa""] (ver alínea I de OBSERVAÇÕES GERAIS).
+0,10
+G
+Eficiência
+A dimensão eficiência (custo por episódio) deveria idealmente incluir os custos com recursos humanos, os custos com materiais de consumo clínico designadamente apósitos e os custos gerados pela própria incapacidade gerada ao utente. Na impossibilidade de medir com rigor todos estes custos, a eficiência vai ser medida através de uma fórmula que entra em linha de conta com o tempo necessário para a resolução da ""úlcera venosa"".
+Nestes termos foi definido por consenso, um tempo limite para a duração do episódio, até ao qual, se valoriza este critério com 1 (100%).
+A partir desse tempo limite e até aos 365 dias de duração, a fórmula seguinte valoriza este critério com valores contínuos entre 1 e 0. Adicionalmente, a fórmula valoriza o facto do episódio ter terminado por registo de ""termo do diagnóstico de úlcera"".
+Fórmula:
+RES_REGRA_H = V x (365 - D_TRATAM)/(365 - D_LIMITE)
+D_LIMITE - número de dias limite para dar 1 (100%) e que corresponde a 120 dias.
+D_TRATAM - Duração do [episódio de tratamento de ""úlcera venosa""], em dias.
+V - Valorização pelo facto do episódio ter terminado por registo de ""termo do diagnóstico de úlcera"".
+Valores possíveis de V:
+a) 1 se tiver registo de ""termo do diagnóstico de úlcera"";
+b) 0,33 caso contrário.
+Nota: Caso o resultado de RES_REGRA_H, obtido pela fórmula anteriormente referida, seja superior a 1, o mesmo deve ser corrigido para 1.
+0,16
+DENOMINADOR (BB):
+(Aplicável a USF, UCSP, CON, IPSS-C e ACES):
+Contagem de [episódios de tratamento de ""úlcera venosa""] (ver alíneas A e B de OBSERVAÇÕES GERAIS), em que a expressão [A e B e C e D] é verdadeira:
+A. Efetuados a utentes com [
+inscrição ativa
+] na unidade de saúde na [data de fim do episódio];
+B. Com documentação do diagnóstico de enfermagem de ""úlcera venosa"" - código 8001332 (que define a data de início do [episódio de tratamento]), efetuado por qualquer enfermeiro.
+C. Com [data de fim do episódio] ocorrida durante o período em análise.
+D. Com pelo menos uma consulta de enfermagem destinada ao tratamento de episódios de úlcera venosa (ver alínea F de OBSERVAÇÕES GERAIS) efetuada por qualquer enfermeiro da unidade funcional.
+DENOMINADOR (BB):
+(Aplicável a UCC):
+Contagem de [episódios de tratamento de ""úlcera venosa""] (ver alíneas A e B de OBSERVAÇÕES GERAIS), em que a expressão [A e B e C e D] é verdadeira:
+A. Efetuados a utentes com [
+inscrição ativa
+] no ACES a que pertence a UCC na [data de fim do episódio];
+B. Com documentação do diagnóstico de enfermagem de ""úlcera venosa"" - código 8001332 (que define a data de início do [episódio de tratamento]), efetuado por qualquer enfermeiro.
+C. Com [data de fim do episódio] ocorrida durante o período em análise.
+D. Com pelo menos uma consulta de enfermagem destinada ao tratamento de episódios de úlcera venosa (ver alínea F de OBSERVAÇÕES GERAIS) efetuada por qualquer enfermeiro da UCC."
+Observações Gerais,"A. Para efeitos deste indicador, define-se [episódio de tratamento de ""úlcera venosa""], como o conjunto de actos, consultas, diagnósticos, intervenções e procedimentos, efetuados por profissionais de saúde a utentes com o diagnóstico de enfermagem ""úlcera venosa"" (8001332) entre a data de registo desse diagnóstico e a data de fim do mesmo.
+B. A [data de início do episódio] e a [data de fim do episódio] de cada episódio de tratamento de úlcera venosa, são definidas nos seguintes termos:
+- [data de início do episódio] – Data em que o diagnóstico de úlcera venosa foi registado.
+- [data de fim do episódio] – Determinada da seguinte forma:
+a) Se a [data de termo] do diagnóstico estiver registada, a [data de termo] corresponde à [data de fim do episódio];
+b) Se a condição definida em a) não se verificar e o utente estiver mais do que 30 dias sem qualquer consulta de enfermagem destinada ao tratamento de episódios de úlcera venosa (ver alínea F de OBSERVAÇÕES GERAIS), a data da última consulta de enfermagem destinada do tratamento de episódios de úlcera venosa corresponde à [data de fim do episódio].
+c) Se a condição definida em b) não se verificar e se registarem consultas de enfermagem destinadas ao tratamento de episódios de úlcera venosa (ver alínea F de OBSERVAÇÕES GERAIS) durante pelo menos 365 dias, considera-se que episódio fica encerrado, para efeitos deste indicador, no 365º dia de duração do episódio. Esta condição destina-se a mitigar o efeito negativo que poucos utentes com úlceras venosas intratáveis (frequentemente por questões externas à unidade funcional) teriam no resultado deste indicador.
+C. Para se contabilizar uma [Consulta Médica Presencial], é necessário que os registos sejam compatíveis com o seguinte conceito de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+D – Quando a unidade de observação é uma USF, uma UCSP, outro tipo de unidade com utentes inscritos (COM ou IPSS-C), a lista dos médicos ou enfermeiros dessas unidades funcionais ou os ACES, a consulta médica referida na regra A, para ser considerada, deve ser efetuada na unidade funcional onde o utente se encontra inscrito no mês de realização da consulta.
+Quando a unidade de observação é uma UCC, a consulta médica pode ser efetuada na UCC mas também em qualquer unidade funcional do ACES.
+E. As características das úlceras venosas relacionadas com a presença de complicações/infecção são passíveis de ser documentadas no processo clínico do utente através da intervenção de enfermagem “Avaliar úlcera venosa” (9003754). As características determinantes da necessidade de uma consulta médica são as seguintes:
+a) SINAIS DE INFECÇÃO/INFLAMÇÃO:
+- Dor aumentada;
+- Exsudado Purulento;
+- Aumento da temperatura;
+b) A fazer antibioterapia sistémica dirigida á ferida;
+F. São consideradas ""consultas de enfermagem relacionadas com tratamento a úlceras venosas"", as consultas em que se verifique cumulativamente os dois critérios seguintes:
+a) Consulta de enfermagem do tipo
+C005
+| Consulta de enfermagem com a presença do utente (direta) - [SClínico (Perfil Enfermagem)].
+b) Presença de umas das seguintes intervenções relacionadas com diagnóstico ""úlcera venosa"":
+- Vigiar penso da úlcera venosa (9001624)
+- Avaliar úlcera venosa (9003754)
+- Executar tratamento da úlcera venosa (9001202)
+G. Pode ser contabilizado no denominador mais do que um diagnóstico por utente ao longo do período em análise do indicador. Podem ainda coexistir na mesma data e no mesmo utente mais do que um episódio aberto. São considerados todos os diagnósticos independentemente do local de registo e de o enfermeiro pertencer ou não à Unidade Funcional.
+H. A avaliação do IPTB é operacionalizado através da intervenção de enfermagem "" Monitorizar índice pressão tornozelo - braquial (IPTB)"" (9001297).
+I. Apenas são considerados antibióticos (classe ATC ""J01"" - ANTIBATERIANOS) prescritos que reúnam cumulativamente as condições seguintes:
+a) Com código da unidade funcional em análise ou com o código da unidade funcional de inscrição;
+b) Prescrito no mesmo dia em que foi efetuada uma consulta médica presencial ao referido utente (ver alínea C de OBSERVAÇÕES GERAIS);
+c) A consulta médica tem código da unidade funcional em análise ou código da unidade funcional de inscrição do utente;
+d) O médico codificou como problema dessa consulta a ""Úlcera crónica da pele"" (código S97 da ICPC-2).
+J. A terapia compressiva (TC) é amplamente recomendada como estratégia de primeira linha, para o tratamento de úlcera venosa. A documentação da aplicação de terapia compressiva como parte do tratamento é operacionalizada através da intervenção de enfermagem ""Aplicar terapia compressiva"" (9001026).
+K. As características das úlceras venosas são passíveis de ser documentadas no processo clínico do utente através da intervenção de enfermagem “Avaliar úlcera venosa” (9003754). As características relacionadas com a presença de complicações são as seguintes:
+- A fazer antibioterapia sistémica dirigida á ferida;
+- Dor tem aumentado;
+- Exsudado purulento;
+- Ferida estagnada;
+- Hipergranulação;
+- Tecido friável;
+- Mau odor.
+L. A análise de complicações das úlceras venosas é excecionada entre o 1º e o 7º dia (inclusive) do [episódio de tratamento de ""úlcera venosa""] por se saber que nestes casos as complicações podem surgir independentemente da intervenção da equipa de saúde.
+M. A avaliação das características da úlcera venosa é operacionalizadas através da intervenção de enfermagem “Avaliar úlcera venosa” (9003754)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Este indicador tem um período em análise de 1 ano, ou seja contabilizam-se os [episódios de tratamento de ""úlcera venosa""] cuja [data de fim do episódio] ocorra durante o ano que antecede a data de referência do indicador. Como por sua vez os [episódios de tratamento de ""úlcera venosa""] têm, para efeitos deste indicador, uma duração máxima de 2 anos, é possível que alguns dos eventos medidos neste indicador possam suceder até 2 anos antes da respetiva data de referência.
+Assim, considerando variável a variável, os períodos em análise são os seguintes:
+- Regra A e D (variável ""características/evolução da úlcera venosa""): Medida durante o tempo em que decorre cada episódio.
+- Regra B (variável ""consulta de enfermagem""): Medida durante o tempo em que decorre cada episódio.
+- Regra C (variável ""consulta médica""): Medida durante o tempo em que decorre cada episódio.
+- Regra E (variável ""Prescrição de antibiótico""): Medida durante o tempo em que decorre cada episódio.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de enfermagem de úlcera venosa""): Duração de 24 meses, terminando na data de referência do indicador.
+- Denominador (variável ""consulta de enfermagem""): Medida durante o tempo em que decorre cada episódio."
+Fórmula,AA / BB
+Unidade de medida,Índice (escala valores entre 0 e 1)
+Output,Com dados desde Dezembro de 2021
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Multimorbilidade e Outros Tipos de Doenças
+Intervalo Aceitável,"Ano de 2023: [0.69; 1]
+Ano de 2024: [0.69; 1]"
+Intervalo Esperado,"Ano de 2023: [0.6; 1]
+Ano de 2024: [0.5; 1]"
+Tipo de Indicador,Resultado
+Área clínica,Úlceras de pele
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

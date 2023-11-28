@@ -20,7 +20,7 @@ def header_text_mapper(dicionario):
     mapa = []
 
     # etiqueta com o nome do cabeçalho inicial
-    header = "id"
+    header = "ID"
 
     # iterate from 0 to comprimento_maximo
     for i in range(comprimento_maximo):
@@ -134,20 +134,20 @@ def substitute_first(list_tupples, old, new, index_move):
 
 def correccao_intervalos(lista_correspondencias):
     # transform list of tupples into a dataframe
-    df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
+    df = pd.DataFrame(lista_correspondencias, columns=["titulo", "texto"])
 
     # count how many times "Variação Aceitável_TEXT" in header column
-    count = df["header"].value_counts()["Variação Aceitável_TEXT"]
+    count = df["titulo"].value_counts()["Variação Aceitável_TEXT"]
 
     # calculate the trigger to change the header
     trigger = count / 2
 
     # loop over the df[df["header"]=="Variação Aceitável_TEXT"] and correct the header
-    for i, index in enumerate(df[df["header"] == "Variação Aceitável_TEXT"].index):
+    for i, index in enumerate(df[df["titulo"] == "Variação Aceitável_TEXT"].index):
         if i < trigger:
-            df.loc[index, "header"] = "Intervalo Aceitável_TEXT"
+            df.loc[index, "titulo"] = "Intervalo Aceitável_TEXT"
         else:
-            df.loc[index, "header"] = "Intervalo Esperado_TEXT"
+            df.loc[index, "titulo"] = "Intervalo Esperado_TEXT"
 
     # transform back df into a list of tupples
     lista_correspondencias_corrigida = list(df.itertuples(index=False, name=None))
@@ -182,10 +182,10 @@ def correcoes_correspondencias(lista_correspondencias):
 
 
 def final_cleaning(lista_correspondencias):
-    df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
+    df = pd.DataFrame(lista_correspondencias, columns=["titulo", "texto"])
     # remove rows where header ends with _TEXT
     df["to_remove"] = [
-        False if each.endswith("_TEXT") else True for each in df["header"]
+        False if each.endswith("_TEXT") else True for each in df["titulo"]
     ]
     df.drop(df[df["to_remove"] == True].index, inplace=True)
     df.drop(columns=["to_remove"], inplace=True)
@@ -193,17 +193,17 @@ def final_cleaning(lista_correspondencias):
     df.reset_index(drop=True, inplace=True)
 
     # remove the text "_TEXT" from the headers
-    df["header"] = [each.replace("_TEXT", "") for each in df["header"]]
+    df["titulo"] = [each.replace("_TEXT", "") for each in df["titulo"]]
 
     # remove all the rows after header "Prazo para Registos"
-    index_after_prazo = df[df["header"] == "Prazo para Registos"].index[0]
+    index_after_prazo = df[df["titulo"] == "Prazo para Registos"].index[0]
     index_to_remove = index_after_prazo + 1
     df.drop(df.index[index_to_remove:], inplace=True)
 
     i = 0
-    while i < len(df["header"]) - 1:
-        if df.loc[i, "header"] == df.loc[i + 1, "header"]:
-            df.loc[i, "text"] += "\n" + df.loc[i + 1, "text"]
+    while i < len(df["titulo"]) - 1:
+        if df.loc[i, "titulo"] == df.loc[i + 1, "titulo"]:
+            df.loc[i, "texto"] += "\n" + df.loc[i + 1, "texto"]
             df.drop(i + 1, inplace=True)
             df.reset_index(drop=True, inplace=True)
         else:
@@ -212,7 +212,7 @@ def final_cleaning(lista_correspondencias):
     return df
 
 
-def correspondencias_mapa(parsed_content, header_map):
+def list_to_csv(parsed_content, header_map):
     lista_correspondencias = []
     for i in range(len(header_map)):
         lista_correspondencias.append((header_map[i], parsed_content[i]))
@@ -231,15 +231,20 @@ def main_parse(html):
     # remove the first 3 items in the list
     parsed_content = parsed_content[3:]
 
-    # create a dictionary with the header location, so the text can be concatenated between the headers
-    header_dict = header_location_dictionary(parsed_content)
+    #if the first 5 letterins in the 0 index of the list are "Erro."
+    if parsed_content[0][:5] != "Erro.":
+        
 
-    # create a list o f tupples with the header and the text
-    header_map = header_text_mapper(header_dict)
+        # create a dictionary with the header location, so the text can be concatenated between the headers
+        header_dict = header_location_dictionary(parsed_content)
 
-    lista_correspondencias = correspondencias_mapa(parsed_content, header_map)
+        # create a list o f tupples with the header and the text
+        header_map = header_text_mapper(header_dict)
 
-    # create a list of tupples while iterating over parsed_content  mapa
-    # the tupper is the text and the label from map that have the same index in the list
+        final_csv = list_to_csv(parsed_content, header_map)
+    
+    else:
+        print(parsed_content[0])
+        final_csv = None
 
-    return lista_correspondencias
+    return final_csv

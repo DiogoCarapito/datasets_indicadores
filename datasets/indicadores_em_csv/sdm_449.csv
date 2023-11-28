@@ -1,0 +1,59 @@
+titulo,texto
+ID,449
+Código,5.02.04
+Código SIARS,2023.449.01
+Nome abreviado,Prop. mulheres 25-60 anos c/ teste HPV 5A
+Designação,"Proporção de mulheres entre 25-60 anos, com rastreio do cancro do colo do útero efetuado por teste primário (pesquisa de HPV)"
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro do colo do útero por teste primário por pesquisa de ácidos nucleicos, dos serotipos oncogénicos, do vírus do papiloma humano (HPV), em citologia vaginal, a realizar de 5 em 5 anos"".
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), destinando-se a comparar as unidades prestadoras em função da capacidade para implementação do programa de rastreio, utilizando o teste primário (pesquisa de serotipos HPV por PCR)."
+Descrição do Indicador,"Indicador que exprime a proporção de mulheres inscritas e com idades compreendidas no intervalo [25, 61[ anos (sem critérios de exclusão para o rastreio), com rastreio do cancro do colo do útero efetuado com teste primário (pesquisa de ácidos nucleicos, dos serotipos oncogénicos, do vírus do papiloma humano, HPV, em citologia vaginal), realizado nos últimos 5 anos.
+Numerador: Contagem de mulheres com rastreio do cancro do colo do útero efetuado usando o teste primário (pesquisa de HPV), nos últimos 5 anos.
+Denominador: Contagem de mulheres com [
+inscrição ativa
+] numa unidade de saúde e com idades compreendidas no intervalo [25-61[ anos, sem critérios de exclusão para a realização do rastreio do cancro do colo do útero."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+(dos serotipos oncogénicos), em citologia vaginal, nos últimos 5 anos (entre o mês N entre os meses N-62 e N-3, N é o mês de referência do indicador), realizado no contexto do programa nacional de rastreio oncológico de base populacional (ver alíneas A, B, C, D e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [25; 61[ anos, no mês N-3 (N é o mês de referência do indicador). (ver alínea E de OBSERVAÇÕES GERAIS).
+C. Com [
+inscrição ativa
+] na Unidade de Saúde na data de referência do indicador.
+D. Sem diagnóstico de ""neoplasia maligna do colo do útero"" (código ICPC-2 X75), na lista de problemas, no mês N-3 (N é o mês de referência do indicador).
+E. Sem registo de [histerectomia total] nos ""antecedentes pessoais"" do processo clínico eletrónico, no mês N-3 (N é o mês de referência do indicador). (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+B. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio populacional organizados regionalmente (pelas ARS), não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+C. Para que o teste de pesquisa do HPV seja contabilizado, deve ter um resultado.
+D. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo, até 90 dias após o fim do período em análise.
+E. A idade é medida no mês N-3 (N é o mês de referência do indicador).
+F. As mulheres com [histerectomia parcial] são incluídas no denominador, pois continuam a ter indicação para rastreio.
+G. Apenas se contabilizam na alínea B do numerador, resultados de exames sem requisição médica associada ou resultados marcados no sistema de informação como tendo sido integrados a partir do SIIMA rastreios ou outro sistema autorizado para gerir a informação dos rastreios oncológicos de base populacional.
+H. Por atrasos na sincronização entre o SiiMA-rastreios e o Sclínico, procede-se a uma leitura dos dados com atraso de 3 meses de forma a garantir a melhor qualidade de informação possível."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os registos de resultados são integrados no SClínico, de forma automática a partir do sistema ""SIIMA-rastreios"".
+B. O exame [Pesquisa de DNA por PCR, cada PCR] também pode ser registado por médicos no módulo de MCDT.
+C. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+D. A informação sobre [histerectomia total] (antecedentes pessoais) pode ser registada no perfil médico, no programa de rastreio oncológico."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""Pesquisa de DNA do HPV por PCR""): duração entre os meses N-62 e N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""inscrição ativa""): coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): medida no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""neoplasia maligna do colo do útero""): no mês N-3 (N é o mês de referência do indicador).
+- Denominador (variável ""histerectomia total""): no mês N-3 (N é o mês de referência do indicador)."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,90 dias

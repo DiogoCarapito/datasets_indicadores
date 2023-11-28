@@ -1,0 +1,44 @@
+titulo,texto
+ID,129
+Código,5.13.07
+Código SIARS,5.13M1
+Nome abreviado,Percent. hipertensos c/ IMC últimos 12 meses
+Designação,Percentagem de hipertensos com registo de IMC nos últimos 12 meses
+Objetivo,"Monitorizar o acompanhamento dos utentes com hipertensão arterial: parâmetro ""índice de massa corporal (IMC)""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com registo de IMC nos últimos 12 meses.
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com registo de IMC nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com hipertensão arterial, vigiados em programa."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Que tenham pelo menos um registo de IMC nos últimos 12 meses (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se sinalizado como ativo na lista de problemas.
+C. Ter compromisso de vigilância no programa de hipertensão."
+Observações Gerais,"A. Quando a unidade de observação é o médico ou a unidade de saúde, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Quando a unidade de observação é o ACES, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde. Os registos de estatura podem ter sido registados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde (independentemente da unidade de observação do indicador). Os registos médicos tornam prescindíveis os de enfermagem e vice-versa.
+B. Os registos de IMC, peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes, planeamento familiar, saúde infantil e saúde materna. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que o peso e altura sejam registados no mesmo dia. O peso deve ser registado durante o período em análise do numerador. A estatura deve estar registada pelo menos uma vez com data de medição posterior aos 20 anos de idade, ou, caso o utente tenha menos de 22 anos, deve existir um registo nos 24 meses que antecedem a data de referência do indicador.
+D. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O IMC, o peso e a estatura podem ser registados neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. O IMC, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes, saúde materna, saúde infantil e planeamento familiar.
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. O IMC, o peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes, saúde materna, saúde infantil e planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,83 @@
+titulo,texto
+ID,458
+Código,4.19.01
+Código SIARS,2023.458.01
+Nome abreviado,Prop. fuma. c/ cons. intens. tabagismo 1 ano ACES
+Designação,"Proporção de utentes fumadores e idade igual ou superior a 15 anos, a quem foi realizada uma consulta de apoio intensivo à cessação tabágica, no último ano no ACES."
+Objetivo,Monitorizar a frequência com que os utentes fumadores dos cuidados de saúde primários recorreram à consulta de apoio intensivo à cessação tabágica.
+Descrição do Indicador,"Indicador que exprime a proporção de fumadores utilizadores dos serviços de saúde e idade igual ou superior a 15 anos, a quem foi realizada consulta intensiva de apoio à cessação tabágica (CICT), nos últimos 12 meses no ACES.
+Numerador: Contagem de utentes incluídos no denominador, a quem foi realizada consulta intensiva de apoio à cessação tabágica (CICT), nos últimos 12 meses, no ACES.
+Denominador: Contagem de fumadores com idade igual ou superior a 15 anos e pelo menos uma consulta médica ou de enfermagem no último ano."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma [consulta intensiva de apoio à cessação tabágica], realizada por qualquer médico ou interno do ACES, com login no SClínico em qualquer unidade do ACES, nos 12 meses que antecedem a data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e (C ou D) e (E ou F)] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Ter idade igual ou superior a 15 anos (ver alínea D de OBSERVAÇÕES GERAIS).
+C. O diagnóstico de tabagismo (rubrica da ICPC-2 P17) esteve com o estado de ""ativo"" na lista de problemas, durante pelo menos 1 dia do período em análise (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+D. O último registo de hábitos tabágicos, registado durante o período em análise, é superior a 0 (zero) cigarros por dia (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+E. Pelo menos uma consulta médica presencial nos 12 meses que antecedem a data de referência do indicador (ver alínea G de OBSERVAÇÕES GERAIS).
+F. Pelo menos uma consulta de enfermagem presencial nos 12 meses que antecedem a data de referência do indicador (ver alínea H de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Este indicador pode ser medido para os seguintes tipos de unidades de observação: ACES, URAP, USF, UCSP, CS-SM, listas utentes de médicos e listas de utentes de enfermeiros.
+Em função do tipo de unidade de observação em avaliação, a [
+inscrição ativa
+] tem o domínio de análise a seguir especificado:
+- ACES - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES em análise.
+- URAP - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise.
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - Inscrição em qualquer código RNU na hierarquia de locais dependente da unidade funcional em análise.
+- Listas utentes de médico de uma UF - Inscrição no médico em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o médico em análise.
+- Listas de utentes de enfermeiro de uma UF - Inscrição no enfermeiro em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o enfermeiro em análise.
+B. O registo de [consulta intensiva de apoio à cessação tabágica] faz-se em módulo próprio no SClínico.
+Em função do tipo de unidade de observação em avaliação, a alínea B de NUMERADOR (AA) tem o domínio de análise a seguir especificado:
+- ACES - CICT realizada em qualquer unidade funcional do ACES.
+- URAP - CICT realizada em qualquer unidade funcional do ACES (e não apenas na URAP).
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - CICT realizada em qualquer unidade funcional do ACES (e não apenas UF de inscrição dos utentes).
+- Listas utentes de médico de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no médico e UF de inscrição dos utentes).
+- Listas de utentes de enfermeiro de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no enfermeiro e UF de inscrição dos utentes).
+C. O registo de [consulta intensiva de apoio à cessação tabágica] faz-se em módulo próprio no SClínico.
+D. A idade deve ser medida em relação à data de referência do indicador.
+E. Os registos de hábitos tabágicos podem ser feitos por qualquer médico, interno ou enfermeiro da unidade de saúde.
+F. Um utente sem P17 na lista de problemas e sem qualquer registo de hábitos tabágicos, não é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente sem P17 na lista de problemas e com registo de ""0 cigarros por dia"" (ou equivalente), não é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente com P17 na lista de problemas (ativo) é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente com registo de hábitos tabágicos superior a 0 (zero) é contabilizado como cumpridor da condição (C ou D) do denominador.
+Um utente que no registo de ""hábitos tabágicos"" é classificado como ""fumador"", é contabilizado como cumpridor da condição (C ou D) do denominador (ver OBSERVAÇÕES SOBRE SOFTWARE).
+G. Para se contabilizar uma [Consulta Médica] presencial, é necessário que os registos sejam compatíveis com o conceito de [consulta]
+C002
+| Consulta médica presencial - SClínico.
+H. Para se considerar uma [Consulta de Enfermagem] presencial, é necessária a existência de registos compatíveis com o conceito de [consulta]
+C005
+| Consulta de enfermagem presencial - SClínico.
+I. O resultado principal deste indicador é dado pela fórmula seguinte:
+RESULTADO = NUMERADOR / DENOMINADOR x 100"
+Observações Sobre Software,"SClínico:
+A. Os hábitos tabágicos podem ser registados na [ficha individual] e nos diversos módulos de programas de saúde ([diabetes], [hipertensão], [planeamento familiar], [saúde materna] e [tabagismo]).
+Podem ser usados os seguintes campos:
+1. Campo ""Tabaco"" no grupo ""Hábitos"", que tem os seguintes itens para escolha: Sim; Não; Sem preenchimento. No módulo de ""tabagismo"" o campo correspondente tem o descritivo ""Fuma atualmente?"". O SCLÍNICO regista as datas em que os profissionais de saúde procedem a alterações a este campo.
+2. Campo ""Tabaco"" no grupo ""Consultas"". Campo usado para registar o nº de [cigarros por dia] que o doente consome na data em que é feito o registo.
+3. Campo ""Carga tabágica"" no grupo ""Consultas"". Campo usado para registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O registo normalizado da informação de hábitos tabágicos é efetuado através da intervenção de enfermagem ""Monitorizar uso de tabaco"" (9001128). A intervenção de enfermagem está associada ao foco de atenção ""Uso de tabaco"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior). A intervenção referida permite registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo consulta de apoio intensivo""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
+- Denominador (variável ""idade""): Medida na data de referência do indicador;
+- Denominador (variável ""registo dos hábitos tabágicos""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""P17 na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""consulta médica""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

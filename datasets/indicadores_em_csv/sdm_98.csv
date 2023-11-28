@@ -1,0 +1,87 @@
+titulo,texto
+ID,098
+Código,6.01.08
+Código SIARS,2013.098.01
+Nome abreviado,"Proporção utentes >= 25 A, c/ vacina tétano"
+Designação,"Proporção de utentes com 25 ou mais anos, que têm a vacina antitetânica atualizada"
+Objetivo,"Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa: parâmetro ""vacina antitetânica"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com 25 ou mais anos, com vacina antitetânica atualizada.
+Numerador: Contagem de utentes inscritos com 25 ou mais anos e com vacina antitetânica atualizada.
+Denominador: Contagem de utentes inscritos com 25 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2018.
+Contagem de utentes em que a expressão [A e (B ou C ou D)]:
+A. Todas as condições enunciadas para o denominador.
+B. Se idade compreendida no intervalo [25; 65[ anos, pelo menos uma inoculação de [vacina contra tétano] nos 20 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+), com registo de 3ª dose ou superior (ver alíneas A e B de OBSERVAÇÕES GERAIS). Adicionalmente, a última inoculação deve ter ocorrido no intervalo [9.5; +INF[ anos de idade.
+C. Se idade superior ou igual a 65 anos, pelo menos uma inoculação de [vacina contra tétano] nos 10 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+), com registo de 3ª dose ou superior (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+D. Registo de [vacina contra a difteria e tétano] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2019.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 25 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"")
+C. Residência em Portugal (ver alínea C de OBSERVAÇÕES GERAIS).
+NUMERADOR (AA):
+Válido para indicadores com data de referência entre janeiro e dezembro de 2017.
+Contagem de utentes em que a expressão [A e (B ou C)]:
+A. Todas as condições enunciadas para o denominador.
+B. Se idade compreendida no intervalo [25; 65[ anos, pelo menos uma inoculação de [vacina contra tétano] nos 20 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+), com registo de 3ª dose ou superior (ver alíneas A e B de OBSERVAÇÕES GERAIS). Adicionalmente, a última inoculação deve ter ocorrido no intervalo [9.5; +INF[ anos de idade.
+C. Se idade superior ou igual a 65 anos, pelo menos uma inoculação de [vacina contra tétano] nos 10 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+), com registo de 3ª dose ou superior (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+NUMERADOR (AA):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2016.
+Contagem de utentes em que a expressão [A e B]:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma inoculação de [vacina contra tétano] nos 10 anos anteriores (ver vacinas equivalentes com código
+[TETANO]
+), com registo de 3ª dose ou superior (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2018.
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 25 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"")."
+Observações Gerais,"A. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
+B. O PNV recomenda, relativamente à vacina do tétano, 3 inoculações de vacina e dai para a frente, reforços de 10 em 10 ou 20 em 20 anos consoante a idade. Para efeitos do cumprimento deste indicador, aceita-se o [registo simplificado] da 3ª dose ou superior nos últimos 10 ou 20 anos consoante a idade.
+C. A residência é verificada no RNU à data de referência do indicador. São exluídos do denominador (e consequentemente do numerador), os utentes residentes no estrangeiro."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO"", APÓS JANEIRO 2017
+- Numerador para utentes com idade compreendida no intervalo [25; 65[ anos: Duração de 229 (19 anos e 1 mês) a 240 meses (20 anos). Tem início a 1 de janeiro do ano N-19 e termina na data de referência do indicador.
+- Numerador para utentes com idade igual ou superior a 65 anos: Duração de 109 (9 anos e 1 mês) a 120 meses (10 anos). Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"", APÓS JANEIRO 2017
+- Numerador para utentes com idade compreendida no intervalo [25; 65[ anos: Duração de 240 meses (20 anos). Termina na data de referência do indicador.
+- Numerador para utentes com idade igual ou superior a 65 anos: Duração de 120 meses (10 anos). Termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO"", ATÉ DEZEMBRO 2016
+- Numerador: Duração de 109 (9 anos e 1 mês) a 120 meses (10 anos). Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"", ATÉ DEZEMBRO 2016
+- Numerador: Duração de 120 meses (10 anos). Termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Aceitável,"Ano de 2022: [93; 100]
+Ano de 2023: [93; 100]
+Ano de 2024: [93; 100]"
+Intervalo Esperado,"Ano de 2022: [85; 100]
+Ano de 2023: [85; 100]
+Ano de 2024: [80; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde de adultos
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

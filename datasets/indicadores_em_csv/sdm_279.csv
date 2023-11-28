@@ -1,0 +1,64 @@
+titulo,texto
+ID,279
+Código,3.16.01
+Código SIARS,2013.279.01
+Nome abreviado,Proporção VD enfermagem fim-de-semana e feriado
+Designação,Proporção de visitas domiciliárias de enfermagem efetuadas no período de fim-de-semana ou em dias de feriado
+Objetivo,Monitorizar a acessibilidade aos cuidados de enfermagem no período fim-de-semana ou em dias de feriado.
+Descrição do Indicador,"Exprime a proporção de visitas domiciliárias no ano a utentes [integrados na ECCI] no período fim-de-semana ou em dias de feriado.
+Numerador: Contagem de visitas domiciliárias de enfermagem a realizadas a utentes [integrados na ECCI] no período fim-de-semana ou em dias de feriado.
+Denominador: Contagem de visitas domiciliárias de enfermagem realizadas a utentes [integrados na ECCI]."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de contactos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Realizados ao fim-de-semana ou em dias de feriado nacional (ver alíneas A e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de contactos em que a expressão [A e B e C e D] é verdadeira:
+A. Realizados aos utentes [integrados na ECCI], durante o período em análise do denominador.
+B. Realizados durante o período de integração na ECCI.
+C. Realizados no domicílio, por qualquer enfermeiro da UCC (ver alíneas B, D e E de OBSERVAÇÕES GERAIS).
+D. Que estão de acordo com as definições de [Consulta enfermagem com a presença do utente (direta)] com os código
+C005
+(ver alínea C de OBSERVAÇÕES GERAIS e
+[conceito de consulta]
+)."
+Observações Gerais,"A. Não se contabilizam para o numerador os domicílios realizados em dias de feriado municipal.
+B. Apenas são contabilizados os contactos realizados por enfermeiros da UCC, excluindo contactos de enfermeiros de outras unidades funcionais do ACES.
+C. Os registos de [Consulta enfermagem com a presença do utente (direta)] devem estar de acordo com um dos seguintes códigos de consulta:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+D. Os registos podem ser realizados até 5 dias após a data de agendamento. Por exemplo uma consulta realizada a um sábado pode ser registada até à 5ª feira da semana seguinte.
+E. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os domicílios realizados aos utentes, com ""data de realização"" prévia à abertura da UCC não influenciam o denominador nem o numerador deste indicador.
+F. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+G. Numa ECCI em que a atividade aos fins de semana e feriados seja semelhante (em horário e número de profissionais) à desenvolvida nos dias úteis da semana, é esperado que o resultado deste indicador seja próximos dos 30% ([nº de dias por ano de fim de semana e feriado] / 365). Numa ECCI que reduza a sua atividade ao fim de semana e feriado a cerca de 25% da atividade nos dias úteis da semana, são esperados resultados próximos dos 8% (0.25 x [nº de dias por ano de fim de semana e feriado] / 365)."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. No SCLÍNICO, considera-se domicílio desde que seja selecionado um dos seguintes itens, em [local da consulta], na janela de [efetivação do contacto]:
+- [Domicílio] (válido desde sempre);
+- [Lar de idosos] (válido a partir de janeiro 2023);
+- [Centro de dia] (válido a partir de janeiro 2023);
+- [Locais comunitários] (válido a partir de janeiro 2023);
+- [Estabelecimento prisional] (válido a partir de janeiro 2023).
+É irrelevante assinalar [ato de enfermagem] ou [consulta de enfermagem].
+A consulta não pode ficar [pendente]. Deve ser [terminada]."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de visitas domiciliárias
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Acesso | Distribuição da Atividade
+Intervalo Aceitável,"Ano de 2022: [10; 21]
+Ano de 2023: [10; 21]
+Ano de 2024: [10; 21]"
+Intervalo Esperado,"Ano de 2022: [6; 28]
+Ano de 2023: [6; 28]
+Ano de 2024: [5; 28]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

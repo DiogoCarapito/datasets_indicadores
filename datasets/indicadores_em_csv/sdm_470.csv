@@ -1,0 +1,76 @@
+titulo,texto
+ID,470
+Código,7.26.11
+Código SIARS,2023.470.01
+Nome abreviado,Prop. fuma. abst tabág. 12M após dia D (CICT) ACES
+Designação,"Proporção de utentes fumadores e idade igual ou superior a 15 anos, seguidos no programa de apoio intensivo à cessação tabágica que mantêm abstinência aos 12 meses após ""dia D"", no ACES"
+Objetivo,"Monitorizar a efetividade (utente deixa de fumar) e a eficiência (nº de vezes que o utente deixa de fumar aos 12 meses por cada CICT realizada) dos serviços de saúde dos cuidados de saúde primários na promoção da cessação tabágica.
+Apoiar processos de governação clínica que possam conduzir à diminuição do consumo de tabaco nos utentes inscritos nas unidades funcionais."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes fumadores e idade igual ou superior a 15 anos, seguidos em CICT, que se mantêm em abstinência tabágica 12 meses após a data combinada para o ""dia D"".
+Numerador: Contagem de utentes fumadores e idade igual ou superior a 15 anos, seguidos em CICT, que se mantêm em abstinência tabágica 12 meses após a data combinada para o ""dia D"".
+Denominador: Contagem de utentes fumadores com idade igual ou superior a 15 anos com pelo menos uma CICT e marcação de ""dia D""."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos um registo de ""abstinência tabágica"" efetuado no módulo de CICT da unidade funcional que permitiu identificar o utente no DENOMINADOR_01, entre o 350º dia após o ""dia D""  e a data de referência do indicador (ou até ao 1º registo de ""recaída"", caso a ""recaída"" ocorra antes da data de referência do indicador) com valor igual ou superior a 12 meses (365 dias). Ver alíneas F e H de OBSERVAÇÕES GERAIS.
+C. Existe pelo menos um registo de ""recaída"" efetuado no módulo de CICT da unidade funcional que permitiu identificar o utente no DENOMINADOR_01, entre o 350º dia após o ""dia D""  e a data de referência do indicador, sendo o valor mínimo das ""datas de recaída"" registadas igual ou posterior ao 366º dia após o ""dia D"" (ver alíneas G e H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Ter idade igual ou superior a 15 anos (ver alínea I de OBSERVAÇÕES GERAIS).
+C. Pelo menos um registo de CICT (presencial ou não presencial), realizado por qualquer médico ou interno do ACES, em qualquer UF do ACES, nos últimos 12 meses, com ""dia D"" compreendido entre os meses N-25 e N-14 (N é o mês de referência do indicador). Ver alíneas B, D, E, J e K de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Este indicador pode ser medido para os seguintes tipos de unidades de observação: ACES, URAP, USF, UCSP, CS-SM, listas utentes de médicos e listas de utentes de enfermeiros.
+Em função do tipo de unidade de observação em avaliação, a [
+inscrição ativa
+] tem o domínio de análise a seguir especificado:
+- ACES - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES em análise.
+- URAP - Inscrição em qualquer código RNU na hierarquia de locais dependente do ACES a que pertence a URAP em análise.
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - Inscrição em qualquer código RNU na hierarquia de locais dependente da unidade funcional em análise.
+- Listas utentes de médico de uma UF - Inscrição no médico em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o médico em análise.
+- Listas de utentes de enfermeiro de uma UF - Inscrição no enfermeiro em análise e em qualquer código RNU na hierarquia de locais dependente da unidade funcional a que pertence o enfermeiro em análise.
+B. A análise das CICT no DENOMINADOR é feita de forma independente da unidade de observação em análise no indicador, em todo o ACES.
+Em função do tipo de unidade de observação em avaliação, as CICT no DENOMINADOR têm o domínio de análise a seguir especificado:
+- ACES - CICT realizada em qualquer unidade funcional do ACES.
+- URAP - CICT realizada em qualquer unidade funcional do ACES (e não apenas na URAP).
+- USF-A, USF-B, UCSP, IPSS-C, CON ou CS-SM - CICT realizada em qualquer unidade funcional do ACES (e não apenas UF de inscrição dos utentes).
+- Listas utentes de médico de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no médico e UF de inscrição dos utentes).
+- Listas de utentes de enfermeiro de uma UF - CICT realizada em qualquer unidade funcional do ACES (e não apenas no enfermeiro e UF de inscrição dos utentes).
+C. O período em análise do denominador tem uma duração de 12 meses mas não termina na data de referência do indicador. Termina 11 meses antes e também se inicia 22 meses antes. Esta operação é executada com o objetivo de garantir a existência de pelo menos 14 meses após o ""dia D"" para uma consulta de acompanhamento onde seja possível registo de um ""tempo de abstinência"" ou de um ""tempo de recaída"" igual ou superior a 12 meses (365 dias).
+Assim, se o indicador tiver como data de referência a 31 de dezembro de 2022, entram para o denominador os utentes com ""dia D"" entre o dia 1 de novembro de 2015 e 31 de outubro de 2021.
+D. Se um utente tiver mais do que uma CICT registada no período em análise, com ""dia D"" compreendido entre o mês N-25 e o mês N-14 (mês N é o mês de referência do indicador), é apenas contabilizado 1 vez no denominador.
+E. O registo de ""tempo de abstinência"", para ser válido para a alínea B do numerador deve cumprir as condições seguintes:
+1. O valor registado deve ser igual ou superior a 365.
+2. A data do seu registo ser posterior em pelo menos 350 dias à data do ""dia D"".
+3. O seu registo ter ocorrido no máximo até à data de referência do indicador.
+4. Caso exista registo de ""recaída"", ter ocorrido antes deste último.
+F. O registo de ""tempo de recaída"", para ser válido para a alínea C do numerador deve cumprir as condições seguintes:
+1. Caso ocorra mais do que 1 registo, o usado para a análise das datas é o que tiver ocorrido com data mais precoce.
+2. Caso a ""recaída"" registada, não seja acompanhada de um registo de ""data de recaída"", contabiliza-se a ""data de registo"" como se fosse a ""data de recaída""
+3. O valor calculado da diferença entre deve ""data de recaída"" e o ""dia D"" ser igual ou superior a 366.
+4. A data de registo ser posterior em pelo menos 366 dias à data do ""dia D"".
+5. O seu registo ter ocorrido no máximo até à data de referência do indicador.
+G. Se ao longo dos 12 meses de análise do denominador for possível identificar mais do que uma CICT com registo do dia D, o utente é contabilizado apenas 1 vez para o numerador (caso cumpra as respetivas condições).
+H. A idade deve ser medida em relação à data de referência do indicador.
+I. Para que a alínea C do denominador seja verdadeira, é necessário que o registo do ""dia D"" e a CICT que origina esse registo, ocorram no intervalo [D - 60; D + 90], ou seja, que o ""dia D"" só possa ser contabilizado se for registado para a frente no máximo até 60 dias e para trás no máximo até 90 dias.
+J. O resultado deste indicador é dado pela fórmula seguinte:
+RESULTADO = NUMERADOR / DENOMINADOR x 100"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de tempo de abstinência""): Duração máxima 26 meses, terminando na data de referência do indicador;
+- Numerador (variável ""registo de recaída""): Duração máxima 26 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
+- Denominador (variável ""idade""): Medida na data de referência do indicador;
+- Denominador (variável ""data do dia D""): Duração de 12 meses, compreendidos entre os meses N-25 e N-14, sendo N o mês de referência do indicador.
+- Denominador (variável ""data da CICT""): Duração de 17 meses, compreendidos entre os meses N-27 e N-11, sendo N o mês de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

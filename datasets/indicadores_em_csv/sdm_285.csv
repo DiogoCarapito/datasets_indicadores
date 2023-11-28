@@ -1,0 +1,57 @@
+titulo,texto
+ID,285
+Código,6.60.01
+Código SIARS,2013.285.01
+Nome abreviado,Taxa de efetivid. na prevenção de úlceras pressão
+Designação,Taxa de efetividade na prevenção de úlceras de pressão
+Objetivo,Avaliar a efetividade dos cuidados de enfermagem na prevenção de úlceras de pressão
+Descrição do Indicador,"Exprime a proporção de utentes [integrados na ECCI] que, apresentando risco de desenvolver de ulcera de pressão, nunca chegou a ser diagnosticada a presença de úlcera de pressão durante a integração.
+Numerador: Contagem de utentes [integrados na ECCI] com risco de úlcera de pressão e sem registo de presença de úlcera de pressão durante a integração.
+Denominador: Contagem de utentes [integrados na ECCI] com risco de úlcera de pressão."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições do denominador.
+B. A quem não foi diagnosticada a presença de úlcera de pressão(ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Utentes com [alta da ECCI], durante o período em análise do denominador (ver alíneas B e E de OBSERVAÇÕES GERAIS).
+B. Não se contabilizam utentes em que a duração de integração na ECCI seja superior a 365 dias (ver alíneas C e E de OBSERVAÇÕES GERAIS).
+C. Utentes que apresentaram risco de desenvolver úlcera de pressão durante o período em que estiveram [integrados na ECCI] (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Só são contabilizados os diagnósticos de enfermagem úlcera de pressão registados a partir do 3º dia de integração ou de readmissão na ECCI (mais de 48h após a admissão ou readmissão), Desta forma , não é imputado o registo de eventuais úlceras de pressão no período inicial de admissão, ao desempenho da equipa.
+B. A [alta da ECCI] é considerada a partir do momento em que o utente deixa de estar integrado na ECCI.
+C. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
+[Duração da integração] = [Data de alta] - [Data de admissão] + 1
+D. A leitura dos dados necessários é efetuada nos status associados ao risco de úlcera de pressão. Desta forma, o risco de úlcera de pressão, deve ser avaliado através da escala de Braden (ver orientação da DGS nº 17/2011 de 19 de Maio) e obrigatoriamente documentado no processo de enfermagem através dos grupos de status enunciados em [OBSERVAÇÕES SOBRE SOFTWARE > SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização) > alínea A] e em [OBSERVAÇÕES SOBRE SOFTWARE > SCLÍNICO - PERFIL DE ENFERMAGEM (com normalização) > alínea A].
+E. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os utentes com [data de integração] na ECCI prévia à constituição da UCC, não influenciam o denominador nem o numerador deste indicador.
+F. Indicador apenas calculado para UCC com SCLÍNICO, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SCLÍNICO. O GestCare nunca é fonte de dados para este indicador."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM (sem normalização):
+A. Os grupos de status necessários à obtenção de dados para este indicador são os seguintes: UP ausente; UP presente em grau reduzido; UP presente em grau moderado; UP presente em grau elevado; UP presente em grau muito elevado. Os gestores locais da parametrização devem garantir que esta parametrização não sofre alterações.
+B. A avaliação do Risco de Úlcera de Pressão é efetuada através da intervenção de enfermagem: Monitorizar risco de úlcera de pressão através da ""escala de Braden"".
+SClínico com normalização:
+A. O SClínico com normalização encontra-se parametrizado com os status: sem úlcera de pressão (8001447) e úlcera de pressão (8000233).
+B. A avaliação do Risco de Úlcera de Pressão é efetuada através da intervenção de enfermagem: Avaliar risco de úlcera de pressão (9003822) ou Avaliar risco de úlcera de pressão na criança (9003886).
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A alta é efetuada no painel ""utentes referenciados (ECCI)"", através do botão ""Termo""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável "" úlcera de pressão""): Duração de 24 meses, terminando na data de referência do indicador. Apenas se contabilizam os novos diagnósticos de enfermagem de [úlcera de pressão] que sejam registados a partir do 3º dia de integração.
+- Denominador (variável ""data alta da ECCI"") : Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""risco de úlcera de pressão"") : Duração de 24 meses, terminando na data de referência do indicador. Apenas se contabilizam os diagnósticos de enfermagem de risco de úlcera de pressão que decorram entre o período temporal de cada integração na ECCI.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável "" úlcera de pressão""): Duração de 13 a 24 meses, iniciando a 1 de janeiro do ano N-1 e terminando na data de referência do indicador. Apenas se contabilizam os novos diagnósticos de enfermagem de [úlcera de pressão] que sejam registados a partir do 3º dia.
+- Denominador (variável ""data alta da ECCI"") : Duração de 1 a 12 meses, entre 1 de janeiro do ano em curso e a data de referência do indicador.
+- Denominador (variável ""risco de úlcera de pressão"") : Duração de 13 a 24 meses, entre 1 de janeiro do ano N-1 e a data de referência do indicador. Apenas se contabilizam os diagnósticos de enfermagem de risco de úlcera de pressão que decorram entre o período temporal de cada integração na ECCI."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
+Intervalo Aceitável,"Ano de 2022: [95; 100]
+Ano de 2023: [95; 100]
+Ano de 2024: [95; 100]"
+Intervalo Esperado,"Ano de 2022: [85; 100]
+Ano de 2023: [85; 100]
+Ano de 2024: [85; 100]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,57 @@
+titulo,texto
+ID,336
+Código,3.26.01
+Código SIARS,2017.336.01
+Nome abreviado,Prop. medic. crón. em cons. indir. presc. p/ +4M
+Designação,"Proporção de medicamentos de utilização prolongada, prescritos através de ""consulta não presencial"", com cobertura de pelo menos 4 meses de tratamento, medida pela Dose Diária Definida de cada medicamento prescrito."
+Objetivo,"Monitorizar a frequência com que medicamentos de utilização prolongada são prescritos, em consultas não presenciais, em quantidade suficiente para que o utente os possa tomar durante pelo menos 120 dias."
+Descrição do Indicador,"Exprime a frequência com que medicamentos de utilização prolongada são prescritos, em consultas não presenciais, em quantidade suficiente para que o utente os possa tomar durante pelo menos 120 dias.
+Numerador: Contagem de DDD de medicamentos de utilização prolongada, prescritos em consulta não presencial, com uma previsão de tratamento igual ou superior a 120 dias (120 DDD).
+Denominador: Contagem de DDD de medicamentos de utilização prolongada, prescritos em consulta não presencial."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório de DDD de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. A quantidade de DDD prescritas a um utente, num dia, por um médico é igual ou superior a 120 (ver alíneas D, E e F OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Somatório de DDD de medicamentos prescritos em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Prescritos a utente com [
+inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período em análise.
+B. Prescritos a utente com [
+inscrição ativa
+] na unidade de saúde na data de prescrição.
+C. Prescritos numa consulta realizada num dos locais pertencentes à unidade de observação (ver alínea A de OBSERVAÇÕES GERAIS).
+D. Prescritos por médico ou interno (ver alínea B de OBSERVAÇÕES GERAIS).
+E. Prescritos numa consulta do tipo ""não presencial"" (ver alínea B de OBSERVAÇÕES GERAIS).
+F. Trata-se de um medicamento de utilização prolongada (ver alínea G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Se a unidade de observação do indicador for uma unidade funcional (USF, UCSP ou equivalente), a consulta médica ou de enfermagem deve estar associada a um dos códigos RNU que lhe estejam associados na hierarquia de locais. Os locais RNU pertencentes a cada unidade funcional podem ser consultados, na RIS, em
+https://sdm.min-saude.pt/hierarquia.aspx
+. O mesmo sucede se a unidade de observação do indicador for um ACES. Se a unidade de observação for um médico ou enfermeiro, surgirão no denominador as consultas realizadas por qualquer médico da unidade funcional a utentes que na data de referência do indicador pertençam ao ficheiro de utentes do profissional de saúde (unidade de observação do indicador). Os utentes que na data de referência do indicador já não esteja inscritos na unidade funcional, aparecem associados ao último médico de família e ao último enfermeiro de família de inscrição.
+B. As consultas contabilizados no denominador são do tipo [Consulta médica não presencial], com um dos códigos seguintes:
+-
+C001
+| Consulta médica não presencial - SClínico:
+-
+C007
+| Consulta médica não presencial - MedicineOne
+C. A fonte de dados para a leitura das receitas de medicamentos é a BDNP. Nas receitas médicas em que a BDNP não tenha um identificador único da consulta médica que a gerou, considera-se que a consulta que lhe deu origem foi a mais recente das que se consigam identificar com igualdade de código de local de prescrição, entre 10 dias antes da prescrição e as 24 horas do dia da prescrição.
+D. Se um médico prescrever, num dia, em 3 consultas não presenciais a 3 utentes diferentes, 3 receitas médicas de um medicamento (1 receita por consulta e por utente), numa delas prescrevendo 120 DDD e nas outras 2 receitas apenas 60 DDD, esse médico terá neste indicador 240 no denominador e 120 numerador, ou seja, um resultado de 50%, pois garante que em metade do volume da sua prescrição, os utentes apenas têm que voltar a requerer medicamentos 120 dias depois.
+E. Médicos que prescrevam com mais frequência embalagens de maior dimensão ou mais embalagens, em contexto de doença crónica controlada, estão a promover a autonomia dos utentes, a contribuir para a diminuição da sobrecarga sobre os serviços, a promover uma maior racionalização da despesa com medicamentos e a favorecer a adesão dos utentes à terapêutica prescrita.
+F. Médicos que prescrevam com mais frequência embalagens de menor dimensão ou apenas 1 embalagem de cada medicamento, em contexto de doença crónica controlada, estão a contribuir para o aumento da sobrecarga sobre os serviços, a contribuir para um aumento da despesa com medicamentos (as embalagens de menor dimensão são mais caras) e a contribuir para uma menor adesão à terapêutica prescrita (pelo aumento do risco de a medicação terminar antes do doente conseguir comprar mais medicamentos).
+G. A definição de ""medicamento"" de utilização prolongada é ditada pelo Infarmed e encontra-se disponível na bases de dados de prescrição."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""data de prescrição de medicamento""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data e hora de registo do pedido da consulta pelo utente e fim 72 horas depois.
+- Denominador (variável ""inscrição ativa""): Ancorada na data de realização da consulta.
+- Denominador (variável ""consulta""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""prescrição de medicamento""): O período em análise desta variável está ancorado na respetiva consulta que lhe deu origem e tem início na data e hora de registo do pedido da consulta pelo utente e fim 10 dias depois."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de DDD de medicamentos
+Estado do indicador,Com dados desde Setembro de 2019
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

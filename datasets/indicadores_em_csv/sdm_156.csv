@@ -1,0 +1,28 @@
+titulo,texto
+ID,156
+Código,7.09.03
+Código SIARS,7.6 d3
+Nome abreviado,Percent. consumo medic. genér. (quantid. embal.)
+Designação,Percentagem consumo (quantidade de embalagens) de medicamentos genéricos
+Objetivo,"Monitorizar programa de prescrição de fármacos. Parâmetro ""proporção de embalagens de genéricos"""
+Descrição do Indicador,"Indicador que exprime a proporção de embalagens de medicamentos genéricos faturados face à totalidade de embalagens faturadas, no mercado SNS em ambulatório.
+Numerador: Número de embalagens de genéricos aceites para faturação.
+Denominador: Número total de embalagens."
+Regras de cálculo,"NUMERADOR (AA):
+Número de embalagens de medicamentos genéricos aceites para faturação, durante o período em análise, prescritas a utentes do SNS (exclui subsistemas) inscritos na unidade de observação.
+DENOMINADOR (BB):
+Número de embalagens de medicamentos aceites para faturação, durante o período em análise, prescritas a utentes do SNS (exclui subsistemas) inscritos na unidade de observação."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de embalagens
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

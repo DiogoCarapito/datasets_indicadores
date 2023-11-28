@@ -1,0 +1,70 @@
+titulo,texto
+ID,042
+Código,5.19.01
+Código SIARS,2013.042.01
+Nome abreviado,Proporção DM2 em terapêut. c/ metformina
+Designação,Proporção de utentes com diabetes tipo 2 com terapêutica com metformina
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""terapêutica com metformina""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes tipo 2 com pelo menos uma prescrição de metformina nos últimos 12 meses.
+Numerador: Contagem de utentes inscritos com diabetes tipo 2 e com pelo menos uma prescrição de metformina nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com diabetes tipo 2."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Na data de referência do indicador, existe pelo menos uma metformina registada na terapêutica crónica (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma metformina prescrita nos 12 meses que antecedem a data de referência do indicador (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. São contabilizados todas as prescrições e registos na terapêutica crónica de medicamentos pertencentes ao grupo 8.4.2 (outros antidiabéticos não insulínicos) da classificação farmacoterapêutica de medicamentos (CFT) e pertencentes a uma das seguintes classes da classificação Terapêutica Anatómica e Química (ATC):
+- A10BA02 - METFORMINA
+- A10BD02 - METFORMINA e SULFONAMIDAS
+- A10BD03 - METFORMINA e ROSIGLITAZONA
+- A10BD05 - METFORMINA e PIOGLITAZONA
+- A10BD07 - METFORMINA e SITAGLIPTINA
+- A10BD08 - METFORMINA e VILDAGLIPTINA
+- A10BD10 - METFORMINA e SAXAGLIPTINA
+- A10BD11 - METFORMINA e LINAGLIPTINA
+- A10BD13 - METFORMINA e ALOGLIPTINA
+- A10BD14 - METFORMINA e REPAGLINIDA
+- A10BD15 - METFORMINA e DAPAGLIFLOZINA
+- A10BD16 - METFORMINA e CANAGLIFLOZINA
+- A10BD17 - METFORMINA e ACARBOSE
+- A10BD18 - METFORMINA e GEMIGLIPTINA
+- A10BD20 - METFORMINA e EMPAGLIFLOZINA
+- A10BD22 - METFORMINA e EVOGLIPTINA
+- A10BD26 - METFORMINA e LOBEGLITAZONA
+- A10BD27 - METFORMINA, LINAGLIPTINA e EMPAGLIFLOZINA
+B. Contabilizam-se metforminas isoladas ou em associação.
+C. Não se contabilizam no numerador utentes a quem tenham sido prescritas metforminas no ano anterior se não coexistirem metforminas registadas na terapêutica crónica.
+D. Não se contabilizam no numerador utentes que à data de referência do indicador tenham metforminas registadas na terapêutica crónica, se nenhuma metformina tiver sido prescrita no último ano.
+E. Os medicamentos pertencentes às classes ATC e CFT acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador.
+SCLÍNICO - PERFIL MÉDICO:
+A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], que é tida em consideração pelo SIARS para determinar se o medicamento se encontra ou não ativo na data de referência do indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
+- Numerador (variável ""prescrição de medicamento""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

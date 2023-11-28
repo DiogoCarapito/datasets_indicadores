@@ -1,0 +1,78 @@
+titulo,texto
+ID,308
+Código,5.34.02
+Código SIARS,2015.308.01
+Nome abreviado,Proporção grávidas com ecografia 2º trimestre
+Designação,"Proporção de grávidas que realizaram, pelo menos um exame ecográfico durante o 2º trimestre de gravidez"
+Objetivo,"Monitorização do cumprimento da norma de orientação clínica da DGS 23/2011 (revista em 21-05-2013) sobre ""Exames ecográficos na gravidez de baixo risco"" (ver alínea G de OBSERVAÇÕES GERAIS)."
+Descrição do Indicador,"Exprime a proporção de grávidas que realizaram, pelo menos um exame ecográfico entre as 19 e as 22 semanas e seis dias de gravidez.
+Numerador: Contagem de grávidas com ecografia realizada entre as 19 e as 22 semanas e seis dias de gravidez.
+Denominador: Contagem de grávidas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Ter pelo menos um registo de resultado de ecografia obstétrica do 2º trimestre, com data de realização entre as [19; 23[ semanas ([134; 161] dias) de gestação (ver alíneas A, B, G e I de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Ser mulher;
+B. Gravidez registada no módulo ou no programa de saúde materna;
+C. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez] (ver alíneas C e D de OBSERVAÇÕES GERAIS);
+D. Gravidez não classificada como aborto (ver alínea H de OBSERVAÇÕES GERAIS);
+E. O 217º dia de gestação pertencente ao período em análise (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+F. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos um dia do período compreendido entre as [19; 23[ semanas ([134; 161] dias) de gestação (ver alíneas A e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. A datação da gravidez faz-se por regra a partir da [data prevista de parto corrigida] registada no módulo ou programa de saúde materna. Caso a [data prevista de parto corrigida] não esteja registada, a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+B. Os códigos da tabela de MCDT válidos para [ecografia obstétrica do 2º trimestre] são o M292.5, o M291.7 e o 17195. A data que deve ser usada para verificar se este exame está ou não dentro das [19; 23[ semanas ([134; 161] dias) é a ""data de realização"". O resultado deve ser preenchido, no máximo, até ao 217º dia de gestação, que supera em 8 semanas a data limite superior para a realização da ecografia.
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+E. Excluem-se do denominador (e consequentemente do numerador) as grávidas que não tenham estado inscritas na unidade de saúde durante pelo menos um dia do período em que é necessária a realização da ecografia ([134; 161] dias).
+F. Consideram-se as grávidas com 30 semanas e seis dias de gestação para existir tempo para que os resultados da ecografia do 2º trimestre sejam registados nos sistemas de informação.
+G. De acordo norma de orientação clínica da DGS 23/2011 (revista em 21-05-2013) sobre ""Exames ecográficos na gravidez de baixo risco"":
+a) Existe indicação para a realização de ecografia obstétrica, realizada entre as 20 e as 22 semanas (Nível de evidência A, Grau de recomendação I).
+b) A ecografia do segundo trimestre permite confirmar alguns dados da ecografia do primeiro trimestre, mas destina-se, sobretudo, à identificação de malformações fetais. São de especial relevância as malformações incompatíveis com a vida ou associadas a elevada morbilidade pós-natal, anomalias com potencial para tratamento intrauterino ou que exigem tratamento ou investigação pós-natal.
+c) Existe evidência científica de aumento da qualidade do exame e de diminuição da probabilidade de ter que ser repetido, que quando realizado entre as 20 e as 22 semanas, em comparação com a realização às ""18 semanas"".
+Por outro lado:
+a) Existe o limite legal das 24 semanas (no máximo até ao 168º dia de gestação) para a realização de interrupção de gravidez motivada por anomalias fetais graves.
+b) Existem contextos territoriais em que é particularmente difícil que todas as grávidas realizem a ecografia do 2º trimestre entre as 20 e as 22 semanas.
+c) O indicador tem uma função de monitorização do desempenho das equipas no cumprimento da norma da DGS, existindo restrições externas às equipas, que limitam a sua capacidade para cumprir, com todo o rigor, os limites temporais definidos.
+Assim sendo, opta-se por:
+Alargar o intervalo para a realização da ecografia do 2º trimestre, medido pelo indicador, para entre as 19 e as 22 semanas e seis dias.
+H. A classificação do registo de gravidez como [aborto], exclui a utente do denominador. Caso a gravidez termine em aborto (espontâneo ou provocado), tal deve ser registado no módulo ou programa de saúde materna (ver OBSERVAÇÕES SOBRE SOFTWARE), para que seja detetado pelo SIARS. Embora o aborto possa e deva ser registado no A do SOAP e classificado pela ICPC-2 como [episódio], tal não é detetado pelo SIARS.
+I. A ecografia pode ter sido requisitada e registada por qualquer unidade funcional do mesmo ACES."
+Observações Sobre Software,"SClínico:
+A. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea C de OBSERVAÇÕES GERAIS deve ter a seguinte leitura:
+O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ancoragem de cada grávida a este indicador é o facto de o 217º dia de gestação (medido a partir data prevista de parto corrigida, se existir, ou da DUM, caso contrário) pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Os períodos em análise das restantes variáveis do denominador e do numerador dependem do período da gestação em que devem ser realizados:
+A. Numerador (variável ""ecografia obstétrica do 2º trimestre"": [134; 161] dias de gestação.
+B. Denominador (Variável ""Ser mulher""): Medido na data de referência do indicador.
+C. Denominador (Variável ""Gravidez registada no módulo ou no programa de saúde materna""): Medido na data de referência do indicador.
+D. Denominador (Variável ""Registo do diagnóstico médico de gravidez""): Medido na data de referência do indicador;
+E. Denominador (Variável ""Aborto""): Medido na data de referência do indicador;
+F. Denominador (Variável ""Inscrição ativa""): [134; 161] dias de gestação."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Com dados desde Dezembro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,5 dias

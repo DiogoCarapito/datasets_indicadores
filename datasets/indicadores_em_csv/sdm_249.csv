@@ -1,0 +1,41 @@
+titulo,texto
+ID,249
+Código,2.13.17
+Código SIARS,MORB.249.01
+Nome abreviado,"Incidência de ""osteoartrose do joelho"""
+Designação,"Proporção de utentes com novo diagnóstico de ""osteoartrose do joelho"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""incidência de osteoartrose do joelho"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com novo diagnóstico de ""osteoartrose do joelho"" (último ano) identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""osteoartrose do joelho"" registado na lista de problemas e iniciado no último ano.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""osteoartrose do joelho"" (rubrica ICPC L90) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador e teve início nos últimos 12 meses (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Contabilizam-se apenas os diagnósticos que tiveram início (campo ""data de início"" do problema) nos 12 meses que antecedem a data de referência do indicador. Isto pressupõe que os médicos quando procedem ao registo de um novo problema de saúde alterem a data que é colocada por defeito pelo sistema de registo clínico nesse campo (habitualmente a data atual) para a data aproximada em que o problema foi diagnosticado ao doente. Não o fazendo, tal ocasiona uma sobre-valorização do resultado deste indicador.
+C. Critérios de L90 (ICPC-2): Manifestação imagiológica característica; ou perturbações das articulações com duração mínima de três meses, sem sintomas constitucionais, e três ou mais das seguintes manifestações: edema intermitente; crepitação; rigidez ou limitação dos movimentos; VS, testes reumatóides e ácido úrico normais; idade superior a 40 anos.
+D. O L90 inclui (ICPC-2): Osteoartrite, secundária a traumatismo.
+E. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição. Isto faz com que os utentes falecidos ou transferidos ao longo do ano e com o problema de saúde registado na lista de problemas antes do falecimento não sejam contabilizados no denominador nem no numerador, decorrendo dai uma subvalorização da incidência."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,‰
+Output,Incidência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

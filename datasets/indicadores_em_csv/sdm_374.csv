@@ -1,0 +1,206 @@
+titulo,texto
+ID,374
+Código,6.78.01
+Código SIARS,2017.374.01
+Nome abreviado,Taxa intern. asma/DPOC entre doentes c/ asma/DPOC
+Designação,Taxa de internamento por asma ou DPOC em adultos com essas patologias
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelas UCC a adultos com ""asma"" ou com ""DPOC"", no controlo da sintomatologia destas doenças, usando como medida a ""taxa de internamento hospitalar"" por agudização de uma destas patologias."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de internamentos hospitalares com diagnóstico principal de asma ou de doença pulmonar obstrutiva crónica (DPOC), por cada 100 utentes com essas patologias e 40 ou mais anos, com [
+inscrição ativa
+] na área de abrangência de uma UCC.
+Numerador: Contagem de episódios de internamento hospitalar com diagnóstico principal de asma ou DPOC.
+Denominador: Contagem ponderada de doentes com asma/DPOC e 40 ou mais anos.
+Os utentes entram para o denominador desde que inscritos pelo menos 1 dia do período em análise, sendo no entanto ponderados pela proporção de meses de inscrição, desde um mínimo de 1/12 (utente inscrito 1 mês) até um máximo de 12/12 (utente inscrito 1 ano)."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de episódios de internamento em que [A e B e C e (D ou E ou F) e G e H] é verdadeiro:
+A. Pertencentes a utentes incluídos no denominador.
+B. Data de alta incluída no período em análise (12 meses).
+C. Com duração superior a 24 horas (ver alínea A de OBSERVAÇÕES GERAIS).
+D. O utente internado tem diagnóstico principal de ""doença pulmonar obstrutiva crónica"" (ver alínea B de OBSERVAÇÕES GERAIS).
+E. O utente internado tem diagnóstico principal de ""asma"" (ver alínea C de OBSERVAÇÕES GERAIS).
+F. O utente internado tem diagnóstico principal de ""bronquite aguda"" (ver alínea D de OBSERVAÇÕES GERAIS) e diagnósticos secundários de ""doença pulmonar obstrutiva crónica"" (ver alínea B de OBSERVAÇÕES GERAIS).
+G. O utente internado não tem diagnósticos secundários de fibrose quística nem de outras doenças respiratórias crónicas (ver alínea E de OBSERVAÇÕES GERAIS).
+H. Excluem-se episódios de internamento por gravidez, parto e puerpério.
+DENOMINADOR: (BB)
+Contagem ponderada (ver alínea F de OBSERVAÇÕES GERAIS) de utentes em que [A e B e C e (D ou E)] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (ver alínea G de OBSERVAÇÕES GERAIS), durante pelo menos 1 dia do período em análise.
+B. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas H e I de OBSERVAÇÕES GERAIS.
+C. Com idade no intervalo [40; +INF[ no último dia do período em análise.
+D. O diagnóstico de asma (rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos 1 dia do período em análise.
+E. O diagnóstico de DPOC (rubrica da ICPC-2 R95) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos 1 dia do período em análise."
+Observações Gerais,"A. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+B. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para """"doença pulmonar obstrutiva crónica"""":
+ICD-10-CM:
+J410 - Simple chronic bronchitis
+J411 - Mucopurulent chronic bronchitis
+J418 - Mixed simple and mucopurulent chronic bronchitis
+J42 - Unspecified chronic bronchitis
+J430 - Unilateral pulmonary emphysema [MacLeod's syndrome]
+J431 - Panlobular emphysema
+J432 - Centrilobular emphysema
+J438 - Other emphysema
+J439 - Emphysema, unspecified
+J440 - Chronic obstructive pulmonary disease with acute lower respiratory infection
+J441 - Chronic obstructive pulmonary disease with (acute) exacerbation
+J449 - Chronic obstructive pulmonary disease, unspecified
+J470 - Bronchiectasis with acute lower respiratory infection
+J471 - Bronchiectasis with (acute) exacerbation
+J479 - Bronchiectasis, uncomplicated
+ICD-9-CM:
+4910 - Bronquite crónica simples
+4911 - Bronquite crónica mucopurulenta
+49120 - Bronquite crónica obstrutiva, sem exacerbação
+49121 - Bronquite crónica obstrutiva, com exacerbação (aguda)
+49122 - Bronquite crónica obstrutiva, com bronquite aguda
+4918 - Bronquite crónica não classificável em outra parte
+4919 - Bronquite crónica não especificada
+4920 - Bolha enfisematosa
+4928 - Enfisema não classificável em outra parte
+494 - Bronquiectasias
+4940 - Bronquiectasias sem exacerbação aguda
+4941 - Bronquiectasias com exacerbação aguda
+496 - Obstrução crónica de vias respiratórias NCOP
+C. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para """"asma"""":
+ICD-10-CM:
+J4521 - Mild intermittent asthma with (acute) exacerbation
+J4522 - Mild intermittent asthma with status asthmaticus
+J4531 - Mild persistent asthma with (acute) exacerbation
+J4532 - Mild persistent asthma with status asthmaticus
+J4541 - Moderate persistent asthma with (acute) exacerbation
+J4542 - Moderate persistent asthma with status asthmaticus
+J4551 - Severe persistent asthma with (acute) exacerbation
+J4552 - Severe persistent asthma with status asthmaticus
+J45901 - Unspecified asthma with (acute) exacerbation
+J45902 - Unspecified asthma with status asthmaticus
+J45990 - Exercise induced bronchospasm
+J45991 - Cough variant asthma
+J45998 - Other asthma
+ICD-9-CM:
+49300 - Asma extrínseca, não especificada
+49301 - Asma extrínseca, com estado asmático
+49302 - Asma extrínseca, com exacerbação (aguda)
+49310 - Asma intrínseca, não especificada
+49311 - Asma intrínseca, com estado asmático
+49312 - Asma intrínseca, com exacerbação (aguda)
+49320 - Asma crónica obstrutiva, não especificada
+49321 - Asma crónica obstrutiva, com estado asmático
+49322 - Asma crónica obstrutiva, com exacerbação (aguda)
+49381 - Broncospasmo induzido pelo exercício
+49382 - Variante de tosse da asma
+49390 - Asma não especificada, estado não especificado
+49391 - Asma não especificada, com estado asmático
+49392 - Asma não especificada, com exacerbação (aguda)
+D. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para """"bronquite aguda"""":
+ICD-10-CM:
+J200 - Acute bronchitis due to Mycoplasma pneumoniae
+J201 - Acute bronchitis due to Hemophilus influenzae
+J202 - Acute bronchitis due to streptococcus
+J203 - Acute bronchitis due to coxsackievirus
+J204 - Acute bronchitis due to parainfluenza virus
+J205 - Acute bronchitis due to respiratory syncytial virus
+J206 - Acute bronchitis due to rhinovirus
+J207 - Acute bronchitis due to echovirus
+J208 - Acute bronchitis due to other specified organisms
+J209 - Acute bronchitis, unspecified
+J40 - Bronchitis, not specified as acute or chronic
+ICD-9-CM:
+4660 - Bronquite aguda
+490 - Bronquite, não especificada como aguda ou crónica
+E. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para """"fibrose quística"""" ou """"outras doenças respiratórias crónicas"""":
+ICD-10-CM:
+E840 - Cystic fibrosis with pulmonary manifestations
+E8411 - Meconium ileus in cystic fibrosis
+E8419 - Cystic fibrosis with other intestinal manifestations
+E848 - Cystic fibrosis with other manifestations
+E849 - Cystic fibrosis, unspecified
+J8483 - Surfactant mutations of the lung
+J84841 - Neuroendocrine cell hyperplasia of infancy
+J84842 - Pulmonary interstitial glycogenosis
+J84843 - Alveolar capillary dysplasia with vein misalignment
+J84848 - Other interstitial lung diseases of childhood
+P270 - Wilson-Mikity syndrome
+P271 - Bronchopulmonary dysplasia originating in the perinatal period
+P278 - Other chronic respiratory diseases originating in the perinatal period
+P279 - Unspecified chronic respiratory disease originating in the perinatal period
+Q254 - Other congenital malformations of aorta
+Q311 - Congenital subglottic stenosis
+Q312 - Laryngeal hypoplasia
+Q313 - Laryngocele
+Q315 - Congenital laryngomalacia
+Q318 - Other congenital malformations of larynx
+Q319 - Congenital malformation of larynx, unspecified
+Q320 - Congenital tracheomalacia
+Q321 - Other congenital malformations of trachea
+Q322 - Congenital bronchomalacia
+Q323 - Congenital stenosis of bronchus
+Q324 - Other congenital malformations of bronchus
+Q330 - Congenital cystic lung
+Q331 - Accessory lobe of lung
+Q332 - Sequestration of lung
+Q333 - Agenesis of lung
+Q334 - Congenital bronchiectasis
+Q335 - Ectopic tissue in lung
+Q336 - Congenital hypoplasia and dysplasia of lung
+Q338 - Other congenital malformations of lung
+Q339 - Congenital malformation of lung, unspecified
+Q340 - Anomaly of pleura
+Q341 - Congenital cyst of mediastinum
+Q348 - Other specified congenital malformations of respiratory system
+Q349 - Congenital malformation of respiratory system, unspecified
+Q390 - Atresia of esophagus without fistula
+Q391 - Atresia of esophagus with tracheo-esophageal fistula
+Q392 - Congenital tracheo-esophageal fistula without atresia
+Q393 - Congenital stenosis and stricture of esophagus
+Q394 - Esophageal web
+Q893 - Situs inversus
+ICD-9-CM:
+27700 - Fibrose quística sem mencao de ileo meconial
+27701 - Fibrose quística com ileo meconial
+27702 - Fibrose quística com manifestações pulmonares
+27703 - Fibrose quística com manifestações gastrintestinais
+27709 - Fibrose quística com manifestações não classificáveis em outra parte
+51662 - Glicogenose intersticial pulmonar
+51663 - Denca pulmonar devida a mutações da surfactante
+51664 - Displasia alveolo-capilar com desalinhamento venoso
+51669 - Doencas pulmonares intersticiais da criança NCOP
+74721 - Anomalia congénita do arco aortico
+7483 - Malformacao congénita da laringe, traqueia ou bronquios NCOP
+7485 - Agenésia,hipoplasia e displasia pulmonar
+74860 - Anomalia congénita pulmão SOE
+74861 - Bronquiectasias congénitas
+7488 - Malformações congénitas especificadas do aparelho respiratório NCOP
+7489 - Malformações congénitas do aparelho respiratório SOE
+7503 - Fistula traqueo-esofágica, atrésia ou estenose do esófago
+7593 - Situs inversus
+7707 - Doenca respiratoria cronica com inicio no período perinatal
+F. A ponderação para o denominador é feita no intervalo [0; 1], em múltiplos de 1/12 (0; 1/12; 1/12; 2/12; 3/12; 4/12; 5/12; 6/12; 7/12; 8/12; 9/12; 10/12; 11/12 e 12/12) em função do nº de meses com inscrição ativa e idade igual ou superior a 65 anos que é possível apurar durante os 12 meses do período em análise.
+G. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
+H. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+I. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+- Numerador (variável ""Data de alta do episódio de internamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""Diagnóstico principal""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""residência na área de abrangência da UCC""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""idade""): Avaliada na data de referência do indicador.
+- Denominador (variável ""código RNU de inscrição CSP relacionado com UCC""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""ASMA na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""DPOC na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Taxa internamento (por 100 utentes com asma/DPOC por ano)
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Reabilitação
+Intervalo Aceitável,"Ano de 2022: [0; 1.6]
+Ano de 2023: [0; 1.6]
+Ano de 2024: [0; 1.2]"
+Intervalo Esperado,"Ano de 2022: [0; 3.5]
+Ano de 2023: [0; 3.5]
+Ano de 2024: [0; 3.5]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,90 dias

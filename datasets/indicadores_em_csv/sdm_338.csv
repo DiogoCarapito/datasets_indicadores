@@ -1,0 +1,974 @@
+titulo,texto
+ID,338
+Código,3.28.01
+Código SIARS,2017.338.01
+Nome abreviado,Score organiz. acesso consultas não presenciais
+Designação,Score de organização do acesso a consultas não presenciais
+Objetivo,"Monitorizar a implementação, por parte das unidades prestadoras, de processos promotores de acessibilidade a consultas não presenciais e ser um instrumento de melhoria contínua da unidade prestadora."
+Descrição do Indicador,"As consultas sem a presença do utente, seja para renovação do receituário crónico, seja a realização de consultas por ""telefone"", ""telemóvel"" ou por ""e-mail"" (para resolução de problemas ou questões passíveis de o ser através desses canais de comunicação) constituem uma forma eficiente garantir acessibilidade aos utentes.
+A monitorização desta componente de acessibilidade pode ser efetuada através de indicadores que medem a quantidade de ""receitas"" prescritas em consulta não presencial, ou a quantidade de consultas realizadas por ""telefone"" ou ainda os que medem o tempo médio que os utentes esperam até que as suas chamadas sejam atendidas, a proporção de chamadas atendidas, entre outros.
+Este Score pretende medir a forma como a unidade prestadora organiza as suas ""consultas não presenciais"" assinalando, item a item, em que medida implementa um conjunto de procedimentos que contribuem para que as referidas ""consultas não presenciais"" sejam uma realidade fluida e verdadeiramente acessível aos utentes.
+O objetivo secundário deste Score é o de poder ser ele próprio um instrumento de melhoria contínua da unidade prestadora, uma vez que lança pistas sobre medidas que podem ser implementadas ou melhoradas para que os utentes possam ter acesso a este tipo de consultas com médicos, enfermeiros e outros profissionais de saúde."
+Regras de cálculo,"SCORE ORGANIZAÇÃO DE CONSULTAS NÃO PRESENCIAIS - ÁREAS EM AVALIAÇÃO
+A fórmula de cálculo deste score é baseada numa checklist de autopreenchimento pela unidade funcional, entrando em linha de conta com os seguintes aspetos:
+1. A existência de evidências sobre a implementação de boas práticas;
+3. A existência de valorização própria para áreas total e parcialmente cumpridas;
+4. A existência de uma ponderação para cada área de avaliação;
+CHECKLIST DE AUTO-PREENCHIMENTO
+Para cada item da checklist a unidade funcional 
+    (USF/UCSP) deve ter a possibilidade de submeter evidências que permitam ao conselho clínico e de saúde do respetivo ACES proceder à respetiva validação.
+COD
+Área de Avaliação
+Critérios de Avaliação
+Ponder.
+Abs.
+Validade
+A01
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a ""consultas não presenciais"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Cumprido
+A unidade 
+         funcional tem um procedimento escrito e aprovado em conselho geral que integre a temática da ""consulta não presencial"".
+100
+R02
+Não 
+         cumprido
+Sem critérios para ser considerado ""cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A02
+A unidade funcional publicita no guia do utente a possibilidade de acesso dos utentes a 
+    ""consultas não presenciais"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+A unidade 
+         funcional publicita no guia do utente a possibilidade de acesso dos utentes a 
+         consultas não presenciais, informando também o utente sobre tempo máximo 
+         em que se compromete dar resposta aos pedidos, sendo esse tempo igual ou inferior aos tempos de resposta máximos garantidos (TMRG) em vigor.
+100
+R02
+Parcialmente cumprido
+A unidade 
+         funcional publicita no guia do utente a possibilidade de acesso dos utentes a 
+         consultas não presenciais. No entanto, nessa divulgação ou não informa o utente 
+         sobre tempo máximo em que se compromete dar resposta aos pedidos ou esse tempo é 
+         superior aos tempos de resposta máximos garantidos (TMRG) em vigor.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+3
+Inicio: 01-01-2017;
+Fim: --
+A03
+A unidade funcional publicita através de outro canal que não o guia do utente, a possibilidade de 
+    acesso dos utentes a ""consultas não presenciais"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B] seja 
+         verdadeira:
+A. A divulgação de ""consultas não presenciais"" é feita, de forma sistemática, por pelo menos um dos seguintes 
+         canais: web site, e-mail, vídeo, folheto informativo ou cartaz informativo nas 
+         instalações.
+B. Nessa divulgação, a unidade funcional informa sobre tempo máximo em que se compromete dar 
+         resposta aos pedidos e esse tempo é igual ou inferior aos tempos de resposta 
+         máximos garantidos (TMRG) em vigor.
+100
+R02
+Parcialmente cumprido
+A unidade funcional publicita, 
+         através de canal diferente do guia do utente, sobre a possibilidade de acesso dos 
+         utentes a ""consultas não presenciais"", fazendo-o, no entanto, ou de forma não 
+         sistemática, ou sem fazer referência ao tempo em que se compromete dar resposta 
+         ou publicitando um tempo  superior aos tempos de resposta máximos 
+         garantidos (TMRG) em vigor.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A04
+A unidade funcional, prevê e divulga que o ""pedido de renovação de receituário crónico"" 
+    seja efetuado por e-mail ou outro canal eletrónico.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Cumprido
+Para que este critério esteja cumprido é necessário que a condição [A e B] seja 
+         verdadeira:
+A.
+O procedimento de acesso a ""consultas não presenciais"" da unidade funcional, aprovado em 
+         conselho geral, possui uma componente do ""pedido de renovação de receituário crónico"" 
+         que prevê a possibilidade dos utentes procederem ao pedido por e-mail ou através de outro canal eletrónico.
+B. Essa possibilidade (de pedido por canais digitais) é divulgada no guia do utente.
+100
+R02
+Não 
+         cumprido
+Sem critérios para ser considerado ""cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A05
+A unidade funcional prevê e divulga que os utentes possam entregar resultados de 
+    exames complementares de diagnóstico na secretaria da unidade funcional bem como 
+    através de outros ""canais de entrada"" como o e-mail (ou opcionalmente através do 
+    respetivo web site).
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C] seja 
+         verdadeira:
+A. O procedimento de entrega de resultados de exames complementares encontra-se 
+         previsto em procedimento escrito aprovado em conselho geral.
+B. A unidade funcional tem prevista a entrega de resultados de MCDT quer 
+         diretamente na secretaria da unidade funcional quer através de ""canais digitais 
+         de entrada"" como o e-mail (ou opcionalmente o respetivo web site).
+C. A unidade funcional divulga essa possibilidade no guia do utente.
+100
+R02
+Parcialmente cumprido
+Para que este critério esteja parcialmente cumprido é necessário que a condição [A e B 
+         e C e D] seja 
+         verdadeira:
+A. O procedimento de entrega de resultados de exames complementares de 
+         diagnóstico e terapêutica (MCDT) encontra-se previsto em procedimento escrito 
+         aprovado em conselho geral.
+B. A unidade funcional tem prevista a entrega de MCDT diretamente na secretaria 
+         da unidade funcional.
+C. A unidade funcional divulga a possibilidade de entrega de MCDT através da 
+         secretaria no guia do utente.
+D. A unidade funcional não prevê a recepção de MCDT através de ""canais digitais 
+         entrada"" como o e-mail (ou opcionalmente o respetivo web site).
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A06
+O procedimento de acesso a ""consultas não presenciais"", na componente ""entregar 
+    resultados de exames complementares de diagnóstico e terapêutica"" é explícito 
+    relativamente a:
+a) Termos, prazos e circunstâncias em que a unidade funcional devolve informação 
+    aos utentes sobre a interpretação dos resultados dos exames por parte dos 
+    profissionais de saúde;
+b) Política de arquivo de originais de relatórios e imagens.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C] seja 
+         verdadeira:
+A. O procedimento de entrega de resultados de exames complementares de 
+         diagnóstico e terapêutica (MCDT) encontra-se previsto em procedimento escrito 
+         aprovado em conselho geral, prevendo a possibilidade de entrega pelo menos de 
+         forma direta através do secretariado clínico da unidade.
+B. O procedimento é explícito relativamente aos termos, prazos e circunstâncias 
+         em que a unidade funcional devolve informação aos utentes sobre a interpretação 
+         dos resultados dos exames por parte dos profissionais de saúde.
+C. O procedimento explicita a política de arquivo dos documentos em papel ou 
+         formato digital com relatórios e imagem, os prazos de armazenamento em arquivo 
+         da unidade e os procedimentos de destruição após ultrapassados os referidos 
+         prazos.
+100
+R02
+Parcialmente cumprido
+Para que este critério esteja parcialmente cumprido é necessário que a condição 
+         ""A"" esteja cumprida e que cumpra apenas uma das duas outras condições (""A"" ou 
+         ""B""):
+A. O procedimento de entrega de resultados de exames complementares de 
+         diagnóstico e terapêutica (MCDT) encontra-se previsto em procedimento escrito 
+         aprovado em conselho geral, prevendo a possibilidade de entrega pelo menos de 
+         forma direta através do secretariado clínico da unidade.
+B. O procedimento é explícito relativamente aos termos, prazos e circunstâncias 
+         em que a unidade funcional devolve informação aos utentes sobre a interpretação 
+         dos resultados dos exames por parte dos profissionais de saúde.
+C. O procedimento explicita a política de arquivo dos documentos em papel ou 
+         formato digital com relatórios e imagem, os prazos de armazenamento em arquivo 
+         da unidade e os procedimentos de destruição após ultrapassados os referidos 
+         prazos.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A07
+A unidade funcional garante a existência de um arquivo centralizado e indexado 
+    de todos os pedidos de ""consulta não presencial"" ativos.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C e D] seja 
+         verdadeira:
+A. Existe um procedimento escrito e aprovado em conselho geral sobre a gestão de 
+         um arquivo centralizado e indexado de todos os pedidos de ""consulta não 
+         presencial"" ativos.
+B. O procedimento prevê a existência de mecanismos de indexação/ordenação dos 
+         pedidos efetuados, que possibilitam que o produto dos mesmos (p.e., receita 
+         médica, declaração, entre outros) é facilmente encontrado por quem tem a 
+         responsabilidade de proceder à entrega dos documentos aos utentes.
+C. A unidade funcional garante a ordenação do arquivo por ""nome completo do 
+         utente"" ou por ""número do utente"" ou por algum outro processo de ordenação que 
+         minimize o extravio da documentação a entregar.
+D. A variável indexante referida no ponto anterior encontra-se impressa num 
+         formulário que é sistematicamente usado para proceder ao arquivo da 
+         documentação, sendo essa variável impressa num tamanho de letra que é 
+         facilitador da leitura e pesquisa manual da documentação.
+100
+R02
+Parcialmente cumprido
+Para que este critério esteja parcialmente cumprido é necessário que a condição [A e B] 
+         seja verdadeira e que a [C e D] seja 
+         falsa (ou seja não cumpra C ou não cumpra D ou não cumpra C nem D):
+A. Existe um procedimento escrito e aprovado em conselho geral sobre a gestão de 
+         um arquivo centralizado e indexado de todos os pedidos de ""consulta não 
+         presencial"" ativos.
+B. O procedimento prevê a existência de mecanismos de indexação/ordenação dos 
+         pedidos efetuados, que possibilitam que o produto dos mesmos (p.e., receita 
+         médica, declaração, entre outros) é facilmente encontrado por quem tem a 
+         responsabilidade de proceder à entrega dos documentos aos utentes.
+C. A unidade funcional garante a ordenação do arquivo por ""nome completo do 
+         utente"" ou por ""número do utente"" ou por algum outro processo de ordenação que 
+         minimize o extravio da documentação a entregar.
+D. A variável indexante referida no ponto anterior encontra-se impressa num 
+         formulário que é sistematicamente usado para proceder ao arquivo da 
+         documentação, sendo essa variável impressa num tamanho de letra que é 
+         facilitador da leitura e pesquisa manual da documentação.
+33
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+3
+Inicio: 01-01-2017;
+Fim: --
+A08
+O procedimento interno de ""consulta não presencial"" prevê que no momento da 
+    entrega do respetivo produto ao utente, seja sistematicamente verificada a 
+    efetiva cobrança de taxa moderadora (ou validação da isenção ou dispensa).
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B] seja 
+         verdadeira:
+A. O procedimento interno de ""consulta não presencial"" aprovado em conselho geral 
+         prevê que no momento da entrega do respetivo produto ao utente, seja 
+         sistematicamente verificada a efetiva cobrança de taxa moderadora (ou validação 
+         da isenção ou dispensa).
+B. Quem procede à entrega dos pedidos realizados aos utentes tem acesso à 
+         informação sobre o estado da cobrança da taxa moderadora.
+100
+R02
+Parcialmente cumprido
+Para que este critério esteja parcialmente cumprido é necessário que apenas uma 
+         das condições ""A"" ou ""B"" seja 
+         verdadeira:
+A. O procedimento interno de ""consulta não presencial"" aprovado em conselho geral 
+         prevê que no momento da entrega do respetivo produto ao utente, seja 
+         sistematicamente verificada a efetiva cobrança de taxa moderadora (ou validação 
+         da isenção ou dispensa).
+B. Quem procede à entrega dos pedidos realizados aos utentes tem acesso à 
+         informação sobre o estado da cobrança da taxa moderadora.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A09
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a 
+    consultas ""realizadas por telefone ou telemóvel"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Cumprido
+A unidade funcional tem um procedimento interno, aprovado em conselho geral, 
+         sobre o acesso dos utentes a ""consultas realizadas por telefone ou telemóvel"".
+100
+R02
+Não 
+         cumprido
+Sem critérios para ser considerado ""cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A10
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    telefone ou telemóvel"" possui alguns critérios de exigência.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+O procedimento interno sobre o acesso dos utentes a consultas ""realizadas por 
+         telefone ou telemóvel"", aprovado em conselho geral, operacionaliza o acesso quer 
+         as consultas médicas quer as consultas de enfermagem quer às de outros 
+         profissionais de saúde que eventualmente integrem a equipa, aprova a tipologia 
+         de problemas a abordar neste tipo de consultas e explicita o processo de 
+         cobrança de taxas moderadoras.
+100
+R02
+Parcialmente cumprido
+O procedimento interno sobre o acesso dos utentes a consultas ""realizadas por 
+         telefone ou telemóvel"" existe e foi aprovado em conselho geral mas apenas 
+         explicita o acesso a consultas de um subconjunto de profissionais de saúde, ou 
+         não é explícito relativamente à tipologia de problemas de saúde abordáveis ou 
+         não explicita o processo de cobrança de taxas moderadoras.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A11
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+    acederem a consultas ""realizadas por telefone ou telemóvel"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+         acederem a consultas ""realizadas por telefone ou telemóvel"", explicitando os 
+         procedimentos necessários para acesso às mesmas, designadamente nº de telefone 
+         de contacto, horário de acesso e eventual necessidade de cobrança de taxas 
+         moderadoras.
+100
+R02
+Parcialmente cumprido
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+         acederem a consultas ""realizadas por telefone ou telemóvel"", no entanto sem 
+         explicitar pelo menos uma das seguintes informações associadas: nº de telefone 
+         de contacto; horário de acesso; cobrança de taxas moderadoras.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+3
+Inicio: 01-01-2017;
+Fim: --
+A12
+A unidade funcional publicita por algum outro canal que não o guia do utente a 
+    possibilidade dos utentes acederem a consultas ""realizadas por telefone ou 
+    telemóvel"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+A unidade funcional publicita, de forma sistemática, por pelo menos um canal 
+         alternativo ao guia do utente (web site, e-mail, vídeo, folheto informativo ou 
+         cartaz informativo nas instalações) a possibilidade dos utentes acederem a 
+         consultas ""realizadas por telefone ou telemóvel"", explicitando os procedimentos 
+         necessários para acesso às mesmas, designadamente nº de telefone de contacto, 
+         horário de acesso e eventual necessidade de cobrança de taxas moderadoras.
+100
+R02
+Parcialmente cumprido
+A unidade funcional publicita, de forma sistemática, por pelo menos um canal 
+         alternativo ao guia do utente (web site, e-mail, vídeo, folheto informativo ou 
+         cartaz informativo nas instalações) a possibilidade dos utentes acederem a 
+         consultas ""realizadas por telefone ou telemóvel"", no entanto sem explicitar pelo 
+         menos uma das seguintes informações associadas: nº de telefone de contacto; 
+         horário de acesso; cobrança de taxas moderadoras.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A13
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a 
+    consultas ""realizadas por e-mail"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Cumprido
+A unidade funcional tem um procedimento interno, aprovado em conselho geral, 
+         sobre o acesso dos utentes a ""consultas realizadas por e-mail"".
+100
+R02
+Não 
+         cumprido
+Sem critérios para ser considerado ""cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A14
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    e-mail"" tem alguns critérios de exigência.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C e D] seja 
+         verdadeira:
+A. Existe procedimento interno sobre o acesso dos utentes a consultas 
+         ""realizadas por e-mail"", aprovado em conselho geral.
+B. O referido procedimento operacionaliza o acesso quer as consultas médicas, 
+         quer as consultas de enfermagem, quer às de outros profissionais de saúde que 
+         eventualmente integrem a equipa.
+C. O procedimento explicita a tipologia de problemas a abordar neste tipo de 
+         consultas (por exemplo para envio de resultados de exames ou sempre que o médico 
+         ou o enfermeiro tenham acordado previamente com o utente o acesso por essa via 
+         para assuntos específicos).
+D. O procedimento explicita o processo de cobrança de taxas 
+         moderadoras.
+100
+R02
+Parcialmente cumprido
+O procedimento interno sobre o acesso dos utentes a consultas ""realizadas por 
+         e-mail"" existe e foi aprovado em conselho geral mas apenas explicita o acesso a 
+         consultas de um subconjunto de profissionais de saúde, ou não é explícito 
+         relativamente à tipologia de problemas de saúde abordáveis ou não explicita o 
+         processo de cobrança de taxas moderadoras.
+50
+R03
+Não 
+         cumprido
+Sem critérios para ser considerado ""totalmente cumprido"" nem ""parcialmente 
+         cumprido"".
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+A15
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    e-mail"" é explícito sobre procedimentos relacionados com a segurança e 
+    confidencialidade dos dados.
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Cumprido
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+         e-mail"" é explícito sobre procedimentos relacionados com a segurança e 
+         confidencialidade dos dados.
+100
+R02
+Não 
+         cumprido
+Sem critérios para ser considerado ""cumprido"".
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A16
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+    acederem a consultas ""realizadas por e-mail"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente Cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C e D e E] seja 
+         verdadeira:
+A. A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+         acederem a consultas ""realizadas por e-mail"".
+B. A unidade funcional explicita a necessidade do envio ser feito para o 
+         endereço de e-mail institucional do profissional de saúde (domínio 
+         ""min-saude.pt"")
+C. A unidade funcional divulgando o tempo máximo de resposta.
+D. A unidade funcional divulga a eventual necessidade de cobrança de taxas 
+         moderadoras.
+E. A unidade funcional divulga o tipo de assuntos a abordar através deste canal 
+         fazendo referência aos problemas de segurança associados a este canal de 
+         comunicação.
+100
+R02
+Parcialmente cumprido
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+         acederem a consultas ""realizadas por e-mail"", no entanto sem explicitar todas as 
+         informações que permitam classificar o critério como ""totalmente cumprido"".
+50
+R03
+Não 
+         cumprido
+A unidade funcional não publicita no guia do utente a possibilidade dos utentes 
+         acederem a consultas ""realizadas por e-mail""
+0
+2
+Inicio: 01-01-2017;
+Fim: --
+A17
+A unidade funcional publicita por algum outro canal que não o guia do utente a 
+    possibilidade dos utentes acederem a consultas ""realizadas por e-mail"".
+COD
+Descritivo Breve
+Critérios
+Valorização (%)
+R01
+Totalmente Cumprido
+Para que este critério esteja 
+         totalmente cumprido é necessário que a condição [A e B e C e D e E] seja 
+         verdadeira:
+A. A unidade funcional publicita, de forma sistemática, por pelo menos um canal 
+         alternativo ao guia do utente (web site, e-mail, vídeo, folheto informativo ou 
+         cartaz informativo nas instalações) a possibilidade dos utentes acederem a 
+         consultas ""realizadas por e-mail"".
+B. A unidade funcional explicita a necessidade do envio ser feito para o 
+         endereço de e-mail institucional do profissional de saúde (domínio 
+         ""min-saude.pt"")
+C. A unidade funcional divulgando o tempo máximo de resposta.
+D. A unidade funcional divulga a eventual necessidade de cobrança de taxas 
+         moderadoras.
+E. A unidade funcional divulga o tipo de assuntos a abordar através deste canal 
+         fazendo referência aos problemas de segurança associados a este canal de 
+         comunicação.
+100
+R02
+Parcialmente cumprido
+A unidade funcional publicita, de forma sistemática, por pelo menos um canal 
+         alternativo ao guia do utente (web site, e-mail, vídeo, folheto informativo ou 
+         cartaz informativo nas instalações) a possibilidade dos utentes acederem a 
+         consultas ""realizadas por e-mail"", no entanto sem explicitar todas as 
+         informações que permitam classificar o critério como ""totalmente cumprido"".
+50
+R03
+Não 
+         cumprido
+A unidade funcional não publicita por canais alternativos ao guia do utente a 
+         possibilidade dos utentes acederem a consultas ""realizadas por e-mail""
+0
+1
+Inicio: 01-01-2017;
+Fim: --
+LEGENDA: Ponder. Abs. - Ponderação absoluta do critério.
+NUMERADOR (AA)
+Trata-se do somatório de pontuações obtidas pela avaliação em cada um dos critérios de A01 a A17, 
+    multiplicando a ponderação absoluta do item avaliado pela valorização dada à 
+    avaliação de cumprimento desse item.
+DENOMINADOR (BB)
+Trata-se do somatório de ponderações absolutas dos critérios de A01 a A17, ou 
+    seja 
+    ""30,0"".
+RESULTADO (CC)
+CC = AA / BB x 100
+VALORIZAÇÃO PARA EFEITOS DE ÍNDICE DE DESEMPENHO GLOBAL
+Aceita-se que neste indicador, o RESULTADO (CC) é proporcional quer ao esforço a 
+    desenvolver pelas equipas, quer ao potencial impacto sobre a acessibilidade, 
+    para valores de resultado entre 0 e 75%.
+Para valores superiores a 75% aceita-se ou que o esforço é proporcionalmente 
+    maior ou que o impacto sobre a acessibilidade é menos intenso.
+Nestes termos, o valor mínimo da variação aceitável é 0% e o valor mínimo do 
+    intervalo esperado é 75%, o que implica a atribuição de um valor contínuo entre 
+    0 e 2 pontos, para valores de RESULTADO (CC) entre 0 e 75%.
+Os valores máximos do intervalo esperado e da variação aceitável são 100%, de 
+    onde decorre que se atribuem 2 pontos para RESULTADOS (CC) iguais ou superiores 
+    a 75%.
+Nestes Termos, o score para o IDS é calculado pela fórmula seguinte:
+Score = CC x 2 / 75
+Se Score > 2, corrigir para 2
+EXEMPLO DE CÁLCULO PARA UMA UCSP
+COD
+Área de Avaliação
+Critérios de Avaliação
+Ponder. Abs.
+Resultado Parcial
+A01
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a ""consultas não presenciais"".
+R01 - Cumprido - 100%
+1
+1
+A02
+A unidade funcional publicita no guia do utente a possibilidade de acesso dos utentes a 
+    ""consultas não presenciais"".
+R02 - Parcialmente cumprido - 50%
+3
+1,5
+A03
+A unidade funcional publicita através de outro canal que não o guia do utente, a possibilidade de 
+    acesso dos utentes a ""consultas não presenciais"".
+R03 - Não cumprido - 0%
+2
+0
+A04
+A unidade funcional, prevê e divulga que o ""pedido de renovação de receituário crónico"" 
+    seja efetuado por e-mail ou outro canal eletrónico.
+R01 - Cumprido - 100%
+2
+2
+A05
+A unidade funcional prevê e divulga que os utentes possam entregar resultados de 
+    exames complementares de diagnóstico na secretaria da unidade funcional bem como 
+    através de outros ""canais de entrada"" como o e-mail (ou opcionalmente através do 
+    respetivo web site).
+R02 - Parcialmente cumprido - 50%
+2
+1
+A06
+O procedimento de acesso a ""consultas não presenciais"", na componente ""entregar 
+    resultados de exames complementares de diagnóstico e terapêutica"" é explícito 
+    relativamente a:
+a) Termos, prazos e circunstâncias em que a unidade funcional devolve informação 
+    aos utentes sobre a interpretação dos resultados dos exames por parte dos 
+    profissionais de saúde;
+b) Política de arquivo de originais de relatórios e imagens.
+R02 - Parcialmente cumprido - 50%
+1
+0,5
+A07
+A unidade funcional garante a existência de um arquivo centralizado e indexado 
+    de todos os pedidos de ""consulta não presencial"" ativos.
+R02 - Parcialmente cumprido - 33%
+3
+1
+A08
+O procedimento interno de ""consulta não presencial"" prevê que no momento da 
+    entrega do respetivo produto ao utente, seja sistematicamente verificada a 
+    efetiva cobrança de taxa moderadora (ou validação da isenção ou dispensa).
+R02 - Totalmente cumprido - 100%
+1
+1
+A09
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a 
+    consultas ""realizadas por telefone ou telemóvel"".
+R01 - Cumprido - 100%
+1
+1
+A10
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    telefone ou telemóvel"" possui alguns critérios de exigência.
+R02 - Parcialmente cumprido - 50%
+2
+1
+A11
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+    acederem a consultas ""realizadas por telefone ou telemóvel"".
+R02 - Parcialmente cumprido - 50%
+3
+1,5
+A12
+A unidade funcional publicita por algum outro canal que não o guia do utente a 
+    possibilidade dos utentes acederem a consultas ""realizadas por telefone ou 
+    telemóvel"".
+R03 - Não cumprido - 0%
+2
+0
+A13
+A unidade funcional tem um procedimento interno sobre o acesso dos utentes a 
+    consultas ""realizadas por e-mail"".
+R03 - Não cumprido - 0%
+1
+0
+A14
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    e-mail"" tem alguns critérios de exigência.
+R03 - Não cumprido - 0%
+1
+0
+A15
+O procedimento interno sobre o acesso dos utentes a ""consultas realizadas por 
+    e-mail"" é explícito sobre procedimentos relacionados com a segurança e 
+    confidencialidade dos dados.
+R03 - Não cumprido - 0%
+2
+0
+A16
+A unidade funcional publicita no guia do utente a possibilidade dos utentes 
+    acederem a consultas ""realizadas por e-mail"".
+R02 - Parcialmente cumprido - 50%
+2
+1
+A17
+A unidade funcional publicita por algum outro canal que não o guia do utente a 
+    possibilidade dos utentes acederem a consultas ""realizadas por e-mail"".
+R03 - Não cumprido - 0%
+1
+0
+TOTAL
+30,0
+12,5
+NUMERADOR (AA)
+O numerador é obtido pela soma da coluna ""resultado parcial"", 
+    ou seja 
+    ""12,5"".
+DENOMINADOR (BB)
+Somatório de ponderações absolutas dos critérios de A01 a A17, ou 
+    seja 
+    ""30,0"".
+RESULTADO (CC)
+CC = AA / BB x 100 
+    = 12,5 / 30 x 100 = 41,67
+VALORIZAÇÃO PARA EFEITOS DE ÍNDICE DE DESEMPENHO GLOBAL
+Score = CC x 2 / 75 = 41,67 x 2 / 75 = 1,11
+EXEMPLO DE CÁLCULO 
+    PARA UM ACES
+O ACES possui 4 UCSP e uma USF-A com os resultados de aplicação da 
+    Checklist de autoavaliação que a seguir se apresentam:
+ID
+Tipo de UF
+Numerador (AA)
+Denominador (BB)
+Resultado CC
+Score (DD)
+Inscritos Ativos (II)
+CC x II
+DD x II
+1
+UCSP
+30
+30
+100,0%
+2,00
+10000
+1000000
+20000
+2
+UCSP
+10
+30
+33,3%
+0,89
+12000
+396000
+10680
+3
+UCSP
+22
+30
+73,3%
+1,95
+6000
+438000
+11700
+4
+UCSP
+5
+30
+16.7%
+0,44
+3000
+50100
+1320
+5
+USF-A
+22,5
+30
+75,0%
+2,00
+15000
+1125000
+30000
+SOMATÓRIO
+46000
+3009100
+73700
+RESULTADO (CC)
+CC = SOMATÓRIO (CC x II) / SOMATÓRIO (II) = 3009100 / 46000 = 65,41%
+VALORIZAÇÃO PARA EFEITOS DE ÍNDICE DE DESEMPENHO GLOBAL
+Score = SOMATÓRIO (DD x II) / SOMATÓRIO (II) = 73700 / 46000 = 1,60"
+Observações Gerais,"A. As consultas realizadas por ""telefone ou telemóvel"" ou por ""e-mail"" correspondem a subtipos de ""consulta não presencial"", tal como especificado
+aqui
+.
+B. Os critérios a avaliar neste score, relacionados com consultas realizadas por ""telefone ou telmóvel"" ou por ""e-mail"" apenas devem ser considerados parcial ou totalmente cumpridos se a definição que a unidade funcional tem deste tipo de consultas abranger inequivocamente o que é explicitado
+aqui
+.
+C. Este score pressupõe um processo de auto-avaliação pela unidade funcional e posterior avaliação e auditoria pelo conselho clínico e de saúde do ACES.
+D. Este score é apenas aplicável diretamente a unidades funcionais do tipo USF/UCSP. O cálculo para ACES deve ser efetuado ponderando dimensão em número de inscritos à data de referência do indicador.
+E.
+    Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador está calibrado para produzir resultados 
+    pertencentes ao intervalo [0; 2], não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+C02
+IDS da dimensão ""Qualidade organizacional - acesso""
+O [IDS da dimensão ""segurança dos utentes""] é obtido já no processo de cálculo 
+    do IDG a partir da fórmula seguinte:
+[IDS da dimensão ""Qualidade organizacional - acesso""] = 100 x [Score dimensão ""Qualidade 
+    organizacional - acesso""] / 2
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente todas as variáveis da 
+                CHECKLIST DE autopreenchimento, 
+    registadas pela unidade funcional
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+O período em análise do indicador é de 12 meses, terminando na data de referência do indicador.
+Este é um indicador que apenas será avaliado anualmente em dezembro.
+Todas as variáveis deste indicador, referidas nos itens a avaliar de A01 a A17 são analisadas à data de referência do indicador.
+No entanto alguns dos itens, para que sejam considerados ""cumpridos"" é necessária a demonstração do respetiva execução regular ao longo dos 12 meses do período em análise, cabendo aos avaliadores ajuizar sobre essa regularidade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de critérios cumpridos
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,Qualidade Organizacional | Melhoria Contínua | Acesso
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Não aplicável
+Prazo para Registos,5 dias

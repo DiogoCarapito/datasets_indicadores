@@ -1,0 +1,37 @@
+titulo,texto
+ID,121
+Código,4.09.01
+Código SIARS,4.9 1m
+Nome abreviado,Nº médio cons. médicas vig. s. infantil 0-11 meses
+Designação,Número médio de consultas médicas de vigilância de saúde infantil dos 0 aos 11 meses
+Objetivo,Acompanhamento do Programa de Saúde Infantil - 1º ano de vida.
+Descrição do Indicador,"Indicador que exprime o número médio de consultas médicas de vigilância em saúde infantil realizadas às crianças que completam 1 ano de idade no período em análise (associadas ao programa de saúde infantil).
+Numerador: Contagem de consultas médicas de saúde infantil realizadas no intervalo [0; 11[ meses de idade.
+Denominador: Contagem de crianças vigiadas em SI com 1 ano de vida."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas médicas em que a expressão [A e B e ( C ou D)] é verdadeira:
+A. Contactos realizados aos utentes definidos no denominador.
+B. Realizados durante o período compreendido entre o nascimento e os 11 meses de vida ([0, 330] dias).
+C. Existência de contacto directo, um SOAP, e uma observação no módulo de saúde infantil, efetuados por qualquer médico ou interno da unidade de saúde.
+D. Existência de contacto directo, um SOAP, e classificação de um ""problema de saúde"" da consulta com a rubrica A98 da ICPC-2, efetuados por qualquer médico ou interno da unidade de saúde.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 1 ano de idade durante o período em análise.
+B. Inscrição ativa na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida.
+C. Associação ao programa de vigilância em saúde infantil durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 1 ano de vida durante o ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas inicia-se com o nascimento e termina ao 330º dia de vida.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [1, 2[ anos de idade."
+Fórmula,AA / BB
+Unidade de medida,CONS/UTE
+Output,Número médio de consultas
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

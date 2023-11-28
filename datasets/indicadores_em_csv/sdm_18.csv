@@ -1,0 +1,59 @@
+titulo,texto
+ID,018
+Código,5.13.01
+Código SIARS,2013.018.01
+Nome abreviado,Proporção de hipertensos com IMC (12 meses)
+Designação,"Proporção de utentes com hipertensão arterial, com pelo menos um registo de IMC nos últimos 12 meses"
+Objetivo,"Monitorizar o acompanhamento dos utentes com hipertensão arterial: parâmetro ""índice de massa corporal (IMC)""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com registo de IMC nos últimos 12 meses.
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com registo de IMC nos últimos 12 meses.
+Denominador: Contagem de utentes inscritos com hipertensão arterial."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C e (D ou E)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Que tenham pelo menos um registo de IMC nos últimos 12 meses (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Que tenham pelo menos um registo parametrizado do peso, nos últimos 12 meses (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+D. Que tenham pelo menos um registo parametrizado de estatura, realizado após os 20 anos de idade do utente (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+E. Que tenham pelo menos um registo parametrizado de estatura, realizado nos 2 anos que antecedem a data de referência do indicador (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. Quando a unidade de observação é o médico ou a unidade de saúde, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Quando a unidade de observação é o ACES, são contabilizados no numerador os utentes com registos de peso realizados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde. Os registos de estatura podem ter sido registados por qualquer médico, interno ou enfermeiro de qualquer unidade de saúde (independentemente da unidade de observação do indicador). Os registos médicos tornam prescindíveis os de enfermagem e vice-versa.
+B. Os registos de IMC, peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes, planeamento familiar, saúde infantil e saúde materna. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que o peso e altura sejam registados no mesmo dia. O peso deve ser registado durante os 12 meses que antecedem a data de referência do indicador. A estatura deve estar registada pelo menos uma vez com data de medição posterior aos 20 anos de idade, ou, caso o utente tenha menos de 22 anos, deve existir um registo nos 24 meses que antecedem a data de referência do indicador.
+D. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. O IMC, o peso e a estatura podem ser registados neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. O IMC, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes, saúde materna, saúde infantil e planeamento familiar.
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. O IMC, o peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes, saúde materna, saúde infantil e planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável IMC): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável peso): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável estatura): Ver REGRAS DE CÁLCULO.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável IMC): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Numerador (variável peso): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Numerador (variável estatura): Ver REGRAS DE CÁLCULO.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [65; 100]
+Ano de 2023: [65; 100]
+Ano de 2024: [60; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

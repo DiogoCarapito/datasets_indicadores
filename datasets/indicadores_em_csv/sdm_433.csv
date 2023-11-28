@@ -1,0 +1,83 @@
+titulo,texto
+ID,433
+Código,6.88.01
+Código SIARS,2019.433.01
+Nome abreviado,Prop. comunid. educ. c/ mais conhec. ativ. física
+Designação,Proporção comunidades educativas com melhoria no conhecimento sobre atividade física
+Objetivo,"Avaliar a efetividade da intervenção das UCC na melhoria do conhecimento sobre atividade física, nas comunidades educativas (alunos, docentes, encarregados de educação e não docentes)."
+Descrição do Indicador,"Exprime os ganhos obtidos em conhecimento sobre atividade física, nas comunidades educativas.
+Numerador: Contagem de turmas com intervenção no âmbito da alimentação saudável, com melhoria no conhecimento da comunidade educativa sobre atividade física.
+Denominador: Contagem de turmas com intervenção no âmbito da alimentação saudável"
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de comunidades educativas em que a expressão [A e B e (C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Com pelo menos duas avaliações do conhecimento da comunidade sobre atividade física (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Com diagnóstico de enfermagem ""Conhecimento da comunidade sobre atividade física, melhorado"", documentado por um dos elementos da UCC, durante o período em análise do indicador, em data posterior ao diagnóstico de enfermagem ""Potencial para melhorar o conhecimento da comunidade sobre atividade física"", também documentado durante o período em análise, por um dos elementos da UCC (ver alínea D de OBSERVAÇÕES GERAIS).
+D. Com diagnóstico de enfermagem ""Conhecimento da comunidade sobre atividade física"", documentado por um dos elementos da UCC, durante o período em análise do indicador, em data posterior a um dos seguintes diagnósticos de enfermagem, também eles documentados durante o período em análise, por um dos elementos da UCC: ""Potencial para melhorar o conhecimento da comunidade sobre atividade física"" ou ""Conhecimento da comunidade sobre atividade física, melhorado"" (ver alínea D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de comunidades educativas em que a expressão [A e B e C e D e (E ou F)] é verdadeira:
+A. Ativas na UCC pelo menos um dia no período em análise do indicador (ver alínea A, B e C de OBSERVAÇÕES GERAIS).
+B. Com pelo menos uma
+C023
+| Consulta de enfermagem de âmbito comunitário (direta) (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com associação do [P.N.S.E.: Saúde Individual e Coletiva], realizada por um dos elementos da UCC, durante o período em análise.
+D. Com pelo menos uma avaliação do ""conhecimento da comunidade sobre atividade física"" (ver alínea D de OBSERVAÇÕES GERAIS).
+E. Com diagnóstico de enfermagem ""Potencial para melhorar o conhecimento da comunidade sobre atividade física"", documentado por um dos elementos da UCC, durante o período em análise (ver alínea D de OBSERVAÇÕES GERAIS).
+F. Com diagnóstico de enfermagem ""Conhecimento da comunidade sobre atividade física, melhorado"", documentado por um dos elementos da UCC, durante o período em análise (ver alínea D de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São consideradas todas as turmas criadas nas diferentes comunidades educativas incluídas no parque escolar da área de abrangência, nomeadamente: Comunidade Educativa Alunos (CEA); Comunidade Educativa Docentes (CED); Comunidade Educativa Encarregados de Educação (CEEE) e Comunidade Educativa Não Docente (CEND).
+B. O Conselho Clínico e de Saúde do ACES tem a responsabilidade de garantir que até 31 de dezembro do 1º ano de cada ""ano letivo"", ficam registadas no sistema de informação em uso pela UCC, todas as turmas do parque escolar, que tenham sido contratualizadas com cada UCC.
+C. As UCC devem manter actualizado o registo das turmas do parque escolar contratualizadas em cada ano, mantendo ativas em cada mês as que pertençam ao ""ano letivo"" em curso. Apesar de o ano letivo se iniciar a 1 de setembro de cada ano e termina a 31 de agosto do ano seguinte, para efeitos deste indicador, são consideradas todas as turmas ativas pelo menos um dia no período em análise (mesmo que pertencentes a anos letivos diferentes).
+D. A avaliação do conhecimento da comunidade educativa sobre atividade física é 
+    efetuado através da intervenção ""Avaliar conhecimento da comunidade sobre atividade física"" (9004355). Em função do resultado desta intervenção, são elegíveis os 
+    seguintes três grupos de status diagnósticos:
+Código
+Designação
+Valorização do
+conhecimento
+Aplicável ao Numerador?
+Aplicável ao denominador?
+8014350
+Potencial para melhorar o conhecimento da comunidade sobre atividade física
+0%
+Não
+Sim
+8014349
+Conhecimento da comunidade sobre atividade física, melhorado
+75%
+Sim
+Sim
+8014348
+Conhecimento da comunidade sobre atividade física
+100%
+Sim
+Não
+E. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+F. As consultas contabilizadas no denominador são do tipo [Consulta presencial] com o código seguinte:
+-
+C023
+| Consulta de enfermagem de âmbito comunitário (direta).
+Não estão incluídas as consultas de enfermagem realizadas ao cliente ""Utentes"" e ""Famílias""."
+Observações Sobre Software,"SClínico (Perfil Enfermagem):
+A. O SClínico – perfil enfermagem, tem disponível uma lista de programas de saúde. O acesso à lista de valores relativa aos programas de saúde é efetuado dentro do processo de um utente/família/comunidade, através do ícone ""Prog."" (programas e projetos de saúde). O programa de saúde elegível para esta métrica (P.N.S.E.: Saúde Individual e Coletiva) podem ser encontrados nesta lita de valores e devem ser associados em todos os contactos cujo âmbito da intervenção esteja relacionada com o âmbito destes programas de saúde.
+B. A ""Consulta de enfermagem de âmbito comunitário (direta)"", elegível para o denominador é passível de ser documentada acedendo ao painel comunidades, selecionando um dos locais de contacto sugeridos, e consulta de enfermagem no tipo de contacto."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""avaliação do conhecimento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""diagnóstico de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""):  Avaliada na data de referência do indicador.
+- Denominador (variável ""consulta""):  Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""programa""):  Duração de 12 meses, coincidente com a variável ""consulta"", terminando na data de referência do indicador.
+- Denominador (variável ""avaliação do conhecimento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""diagnóstico de enfermagem""):  Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção comunidades educativas
+Estado do indicador,Com dados desde Dezembro de 2019
+Área | Subárea | Dimensão,Desempenho | Intervenção Comunitária | Saúde Escolar
+Intervalo Aceitável,"Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Intervalo Esperado,"Ano de 2023: [20; 100]
+Ano de 2024: [20; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Saúde Escolar
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

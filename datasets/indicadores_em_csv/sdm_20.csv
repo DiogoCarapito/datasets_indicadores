@@ -1,0 +1,58 @@
+titulo,texto
+ID,020
+Código,6.20.01
+Código SIARS,2013.020.01
+Nome abreviado,"Proporção hipertensos < 65 A, com PA < 150/90"
+Designação,"Proporção de utentes com hipertensão arterial, com idade inferior a 65 anos, com pressão arterial inferior a 150/90 mmHg"
+Objetivo,"Monitorizar o acompanhamento dos utentes com hipertensão arterial: parâmetro ""resultado da pressão arterial""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com hipertensão arterial, com idade inferior a 65 anos, com pelo menos uma medição de pressão arterial nos últimos 6 meses e último resultado inferior a 150/90 mmHg.
+Numerador: Contagem de utentes inscritos com hipertensão arterial, com pressão arterial inferior a 150/90 mmHg nos últimos 6 meses.
+Denominador: Contagem de utentes inscritos com hipertensão arterial, com idade inferior a 65 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O último registo de pressão arterial, registado no semestre que antecede a data de referência do indicador, deve ser inferior a 150/90 mmHg (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de hipertensão (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo"".
+C. Ter idade inferior a 65 anos (medida na data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"")."
+Observações Gerais,"A. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+C. Não se contabilizam registos realizados em texto livre no SOAP.
+D. Quando existe mais do que um registo de pressão arterial no período em análise, apenas se contabiliza o último registado, que deve ser inferior ao limiar definido no numerador.
+E. Apenas são considerados no numerador os utentes com registo de PAS inferior a 150 e PAD inferior a 90. Basta que a PAS seja igual ou superior a 150 ou que a PAD seja igual ou superior a 90 mmHg, para que esse registo não seja considerado."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+MEDICINEONE
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;"
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 6 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 6 meses, terminando na data de referência do indicador. Quando a data de referência do indicador se situa nos primeiros 6 meses do ano, o período em análise inicia-se a 1 de janeiro do ano em curso. Quando a data de referência do indicador se situa nos últimos 6 meses do ano, o período em análise inicia-se a 1 de julho do ano em curso.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com hipertensão arterial
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2022: [67; 100]
+Ano de 2023: [67; 100]
+Ano de 2024: [67; 100]"
+Intervalo Esperado,"Ano de 2022: [45; 100]
+Ano de 2023: [45; 100]
+Ano de 2024: [45; 100]"
+Tipo de Indicador,Resultado
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

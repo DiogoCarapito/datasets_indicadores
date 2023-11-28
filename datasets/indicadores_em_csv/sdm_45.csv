@@ -1,0 +1,81 @@
+titulo,texto
+ID,045
+Código,5.02.01
+Código SIARS,2013.045.01
+Nome abreviado,Prop. mulheres 25-60 anos c/ rastr. c. colo út.
+Designação,"Proporção de mulheres entre 25-60 anos, com rastreio do cancro do colo do útero efetuado"
+Objetivo,"Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro do colo do útero"".
+Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional) e também salvaguardando a possibilidade de leitura de registos clínicos efetuados pelas equipas de saúde familiar em contexto de rastreios oportunísticos ou de rastreios organizados de forma sistemática por essas unidades funcionais aos respetivos utentes (em complementaridade com as ações e registos no âmbito dos rastreios de base populacional)."
+Descrição do Indicador,"Indicador que exprime a proporção entre as mulheres com rastreio do cancro do colo do útero efetuado e as mulheres com idades compreendidas no intervalo [25, 60[ anos.
+Numerador: Contagem de mulheres com rastreio do cancro do colo do útero efetuado.
+Denominador: Contagem de mulheres com idades compreendidas no intervalo 25-60 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de
+colpocitologia em lâmina
+nos últimos 3 anos (ver alíneas A, C e D de OBSERVAÇÕES GERAIS).
+C. Pelo menos um resultado de
+colpocitologia em meio líquido
+nos últimos 5 anos (ver alíneas B, C e D de OBSERVAÇÕES GERAIS).
+D. Pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+nos últimos 5 anos (ver alíneas F e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou superior a janeiro de 2022.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [25; 61[ anos (ver alínea E de OBSERVAÇÕES GERAIS).
+C. Com inscrição ativa na Unidade de Saúde na data de referência do indicador.
+DENOMINADOR (BB):
+Validade:
+Indicadores com data de referência igual ou inferior a dezembro de 2021.
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Ser mulher.
+B. Ter idade compreendida no intervalo [25; 60[ anos (ver alínea E de OBSERVAÇÕES GERAIS).
+C. Com inscrição ativa na Unidade de Saúde na data de referência do indicador."
+Observações Gerais,"A. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em lâmina"" é o seguinte:
+- [Exame citológico cervico-vaginal], código 008.6, área B. Código da tabela de preços do SNS: 30510.
+B. O código da tabela de MCDT convencionados válido para registar ""colpocitologias em meio líquido"" é o seguinte:
+- [Exame citológico cervico-vaginal com processamento automatizado em camada fina], código 012.4, área B. Código da tabela de preços do SNS: 30650.
+C. Para que uma colpocitologia seja contabilizada deve ter um resultado.
+D. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+E. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+F. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+G. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. Os resultados da ""colpocitologia em lâmina"" devem ser registados no módulo de MCDT.
+B. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O registo é efetuado no módulo de MCDT. O código deste exame na tabela de preços do SNS é o 30650.
+C. O exame [Pesquisa de DNA por PCR, cada PCR] também deve ser registado no módulo de MCDT.
+D. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+MEDICINEONE:
+A. Para que sejam contabilizados neste indicador, as colpocitologias podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+B. O resultado da colpocitologia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+C. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""Colpocitologia em lâmina""): Duração de 36 meses, terminando na data de referência do indicador.
+- Numerador (variável ""Colpocitologia em meio líquido""): Duração de 60 meses, terminando na data de referência do indicador.
+- Numerador (variável ""Pesquisa de DNA do HPV por PCR""): Duração de 60 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""Colpocitologia em lâmina""): Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Numerador (variável ""Colpocitologia em meio líquido""): Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Numerador (variável ""Pesquisa de DNA do HPV por PCR""): Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Denominador: Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Intervalo Esperado,"Ano de 2022: [41; 100]
+Ano de 2023: [41; 100]
+Ano de 2024: [37; 100]"
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

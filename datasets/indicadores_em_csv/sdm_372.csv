@@ -1,0 +1,294 @@
+titulo,texto
+ID,372
+Código,6.77.01
+Código SIARS,2017.372.01
+Nome abreviado,Taxa de intern. por fratura do colo do fémur
+Designação,Taxa de internamento hospitalar por queda com fratura do colo do fémur
+Objetivo,Monitorizar o impacto da ação das diferentes UF dos CSP na diminuição das quedas na população com idade igual ou superior a 75 anos
+Descrição do Indicador,"Exprime a proporção de episódios de internamento hospitalar por queda com fratura do colo do fémur entre utentes com 75 ou mais anos.
+Numerador: Contagem de episódios de internamento hospitalar por queda com fratura do colo do fémur em utentes com 75 ou mais anos.
+Denominador: Contagem ponderada de utentes com 75 ou mais anos.
+Os utentes entram para o denominador desde que inscritos pelo menos 1 dia do período em análise, sendo no entanto ponderados pela proporção de meses de inscrição, desde um mínimo de 1/12 (utente inscrito 1 mês) até um máximo de 12/12 (utente inscrito 1 ano)."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de episódios de internamento em que [A e B e C e D e E e F e G] é verdadeiro:
+A. Pertencentes a utentes incluídos no denominador.
+B. Data de alta incluída no período em análise (12 meses).
+C. Na data de admissão o utente tem 75 ou mais anos.
+D. Com duração superior a 24 horas (ver alínea E de OBSERVAÇÕES GERAIS).
+E. O utente tem episódio com data da 1ª cirurgia preenchida e posterior à data de entrada do utente no internamento.
+F. O utente tem episódio com data da 1ª cirurgia preenchida e anterior à data de alta do episódio.
+G. O utente internado tem episódio com diagnóstico principal de fratura do colo do fémur (ver alínea F de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB)
+(Aplicável a USF, UCSP, CON, IPSS-C e ACES):
+Contagem ponderada (ver alínea A de OBSERVAÇÕES GERAIS) de utentes em que [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de observação durante pelo menos um dia do período em análise.
+B. Com idade no intervalo [75; +INF[ no último dia do período em análise.
+DENOMINADOR (BB)
+(Aplicável a UCC):
+Contagem ponderada (ver alínea A de OBSERVAÇÕES GERAIS) de utentes em que [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] numa unidade de saúde do ACES a que pertence a UCC (durante pelo menos 1 dia do período em análise).
+B. Com idade no intervalo [75; +INF[ no último dia do período em análise.
+C. Com residência numa das freguesias de abrangência da UCC (caso a freguesia seja exclusivamente abrangida pela UCC em análise) ou inscrito num dos códigos RNU de USF ou UCSP associado à UCC (caso a freguesia de residência do utente não seja exclusivamente abrangida pela UCC em análise). Ver alíneas E e F de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. A ponderação para o denominador é feita no intervalo [0; 1], em múltiplos de 1/12 (0; 1/12; 1/12; 2/12; 3/12; 4/12; 5/12; 6/12; 7/12; 8/12; 9/12; 10/12; 11/12 e 12/12) em função do nº de meses com inscrição ativa e idade igual ou superior a 75 anos que é possível apurar durante os 12 meses do período em análise.
+Significa isto por exemplo que um utente com 68 anos que se inscreva em março de determinado ano, conta 1/12 para o indicador com data de referência de março, 2/12 para o de abril e 10/12 para o de dezembro.
+B. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico.
+C. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
+D. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM e ICD-10-CM para ""Fratura do colo do fémur"":
+ICD-10-CM:
+S72001A - Fracture of unspecified part of neck of right femur, initial encounter for closed fracture
+S72001B - Fracture of unspecified part of neck of right femur, initial encounter for open fracture type I or II
+S72001C - Fracture of unspecified part of neck of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72002A - Fracture of unspecified part of neck of left femur, initial encounter for closed fracture
+S72002B - Fracture of unspecified part of neck of left femur, initial encounter for open fracture type I or II
+S72002C - Fracture of unspecified part of neck of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72009A - Fracture of unspecified part of neck of unspecified femur, initial encounter for closed fracture
+S72009B - Fracture of unspecified part of neck of unspecified femur, initial encounter for open fracture type I or II
+S72009C - Fracture of unspecified part of neck of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72011A - Unspecified intracapsular fracture of right femur, initial encounter for closed fracture
+S72011B - Unspecified intracapsular fracture of right femur, initial encounter for open fracture type I or II
+S72011C - Unspecified intracapsular fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72012A - Unspecified intracapsular fracture of left femur, initial encounter for closed fracture
+S72012B - Unspecified intracapsular fracture of left femur, initial encounter for open fracture type I or II
+S72012C - Unspecified intracapsular fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72019A - Unspecified intracapsular fracture of unspecified femur, initial encounter for closed fracture
+S72019B - Unspecified intracapsular fracture of unspecified femur, initial encounter for open fracture type I or II
+S72019C - Unspecified intracapsular fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72021A - Displaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for closed fracture
+S72021B - Displaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for open fracture type I or II
+S72021C - Displaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72022A - Displaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for closed fracture
+S72022B - Displaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for open fracture type I or II
+S72022C - Displaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72023A - Displaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for closed fracture
+S72023B - Displaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for open fracture type I or II
+S72023C - Displaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72024A - Nondisplaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for closed fracture
+S72024B - Nondisplaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for open fracture type I or II
+S72024C - Nondisplaced fracture of epiphysis (separation) (upper) of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72025A - Nondisplaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for closed fracture
+S72025B - Nondisplaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for open fracture type I or II
+S72025C - Nondisplaced fracture of epiphysis (separation) (upper) of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72026A - Nondisplaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for closed fracture
+S72026B - Nondisplaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for open fracture type I or II
+S72026C - Nondisplaced fracture of epiphysis (separation) (upper) of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72031A - Displaced midcervical fracture of right femur, initial encounter for closed fracture
+S72031B - Displaced midcervical fracture of right femur, initial encounter for open fracture type I or II
+S72031C - Displaced midcervical fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72032A - Displaced midcervical fracture of left femur, initial encounter for closed fracture
+S72032B - Displaced midcervical fracture of left femur, initial encounter for open fracture type I or II
+S72032C - Displaced midcervical fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72033A - Displaced midcervical fracture of unspecified femur, initial encounter for closed fracture
+S72033B - Displaced midcervical fracture of unspecified femur, initial encounter for open fracture type I or II
+S72033C - Displaced midcervical fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72034A - Nondisplaced midcervical fracture of right femur, initial encounter for closed fracture
+S72034B - Nondisplaced midcervical fracture of right femur, initial encounter for open fracture type I or II
+S72034C - Nondisplaced midcervical fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72035A - Nondisplaced midcervical fracture of left femur, initial encounter for closed fracture
+S72035B - Nondisplaced midcervical fracture of left femur, initial encounter for open fracture type I or II
+S72035C - Nondisplaced midcervical fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72036A - Nondisplaced midcervical fracture of unspecified femur, initial encounter for closed fracture
+S72036B - Nondisplaced midcervical fracture of unspecified femur, initial encounter for open fracture type I or II
+S72036C - Nondisplaced midcervical fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72041A - Displaced fracture of base of neck of right femur, initial encounter for closed fracture
+S72041B - Displaced fracture of base of neck of right femur, initial encounter for open fracture type I or II
+S72041C - Displaced fracture of base of neck of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72042A - Displaced fracture of base of neck of left femur, initial encounter for closed fracture
+S72042B - Displaced fracture of base of neck of left femur, initial encounter for open fracture type I or II
+S72042C - Displaced fracture of base of neck of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72043A - Displaced fracture of base of neck of unspecified femur, initial encounter for closed fracture
+S72043B - Displaced fracture of base of neck of unspecified femur, initial encounter for open fracture type I or II
+S72043C - Displaced fracture of base of neck of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72044A - Nondisplaced fracture of base of neck of right femur, initial encounter for closed fracture
+S72044B - Nondisplaced fracture of base of neck of right femur, initial encounter for open fracture type I or II
+S72044C - Nondisplaced fracture of base of neck of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72045A - Nondisplaced fracture of base of neck of left femur, initial encounter for closed fracture
+S72045B - Nondisplaced fracture of base of neck of left femur, initial encounter for open fracture type I or II
+S72045C - Nondisplaced fracture of base of neck of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72046A - Nondisplaced fracture of base of neck of unspecified femur, initial encounter for closed fracture
+S72046B - Nondisplaced fracture of base of neck of unspecified femur, initial encounter for open fracture type I or II
+S72046C - Nondisplaced fracture of base of neck of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72051A - Unspecified fracture of head of right femur, initial encounter for closed fracture
+S72051B - Unspecified fracture of head of right femur, initial encounter for open fracture type I or II
+S72051C - Unspecified fracture of head of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72052A - Unspecified fracture of head of left femur, initial encounter for closed fracture
+S72052B - Unspecified fracture of head of left femur, initial encounter for open fracture type I or II
+S72052C - Unspecified fracture of head of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72059A - Unspecified fracture of head of unspecified femur, initial encounter for closed fracture
+S72059B - Unspecified fracture of head of unspecified femur, initial encounter for open fracture type I or II
+S72059C - Unspecified fracture of head of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72061A - Displaced articular fracture of head of right femur, initial encounter for closed fracture
+S72061B - Displaced articular fracture of head of right femur, initial encounter for open fracture type I or II
+S72061C - Displaced articular fracture of head of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72062A - Displaced articular fracture of head of left femur, initial encounter for closed fracture
+S72062B - Displaced articular fracture of head of left femur, initial encounter for open fracture type I or II
+S72062C - Displaced articular fracture of head of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72063A - Displaced articular fracture of head of unspecified femur, initial encounter for closed fracture
+S72063B - Displaced articular fracture of head of unspecified femur, initial encounter for open fracture type I or II
+S72063C - Displaced articular fracture of head of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72064A - Nondisplaced articular fracture of head of right femur, initial encounter for closed fracture
+S72064B - Nondisplaced articular fracture of head of right femur, initial encounter for open fracture type I or II
+S72064C - Nondisplaced articular fracture of head of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72065A - Nondisplaced articular fracture of head of left femur, initial encounter for closed fracture
+S72065B - Nondisplaced articular fracture of head of left femur, initial encounter for open fracture type I or II
+S72065C - Nondisplaced articular fracture of head of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72066A - Nondisplaced articular fracture of head of unspecified femur, initial encounter for closed fracture
+S72066B - Nondisplaced articular fracture of head of unspecified femur, initial encounter for open fracture type I or II
+S72066C - Nondisplaced articular fracture of head of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72091A - Other fracture of head and neck of right femur, initial encounter for closed fracture
+S72091B - Other fracture of head and neck of right femur, initial encounter for open fracture type I or II
+S72091C - Other fracture of head and neck of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72092A - Other fracture of head and neck of left femur, initial encounter for closed fracture
+S72092B - Other fracture of head and neck of left femur, initial encounter for open fracture type I or II
+S72092C - Other fracture of head and neck of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72099A - Other fracture of head and neck of unspecified femur, initial encounter for closed fracture
+S72099B - Other fracture of head and neck of unspecified femur, initial encounter for open fracture type I or II
+S72099C - Other fracture of head and neck of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72101A - Unspecified trochanteric fracture of right femur, initial encounter for closed fracture
+S72101B - Unspecified trochanteric fracture of right femur, initial encounter for open fracture type I or II
+S72101C - Unspecified trochanteric fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72102A - Unspecified trochanteric fracture of left femur, initial encounter for closed fracture
+S72102B - Unspecified trochanteric fracture of left femur, initial encounter for open fracture type I or II
+S72102C - Unspecified trochanteric fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72109A - Unspecified trochanteric fracture of unspecified femur, initial encounter for closed fracture
+S72109B - Unspecified trochanteric fracture of unspecified femur, initial encounter for open fracture type I or II
+S72109C - Unspecified trochanteric fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72111A - Displaced fracture of greater trochanter of right femur, initial encounter for closed fracture
+S72111B - Displaced fracture of greater trochanter of right femur, initial encounter for open fracture type I or II
+S72111C - Displaced fracture of greater trochanter of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72112A - Displaced fracture of greater trochanter of left femur, initial encounter for closed fracture
+S72112B - Displaced fracture of greater trochanter of left femur, initial encounter for open fracture type I or II
+S72112C - Displaced fracture of greater trochanter of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72113A - Displaced fracture of greater trochanter of unspecified femur, initial encounter for closed fracture
+S72113B - Displaced fracture of greater trochanter of unspecified femur, initial encounter for open fracture type I or II
+S72113C - Displaced fracture of greater trochanter of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72114A - Nondisplaced fracture of greater trochanter of right femur, initial encounter for closed fracture
+S72114B - Nondisplaced fracture of greater trochanter of right femur, initial encounter for open fracture type I or II
+S72114C - Nondisplaced fracture of greater trochanter of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72115A - Nondisplaced fracture of greater trochanter of left femur, initial encounter for closed fracture
+S72115B - Nondisplaced fracture of greater trochanter of left femur, initial encounter for open fracture type I or II
+S72115C - Nondisplaced fracture of greater trochanter of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72116A - Nondisplaced fracture of greater trochanter of unspecified femur, initial encounter for closed fracture
+S72116B - Nondisplaced fracture of greater trochanter of unspecified femur, initial encounter for open fracture type I or II
+S72116C - Nondisplaced fracture of greater trochanter of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72121A - Displaced fracture of lesser trochanter of right femur, initial encounter for closed fracture
+S72121B - Displaced fracture of lesser trochanter of right femur, initial encounter for open fracture type I or II
+S72121C - Displaced fracture of lesser trochanter of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72122A - Displaced fracture of lesser trochanter of left femur, initial encounter for closed fracture
+S72122B - Displaced fracture of lesser trochanter of left femur, initial encounter for open fracture type I or II
+S72122C - Displaced fracture of lesser trochanter of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72123A - Displaced fracture of lesser trochanter of unspecified femur, initial encounter for closed fracture
+S72123B - Displaced fracture of lesser trochanter of unspecified femur, initial encounter for open fracture type I or II
+S72123C - Displaced fracture of lesser trochanter of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72124A - Nondisplaced fracture of lesser trochanter of right femur, initial encounter for closed fracture
+S72124B - Nondisplaced fracture of lesser trochanter of right femur, initial encounter for open fracture type I or II
+S72124C - Nondisplaced fracture of lesser trochanter of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72125A - Nondisplaced fracture of lesser trochanter of left femur, initial encounter for closed fracture
+S72125B - Nondisplaced fracture of lesser trochanter of left femur, initial encounter for open fracture type I or II
+S72125C - Nondisplaced fracture of lesser trochanter of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72126A - Nondisplaced fracture of lesser trochanter of unspecified femur, initial encounter for closed fracture
+S72126B - Nondisplaced fracture of lesser trochanter of unspecified femur, initial encounter for open fracture type I or II
+S72126C - Nondisplaced fracture of lesser trochanter of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72131A - Displaced apophyseal fracture of right femur, initial encounter for closed fracture
+S72131B - Displaced apophyseal fracture of right femur, initial encounter for open fracture type I or II
+S72131C - Displaced apophyseal fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72132A - Displaced apophyseal fracture of left femur, initial encounter for closed fracture
+S72132B - Displaced apophyseal fracture of left femur, initial encounter for open fracture type I or II
+S72132C - Displaced apophyseal fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72133A - Displaced apophyseal fracture of unspecified femur, initial encounter for closed fracture
+S72133B - Displaced apophyseal fracture of unspecified femur, initial encounter for open fracture type I or II
+S72133C - Displaced apophyseal fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72134A - Nondisplaced apophyseal fracture of right femur, initial encounter for closed fracture
+S72134B - Nondisplaced apophyseal fracture of right femur, initial encounter for open fracture type I or II
+S72134C - Nondisplaced apophyseal fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72135A - Nondisplaced apophyseal fracture of left femur, initial encounter for closed fracture
+S72135B - Nondisplaced apophyseal fracture of left femur, initial encounter for open fracture type I or II
+S72135C - Nondisplaced apophyseal fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72136A - Nondisplaced apophyseal fracture of unspecified femur, initial encounter for closed fracture
+S72136B - Nondisplaced apophyseal fracture of unspecified femur, initial encounter for open fracture type I or II
+S72136C - Nondisplaced apophyseal fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72141A - Displaced intertrochanteric fracture of right femur, initial encounter for closed fracture
+S72141B - Displaced intertrochanteric fracture of right femur, initial encounter for open fracture type I or II
+S72141C - Displaced intertrochanteric fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72142A - Displaced intertrochanteric fracture of left femur, initial encounter for closed fracture
+S72142B - Displaced intertrochanteric fracture of left femur, initial encounter for open fracture type I or II
+S72142C - Displaced intertrochanteric fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72143A - Displaced intertrochanteric fracture of unspecified femur, initial encounter for closed fracture
+S72143B - Displaced intertrochanteric fracture of unspecified femur, initial encounter for open fracture type I or II
+S72143C - Displaced intertrochanteric fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72144A - Nondisplaced intertrochanteric fracture of right femur, initial encounter for closed fracture
+S72144B - Nondisplaced intertrochanteric fracture of right femur, initial encounter for open fracture type I or II
+S72144C - Nondisplaced intertrochanteric fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72145A - Nondisplaced intertrochanteric fracture of left femur, initial encounter for closed fracture
+S72145B - Nondisplaced intertrochanteric fracture of left femur, initial encounter for open fracture type I or II
+S72145C - Nondisplaced intertrochanteric fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S72146A - Nondisplaced intertrochanteric fracture of unspecified femur, initial encounter for closed fracture
+S72146B - Nondisplaced intertrochanteric fracture of unspecified femur, initial encounter for open fracture type I or II
+S72146C - Nondisplaced intertrochanteric fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7221XA - Displaced subtrochanteric fracture of right femur, initial encounter for closed fracture
+S7221XB - Displaced subtrochanteric fracture of right femur, initial encounter for open fracture type I or II
+S7221XC - Displaced subtrochanteric fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7222XA - Displaced subtrochanteric fracture of left femur, initial encounter for closed fracture
+S7222XB - Displaced subtrochanteric fracture of left femur, initial encounter for open fracture type I or II
+S7222XC - Displaced subtrochanteric fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7223XA - Displaced subtrochanteric fracture of unspecified femur, initial encounter for closed fracture
+S7223XB - Displaced subtrochanteric fracture of unspecified femur, initial encounter for open fracture type I or II
+S7223XC - Displaced subtrochanteric fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7224XA - Nondisplaced subtrochanteric fracture of right femur, initial encounter for closed fracture
+S7224XB - Nondisplaced subtrochanteric fracture of right femur, initial encounter for open fracture type I or II
+S7224XC - Nondisplaced subtrochanteric fracture of right femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7225XA - Nondisplaced subtrochanteric fracture of left femur, initial encounter for closed fracture
+S7225XB - Nondisplaced subtrochanteric fracture of left femur, initial encounter for open fracture type I or II
+S7225XC - Nondisplaced subtrochanteric fracture of left femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+S7226XA - Nondisplaced subtrochanteric fracture of unspecified femur, initial encounter for closed fracture
+S7226XB - Nondisplaced subtrochanteric fracture of unspecified femur, initial encounter for open fracture type I or II
+S7226XC - Nondisplaced subtrochanteric fracture of unspecified femur, initial encounter for open fracture type IIIA, IIIB, or IIIC
+ICD-9-CM:
+820 - FRACTURA DO COLO DO FEMUR
+8200 - FRACTURA DO COLO DO FEMUR, TRANSCERVICAL, FECHADA
+82000 - FRACTURA DO COLO DO FEMUR, SECCAO INTRACAPSULAR NAO ESPECIFICADA, FECHADA
+82001 - FRACTURA DO COLO DO FEMUR, EPIFISE (SEPARACAO) (SUPERIOR), FECHADA
+82002 - FRACTURA DO COLO DO FEMUR, SECCAO MEDIOCERVICAL, FECHADA
+82003 - FRACTURA DO COLO DO FEMUR, BASE DO COLO, FECHADA
+82009 - FRACTURA DO COLO DO FEMUR, NCOP, FECHADA
+8201 - FRACTURA TRANSCERVICAL EXPOSTA (COLO DO FEMUR)
+82010 - FRACTURA COLO FEMUR -SECCAO INTRACAPSULAR SOE EXP.
+82011 - FRACTURA COLO FEMUR -EPIFISE (SEPARACAO) (SUPERIOR) EXP.
+82012 - FRACTURA COLO FEMUR -SECCAO MEDIOCERVICAL EXP.
+82013 - FRACTURA COLO FEMUR -BASE COLO EXP.
+82019 - FRACTURA COLO FEMUR -NCOP EXP.
+8202 - FRACTURA PERITROCANTERIANA FECHADA (COLO DO FEMUR)
+82020 - FRACTURA COLO FEMUR -SECCAO TROCANTERICA SOE -F.
+82021 - FRACTURA COLO FEMUR -SECCAO INTERTROCANTERICA -F.
+82022 - FRACTURA DO COLO FEMUR - SECCAO SUBTROCANTERICA, FECHADA
+8203 - FRACTURA PERITROCANTERIANA EXPOSTA (COLO DO FEMUR)
+82030 - FRACTURA COLO FEMUR -SECCAO TROCANTERICA -EXP.
+82031 - FRACTURA COLO FEMUR -SECCAO INTERTROCANTERICA -EXP.
+82032 - FRACTURA COLO FEMUR -SECCAO SUBTROCANTERICA EXP.
+8208 - FRACTURA FECHADA DO COLO DO FEMUR SOE
+8209 - FRACTURA EXPOSTA DO COLO DO FEMUR SOE
+E. Quando a unidade de observação é uma UCC, apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
+F. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+- Numerador (variável ""Data de alta do episódio de internamento""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""idade""): Avaliada na data de referência do indicador."
+Fórmula,AA / BB x 100.000
+Unidade de medida,por 100.000
+Output,Taxa de internamento (por 100.000 inscritos por ano)
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
+Intervalo Aceitável,"Ano de 2022: [0; 820]
+Ano de 2023: [0; 820]
+Ano de 2024: [0; 800]"
+Intervalo Esperado,"Ano de 2022: [0; 1200]
+Ano de 2023: [0; 1200]
+Ano de 2024: [0; 1200]"
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Saúde Idoso
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,90 dias

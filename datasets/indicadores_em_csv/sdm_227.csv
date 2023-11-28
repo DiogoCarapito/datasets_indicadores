@@ -1,0 +1,42 @@
+titulo,texto
+ID,227
+Código,2.12.27
+Código SIARS,MORB.227.01
+Nome abreviado,"Proporção utentes com ""distúrbio ansioso"""
+Designação,"Proporção de utentes com o diagnóstico de ""distúrbio ansioso"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de distúrbio ansioso"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""distúrbio ansioso"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""distúrbio ansioso"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""distúrbio ansioso"" (rubrica ICPC P74) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de P74 (ICPC-2): Ansiedade clinicamente significativa que não se restringe a nenhum ambiente ou situação específica. Manifesta-se como episódios de pânico (ataques recorrentes de extrema ansiedade não limitada a nenhuma situação, com ou sem sintomas físicos) ou como uma ansiedade generalizada e persistente, não associada a nenhuma situação específica e com sintomas físicos variáveis.
+C. O P74 inclui (ICPC-2): Neurose ansiosa, pânico.
+D. O P74 exclui (ICPC-2): Ansiedade com depressão P76, ansiedade NE P01.
+E. Quem regista o P74 deve Considerar (ICPC-2): Ansiedade, nervosismo, tensão P01.
+F. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

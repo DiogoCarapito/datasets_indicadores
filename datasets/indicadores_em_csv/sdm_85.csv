@@ -1,0 +1,97 @@
+titulo,texto
+ID,085
+Código,6.39.01
+Código SIARS,2016.085.01
+Nome abreviado,"Incid. amputações major Minf. (DM), em residentes"
+Designação,"Incidência de amputações major de membro inferior em utentes com diabetes, entre utentes residentes"
+Objetivo,"Monitorizar a efetividade dos cuidados prestados pelos CSP a utentes com Diabetes Mellitus, na prevenção de complicações da doença, usando como medida a ""incidência de amputações major de membro inferior"". Ver alíneas D, E e F de OBSERVAÇÕES GERAIS."
+Descrição do Indicador,"Indicador que exprime a razão entre o número de episódios internamento hospitalar com realização de amputação major de membro inferior em utentes com diabetes, por cada 10.000 residentes, no período de tempo considerado.
+Numerador: Contagem episódios de internamento hospitalar com realização de amputação major de membro inferior em utentes com diabetes.
+Denominador: Contagem de utentes residentes."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de episódos de internamento hospitalar em que a expressão [A e B e C e D e E e F] é verdadeira:
+A. Data de alta incluída no período em análise;
+B. Internados com duração superior a 24 horas (ver alínea H de OBSERVAÇÕES GERAIS);
+C. Não são considerados os utentes transferidos de outros hospitais.
+D. O registo da freguesia de residência do utente no internamento hospitalar pertence à área de abrangência da unidade de observação em análise (ver alíneas C, D, E e F de OBSERVAÇÕES GERAIS);
+E. Alta com diagnóstico principal de ""diabetes com perturbações circulatórias periféricas"" (ver alínea A de OBSERVAÇÕES GERAIS);
+F. O utente internado tem registo de procedimento de ""amputação major do membro inferior"" (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Residentes numa das freguesias de abrangência da unidade de observação (ver alíneas C, D, E, F e G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Consideram-se os seguintes códigos de diagnóstico ICD-9-CM para ""diabetes com perturbações circulatórias periféricas"":
+ICD-10-CM:
+E1051 Type 1 diabetes w diabetic peripheral angiopath w/o gangrene
+E1052 Type 1 diabetes w diabetic peripheral angiopathy w gangrene
+E1059 Type 1 diabetes mellitus with oth circulatory complications
+E1151 Type 2 diabetes w diabetic peripheral angiopath w/o gangrene
+E1152 Type 2 diabetes w diabetic peripheral angiopathy w gangrene
+E1159 Type 2 diabetes mellitus with oth circulatory complications
+ICD-9-CM:
+2507 - Diabetes Mellitus com perturbações circulatórias periféricas
+25070 - Diabetes Mellitus c/alter.circul.perif., tipo ii ou n/espec., n/esp.como n/contr
+25071 - Diabetes Mellitus c/alter.circul.perif., tipo i [juvenil], n/espec.como n/contr.
+25072 - Diabetes Mellitus com alter.circul.perifer. tipo ii ou n/especif., nao controlad
+25073 - Diabetes Mellitus c/alter.circulat.perifericas, tipo i [juvenil], nao controlada
+B. Consideram-se os seguintes códigos de procedimentos ICD-9-CM para ""amputações major de membro inferior"":
+ICD-10-CM:
+0Y620ZZ - Detachment at Right Hindquarter, Open Approach
+0Y630ZZ - Detachment at Left Hindquarter, Open Approach
+0Y640ZZ - Detachment at Bilateral Hindquarter, Open Approach
+0Y670ZZ - Detachment at Right Femoral Region, Open Approach
+0Y680ZZ - Detachment at Left Femoral Region, Open Approach
+0Y6C0Z1 - Detachment at Right Upper Leg, High, Open Approach
+0Y6C0Z2 - Detachment at Right Upper Leg, Mid, Open Approach
+0Y6C0Z3 - Detachment at Right Upper Leg, Low, Open Approach
+0Y6D0Z1 - Detachment at Left Upper Leg, High, Open Approach
+0Y6D0Z2 - Detachment at Left Upper Leg, Mid, Open Approach
+0Y6D0Z3 - Detachment at Left Upper Leg, Low, Open Approach
+0Y6F0ZZ - Detachment at Right Knee Region, Open Approach
+0Y6G0ZZ - Detachment at Left Knee Region, Open Approach
+0Y6H0Z1 - Detachment at Right Lower Leg, High, Open Approach
+0Y6H0Z2 - Detachment at Right Lower Leg, Mid, Open Approach
+0Y6H0Z3 - Detachment at Right Lower Leg, Low, Open Approach
+0Y6J0Z1 - Detachment at Left Lower Leg, High, Open Approach
+0Y6J0Z2 - Detachment at Left Lower Leg, Mid, Open Approach
+0Y6J0Z3 - Detachment at Left Lower Leg, Low, Open Approach
+0Y6M0Z0 - Detachment at Right Foot, Complete, Open Approach
+0Y6N0Z0 - Detachment at Left Foot, Complete, Open Approach
+ICD-9-CM:
+8413 - Desarticulação do tornozelo
+8414 - Amputação do tornozelo pelos maléolos da tíbia e peróneo
+8415 - Amputações abaixo do joelho
+8416 - Desarticulação do joelho
+8417 - Amputação do membro inferior acima do joelho
+8418 - Desarticulação da coxo-femoral
+8419 - Amputação abdomino-pélvica.
+C. Trata-se de um indicador de base populacional pois no denominador está a população residente (informação INE, CENSUS, população residente) numa das freguesias abrangidas pela unidade de observação dos CSP em análise e no numerador uma contagem de utentes internados que reportaram residir numa dessas freguesias.
+D. As freguesias de abrangência dos ACES encontram-se definidas na legislação que cria os próprios ACES. As freguesias de abrangência das ULS e das ARS são determinadas pelos ACES que as integram.
+E. Este indicador é também calculado para as unidades funcionais (UF) que prestam cuidados personalizados (USF e UCSP). Estas UF não possuem uma área de abrangência definida nem em legislação nem, no caso das USF, nos pareceres técnicos de abertura, nem em outra(s) fonte(s) de dados. Na realidade, cada unidade funcional tem utentes inscritos que são residentes maioritariamente na(s) freguesia(s) próxima(s) das respetivas instalações. No entanto, cada UF possui frequentemente uma minoria de utentes residentes em freguesias distantes da respetiva sede. Existem unidades funcionais em que 95% dos utentes residem numa freguesia e os restantes 5% residem em mais 2 ou 3. Outras em que 40% dos utentes residem numa freguesia, outros 50% residem noutras 3 ou 4 e os restantes 10% em 20 freguesias diferentes. Assim sendo, quando o indicador é calculado para UF, quer o numerador, quer o denominador, são estimados usando a seguinte metodologia:
+a) Calcula-se, para o mês de referência do indicador, a frequência relativa de distribuição dos utentes inscritos pelas respetivas freguesias de residência;
+b) Consequentemente, é possível ter, para cada freguesia de Portugal, a frequência relativa de distribuição de utentes residentes e inscritos no SNS, pelas unidades funcionais de inscrição;
+c) Aplica-se a distribuição calculada em b) à informação que é fornecida agregada por freguesias e que se pretende atribuir às UF. Por exemplo, se a freguesia X tiver 25% dos utentes inscritos na UF1 e 75% na UF2, e se a freguesia X tiver 10.000 residentes estimados pelo INE, 2500 serão atribuídos à UF1 e 7500 à UF2. Se outra freguesia Y tiver 80% dos utentes inscritos na UF2 e 20% na UF3, e se a freguesia Y tiver 5000 residentes estimados pelo INE, 4000 serão atribuídos à UF2 e 1000 à UF3. Se a UF2 apenas tiver utentes inscritos e residentes nas freguesias X e Y, a UF2 terá um total de 11500 utentes residentes estimados por esta metodologia (7500 da freguesia X e 4000 da freguesia Y).
+Esta metodologia é aplicável não só às estimativas de residentes do INE (denominador) mas também à informação de internamentos cuja fonte é a base de dados de GDH, cujos dados são fornecidos agregados por freguesia.
+F. A relação entre o resultado deste indicador para uma unidade funcional e o que a mesma pode ter contribuído para o respetivo resultado, depende dos fatores seguintes:
+a) Idade da UF. Os resultados em saúde relacionados com o controlo da Diabetes Mellitus medidos por este indicador não são imediatos.
+b) O grau de partilha dos utentes residentes nas principais freguesias da área de abrangência da unidade funcional com UF diferentes da analisada. Numa UF onde 80% dos utentes residam na freguesia A, mas apenas 35% dos utentes dessa freguesia lhe pertençam verá os respetivos resultados deste indicador muito mais influenciados pela atividade da(s) UF onde estão inscritos os restantes 65% de utentes. Pelo contrário, numa UF onde 80% dos utentes residam nas freguesias A, B e C, mas a totalidade dos utentes dessas 3 freguesias lhe pertençam, verá os respetivos resultados deste indicador apenas influenciados pela respetiva atividade.
+c) O nível de rigor no registo da freguesia de residência dos utentes sujeitos a amputação. As UF com área de abrangência próxima de grandes centros cirúrgicos hospitalares podem ter um aumento do numerador se existirem utentes que para acederem aos serviços desses centros falseiam a respetiva morada para uma compatível com a área hospitalar.
+Estas considerações fazem com que os resultados deste indicador sejam usados com cautela para comparar unidades funcionais diferentes do ponto de vista destas variáveis. No entanto, os resultados podem ser usados quer para comparar entre si unidades semelhantes do ponto de vista da partilha de freguesias ou da proximidade com hospitais. Podem também ser usados com segurança para monitorizar a evolução temporal dos resultados para uma determinada UF.
+G. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (antes da data de referência do indicador).
+H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Coincidente com a data da última estimativa de residentes disponível (anterior à data de referência do indicador).
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Coincidente com a data da última estimativa de residentes disponível (anterior à data de referência do indicador)."
+Fórmula,AA / BB x 10.000
+Unidade de medida,por 10.000
+Output,Taxa internamento (por 10.000 residentes por ano)
+Estado do indicador,Descontinuado em Dezembro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Ganhos em Saúde
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes residentes - informação INE
+Prazo para Registos,90 dias

@@ -1,0 +1,102 @@
+titulo,texto
+ID,435
+Código,6.01.19
+Código SIARS,2020.435.01
+Nome abreviado,Proporção utentes com vacina gripe gratuita SNS
+Designação,"Proporção de utentes com a vacina da gripe efetuada durante o período de outono/inverno, entre os utentes que de acordo com a norma da DGS (aplicável à data de referência do indicador) têm direito a vacina da gripe gratuita SNS."
+Objetivo,"Monitorização do programa de saúde de adultos: Parâmetro ""vacina da gripe"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com a vacina da gripe efetuada após a última data de 1 de setembro e nunca após 30 de abril, entre os utentes que, de acordo com a norma da DGS (aplicável à data de referência do indicador) têm direito a vacina da gripe gratuita SNS.
+Numerador: Contagem de utentes com a vacina da gripe efetuada após a última data de 1 de setembro e nunca após a data de 30 de abril do ano que sucede a última data de 1 de setembro.
+Denominador: Contagem de utentes que, de acordo com a norma da DGS (aplicável à data de referência do indicador) têm direito a vacina da gripe gratuita SNS."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos uma inoculação de vacina da gripe efetuada após a última data de 1 de setembro e nunca após a data de 30 de abril do ano que sucede a última data de 1 de setembro (ver vacinas equivalentes com código
+[GRIPE]
+, os comentários sobre esta variável em PERÍODO EM ANÁLISE, as OBSERVAÇÕES SOBRE SOFTWARE e as alíneas A e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e (B ou C ou D ou E ou F)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 65 anos (medida a 31 de dezembro do ano em curso).
+C. O diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+D. Pelo menos um dos diagnósticos de DPOC, asma ou bronquite crónica (rubricas da ICPC-2 R95 ou R79) encontra-se registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+E. Pelo menos um dos diagnósticos de cardiopatia isquémica ou insuficiência cardíaca congestiva (rubricas da ICPC-2 K74 ou K75 ) encontra-se registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+F. Encontrar-se grávida na data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se todas as inoculações, independentemente de terem sido feitas na unidade de observação, num hospital ou no setor privado, mas apenas na área de abrangência da respetiva ARS.
+B. Consideram-se ""grávidas"" As utentes em que a condição [AA e BB e CC e DD e EE] é verdadeira.
+AA. Ser mulher;
+BB. Gravidez registada no módulo ou no programa de saúde materna na data de referência do indicador;
+CC. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo];
+DD. A [data de início da gravidez] é anterior à data de referência do indicador (ver alínea D de OBSERVAÇÕES GERAIS);
+EE. A data de fim da gravidez é posterior à data de referência do indicador (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+D. Nas grávidas, a [data de início da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de última menstruação] registada e a mesma não antecede a [data de fim da gravidez] previamente caculada em [41 semanas e 6 dias] (294 dias), a mesma é assumida como [data de início de gravidez].
+b) Caso contrário a [data de início da gravidez] é igual à [data de fim de gravidez] subtraída de [41 semanas e 6 dias] (294 dias).
+E. A partir do no ano de 2021, os utentes com menos de 65 anos e fatores de risco têm direito à vacinação da gripe gratuita, bastando para o efeito serem portadores de uma declaração médica emitida através da PEM. Essa vacina pode ser efetuada, de forma gratuita, quer nas farmácias comunitárias quer nas Unidades Funcionais ou serviços dos ACES, designadamente em ""Centros de Vacinação COVID-19"". Todos os serviços dos ACES e farmácias comunitárias são obrigados a fazer o registo da inoculação desta vacina no e-Vacinas, pelo que estas inoculações são sempre contabilizadas no numerador do indicador. Também os raros registos que possam ser efetuados com alguns dias de atraso relativamente à inoculação, são capturados pelo indicador, tendo em conta que este é um dos que, no final de cada ano, é reprocessado 30 dias após o fim do período em análise (precisamente para contabilização adicional de registos feitos nos 30 dias seguintes, mas ainda referentes ao período em análise)."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnósticos podem estar inseridos quer na [lista de problemas] quer na [lista de outros problemas]. Necessitam estar classificados como ""ativo"" e não ter sido classificados como ""inválido"".
+RSE VACINAS
+Contabilizam-se apenas as vacinas registadas neste sistema central. Vacinas registadas apenas no SINUS, SClínico ou MedicineOne não são contabilizadas."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacina""): Duração de 1 a 7 meses. A tabela seguinte especifica o período em análise considerado para cada mês de referência do indicador.
+Mês de referência do indicador
+Data de início do período em análise
+Data de fim do período em análise
+Janeiro do ano N
+1 de setembro do ano N-1
+31 de janeiro do ano N
+Fevereiro do ano N
+1 de setembro do ano N-1
+Último dia de fevereiro do ano N
+Março do ano N
+1 de setembro do ano N-1
+31 de março do ano N
+Abril do ano N
+1 de setembro do ano N-1
+30 de abril do ano N
+Maio do ano N
+1 de setembro do ano N-1
+30 de abril do ano N
+Junho do ano N
+1 de setembro do ano N-1
+30 de abril do ano N
+Julho do ano N
+1 de setembro do ano N-1
+30 de abril do ano N
+Agosto do ano N
+1 de setembro do ano N-1
+30 de abril do ano N
+Setembro do ano N
+1 de setembro do ano N
+30 de setembro do ano N
+Outubro do ano N
+1 de setembro do ano N
+31 de outubro do ano N
+Novembro do ano N
+1 de setembro do ano N
+30 de novembro do ano N
+Dezembro do ano N
+1 de setembro do ano N
+30 de dezembro do ano N
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de Dezembro tem 65 ou mais anos.
+- Denominador (variáveis ""códigos ICPC-2 na lista de problemas""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Setembro de 2020
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2023: [66; 100]
+Ano de 2024: [66; 100]"
+Intervalo Esperado,"Ano de 2023: [62; 100]
+Ano de 2024: [62; 100]"
+Tipo de Indicador,Processo
+Área clínica,Respiratório
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,30 dias

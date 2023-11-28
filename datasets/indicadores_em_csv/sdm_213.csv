@@ -1,0 +1,44 @@
+titulo,texto
+ID,213
+Código,2.13.01
+Código SIARS,MORB.213.01
+Nome abreviado,"Incidência de ""enfarte agudo do miocárdio"""
+Designação,"Proporção de utentes com novo diagnóstico de ""enfarte agudo do miocárdio"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""incidência de enfarte agudo do miocárdio"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com novo diagnóstico de ""enfarte agudo do miocárdio"" (último ano) identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""enfarte agudo do miocárdio"" registado na lista de problemas e iniciado no último ano.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""enfarte agudo do miocárdio"" (rubrica ICPC K75) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador e teve início nos últimos 12 meses (ver alíneas A, B, C, D, E, F e H de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea H de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Contabilizam-se apenas os diagnósticos que tiveram início (campo ""data de início"" do problema) nos 12 meses que antecedem a data de referência do indicador. Isto pressupõe que os médicos quando procedem ao registo de um novo problema de saúde alterem a data que é colocada por defeito pelo sistema de registo clínico nesse campo (habitualmente a data atual) para a data aproximada em que o problema foi diagnosticado ao doente. Não o fazendo, tal ocasiona uma sobre-valorização do resultado deste indicador.
+C. Critérios de K75 (ICPC-2): Dores torácicas características de isquemia miocárdica, com duração superior a 15 minutos, e/ou alterações anormais do ST-T ou ondas Q novas no electrocardiograma ou subida das enzimas cardíacas no sangue.
+D. O K75 inclui (ICPC-2): Enfarte do miocárdio especificado como tendo sido agudo, até 4 semanas (28 dias) após o início do quadro clínico.
+E. O K75 exclui (ICPC-2): Enfarte do miocárdio antigo ou tratado K74,K76
+F. Quem regista o K75 deve considerar (ICPC-2): Dor atribuída ao coração KO1, angina de peito K74, doença cardíaca isquémica crónica K76.
+G. Notas de K75 (ICPC-2): Possível código duplo K74 ou K76.
+H. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição. Isto faz com que os utentes falecidos ou transferidos ao longo do ano e com o problema de saúde registado na lista de problemas antes do falecimento não sejam contabilizados no denominador nem no numerador, decorrendo dai uma subvalorização da incidência."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,‰
+Output,Incidência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

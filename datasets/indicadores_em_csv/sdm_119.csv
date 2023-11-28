@@ -1,0 +1,38 @@
+titulo,texto
+ID,119
+Código,6.42.02
+Código SIARS,4.33
+Nome abreviado,"Percent. puérperas vigiadas, c/ domicílio enferm."
+Designação,Percentagem de puérperas vigiadas na UF com visita domiciliária de enfermagem
+Objetivo,"Monitorização do programa de vigilância em saúde materna, área dos cuidados domiciliários de enfermagem a puérperas."
+Descrição do Indicador,"Indicador que exprime a proporção de puérperas vigiadas que receberam visita domiciliária de enfermagem.
+Numerador: Contagem de puérperas com pelo menos uma visita domiciliária de enfermagem.
+Denominador: Contagem de puérperas vigiadas em programa de saúde materna."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídas no denominador.
+B. Utentes que tiveram pelo menos 1 consulta domiciliária de enfermagem realizada durante o período do puerpério, ou seja, entre a [data de parto] e o 42º dia de puerpério.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Sexo feminino.
+B. [
+Inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+C. Ter pelo menos um destes diagnósticos sinalizado como ativo na sua lista de problemas (classificação ICPC-2 W78, W79 e W84).
+D. Ter compromisso de vigilância em Saúde Materna no período em análise.
+E. Ter completado 6 semanas (42 dias) após a data de parto, no período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada mulher a este indicador é o facto de ter o 42º dia após o parto durante o ano civil em curso.
+- Para cada mulher incluída no denominador, o período em análise para deteção de consultas inicia-se com a data de parto e termina 42 dias depois."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de puérperas
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,36 @@
+titulo,texto
+ID,141
+Código,6.19.02
+Código SIARS,6.19M
+Nome abreviado,Percent. DM [18;76[A c/ cons. enf. vigil. DM 12M
+Designação,Percentagem de utentes com diabetes dos 18 aos 75 anos abrangidos pela consulta de enfermagem
+Objetivo,"Monitorizar o programa de diabetes. Parâmetro ""consulta de vigilância de enfermagem""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com diabetes e vigiados em programa, com consulta de vigilância de enfermagem.
+Numerador: Contagem de utentes inscritos com consulta de vigilância de enfermagem.
+Denominador: Contagem de utentes inscritos com diabetes, vigiados em programa e idade compreendida no intervalo [18; 76[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma consulta de enfermagem de vigilância de diabetes, durante o período em análise.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período em análise.
+B. O diagnóstico médico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo"", durante pelo menos um dia do período em análise.
+C. Idade compreendida no intervalo [18; 76[ anos.
+D. Ter compromisso de vigilância na Unidade Funcional no programa de Diabetes."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

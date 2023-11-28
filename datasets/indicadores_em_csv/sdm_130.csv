@@ -1,0 +1,42 @@
+titulo,texto
+ID,130
+Código,5.13.08
+Código SIARS,5.13M2
+Nome abreviado,"Percent. crianças 2 anos, c/ peso e altura 1 ano"
+Designação,Percentagem de inscritos com 2 anos com peso e altura registados nos últimos 12 meses
+Objetivo,"Monitorizar o programa de saúde infantil, 2º ano de vida, parâmetro ""registo de peso e altura""."
+Descrição do Indicador,"Indicador que exprime a proporção de crianças com peso e altura avaliados no intervalo [1; 2[ anos (entre as que completam 2 anos).
+Numerador: Contagem de crianças com peso e altura avaliados no intervalo [1; 2[ anos.
+Denominador: Contagem de crianças que completam 2 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm pelo menos um registo de peso com [data de medição] pertencente ao intervalo etário [1; 2[ anos (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+C. Têm pelo menos um registo de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [1; 2[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 2 anos durante o ano civil em curso;
+B. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise."
+Observações Gerais,"A. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde. Se existir um registo de peso e altura no período em análise, realizado por um enfermeiro, não é necessário, nesse período em análise, a existência de registos médicos e vice-versa.
+B. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
+C. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC.
+D. O peso e altura devem ser registados no mesmo dia.
+E. Se existir um registo de peso e altura no período em análise, realizado por um enfermeiro, não é necessário, nesse período em análise, a existência de registos médicos e vice-versa."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. No SCLÍNICO, o peso e a estatura podem ser registados na ficha individual e nos programas de hipertensão, diabetes e saúde infantil. O peso e a estatura podem também ser registados no ""perfil de enfermagem"".
+MEDICINEONE:
+A. O peso e a estatura podem ser registados nas biometrias e nos módulos de hipertensão, diabetes e saúde infantil."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Descontinuado em Dezembro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

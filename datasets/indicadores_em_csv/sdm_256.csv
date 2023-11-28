@@ -1,0 +1,51 @@
+titulo,texto
+ID,256
+Código,6.74.01
+Código SIARS,2017.256.01
+Nome abreviado,Rácio PVP cefalosporinas e antibiót. fatur.
+Designação,"Rácio entre a despesa faturada com cefalosporinas e a despesa total faturada com antibióticos (pelo PVP, a utentes inscritos)"
+Objetivo,Monitorizar a prescrição de fármacos na componente de despesa com cefalosporinas.
+Descrição do Indicador,"Indicador que exprime a proporção de despesa realizada com antibióticos do tipo ""cefalosporina"", face à despesa total com antibióticos faturados (PVP), a utentes com inscrição ativa.
+Numerador: Despesa com medicamentos do tipo ""cefalosporina"" aceites para faturação no CCF.
+Denominador: Despesa com antibióticos aceites para faturação no CCF, a utentes com inscrição ativa."
+Regras de cálculo,"NUMERADOR (AA):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Medicamento pertencente a uma das classes ATC correspondente a cefalosporinas (ver alínea C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Soma da despesa (PVP aceite para faturação) de medicamentos em que a expressão [A e B e C e D e (E ou F ou G)] é verdadeira:
+A. Utente com inscrição ativa na unidade funcional na data da dispensa do medicamento.
+B. Medicamento prescrito por qualquer médico ou interno.
+C. Medicamento aceite para faturação durante o período em análise.
+D. Medicamento pertencente à classe ATC ""J01"" (ANTIBATERIANOS).
+E. Se a unidade de observação do indicador for um ACES, a receita médica é emitida com um código de local de prescrição pertencente ao ACES (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+F. Se a unidade de observação do indicador for uma unidade funcional, a receita médica é emitida com um código de local de prescrição que lhe pertence (ver alíneas D e E de OBSERVAÇÕES GERAIS).
+G. Se a unidade de observação é um médico ou enfermeiro com lista de utentes na unidade funcional, a receita médica é emitida com um código de local de prescrição pertence à unidade funcional (ver alíneas D e E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As classes ATC de medicamentos que podem ser contabilizados no numerador são as seguintes:
+- J01DB - Cefalosporinas de primeira geração;
+- J01DC - Cefalosporinas de segunda geração;
+- J01DD - Cefalosporinas de terceira geração;
+- J01DE - Cefalosporinas de quarta geração.
+- J01DI01 - Ceftobiprole medocaril
+- J01DI02 - Ceftarolina fosamilo
+B. Os medicamentos prescritos e não dispensados não são contabilizados.
+C. Os medicamentos que sejam prescritos manualmente são contabilizados, desde que dispensados numa farmácia.
+D. Quando a unidade de observação é uma unidade funcional, os medicamentos prescritos a utentes inscritos na unidade funcional utilizando um código de local de prescrição não pertencente a essa unidade, não são contabilizados nem no denominador nem no numerador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP não são contabilizados na USF ou UCSP de inscrição do utente.
+E. Quando a unidade de observação é um ACES, os medicamentos prescritos a utentes inscritos em qualquer unidade funcional desse ACES utilizando um código de local de prescrição não pertencente à unidade funcional de inscrição do utente mas pertencente ao ACES, são contabilizados no denominador do indicador. Por exemplo os medicamentos prescritos a utentes numa URAP ou num SAP do ACES a utentes de uma UCSP do ACES são contabilizado no denominador do indicador referente ao ACES.
+F. Os medicamentos pertencentes a estas classes ATC podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de despesa
+Estado do indicador,Com dados desde Janeiro de 2019
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

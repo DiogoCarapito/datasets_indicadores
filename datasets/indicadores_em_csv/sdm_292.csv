@@ -1,0 +1,45 @@
+titulo,texto
+ID,292
+Código,7.18.01
+Código SIARS,2013.292.01
+Nome abreviado,Taxa de ocupação da ECCI
+Designação,Taxa de ocupação da ECCI
+Objetivo,Monitorizar a acessibilidade e a eficiência da equipa.
+Descrição do Indicador,"Exprime a taxa de ocupação da ECCI.
+Numerador: Somatório de dias de integração dos utentes na ECCI durante o período em análise.
+Denominador: Produto entre o número de vagas e o número de dias no período em análise."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório de dias de integração na ECCI em que a expressão [A e B] é verdadeira:
+A. Contabilizam-se os dias de integração que intersetam o período em análise (ver alíneas A, E, F e G de OBSERVAÇÕES GERAIS).
+B. Em utentes integrados na ECCI durante pelo menos um dia no período em análise (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Produto entre o número de vagas e o número de dias no período em análise (ver alínea C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Não se contabilizam os dias de internamento que sejam anteriores ao início do período em análise nem os que são posteriores à data de referência do indicador.
+B. Contabilizam-se no numerador os dias de integração na ECCI de utentes integrados durante pelo menos um dia no período em análise, independentemente da integração ter ocorrido durante ou antes desse período e independentemente da alta ter ocorrido durante ou após esse período, desde que se salvaguarde o que também se afirma na alínea G das OBSERVAÇÕES GERAIS.
+C. As vagas das UCCI são contratualizadas anualmente e carregadas no sistema de informação, para que o indicador possa ser medido.
+D. A acessibilidade dos utentes à ECCI é influenciada pela taxa de ocupação. Taxas de ocupação próximas dos 100% podem dificultar a acessibilidade. Por outro lado taxas de ocupação muito baixas podem estar associadas a baixa eficiência da equipa.
+E. Também se contabilizam no numerador os dias correspondentes às suspensões de vaga, uma vez que as ECCI não podem ocupar essa vaga com um doente diferente durante o período da suspensão.
+F. Para a contabilização do nº de dias de internamento (para o numerador), não é contabilizado o dia da alta (para que uma vaga não seja contabilizada duas vezes quando um doente é integrado no mesmo dia em que outro sai).
+G. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, os dias de integração ocorridos na ECCI, prévios à constituição da UCC, não influenciam o numerador deste indicador.
+H. Indicador apenas calculado para UCC com SClínico, independentemente de corresponder ou não a uma versão com normalização nacional da parametrização de enfermagem/CIPE. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano N e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Taxa de ocupação
+Estado do indicador,Com dados desde Janeiro de 2015
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Aceitável,"Ano de 2022: [86; 100]
+Ano de 2023: [86; 100]
+Ano de 2024: [86; 100]"
+Intervalo Esperado,"Ano de 2022: [70; 100]
+Ano de 2023: [70; 100]
+Ano de 2024: [70; 100]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise
+Prazo para Registos,5 dias

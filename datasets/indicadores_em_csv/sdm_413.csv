@@ -1,0 +1,53 @@
+titulo,texto
+ID,413
+Código,6.46.02
+Código SIARS,2013.413.01
+Nome abreviado,"Propor. DM2 c/ e HbA1c > 9%, com insulina"
+Designação,Proporção de utentes a fazer insulinoterapia entre os inscritos com diabetes tipo 2 e HbA1c superior a 9% durante 6 ou mais meses
+Objetivo,"Monitorizar a efetividade da aplicação da norma 052/2011 da DGS (atualizada em 27/4/2015) ""Abordagem Terapêutica Farmacológica na Diabetes Mellitus Tipo 2 no Adulto"" relativamente à ""terapêutica adequada com insulina""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes a fazer insulinoterapia entre os inscritos com diabetes tipo 2 e HbA1c superior a 9% durante 6 ou mais meses.
+Numerador: Contagem de utentes inscritos com diabetes tipo 2, HbA1c superior a 9% durante 6 ou mais meses e em insulinoterapia.
+Denominador: Contagem de utentes inscritos com diabetes tipo 2 e HbA1c superior a 9% durante 6 ou mais meses."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma prescrição de insulina, efetuada por qualquer médico ou interno da da unidade de saúde, no período compreendido entre o mês P e o mês de referência do indicador, em que P é o mês máximo de registo da HbA1c superior a 9%, que permite que o utente seja cumpridor da alínea C do DENOMINADOR (ver alíneas A, B e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e (D ou E)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontra-se na lista de problemas, com o estado de ""ativo"".
+C. Existe pelo menos um resultado de HbA1c superior a 9%, registado entre o mês N-17 e o mês N-6, em que N é o mês de referência do indicador (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+D. Náo existe qualquer resultado de HbA1c igual ou inferior a 9%, registado entre o mês P e o mês P+6, em que P é o mês máximo de registo da HbA1c superior a 9%, que permite que o utente seja cumpridor da alínea C do DENOMINADOR (ver alíneas D, E e F de OBSERVAÇÕES GERAIS).
+E. Não existe qualquer prescrição de insulina, efetuada por qualquer médico ou interno da unidade de saúde, nos 12 meses que antecedem o mês P e existe pelo menos uma prescrição de insulina entre o mês P e o mês de referência do indicador, em que P é o mês máximo de registo da HbA1c superior a 9%, que permite que o utente seja cumpridor da alínea C do DENOMINADOR (ver alíneas A, B e C de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. São contabilizadas todas as prescrições e registos na terapêutica crónica de medicamentos pertencentes ao grupo 8.4.1.1 (Insulina de ação curta), ao grupo 8.4.1.2 (Insulina de ação intermédia) ou ao grupo 8.4.1.3 (Insulina de ação prolongada) da classificação farmacoterapêutica de medicamentos (CFT).
+B. Os medicamentos pertencentes a estas classes CFT podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+C. A fonte de informação para ""registo de insulina na terapêutica crónica"" e para ""prescrição de insulina"" é a BDNP (base de dados nacional de prescrições).
+D. O código da tabela de MCDT, válido para registar HbA1c é o A531.2. Quando esta análise for efetuada na unidade de saúde (utilizando doseadores próprios) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+E. A data que deve ser usada para verificar se a HbA1c está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise. F A norma 052/2011 da DGS (atualizada em 24/7/2017) estabelece, para o tratamento com terapia dupla que se ao fim de 3 meses após otimização de medidas não farmacológicas (dieta + exercício físico) e confirmação da adesão à terapêutica, o controlo da glicemia for inadequado com a monoterapia, pode ser considerada a adição de um 2º fármaco: (Nível de Evidência C, Grau de Recomendação I). Caso a HbA1c seja superior a 9%, o fármaco a adicionar deve ser a insulina.
+Como a norma refere ""introdução de insulina"" 3 meses ""após"" otimização de medidas não farmacológicas (dieta + exercício físico) e confirmação da adesão à terapêutica, e tendo em atenção que não existem registos clínicos sobre ""otimização de medidas não farmacológicas (dieta + exercício físico)"" nem sobre ""confirmação da adesão à terapêutica"", altera-se o limiar temporal de introdução de utentes no denominador de ""3 meses"" para ""7 meses"", impedindo assim a entrada de utentes no denominador sem o tempo necessário para fazer o referido ""reforço à adesão terapêutica""."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+C. A HbA1c podem também ser registada no módulo de MCDT, onde não é contabilizada. O SIARS apenas contabiliza os registados no módulo de análises."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Variável ""inscricão do utente"": Coincidente com a data de referência do indicador.
+- Variável ""diabetes na lista de problemas"": Coincidente com a data de referência do indicador.
+- Variável ""prescrição de insulina"": Duração de 30 meses, terminando na data de referência do indicador.
+- Variável ""registo de HbA1c"": Duração de 18 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes com Diabetes Mellitus
+Estado do indicador,Com dados desde Janeiro de 2019
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

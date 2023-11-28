@@ -1,0 +1,63 @@
+titulo,texto
+ID,353
+Código,7.23.02
+Código SIARS,2017.353.01
+Nome abreviado,Custo c/ terapêut. do doente c/ HTA controlada
+Designação,Custo com terapêutica do doente com Hipertensão Arterial controlada
+Objetivo,Monitorizar a eficiência do tratamento da Hipertensão Arterial.
+Descrição do Indicador,"Exprime a despesa média com antihipertensores nos doentes com Hipertensão Arterial controlada.
+Numerador - Somatório do Preço de Venda ao Público (PVP) dos antihipertensores prescritos aos doentes com Hipertensão Arterial controlada.
+Denominador - Contagem de doentes com Hipertensão Arterial controlada."
+Regras de cálculo,"NUMERADOR (AA):
+Somatório do PVP de medicamentos (ver alínea I de OBSERVAÇÕES GERAIS) em que a expressão [A e B] é verdadeira:
+A. Prescritos por qualquer médico ou interno da unidade de saúde durante o período em análise aos utentes incluídos no denominador.
+B. Pertencente à classe dos antihipertensores (ver alínea A de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Hipertensão Arterial (rubricas da ICPC-2 K86 ou K87) encontra-se na lista de problemas, com o estado de ""ativo"".
+C. O último registo de pressão arterial, registado no semestre que antecede a data de referência do indicador, deve ser inferior a 150/90 mmHg (ver alíneas C, D, E, F e G de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Consideram-se pertencentes ao grupo dos [antihipertensores], os medicamentos pertencentes à classe 3.4 da classificação CFT.
+B. Os medicamentos pertencentes à classes CFT e ATC acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+C. São contabilizados no denominador utentes com registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+D. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+E. Não se contabilizam registos realizados em texto livre no SOAP.
+F. Apenas são considerados no denominador os utentes com registo de PAS inferior a 150 e PAD inferior a 90. Basta que a PAS seja igual ou superior a 150 ou que a PAD seja igual ou superior a 90 mmHg, para que esse registo não seja considerado.
+G. Quando existe mais do que um registo de pressão arterial no período em análise, apenas se contabiliza o último registado, que deve ser inferior ao limiar definido no denominador.
+H. A fonte de dados para a informação do numerador é a BDNP, bastando que um medicamento seja prescrito, para ser contabilizado (não se valida se é ou não dispensado em farmácia).
+I. Quando a prescrição é feita por marca de medicamento, o preço usado é o do medicamento prescrito. Quando é feita por DCI, o preço usado é o do 3º mais barato desse DCI, com a mesma dosagem e apresentação.
+J. Quando a prescrição é uma associação fixa, basta que nessa associação exista um medicamento pertencente ao grupo dos [antihipertensores] para que seja contabilizado na totalidade."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil. Pode também ser registada no ""perfil de enfermagem"".
+MEDICINEONE
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""prescrição de medicamentos e produtos terapêuticos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de Hipertensão Arterial""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB
+Unidade de medida,€ / UTE
+Output,Preço médio por utente
+Estado do indicador,Com dados desde Dezembro de 2016
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
+Intervalo Aceitável,"Ano de 2022: [0; 90]
+Ano de 2023: [0; 90]
+Ano de 2024: [0; 90]"
+Intervalo Esperado,"Ano de 2022: [0; 100]
+Ano de 2023: [0; 100]
+Ano de 2024: [0; 110]"
+Tipo de Indicador,Resultado
+Área clínica,Hipertensão Arterial
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

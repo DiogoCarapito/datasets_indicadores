@@ -1,0 +1,309 @@
+titulo,texto
+ID,179
+Código,8.09.01
+Código SIARS,AE.2009.2012
+Nome abreviado,Número UCs atividades específicas
+Designação,Número de unidades de contratualização relacionadas atividades específicas
+Objetivo,"Calcular do número de UC's a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas"" (desde sempre) e ""incentivos financeiros"" a enfermeiros e secretários clínicos (desde 2017)."
+Descrição do Indicador,"Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de utentes com hipertensão arterial, Diabetes Mellitus, saúde materna, planeamento familiar, saúde infantil 1º e 2ºano de vida (atividades específicas).
+Este indicador tem sido usado, desde 2007 para cálculo das unidades ponderadas associadas às atividades específicas a pagar a médicos nos termos artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto e do Despacho ""
+Normas para cálculo das remunerações dos profissionais das USF – Mod.B
+"", aprovado pelo Sr. Estado da Saúde em 23 Abril 2008.
+Tem também sido usado, desde 2017, para apuramento dos incentivos financeiros a pagar a enfermeiros e secretários clínicos em USF modelo B, nos termos previstos no artigo 31º e no artigo 33º do
+Decreto-Lei 298/2007
+na sua redação atual, e nos termos do artigo 3º da
+Portaria 212/2017
+."
+Regras de cálculo,"No artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto (Compensação associada às atividades específicas), pode ler-se:
+1. A compensação prevista na alínea a) do n.º 4 do artigo anterior e no nº 3 do artigo 38º está associada ao aumento das unidades ponderadas da lista mínima de utentes dos médicos e dos enfermeiros por força das atividades específicas de vigilância a utentes vulneráveis e de risco, segundo orientações técnicas da Direção-Geral da Saúde, nos termos seguintes:
+a) A vigilância, em planeamento familiar, de uma mulher em idade fértil, por ano: uma unidade;
+(vigente até 2022-11-18)
+a) O acompanhamento em saúde sexual e reprodutiva, de uma pessoa em idade fértil ou sexualmente ativa, por ano - uma unidade;
+(vigente a partir de 2022-11-19, nos termos da
+Lei 22/2022 de 18 de novembro
+)
+b) A vigilância de uma gravidez: oito unidades;
+c) A vigilância de uma criança, no primeiro ano de vida, por ano: sete unidades;
+d) A vigilância de uma criança, no segundo ano de vida, por ano: três unidades;
+e) A vigilância de uma pessoa diabética, por ano: quatro unidades;
+f) A vigilância de uma pessoa hipertensa, por ano: duas unidades.
+2. As atividades específicas previstas no número anterior são contratualizadas anualmente e constam da carta de compromisso.
+3. Os critérios para atribuição de unidades ponderadas às atividades específicas previstas no nº 1 são definidos pela Direcção-Geral da Saúde.?
+Assim, as 6 áreas de atividade em análise neste indicador são as seguintes:
+- Planeamento familiar
+- Saúde materna:
+- Saúde infantil - 1º ano de vida
+- Saúde infantil - 2º ano de vida
+- Diabetes
+- Hipertensão
+PLANEAMENTO FAMILIAR (PF)
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G)]:
+A. Sexo feminino.
+B. Ter entre [15; 50[ anos (idade calculada para o último dia do período em análise).
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos uma consulta médica (contacto direto ou indireto) com SOAP, durante o período em análise (12 meses), com registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar o planeamento familiar (W10, W11, W12, W13, W14 ou W15). Ver alíneas A e B de ""OBSERVAÇÕES"".
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos uma consulta médica (contacto direto e SOAP) durante o período em análise (12 meses) com registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar o planeamento familiar (W10, W11, W12, W13, W14 ou W15). Ver alíneas A e B de ""OBSERVAÇÕES"".
+D. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um registo de resultado de colpocitologia
+em lâmina
+(MCDT com código B003.5) nos 36 meses que antecedem a data fim do período em análise.
+E. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um registo de resultado de colpocitologia
+em meio líquido
+(MCDT com código B012.4) nos 60 meses que antecedem a data fim do período em análise.
+F. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+nos 60 meses que antecedem a data fim do período em análise (ver alíneas H e I de OBSERVAÇÕES GERAIS).
+G. Ter estado inscrita na unidade de saúde durante pelo menos um dia do período em análise.
+SAÚDE MATERNA (SMAT)
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K]:
+A. Sexo feminino.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter efetuado consulta médica de revisão do puerpério no período em análise (12 meses) e, no máximo, 42 dias (6 semanas) após o parto (a data de parto deve estar registada no módulo de saúde materna); Essa consulta deve ter um SOAP realizado por um médico, associado a um contacto direto ou indireto e, na mesma data, um registo de uma observação no módulo de saúde materna, registada por qualquer médico ou qualquer enfermeiro, com a quadrícula ""revisão do puerpério"" assinalada.
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter efetuado consulta médica de revisão do puerpério no período em análise (12 meses) e, no máximo, 42 dias (6 semanas) após o parto (a data de parto deve estar registada no módulo de saúde materna); Essa consulta deve ter um SOAP realizado por um médico, associado a um contacto direto e, na mesma data, um registo de uma observação no módulo de saúde materna, registada por qualquer médico ou qualquer enfermeiro, com a quadrícula ""revisão do puerpério"" assinalada.
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter efetuado a primeira consulta de gravidez antes das 12 semanas. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto ou indireto). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter efetuado a primeira consulta de gravidez antes das 12 semanas. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+D.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 5 consultas médicas (contacto direto ou indireto), com SOAP associado, de vigilância em saúde materna até à 38ª semana de gravidez ([1; 39[ semanas ou [1; 266] dias). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+D.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde materna até à 38ª semana de gravidez ([1; 39[ semanas ou [1; 266] dias). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+E. Ter pelo menos um registo de resultado de ecografia obstétrica do 1º trimestre com data de realização entre as [11; 14[ semanas de gestação (MCDT com código M272.0 ou M490.1). Ver alínea J de OBSERVAÇÕES GERAIS
+F.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2019)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica (MCDT com código M292.5 ou M291.7), com data de realização entre as [19; 23[ semanas ([134; 161] dias) de gestação (ver alínea K de OBSERVAÇÕES GERAIS).
+F.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2018)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica (MCDT com código M292.5 ou M291.7), com data de realização entre as [18; 24[ semanas de gestação.
+G. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+H. Gravidez registada no módulo ou no programa de saúde materna;
+I. Gravidez não classificada como aborto (ver alínea K de OBSERVAÇÕES GERAIS);
+J. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e o [42º dia de puerpério];
+K. Data de parto registada;
+SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
+A. Ter completado um ano de vida durante o período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter tido a primeira consulta médica até ao 28º dia de vida [0, 28 dias]. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto ou indireto). É necessária classificação desta consulta pela ICPC-2 (rubrica A98).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter tido a primeira consulta médica até ao 28º dia de vida [0, 28 dias]. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto). É necessária classificação desta consulta pela ICPC-2 (rubrica A98).
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 5 consultas médicas (contacto direto ou indireto), com SOAP registado, de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
+D. Ter pelo menos 2 registos parametrizados de avaliação do desenvolvimento psicomotor (Sheridan) até aos 11 meses de vida - [1, 330] dias. Podem ser realizados por médico ou por enfermeiro.
+E. Inscrição ativa na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida;
+SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D]:
+A. Ter completado dois anos de vida durante o período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 3 consultas médicas (contacto direto ou indireto), com SOAP registado, de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 3 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
+C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida - ]330, 700] dias. O Sheridan pode ser registado por médico ou por enfermeiro.
+D. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+DIABETES (DM)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H]:
+A. Ter o diagnóstico de Diabetes Mellitus (rubricas T89 ou T90 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 2 consultas médicas (contacto direto ou indireto), com SOAP associado, durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar diabetes (T89 ou T90).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 2 consultas médicas (contacto direto e SOAP) durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar diabetes (T89 ou T90).
+C. Ter pelo menos 2 registos de pressão arterial (realizados em datas diferentes) durante os 12 meses que antecedem a data final do período em análise. Os registos podem ser realizados por médicos ou por enfermeiros.
+D. Ter pelo menos 2 registos de resultado de hemoglobina A1C (MCDT com código A531.2) realizados durante os 12 meses que antecedem a data final do período em análise. Tem que ser de dias diferentes.
+E. Ter pelo menos 1 registo de resultado de hemoglobina A1C (MCDT com código A531.2) igual ou inferior a 8,5 %, realizado durante os 12 meses que antecedem a data final do período em análise.
+F. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
+G. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 12 meses que antecedem a data final do período em análise.
+H. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+HIPERTENSÃO (HT)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G]:
+A. Ter o diagnóstico de hipertensão arterial (rubricas K86 ou K87 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 2 consultas médicas (contacto direto ou indireto), com SOAP associado, durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar hipertensão arterial (K86 ou K87).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 2 consultas médicas (contacto direto e SOAP) durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar hipertensão arterial (K86 ou K87).
+C. Ter pelo menos 2 registos de pressão arterial (realizados em dias diferentes) durante os 12 meses que antecedem a data final do período em análise. Os registos podem ser realizados por médicos ou por enfermeiros.
+D. Ter pelo menos 1 registo de pressão arterial durante o período em análise com valores de pressão arterial sistólica igual ou inferior a 150 mmHg e de pressão arterial diastólica igual ou inferior a 90 mmHg.
+E. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
+F. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 24 meses que antecedem a data final do período em análise. Ver alínea G de ""OBSERVAÇÕES"".
+G. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador. Ver ANEXO A de ""OBSERVAÇÕES GERAIS"""
+Observações Gerais,"A. Contabilizam-se os códigos das rubricas da ICPC-2 que estiverem escritos no ""A"" do SOAP bem como as que estiverem definidas como ""episódio deste contacto"".
+B. Apenas se contabilizam SOAP registados até 5 dias após a respetiva realização.
+C. Apenas se contabiliza uma consulta médica por utente por dia.
+D. Nas grávidas, a idade gestacional é determinada da seguinte forma: Se existe uma data prevista de parto corrigida, determina-se a partir desta data; caso contrário, determina-se a partir da data da última menstruação (DUM).
+E. A Hemoglobina glicosilada (A1c) pode ser registada usando quer o módulo de análises, quer no módulo de diabetes, quer no módulo de MCDT; no módulo de análises, podem ser usadas a [Hemoglobina A1C], a [Hemoglobina A1c=Hemoglobina Glicosilada (Cromat.)] e a [Hemoglobina Glicosilada]; no módulo de diabetes deve ser usado o campo [Hemoglobina A1C]; no módulo de MCDT pode ser usado o MCDT 531.2, área A, HEMOGLOBINA Alc = HEMOGLOBINA GLICOSILADA (CROMAT.).
+F. A microalbuminúria pode ser registada usando quer o módulo de análises, quer no módulo de diabetes, quer o módulo de hipertensão, quer o módulo de MCDT:
+- Análise 560.6, área A, ""microalbuminúria em Urina 24h"" (válido até 1-5-2013)
+- Análise 560.6, área A, ""microalbuminúria em Urina 12h"" (válido até 1-5-2013)
+- Análise 560.6, área A, ""microalbuminúria em amostra de urina aleatória"" (válido até 1-5-2013)
+- Análise 597.5, área A, ""proteinúria em urina 24H"" (descontinuada após setembro de 2009)
+- Módulo diabetes ""microalbuminúria""
+- Módulo diabetes ""proteinúria""
+- Módulo HTA ""microalbuminúria""
+- Módulo HTA ""proteinúria""
+- MCDT 560.6, área A, MICROALBUMINURIA (válido até 1-5-2013)
+- MCDT 1318.2, área A ALBUMINA DE BAIXA CONCENTRAÇÃO (válido após 1-5-2013)
+- MCDT 597.5, área A, PROTEINAS PESQUISA NA URINA 24 HORAS, PROTEINÚRIA (descontinuada após setembro de 2009)
+G. O colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) podem ser registados quer no módulo de análises, quer o módulo de diabetes, quer o módulo de hipertensão. Apesar de poderem ser registados no módulo de MCDT, não são dai lidos pelo SIARS.
+H. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+I. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+J. Neste indicador, e em particular para a datação da gravidez na data de realização da ecografia no 1º trimestre, a datação da gravidez faz-se a partir da [data prevista de parto corrigida] (DPPC) registada no módulo ou programa de saúde materna, caso o registo da mesma ocorra, pela datação de gravidez que essa data determina, entre o D1 e o D75. Caso a DPPC não esteja registada ou seja registada após o D75 (pela datação da DPPC), a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+K. De acordo norma de orientação clínica da DGS 23/2011 (revista em 21-05-2013) sobre ""Exames ecográficos na gravidez de baixo risco"":
+a) Existe indicação para a realização de ecografia obstétrica, realizada entre as 20 e as 22 semanas (Nível de evidência A, Grau de recomendação I).
+b) A ecografia do segundo trimestre permite confirmar alguns dados da ecografia do primeiro trimestre, mas destina-se, sobretudo, à identificação de malformações fetais. São de especial relevância as malformações incompatíveis com a vida ou associadas a elevada morbilidade pós-natal, anomalias com potencial para tratamento intrauterino ou que exigem tratamento ou investigação pós-natal.
+c) Existe evidência científica de aumento da qualidade do exame e de diminuição da probabilidade de ter que ser repetido, que quando realizado entre as 20 e as 22 semanas, em comparação com a realização às ""18 semanas"".
+Por outro lado:
+a) Existe o limite legal das 24 semanas (no máximo até ao 168º dia de gestação) para a realização de interrupção de gravidez motivada por anomalias fetais graves.
+b) Existem contextos territoriais em que é particularmente difícil que todas as grávidas realizem a ecografia do 2º trimestre entre as 20 e as 22 semanas.
+c) O indicador tem uma função de monitorização do desempenho das equipas no cumprimento da norma da DGS, existindo restrições externas às equipas, que limitam a sua capacidade para cumprir, com todo o rigor, os limites temporais definidos.
+Assim sendo, opta-se por:
+Alargar o intervalo para a realização da ecografia do 2º trimestre, medido pelo indicador, para entre as 19 e as 22 semanas e seis dias.
+ANEXO A
+1. De acordo com os artigos 28 e 29° do
+Decreto-Lei 298/2007
+na sua redação atual, o pagamento de atividades específicas (AE) é devido mensalmente aos médicos que integram USF modelo B, sendo o número de unidades ponderadas (UP) avaliado anualmente, com data de referência de 31 de dezembro do ano anterior. As unidades ponderadas medidas a 31 de dezembro do ano N-1 influenciam o vencimento no ano N, devendo constar da carta de compromisso.
+2. As UP das AE são calculadas ponderando cada uma das 6 áreas (previstas nos artigos 28 e 29° do
+Decreto-Lei 298/2007
+na sua redação atual), através da fórmula seguinte:
+PF + 8 x SMAT + 7 x SI1 + 3 x SI2 + 4 x DM + 2 x HT
+Em que:
+PF - Nº de utentes que cumprem os critérios previstos para o ""Planeamento Familiar""
+SMAT - Nº de utentes que cumprem os critérios previstos para a ""Saúde Materna""
+SI1 - Nº de utentes que cumprem os critérios previstos para a ""Saúde Infantil, 1º ano de vida""
+SI2 - Nº de utentes que cumprem os critérios previstos para a ""Saúde Infantil, 2º ano de vida""
+DM - Nº de utentes que cumprem os critérios previstos para ""Diabetes Mellitus""
+HT - Nº de utentes que cumprem os critérios previstos para o ""Hipertensão Arterial""
+3. As UP referidas no número anterior são calculadas sobre os ficheiros dos médicos que a 1 de janeiro do ano N (N é o ano de referência do cálculo), já desempenham atividade na unidade funcional (UF).
+4. As UC calculadas para cada médico, que no dia 1 de janeiro do ano N desempenham atividade na UF, são determinadas pela fórmula seguinte:
+( PF + 8 x SMAT + 7 x SI1 + 3 x SI2 + 4 x DM + 2 x HT ) / 55 / BB
+Na fórmula anterior, BB é o número de médicos que a 1 de janeiro do ano N, desempenham atividade na UF. Os médicos em regime de tempo completo são contabilizados com 1 unidade. Os médicos em regime de tempo parcial são contabilizados com 0,5 unidades.
+5. Os médicos em regime de tempo completo recebem o valor de UC calculado, arredondado por defeito à unidade. Os médicos em regime de tempo parcial, recebem 50% das UC anteriormente calculadas, arredondadas às décimas.
+6. Os médicos que integram a equipa durante o ano N, têm um cálculo de 8 UC, se estiverem em regime de tempo completo e 4 se estiverem em regime de tempo parcial;
+7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP."
+Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+B. A microalbuminúria pode ser registada no módulo de MCDT e em campos específicos existentes na ficha de hipertensão e na ficha de diabetes.
+C. É possível registar [Aborto] na janela [Revisão do puerpério]. Esta funcionalidade está acessível a partir do botão [RP] do [programa de saúde materna]. O [aborto] é selecionado na mesma lista em que é possível escolher o [tipo de parto].
+D. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea D de OBSERVAÇÕES GERAIS deve ter a seguinte leitura: D. O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver como se determina a [data de fim da gravidez] nas OBSERVAÇÕES GERAIS).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna.
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+E. Os resultados da ""colpocitologia em lâmina"" devem ser registados no módulo de MCDT.
+F. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O registo é efetuado no módulo de MCDT.
+G. O exame [Pesquisa de DNA por PCR, cada PCR] também deve ser registado no módulo de MCDT.
+H. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+C. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+D. A proteinúria, o colesterol total, o colesterol HDL e os triglicéridos podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+E. A microalbuminúria pode ser requisitada e registada quer através do módulo de análises quer através do módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+F. A microalbuminúria pode também ser registada nos campos criados para o efeito quer no módulo de hipertensão, quer no módulo de diabetes.
+G. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+H. A HbA1c podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS apenas contabiliza os registados no módulo de análises.
+I. Os registos de exame dos pés devem ser realizados no módulo de diabetes, usando um dos campos seguintes: a) rastreio do pé; b) exames dos pés.
+J. O diagnóstico de gravidez pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico não necessita estar classificado como ""ativo"", mas não pode ter sido classificado como ""inválido"".
+K. Para que sejam contabilizados neste indicador, as [ecografias obstétricas] podem ser registadas quer no módulo de MCDT quer no módulo de saúde materna.
+L. O resultado das [ecografias obstétricas] podem ser registados quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+M. O [aborto] pode ser registado no módulo de saúde materna (por baixo da zona de registo da [data da última menstruação] e da [data de parto]).
+N. Para que sejam contabilizados neste indicador, as colpocitologias podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+O. O resultado da colpocitologia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+P. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado.
+Q. O intervalo de tempo [1, 330] dias, definido na área da Sáude infantil, 1º ano de vida, destina-se a detetar 5 das 6 consultas de vigilância em saúde infantil previstas pela DGS para o 1º ano de vida:
+- 1ª consulta da vida;
+- Consulta do 1º mês;
+- Consulta dos 2 meses;
+- Consulta dos 4 meses;
+- Consulta dos 6 meses;
+- Consulta dos 9 meses.
+R. O intervalo de tempo ]330; 700] dias, definido na área da Sáude infantil, 2º ano de vida, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses.
+S. A datação da gravidez no 1º trimestre não entra em linha de conta com a DPPC, pois neste software não existe regista da data de registo da DPPC."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+PLANEAMENTO FAMILIAR (PF)
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano corrente e termina na data de referência do indicador.
+- Variável ""colpocitologia em lâmina"": Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Variável ""colpocitologia em meio líquido"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""Pesquisa de DNA do HPV por PCR"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""idade"": Medida em relação a 31 de dezembro do ano em curso
+- Variável ""inscrição ativa na unidade de saude"": Duração de 12 meses, terminando na data de referência do indicador.
+SAÚDE MATERNA (SMAT)
+- As variáveis da área de SAÚDE MATERNA têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise.
+- Os períodos em análise das restantes variáveis dependem do período da gestação ou do puerpério em que devem ser realizados.
+SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
+- As variáveis da área de SAÚDE INFANTIL 1º ANO têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 1 ano de vida no ano civil em curso.
+- Para cada criança incluída nesta área, o período em análise para deteção de consultas ou procedimentos inicia-se com o nascimento e termina ao 330º dia de vida.
+- Variável ""idade"": A 31 de dezembro do ano em curso, cada criança tem [1, 2[ anos de idade.
+SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
+- As variáveis da área de SAÚDE INFANTIL 2º ANO têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida no ano civil em curso.
+- Para cada criança incluída nesta área, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Variável ""idade"": A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade.
+DIABETES (DM)
+- Variável ""Diabetes na lista de problemas"": Coincidente com a data de referência do indicador.
+- variável ""Consulta médicas"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registos de pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registo de HbA1c"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""HbA1c igual ou inferior a 8,5%"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+HIPERTENSÃO (HT)
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""registo de pressão arterial em 12 meses"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""resultado da pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""HTA na lista de problemas"": Coincidente com a data de referência do indicador."
+Fórmula,(PF + 8 SMAT + 7 SI1 + 3 SI2 + 4 DM + 2 HT) / BB
+Unidade de medida,UC
+Output,Score: Unidade de contratualização
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,30 dias

@@ -1,0 +1,80 @@
+titulo,texto
+ID,317
+Código,8.03.01
+Código SIARS,---
+Nome abreviado,Propor. utiliz. consulta PF sem necessidades PF
+Designação,"Proporção de utilizadoras da consulta de planeamento familiar no último ano, sem ""necessidades em planeamento familiar""."
+Objetivo,Apoio a processos de auditoria interna ou externa a registos clínicos relacionados com consultas de planeamento familiar.
+Descrição do Indicador,"Indicador que exprime a proporção de MIF utilizadoras da consulta médica ou de enfermagem de PF no último ano, sem necessidades em PF.
+Numerador: Contagem de MIF utilizadoras da consulta médica ou de enfermagem de PF no último ano, sem necessidades em PF.
+Denominador: Contagem de MIF utilizadoras da consulta médica ou de enfermagem de PF no último ano."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Todas as consultas médicas de PF (ver alínea A de OBSERVAÇÕES GERAIS) realizadas nos últimos 12 meses ocorreram numa data em que a MIF não tinha necessidades em PF (ver alínea D de OBSERVAÇÕES GERAIS).
+C. Todas as consultas de enfermagem de PF (ver alínea A de OBSERVAÇÕES GERAIS) realizadas nos últimos 12 meses ocorreram numa data em que a MIF não tinha necessidades em PF (ver alínea D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e (D ou E)] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de saúde, válida à data de referência do indicador.
+B. Ser mulher.
+C. Ter idade pertencente ao intervalo [15; 50[ anos (ver alínea C de OBSERVAÇÕES GERAIS).
+D. Ter pelo menos uma consulta médica de PF (ver alínea A de OBSERVAÇÕES GERAIS) realizada por qualquer médico ou interno da unidade de saúde, nos últimos 12 meses.
+E. Ter pelo menos uma consulta de enfermagem de PF (ver alínea B de OBSERVAÇÕES GERAIS) realizada por qualquer enfermeiro da unidade de saúde, nos últimos 12 meses."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Vigilância] de PF, é necessário que os registos sejam compatíveis com uma das seguintes normas de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para classificar o A do SOAP, são W10, W11, W12, W13, W14, W15.
+B. Para se considerar uma [Consulta de Enfermagem de Vigilância] em PF, é necessário que os registos sejam compatíveis com uma das seguintes normas de [consulta]:
+-
+C006
+| Consulta de enfermagem de vigilância - SClínico
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Nas normas
+C006
+,
+C012
+e
+C018
+, os códigos CIPE-B2 que podem ser usados para codificar [diagnósticos de enfermagem] ou [intervenções de enfermagem] são os que se especificam em
+[Diagnósticos e intervenções de enfermagem codificados pela CIPE] > [E003 | Vigilância em saúde reprodutiva e planeamento familiar]
+Nota 2: Na norma
+C012
+, os códigos ICPC-2 específicos de saúde reprodutiva e planeamento familiar, que podem ser usados para classificar o A do SOAP, são W10, W11, W12, W13, W14, W15.
+C. A idade deve ser medida em relação à data de referência do indicador.
+D. São consideradas as seguintes condições equivalentes à inexistência de necessidades em PF, bastando a existência de uma delas:
+1. Gravidez iniciada nos 9 meses que antecedem a consulta de PF e ainda sem data de parto e sem aborto registados;
+2. Esterilidade. Esta condição é identificada pela existência do diagnóstico de infertilidade/subfertilidade (rúbrica W15 da ICPC-2) registado na lista de problemas com o estado ativo, na data da consulta, e com pelo menos 4 anos de duração.
+3. Registo do método de planeamento familiar ""sem necessidade de contraceção"" ou outro equivalente, na data da consulta, que se mantém registado após a consulta.
+4. Registo prévio (em data anterior à da consulta) na lista de problemas ou no sistema de episódios ICPC-2 associados à consulta de uma das seguintes rúbricas ICPC2: a) X11 – Sintoma/queixa da menopausa; b) X12 – hemorragia pós-menopausa."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consulta médica PF""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Numerador (variável ""consulta enfermagem PF""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Numerador (variável ""utente sem necessidades em PF""): A data de análise desta variável está ancorada à data em que se identificam consultas válidas para as alíneas B ou C do numerador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""ser mulher""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): Calculada relativamente a 31 de dezembro do ano da data de referência do indicador.
+- Denominador (variável ""consulta médica PF""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""consulta enfermagem PF""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de mulheres
+Estado do indicador,Descontinuado em Janeiro de 2016
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Planeamento Familiar
+Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise
+Prazo para Registos,5 dias

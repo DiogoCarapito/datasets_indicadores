@@ -1,0 +1,28 @@
+titulo,texto
+ID,180
+Código,2.11.01
+Código SIARS,---
+Nome abreviado,Número de USF modelo A
+Designação,Número de USF modelo A
+Objetivo,Conhecer o número de unidades de determinado tipo/modelo existentes em determinada data
+Descrição do Indicador,Número de USF modelo A existentes à data de referência do indicador
+Regras de cálculo,"RESULTADO (AA)
+Contagem de unidades funcionais em que à data de referência do indicador, é verdadeira a expressão [A e B e C]
+A. Unidade do tipo USF.
+B. Modelo A.
+C. Pertencente à respetiva unidade de observação ou a uma unidade de observação dependente."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Variável ""Tipo de unidade"": Coincidente com a data de referência do indicador.
+Variável ""Modelo de unidade"": Coincidente com a data de referência do indicador.
+Variável ""Unidade de observação"": Coincidente com a data de referência do indicador."
+Fórmula,AA
+Unidade de medida,UF
+Output,Número de unidades funcionais
+Estado do indicador,Em desenvolvimento
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

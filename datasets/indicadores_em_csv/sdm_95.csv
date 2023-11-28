@@ -1,0 +1,164 @@
+titulo,texto
+ID,095
+Código,6.01.07
+Código SIARS,2013.095.01
+Nome abreviado,"Proporção jovens 14A, c/ PNV cumprido ou execução"
+Designação,"Proporção de jovens com 14 anos, com PNV cumprido ou em execução à data de referência do indicador"
+Objetivo,Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 14 anos.
+Descrição do Indicador,"Indicador que exprime a proporção de jovens que na data de referência do indicador possuem o PNV cumprido ou em execução, entre os que completam 14 anos.
+Numerador: Contagem de jovens que na data de referência do indicador possuem o PNV cumprido ou em execução.
+Denominador: Contagem de jovens que completam 14 anos."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Na data de referência do indicador, não possuem vacinas do PNV em atraso (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro de 2019.
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 14 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Residência em Portugal (ver alínea G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou inferior a dezembro de 2018.
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 14 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
+B. [
+Inscrição ativa
+] na unidade de saúde, na data de referência do indicador (ver alínea F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
+B. São incluídos no numerador, os jovens que à data de referência do indicador, não tenham que ser convocados por atraso na inoculação de alguma vacina do PNV. Assim, são incluídos:
+a) Os que tenham o PNV totalmente cumprido pelo esquema cronológico recomendado;
+b) Os que tenham o PNV totalmente cumprido pelo esquema cronológico de recurso adaptado à idade;
+c) Os que tenham o PNV ainda a ser executado pelo esquema cronológico de recurso adaptado à idade e com a(s) próxima(s) inoculação(ões) vacina(s) recomendada(s) para data posterior à data de referência do indicador.
+C. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
+D. Quando um jovem tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se um jovem tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
+E. Um jovem é incluído no numerador se a condição [(A1 ou B1) e (C1 ou D1 ou E1 ou F1) e (G1 ou H1 ou I1 ou J1 ou K1 ou L1) e 
+(C2 ou M1 ou N1 ou O1 ou P1 ou Q1 ou R1) e (S1 ou T1) e (U1 ou V1 ou W1 ou X1) e (Y1 ou Z1 ou A2 ou B2)] for verdadeira:
+A1. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica, até à data de referência do indicador (ver vacinas equivalentes com código
+[BCG]
+).
+B1. Data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
+C1. Inoculação e registo da 3ª dose (ou superior) de [vacina contra hepatite B], até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+D1. Inoculação e registo da 2ª dose de [vacina contra hepatite B] nos 6 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+E1. Inoculação e registo da 1ª dose de [vacina contra hepatite B] no mês que antecede a data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+F1. Registo de [vacina contra hepatite B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HEPATITE_B]
+).
+G1.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2018:
+Inoculação e registo da 4ª dose (ou superior) de [vacina contra a difteria e tétano], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+H1.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2018:
+Inoculação e registo da 3ª dose de [vacina contra a difteria e tétano], nos 36 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+I1. Inoculação e registo da 3ª dose (ou superior) de [vacina contra a difteria e tétano], entre a idade de 10 anos (3653 dias de vida) da criança e a data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+J1. Inoculação e registo da 2ª dose de [vacina contra a difteria e tétano], nos 6 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+K1. Inoculação e registo da 1ª dose de [vacina contra a difteria e tétano], no mês que antecede a data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+L1. Registo de [vacina contra a difteria e tétano] com estado de [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[DIFTERIA] e [TETANO]
+).
+C2.
+Válido para indicadores com data de referência igual ou superior a dezembro de 2019:
+Inoculação e registo da 3ª dose ou superior de [vacina contra a poliomielite] após os 4 anos de idade, desde que o intervalo entre a penúltima e a última dose da VIP seja de, pelo menos, 6 meses (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+M1.
+Válido para indicadores com data de referência entre janeiro de 2018 e novembro de 2019:
+Inoculação e registo da 3ª dose (ou superior) de [vacina contra a poliomielite] até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+N1.
+Válido para indicadores com data de referência inferior a janeiro de 2018:
+Inoculação e registo da 4ª dose (ou superior) de [vacina contra a poliomielite], até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+O1.
+Válido para indicadores com data de referência inferior a janeiro de 2018:
+Inoculação e registo da 3ª dose de [vacina contra a poliomielite], forma inativada (VIP), posterior aos 4 anos de idade e anterior à data de referência do indicador, assegurando que nem a 2ª nem a 1ª dose foram feitas com VAP. (ver vacinas equivalentes com código
+[POLIOMIELITE]
+)
+P1. Inoculação e registo da 2ª dose de [vacina contra a poliomielite] nos 6 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+Q1. Inoculação e registo da 1ª dose de [vacina contra a poliomielite] no mês que antecede a data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+R1. Registo de [vacina contra a poliomielite] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[POLIOMIELITE]
+).
+S1. Inoculação e registo de [vacina contra doença por Meningococcus serogrupo C], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+).
+T1. Registo de [vacina contra doença por Meningococcus serogrupo C] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+).
+U1. Inoculação e registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+V2.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2018:
+Inoculação e registo da 1ª dose de [vacina contra sarampo, parotidite epidémica e rubéola] nos 36 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+W1.
+Válido para indicadores com data de referência inferior a janeiro de 2018:
+Inoculação e registo da 1ª dose de [vacina contra sarampo, parotidite epidémica e rubéola] no mês que antecede a data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+X1. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+).
+Y1. Sexo masculino.
+Z1. Inoculação e registo da 2ª dose (ou superior) de [vacina contra infeção pelo HPV], entre 9 anos de idade e a data de referência do indicador (ver vacinas equivalentes com código
+[HPV]
+).
+A2. Inoculação e registo da 1ª dose de [vacina contra infeção pelo HPV] nos 6 meses que antecedem a data de referência do indicador (ver vacinas equivalentes com código
+[HPV]
+).
+B2. Registo de [vacina contra infeção pelo HPV] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[HPV]
+).
+F. São incluídos no denominador deste indicador todos os utentes inscritos na unidade de observação à data de referência do indicador. O SIARS contabiliza no denominador também os utentes [excluídos] quer no módulo de vacinação do SINUS quer no RSE Vacinas;
+G. A residência é verificada no RNU à data de referência do indicador. São exluídos do denominador (e consequentemente do numerador), os utentes residentes no estrangeiro."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""inoculação de vacinas do PNV""): O período em análise para deteção de vacinas pertencentes a cada criança incluída no denominador, inicia-se com o respetivo nascimento e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem [14, 15[ anos.
+- Denominador (variável ""residência""): Coincidente com a data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacinas do PNV""): O período em análise para deteção de vacinas pertencentes a cada criança incluída no denominador, inicia-se com o respetivo nascimento e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [14, 15[ anos.
+- Denominador (variável ""residência""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de jovens
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [95; 100]
+Ano de 2023: [95; 100]
+Ano de 2024: [95; 100]"
+Intervalo Esperado,"Ano de 2022: [95; 100]
+Ano de 2023: [95; 100]
+Ano de 2024: [90; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

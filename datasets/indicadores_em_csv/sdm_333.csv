@@ -1,0 +1,51 @@
+titulo,texto
+ID,333
+Código,2.17.01
+Código SIARS,2017.333.01
+Nome abreviado,Proporção de utentes com e-mail
+Designação,"Proporção de utentes com inscrição ativa e idade superior a 18 anos, com um contacto do tipo ""e-mail"", registado no RNU"
+Objetivo,Monitorizar a proporção de utentes com registo de e-mail no processo administrativo do RNU
+Descrição do Indicador,"Exprime a proporção de utentes com um contacto do tipo ""e-mail"", registado no RNU.
+Numerador: Contagem de utentes com 18 ou mais anos e registo de ""e-mail"" no RNU.
+Denominador: Contagem de utentes com 18 ou mais anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um registo de ""e-mail"" no RNU (ver alíneas A, B, C, D, E, F e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador)."
+Observações Gerais,"A. Os contactos do tipo e-mail contabilizados são aqueles em que o texto do endereço, depois de ""limpo"" de espaços e convertido em minúsculas, a expressão [AA e BB e CC] é verdadeira:
+AA. Número de caracteres superior a 6;
+BB. Contém o caracter ""@"" em posição intermédia;
+CC. Contém um caracter ""."" depois do caracter ""@"".
+B. A atualização dos contactos (endereço postal, telefones e endereço de e-mail) é um procedimento facilitador da comunicação entre os profissionais de saúde e o utente.
+C. Embora por vezes seja útil registar nos contactos de determinado elemento do agregado, o e-mail doutro elemento, tal prática não é incentivada por este indicador, já que não se contabilizam para o numerador, endereços de e-mail repetidos em elementos diferentes do mesmo agregado familiar.
+D. A ""fonte"" dos contactos de ""e-mail"" é o campo ""e-mail"" do separador de ""contactos"" do utente no RNU, desde que este respeite as regras definidas na alínea A de OBSERVAÇÕES GERAIS.
+E. Não se contabilizam para este indicador eventuais endereços de e-mail registados no campo ""outro contacto"" nem no campo ""e-mail"" de registos agrupados em ""OUTROS CONTACTOS"".
+F. Não se contabilizam para este indicador eventuais ""e-mail"" registados na ""ficha de família"" do utente.
+G. Se um endereço de e-mail estiver repetido em elementos diferentes do mesmo agregado familiar é contabilizado uma única vez no numerador."
+Observações Sobre Software,"RNU
+A. O endereço de e-mail lido neste indicador deve ser registado na ficha individual, separador ""CONTACTOS"", campo ""e-mail""."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""registo de e-mail""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem 18 ou mais anos."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Janeiro de 2017
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,"Ano de 2022: [80; 100]
+Ano de 2023: [80; 100]
+Ano de 2024: [80; 100]"
+Intervalo Esperado,"Ano de 2022: [40; 100]
+Ano de 2023: [40; 100]
+Ano de 2024: [40; 100]"
+Tipo de Indicador,Estrutura
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

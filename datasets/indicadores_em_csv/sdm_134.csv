@@ -1,0 +1,42 @@
+titulo,texto
+ID,134
+Código,5.03.02
+Código SIARS,5.3 d1
+Nome abreviado,"Percent. utentes [50; 75[A, c/ colonosc. ou PSOF"
+Designação,"Percentagem inscritos com idade entre [50; 75[ anos, com PSOF ou colonoscopia atualizada"
+Objetivo,"Monitorizar o programa de rastreio oncológico. Parâmetro ""rastreio e deteção precoce do cancro do cólon e reto""."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes inscritos com idade compreendida no intervalo [50; 75[ anos, com rastreio do cancro do cólon e reto efetuado.
+Numerador: Contagem de utentes inscritos com PSOF (2 anos) ou colonoscopia (5 anos).
+Denominador: Contagem de utentes inscritos com idade compreendida no intervalo [50; 75[ anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Pelo menos um resultado de pesquisa de sangue oculto nas fezes (PSOF), nos últimos 2 anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+C. Pelo menos um resultado de colonoscopia, nos últimos 5 anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Ter idade compreendida no intervalo [50; 75[ anos.
+B. Com inscrição ativa na Unidade de Saúde durante pelo menos um dia do período em análise."
+Observações Gerais,"A. O exame da tabela de MCDT convencionados, válido para identificar [PSOF] é o seguinte:
+- [Sangue oculto nas fezes, fezes], código 607.6, área A.
+B. O exames da tabela de MCDT convencionados, válidos para identificar [colonoscopia] são os seguintes:
+- [Colonoscopia total], código 005.1, área F.
+- [Colonoscopia total], código 101.5, área F.
+- [Colonoscopia, pacote de procedimentos], código 100.7, área F.
+C. Para que um exame seja contabilizado, deve ter um resultado.
+D. A data que deve ser usada para verificar se o exame está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""PSOF""): Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Numerador (variável ""colonoscopia""): Duração de 109 a 120 meses. Tem início a 1 de janeiro do ano N-9 e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Descontinuado em Dezembro de 2014
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Rastreio Oncológico
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,30 dias

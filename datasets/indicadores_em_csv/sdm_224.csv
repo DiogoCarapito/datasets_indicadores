@@ -1,0 +1,44 @@
+titulo,texto
+ID,224
+Código,2.13.03
+Código SIARS,MORB.224.01
+Nome abreviado,"Incidência de ""acidente isquémico transitório"""
+Designação,"Proporção de utentes com novo diagnóstico de ""acidente isquémico transitório"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""incidência de acidente isquémico transitório"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com novo diagnóstico de ""acidente isquémico transitório"" (último ano) identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""acidente isquémico transitório"" registado na lista de problemas e iniciado no último ano.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""acidente isquémico transitório"" (rubrica ICPC K89) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador e teve início nos últimos 12 meses (ver alíneas A, B, C, D, E, F e G de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea H de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Contabilizam-se apenas os diagnósticos que tiveram início (campo ""data de início"" do problema) nos 12 meses que antecedem a data de referência do indicador. Isto pressupõe que os médicos quando procedem ao registo de um novo problema de saúde alterem a data que é colocada por defeito pelo sistema de registo clínico nesse campo (habitualmente a data atual) para a data aproximada em que o problema foi diagnosticado ao doente. Não o fazendo, tal ocasiona uma sobre-valorização do resultado deste indicador.
+C. Critérios de K89 (ICPC-2): Sintomas de hipofunção cerebral temporária (menos de 24 horas), aparecimento repentino, de origem presumivelmente vascular, sem sequelas; com Exclusão de enxaqueca, enxaqueca equivalente, ou epilepsia.
+D. O K89 inclui (ICPC-2): Insuficiência basilar; ""drop attacks""; acidentes isquémicos transitórios (AIT); amnésia geral transitória.
+E. O K89 exclui (ICPC-2): Acidente cerebrocardiovascular K90, enxaqueca N89, sopro carotídeo K81.
+F. Quem regista o K89 deve considerar (ICPC-2): Desmaios, síNCOPe A06.
+G. Notas de K89 (ICPC-2): Código duplo com K91.
+H. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição. Isto faz com que os utentes falecidos ou transferidos ao longo do ano e com o problema de saúde registado na lista de problemas antes do falecimento não sejam contabilizados no denominador nem no numerador, decorrendo dai uma subvalorização da incidência."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 1.000
+Unidade de medida,‰
+Output,Incidência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

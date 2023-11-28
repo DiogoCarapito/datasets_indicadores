@@ -1,0 +1,92 @@
+titulo,texto
+ID,277
+Código,6.28.02
+Código SIARS,2013.277.01
+Nome abreviado,"Proporção fumadores, c/ consulta relac. tabaco 1A"
+Designação,"Proporção de utentes com idade igual ou superior a 14 anos e com hábitos tabágicos, a quem foi realizada consulta relacionada com tabagismo, no último ano"
+Objetivo,"Monitorizar o programa de saúde juvenil e de adultos. Parâmetro ""consulta relacionada com tabagismo""."
+Descrição do Indicador,"Indicador que exprime a proporção de fumadores com idade igual ou superior a 14 anos, a quem foi feita consulta relacionada com tabagismo, no último ano.
+Numerador: Contagem de fumadores com idade igual ou superior a 14 anos a quem foi feita consulta relacionada com tabagismo, no último ano.
+Denominador: Contagem de fumadores com idade igual ou superior a 14 anos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Existe pelo menos uma [consulta médica de vigilância] relacionada com o problema [tabagismo] nos últimos 12 meses (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Existe pelo menos uma [consulta de enfermagem de vigilância] relacionada com o problema [tabagismo] nos últimos 12 meses (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e (C ou D)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 14 anos (ver alínea C de OBSERVAÇÕES GERAIS).
+C. Na data de referência do indicador, o diagnóstico de tabagismo (rubrica da ICPC-2 P17) encontra-se na lista de problemas, com o estado de ""ativo"" (ver alínea E de OBSERVAÇÕES GERAIS).
+D. O último registo de hábitos tabágicos, válido no período em análise, é superior a 0 (zero). Ver alíneas D, E e F de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica] relacionada com tabagismo, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 específico de tabagismo, que pode ser usado para o classificar como ""problema de saúde da consulta"" é o P17.
+B. Para se considerar uma [Consulta de Enfermagem] relacionada com tabagismo, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.7
+| Consulta de enfermagem de vigilância relacionada com tabagismo - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa ou área de vigilância. No entanto, entende-se que existe um conjunto de diagnósticos e intervenções altamente frequentes e caracterizadores da consulta de vigilância relacionada com a obesidade, que passam a ser utilizados para caracterizar este tipo de consulta de vigilância e disponíveis em
+Diagnósticos e intervenções de enfermagem codificados pela CIPE - Tabagismo
+.
+Nota 2: Na norma
+C012
+, o código ICPC-2 específico de tabagismo, que pode ser usado para o classificar como ""problema de saúde da consulta"" é o P17.
+C. A idade deve ser medida em relação à data de referência do indicador quando o cálculo é do tipo ""período em análise flutuante"" e em relação a 31 de dezembro do ano em curso, quando o cálculo é do tipo ""período em análise fixo"".
+D. Os registos de hábitos tabágicos podem ser feitos por qualquer médico, interno ou enfermeiro da unidade de saúde.
+E. Um utente sem P17 na lista de problemas e sem qualquer registo de hábitos tabágicos, não é contabilizado no denominador.
+Um utente sem P17 na lista de problemas e com registo de ""0 cigarros por dia"" (ou equivalente), não é contabilizado no denominador.
+Um utente com P17 na lista de problemas (ativo) é contabilizado no denominador.
+Um utente com registo de hábitos tabágicos superior a 0 (zero) é contabilizado no denominador.
+Um utente que no registo de ""hábitos tabágicos"" é classificado como ""fumador"", é contabilizado no denominador.
+F. A data que deve ser usada para validar se o ""hábito tabágico"" é ou não válido no período em análise, é a respetiva [data de fim] que deve pertencer ao período em análise ou não deve estar preenchida."
+Observações Sobre Software,"SClínico:
+A. Os hábitos tabágicos podem ser registados na [ficha individual] e nas diversos módulos de programas de saúde ([diabetes], [hipertensão], [planeamento familiar] e [saúde materna] e [tabagismo]).
+Podem ser usados os seguintes campos:
+1. Campo ""Tabaco"" no grupo ""Hábitos"", que tem os seguintes itens para escolha: Sim; Não; Sem preenchimento. No módulo de ""tabagismo"" o campo correspondente tem o descritivo ""Fuma atualmente?"". O SCLÍNICO regista as datas em que os profissionais de saúde procedem a alterações a este campo.
+2. Campo ""Tabaco"" no grupo ""Consultas"". Campo usado para registar o nº de [cigarros por dia] que o doente consome na data em que é feito o registo.
+3. Campo ""Carga tabágica"" no grupo ""Consultas"". Campo usado para registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
+SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. Não existe forma de proceder ao registo normalizado da informação de hábitos tabágicos.
+MEDICINEONE:
+A. O diagnóstico de tabagismo pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. Os hábitos tabágicos são registados no módulo de hábitos. O registo de utente ""sem hábitos tabágicos"" faz-se colocando um 0 (zero) no campo da quantidade."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador;
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""P17 na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""registo de hábitos tabágicos""): Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""consulta médica ou consulta de enfermagem""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""P17 na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""registo de hábitos tabágicos""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Junho de 2014
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Multimorbilidade e Outros Tipos de Doenças
+Intervalo Aceitável,"Ano de 2022: [31; 100]
+Ano de 2023: [31; 100]
+Ano de 2024: [31; 100]"
+Intervalo Esperado,"Ano de 2022: [14; 100]
+Ano de 2023: [14; 100]
+Ano de 2024: [14; 100]"
+Tipo de Indicador,Processo
+Área clínica,Transversal
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

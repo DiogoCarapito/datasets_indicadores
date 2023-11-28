@@ -1,0 +1,70 @@
+titulo,texto
+ID,011
+Código,6.09.01
+Código SIARS,2013.011.01
+Nome abreviado,Proporção gráv. c/ consulta méd. vigil. 1º trim.
+Designação,"Proporção de grávidas com 1ª consulta médica de vigilância da gravidez, realizada no 1º trimestre"
+Objetivo,"Monitorização do Programa de Vigilância em Saúde Materna, área da vigilância precoce da grávida, realizada por médicos."
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de grávidas que realizaram a 1ª consulta médica de vigilância da gravidez no 1º trimestre de gestação e o número de grávidas cujo fim do 1º trimestre coincide com o período em análise do denominador.
+Numerador: Contagem de grávidas que realizaram a 1ª consulta médica de vigilância da gravidez no 1º trimestre.
+Denominador: Contagem de grávidas."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Utentes que tiveram pelo menos uma consulta médica de vigilância de gravidez nos primeiros 90 dias de gestação (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D e E] é verdadeira:
+A. Ser mulher;
+B. Gravidez registada no módulo ou no programa de saúde materna;
+C. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e a [data de fim da gravidez] (ver alíneas C e D de OBSERVAÇÕES GERAIS);
+D. [
+Inscrição ativa
+] na unidade de saúde durante pelo menos um dia do primeiro trimestre de gestação ([1; 90] dias). ver alíneas B e E de OBSERVAÇÕES GERAIS.
+E. O final do 1º trimestre (90º dia de gestação) pertencente ao período em análise (ver alínea B de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Vigilância] em saúde materna, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, os códigos ICPC-2 específicos de gravidez, que podem ser usados para a classificar como ""problema de saúde da consulta"" são W78, W79, W84.
+B. Neste indicador, a datação da gravidez faz-se a partir da [data prevista de parto corrigida] (DPPC) registada no módulo ou programa de saúde materna, caso o registo da mesma ocorra, pela datação de gravidez que essa data determina, entre o D1 e o D75. Caso a DPPC não esteja registada ou seja registada após o D75 (pela datação da DPPC), a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+C. O registo de gravidez na lista de problemas, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração, definida pelos campos [Data inicio] e [Data fim] seja coincidente em pelo menos um dia com a duração da gravidez respetiva no módulo ou programa de saúde materna, devendo verificar-se as 2 condições seguintes:
+a) a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+b) a [Data fim] do diagnóstico de gravidez ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+D. Nas grávidas, a [data de fim da gravidez] é determinada da seguinte forma:
+a) Se existe uma [data de parto], a [data de fim da gravidez] é igual à [data de parto].
+b) Se não existe uma [data de parto] e existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à [data prevista de parto corrigida].
+c) Se não existe uma [data de parto] e não existe uma [data prevista de parto corrigida], a [data de fim da gravidez] é igual à soma de [39 semanas e 6 dias] (280 dias) com a DUM.
+E. Excluem-se do denominador (e consequentemente do numerador) as grávidas que não tenham estado inscritas na unidade de saúde durante pelo menos um dia do 1º trimestre de gravidez."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO:
+A. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea C de OBSERVAÇÕES GERAIS deve ter a seguinte leitura:
+O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna (ver na alínea D de OBSERVAÇÕES GERAIS como se determina a [data de fim da gravidez]).
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+MEDICINEONE
+A. A datação da gravidez no 1º trimestre não entra em linha de conta com a DPPC, pois neste software não existe regista da data de registo da DPPC."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 90 dias, coincidente como 1º trimestre de gravidez de cada utente incluída no denominador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de grávidas
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
+Intervalo Aceitável,"Ano de 2022: [91; 100]
+Ano de 2023: [91; 100]
+Ano de 2024: [91; 100]"
+Intervalo Esperado,"Ano de 2022: [85; 100]
+Ano de 2023: [85; 100]
+Ano de 2024: [85; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Materna
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,5 dias

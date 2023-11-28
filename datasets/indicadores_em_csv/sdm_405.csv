@@ -1,0 +1,66 @@
+titulo,texto
+ID,405
+Código,3.38.01
+Código SIARS,2018.405.01
+Nome abreviado,"Propor. cons. médic. ""do dia"" efet. UF diferente"
+Designação,"Proporção de consultas médicas efetivadas no próprio dia de registo do agendamento, numa unidade funcional diferente daquela em que o utente está inscrito"
+Objetivo,"Monitorizar a frequência com que utentes com médico de família atribuído em unidades funcionais de cuidados personalizados (USF e UCSP) têm consultas médicas agendadas e realizadas em unidades funcionais diferentes daquelas em que estão inscritos, no mesmo ACES de inscrição, em dias úteis e horário de atendimento até 1 hora antes da abertura e até 1 hora após o encerramento da unidade funcional de inscrição.
+Trata-se de um indicador que pretende medir, de forma indireta, a acessibilidade dos utentes à unidade funcional de inscrição, devendo o respetivo resultado variar na proporção inversa do grau de acessibilidade disponibilizado:
+- Em USF e UCSP com uma oferta de consultas médicas adequada à procura, a necessidade dos respetivos utentes procurarem consultas no próprio dia em unidades do tipo ""SAP e Afins"" deverá ser diminuta.
+- Por outro lado, em USF e UCSP com oferta de serviços inferior à procura, os respetivos utentes terão necessidade de procurar resolver os seus problemas ""agudos"" em serviços de urgência e em unidades funcionais diferentes do mesmo ACES."
+Descrição do Indicador,"Exprime a proporção de consultas médicas presenciais que são realizadas no próprio dia em que é efetuado o registo do agendamento, em unidades funcionais diferentes daquela em que o utente se encontra inscrito.
+Numerador - Contagem de consultas médicas presenciais que são realizadas no próprio dia em que é efetuado o registo do agendamento, em unidades funcionais diferentes daquela em que o utente se encontra inscrito.
+Denominador - Contagem de consultas médicas presenciais que são realizadas no próprio dia em que é efetuado o registo do agendamento, independentemente da realização ocorrer ou não na unidade funcional onde o utente se encontra inscrito."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Consulta realizada a um utente que no mês de realização da consulta está inscrito numa UF diferente daquela em que a consulta é efetivada.
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C e D e E e F e G e H e I e J] é verdadeira:
+A. Do tipo ""consulta médica presencial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Realizada a utente com [
+inscrição ativa
+] numa das unidades funcionais do ACES de realização da consulta no mês em que a consulta é realizada.
+C. Efetuada numa unidade funcional de um dos tipos seguintes: UCSP, USF-A, USF-B, IPSS-C, CON e SAP.
+D. Efetuada a um utente com médico de família atribuído no final do mês de realização da consulta.
+E. Efetuada por qualquer médico ou interno (consulta médica);
+F. Efetuada durante os 12 meses que antecedem a data de referência do indicador.
+G. Realizada no próprio dia em que é efetuado o registo do agendamento (ver alíneas B e C de OBSERVAÇÕES GERAIS).
+H. Agendada para um dia útil (ver alínea D de OBSERVAÇÕES GERAIS).
+I. Efetivada até 1 hora após o horário de encerramento da unidade funcional de inscrição do utente, definido para o dia da semana para o qual a consulta foi agendada (ver alíneas E e F de OBSERVAÇÕES GERAIS).
+J. Efetivada no mínimo 1 hora antes do horário de abertura da unidade funcional de inscrição do utente, definido para o dia da semana para o qual a consulta foi agendada (ver alíneas E e F de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Para se considerar uma [Consulta Médica de Presencial], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C002
+[Consulta médica presencial - SClínico].
+-
+C008
+[Consulta médica presencial - MedicineOne].
+B. Cumprem as consultas médicas que são agendadas e realizadas no mesmo dia em que o agendamento é registado, por exemplo, consulta solicitada por um utente no dia 20 de agosto, agendada e realizada no dia 20 de agosto.
+C. Os registos  da consulta podem ser efetuados até 5 dias após a data da respetiva realização.
+D. Não se contabilizam no denominador consultas agendadas para fins-de-semana nem para dias de feriado ou tolerância oficial. São contabilizadas consultas em dias de feriado municipal.
+E. Se uma unidade funcional de inscrição do utente tiver à segunda-feira um horário entre as 9:00 e as 18:00, contabilizam-se todas as consultas agendadas para 2ªs feiras e efetivadas entre as 8:00 e as 18:59.
+F. Mesmo para as consultas realizadas em unidades funcionais diferentes da de inscrição de utente, o horário que conta para definir se uma consulta entra ou não para o denominador é o horário da unidade funcional de inscrição no mês em que ocorre a consulta (e não o horário da unidade onde a consulta é efetivada). Assim se a 4 maio de 2018 (6ª feira) o utente efetuar uma consulta num SAP e no final desse mês estiver inscrito na USF YY, o que conta é o horário de entrada e o horário de encerramento às sextas-feiras da USF YY."
+Observações Sobre Software,"SClínico
+A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
+B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
+C. Apesar do indicador ser ""flutuante"", o problema de leitura de dados a partir do SClínico até janeiro de 2018, faz com que o indicador tenha um período em análise inferior a 12 meses para os resultados entre fevereiro de 2018 e janeiro de 2019. Assim, por exemplo em junho de 2018, o indicador estará a ler 5 meses de consultas no denominador e 5 meses de consultas no numerador (1-2-2018 a 30-6-2018)."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+Nota: A iscrição do utente é analisada mês a mês ao longo dos 12 meses do período em análise, estando garantido que se o utente a meio do período em análise mudar de unidade funcional, ou perder médico de família, o indicador ajusta os critérios de cumprimento do numerador e do denominador com granularidade mensal e com referência ao que seja vigente no último dia de cada mês."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de consultas
+Estado do indicador,Com dados desde Fevereiro de 2018
+Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
+Intervalo Aceitável,"Ano de 2022: [0; 0.5]
+Ano de 2023: [0; 0.5]
+Ano de 2024: [0; 0.5]"
+Intervalo Esperado,"Ano de 2022: [0; 2]
+Ano de 2023: [0; 2]
+Ano de 2024: [0; 2]"
+Tipo de Indicador,Processo
+Área clínica,Não aplicável
+Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise
+Prazo para Registos,5 dias

@@ -1,0 +1,41 @@
+titulo,texto
+ID,228
+Código,2.12.28
+Código SIARS,MORB.228.01
+Nome abreviado,"Proporção utentes com ""sensação de ansiedade"""
+Designação,"Proporção de utentes com o diagnóstico de ""sensação de ansiedade / nervosismo / tensão"""
+Objetivo,"Caraterizar a população inscrita. Parâmetro ""prevalência de sensação de ansiedade / nervosismo / tensão"""
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com ""sensação de ansiedade / nervosismo / tensão"" identificados na população inscrita.
+Numerador: Contagem de utentes inscritos que têm o diagnóstico de ""sensação de ansiedade / nervosismo / tensão"" registado na lista de problemas.
+Denominador: Contagem de utentes inscritos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O diagnóstico de ""sensação de ansiedade / nervosismo / tensão"" (rubrica ICPC P01) encontra-se na lista de problemas, com o estado de ""ativo"", à data de referência do indicador (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+A. Com [
+inscrição ativa
+] na data de referência do indicador (ver alínea E de OBSERVAÇÕES GERAIS)."
+Observações Gerais,"A. Contabilizam-se as rubricas definidas nas regras de cálculo, bem como eventuais subrubricas existentes.
+B. Critérios de P01 (ICPC-2): Sentimentos relatados pelo doente como uma experiência emocional ou psicológica não atribuída a uma perturbação mental. Verifica-se uma transição gradual de sentimentos indesejáveis, mas mais ou menos normais, para sentimentos que são tão perturbadores para o doente que este procura ajuda de um profissional.
+C. O P01 inclui (ICPC-2): Ansiedade NE, sentir-se ameaçado.
+D. O P01 exclui (ICPC-2): Perturbação de ansiedade P74.
+E. Inclui apenas as inscrições SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária""). Exclui ""esporádicos"", ""não frequentadores"" e outras formas de inscrição."
+Observações Sobre Software,"MEDICINEONE:
+A. O diagnóstico pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas].
+B. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"""
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""diagnóstico na lista de problemas""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): A duração do período em análise é de 1 dia, que coincide com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Prevalência
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Estrutura
+Área clínica,Saúde Mental
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

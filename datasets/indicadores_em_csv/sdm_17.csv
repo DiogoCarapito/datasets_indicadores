@@ -1,0 +1,67 @@
+titulo,texto
+ID,017
+Código,6.23.01
+Código SIARS,2013.017.01
+Nome abreviado,Proporção crianças c/ 3+ cons. méd. vigil. 2º ano
+Designação,Proporção de crianças com pelo menos 3 consultas médicas de vigilância de saúde infantil no 2º ano de vida
+Objetivo,Acompanhamento do Programa de Saúde Infantil - 2º ano de vida. Monitorizar o cumprimento das orientações técnicas definidas para a vigilância deste grupo vulnerável.
+Descrição do Indicador,"Indicador que exprime a proporção entre o número de crianças que efetuaram pelo menos 3 consultas médicas durante o 2º ano de vida, no total de crianças que completaram 2 anos de idade.
+Numerador: Contagem de crianças que efetuaram pelo menos 3 consultas médicas durante o 2º ano de vida.
+Denominador: Contagem de crianças que completaram 2 anos de idade."
+Regras de cálculo,"NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Ter pelo menos 3 consultas médicas de vigilância (contacto direto) realizadas entre os 11 e os 23 meses de vida ([330; 700[ dias). Ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS.
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B] é verdadeira:
+A. Crianças que completam 2 anos de idade durante o período em análise;
+B. [
+Inscrição ativa
+] na unidade de saúde, durante a totalidade do período compreendido entre os 12 e os 23 meses de vida ([365; 700[ dias). Ver alínea E de OBSERVAÇÕES GERAIS."
+Observações Gerais,"A. Para se contabilizar uma [Consulta Médica de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+B. Apenas se contabiliza uma consulta médica, por utente, por dia.
+C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
+D. O intervalo de tempo [330; 700[ dias, definido no numerador, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses.
+E. O numerador faz referência aos 11 meses (330º dia de vida) como limite inferior para a deteção de consultas pois só assim é possível garantir que se contabilizam para o numerador consultas dos ""12 meses"" feitas um pouco antes da idade chave proposta pela DGS, isto é, efetuadas entre o D330 e o D365. Por outro lado, o limite inferior do intervalo usado para a deteção de consultas neste indicador tem que ser igual ao limite superior do intervalo usado no numerador do indicador ""Proporção crianças c/ 6+ cons. méd. vigil. 1º ano"" (2013.016.01), para que em cada criança uma determinada consulta de vigilância apenas influencie um dos 2 indicadores. Ficou assim definido que o dia 330 de vida seria o limiar superior para aceitar consultas de vigilância do 1º ano de vida (a ultima recomendada pela DGS é aos 9 meses) e simultaneamente o limiar inferior para aceitar consultas de vigilância do 2º ano de vida (a 1ª recomendada pela DGS é aos 12 meses).
+Quanto ao facto de no denominador, na sua alínea B, referir a necessidade de uma criança ter de estar com ""[
+inscrição ativa
+] na unidade de saúde, durante a totalidade do período compreendido entre os 12 e os 23 meses de vida ([365; 700[ dias)"" e não a partir dos 11 meses (como no numerador): O limiar inferior para esse intervalo é 12 meses e não 11 (como no numerador) porque se fosse 11, as crianças só entrariam para o denominador se estivessem inscritas durante a totalidade do 11º mês de vida. Isso faria com que crianças que se inscrevessem entre o 300º e do 365º dia de vida, não entrassem para o denominador. Assim, os ""12 meses"" para o limiar inferior deste intervalo no denominador é o que maximiza a inclusão de crianças no denominador com condições para a realização das consultas previstas no numerador."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O denominador tem um período em análise de 12 meses, terminando na data de referência do indicador. O indicador com data de referência a 31 de dezembro inicia o período em análise do denominador a 1 de janeiro do mesmo ano. O indicador com data de referência a 30 de novembro inicia o período em análise a 1 de dezembro do ano anterior.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 2 anos de vida durante o período em análise do denominador, anteriormente definido.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas coincide com o intervalo etário [330; 700[ dias de vida.
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [2, 3[ anos de idade.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto de completar 2 anos de vida durante o ano civil em curso.
+- Para cada criança incluída no denominador, o período em análise para deteção de consultas coincide com o intervalo etário [330; 700[ dias de vida.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de crianças
+Estado do indicador,Com dados desde Dezembro de 2012
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
+Intervalo Aceitável,"Ano de 2022: [87; 100]
+Ano de 2023: [87; 100]
+Ano de 2024: [87; 100]"
+Intervalo Esperado,"Ano de 2022: [60; 100]
+Ano de 2023: [60; 100]
+Ano de 2024: [60; 100]"
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado
+Prazo para Registos,5 dias

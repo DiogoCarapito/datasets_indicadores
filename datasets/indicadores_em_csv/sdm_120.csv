@@ -1,0 +1,35 @@
+titulo,texto
+ID,120
+Código,6.42.03
+Código SIARS,4.34M
+Nome abreviado,Percent. de RN c/ domic. enf. até 15º dia de vida
+Designação,Percentagem de recém-nascidos com consulta domiciliária de enfermagem realizada até ao 15º dia de vida
+Objetivo,"Monitorizar os cuidados prestados aos recém-nascidos (parâmetro ""domicílios de enfermagem a recém-nascidos"")."
+Descrição do Indicador,"Indicador que exprime proporção de recém-nascidos, que tiveram pelo menos um domicílio de enfermagem durante os primeiros 15 dias de vida.
+Numerador: Contagem de recém-nascidos que tiveram pelo menos um domicílio de enfermagem durante os primeiros 15 dias de vida.
+Denominador: Contagem de recém-nascidos."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Utentes incluídos no denominador.
+B. Com pelo menos um domicílio de enfermagem, nos primeiros 15 dias de vida.
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Que completam 15 dias de vida durante o período em análise.
+B. Com [
+inscrição ativa
+] na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 15 dias de vida."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- O denominador tem um período em análise de 1 a 12 meses, terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto do 15º dia de vida pertencer ou não ao período em análise do denominador, anteriormente definido.
+- Para cada utente incluído no denominador, o período em análise da variável ""existência de domicílio"" decorre durante os primeiros 15 dias de vida."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de recém-nascidos
+Estado do indicador,Com dados desde Dezembro de 2009
+Área | Subárea | Dimensão,---
+Intervalo Aceitável,---
+Intervalo Esperado,---
+Tipo de Indicador,Processo
+Área clínica,Saúde Infantil e Juvenil
+Inclusão de utentes no indicador,Utentes inscritos durante pelo menos um dia do acontecimento monitorizado
+Prazo para Registos,30 dias
