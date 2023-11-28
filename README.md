@@ -12,7 +12,7 @@ Um conjunto de datasets úteis no contexto dos Indicadores dos Cuidados de Saúd
 - ```utils/``` - pasta com funções auxiliares
 - ```scripts/``` - pasta com scripts de extração de dados. são usados pelo main.py ou podem ser executados individualmente em cli
 - ```datasets/``` - pasta com datasets produzidos
-- ```datasets/indicadores_em_txt/``` - pasta com os ficheiros .txt com o texto dos indicadores
+- ```datasets/indicadores_em_csv/``` - pasta com os ficheiros .csv com informação sobre todos os indicadores resultantes do processo extração do SDM
 - ```tests/``` - pasta com testes unitários
 - ```variaveis.toml``` - ficheiro de configuração com variáveis globais (url do PDF da contratualização, paginas com a localização das tabelas, número total de indicadores existentes no SDM)
 
