@@ -5,6 +5,7 @@ Conjunto de funções para auxiliar o parseamento do HTML do site do SDM
 from bs4 import BeautifulSoup
 import re
 import toml
+import pandas as pd
 
 
 def header_text_mapper(dicionario):
@@ -75,42 +76,6 @@ def extracao_texto_multilinha(lista, etiqueta_antes, etiqueta_depois):
     return texto
 
 
-# função para indentificar na lista produzida no parse_html() os cabeçalhos e o conteúdo
-def main_parse_old(lista):
-    # dicionario cabecaço e conteúdo em key:value pairs
-    dicionario = {
-        # cabeçalhos e conteúdos em localização fixa
-        "id": lista[3],  # id do indicador
-        "codigo": lista[7],  # código do indicador. é pouco usado
-        "codigo_siars": lista[8],  # código do indicador completo
-        "ano": ano_codigo_siars(lista[8]),  # ano do indicador existente no código_siars
-        "nome_abreviado": lista[9],  # nome abreviado do indicador
-        "designacao": lista[11],  # nome completo do indicador
-        # cabeçalhos e conteúdos em localização variável
-        "objetivo": extracao_texto_multilinha(
-            lista, "Objetivo", "Descrição do Indicador"
-        ),  # extrair o objetivo do indicador
-        "descrição_do_indicador": extracao_texto_multilinha(
-            lista, "Descrição do Indicador", "Regras de cálculo"
-        ),  # extrair o objetivo do indicador
-    }
-
-    return dicionario
-
-
-def stop_at_bi(parsed_html):
-    # check if there is a item called "BI" in the list
-    # remove all the items in the list that comes after the first "BI" string
-    if "BI" in parsed_html:
-        # remove all the items in the list that comes after the first "BI" string
-        parsed_html = parsed_html[: parsed_html.index("BI")]
-
-        # remove the last 4 items in the list
-        parsed_html = parsed_html[:-4]
-
-    return parsed_html
-
-
 def header_location_dictionary(parsed_list):
     # create a dictionary with the header location, so the text can be concatenated between the headers
     # not all headers exist in all pages, so the location of the headers is not always the same
@@ -167,9 +132,35 @@ def substitute_first(list_tupples, old, new, index_move):
     return list_tupples
 
 
-def correcoes_correspondencias(lista_correspondencias):
-    # contar quantas vezes aparece o texto "Variação Aceitável_TEXT"
 
+def correccao_intervalos(lista_correspondencias):
+    
+    # transform list of tupples into a dataframe
+    df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
+    
+    # count how many times "Variação Aceitável_TEXT" in header column
+    count = df["header"].value_counts()["Variação Aceitável_TEXT"]
+
+    # calculate the trigger to change the header
+    trigger = count/2
+    
+    #loop over the df[df["header"]=="Variação Aceitável_TEXT"] and correct the header
+    for i, (index, row) in enumerate(df[df["header"]=="Variação Aceitável_TEXT"].iterrows()):
+        if i < trigger:
+            df.loc[index, "header"] = "Intervalo Aceitável_TEXT"
+        else:
+            df.loc[index, "header"] = "Intervalo Esperado_TEXT"
+    
+    #transform back df into a list of tupples
+    lista_correspondencias_corrigida = list(df.itertuples(index=False, name=None))
+
+    return lista_correspondencias_corrigida 
+
+
+def correcoes_correspondencias(lista_correspondencias):
+    
+    # correções de correspondencias entre titulo e texto
+    # correções de ordem com ajuste de posição
     substituicoes = [
         ("Nome abreviado_TEXT", "Código_TEXT", -2),
         ("Nome abreviado_TEXT", "Código SIARS_TEXT", -1),
@@ -177,10 +168,9 @@ def correcoes_correspondencias(lista_correspondencias):
         ("Estado do indicador_TEXT", "Unidade de medida_TEXT", -2),
         ("Estado do indicador_TEXT", "Output_TEXT", -1),
         ("Variação Aceitável_TEXT", "Área | Subárea | Dimensão_TEXT", -2),
-        ("Prazo para Registos_TEXT", "Tipo de Indicador_TEXT", 0),
-        ("Prazo para Registos_TEXT", "Área clínica_TEXT", 0),
-        ("Prazo para Registos_TEXT", "Inclusão de utentes no indicador_TEXT", 0),
-        ("", "", 0),
+        ("Prazo para Registos_TEXT", "Tipo de Indicador_TEXT", -3),
+        ("Prazo para Registos_TEXT", "Área clínica_TEXT", -2),
+        ("Prazo para Registos_TEXT", "Inclusão de utentes no indicador_TEXT", -1),
     ]
 
     for each in substituicoes:
@@ -188,7 +178,40 @@ def correcoes_correspondencias(lista_correspondencias):
             lista_correspondencias, each[0], each[1], each[2]
         )
 
-    return lista_correspondencias
+    # correção especial do intervalo aceitavel e esperado
+    lista_correspondencias_corrigida = correccao_intervalos(lista_correspondencias)
+
+    return lista_correspondencias_corrigida
+
+
+def final_cleaning(lista_correspondencias):
+    df = pd.DataFrame(lista_correspondencias, columns=["header", "text"])
+    # remove rows where header ends with _TEXT
+    df["to_remove"] = [False if each.endswith("_TEXT") else True for each in df["header"]]
+    df.drop(df[df["to_remove"] == True].index, inplace=True)
+    df.drop(columns=["to_remove"], inplace=True)
+    # reset index
+    df.reset_index(drop=True, inplace=True)
+
+    # remove the text "_TEXT" from the headers
+    df["header"] = [each.replace("_TEXT", "") for each in df["header"]]
+
+    # remove all the rows after header "Prazo para Registos"
+    index_after_prazo = df[df["header"] == "Prazo para Registos"].index[0]
+    index_to_remove = index_after_prazo +1
+    df.drop(df.index[index_to_remove:], inplace=True)
+
+    i = 0
+    while i < len(df["header"]) - 1:
+        if df.loc[i, "header"] == df.loc[i + 1, "header"]:
+            df.loc[i, "text"] += "\n" + df.loc[i + 1, "text"]
+            df.drop(i + 1, inplace=True)
+            df.reset_index(drop=True, inplace=True)
+        else:
+            i += 1
+
+    return df
+    
 
 
 def correspondencias_mapa(parsed_content, header_map):
@@ -202,6 +225,10 @@ def correspondencias_mapa(parsed_content, header_map):
 
     lista_correspondencias = correcoes_correspondencias(lista_correspondencias)
 
+    df = final_cleaning(lista_correspondencias)
+
+
+
     for each in lista_correspondencias:
         # if each[0] ends in _TEXT
         if each[0].endswith("_TEXT"):
@@ -214,7 +241,7 @@ def correspondencias_mapa(parsed_content, header_map):
             # print(each[0]+"\n")
 
     # return full_text
-    return lista_correspondencias
+    return df
 
 
 def main_parse(html):
@@ -231,6 +258,8 @@ def main_parse(html):
     header_map = header_text_mapper(header_dict)
 
     lista_correspondencias = correspondencias_mapa(parsed_content, header_map)
+
+
 
     # create a list of tupples while iterating over parsed_content  mapa
     # the tupper is the text and the label from map that have the same index in the list

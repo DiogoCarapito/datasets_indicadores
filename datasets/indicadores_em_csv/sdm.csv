@@ -1,0 +1,58 @@
+header,text
+id,314
+Código,6.20.02
+Código SIARS,2015.314.01
+Nome abreviado,Proporção DM com PA >= 140/90 mmHg
+Designação,Proporção de utentes com diabetes com valor da última tensão arterial superior a 140/90 mmHg
+Objetivo,"Monitorizar o cumprimento da norma da DGS nº 005/2011 sobre ""Prevenção e Avaliação da Nefropatia Diabética"", em particular o desempenho no controlo da pressão arterial (ver alínea F de OBSERVAÇÕES GERAIS)."
+Descrição do Indicador,"Indicador que exprime a proporção de utentes com Diabetes Mellitus, com último resultado de tensão arterial superior ou igual a 140/90 mmHg.
+Numerador: Contagem de utentes inscritos, com Diabetes Mellitus e com último resultado de tensão arterial superior ou igual a 140/90 mmHg.
+Denominador: Contagem de utentes inscritos e com Diabetes Mellitus."
+Regras de cálculo,"NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Utente sem qualquer registo de pressão arterial no último semestre.
+C. O último registo de pressão arterial, registado no semestre que antecede a data de referência do indicador, é superior ou igual a 140/90 mmHg (ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de diabetes (rubricas da ICPC-2 T89 ou T90) encontra-se na lista de problemas, com o estado de ""ativo""."
+Observações Gerais,"A. São contabilizados no numerador os registos de pressão arterial realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
+B. Só se contabilizam registos de pressão arterial em que tanto a pressão sistólica como a diastólica tenham sido avaliadas e registadas na mesma data.
+C. Não se contabilizam registos realizados em texto livre no SOAP.
+D. Quando existe mais do que um registo de pressão arterial no período em análise, apenas se contabiliza o último registado.
+E. São considerados no numerador os utentes: (1) sem registo de PA no semestre anterior; (2) com último registo de PAS superior ou igual a 140; (3) com último registo de PAD superior ou igual a 90.
+F. De acordo com a norma da DGS nº 005/2011 sobre ""Prevenção e Avaliação da Nefropatia Diabética"", a tensão arterial alvo nos utentes com DM deve ser < 130/80 mmHg. Há evidência que na diabetes tipo 2 nos casos de tensão arterial normal alta (sistólica 130-139 mmHg ou diastólica 85-89 mmHg) e alta (> 140/90 mmHg), com ou sem lesão orgânica sub-clínica, manifestada pela presença de micro ou macroalbuminúria, a reversibilidade ou a diminuição da progressão da nefropatia com a instituição da terapêutica farmacológica antihipertensora, sobretudo inibidores do enzima de conversão (IECA) ou bloqueadores da angiotensina (ARA), é custo-efectivo, pelo que é fundamental a sua prescrição."
+Observações Sobre Software,"SCLÍNICO - PERFIL MÉDICO E DE ENFERMAGEM:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil. Pode também ser registada no ""perfil de enfermagem"".
+MEDICINEONE
+A O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar."
+Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""TAS""): Duração de 6 meses, terminando na data de referência do indicador.
+- Numerador (variável ""TAD""): Duração de 6 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de diabetes""): Coincidente com a data de referência do indicador."
+Fórmula,AA / BB x 100
+Unidade de medida,%
+Output,Proporção de utentes
+Estado do indicador,Com dados desde Dezembro de 2015
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
+Intervalo Aceitável,"Ano de 2022: [0; 12]
+Ano de 2023: [0; 12]
+Ano de 2024: [0; 12]"
+Intervalo Esperado,"Ano de 2022: [0; 22]
+Ano de 2023: [0; 22]
+Ano de 2024: [0; 22]"
+Tipo de Indicador,Resultado
+Área clínica,Diabetes Mellitus
+Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Prazo para Registos,5 dias

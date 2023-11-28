@@ -13,9 +13,9 @@ from utils.sdm_crawler import sdm_html_extraction
 from utils.sdm_parser import main_parse
 
 
-@click.command()
-@click.option("--begin", default=1, help="Initial ID to start scraping")
-@click.option("--end", default=5, help="Final ID to stop scraping")
+#@click.command()
+#@click.option("--begin", default=1, help="Initial ID to start scraping")
+#@click.option("--end", default=5, help="Final ID to stop scraping")
 # @click.option("--end", default=448, help="Final ID to stop scraping")
 def scrapper(begin=1, end=5):
     # create a list of ids to scrape
@@ -24,18 +24,12 @@ def scrapper(begin=1, end=5):
 
     # iterate over the list of ids
     for each in id_list:
+
         # scrape the url
         html = sdm_html_extraction(each)
 
         # transform the html into a list
         parsed_html = main_parse(html)
 
-        for each in parsed_html:
-            print(each)
-        # print(parsed_html)
-
     return parsed_html
 
-
-if __name__ == "__main__":
-    scrapper()
