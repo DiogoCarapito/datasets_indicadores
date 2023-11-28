@@ -18,7 +18,7 @@ from utils.sdm_parser import main_parse
 #@click.option("--begin", default=1, help="Initial ID to start scraping")
 #@click.option("--end", default=5, help="Final ID to stop scraping")
 #@click.option("--end", default=476, help="Final ID to stop scraping")
-def scrapper(begin=1, end=5):
+def scrapper(begin=1, end=477):
     print (f"begin: {begin}")
     # create a list of ids to scrape
     # end + 1 because the range function doesn't include the last number
@@ -34,6 +34,9 @@ def scrapper(begin=1, end=5):
 
         if parsed_html is None:
             print(f"Erro. ID: {each}")
+            # save the id that failed in a txt file
+            with open("datasets/indicadores_em_csv/sdm_erro.txt", "a") as f:
+                f.write(f"{each}\n")
             continue
 
         else:
