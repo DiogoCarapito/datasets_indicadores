@@ -1,0 +1,1358 @@
+ID,Código,Código SIARS,Nome abreviado,Designação,Objetivo,Descrição do Indicador,Regras de cálculo,Observações Gerais,Período em Análise,Fórmula,Unidade de medida,Output,Estado do indicador,Área | Subárea | Dimensão,Intervalo Aceitável,Intervalo Esperado,Tipo de Indicador,Área clínica,Inclusão de utentes no indicador,Prazo para Registos,Observações Sobre Software
+147,6.01.15,6.1M d2,Percent. crianças com PNV atualizado - 7 anos (S),Percentagem de crianças com PNV atualizado aos 7 anos (registo simplificado),Monitorizar o cumprimento do Programa Nacional de Vacinação (PNV) nos utentes com inscrição ativa - coorte dos 7 anos.,"Indicador que exprime a proporção de crianças com PNV totalmente cumprido na data do 7º aniversário, entre as que completam 7 anos.
+Numerador: Contagem de crianças com PNV totalmente cumprido na data do 7º aniversário (registo simplificado).
+Denominador: Contagem de crianças que completam 7 anos.","NUMERADOR: (AA)
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador;
+B. Têm o PNV totalmente cumprido às zero horas do dia em que completam 7 anos, registo simplificado (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
+A. Crianças que completam 7 anos de idade durante o ano civil em curso;
+B. Com [
+inscrição ativa
+] durante pelo menos um dia do período em análise;
+C. Ativos para vacinação no SINUS (ver alínea C de OBSERVAÇÕES GERAIS).","A. Registo simplificado. Em alternativa, aceitam-se como tendo o PNV cumprido das crianças que têm registos da última dose de cada vacina, mesmo que não existam registos das primeiras, desde que a data de administração seja anterior ao último dia do período em análise.
+- Pelo menos 1 inoculação de BCG ou uma prova tuberculínica. Esta regra deixa de ser aplicável para indicadores com data de referência igual ou superior a maio de 2015 (por rotura de stock nacional da BCG a partir desse mês).
+- Pelo menos um registo da 4ª dose (ou superior) de [vacina contra a poliomielite] (ver vacinas equivalentes com código
+[POLIOMIELITE]
+);
+- Pelo menos um registo da 4ª dose (ou superior) de [vacina contra a difteria, tétano e tosse convulsa] (ver vacinas equivalentes com códigos
+[DIFTERIA], [TETANO] e [TOSSE_CONV]
+);
+- Pelo menos um registo da 3ª dose (ou superior) de [vacina contra hepatite B] (ver vacinas equivalentes com código
+[HEPATITE_B]
+);
+- Pelo menos 1 inoculação de [vacina contra doença por Meningococcus serogrupo C] entre o nascimento e o fim do período em análise (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+);
+- Pelo menos um registo da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola] (ver vacinas equivalentes com códigos
+[SARAMPO], [PAROTIDITE] ou [RUBEOLA]
+);
+B. Imunizado. as vacinas relativamente às quais é colocado o atributo de ""imunizado"" são classificadas como cumpridas.
+C. Quando um utente tem critérios para ser considerado [inativo para vacinação], tal pode ser assinalado no SINUS VACINAS, fazendo com que deixe de ser contabilizado no denominador deste indicador.
+D. Indicador descontinuado a partir de dezembro de 2014. Regras de cálculo podem não estar adaptadas a alterações ao PNV aprovadas pela DGS a partir de 1-1-2015.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador (variável ""inoculação de vacinas do PNV""): Coincidente com os 7 primeiros anos de vida de cada criança incluída no denominador.
+- Denominador (variável ""inscrição ativa""): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador (variável ""idade""): A 31 de dezembro do ano em curso tem [7, 8[ anos.",AA / BB x 100,%,Proporção de crianças,Descontinuado em Dezembro de 2014,---,---,---,Processo,Saúde Infantil e Juvenil,Utentes inscritos em pelo menos um dia do período em análise,5 dias,
+153,7.06.04,7.6,"Despesa medic. prescritos, por utiliz. (PVP)",Despesa média de medicamentos prescritos por utente utilizador (baseado no PVP),"Monitorizar programa de prescrição de fármacos. Parâmetro ""despesa em medicamentos prescritos""","Indicador que exprime a despesa média de medicamentos prescritos, por utente utilizador, baseado no preço de venda ao público.
+Numerador: Somatório do PVP de medicamentos prescritos.
+Denominador: Contagem de utentes utilizadores.","NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B] é verdadeira (ver alíneas A, C, D e E de OBSERVAÇÕES GERAIS):
+A. Prescritos durante o período em análise, a utentes incluídos no denominador;
+B. Prescritos por qualquer médico ou interno da unidade de observação;
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. Ter [
+inscrição ativa
+] na unidade de observação, durante pelo menos um dia do período em análise.
+B. Ter pelo menos uma consulta médica presencial ou não presencial durante o período em análise (realizada por qualquer médico ou interno da unidade de saúde).","A. Inclui no numerador as receitas de subsistemas.
+B. Inclui no denominador todos os utentes, independentemente do subsistema.
+C. A data que importa para verificar se determinado medicamento está ou não dentro do ""período em análise"" e assim decidir incluir ou não o respetivo PVP no somatório do numerador do indicador é a [data de prescrição].
+D. São contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos e dispensados, quer sejam comparticipados quer não. No caso dos medicamentos ""não comparticipados"" apenas são contabilizados os medicamentos em que o campo ""preço"", nas tabelas de medicamentos do Infarmed, tenha um valor superior a 0 (zero);
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra), quer sejam comparticipados quer não.
+E. Não são contabilizados no numerador as despesas relacionadas com:
+- Medicamentos prescritos, cujo PVP não esteja registado nas tabelas de medicamentos do Infarmed. Sucede assim com a maior parte dos medicamentos ""não comparticipados"".
+- Medicamentos prescritos e pertencentes a receitas anuladas até 30 dias após a data de prescrição;
+- Medicamentos prescritos em receitas manuais (p.e. por falência do sistema eletrónico de prescrição).
+- Medicamentos prescritos na área de ""outros medicamentos"" dos software de prescrição. Esta área apenas deve ser usada para prescrever medicamentos não existentes na tabela de medicamentos do Infarmed.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.",AA / BB,€ / UTI,Despesa com medicamentos,Descontinuado em Dezembro de 2016,---,---,---,Resultado,Transversal,Utentes utilizadores durante o período em análise,30 dias,
+179,8.09.01,AE.2009.2012,Número UCs atividades específicas,Número de unidades de contratualização relacionadas atividades específicas,"Calcular do número de UC's a pagar mensalmente aos médicos das USF modelo B por ""atividades específicas"" (desde sempre) e ""incentivos financeiros"" a enfermeiros e secretários clínicos (desde 2017).","Score que exprime o número de unidades de contratualização relacionadas com vigilância adequada de utentes com hipertensão arterial, Diabetes Mellitus, saúde materna, planeamento familiar, saúde infantil 1º e 2ºano de vida (atividades específicas).
+Este indicador tem sido usado, desde 2007 para cálculo das unidades ponderadas associadas às atividades específicas a pagar a médicos nos termos artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto e do Despacho ""
+Normas para cálculo das remunerações dos profissionais das USF – Mod.B
+"", aprovado pelo Sr. Estado da Saúde em 23 Abril 2008.
+Tem também sido usado, desde 2017, para apuramento dos incentivos financeiros a pagar a enfermeiros e secretários clínicos em USF modelo B, nos termos previstos no artigo 31º e no artigo 33º do
+Decreto-Lei 298/2007
+na sua redação atual, e nos termos do artigo 3º da
+Portaria 212/2017
+.","No artigo 29º do
+Decreto-Lei 298/2007
+na sua redação atual de 22 de Agosto (Compensação associada às atividades específicas), pode ler-se:
+1. A compensação prevista na alínea a) do n.º 4 do artigo anterior e no nº 3 do artigo 38º está associada ao aumento das unidades ponderadas da lista mínima de utentes dos médicos e dos enfermeiros por força das atividades específicas de vigilância a utentes vulneráveis e de risco, segundo orientações técnicas da Direção-Geral da Saúde, nos termos seguintes:
+a) A vigilância, em planeamento familiar, de uma mulher em idade fértil, por ano: uma unidade;
+(vigente até 2022-11-18)
+a) O acompanhamento em saúde sexual e reprodutiva, de uma pessoa em idade fértil ou sexualmente ativa, por ano - uma unidade;
+(vigente a partir de 2022-11-19, nos termos da
+Lei 22/2022 de 18 de novembro
+)
+b) A vigilância de uma gravidez: oito unidades;
+c) A vigilância de uma criança, no primeiro ano de vida, por ano: sete unidades;
+d) A vigilância de uma criança, no segundo ano de vida, por ano: três unidades;
+e) A vigilância de uma pessoa diabética, por ano: quatro unidades;
+f) A vigilância de uma pessoa hipertensa, por ano: duas unidades.
+2. As atividades específicas previstas no número anterior são contratualizadas anualmente e constam da carta de compromisso.
+3. Os critérios para atribuição de unidades ponderadas às atividades específicas previstas no nº 1 são definidos pela Direcção-Geral da Saúde.?
+Assim, as 6 áreas de atividade em análise neste indicador são as seguintes:
+- Planeamento familiar
+- Saúde materna:
+- Saúde infantil - 1º ano de vida
+- Saúde infantil - 2º ano de vida
+- Diabetes
+- Hipertensão
+PLANEAMENTO FAMILIAR (PF)
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G)]:
+A. Sexo feminino.
+B. Ter entre [15; 50[ anos (idade calculada para o último dia do período em análise).
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos uma consulta médica (contacto direto ou indireto) com SOAP, durante o período em análise (12 meses), com registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar o planeamento familiar (W10, W11, W12, W13, W14 ou W15). Ver alíneas A e B de ""OBSERVAÇÕES"".
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos uma consulta médica (contacto direto e SOAP) durante o período em análise (12 meses) com registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar o planeamento familiar (W10, W11, W12, W13, W14 ou W15). Ver alíneas A e B de ""OBSERVAÇÕES"".
+D. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um registo de resultado de colpocitologia
+em lâmina
+(MCDT com código B003.5) nos 36 meses que antecedem a data fim do período em análise.
+E. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um registo de resultado de colpocitologia
+em meio líquido
+(MCDT com código B012.4) nos 60 meses que antecedem a data fim do período em análise.
+F. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado
+pesquisa de DNA do HPV por PCR
+nos 60 meses que antecedem a data fim do período em análise (ver alíneas H e I de OBSERVAÇÕES GERAIS).
+G. Ter estado inscrita na unidade de saúde durante pelo menos um dia do período em análise.
+SAÚDE MATERNA (SMAT)
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K]:
+A. Sexo feminino.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter efetuado consulta médica de revisão do puerpério no período em análise (12 meses) e, no máximo, 42 dias (6 semanas) após o parto (a data de parto deve estar registada no módulo de saúde materna); Essa consulta deve ter um SOAP realizado por um médico, associado a um contacto direto ou indireto e, na mesma data, um registo de uma observação no módulo de saúde materna, registada por qualquer médico ou qualquer enfermeiro, com a quadrícula ""revisão do puerpério"" assinalada.
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter efetuado consulta médica de revisão do puerpério no período em análise (12 meses) e, no máximo, 42 dias (6 semanas) após o parto (a data de parto deve estar registada no módulo de saúde materna); Essa consulta deve ter um SOAP realizado por um médico, associado a um contacto direto e, na mesma data, um registo de uma observação no módulo de saúde materna, registada por qualquer médico ou qualquer enfermeiro, com a quadrícula ""revisão do puerpério"" assinalada.
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter efetuado a primeira consulta de gravidez antes das 12 semanas. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto ou indireto). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter efetuado a primeira consulta de gravidez antes das 12 semanas. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+D.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 5 consultas médicas (contacto direto ou indireto), com SOAP associado, de vigilância em saúde materna até à 38ª semana de gravidez ([1; 39[ semanas ou [1; 266] dias). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+D.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde materna até à 38ª semana de gravidez ([1; 39[ semanas ou [1; 266] dias). Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar gravidez (W78, W79 ou W84).
+E. Ter pelo menos um registo de resultado de ecografia obstétrica do 1º trimestre com data de realização entre as [11; 14[ semanas de gestação (MCDT com código M272.0 ou M490.1). Ver alínea J de OBSERVAÇÕES GERAIS
+F.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2019)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica (MCDT com código M292.5 ou M291.7), com data de realização entre as [19; 23[ semanas ([134; 161] dias) de gestação (ver alínea K de OBSERVAÇÕES GERAIS).
+F.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2018)
+- Ter pelo menos um registo de resultado de ecografia obstétrica morfológica (MCDT com código M292.5 ou M291.7), com data de realização entre as [18; 24[ semanas de gestação.
+G. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+H. Gravidez registada no módulo ou no programa de saúde materna;
+I. Gravidez não classificada como aborto (ver alínea K de OBSERVAÇÕES GERAIS);
+J. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e o [42º dia de puerpério];
+K. Data de parto registada;
+SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
+A. Ter completado um ano de vida durante o período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter tido a primeira consulta médica até ao 28º dia de vida [0, 28 dias]. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto ou indireto). É necessária classificação desta consulta pela ICPC-2 (rubrica A98).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter tido a primeira consulta médica até ao 28º dia de vida [0, 28 dias]. Esta deve ser uma consulta médica (registo de um SOAP associado a um contacto direto). É necessária classificação desta consulta pela ICPC-2 (rubrica A98).
+C.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 5 consultas médicas (contacto direto ou indireto), com SOAP registado, de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
+C.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
+D. Ter pelo menos 2 registos parametrizados de avaliação do desenvolvimento psicomotor (Sheridan) até aos 11 meses de vida - [1, 330] dias. Podem ser realizados por médico ou por enfermeiro.
+E. Inscrição ativa na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida;
+SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D]:
+A. Ter completado dois anos de vida durante o período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 3 consultas médicas (contacto direto ou indireto), com SOAP registado, de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 3 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
+C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida - ]330, 700] dias. O Sheridan pode ser registado por médico ou por enfermeiro.
+D. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+DIABETES (DM)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H]:
+A. Ter o diagnóstico de Diabetes Mellitus (rubricas T89 ou T90 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 2 consultas médicas (contacto direto ou indireto), com SOAP associado, durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar diabetes (T89 ou T90).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 2 consultas médicas (contacto direto e SOAP) durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar diabetes (T89 ou T90).
+C. Ter pelo menos 2 registos de pressão arterial (realizados em datas diferentes) durante os 12 meses que antecedem a data final do período em análise. Os registos podem ser realizados por médicos ou por enfermeiros.
+D. Ter pelo menos 2 registos de resultado de hemoglobina A1C (MCDT com código A531.2) realizados durante os 12 meses que antecedem a data final do período em análise. Tem que ser de dias diferentes.
+E. Ter pelo menos 1 registo de resultado de hemoglobina A1C (MCDT com código A531.2) igual ou inferior a 8,5 %, realizado durante os 12 meses que antecedem a data final do período em análise.
+F. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
+G. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 12 meses que antecedem a data final do período em análise.
+H. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+HIPERTENSÃO (HT)
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G]:
+A. Ter o diagnóstico de hipertensão arterial (rubricas K86 ou K87 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
+B.
+(Válido para resultados com data de referência igual ou superior a janeiro de 2020)
+Ter realizado pelo menos 2 consultas médicas (contacto direto ou indireto), com SOAP associado, durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar hipertensão arterial (K86 ou K87).
+B.
+(Válido para resultados com data de referência igual ou inferior a dezembro de 2019)
+Ter realizado pelo menos 2 consultas médicas (contacto direto e SOAP) durante os 12 meses que antecedem a data final do período em análise. Estas consultas devem ter registo parametrizado de uma das rubricas da ICPC-2 que permitem codificar hipertensão arterial (K86 ou K87).
+C. Ter pelo menos 2 registos de pressão arterial (realizados em dias diferentes) durante os 12 meses que antecedem a data final do período em análise. Os registos podem ser realizados por médicos ou por enfermeiros.
+D. Ter pelo menos 1 registo de pressão arterial durante o período em análise com valores de pressão arterial sistólica igual ou inferior a 150 mmHg e de pressão arterial diastólica igual ou inferior a 90 mmHg.
+E. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
+F. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 24 meses que antecedem a data final do período em análise. Ver alínea G de ""OBSERVAÇÕES"".
+G. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+CONTAGEM DE MÉDICOS (BB):
+A. Número de médicos de família que constituem a equipa, na data de referência do indicador. Ver ANEXO A de ""OBSERVAÇÕES GERAIS""","A. Contabilizam-se os códigos das rubricas da ICPC-2 que estiverem escritos no ""A"" do SOAP bem como as que estiverem definidas como ""episódio deste contacto"".
+B. Apenas se contabilizam SOAP registados até 5 dias após a respetiva realização.
+C. Apenas se contabiliza uma consulta médica por utente por dia.
+D. Nas grávidas, a idade gestacional é determinada da seguinte forma: Se existe uma data prevista de parto corrigida, determina-se a partir desta data; caso contrário, determina-se a partir da data da última menstruação (DUM).
+E. A Hemoglobina glicosilada (A1c) pode ser registada usando quer o módulo de análises, quer no módulo de diabetes, quer no módulo de MCDT; no módulo de análises, podem ser usadas a [Hemoglobina A1C], a [Hemoglobina A1c=Hemoglobina Glicosilada (Cromat.)] e a [Hemoglobina Glicosilada]; no módulo de diabetes deve ser usado o campo [Hemoglobina A1C]; no módulo de MCDT pode ser usado o MCDT 531.2, área A, HEMOGLOBINA Alc = HEMOGLOBINA GLICOSILADA (CROMAT.).
+F. A microalbuminúria pode ser registada usando quer o módulo de análises, quer no módulo de diabetes, quer o módulo de hipertensão, quer o módulo de MCDT:
+- Análise 560.6, área A, ""microalbuminúria em Urina 24h"" (válido até 1-5-2013)
+- Análise 560.6, área A, ""microalbuminúria em Urina 12h"" (válido até 1-5-2013)
+- Análise 560.6, área A, ""microalbuminúria em amostra de urina aleatória"" (válido até 1-5-2013)
+- Análise 597.5, área A, ""proteinúria em urina 24H"" (descontinuada após setembro de 2009)
+- Módulo diabetes ""microalbuminúria""
+- Módulo diabetes ""proteinúria""
+- Módulo HTA ""microalbuminúria""
+- Módulo HTA ""proteinúria""
+- MCDT 560.6, área A, MICROALBUMINURIA (válido até 1-5-2013)
+- MCDT 1318.2, área A ALBUMINA DE BAIXA CONCENTRAÇÃO (válido após 1-5-2013)
+- MCDT 597.5, área A, PROTEINAS PESQUISA NA URINA 24 HORAS, PROTEINÚRIA (descontinuada após setembro de 2009)
+G. O colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) podem ser registados quer no módulo de análises, quer o módulo de diabetes, quer o módulo de hipertensão. Apesar de poderem ser registados no módulo de MCDT, não são dai lidos pelo SIARS.
+H. O código da tabela de MCDT do SNS válido para registar ""pesquisa de DNA do HPV por PCR"" é o seguinte:
+- [Genotipagem HPV por métodos PCR], código 31760, tabela de Anatomia Patológica (Portaria das tabelas de preços do SNS).
+I. O teste de [pesquisa de DNA do HPV por PCR], está a ser usado em programas de rastreio comunitários regionais, não sendo um exame comparticipado. A colheita é efetuada através de um esfregaço do colo do útero depositado em meio líquido (e não em lâmina). O protocolo do rastreio apenas prevê a realização de colpocitologia nas situações em que o resultado do teste de tipagem HPV é positivo.
+J. Neste indicador, e em particular para a datação da gravidez na data de realização da ecografia no 1º trimestre, a datação da gravidez faz-se a partir da [data prevista de parto corrigida] (DPPC) registada no módulo ou programa de saúde materna, caso o registo da mesma ocorra, pela datação de gravidez que essa data determina, entre o D1 e o D75. Caso a DPPC não esteja registada ou seja registada após o D75 (pela datação da DPPC), a datação faz-se a partir da data da última menstruação (DUM), registada no módulo ou programa de saúde materna. Na contagem de [dias de gravidez] que é efetuada neste indicador, a série que sustenta essa contagem inicia-se no 1º dia de gravidez (D1), não existindo dia ""zero"". Na prática clínica de seguimento de grávidas utiliza-se uma escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" (p.e. 13S+0D, 13S +1D, 13S +2D, 13S +3D, 13S +4D, 13S +5D, 13S +6D, 14S +0D, ...), que pode ser reduzida a uma escala ordinal com início em ""zero"". Essa redução da escala de datação de gravidez que junta ""semanas"" e ""dias de gravidez"" para uma escala ordinal com início em ""zero"", a ser feita, origina um desvio de uma unidade relativamente à escala que é usada neste indicador (p.e. o dia 24 de uma datação que começa no ""zero"" corresponde ao 25º dia de gravidez usado neste indicador). No entanto, garante-se que todas as escalas fazem uma datação correta da gravidez e que são traduzíveis, umas nas outras sem erros.
+K. De acordo norma de orientação clínica da DGS 23/2011 (revista em 21-05-2013) sobre ""Exames ecográficos na gravidez de baixo risco"":
+a) Existe indicação para a realização de ecografia obstétrica, realizada entre as 20 e as 22 semanas (Nível de evidência A, Grau de recomendação I).
+b) A ecografia do segundo trimestre permite confirmar alguns dados da ecografia do primeiro trimestre, mas destina-se, sobretudo, à identificação de malformações fetais. São de especial relevância as malformações incompatíveis com a vida ou associadas a elevada morbilidade pós-natal, anomalias com potencial para tratamento intrauterino ou que exigem tratamento ou investigação pós-natal.
+c) Existe evidência científica de aumento da qualidade do exame e de diminuição da probabilidade de ter que ser repetido, que quando realizado entre as 20 e as 22 semanas, em comparação com a realização às ""18 semanas"".
+Por outro lado:
+a) Existe o limite legal das 24 semanas (no máximo até ao 168º dia de gestação) para a realização de interrupção de gravidez motivada por anomalias fetais graves.
+b) Existem contextos territoriais em que é particularmente difícil que todas as grávidas realizem a ecografia do 2º trimestre entre as 20 e as 22 semanas.
+c) O indicador tem uma função de monitorização do desempenho das equipas no cumprimento da norma da DGS, existindo restrições externas às equipas, que limitam a sua capacidade para cumprir, com todo o rigor, os limites temporais definidos.
+Assim sendo, opta-se por:
+Alargar o intervalo para a realização da ecografia do 2º trimestre, medido pelo indicador, para entre as 19 e as 22 semanas e seis dias.
+ANEXO A
+1. De acordo com os artigos 28 e 29° do
+Decreto-Lei 298/2007
+na sua redação atual, o pagamento de atividades específicas (AE) é devido mensalmente aos médicos que integram USF modelo B, sendo o número de unidades ponderadas (UP) avaliado anualmente, com data de referência de 31 de dezembro do ano anterior. As unidades ponderadas medidas a 31 de dezembro do ano N-1 influenciam o vencimento no ano N, devendo constar da carta de compromisso.
+2. As UP das AE são calculadas ponderando cada uma das 6 áreas (previstas nos artigos 28 e 29° do
+Decreto-Lei 298/2007
+na sua redação atual), através da fórmula seguinte:
+PF + 8 x SMAT + 7 x SI1 + 3 x SI2 + 4 x DM + 2 x HT
+Em que:
+PF - Nº de utentes que cumprem os critérios previstos para o ""Planeamento Familiar""
+SMAT - Nº de utentes que cumprem os critérios previstos para a ""Saúde Materna""
+SI1 - Nº de utentes que cumprem os critérios previstos para a ""Saúde Infantil, 1º ano de vida""
+SI2 - Nº de utentes que cumprem os critérios previstos para a ""Saúde Infantil, 2º ano de vida""
+DM - Nº de utentes que cumprem os critérios previstos para ""Diabetes Mellitus""
+HT - Nº de utentes que cumprem os critérios previstos para o ""Hipertensão Arterial""
+3. As UP referidas no número anterior são calculadas sobre os ficheiros dos médicos que a 1 de janeiro do ano N (N é o ano de referência do cálculo), já desempenham atividade na unidade funcional (UF).
+4. As UC calculadas para cada médico, que no dia 1 de janeiro do ano N desempenham atividade na UF, são determinadas pela fórmula seguinte:
+( PF + 8 x SMAT + 7 x SI1 + 3 x SI2 + 4 x DM + 2 x HT ) / 55 / BB
+Na fórmula anterior, BB é o número de médicos que a 1 de janeiro do ano N, desempenham atividade na UF. Os médicos em regime de tempo completo são contabilizados com 1 unidade. Os médicos em regime de tempo parcial são contabilizados com 0,5 unidades.
+5. Os médicos em regime de tempo completo recebem o valor de UC calculado, arredondado por defeito à unidade. Os médicos em regime de tempo parcial, recebem 50% das UC anteriormente calculadas, arredondadas às décimas.
+6. Os médicos que integram a equipa durante o ano N, têm um cálculo de 8 UC, se estiverem em regime de tempo completo e 4 se estiverem em regime de tempo parcial;
+7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+PLANEAMENTO FAMILIAR (PF)
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano corrente e termina na data de referência do indicador.
+- Variável ""colpocitologia em lâmina"": Duração de 25 a 36 meses. Tem início a 1 de janeiro do ano N-2 e termina na data de referência do indicador.
+- Variável ""colpocitologia em meio líquido"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""Pesquisa de DNA do HPV por PCR"": Duração de 49 a 60 meses. Tem início a 1 de janeiro do ano N-4 e termina na data de referência do indicador.
+- Variável ""idade"": Medida em relação a 31 de dezembro do ano em curso
+- Variável ""inscrição ativa na unidade de saude"": Duração de 12 meses, terminando na data de referência do indicador.
+SAÚDE MATERNA (SMAT)
+- As variáveis da área de SAÚDE MATERNA têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada grávida a este indicador é o facto de o 42º dia de puerpério pertencer ou não ao período em análise.
+- Os períodos em análise das restantes variáveis dependem do período da gestação ou do puerpério em que devem ser realizados.
+SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
+- As variáveis da área de SAÚDE INFANTIL 1º ANO têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 1 ano de vida no ano civil em curso.
+- Para cada criança incluída nesta área, o período em análise para deteção de consultas ou procedimentos inicia-se com o nascimento e termina ao 330º dia de vida.
+- Variável ""idade"": A 31 de dezembro do ano em curso, cada criança tem [1, 2[ anos de idade.
+SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
+- As variáveis da área de SAÚDE INFANTIL 2º ANO têm um período em análise de 1 a 12 meses, iniciando-se sempre a 1 de janeiro e terminando na data de referência do indicador.
+- A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida no ano civil em curso.
+- Para cada criança incluída nesta área, o período em análise para deteção de consultas e procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
+- Variável ""idade"": A 31 de dezembro do ano em curso, cada criança tem [2, 3[ anos de idade.
+DIABETES (DM)
+- Variável ""Diabetes na lista de problemas"": Coincidente com a data de referência do indicador.
+- variável ""Consulta médicas"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registos de pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""Registo de HbA1c"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""HbA1c igual ou inferior a 8,5%"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+HIPERTENSÃO (HT)
+- Variável ""consulta médica"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""registo de pressão arterial em 12 meses"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- variável ""resultado da pressão arterial"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""microalbuminúria"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""colesterol total, colesterol HDL e triglicéridos"": Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
+- Variável ""inscrição ativa na unidade de saúde"": Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Variável ""HTA na lista de problemas"": Coincidente com a data de referência do indicador.",(PF + 8 SMAT + 7 SI1 + 3 SI2 + 4 DM + 2 HT) / BB,UC,Score: Unidade de contratualização,Com dados desde Dezembro de 2009,---,---,---,Processo,Transversal,Utentes utilizadores durante o período em análise,30 dias,"SCLÍNICO - PERFIL DE ENFERMAGEM:
+A. A pressão arterial pode ser registada neste sistema.
+SCLÍNICO - PERFIL MÉDICO:
+A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
+B. A microalbuminúria pode ser registada no módulo de MCDT e em campos específicos existentes na ficha de hipertensão e na ficha de diabetes.
+C. É possível registar [Aborto] na janela [Revisão do puerpério]. Esta funcionalidade está acessível a partir do botão [RP] do [programa de saúde materna]. O [aborto] é selecionado na mesma lista em que é possível escolher o [tipo de parto].
+D. No SClínico existem poucos registos de gravidez de lista de problemas, porque esta aplicação apenas faz o registo automático dos códigos ICPC-2 de gravidez no sistema de episódios (não os transpondo para a lista de problemas). Assim, nesta aplicação de registo clínico, a alínea D de OBSERVAÇÕES GERAIS deve ter a seguinte leitura: D. O registo de gravidez na lista de problemas ou no sistema de episódios, usando a ICPC-2, realizado por médico ou interno da unidade de saúde, deve ser feito para que a sua duração seja coincidente em pelo menos um dia com a duração do registo no módulo ou programa de saúde materna, devendo ser verdadeira a condição [AA ou (BB e CC)]:
+AA. Existe pelo menos um registo de um dos códigos ICPC-2 relacionados com gravidez, no sistema de episódios, entre a DUM e a [data de fim] da gravidez registada no programa de saúde materna (ver como se determina a [data de fim da gravidez] nas OBSERVAÇÕES GERAIS).
+BB. a [Data inicio] do diagnóstico de gravidez na lista de problemas deve ser anterior à [data de fim] da gravidez registada no programa de saúde materna.
+CC. a [Data fim] do diagnóstico de gravidez na lista de problemas ou não está definida ou é posterior à DUM da gravidez registada no programa de saúde materna.
+E. Os resultados da ""colpocitologia em lâmina"" devem ser registados no módulo de MCDT.
+F. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado. O registo é efetuado no módulo de MCDT.
+G. O exame [Pesquisa de DNA por PCR, cada PCR] também deve ser registado no módulo de MCDT.
+H. Os resultados dos exames de rastreio podem ser consultados (mas não registados) nos módulos de ""planeamento familiar"" e ""rastreio oncológico"".
+MEDICINEONE:
+A. O diagnóstico de hipertensão pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. O diagnóstico de diabetes pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+C. A pressão arterial pode ser registada nos seguintes locais do MedicineOne (campos de PA sistólica e PA diastólica):
+- Biometrias;
+- Módulo de hipertensão;
+- Módulo de diabetes;
+- Módulo de saúde infantil;
+- Módulo de saúde materna;
+- Módulo de planeamento familiar;
+D. A proteinúria, o colesterol total, o colesterol HDL e os triglicéridos podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+E. A microalbuminúria pode ser requisitada e registada quer através do módulo de análises quer através do módulo de MCDT. O SIARS contabiliza-os quando registados em qualquer deles.
+F. A microalbuminúria pode também ser registada nos campos criados para o efeito quer no módulo de hipertensão, quer no módulo de diabetes.
+G. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+H. A HbA1c podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS apenas contabiliza os registados no módulo de análises.
+I. Os registos de exame dos pés devem ser realizados no módulo de diabetes, usando um dos campos seguintes: a) rastreio do pé; b) exames dos pés.
+J. O diagnóstico de gravidez pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico não necessita estar classificado como ""ativo"", mas não pode ter sido classificado como ""inválido"".
+K. Para que sejam contabilizados neste indicador, as [ecografias obstétricas] podem ser registadas quer no módulo de MCDT quer no módulo de saúde materna.
+L. O resultado das [ecografias obstétricas] podem ser registados quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+M. O [aborto] pode ser registado no módulo de saúde materna (por baixo da zona de registo da [data da última menstruação] e da [data de parto]).
+N. Para que sejam contabilizados neste indicador, as colpocitologias podem ser registadas quer no módulo de MCDT quer no módulo de Rastreio Oncológico.
+O. O resultado da colpocitologia pode ser registado quer em formato de texto, quer em formato parametrizado, quer em formato multimédia.
+P. O exame B012.4 (colpocitologia em meio líquido) não pode ser prescrito, pois não é comparticipado. Apenas o seu resultado pode ser registado.
+Q. O intervalo de tempo [1, 330] dias, definido na área da Sáude infantil, 1º ano de vida, destina-se a detetar 5 das 6 consultas de vigilância em saúde infantil previstas pela DGS para o 1º ano de vida:
+- 1ª consulta da vida;
+- Consulta do 1º mês;
+- Consulta dos 2 meses;
+- Consulta dos 4 meses;
+- Consulta dos 6 meses;
+- Consulta dos 9 meses.
+R. O intervalo de tempo ]330; 700] dias, definido na área da Sáude infantil, 2º ano de vida, destina-se a detetar as 3 consultas de vigilância em saúde infantil previstas pela DGS para o 2º ano de vida:
+- Consulta dos 12 meses;
+- Consulta dos 15 meses;
+- Consulta dos 18 meses.
+S. A datação da gravidez no 1º trimestre não entra em linha de conta com a DPPC, pois neste software não existe regista da data de registo da DPPC."
+184,8.07.01,---,Proporção utiliz. muito satisfeitos,Proporção de utilizadores muito satisfeitos,Monitorizar a satisfação dos utentes que utilizam os serviços de saúde,"Indicador que exprime a proporção de utentes muito satisfeitos, calculado pelo rácio entre a soma das respostas ""muito satisfeito"" (ou equivalentes) e o número de respostas válidas nos questionários de satisfação realizados durante o período em análise.
+Numerador: Contagem de perguntas com resposta equivalente a ""muito satisfeito"" nos questionários de satisfação realizados.
+Denominador: Contagem de perguntas com resposta válida nos questionários de satisfação realizados.","NUMERADOR (AA):
+Contagem de respostas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. O utente assinalou a resposta [muito satisfeito] ou equivalente (ver ANEXO B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de respostas em que a expressão [A e B e C e D] é verdadeira:
+A. Pertencentes ao questionário de satisfação descrito no ANEXO A de OBSERVAÇÕES GERAIS.
+B. Respondidas por utentes que acederam presencialmente à unidade de saúde durante a realização de questionário de satisfação (durante o período em análise).
+C. O questionário de satisfação foi realizado nas condições definidas no ANEXO C de OBSERVAÇÕES GERAIS.
+D. Classificadas como válidas (ver ANEXO B de OBSERVAÇÕES GERAIS).","ANEXO A
+Apresenta-se o modelo de [questionário de satisfação] válido para monitorizar a [satisfação dos utentes] das unidades de saúde no âmbito da contratualização interna (USF e UCSP) e externa (ACES).
+O questionário é constituído por 19 questões, pretendendo medir a satisfação dos utentes nas dimensões seguintes:
+A. Acesso à unidade de saúde: transportes para a unidade, contacto telefónico e horário proposto para consulta;
+B. Estrutura: conforto e limpeza instalações;
+C. Organização do funcionamento: resposta às necessidades especiais dos utilizadores, rapidez de resolução de problemas urgentes, identificação dos profissionais e pontualidade de atendimento;
+D. Informação: divulgação sobre o tipo de cuidados oferecidos e qualidade da informação fornecida pelos serviços administrativos;
+E. Qualidade dos serviços prestados: tempo e atenção dedicada ao atendimento clínico, qualidade dos cuidados clínicos recebidos, qualidade da Informação fornecida sobre os cuidados a ter com a saúde e envolvimento nas decisões;
+F. Privacidade;
+G. Satisfação global;
+O modelo do questionário é constituído pelas seções seguintes:
+1. Titulo do questionário;
+2. Nota introdutória;
+3. Questões e respostas;
+4. Perfil do utilizador;
+5. Identificação do utilizador.
+1. TÍTULO DO QUESTIONÁRIO
+""OUVIR"" O NOSSO UTENTE
+2. NOTA INTRODUTÓRIA
+Exmo(a) Sr(a),
+A equipa da [NOME DA UNIDADE DE SAÚDE] ([NOME ABREVIADO DA UNIDADE DE SAÚDE]) está preocupada em prestar cuidados de saúde com qualidade.
+Este questionário foi construído para que possamos conhecer o grau de satisfação dos nossos utentes em relação aos serviços prestados aos próprios ou a pessoas que acompanham.
+Agradecemos, desde já, a disponibilidade para nos dar a sua opinião, respondendo às questões abaixo apresentadas, bem como para escrever as sugestões ou comentários que achar oportunos. O preenchimento demorará cerca de 5 minutos.
+Contamos consigo, para podermos melhorar continuamente os nossos serviços!
+Ass:___________________
+(Coordenador da [NOME ABREVIADO DA UNIDADE DE SAÚDE])
+Ass:___________________
+(Diretor executivo do [NOME DO ACES])
+3. QUESTÕES E RESPOSTAS
+Questão 1
+Como avalia a sua satisfação em relação à facilidade em se deslocar para a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 2
+Como avalia a facilidade em contactar telefonicamente com a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito fácil
+2 - Fácil
+3 - Difícil
+4 - Muito difícil
+5 - Não sei / Não respondo
+Questão 3
+Como avalia a sua satisfação com o horário proposto pela [NOME ABREVIADO DA UNIDADE DE SAÚDE] para os serviços que lhe são prestados?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 4
+Como considera o conforto (comodidade, temperatura, ambiente, ruído e iluminação) das instalações da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito bom
+2 - Bom
+3 - Razoável
+4 - Mau
+5 - Não sei / Não respondo
+Questão 5
+Como considera a limpeza das instalações da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito boa
+2 - Boa
+3 - Razoável
+4 - Má
+5 - Não sei / Não respondo
+Questão 6
+Como avalia a resposta da [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos utilizadores com necessidades especiais (por exemplo, de crianças, grávidas, idosos e portadores de deficiência)?
+1 - Muito boa
+2 - Boa
+3 - Razoável
+4 - Inexistente
+5 - Não sei / Não respondo
+Questão 7
+Como classifica a forma como a [NOME ABREVIADO DA UNIDADE DE SAÚDE] divulga os tipos de cuidados que oferece (por exemplo vacinação, consultas médicas, consultas de enfermagem, rastreio de certos tipos de cancro, cuidados a grávidas, cuidados a crianças e domicílios)?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+Questão 8
+Como avalia a sua satisfação em relação ao tempo que decorre até ao agendamento e realização das consultas por si solicitadas?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 9
+Como avalia a sua satisfação relativamente à forma como os profissionais se identificam (nome e função) ao fazer o atendimento telefónico ou presencial?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 10
+Como avalia a sua satisfação em relação à pontualidade com que foi atendido pelos serviços clínicos?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 11
+Como classifica a informação fornecida pelo secretariado clínico da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+Questão 12
+Como avalia a sua satisfação relativamente ao tempo e atenção que o profissional de saúde (médico, enfermeirso ou outro) dedicou ao seu atendimento?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 13
+Como avalia a sua satisfação relativamente à qualidade dos cuidados clínicos recebidos (prestados por médico, enfermeirso ou outro)?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 14
+Como classifica a informação clínica que lhe foi fornecida sobre os cuidados a ter com a sua saúde?
+1 - Muito útil
+2 - Útil
+3 - Pouco útil
+4 - Inútil
+5 - Não sei / Não respondo
+Questão 15
+Como avalia a sua satisfação em relação à forma como foi envolvido(a) nas decisões sobre os cuidados a ter com a sua saúde?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 16
+Como avalia o modo como os profissionais de saúde zelam pela sua privacidade?
+1 - Muito bom
+2 - Bom
+3 - Razoável
+4 - Mau
+5 - Não sei / Não respondo
+Questão 17
+Como avalia a sua satisfação global em relação à [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+(Utilizando uma escala de 1 a 10, em que 1 corresponde a ""muito insatisfeito"" e 10 a ""muito satisfeito"")
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 18
+Recomendaria a [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos seus familiares e amigos?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 19
+Na sua opinião, como poderíamos melhorar os nossos serviços?
+1 - ______________________________________________________________
+2 - ______________________________________________________________
+3 - ______________________________________________________________
+4. PERFIL DO UTENTE
+Caso entenda, poderá preencher os dados seguintes que servem para nos ajudar a perceber um pouco melhor as características dos utentes que usaram os serviços.
+Ano de nascimento: ______
+Sexo:
+1 - Fem.
+2 - Masc.
+Escolaridade (anos): _____
+Profissão: _____________
+5. IDENTIFICAÇÃO
+Caso entenda, este inquérito poderá ser mantido em anonimato.
+Se desejar manter o anonimato, não preencha os dados de identificação abaixo referidos.
+No entanto, se desejar que a equipa de gestão da qualidade da [NOME ABREVIADO DA UNIDADE DE SAÚDE] entre em contacto consigo para esclarecer alguma das sugestões de melhoria dos nossos serviços, ou alguma área em que tenha revelado insatisfação (questão 19), preencha abaixo os seus dados de identificação.
+Caso deseje revelar a sua identidade, garantimos que não serão adotados quaisquer procedimentos discriminatórios no contexto da sua assistência nesta unidade de saúde.
+Nome: ____________________________________________________________
+Nº Utente: _______________
+Telefone: _______________
+Preferencia de horário para contacto: ________
+E-mail: __________________________________
+ANEXO B
+Neste anexo operacionaliza-se a forma de classificar as respostas ao questionário.
+O indicador exprime a proporção de utentes muito satisfeitos, calculado pelo rácio entre a soma das respostas [muito satisfeito] (ou equivalentes) e o número respostas [válidas]. Assim, torna-se relevante definir, para cada questão, quais as respostas que são equivalentes a [muito satisfeito] e o que são respostas [inválidas] (não contabilizadas no denominador nem no numerador).
+As questões podem ser agrupadas em 3 classes, em função do tipo de escala usada para as respostas:
+1. Questões 1 a 16 e questão 18: Estão operacionalizadas com 4 opções de resposta válida e 1 opção de resposta [Não sei / Não respondo].
+2. Questão 17: Está operacionalizadas com 10 opções de resposta válida.
+3. Questão 19: Resposta em texto livre.
+Define-se a seguir o que deve ser considerado equivalente a [muito satisfeito] (contabilizado no numerador) e o que deve ser considerado [inválido] (não contabilizado no numerador nem no denominador).
+Questões 1 a 16 e questão 18
+As respostas às questões 1 a 16 e à questão 18 estão operacionalizadas com 4 opções de resposta válida e 1 opção de resposta [Não sei / Não respondo]. Nestas questões, as respostas estão numeradas de 1 a 5, sendo que em todas elas, a número 1 é sempre a que qualifica a melhor satisfação (ou a opinião mais positiva) e a número 4 a que qualifica a opinião mais negativa. A resposta número 5 permite responder [Não sei / Não respondo].
+A resposta número 1 pode assumir um dos seguintes significados nas questões referidas: [Muito satisfeito], [Muito claro], [Muito fácil], [Muito bom], [Muito boa] e [Muito útil]. Assim, neste grupo de questões, para efeitos de determinação dos resultados deste indicador, são consideradas com resposta [Muito satisfeito] (ou equivalente), aquelas em que o respondente assinalar a número 1.
+As respostas a este grupo de questões devem ser consideradas inválidas para o denominador (e consequentemente para o numerador) se:
+a) nenhuma das 5 opções for assinalada;
+b) ou se mais do que uma for assinalada;
+c) ou se a opção 5 (Não sei / Não respondo) for a única assinalada.
+Questão 17
+As resposta à questão 17 está operacionalizada com 10 opções de resposta válida. As respostas estão numeradas de 1 a 10. O 10 é o que qualifica a melhor satisfação (ou a opinião mais positiva). O 1 a que qualifica a opinião mais negativa.
+Para efeitos de determinação dos resultados deste indicador, são consideradas com resposta [Muito satisfeito] (ou equivalente), aquelas em que o utente assinalar as respostas número 8, 9 ou 10.
+A resposta é considerada inválida para o denominador (e consequentemente para o numerador) se nenhuma for assinalada ou se mais do que uma for assinalada.
+Questão 18
+As respostas são em texto livre, devem ser usadas para implementar eventuais melhorias na prestação de cuidados. As respostas a estas questões
+não
+são usados para o cálculo dos resultados deste indicador.
+ANEXO C
+A. O questionário deve ser aplicado entre os meses de março e maio ou entre os meses de outubro e novembro, a uma 3ª feira ou 4ª feira. O dia selecionado não deve ser um dia especial na área de abrangência da unidade de saúde (p.e., não deve ser um dia de feira).
+B. Nos dias em que for aplicado, deve ser entregue, sem discriminação, a todos os utentes que acedam à unidade de saúde, independentemente do destino dos mesmos e de estarem ou não inscritos na unidade de saúde. Deve também ser entregue aos utentes que pretendam apenas aceder ao secretariado clínico da unidade de saúde.
+C. Os questionários a serem entregues devem estar sequencialmente numerados por forma a poder avaliar, no final, qual a taxa de devolução de questionários preenchidos. Deverão também ser rubricados pelo coordenador da unidade e pelo diretor executivo do ACES.
+D. O questionário deverá ser formatado para que caiba, no máximo, em 3 páginas. Deverão ser usadas todas as 18 questões, colocadas pela ordem aqui apresentada. O título do questionário pode ser alterado para outro que esteja mais de acordo com as políticas de qualidade da unidade de saúde. As seções [nota introdutória] e [identificação], podem também ser alteradas de acordo com essas mesmas orientações (por exemplo eliminando a [identificação] e alterando a [nota introdutória] por forma a garantir o anonimato do respondente;
+E. Nos pontos de entrega dos questionários deverão existir urnas que podem ser improvisadas com caixas de cartão. Nessas urnas deverá ser colado um cartaz A4 com o seguinte texto ou equivalente:
+""OUVIR"" O NOSSO UTENTE
+ESTAMOS INTERESSADOS EM CONHECER A SUA OPINIÃO SOBRE O NOSSO TRABALHO
+Coloque aqui o seu questionário preenchido
+MUITO OBRIGADO
+F. A unidade de saúde deverá solicitar a alguns dos seus utentes que funcionem como voluntários no dia de aplicação do questionário. A função dos voluntários deverá ser a de entregar e receber os questionários e a de apoiar utentes nas respostas, caso os mesmos manifestem dificuldades de leitura ou de escrita. Deverão ainda ser instruídos para verificar se o questionário foi totalmente preenchido antes da colocação na urna, de forma a dar oportunidade aos utentes para os acabar de preencher, com particular relevo para os casos em que o preenchimento do questionário foi interrompido pela chamada para a consulta. Deverão ser instruídos para não responder ao questionário e para não influenciar os restantes utentes nas respostas.
+G. Recomenda-se a organização de pontos de entrega e recolha de questionário pelo menos junto à(s) entrada(s) da unidade. Outra opção é a de organizar esses pontos na(s) sala(s) de espera desde que se garanta a todos os utentes a possibilidade de responder.
+H. Na(s) entrada(s) e sala(s) de espera deverão ser afixados, cartazes do tamanho A3 com o seguinte texto ou equivalente:
+QUESTIONÁRIO DE SATISFAÇÃO: ""OUVIR"" O NOSSO UTENTE
+ESTAMOS INTERESSADOS EM CONHECER A SUA OPINIÃO SOBRE O NOSSO TRABALHO
+Por favor preencha o questionário de satisfação e coloque-o numa das caixas assinaladas para o efeito, existentes nas salas de espera/à saída da unidade.
+AGRADECEMOS AS SUAS RESPOSTAS E COMENTÁRIOS
+I. Toda a logística necessária para a entrega do questionário (afixação de cartazes, colocação de urnas de recolha, impressão e numeração de questionários) deverá ser concluída no final do dia anterior ao da realização do questionário. A afixação de cartazes e colocação da(s) urna(s) deve ocorrer no final do dia anterior para que não existam, de véspera, utentes conhecedores da realização do questionário.
+J. O número mínimo de questionários que devem ser recolhidos para considerar válido o presente indicador depende do número de unidades ponderadas (UP) dos utentes inscritos na unidade de saúde na data de referência do indicador, calculado pela fórmula seguinte:
+[Número mínimo de questionários devolvidos e tratados estatisticamente durante o período em análise] = [Número de UPs de utentes inscritos na data de referência do indicador] / 82.5
+Assim, p.e. uma unidade de saúde com 14000 UPs de utentes inscritos e uma equipa com 17 profissionais na equipa, deverá receber, desejavelmente, 170 questionários para tratamento estatístico.
+K. Caso a unidade de saúde não consiga recolher num único dia questionários suficientes para atingir o número mínimo definido na alínea anterior, deverá o mesmo ser aplicado no(s) dia(s) úteis seguinte(s), podendo neste caso ser aplicado à 4ª, 5ª ou 6ª feira. Para cada dia em que seja implementado um questionário de satisfação na unidade de saúde, esta deverá preencher a informação que consta do ANEXO D.
+L. Depois de terminada a aplicação do questionário, deverá a unidade de saúde preencher o(s) FORMULÁRIO(S) DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO (ver ANEXO D) e remetê-lo(s) conjuntamente com os respondidos para a unidade de apoio à gestão (UAG) ou para o gabinete do cidadão do ACES para que aí se proceda ao tratamento estatístico. Por forma a aumentar ainda mais a isenção do tratamento estatístico dos dados, os ACES poderão agrupar-se 2 a 2 e estabelecer protocolos para proceder ao tratamento estatístico das unidades contra laterais. A entidade que proceder ao tratamento estatístico do questionário deverá preencher o FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO (ver anexo E).
+M. Os questionários respondidos, a análise estatística efetuada pela unidade de saúde, o(s) FORMULÁRIO(S) DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO e o FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO devem ser arquivados até 3 anos após a data de referência do indicador.
+ANEXO D
+Este anexo especifica o modelo de dados a preencher para cada dia em que o questionário é aplicado:
+FORMULÁRIO DE CARACTERIZAÇÃO DE QUESTIONÁRIO DE SATISFAÇÃO
+Nome da unidade de saúde: _____________________________________
+Ano de contratualização: ________
+Data de realização: ___/___/20____
+Hora de início da entrega de questionários: ___:___
+Hora de fim da entrega de questionários: ___:___
+Nº de questionários entregues aos utentes: ____
+Nº de questionários colocados pelos utentes nas urnas: ____
+Nome do voluntário 1: _____________________________________
+Número de utente do voluntário 1: _________________
+Assinatura do voluntário 1: _________________
+Nome do voluntário 2: _____________________________________
+Número de utente do voluntário 2: _________________
+Assinatura do voluntário 2: _________________
+Nome do voluntário 3: _____________________________________
+Número de utente do voluntário 3: _________________
+Assinatura do voluntário 3: _________________
+Nome do voluntário 4: _____________________________________
+Número de utente do voluntário 4: _________________
+Assinatura do voluntário 4: _________________
+Nome do coordenador da unidade: _____________________________________
+Assinatura do coordenador da unidade: _________________
+Nome do diretor do ACES: _____________________________________
+Assinatura do diretor do ACES: _________________
+ANEXO E
+Este anexo especifica o modelo de dados relevante para a determinação dos resultados:
+FORMULÁRIO DE CARACTERIZAÇÃO DE RESULTADOS DO QUESTIONÁRIO DE SATISFAÇÃO
+Nome da unidade de saúde: _____________________________________
+Ano de contratualização: ________
+Data de realização: de ___/___/20____ a ___/___/20____
+(A) Nº de questionários entregues aos utentes: ____
+(B) Nº de questionários colocados pelos utentes nas urnas: ____
+(C) Nº de respostas entregues pelos utentes: ____ (B x 18)
+(D) Nº de respostas consideradas [inválidas]: ____
+(E) Nº de respostas consideradas [válidas]: ____ (C - D)
+(F) Nº de respostas consideradas equivalentes a [muito satisfeito]: ____
+(G) Proporção de utentes [muito satisfeitos] (F / E): ____
+Nome do coordenador da unidade: _____________________________________
+Assinatura do coordenador da unidade: _________________
+Nome do diretor do ACES: _____________________________________
+Assinatura do diretor do ACES: _________________
+Serviço que procedeu ao tratamento estatístico: ____________________
+Data em que terminou o tratamento estatístico: ____________________
+Nome do coordenador do tratamento estatístico: ____________________
+Função do coordenador do tratamento estatístico: ____________________
+Assinatura do coordenador do tratamento estatístico: ____________________","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração coincidente com a(s) data(s) de realização do questionário.
+- Denominador: Duração coincidente com a(s) data(s) de realização do questionário.",AA / BB x 100,%,Proporção de utilizadores,Em desenvolvimento,---,---,---,Resultado,Transversal,Utentes utilizadores durante o período em análise,0 dias,
+345,3.32.01,2017.345.01,Propor. consul. enfer. realiz. no dia do agendam.,Proporção de consultas de enfermagem realizadas no dia do agendamento,Monitorizar a proporção de consultas de enfermagem realizadas no dia do agendamento.,"Exprime a proporção de consultas de enfermagem presenciais que são realizadas no dia em que são agendadas.
+Numerador - Contagem de consultas de enfermagem presenciais que são realizadas no dia em que são agendadas.
+Denominador - Contagem de consultas de enfermagem presenciais.","NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Consulta realizada no dia do agendamento (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C] é verdadeira:
+A. Efetuada por qualquer enfermeiro da unidade funcional durante o período em análise.
+B. Do tipo ""consulta de enfermagem presencial"" (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Realizado a utente com [
+inscrição ativa
+] na unidade de observação no mês da realização da consulta.","A. Para se considerar uma [Consulta enfermagem com a presença do utente (direta)], é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C005
+| Consulta enfermagem com a presença do utente (direta) - SClínico
+-
+C011
+| Consulta enfermagem com a presença do utente (direta) - MedicineOne
+B. Uma consulta é considerada no numerador do indicador sempre que a data de realização seja igual à data em que o agendamento é efetuado na agenda do Sclinico. Por exemplo, consulta solicitada por um utente no dia 20 de agosto, agendada e realizada no dia 20 de agosto. A classificação das consultas em ""programada"" / ""não programada"" não é tida em conta, nas regras do numerador.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Numerador (variável ""data de pedido da consulta""): É um atributo da variável ""consulta de enfermagem"".
+- Denominador (variável ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição do utente""): Apurado no último dia do mês da realização da consulta.",AA / BB x 100,%,Proporção de consultas,Com dados desde Fevereiro de 2018,Desempenho | Acesso | Consulta no Próprio Dia,"Ano de 2022: [23; 40]
+Ano de 2023: [23; 40]
+Ano de 2024: [23; 40]","Ano de 2022: [18; 45]
+Ano de 2023: [18; 45]
+Ano de 2024: [18; 45]",Processo,Não aplicável,Utentes inscritos em pelo menos um dia do período em análise,5 dias,
+351,7.20.02,2017.351.01,Custo c/ terap. doente c/ Diab. Mell. controlado,Custo com terapêutica do doente com Diabetes Mellitus controlado,Monitorizar a eficiência do tratamento da Diabetes Mellitus.,"Exprime a despesa média com antidiabéticos não insulínicos, insulina, tiras de glicémia e agulhas de doseamento de glicémia nos doentes com Diabetes Mellitus controlada.
+Numerador - Somatório do Preço de Venda ao Público (PVP) dos antidiabéticos não insulínicos, insulina, tiras de glicémia e agulhas de doseamento de glicémia prescritos aos doentes com Diabetes Mellitus controlada.
+Denominador - Contagem de doentes com Diabetes Mellitus controlada.","NUMERADOR (AA):
+Somatório do PVP de medicamentos (ver alínea J de OBSERVAÇÕES GERAIS) ou de dispositivos médicos em que a expressão [A e (B ou C ou D)] é verdadeira:
+A. Prescritos por qualquer médico ou interno da unidade de saúde durante o período em análise aos utentes incluídos no denominador.
+B. Pertencente à classe dos antidiabéticos não insulínicos (ver alíneas A e C de OBSERVAÇÕES GERAIS).
+C. Pertencente à classe das insulinas (ver alíneas B e C de OBSERVAÇÕES GERAIS).
+D. Pertencente ao grupo dos dispositivos médicos para a automonitorização da diabetes (ver alínea D de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Na data de referência do indicador, o diagnóstico de Diabetes Mellitus tipo 1 (rubrica da ICPC-2 T89) ou o diagnóstico de Diabetes Mellitus tipo 2 (rubrica da ICPC-2 T90) encontram-se na lista de problemas, com o estado de ""ativo"".
+C. Com pelo menos um registo de HbA1c no último semestre (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS).
+D. O último resultado registado de HbA1c é igual ou inferior a 8.0% (ver alíneas E, F, G e H de OBSERVAÇÕES GERAIS).","A. Consideram-se pertencentes ao grupo dos [antidiabéticos não insulínicos], os medicamentos pertencentes à classe 8.4.2 da classificação CFT.
+B. Consideram-se pertencentes ao grupo das [insulinas], as prescrições pertencentes ao grupo 8.4.1.1 (Insulina de ação curta), ao grupo 8.4.1.2 (Insulina de ação intermédia) ou ao grupo 8.4.1.3 (Insulina de ação prolongada) da classificação farmacoterapêutica de medicamentos (CFT).
+C. Os medicamentos pertencentes à classes CFT e ATC acima referidas podem ser consultados em
+https://www.infarmed.pt/web/infarmed/servicos-on-line/pesquisa-do-medicamento
+.
+D. Os dispositivos médicos para a automonitorização da diabetes cuja despesa é contabilizada no numerador podem ser consultados em
+https://www.infarmed.pt/web/infarmed/pesquisa-dispositivos
+.
+E. O código da tabela de MCDT, válido para registar HbA1c é o A531.2. Quando esta análise for efetuada na unidade de saúde (utilizando doseadores próprios) a mesma pode ser registada em campo(s) específicos criados pelas aplicações de registo clínico para o efeito. O registo é válido se for realizado por qualquer médico, interno ou enfermeiro da unidade de saúde.
+F. Apenas se contabilizam HbA1c com resultado registado.
+G. A data que deve ser usada para verificar se a HbA1c está ou não dentro do período em análise é a ""data de realização"". O resultado deve ser preenchido, no máximo até 30 dias após o fim do período em análise.
+H. Se em determinada data existir um resultado de HbA1c que cumpra a condição C do numerador (último semestre) e também a condição D (igual ou inferior a 8.0%) e posteriormente a essa data e ainda antes da data de referência do indicador, existir uma requisição de HbA1c ainda sem resultado, tal não invalida que se contabilize o utente no denominador. No entanto, se até 30 dias após a data de referência do indicador, o resultado dessa HbA1c for registado e for superior a 8.0%, esse utente já não pode ser incluído no denominador.
+I. A fonte de dados para a informação do numerador é a BDNP, bastando que um medicamento seja prescrito, para ser contabilizado (não se valida se é ou não dispensado em farmácia).
+J. Quando a prescrição é feita por ""marca de medicamento"", o preço usado é o do medicamento prescrito. Quando é feita por DCI, o preço usado é o do 3º mais barato desse DCI, com a mesma dosagem e apresentação.
+G. Quando a prescrição é uma associação fixa, basta que nessa associação exista um medicamento pertencente ao grupo dos [antidiabéticos não insulínicos] para que seja contabilizado na totalidade.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variável ""prescrição de medicamentos e produtos terapêuticos""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""diagnóstico de diabetes Mellitus""): Coincidente com a data de referência do indicador.",AA / BB,€ / UTE,Preço médio por utente,Com dados desde Dezembro de 2016,Desempenho | Gestão da Doença | Diabetes Mellitus,"Ano de 2022: [0; 350]
+Ano de 2023: [0; 350]
+Ano de 2024: [0; 350]","Ano de 2022: [0; 420]
+Ano de 2023: [0; 420]
+Ano de 2024: [0; 450]",Resultado,Diabetes Mellitus,Utentes inscritos em pelo menos um dia do período em análise,5 dias,"MEDICINEONE:
+A. O diagnóstico de diabetes tipo 2 pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido"".
+B. A HbA1c pode ser registada nos seguintes locais do MedicineOne:
+- Módulo de análises - Análise ""Hemoglobina glicada""
+- Módulo Diabetes - Campo ""Hemoglobina glicada""
+C. A HbA1c podem ser registados quer no módulo de análises quer no módulo de MCDT. O SIARS apenas contabiliza os registados no módulo de análises."
+379,8.12.02,2017.379.01,Propor. PVP medicam. prescr. MF em UF diferentes,"Proporção do PVP faturado em medicamentos a utentes inscritos nos CSP, prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES).","Monitorizar a frequência de prescrição de medicamentos realizada por médicos de família aos próprios utentes que é efetuada em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES). Ver alíneas H, I, J, K e L de OBSERVAÇÕES GERAIS.","Indicador que exprime a proporção do PVP faturado em medicamentos a utentes inscritos nos CSP, prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES).
+Numerador: Somatório do PVP de medicamentos dispensados a utentes inscritos nos CSP que foi prescrito pelo próprio médico de família em unidade funcional ou serviço diferente da unidade de inscrição dos utentes (mas pertencente ao ACES).
+Denominador: Somatório do PVP de medicamentos dispensados a utentes inscritos nos CSP.","NUMERADOR (AA):
+Somatório do PVP dos medicamentos em que a expressão [A e B e C e D e E] é verdadeira:
+A. Todas as condições do denominador.
+B. O médico prescritor é o médico de família do utente no mês da faturação.
+C. O local de prescrição pertence, em termos de ""hierarquia de locais"", ao ACES onde o utente tem [
+inscrição ativa
+] no mês de faturação do medicamento (ver alíneas H, I, J e K de OBSERVAÇÕES GERAIS).
+D. O local de prescrição é diferente do(s) local(ais) de inscrição RNU pertencente(s) à unidade funcional onde o utente tem [
+inscrição ativa
+] no mês de faturação do medicamento (ver alíneas H, I, J e K de OBSERVAÇÕES GERAIS).
+E. Utente inscrito na mesma unidade funcional há pelo menos 6 meses (ver alíneas I, J e K de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Somatório do PVP dos medicamentos em que a expressão [A e (B ou C ou D)] é verdadeira (ver alínea G de OBSERVAÇÕES GERAIS):
+A. Cujos registos de venda foram enviados pelas farmácias para faturação junto do Ministério da Saúde e foram aceites para faturação durante o período em análise, independentemente da origem do local de prescrição (ver alíneas A, B, C, D, E e F de OBSERVAÇÕES GERAIS).
+B. Se a unidade de observação é uma USF ou uma UCSP: ter [
+inscrição ativa
+] nessa unidade, no final do mês em que ocorre a faturação.
+C. Se a unidade de observação é um médico: ter [
+inscrição ativa
+] na lista do médico e da unidade funcional a que este pertence, no final do mês em que ocorre a faturação.
+D. Se a unidade de observação é um ACES: ter [
+inscrição ativa
+] numa das USF ou UCSP do ACES, durante pelo menos um dia do período em análise.","A. A despesa com medicamentos contabilizada no denominador é aquela que durante o período em análise é associável a utentes inscritos nos CSP. A distribuição dessa despesa pelo ACES, unidade funcional ou médico que constitui a ""unidade de observação"" é feita pela titularidade da inscrição do utente no mês da faturação do medicamento. Significa isto que estamos a contabilizar no denominador a despesa com medicamentos faturados aos utentes inscritos nos CSP independentemente do médico prescritor estar inscrito na ""ordem dos médicos"" ou na ""ordem dos médicos dentistas"" e independentemente da prescrição ter sido efetuada nos CSP, hospitais do SNS, hospitais privados, clínicas privadas, médicos em consultório particular ou em qualquer outro contexto de atividade.
+B. A data que importa para verificar se determinado medicamento está ou não dentro do período em análise e assim decidir incluir ou não o respetivo [PVP] no indicador é a [data de aceitação da receita pelo CCF]. A [data de prescrição] e a [data de venda] são ignoradas.
+C. Existem alguns medicamentos contabilizados no denominador (aceites para faturação durante o período em análise) que foram prescritos no ano anterior. Existem medicamentos prescritos durante o período em análise que só serão aceites para faturação depois desse período.
+D. Até 31 de março de 2013 as farmácias enviavam para o CCF as receitas de utentes do SNS e de utentes da ADSE prescritas em locais de prescrição do SNS. A partir de 1 de abril passou a ser considerada despesa do SNS todas as receitas prescritas a utentes dos subsistemas públicos, ou seja, ADSE (independentemente do local de prescrição), IASFA, SAD-PSP e SAD-GNR
+E. Caso uma farmácia pertencente a uma ARS receba uma receita de uma unidade de saúde de outra ARS, isso não constitui impedimento para que o indicador contabilize essa despesa para a unidade de saúde respetiva.
+F. Não são contabilizados no denominador nem no numerador as despesas relacionadas com:
+- Medicamentos prescritos e não dispensados (p.e. por recusa do utente em fazer a compra);
+- Medicamentos não comparticipados: são prescritos por médicos, dispensados nas farmácias, mas não são enviados pelas farmácias para faturação junto do Ministério da Saúde;
+- Medicamentos de alguns subsistemas, designadamente SAD-PSP, SAD-GNR, IASFA, SS CGD e SAMS (até 31 de março de 2013): eram prescritos nas unidades de saúde, dispensados nas farmácias, mas a faturação era efetuada junto dos respetivos subsistemas;
+G. Contabiliza-se o PVP do medicamento em vigor na data de venda. Caso a marca do medicamento dispensado seja diferente da marca do medicamento prescrito ou a prescrição for CNPEM contabiliza-se o PVP do medicamento dispensado. Caso o PVP na data da venda seja diferente do PVP na data de prescrição, contabiliza-se o da data da venda. A métrica que serve de base a este indicador está definida na especificação
+M013 dos [conceitos e métricas relacionadas com medicamentos]
+.
+H. Quando uma unidade funcional tem mais do que um código de inscrição de utentes no RNU, para que a prescrição cumpra critérios para o numerador deste indicador é necessário que ocorra com um código de local de prescrição diferente de todos os locais de inscrição do RNU, mas pertencente ao ACES a que pertence a unidade funcional.
+I. O facto da data usada para cruzar o ""medicamento"" com a ""inscrição nos CSP"" ser a ""data de faturação"" e não e ""data de prescrição"", poderia levar a que fossem colocados no numerador medicamentos em que na data de prescrição o médico prescritor ainda não era o médico de família do utente (falsos positivos do numerador). Isso é evitado assegurando que só entram para o numerador medicamentos em que na data de faturação o utente á se encontra inscrito na unidade funcional há pelo menos 6 meses. O limiar de 6 meses está relacionado com a validade máxima das receitas. Ainda assim, existe alguma possibilidade existirem receitas que entram na faturação mais de 6 meses após a prescrição. No entanto isto só deverá ocorrer de forma significativa em ficheiros de utentes totalmente novos em que o médico herda a maioria dos utentes a de uma unidade funcional antiga, por exemplo criação de uma USF modelo A a partir de uma UCSP em que a maioria dos médicos e utentes da USF também existiam na UCSP.
+J. Para ficheiros com dimensões estáveis, em que as entradas de novos utentes servem apenas para compensar as saídas por óbito ou transferência, não existe qualquer possibilidade de existência de ""falsos positivos"" para o numerador.
+K. Valores residuais no numerador podem também decorrer do médico esporadicamente consultar utentes inscritos no próprio ficheiro, por exemplo em serviços de atendimento complementar (SAP ou afins), um UCC ou até (com menor probabilidade) noutras USF ou UCSP.
+L. A prescrição de medicamentos em ""serviços ou unidades funcionais do mesmo ACES diferentes da unidade a que pertence"" por um médico de família aos utentes inscritos no seu ficheiro ou inscritos nos ficheiros de outros médicos na unidade funcional onde trabalha coloca-o em situação de potencial conflito de interesses pois dessa prática decorre a alteração de indicadores usados para medir o desempenho da unidade funcional (por exemplo o indicador com ID=70, ""Despesa média (PVP) de medicamentos prescritos e comparticipados, por utente utilizador""), melhorando os scores e taxas de cumprimento usadas para medir o desempenho, daí podendo resultar benefícios económicos para o próprio ou para a equipa (incentivos institucionais). Eventuais processos de auditoria interna ou externa decorrentes dos outputs deste indicador devem ter em conta as possíveis excepções elencadas nos pontos anteriores bem como outras que não tenham sido previstas na data de construção do indicador.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.
+INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
+- Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.",AA / BB X 100,%,Proporção de PVP,Com dados desde Dezembro de 2016,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica,"Ano de 2022: [0; 0.01]
+Ano de 2023: [0; 0.01]
+Ano de 2024: [0; 0.01]","Ano de 2022: [0; 0.04]
+Ano de 2023: [0; 0.04]
+Ano de 2024: [0; 0.04]",Processo,Transversal,Utentes inscritos em pelo menos um dia do período em análise,5 dias,
+386,6.81.02,2017.386.01,Tempo médio resolução referenciações devolvidas,Tempo médio gasto pelos cuidados de saúde primários na resolução das referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica,Monitorizar a efetividade do processo de referenciação entre os cuidados de saúde primários (CSP) e os hospitais em particular os tempos de resposta dos CSP na resolução de referenciações devolvidas pela entidade hospitalar por falta de informação clínica ou administrativa. Ver alínea F de OBSERVAÇÕES GERAIS.,"Indicador que exprime o tempo médio gasto pelos cuidados de saúde primários na resolução das referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica.
+Numerador: Somatório do tempo que medeia entre a data de devolução ou recusa pelo hospital e a data em que os cuidados de saúde primários ""resolvem"" a referenciação devolvida.
+Denominador: Contagem de referenciações devolvidas pelo hospital por insuficiente informação administrativa ou clínica.","NUMERADOR (AA)
+Somatório do tempo que medeia entre a data de devolução ou recusa pelo hospital e a data em que os cuidados de saúde primários ""resolvem"" a referenciação devolvida, de todas as referenciações contabilizadas no denominador, medida em dias úteis, através da fórmula:
+AA = Somatório [Máximo [R2; R3] - R1 - 1 - FSem - FerNac]
+Em que:
+R1 - Data de devolução ou recusa pelo hospital;
+Máximo [R2; R3] - Valor máximo entre R2 e R3; Se R3 não existir, o máximo será R2 (ver alínea A de OBSERVAÇÕES GERAIS);
+R2 - Data em que os cuidados de saúde primários ""resolvem"" a referenciação;
+R3 - Data de nova referenciação para mesma especialidade após anulação de referenciação devolvida, desde que ocorra até 90 dias após anulação e até data de referência do indicador;
+Fsem - Número de dias de fim-de-semana existentes no intervalo [R1; Máximo [R2; R3]];
+FerNac - Número de dias de feriado nacional existentes no intervalo [R1; Máximo [R2; R3]];
+DENOMINADOR (BB)
+Contagem de referenciações em que é verdadeira a expressão [A e B e C e D]
+A. Realizada através de aplicações de suporte CTH.
+B. Realizada entre o mês N-12 e o mês N-1, sendo N o mês de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS).
+C. Realizada a utente com [
+inscrição ativa
+] na unidade de observação no final do mês de referenciação (ver alíneas C, D e E de OBSERVAÇÕES GERAIS).
+D. Devolvida pela entidade hospitalar de destino da referenciação, com data de devolução compreendida no intervalo [data de referênciação; data de referência do do indicador], por insuficiente informação administrativa ou por insuficiente informação clínica.","A. Contabiliza-se como data final da contagem de tempo, o valor máximo entre [R2 - Data em que os cuidados de saúde primários ""resolvem"" a referenciação] e [R3 - Data de nova referenciação para mesma especialidade após anulação de referenciação devolvida, desde que ocorra até 90 dias após anulação e até data de referência do indicador] por forma a evitar que o procedimento correspondente a R3 possa ser usado para melhorar o resultado deste indicador sem qualquer benefício para os utentes, maximizando assim a capacidade do mesmo para comparar unidades de observação entre si.
+B. São contabilizadas referenciações realizadas durante um período temporal de amplitude de 12 meses, com um desvio para a esquerda de um mês na reta temporal (relativamente à data de referência do indicador), por forma a se assegurar que:
+1. Se analisam no denominador as referenciações de 12 meses de atividade;
+2. O indicador incorpora nas suas regras o tempo razoável para que as referenciações efetuadas no final do período em análise possam ser ""devolvidas"" pelo hospital ainda durante o período em análise do indicador.
+C. São contabilizadas para o denominador todas as referenciações independentemente da unidade de observação que referência ser ou não a mesma da inscrição do utente.
+D. As unidades de observação possíveis para este indicador são as seguintes:
+1. [Médico de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+2. [Enfermeiro de família de inscrição de utentes] + [Unidade funcional de inscrição de utentes];
+3. [Unidade funcional de inscrição de utentes];
+4. [ACES de inscrição de utentes].
+E. As referenciações são contabilizadas para a unidade de observação onde o utente tinha [
+inscrição ativa
+] no mês da referenciação, independentemente de na data de referência do indicador, o utente estar ou não inscrito na unidade de observação.
+F. Um médico com um ficheiro de 1650 utentes, receberá em média uma devolução de 20 em 20 semanas. Sucedendo que estas ""devoluções"" ficam na própria aplicação CTH, sem que o médico seja alertado por qualquer mecanismo. Por outro lado, é sabido que os médicos executam as referenciações através do próprio SClínico e através do MedicineOne. Nenhuma destas aplicações recebe informação em feedback do Alert. Assim, para que os médicos tomem conhecimento das recusas hospitalares e consigam melhorar os tempos de resposta, terão que aceder ao CTH (Alert), em ambiente web, quase diariamente, para encontrarem uma ""recusa"" de 20 em 20 semanas. Recomenda-se assim que a SPMS desenvolva um mecanismo de interoperabilidade entre o CTH e o SClínico (e também com o MedicineOne) de forma a que os médicos possam receber as notificações de recusa nos seus sistemas de registo clínico.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 13 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, tendo início no mês N-12 e fim no mês N-1, sendo N o mês de referência do indicador.",AA / BB,dia/referenciação,Tempo médio,Em desenvolvimento,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos,"Ano de 2022: [0; 7]
+Ano de 2023: [0; 7]
+Ano de 2024: [0; 7]","Ano de 2022: [0; 10]
+Ano de 2023: [0; 10]
+Ano de 2024: [0; 10]",Processo,Transversal,Utentes inscritos em pelo menos um dia do período em análise,5 dias,
+392,8.18.01,2017.392.01,"IDS da dimensão ""melhoria cont. qualid. e PAI""","IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados""","Possibilitar o cálculo do IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados"" da subárea ""melhoria contínua da qualidade"" da matriz de contratualização das unidades funcionais dos ACES.","Dado que nesta dimensão podem ser contratualizadas um ou mais processos de melhoria contínua da qualidade, este indicador materializa o cálculo do próprio IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e Processos Assistenciais Integrados"".","Este indicador é cumprido através de:
+1 - Verificação de um processo de certificação pelo DQS/DGS ou certificação pela DIOR-CSP válido no fim do ano de contratualização.
+ou
+2 - Execução de um ou mais processos de melhoria contínua da qualidade, que se verifica pelo preenchimento anual de uma que possui um conjunto de critérios/regras para 
+    obtenção dos resultados em pontos (para este indicador) e que é validado no módulo PAUF do BI-CSP.
+PROCESSO DE MELHORIA CONTÍNUA DA QUALIDADE
+A melhoria contínua da qualidade deve ser uma prática comum em organizações que pretendem atingir um nível de qualidade organizacional de excelência.
+Para a implementar um ciclo de melhoria da qualidade este indiacdor utiliza o ciclo PDCA, que engloba:
+- Plan (Planeamento) - Fase 1, 2, 3, 4;
+- Do (Implementação) - Fase 5;
+- Check (avaliar) - Fase 6;
+- Act (ação/ajuste) - Fase 7.
+FASES DE UM PROCESSO DE MELHORIA CONTÍNUA DA QUALIDADE
+Cada ciclo de um processo de melhoria contínua da qualidade contempla as fases elencadas na tabela seguinte:
+Fase
+Nome da fase
+Descrição
+Critérios para cumprimento
+1
+Identificação
+Identificação e caracterização do ""problema"" ou ""área"" ou ""processo de cuidados"" 
+         na vertente clínica ou organizacional
+Registo com validação pelo conselho clínico e de saúde do ACES
+2
+Definição do processo e resultado esperado
+Responder à questão ""O que deve acontecer?""
+Registo com validação pelo conselho clínico e de saúde do ACES
+3
+Avaliação do desempenho atual
+Responder à questão ""O que está a acontecer?""
+Registo com validação pelo conselho clínico e de saúde do ACES
+4
+Discussão, e análise dos resultados
+Fazer a discussão, análise dos resultados e eventuais medidas corretoras.
+A 
+         proposta de melhoria deve descrever as estratégias a implementar, respetivo 
+         cronograma de implementação bem como os responsáveis pela implementação
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução da auditoria
+5
+Implementação das estratégias de melhoria
+Corresponde à implementação das estratégias identificadas na proposta de 
+         melhoria descrita na fase 4.
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução das auditorias
+6
+Reavaliação do desempenho atual
+Corresponde a responder à questão ""O que está a acontecer?""
+Esta fase é equivalente à fase 3 do 1º ciclo de auditoria, só deve ocorrer 
+         depois concluída a fase 5.
+Corresponde simultaneamente ao fecho de um ciclo e início do ciclo seguinte de 
+         auditoria
+Validação pelo conselho clínico e de saúde do ACES baseado no relatório de 
+         execução das auditorias
+7
+Repetição do ciclo a partir da fase 4
+Repetição do ciclo (fases 4, 5 e 6) até resultado esperado ou definição de 
+         indicadores, intervalos esperados e mecanismos automáticos de alerta que 
+         permitam monitorizar esse processo
+Não tem
+Cada ciclo de um processo de melhoria contínua de qualidade tem habitualmente a duração de 1 ano embora outras durações sejam aceitáveis.
+Um processo de melhoria contínua de qualidade tem habitualmente mais do que um ciclo.
+O processo pode terminar quando a equipa considerar que os níveis de qualidade atingiram os valores esperados, ou quando, no seu planeamento estratégico, considerar que existem áreas mais prioritárias para investir.
+FÓRMULA DO IDS DA DIMENSÃO
+Para calcular o IDS da dimensão ""Programas de Melhoria Contínua de Qualidade e 
+    Processos Assistenciais Integrados"" é necessário determinar sequencialmente:
+1. Quantos ciclos de melhoria contínua da qualidade foram contratualizadas nesta dimensão com a unidade 
+    funcional?
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Valor por Defeito
+Quem preenche
+392.NUM.MCQ
+Nº de ciclos de melhoria contínua da qualidade contratualizados nesta dimensão com a unidade funcional no ano 
+         de contratualização
+Valor numérico inteiro maior ou igual a 0 (zero)
+Sim
+0
+Unidade funcional
+2. A valorização dos resultados 
+    da avaliação de cada processo de melhoria contínua da qualidade (MCQ), nos termos descritos nas seções [392.AVALIA.CADA.MCQ],
+[392.FASES], 
+    [392.CHECK.Q1], [392.CHECK.Q2] e [392.CRIT], de forma a obter a seguinte matriz 
+    de valorizações de auditorias:
+ID
+Nome do Processo de MCQ
+Resultado
+Valores possíveis
+Obrigatória
+Quem preenche
+1
+MCQ 1
+A1
+{-1,0,1,2}
+Sim
+Automático
+2
+MCQ 2
+A2
+{-1,0,1,2}
+Sim
+Automático
+...
+...
+A3
+{-1,0,1,2}
+Sim
+Automático
+N = [392.NUM.MCQ]
+MCQ N
+AN
+{-1,0,1,2}
+Sim
+Automático
+3. O IDS propriamente dito através da fórmula
+IDS =
+(100 x [Somatório de resultados de valorização de MCQ entre as 
+    valorizadas com um dos seguintes: {0;1;2}])
+/
+(2 x [Contagem de MCQ entre as valorizadas com um dos seguintes: 
+    {0;1;2}])
+Nota: O documento de operacionalização da contratualização para os CSP, pode, em cada ano, definir um nº mínimo de MCQ obrigatórias.
+[392.AVALIA.CADA.MCQ]
+Cada processo de melhoria contínua da qualidade tem 4
+resultados possíveis
+, que se obtém através do preenchimento 
+    anual de uma
+checklist
+que possui um conjunto de
+critérios/regras
+para obtenção dos resultados em pontos (para este 
+    indicador).
+[392.CHECK.Q1]
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se as variáveis que é necessário recolher para perceber se esta 
+    dimensão foi contratualizada e se estamos a avaliar o 1º ciclo de implementação 
+    ou ciclos seguintes:
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Valor por Defeito
+Quem preenche
+392.IDENT.MCQ
+Título do processo de melhoria contínua da qualidade
+Texto livre
+Sim
+Unidade funcional
+392.CONTR
+A unidade funcional contratualizou a implementação deste processo de melhoria contínua da qualidade?
+S - Sim
+N - Não
+Sim
+S
+Unidade funcional
+392.ACREDITA
+A unidade funcional concluiu o ano de contratualização com certificação pela DQS/DGS válida (plataforma @credita)?
+S - Sim
+N - Não
+Sim
+N
+Unidade funcional
+392.DIOR
+A unidade funcional concluiu o ano de contratualização com certificação pela DIOR-CSP válida (plataforma E-qualidade)?
+S - Sim
+N - Não
+Sim
+N
+Unidade Funcional
+392.CICLO
+Nº ciclos de melhoria contínua da qualidade nesta área [392.IDENT.AUD] já iniciados pela unidade funcional
+Valor numérico inteiro maior ou igual a 1
+Sim
+1
+Unidade funcional
+392.DATA.FIM
+Data em que está previsto terminar a fase 6 do atual ciclo de melhoria contínua 
+         relacionado com [392.IDENT.AUD]
+Data no formato dd-mm-yyyy.
+Deve pertencer ao ano de contratualização 
+         (mas pode pertencer ao seguinte).
+Caso pertença ao próprio ano, e a uma data passada, é obrigatoriamente igual a 
+         [392.DATA.F6].
+Sim
+Último dia do ano de contratualização
+Unidade funcional
+392.CALC.INDIC
+Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+         os indicadores
+Data no formato dd-mm-yyyy.
+Sim
+--
+Automático
+[392.CHECK.Q2]
+CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO
+Definem-se de seguida as variáveis que é necessário recolher em associação a cada uma das 
+    fases, para que seja possível produzir resultados de avaliação do cumprimento do 
+    processo de melhoria contínua:
+Fase
+Nome da fase
+Código da Variável
+Nome da Variável
+Valores possíveis para a variável
+Obrigatória
+Upload de evidências
+Quem preenche
+1
+Identificação
+392.DATA.F1
+Data de início de implementação do processo de melhoria contínua da qualidade
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+1
+Identificação
+392.CUMPRE.F1
+Cumpriu fase 1 ciclo de melhoria contínua de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+2
+Definição do processo e resultado esperado
+392.DATA.F2
+Data de execução da fase 2 do ciclo de melhoria contínua da qualidade.
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+2
+Definição do processo e resultado esperado
+392.CUMPRE.F2
+Cumpriu fase 2 do 1º ciclo de melhoria contínua 
+         de qualidade [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+3
+Avaliação do desempenho atual
+392.DATA.F3
+Data de execução da fase 3 do ciclo de melhoria contínua de qualidade
+Data no formato dd-mm-yyyy.
+Pode ser uma data de anos anteriores ao da contratualização já que as auditorias 
+         sobre o mesmo tema podem repetir-se
+Não
+Não
+Unidade funcional
+3
+Avaliação do desempenho atual
+392.CUMPRE.F3
+Cumpriu fase 3 do ciclo de melhoria contínua de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+4
+Discussão, e análise dos resultados
+392.DATA.F4
+Data de execução da fase 4 do ciclo de melhoria contínua da qualidade.
+Data no formato dd-mm-yyyy.
+Não
+Não
+Unidade funcional
+4
+Discussão, e análise dos resultados
+392.CUMPRE.F4
+Cumpriu fase 4 do último ciclo de melhoria contínua de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa com discussão 
+         de estratégias)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.F5.M.INI
+Primeiro mês do ano de contratualização em que está prevista a implementação de estratégias de melhoria contínua de qualidade de [392.IDENT.MCQ]
+Mês no formato mm-yyyy
+Não aceitar introdução de valores que não pertençam ao ano de contratualização.
+Não
+Não
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.F5.M.FIM
+Último mês do ano de contratualização (ou do  período em análise quando se está a avaliar antes do final do ano) em que está prevista a implementação de estratégias de melhoria da qualidade
+Mês no formato mm-yyyy.
+Na avaliação de dezembro, não aceitar introdução de valores que não pertençam ao ano de contratualização.
+Nas avaliações do 1º, 2º e 3º trimestres, não aceitar valores que ultrapassem o 
+         último mês do trimestre a avaliar.
+392.F5.M.FIM deve ser maior ou igual a 392.F5.M.INI
+Não
+Não
+Unidade funcional
+5
+Implementação de estratégias de melhoria
+392.CUMPRE.F5
+Percentagem das estratégias já implementadas entre as descritas na fase 4 (com 
+         cronograma de implementação previsto para o ano de contratualização)
+Valor numérico inteiro entre 0 e 100 que corresponde à percentagem das 
+         estratégias já implementadas entre as descritas na fase 4.
+Devem ser incluídas no denominador também as estratégias/atividades que no 
+         cronograma se estendem para além do último dia do período em analise. Nessas, 
+         deverá ser avaliado no numerador se se cumpriu ou não o que estava previsto para 
+         o período de tempo em avaliação, tendo em atenção que o período de tempo em 
+         avaliação se inicia sempre em janeiro e termina no último mês do trimestre de 
+         referência.
+Fórmula:
+V.392.11 = 100 x [Nº de estratégias implementadas durante o ano de 
+         contratualização entre as elegíveis para o denominador desta fórmula] / [Nº de 
+         estratégias previstas na fase 4 do ciclo de melhoria com datas de implementação 
+         previstas para os meses compreendidos entre 392.F5.M.INI e 392.F5.M.FIM]
+Sim
+Sim
+Unidade funcional
+6
+Reavaliação do desempenho atual
+392.DATA.F6
+Data de execução da fase 6 do ciclo de melhoria contínua de qualidade
+Data no formato dd-mm-yyyy.
+Não
+Não
+Unidade funcional
+6
+Reavaliação do desempenho atual
+392.CUMPRE.F6
+Cumpriu fase 6 do último ciclo de melhoria contínua contínua de qualidade de qualidade de [392.IDENT.MCQ]?
+C - Cumpre (existe relatório e evidência de apresentação à equipa com discussão 
+         de estratégias)
+NC - Não cumpre
+Sim
+Sim
+Unidade funcional
+[392.CRIT]
+CRITÉRIOS PARA AVALIAÇÃO DA CHECKLIST PARA ATRIBUIÇÃO DE 0, 1 OU 2 PONTOS A CADA 
+    AUDITORIA
+O resultado 
+    da avaliação do processo de melhoria da qualidade é definido pelas condições seguintes:
+Critério
+Significado
+Resultado
+A unidade funcional 
+         encontra-se acreditada ou implementou o processo de auditoria interna com cumprimento cumulativo, durante o ano de 
+         contratualização, das fases 4, 5 e 6, ou seja se a condição [(A e B e C e D e E e ((F 
+         e G) ou H)) ou I ou J] for verdadeira:
+A. [392.CONTR] = ""S""
+B. [392.CICLO] >= 1
+C. [392.DATA.F4] pertence ao ano de contratualização;
+D. [392.CUMPRE.F4] = ""C"";
+E. [392.CUMPRE.F5] = 100;
+F. [392.DATA.F6] pertence ao ano de contratualização;
+G. [392.CUMPRE.F6] = ""C"";
+H. [392.DATA.FIM] > [Data fim do período em análise];
+I. [392.ACREDITA] = ""S"";
+J.[392.DIOR] = ""S""
+A unidade funcional realizou todo o processo de melhoria contínua da qualidade, chegando à fase 
+         de introdução de estratégias de melhoria e avaliação do impacto das mesmas.
+Obtém 2 pontos como resultado no indicador (score)
+2
+Não cumpre critérios para ter ""2 pontos"" e a condição [(A e B e C e D e E e F e G e H e J) ou (K e L e M e N e O e P)] é verdadeira:
+A. [392.CONTR] = ""S""
+B. [392.CICLO] = 1
+C. [392.DATA.F1] pertence ao ano de contratualização;
+D. [392.CUMPRE.F1] = ""C"";
+E. [392.DATA.F2] pertence ao ano de contratualização;
+F. [392.CUMPRE.F2] = ""C"";
+G. [392.DATA.F3] pertence ao ano de contratualização;
+H. [392.CUMPRE.F3] = ""C"";
+I. [392.DATA.F4] pertence ao ano de contratualização;
+J. [392.CUMPRE.F4] = ""C"";
+K. [392.CONTR] = ""S""
+L. [392.CICLO] >= 1
+M. [392.DATA.F3] pertence a anos anteriores ao da contratualização;
+N. [392.DATA.F4] pertence ao ano de contratualização;
+O. [392.CUMPRE.F4] = ""C"";
+P. [392.CUMPRE.F5] >= 50;
+A unidade funcional realizou parte do ciclo de melhoria contínua de 
+         qualidade, chegando à fase de ""Avaliação do desempenho atual"" (fase 3)
+Obtém 1 ponto como resultado no indicador (score)
+1
+A condição [A e B] é verdadeira:
+A. Não cumpre critérios para ter 2 pontos;
+B. Não cumpre critérios para ter 1 ponto;
+A unidade funcional ou não realizou qualquer fase do ciclo de melhoria contínua 
+         ou realizou mas não chegou a discutir o ""estado atual""
+0
+CERTIFICAÇÃO PELO DQS/DGS
+Corresponde ao Modelo de Certificação de Unidades de Saúde do Ministério da Saúde português. O processo de certificação é conduzido pelo Departamento da Qualidade na Saúde (DQS) da Direção-Geral da Saúde (DGS), e tem como marco de referência a Estratégia Nacional para a Qualidade na Saúde e os procedimentos documentados em vigor no DQS. Tem validade de 5 anos e é apoiado pela plataforma @credita. Para mais informações:
+https://acredita.dgs.pt/
+CERTIFICAÇÃO PELO DIOR-CSP
+Corresponde à certificação a modelo B pela ERA e  ou CCS da respectiva região de saúde ou ACES. É realizada com o apoio da plataforma E-qualidade e tem a validade 2 anos.","Descrevem-se sucessivamente regras, condições ou funcionalidades associadas ao 
+    instrumento de recolha de dados necessários ao cálculo deste indicador:
+COD
+Regra /
+     Condição
+Descrição
+C01
+Intervalo esperado e intervalo de variação aceitável
+Uma vez que este indicador já incorpora as regras de calculo do IDS da dimensão não é necessário definir nem o 
+    intervalo esperado nem o intervalo de variação aceitável.
+Quando o resultado do indicador for nulo (não calculado), tal significa que não estão reunidas as 
+    condições para calcular o IDS pelo que a ponderação da dimensão na subárea 
+    é distribuída pelas restantes dimensões da mesma subárea, tal como definido na 
+    legislação aplicável ao cálculo do IDG.
+C02
+IDS da dimensão ""qualidade organizacional - processos assistenciais integrados""
+O [IDS da dimensão ""qualidade organizacional - processos assistenciais integrados""] é diretamente 
+    obtido a partir do resultado do indicador sem aplicação de qualquer fórmula.
+C03
+Periodicidade de registo nos formulários do BI-CSP
+Esta informação estará disponível para preenchimento acumulado por trimestres ao 
+    longo do ano de acordo com o cronograma expresso na tabela seguinte:
+Trimestres do ano de contratualização em análise
+Cronograma de preenchimento da informação pelas UF e de validação pelos ACES no 
+         BI-CSP*
+Objetivo do preenchimento
+Validação pelo CCS do ACES
+Aplica-se ao IDG dos meses
+1º
+1 de abril a 30 de junho do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Março, abril e maio do ano de contratualização
+1º e 2º
+1 de julho a 30 de setembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Junho, julho e agosto do ano de contratualização
+1º, 2º e 3º
+1 de outubro a 31 de dezembro do ano de contratualização*
+Acompanhamento do processo de contratualização
+Recomendada mas opcional
+Setembro, outubro e novembro do ano de contratualização
+1º, 2º, 3º e 4º
+1 de janeiro a 31 de março do ano seguinte ao da contratualização*
+Avaliação final do processo de contratualização
+Obrigatória
+Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da 
+         contratualização
+* Cada ACES deverá gerir com as respetivas unidades funcionais, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade do ACES conseguir validar todos os formulários das respetivas unidades funcionais, no máximo, até ao último dia do prazo definido. Assim, compete a cada ACES definir prazos internos para o preenchimento da plataforma pelas respetivas unidades funcionais.
+C04
+Validação pelo ACES
+1. O estado de validação pelo ACES, pode assumir 4 valores:
+a) Não preenchido;
+b) Não validado pelo ACES;
+c) Validado pelo ACES;
+d) O ACES informa que não contratualizou a dimensão;
+2. O ACES deve ""validar"" ou ""não validar"" especificamente:
+- Todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO - Q1, 
+    registadas pela unidade funcional
+- Todas as variáveis da CHECKLIST DE RECOLHA DE DADOS PARA AVALIAÇÃO - Q2, 
+    registadas pela unidade funcional
+3. A ""validação"" ou ""não validação"" pode ser feita com uma única operação, desde que exista uma mensagem 
+    que, de forma explícita, dê a indicação sobre os itens referidos no ponto 2.
+4. O presente indicador é calculado para efeitos de acompanhamento entre janeiro 
+    e dezembro de cada ano de contratualização, mesmo sem a ""validação"" ou ""não validação"" do ACES. A 
+    ""validação"" do ACES é, no entanto, imprescindível para que a informação seja 
+    considerada para o relatório de atividades da unidade funcional, para o IDS da dimensão respetiva da matriz de contratualização e para o IDG.
+5. Quando o ACES preenche o campo de validação, o formulário fica bloqueado para edição pela unidade funcional. Para permitir que a unidade funcional corrija informações de um formulário 
+    com o estado de validação já preenchido pelo ACES, este último deverá ""desbloquear"" a edição do formulário pela unidade funcional.
+6. Caso o estado definido pelo ACES seja ""não validado"", o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero), mesmo que o resultado calculado na plataforma de introdução de dados seja superior. 
+	Para que o resultado decorrente da informação introduzida pela unidade funcional seja considerado para o cálculo do IDG, os parâmetros ""não validados"" pelo ACES deverão ser corrigidos pela Unidade Funcional, de forma a que o ACES possa ""validar"" a informação contida no formulário de introdução de dados.
+7. Até à contratualização referente ao ano de 2021, quando o ACES regista que ""não contratualizou"" a dimensão, a respetiva ponderação é distribuída pelas dimensões restantes do IDG. A partir do ano de 2022, o IDS da dimensão respetiva utilizado para o cálculo do IDG será 0 (zero).
+8. A tabela seguinte resume as consequências do estado do campo ""validação"" em função do ""mês de cálculo do IDG"", e quando o mês for ""dezembro"", em função da data de cálculo do próprio IDG de dezembro.
+Estado de Preenchimento da Validação
+De janeiro a novembro do ano de contratualização
+Dezembro do ano de contratualização, calculado antes de 1 de abril do ano seguinte 
+             ao da contratualização
+Dezembro do ano de contratualização, calculado em data igual ou superior a 1 de abril do ano seguinte ao da contratualização
+Validade da regra
+Não preenchido
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador, caso exista, é usado para o IDG. Caso não exista, a ponderação da dimensão é distribuída pelas restantes.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Não validado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: --
+FIM: --
+Validado
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
+INI: --
+FIM: --
+Não contratualizado
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+O resultado do indicador não é usado para o IDG e a ponderação da dimensão é distribuída pelas restantes.
+INI: --
+FIM: 2021
+Não contratualizado
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
+INI: 2022
+FIM: --","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O resultado do indicador é recolhido mensalmente a partir do PAUF - módulo de acomapnahmento com o valor que lá esteja calculado em função de dados introduzidos pelas equipas e validado pela CCS.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS.",Aplicação de checklist,Score,Com dados desde Dezembro de 2017,,Qualidade Organizacional | Melhoria Contínua | Prog. Melh. Contínua Qual. e Proc. Assist. Integr.,---,---,Processo,Não aplicável,Não aplicável,30 dias,
+437,6.90.01,2021.437.01,"Proporção asma >= 18A, c/ cons. vigil. asma 1A","Proporção de utentes com asma e idade igual ou superior a 18 anos, a quem foi realizada consulta de vigilância de asma no último ano","Monitorizar o programa doenças respiratórias. Parâmetro ""consulta de vigilância de asma em adultos"".","Indicador que exprime a proporção de utentes com asma e idade igual ou superior a 18 anos com consulta de vigilância de asma (médica ou de enfermagem) registada no último ano.
+Numerador: Contagem de utentes inscritos, com asma, com idade igual ou superior a 18 anos, que têm consulta de vigilância de asma (médica ou de enfermagem) registada no último ano.
+Denominador: Contagem de utentes inscritos, com asma, com idade igual ou superior a 18 anos.","NUMERADOR (AA):
+Contagem de utentes em que a expressão [A e (B ou C)] é verdadeira:
+A. Todas as condições enunciadas para o denominador.
+B. Ter pelo menos 1 consulta médica de vigilância da asma, nos 12 meses que antecedem a data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+C. Ter pelo menos 1 consulta de enfermagem de vigilância da asma, nos 12 meses que antecedem a data de referência do indicador (ver alínea B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A e B e C] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Ter idade igual ou superior a 18 anos (medida na data de referência do indicador).
+C. Na data de referência do indicador, o diagnóstico de asma (rubrica da ICPC-2 R96) encontra-se na lista de problemas, com o estado de ""ativo"".","A. Para se contabilizar uma [Consulta Médica de Vigilância] de doente com asma, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C003
+| Consulta médica de vigilância - SClínico
+-
+C009
+| Consulta médica de vigilância - MedicineOne
+Nota: Nas normas
+C003
+e
+C009
+, o código ICPC-2 específico de asma, que pode ser usado para a classificar como ""problema de saúde da consulta"" é o R96.
+B. Para se considerar uma [Consulta de Enfermagem de Vigilância] de doente com asma, é necessária a existência de registos compatíveis com um dos seguintes conceitos de [consulta]:
+-
+C006.10
+| Consulta de enfermagem de vigilância relacionada com doenças respiratórias - [SClínico (Perfil Enfermagem)]
+-
+C012
+| Consulta de enfermagem de vigilância - MedicineOne
+Nota 1: Os códigos CIPE de [diagnóstico de enfermagem] nem de [intervenção de enfermagem] específicos de vigilância em doenças respiratórias estão disponíveis
+aqui
+. [Consulta médica presencial - SClínico]. Adicionalmente, para que a consulta de enfermagem seja classificada como de ""vigilância de asma"", o enfermeiro que regista a consulta deverá associá-la, no SClínico, ao programa ""	P.N. Doenças Respiratórias"", tal como especificado
+aqui
+Nota 2: Na norma
+C012
+, o código ICPC-2 específico de asma, que pode ser usado para a classificar como ""problema de saúde da consulta"", nas consultas de enfermagem registadas no software MedicineOne, é o R96.","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador (variáveis ""consulta médica"" e ""consulta de enfermagem""): Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador (variável ""asma na lista de problemas""): Coincidente com a data de referência do indicador.
+- Denominador (variável ""idade""): na data de referência do indicador, tem [18, +INF[ anos.",AA / BB x 100,%,Proporção de utentes,Com dados desde Dezembro de 2020,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório,"Ano de 2023: [49; 100]
+Ano de 2024: [49; 100]","Ano de 2023: [35; 100]
+Ano de 2024: [35; 100]",Processo,Respiratório,Utentes inscritos à data de referência do indicador,5 dias,"MEDICINEONE:
+A. O diagnóstico de asma pode estar inserido quer na [lista de problemas] quer na [lista de outros problemas]. O diagnóstico necessita estar classificado como ""ativo"" e não ter sido classificado como ""inválido""."

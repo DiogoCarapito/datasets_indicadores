@@ -13,7 +13,8 @@ from scripts.sdm_scrapper import scrapper
 
 
 def main():
-    scrapper(begin=1, end=476)
+    #scrapper(begin=1, end=476)
+    scrapper(begin=1, end=2)
 
 
 if __name__ == "__main__":
