@@ -3,6 +3,7 @@ Master script to run the project.
 """
 
 # import toml
+import click
 from scripts.sdm_scrapper import scrapper
 
 # with open("variaveis.toml", "r", encoding="utf-8") as file:
@@ -12,9 +13,14 @@ from scripts.sdm_scrapper import scrapper
 # url_contratualizacao = config["url_pdf_contratualizacao"]
 
 
-def main():
-    #scrapper(begin=1, end=476)
-    scrapper(begin=1, end=2)
+@click.command()
+@click.option("--begin", default=1, help="Initial ID to start scraping")
+@click.option("--end", default=476, help="Final ID to stop scraping")
+def main(begin, end):
+    scrapper(begin=begin, end=end)
+    #scrapper(begin=1, end=2)
+
+    return None
 
 
 if __name__ == "__main__":

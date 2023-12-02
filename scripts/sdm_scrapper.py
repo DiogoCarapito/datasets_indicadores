@@ -54,7 +54,8 @@ def scrapper(begin=1, end=477):
             save_txt(indicador=each, df=df)
 
     # save all small csv files into one big csv file
-    big_csv()
+    
+    #big_csv()
 
     # save all small json files into one big json file
     #big_json()

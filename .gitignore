@@ -165,3 +165,7 @@ cython_debug/
 #temporary
 datasets/indicadores_em_txt
 old_scripts/
+
+datasets/indicadores_em_txt
+datasets/indicadores_em_csv
+datasets/indicadores_em_json

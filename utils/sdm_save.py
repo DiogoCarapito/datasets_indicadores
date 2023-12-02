@@ -21,6 +21,10 @@ def save_json(indicador,df):
     print(f"{indicador} .json saved!")
 
 def save_txt(indicador,df):
+    # remove previous txt files
+    if os.path.exists(f"datasets/indicadores_em_txt/sdm_{indicador}.txt"):
+        os.remove(f"datasets/indicadores_em_txt/sdm_{indicador}.txt")
+        
     # save as txt wiht utf-8 encoding
     for header, text in df.itertuples(index=True):
         with open(f"datasets/indicadores_em_txt/sdm_{indicador}.txt", "a", encoding="utf-8") as f:
