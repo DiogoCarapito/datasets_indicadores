@@ -1,7 +1,14 @@
 # Variaveis para serem usadas nos scripts
 # Podem ser actualizadas a qualquer momento
 
-# CONTRATUALIZACAO
+# PORTRIA n.º 411-A/2023
+url_portaria_411a_2023 = "https://files.diariodarepublica.pt/1s/2023/12/23401/0000200011.pdf"
+#url_portaria_411a_2023 = "https://www.simedicos.pt/fotos/editor2/ficheiros/2023_12_05_Portaria_411_A_2023_Regula_o_IDE_das_USF.pdf"
+pagina_inicial_portaria_411a_2023 = 7
+pagina_final_portaria_411a_2023 = 8
+
+
+# CONTRATUALIZACAO 2023
 # URL para o ficheiro PDF da contratualizacao dos CSP 2023
 url_pdf_contratualizacao = "https://www.acss.min-saude.pt/wp-content/uploads/2016/10/Operacionalizacao_CSP_2023_VF.pdf"
 
