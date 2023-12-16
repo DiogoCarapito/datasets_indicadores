@@ -21,5 +21,5 @@ def main(begin, end):
     # scrapper(begin=1, end=476)
 
 
-# if __name__ == "__main__":
-#    main()
+#if __name__ == "__main__":
+#    cli()

@@ -1,6 +1,6 @@
 import sys
 import toml
-import streamlit as st
+
 
 # adicionar o path para a poder usar a pasta do projeto
 sys.path.append("./")
@@ -32,19 +32,7 @@ def main():
 
     #save the dataframe as csv in datasets folder
     df_processed.to_csv("./datasets/portaria_411a_2023.csv", index=False)
-    
-    st.set_page_config(
-        page_title="Portaria 411-A/2023", page_icon=":memo:", layout="wide"
-    )
-    
-    st.title("Portaria 411-A/2023")
-    
-    col_1, col_2 = st.columns(2)
-    with col_1:
-        st.table(df)
 
-    with col_2:
-        st.table(df_processed)
-
+    
 if __name__ == "__main__":
     main()

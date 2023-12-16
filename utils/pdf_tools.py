@@ -4,6 +4,25 @@ import tempfile
 import pandas as pd
 
 
+def intervalo_esperado_portaria_parse(df):
+    #intervalo minimois between a [ and a ;
+    df["min_esperado"] = df["Intervalo esperado"].str.extract(r"\[(.*?);")
+    
+    #intervalo maximo is between a ; and a ]
+    df["max_esperado"] = df["Intervalo esperado"].str.extract(r";(.*?)\]")
+    
+    return df
+
+def intervalo_aceitavel_portaria_parse(df):
+    #intervalo minimois between a [ and a ;
+    df["min_aceitavel"] = df["Intervalo aceitável"].str.extract(r"\[(.*?);")
+    
+    # ge the sencond part of the string after the U
+    df["max_aceitavel"] = df["Intervalo aceitável"].str.split("U").str[1]
+    df["max_aceitavel"] = df["max_aceitavel"].str.extract(r"\;(.*?)]")
+    
+    return df
+
 def download_and_extract_table(url, pages):
     """
     Função para extrair tabelas de um documento pdf e juntar num dataframe
@@ -60,5 +79,23 @@ def process_portaria_411a_2023(df):
     
     # remove all lines that have <NA>
     df.dropna(axis=0, inplace=True)
+    
+    # adicionar uma linha que não foi lida automaticamente
+    df.loc[41] = ["Gestão da Doença", "261", "Utentes com avaliação do risco de úlcera de pé", "1,5", "[87;100]", "[70;87[U]100;100]"]
+    
+    # remove " caracter from "Ponderação" column
+    df["Ponderação"] = df["Ponderação"].str.replace('"', '')
+    
+    # extract the min and max values from "intervalos" into 4 new columns
+    df = intervalo_esperado_portaria_parse(df)
+    df = intervalo_aceitavel_portaria_parse(df)
+
+    # substitute , to . so it can be converted to float in ponderacao and intervalo_esperado_minimo, intervalo_esperado_maximo, intervalo_aceitavel_minimo, intervalo_aceitavel_maximo
+    df["Ponderação"] = df["Ponderação"].str.replace(",", ".")
+    df["min_esperado"] = df["min_esperado"].str.replace(",", ".")
+    df["max_esperado"] = df["max_esperado"].str.replace(",", ".")
+    df["min_aceitavel"] = df["min_aceitavel"].str.replace(",", ".")
+    df["max_aceitavel"] = df["max_aceitavel"].str.replace(",", ".")
+        
     
     return df
