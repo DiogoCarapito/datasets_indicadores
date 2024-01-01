@@ -2,8 +2,9 @@ titulo,texto
 ID,389
 Código,8.15.01
 Código SIARS,2017.389.01
-Nome abreviado,"Score dimensão ""serviços de caráter assistencial"""
-Designação,"Score para avaliação da dimensão ""serviços de caráter assistencial"""
+Nome abreviado,"Score dimensão ""serviços de caráter assistencial""
+Designação
+Score para avaliação da dimensão ""serviços de caráter assistencial"""
 Objetivo,"Possibilitar a avaliação da dimensão ""serviços de caráter assistencial"" da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de atividade assistencial em serviços comuns do ACES."
 Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de cumprimento do compromisso assumido por cada equipa para a prestação de atividade assistencial em ""serviços comuns do ACES"".
 As regras de medição deste ""grau de cumprimento"" são definidas anualmente desde o ano de 2017 e encontram-se plasmadas nos documentos de ""operacionalização dos termos de referência para a contratualização"", sendo transpostas para ""bilhete de identidade de indicador"", para que possa ser operacionalizado o respetivo cálculo de forma automática."
@@ -463,10 +464,8 @@ Uma vez que o mais frequente será não existirem faltas a serviços previamente
     efetivamente não ocorreram faltas"" e ""0 faltas simplesmente porque ainda não 
     foram registadas"".
 Assim, o sistema de recolha deverá ter uma combobox com as 12 possibilidades 
-    seguintes:
-Código
-Designação
-1
+    seguintes:"
+Designação,"1
 Todas as faltas referentes a janeiro do ano de contratualização foram registadas
 2
 Todas as faltas referentes ao período compreendido entre janeiro e fevereiro do 

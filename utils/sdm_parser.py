@@ -87,12 +87,17 @@ def header_location_dictionary(parsed_list):
     # url
     list_of_headers = config["sdm_headers"]
 
+    # reverse de order of the list_of_headers
+    # list_of_headers.reverse()
+
     header_location = {}
 
     # function to find the location of the header in the list
     def find_header(header):
         try:
-            return parsed_list.index(header)
+            # return parsed_list.index(header)
+            indices = [i for i, x in enumerate(parsed_list) if x == header]
+            return max(indices)
         except ValueError:
             return None
 
@@ -103,17 +108,14 @@ def header_location_dictionary(parsed_list):
         # create a dict with the header and the location of the text in the list
         header_location[each] = find_header(each)
 
+    # if there is more than one header with the same name, remove all but the largest location
+
+    # for key, value in header_location.items():
+    # print(f"{key} - {value}")
+
     return header_location
 
-    # append header_location into a csv file for future reference
-    # each header is a column's name and the value is the location of the text in the list
-    # create a id columnm with the id of the indicator
-    # with open("sdm/header_location.csv", "w", encoding="utf-8") as file:
-    #    for key, value in header_location.items():
-    #        file.write(f"{key},{value}\n")
 
-
-# def dataframe_creation(header_location, parsed_content):
 def dataframe_creation(parsed_content):
     # the text is after it's header and before the next header
     return parsed_content
@@ -220,6 +222,13 @@ def list_to_csv(parsed_content, header_map):
     lista_correspondencias = correcoes_correspondencias(lista_correspondencias)
 
     df = final_cleaning(lista_correspondencias)
+
+    # remove non numeric characters
+    df.iloc[0, 1] = re.sub("[^0-9]", "", df.iloc[0, 1])
+    # change the ID to int
+    df.iloc[0, 1] = int(df.iloc[0, 1])
+
+    print(df.iloc[0, 1])
 
     return df
 

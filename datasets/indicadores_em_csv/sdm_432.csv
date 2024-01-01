@@ -2,8 +2,9 @@ titulo,texto
 ID,432
 Código,6.87.01
 Código SIARS,2019.432.01
-Nome abreviado,Prop. comunid. educ. c/ mais conhec. alimentação
-Designação,Proporção comunidades educativas com melhoria no conhecimento sobre padrão alimentar
+Nome abreviado,"Prop. comunid. educ. c/ mais conhec. alimentação
+Designação
+Proporção comunidades educativas com melhoria no conhecimento sobre padrão alimentar"
 Objetivo,"Avaliar a efetividade da intervenção das UCC na melhoria do conhecimento sobre padrão alimentar, nas comunidades educativas (alunos, docentes, encarregados de educação e não docentes)."
 Descrição do Indicador,"Exprime os ganhos obtidos em conhecimento sobre padrão alimentar, nas comunidades educativas.
 Numerador: Contagem de turmas com intervenção no âmbito da alimentação saudável, com melhoria no conhecimento da comunidade educativa sobre padrão alimentar.
@@ -29,10 +30,8 @@ B. O Conselho Clínico e de Saúde do ACES tem a responsabilidade de garantir qu
 C. As UCC devem manter atualizado o registo das turmas do parque escolar contratualizadas em cada ano, mantendo ativas em cada mês as que pertençam ao ""ano letivo"" em curso. Apesar de o ano letivo se iniciar a 1 de setembro de cada ano e termina a 31 de agosto do ano seguinte, para efeitos deste indicador, são consideradas todas as turmas ativas pelo menos um dia no período em análise (mesmo que pertencentes a anos letivos diferentes).
 D. A avaliação do conhecimento da comunidade educativa sobre padrão alimentar é 
     efetuado através da intervenção ""Avaliar conhecimento da comunidade sobre padrão alimentar"" (9004355). Em função do resultado desta intervenção, são elegíveis os 
-    seguintes três grupos de status diagnósticos:
-Código
-Designação
-Valorização do
+    seguintes três grupos de status diagnósticos:"
+Designação,"Valorização do
 conhecimento
 Aplicável ao Numerador?
 Aplicável ao denominador?

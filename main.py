@@ -15,7 +15,7 @@ from scripts.sdm_scrapper import scrapper
 
 @click.command()
 @click.option("--begin", default=1, help="Initial ID to start scraping")
-@click.option("--end", default=10, help="Final ID to stop scraping")
+@click.option("--end", default=481, help="Final ID to stop scraping")
 def main(begin, end):
     scrapper(begin=begin, end=end)
     # scrapper(begin=1, end=476)

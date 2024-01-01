@@ -2,8 +2,9 @@ titulo,texto
 ID,431
 Código,6.86.01
 Código SIARS,2019.431.01
-Nome abreviado,Prop. comunid. educat. c/ mais conhec. saúde oral
-Designação,Proporção comunidades educativas com melhoria no conhecimento sobre saúde oral
+Nome abreviado,"Prop. comunid. educat. c/ mais conhec. saúde oral
+Designação
+Proporção comunidades educativas com melhoria no conhecimento sobre saúde oral"
 Objetivo,"Avaliar a efetividade da intervenção das UCC na melhoria do conhecimento em saúde oral, nas comunidades educativas (alunos, docentes, encarregados de educação e não docentes)."
 Descrição do Indicador,"Exprime os ganhos obtidos em conhecimento sobre saúde oral, nas comunidades educativas.
 Numerador: Contagem de turmas com intervenção no âmbito da saúde oral, com melhoria no conhecimento da comunidade educativa sobre saúde oral.
@@ -41,10 +42,8 @@ C. As UCC devem manter atualizado o registo das turmas do parque escolar contrat
 D. A avaliação do conhecimento da comunidade educativa sobre saúde oral é 
     efetuado através da intervenção ""Avaliar conhecimento da comunidade sobre saúde 
     oral"" (9004248). Em função do resultado desta intervenção, são elegíveis os 
-    seguintes três grupos de status diagnósticos:
-Código
-Designação
-Valorização do
+    seguintes três grupos de status diagnósticos:"
+Designação,"Valorização do
 conhecimento
 Aplicável ao Numerador?
 Aplicável ao denominador?

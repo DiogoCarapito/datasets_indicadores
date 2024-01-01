@@ -34,13 +34,20 @@ for file in csv_files:
 
         # append the temp_df DataFrame to the main df DataFrame
         df = pd.concat([df, temp_df], ignore_index=False, join="outer")
-    except KeyError:
-        print(f"Erro. ID: {file}")
+
+    except pd.errors.InvalidIndexError as e:
+        print(f"Erro. ID: {file} - {e}")
 
 
-# sort the columns by ID column
-df.set_index("ID", inplace=True)
-df.sort_values("ID", inplace=True)
+# Change column ID to id
+df.rename(columns={"ID": "id"}, inplace=True)
+
+# make id as integer
+df["id"] = df["id"].astype(int)
+
+# sort the columns by id column
+df.set_index("id", inplace=True)
+df.sort_values("id", inplace=True)
 
 
 # save the dataframe as csv in datasets folder

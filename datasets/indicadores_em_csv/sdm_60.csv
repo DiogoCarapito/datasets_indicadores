@@ -1,5 +1,5 @@
 titulo,texto
-ID,060
+ID,60
 Código,6.32.01
 Código SIARS,2013.060.01
 Nome abreviado,"Proporção crianças 2 anos, c/ acompanham. adequado"
@@ -24,7 +24,7 @@ Contagem de utentes em que a expressão [A e B e C e D e E e F] é verdadeira:
 A. Todas as condições enunciadas para o denominador;
 B. Ter pelo menos 3 consultas médicas de vigilância (contacto direto) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas A, B, C e P de OBSERVAÇÕES GERAIS.
 C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida ([330, 700[ dias). Ver alíneas C, E e F de OBSERVAÇÕES GERAIS.
-D. Com o PNV totalmente cumprido às zero horas do dia em que completam 2 anos de vida (ver alíneas D, H, I, J e K de OBSERVAÇÕES GERAIS).
+D. Com o PNV totalmente cumprido às zero horas do dia em que completam 2 anos de vida (ver alínea D, H, I, J e K de OBSERVAÇÕES GERAIS).
 E. Têm pelo menos 3 registos de peso com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
 F. Têm pelo menos 3 registos de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [330, 700[ dias (ver alíneas L, M, N e O de OBSERVAÇÕES GERAIS).
 DENOMINADOR (BB):
@@ -64,9 +64,8 @@ C012
 H. São incluídos no numerador, as crianças que à data de referência do indicador, tenham registos de inoculações de vacinas que permitam afirmar que às zero horas do dia em que completam 2 anos de idade, tinham o PNV totalmente cumprido pelo [esquema cronológico recomendado] ou pelo [esquema cronológico de recurso] adaptado à idade. Assim, as datas de inoculação devem ser anteriores à data do 2º aniversário de cada criança, mas as datas de registo podem ir até à data de referência do indicador.
 I. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
 J. Quando uma criança tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se uma criança tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
-K. Uma criança é incluída no numerador se a condição [(AA ou QQ) e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK) e (LL ou MM) e (NN ou OO ou PP)] for verdadeira:
-AA. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 2º aniversário).
-QQ. data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
+K. Uma criança é incluída no numerador se a condição [AA e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK) e (LL ou MM) e (NN ou OO ou PP) e (QQ ou RR ou SS)] for verdadeira:
+AA. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 2º aniversário). Esta regra deixa de ser aplicável para indicadores com data de referência igual ou superior a maio de 2015, por rotura de stock nacional da BCG a partir desse mês, e desde junho de 2016 a inoculaão da BCG deixa de ser universal (norma 006/2016 da DGS).
 BB. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
 [HEPATITE_B]
 ).
@@ -91,9 +90,11 @@ HH. Inoculação da 3ª dose (ou superior) de [vacina contra a poliomielite] at�
 II. Registo de [vacina contra a poliomielite] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
 [POLIOMIELITE]
 ).
-JJ. Inoculação de [vacina contra doença por Meningococcus serogrupo C] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+JJ. Nas crianças nascidas antes de 1-12-2010, é necessária pelo menos uma inoculação de [vacina contra doença por Meningococcus serogrupo C] após a data do 1º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
 [NEISS_MEN_C]
-).
+); Nas crianças nascidas em 1-12-2010 ou depois, pelo menos uma inoculação de [vacina contra doença por Meningococcus serogrupo C] anterior à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_C]
+);
 KK. Registo de [vacina contra doença por Meningococcus serogrupo C] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
 [NEISS_MEN_C]
 ).
@@ -109,6 +110,19 @@ OO. Inoculação da 3ª dose (ou superior) de [vacina contra infeção por Pneum
 ).
 PP. Registo de [vacina contra infeção por Pneumococcus] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
 [PNEUMOCOCUS]
+).
+QQ.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+: Nascido antes de 1 de janeiro de 2020.
+RR.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+: Inoculação da 3ª dose (ou superior) de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
+).
+SS.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+: Registo de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
 ).
 L. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
 M. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.

@@ -2,8 +2,9 @@ titulo,texto
 ID,390
 Código,8.16.01
 Código SIARS,2017.390.01
-Nome abreviado,"Score dimensão ""serv. não assis. gov. clín. ACES"""
-Designação,"Score para avaliação da dimensão ""serviços de carácter não assistencial - atividades de governação clínica do ACES"""
+Nome abreviado,"Score dimensão ""serv. não assis. gov. clín. ACES""
+Designação
+Score para avaliação da dimensão ""serviços de carácter não assistencial - atividades de governação clínica do ACES"""
 Objetivo,"Possibilitar a avaliação da dimensão ""Atividades de Governação Clínica no ACES"", da subárea ""Serviços de Carácter não Assistencial"", da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de serviços não assistenciais relacionados com a governação clínica do ACES."
 Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de cumprimento do compromisso assumido por cada equipa para a prestação de atividade não assistencial relacionada com governação clínica e de saúde.
 As regras de medição deste ""grau de cumprimento"" são definidas anualmente desde o ano de 2017 e encontram-se plasmadas nos documentos de ""operacionalização dos termos de referência para a contratualização"", sendo transpostas para ""bilhete de identidade de indicador"", para que possa ser operacionalizado o respetivo cálculo de forma automática."
@@ -15,9 +16,11 @@ A fórmula de cálculo deste score entra em linha de conta com 3 aspetos:
 Variável
 Descrição da variável
 Deve ser definido para:
-Frequência de registo"
-Fórmula,Valores possíveis
-Unidade de medida,"Quem preenche?
+Frequência de registo
+Fórmula
+Valores possíveis
+Unidade de medida
+Quem preenche?
 PROF
 Nº ponderado de profissionais da equipa
 Unidade funcional
@@ -890,10 +893,8 @@ N
 2
 Existe relatório de atividades para a atividade não assistencial
 S
-As possibilidades para o ""plano de ação"" devem ser as seguintes:
-Código
-Designação
-Abreviado
+As possibilidades para o ""plano de ação"" devem ser as seguintes:"
+Designação,"Abreviado
 0
 A unidade funcional não registou se existe ou não existe um plano de ação para a 
          atividade não assistencial
@@ -1086,10 +1087,8 @@ FIM: --"
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
 - Variável B (horas realizadas): Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
 - Variável A (horas contratualizadas): Duração de 12 meses. Qualquer que seja o mês de referência do indicador, o valor de A acumula as horas contratualizadas para o período compreendido entre 1 de janeiro e 31 de dezembro do ano de referência do indicador.
-- Restantes variáveis: Não aplicável.
-Fórmula"
+- Restantes variáveis: Não aplicável."
 Fórmula,Somatório de resultados
-Período em Análise,Unidade de medida
 Unidade de medida,Score
 Output,Com dados desde Dezembro de 2017
 Área | Subárea | Dimensão,Serviços | Serviços não Assistenciais | Governação Clínica

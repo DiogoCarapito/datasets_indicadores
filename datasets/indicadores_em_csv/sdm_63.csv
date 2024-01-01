@@ -1,5 +1,5 @@
 titulo,texto
-ID,063
+ID,63
 Código,6.37.01
 Código SIARS,2013.063.01
 Nome abreviado,"Proporção crianças 7A, c/ cons. méd. vig. e PNV"
@@ -24,10 +24,10 @@ B. São incluídos no numerador, as crianças que à data de referência do indi
 C. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
 D. Quando uma criança tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se uma criança tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
 E. Uma criança é incluída no numerador se a condição [(A1 ou B1) e (C1 ou D1 ou E1 ou F1) e (G1 ou H1 ou U2 ou I2 ou J1 ou K1 ou O1) e 
-(P2 ou Q2 ou R2 ou S2 ou T2 ou S1 ou T1 ou U1 ou V1 ou W1 ou X1) e (Y1 ou Z1) e (A2 ou B2 ou C2 ou D2)] for verdadeira:
+(P2 ou Q2 ou R2 ou S2 ou T2 ou S1 ou T1 ou U1 ou V1 ou W1 ou X1) e (Y1 ou Z1) e (A2 ou B2 ou C2 ou D2) e (E2 ou F2) e (G2 ou H2 ou I2)] for verdadeira:
 A1. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 7º aniversário).
-B1. data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
-BB. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+B1. Data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
+C1. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
 [HEPATITE_B]
 ).
 D1. Inoculação da 2ª dose de [vacina contra hepatite B] nos 6 meses que antecedem a data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
@@ -136,12 +136,29 @@ Inoculação e registo da 1ª dose de [vacina contra sarampo, parotidite epidém
 D2. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
 [SARAMPO], [PAROTIDITE] ou [RUBEOLA]
 ).
-KK. Inoculação da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola] até à data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
+E2. Inoculação da 2ª dose (ou superior) de [vacina contra sarampo, parotidite epidémica e rubéola] até à data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com códigos
 [SARAMPO], [PAROTIDITE] ou [RUBEOLA]
 ).
-LL. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
+F2. Registo de [vacina contra sarampo, parotidite epidémica e rubéola] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com códigos
 [SARAMPO], [PAROTIDITE] ou [RUBEOLA]
 ).
+G2.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
+:
+Nascido antes de 1 de janeiro de 2020.
+H2.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
+:
+Inoculação da 3ª dose (ou superior) de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] até à data do 7º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
+).
+I2.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
+:
+Registo de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
+).
+
 F. São incluídos no denominador deste indicador todos os utentes inscritos na unidade de observação à data de referência do indicador. O SIARS contabiliza no denominador também os utentes [excluídos] quer no módulo de vacinação do SINUS quer no RSE Vacinas;
 G. Para o cumprimento deste indicador não é necessário ter qualquer dose de [vacina contra Infeção por Haemofilus Influenzae b], porque acima dos 5 anos, não está prevista a administração desta vacina.
 H. Para se contabilizar uma [Consulta Médica de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:

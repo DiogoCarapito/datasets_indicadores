@@ -195,7 +195,7 @@ J
 K
 . Quando uma criança tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no e-Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se uma criança tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
 L
-. Uma criança cumpre o critério da vacinação no 1º ano de vida se a condição [(AA ou MM) e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK ou LL)] for verdadeira:
+. Uma criança cumpre o critério da vacinação no 1º ano de vida se a condição [(AA ou MM) e (BB ou CC) e (DD ou EE) e (FF ou GG) e (HH ou II) e (JJ ou KK ou LL) e (MM ou NN ou OO)] for verdadeira:
 AA. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 2º aniversário). Ver vacinas equivalentes com código
 [BCG]
 .
@@ -230,6 +230,19 @@ KK. Inoculação da 2ª dose (ou superior) de [vacina contra infeção por Pneum
 ).
 LL. Registo de [vacina contra infeção por Pneumococcus] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
 [PNEUMOCOCUS]
+).
+MM.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024:
+: Nascido antes de 1 de janeiro de 2020.
+NN.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024:
+: Inoculação da 2ª dose (ou superior) de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] até à data do 1º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
+).
+OO.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024:
+: Registo de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
+[NEISS_MEN_B]
 ).
 M
 . O intervalo de tempo [1, 330[ dias, definido no numerador, destina-se a detetar as 6 consultas de vigilância em saúde infantil previstas pela Direção-Geral da Saúde para o 1º ano de vida:

@@ -23,8 +23,9 @@ B. A idade do utente, medida em dias, à data de referência do indicador, perte
 Nota: O intervalo [1; 330[ dias corresponde, aproximadamente, a ter entre
 0 e 11 
  meses
-."
-Fórmula,"6 x (d2 - d1 + 1) / 329
+.
+Fórmula
+6 x (d2 - d1 + 1) / 329
 Em que:
 d2
 É o valor mínimo, entre os 3 seguintes:
@@ -1280,8 +1281,7 @@ Este utente tem um índice superior a 1. O excesso de 0.133 num indicador real
  compensar utentes que no ano tivessem realizado menos consultas do que as estimadas 
  por critérios socio-demográficos e clínicos."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
-Todas as variáveis têm uma duração de 12 meses, terminando na data de referência do indicador.
-Fórmula"
+Todas as variáveis têm uma duração de 12 meses, terminando na data de referência do indicador."
 Fórmula,(Somatório (Cc)) / (Somatório (Etotal))
 Unidade de medida,Índice (escala valores entre 0 e aproximadamente 1)
 Output,Com dados desde Dezembro de 2016

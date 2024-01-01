@@ -2,8 +2,9 @@ titulo,texto
 ID,429
 Código,8.22.01
 Código SIARS,2019.429.01
-Nome abreviado,"Score dimensão ""outras ativ. não assistenciais"""
-Designação,"Score para avaliação da dimensão ""outras atividades não assistenciais"""
+Nome abreviado,"Score dimensão ""outras ativ. não assistenciais""
+Designação
+Score para avaliação da dimensão ""outras atividades não assistenciais"""
 Objetivo,"Possibilitar a avaliação da dimensão ""Outras Atividades não Assistenciais"", da subárea ""Serviços de Carácter não Assistencial"", da matriz de contratualização das unidades funcionais dos ACES, ou seja avaliar o compromisso da equipa para a prestação de serviços não assistenciais não relacionados com a governação clínica do ACES.
 Pretende-se avaliar o grau de implementação de processos de melhoria de contínua da qualidade dirigidas à segurança dos utentes, nos termos do Plano Nacional para a Segurança dos Doentes 2015-2020 (DGS)."
 Descrição do Indicador,"Este score avalia, para cada ano de contratualização, numa escala contínua entre 0 e 2 pontos, o grau de participação de cada equipa em atividades não assistenciais não relacionadas com a governação clínica e de saúde."
@@ -18,9 +19,8 @@ A fórmula de cálculo deste score entra em linha de conta com 3 aspetos:
 3. A possibilidade de registar atividades não assistenciais, realizadas por cada 
     profissional, em 10 classes diferentes de atividades.
 TIPOS DE ATIVIDADES - Q1
-COD
-Designação
-Observações
+COD"
+Designação,"Observações
 Aplicável a USF e UCSP?
 Aplicável a UCC?
 Aplicável a URAP?
@@ -144,9 +144,11 @@ VARIÁVEIS RELACIONADAS COM A UNIDADE FUNCIONAL, NECESSÁRIAS PARA O CÁLCULO DO
     SCORE - Q2
 Variável
 Descrição da variável
-Frequência de registo"
-Fórmula,Valores possíveis
-Unidade de medida,"Quem preenche?
+Frequência de registo
+Fórmula
+Valores possíveis
+Unidade de medida
+Quem preenche?
 PROF
 Nº ponderado de profissionais da equipa
 Trimestral
@@ -501,10 +503,8 @@ Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE
 - O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
-- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS.
-Fórmula"
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
 Fórmula,Aplicação de checklist
-Período em Análise,Unidade de medida
 Unidade de medida,Score
 Output,Em desenvolvimento
 Área | Subárea | Dimensão,---

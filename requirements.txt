@@ -12,4 +12,4 @@ requests==2.31.0
 tabula-py==2.8.2
 streamlit==1.28.1
 watchdog==3.0.0
-bs4
+bs4==0.0.1

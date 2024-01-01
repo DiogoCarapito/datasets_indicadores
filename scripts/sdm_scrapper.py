@@ -18,8 +18,8 @@ from utils.sdm_save import save_csv  # , save_json, save_txt#, big_csv, big_json
 # @click.command()
 # @click.option("--begin", default=1, help="Initial ID to start scraping")
 # @click.option("--end", default=5, help="Final ID to stop scraping")
-# @click.option("--end", default=476, help="Final ID to stop scraping")
-def scrapper(begin=1, end=477):
+# @click.option("--end", default=481, help="Final ID to stop scraping")
+def scrapper(begin=1, end=481):
     print(f"begin: {begin}")
     # create a list of ids to scrape
     # end + 1 because the range function doesn't include the last number
