@@ -20,7 +20,7 @@ def sdm_html_extraction(id_indicador):
         rqst = requests.get(url, timeout=30)
 
         # success message
-        print(f"{id_indicador} Scraped!")
+        # print(f"{id_indicador} Scraped!")
 
         # return the html
         return rqst.content

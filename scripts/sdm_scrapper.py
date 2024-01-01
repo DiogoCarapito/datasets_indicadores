@@ -17,10 +17,8 @@ from utils.sdm_save import save_csv  # , save_json, save_txt#, big_csv, big_json
 
 # @click.command()
 # @click.option("--begin", default=1, help="Initial ID to start scraping")
-# @click.option("--end", default=5, help="Final ID to stop scraping")
 # @click.option("--end", default=481, help="Final ID to stop scraping")
 def scrapper(begin=1, end=481):
-    print(f"begin: {begin}")
     # create a list of ids to scrape
     # end + 1 because the range function doesn't include the last number
     id_list = [i for i in range(begin, end + 1)]
@@ -52,13 +50,6 @@ def scrapper(begin=1, end=481):
 
             # save dataframe as txt
             # save_txt(indicador=each, df=df)
-
-    # save all small csv files into one big csv file
-
-    # big_csv()
-
-    # save all small json files into one big json file
-    # big_json()
 
 
 if __name__ == "__main__":

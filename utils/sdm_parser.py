@@ -20,7 +20,7 @@ def header_text_mapper(dicionario):
     mapa = []
 
     # etiqueta com o nome do cabeçalho inicial
-    header = "ID"
+    header = "id"
 
     # iterate from 0 to comprimento_maximo
     for i in range(comprimento_maximo):
@@ -87,9 +87,6 @@ def header_location_dictionary(parsed_list):
     # url
     list_of_headers = config["sdm_headers"]
 
-    # reverse de order of the list_of_headers
-    # list_of_headers.reverse()
-
     header_location = {}
 
     # function to find the location of the header in the list
@@ -102,16 +99,8 @@ def header_location_dictionary(parsed_list):
             return None
 
     for each in list_of_headers:
-        # id
-        # header_location["id"] = parsed_list[0]
-
         # create a dict with the header and the location of the text in the list
         header_location[each] = find_header(each)
-
-    # if there is more than one header with the same name, remove all but the largest location
-
-    # for key, value in header_location.items():
-    # print(f"{key} - {value}")
 
     return header_location
 
@@ -216,6 +205,7 @@ def final_cleaning(lista_correspondencias):
 
 def list_to_csv(parsed_content, header_map):
     lista_correspondencias = []
+
     for i in range(len(header_map)):
         lista_correspondencias.append((header_map[i], parsed_content[i]))
 
@@ -225,10 +215,9 @@ def list_to_csv(parsed_content, header_map):
 
     # remove non numeric characters
     df.iloc[0, 1] = re.sub("[^0-9]", "", df.iloc[0, 1])
+
     # change the ID to int
     df.iloc[0, 1] = int(df.iloc[0, 1])
-
-    print(df.iloc[0, 1])
 
     return df
 

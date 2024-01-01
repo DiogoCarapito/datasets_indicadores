@@ -7,7 +7,7 @@ import pandas as pd
 def save_csv(indicador, df):
     # save as csv wiht utf-8 encoding
     df.to_csv(f"datasets/indicadores_em_csv/sdm_{indicador}.csv", index=False)
-    print(f"{indicador} .csv saved!")
+    print(f"{indicador} scrapped and sdm_{indicador}.csv saved!")
 
 
 def save_json(indicador, df):
