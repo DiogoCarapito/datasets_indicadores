@@ -30,9 +30,9 @@ def main():
 
     df_processed = process_portaria_411a_2023(df)
 
-    #save the dataframe as csv in datasets folder
+    # save the dataframe as csv in datasets folder
     df_processed.to_csv("./datasets/portaria_411a_2023.csv", index=False)
 
-    
+
 if __name__ == "__main__":
     main()

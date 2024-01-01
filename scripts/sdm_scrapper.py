@@ -12,7 +12,7 @@ import pandas as pd
 sys.path.append("./")
 from utils.sdm_crawler import sdm_html_extraction
 from utils.sdm_parser import main_parse
-from utils.sdm_save import save_csv, save_json, save_txt  # , big_csv, big_json
+from utils.sdm_save import save_csv  # , save_json, save_txt#, big_csv, big_json
 
 
 # @click.command()
@@ -48,10 +48,10 @@ def scrapper(begin=1, end=477):
             save_csv(indicador=each, df=df)
 
             # save dataframe as json
-            #save_json(indicador=each, df=df)
+            # save_json(indicador=each, df=df)
 
             # save dataframe as txt
-            #save_txt(indicador=each, df=df)
+            # save_txt(indicador=each, df=df)
 
     # save all small csv files into one big csv file
 
@@ -59,6 +59,7 @@ def scrapper(begin=1, end=477):
 
     # save all small json files into one big json file
     # big_json()
+
 
 if __name__ == "__main__":
     scrapper()
