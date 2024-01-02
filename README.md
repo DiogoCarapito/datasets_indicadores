@@ -24,7 +24,7 @@ Scripts
 - [x] completar o posprocessamento do script sdm_scrapper.py
 - [ ] script para confirmar se novos indicadores foram adicionados ao SDM e actualizar o variaveis.toml
 
-- [ ] script para extrarir metainformação do SDM
+- [x] script para extrarir metainformação do SDM
 
 Test
 - [ ] gerar testes unitários (coverage actual 8%)
