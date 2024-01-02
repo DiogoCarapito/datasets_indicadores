@@ -42,8 +42,8 @@ Test
 main.py
 - [ ] orquestrar todo o processo de ETL na funcção main.py
 - [ ] produzir os seguintes datasets com a função main.py
-    - [ ] .csv com todos indicadores, com intervalo aceitável e esperado, sem tem impacto no IDG ou não
-    - [ ] .csv com apenas indicadores com impacto no IDG, com intervalo aceitável e esperado, com peso com base no impacto no IDG (teórico e contratualizado)
+    - [x] .csv com todos indicadores, com intervalo aceitável e esperado, sem tem impacto no IDG ou não
+    - [x] .csv com apenas indicadores com impacto no IDE, com intervalo aceitável e esperado, com peso com base no impacto no IDG (teórico e contratualizado)
     - [ ] pasta com o .txt para cada indicador com o texto vindos do SDM
 
 ## cheat sheet
