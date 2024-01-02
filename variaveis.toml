@@ -69,5 +69,6 @@ sdm_headers = [
         "ACSS",
     ]
 
+####
 # SDM - METAINFORMAÇÃO
 sdm_metainfo_url = "https://sdm.min-saude.pt/bi.aspx?id_con="
