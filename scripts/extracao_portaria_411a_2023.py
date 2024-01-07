@@ -33,6 +33,10 @@ def main():
     # save the dataframe as csv in datasets folder
     df_processed.to_csv("./datasets/portaria_411a_2023.csv", index=False)
 
+    # save the id column as csv in datasets folder
+    df_ide = df_processed["id"]
+    df_ide.to_csv("./datasets/indicadores_ide.csv", index=False, header=False)
+
 
 if __name__ == "__main__":
     main()

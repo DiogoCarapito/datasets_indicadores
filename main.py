@@ -20,9 +20,10 @@ def sdm_max():
 @click.option("--begin", default=1, help="Initial ID to start scraping")
 @click.option("--end", default=sdm_max(), help="Final ID to stop scraping")
 def main(begin=1, end=481):
-    print("Starting...")
     print(f"Begin: {begin}")
     print(f"End: {end}")
+
+    print("Starting...")
 
     # run the scrapper
     scrapper(begin, end)
