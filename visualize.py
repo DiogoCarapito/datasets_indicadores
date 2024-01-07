@@ -39,7 +39,7 @@ with tab_1:
     st.subheader("Indicadores SDM")
 
     # read the csv file
-    sdm = pd.read_csv("datasets/indicadores_sdm.csv", index_col="id")
+    sdm = pd.read_csv("datasets/indicadores_sdm_complete.csv", index_col="id")
 
     # show the dataframe
     st.dataframe(sdm)

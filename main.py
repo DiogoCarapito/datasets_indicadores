@@ -6,6 +6,7 @@ import toml
 import click
 from scripts.sdm_scrapper import scrapper
 from scripts.sdm_csv_crawler import csv_crawler
+from scripts.csv_merge import merge_sdm_ide_idg
 
 
 # get the max id to scrape from the config file
@@ -30,6 +31,9 @@ def main(begin=1, end=481):
 
     # run the csv crawler
     csv_crawler()
+
+    # post processing
+    merge_sdm_ide_idg()
 
     print("Done.")
 
