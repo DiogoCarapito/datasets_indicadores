@@ -23,6 +23,10 @@ def scrapper(begin=1, end=481):
     # end + 1 because the range function doesn't include the last number
     id_list = [i for i in range(begin, end + 1)]
 
+    # reset sd_erro.txt
+    with open("datasets/indicadores_em_csv/sdm_erro.txt", "w", encoding="utf-8") as f:
+        f.write("")
+
     # iterate over the list of ids
     for each in id_list:
         # scrape the url

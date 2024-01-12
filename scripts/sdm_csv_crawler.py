@@ -2,6 +2,13 @@ import pandas as pd
 import os
 
 
+def num_denom_paragraph(text):
+    # add a new line between the "." and "Numerador" or "Denominador" in the text provided
+    return text.replace(".Numerador", ".\nNumerador").replace(
+        ".Denominador", ".\nDenominador"
+    )
+
+
 def csv_crawler():
     # get the list of files in the folder to create a loop that opnes and saves in a dataframe
     directory = "./datasets/indicadores_em_csv/"
@@ -47,7 +54,9 @@ def csv_crawler():
 
     # sort the columns by id column
     df.set_index("id", inplace=True)
-    df.sort_values("id", inplace=True)
+
+    # substituir o texto "Numerador" e "Denominador" por um novo parágrafo
+    df["Designação"] = df["Designação"].apply(num_denom_paragraph)
 
     # save the dataframe as csv in datasets folder
     df.to_csv("./datasets/indicadores_sdm.csv", index=True)
