@@ -4,8 +4,8 @@ import os
 
 def num_denom_paragraph(text):
     # add a new line between the "." and "Numerador" or "Denominador" in the text provided
-    return text.replace(".Numerador", ".\nNumerador").replace(
-        ".Denominador", ".\nDenominador"
+    return text.replace(". Numerador", ".\nNumerador").replace(
+        ". Denominador", ".\nDenominador"
     )
 
 
