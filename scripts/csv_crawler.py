@@ -4,8 +4,8 @@ import os
 
 def num_denom_paragraph(text):
     # add a new line between the "." and "Numerador" or "Denominador" in the text provided
-    return text.replace(". Numerador", ".\n\nNumerador").replace(
-        ". Denominador", ".\n\nDenominador"
+    return text.replace(". Numerador", ".\nNumerador").replace(
+        ". Denominador", ".\nDenominador"
     )
 
 
@@ -56,7 +56,9 @@ def csv_crawler():
     df.set_index("id", inplace=True)
 
     # substituir o texto "Numerador" e "Denominador" por um novo parágrafo
-    df["Designação"] = df["Designação"].apply(num_denom_paragraph)
+    df["Descrição do Indicador"] = df["Descrição do Indicador"].apply(
+        num_denom_paragraph
+    )
 
     # save the dataframe as csv in datasets folder
     df.to_csv("./datasets/indicadores_sdm.csv", index=True)

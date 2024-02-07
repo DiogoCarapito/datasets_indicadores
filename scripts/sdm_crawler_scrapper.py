@@ -10,32 +10,34 @@ import pandas as pd
 
 # adicionar o path para a poder usar a pasta do projeto
 sys.path.append("./")
-from utils.sdm_crawler import sdm_html_extraction
-from utils.sdm_parser import main_parse
+from utils.sdm_crawler import sdm_crawler
+from utils.sdm_parser import main_scrape
 from utils.sdm_save import save_csv  # , save_json, save_txt#, big_csv, big_json
+from utils.utils import sdm_max
 
 
 # @click.command()
 # @click.option("--begin", default=1, help="Initial ID to start scraping")
 # @click.option("--end", default=481, help="Final ID to stop scraping")
-def scrapper(begin=1, end=481):
+def sdm_crawler_and_scrapper(begin=1, end=sdm_max()):
     # create a list of ids to scrape
     # end + 1 because the range function doesn't include the last number
     id_list = [i for i in range(begin, end + 1)]
 
-    # reset sd_erro.txt
+    # reset sdm_erro.txt
     with open("datasets/indicadores_em_csv/sdm_erro.txt", "w", encoding="utf-8") as f:
         f.write("")
 
     # iterate over the list of ids
     for each in id_list:
         # scrape the url
-        html = sdm_html_extraction(each)
+        html = sdm_crawler(each)
 
         # transform the html into a list
-        parsed_html = main_parse(html)
+        scraped_html = main_scrape(html)
 
-        if parsed_html is None:
+        # if the html is None, save the id in a txt file
+        if scraped_html is None:
             print(f"Erro. ID: {each}")
             # save the id that failed in a txt file
             with open(
@@ -46,15 +48,9 @@ def scrapper(begin=1, end=481):
 
         else:
             # save dataframe as csv
-            df = pd.DataFrame(parsed_html)
+            df = pd.DataFrame(scraped_html)
             save_csv(indicador=each, df=df)
-
-            # save dataframe as json
-            # save_json(indicador=each, df=df)
-
-            # save dataframe as txt
-            # save_txt(indicador=each, df=df)
 
 
 if __name__ == "__main__":
-    scrapper()
+    sdm_crawler_and_scrapper()

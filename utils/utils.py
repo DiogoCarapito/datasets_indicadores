@@ -1,9 +1,18 @@
+import toml
 import tabula
 import requests
 import tempfile
 import pandas as pd
 
 
+# get the max id to scrape from the config file
+def sdm_max():
+    with open("variaveis.toml", "r", encoding="utf-8") as file:
+        config = toml.load(file)
+    return config["sdm_indicador_final"]
+
+
+# table extraction from pdf in a url
 def download_and_extract_table(url, pages):
     """
     Função para extrair tabelas de um documento pdf e juntar num dataframe

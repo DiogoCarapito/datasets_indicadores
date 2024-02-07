@@ -222,7 +222,7 @@ def list_to_csv(parsed_content, header_map):
     return df
 
 
-def main_parse(html):
+def main_scrape(html):
     # parse the html into a list of strings
     parsed_content = soup_to_list(html)
 
