@@ -24,7 +24,7 @@ B. São incluídos no numerador, os jovens que à data de referência do indicad
 C. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
 D. Quando um jovem tem serologia positiva para uma doença prevenível por uma das vacinas do PNV, é possível registar no SINUS/RSE Vacinas o estado de [Imunizado], associado a essa vacina. Da mesma forma, se um jovem tiver contraindicação para a administração de uma vacina, é possível registar que a mesma se encontra [contraindicada]. As vacinas relativamente às quais é colocado o atributo [Imunizado] ou o atributo [Contraindicado] são classificadas como cumpridas. Não são incluídos no numerador os utentes que recusam uma ou mais inoculações de vacina.
 E. Um jovem é incluído no numerador se a condição [(A1 ou B1) e (C1 ou D1 ou E1 ou F1) e (G1 ou H1 ou I1 ou J1 ou K1 ou L1) e 
-(C2 ou M1 ou N1 ou O1 ou P1 ou Q1 ou R1) e (S1 ou T1) e (U1 ou V1 ou W1 ou X1) e (Y1 ou Z1 ou A2 ou B2) e (C2 ou D2 ou E2)] for verdadeira:
+(C2 ou M1 ou N1 ou O1 ou P1 ou Q1 ou R1) e (S1 ou T1) e (U1 ou V1 ou W1 ou X1) e (Y1 ou Z1 ou A2 ou B2 ou Y11) e (C2 ou D2 ou E2)] for verdadeira:
 A1. Pelo menos 1 inoculação e registo de BCG ou um registo de cicatriz de BCG ou um registo de prova tuberculínica (inoculação ou realização até data do 14º aniversário).
 B1. Data de referência do indicador igual ou superior a maio de 2015, inicialmente por rotura de stock nacional da BCG e posteriormente por a vacina ter deixado de ser obrigatória no PNV.
 C1. Inoculação da 3ª dose (ou superior) de [vacina contra hepatite B] até à data do 14º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
@@ -174,8 +174,8 @@ Unidade de medida,%
 Output,Proporção de jovens
 Estado do indicador,Com dados desde Dezembro de 2012
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador

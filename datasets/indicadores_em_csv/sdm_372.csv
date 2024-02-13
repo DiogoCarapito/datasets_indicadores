@@ -282,11 +282,9 @@ Unidade de medida,por 100.000
 Output,Taxa de internamento (por 100.000 inscritos por ano)
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
-Intervalo Aceitável,"Ano de 2022: [0; 820]
-Ano de 2023: [0; 820]
+Intervalo Esperado,"Ano de 2023: [0; 820]
 Ano de 2024: [0; 800]"
-Intervalo Esperado,"Ano de 2022: [0; 1200]
-Ano de 2023: [0; 1200]
+Intervalo Aceitável,"Ano de 2023: [0; 1200]
 Ano de 2024: [0; 1200]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Saúde Idoso

@@ -54,11 +54,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
-Intervalo Aceitável,"Ano de 2022: [82.5; 100]
-Ano de 2023: [82.5; 100]
+Intervalo Esperado,"Ano de 2023: [82.5; 100]
 Ano de 2024: [82.5; 100]"
-Intervalo Esperado,"Ano de 2022: [74; 100]
-Ano de 2023: [74; 100]
+Intervalo Aceitável,"Ano de 2023: [74; 100]
 Ano de 2024: [74; 100]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Mental

@@ -219,9 +219,9 @@ Fórmula,PF_T / BB
 Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Dezembro de 2021
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
-Intervalo Aceitável,"Ano de 2023: [0.78; 1]
+Intervalo Esperado,"Ano de 2023: [0.78; 1]
 Ano de 2024: [0.78; 1]"
-Intervalo Esperado,"Ano de 2023: [0.63; 1]
+Intervalo Aceitável,"Ano de 2023: [0.63; 1]
 Ano de 2024: [0.63; 1]"
 Tipo de Indicador,Resultado
 Área clínica,Planeamento Familiar

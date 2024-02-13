@@ -134,11 +134,9 @@ Fórmula,AA / BB
 Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Março de 2013
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
-Intervalo Aceitável,"Ano de 2022: [0.6; 1]
-Ano de 2023: [0.82; 1]
+Intervalo Esperado,"Ano de 2023: [0.82; 1]
 Ano de 2024: [0.82; 1]"
-Intervalo Esperado,"Ano de 2022: [0.55; 1]
-Ano de 2023: [0.65; 1]
+Intervalo Aceitável,"Ano de 2023: [0.65; 1]
 Ano de 2024: [0.65; 1]"
 Tipo de Indicador,Processo
 Área clínica,Hipertensão Arterial

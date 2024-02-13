@@ -36,11 +36,9 @@ Unidade de medida,€ / UTE
 Output,Preço médio por utente
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
-Intervalo Aceitável,"Ano de 2022: [40; 80]
-Ano de 2023: [40; 80]
+Intervalo Esperado,"Ano de 2023: [40; 80]
 Ano de 2024: [40; 80]"
-Intervalo Esperado,"Ano de 2022: [40; 90]
-Ano de 2023: [40; 90]
+Intervalo Aceitável,"Ano de 2023: [40; 90]
 Ano de 2024: [40; 95]"
 Tipo de Indicador,Resultado
 Área clínica,Hipertensão Arterial

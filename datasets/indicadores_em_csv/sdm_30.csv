@@ -50,11 +50,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Dezembro de 2012
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
-Intervalo Aceitável,"Ano de 2022: [55; 100]
-Ano de 2023: [55; 100]
+Intervalo Esperado,"Ano de 2023: [55; 100]
 Ano de 2024: [55; 100]"
-Intervalo Esperado,"Ano de 2022: [45; 100]
-Ano de 2023: [45; 100]
+Intervalo Aceitável,"Ano de 2023: [45; 100]
 Ano de 2024: [45; 100]"
 Tipo de Indicador,Processo
 Área clínica,Respiratório

@@ -136,9 +136,9 @@ def correccao_intervalos(lista_correspondencias):
     # loop over the df[df["header"]=="Variação Aceitável_TEXT"] and correct the header
     for i, index in enumerate(df[df["titulo"] == "Variação Aceitável_TEXT"].index):
         if i < trigger:
-            df.loc[index, "titulo"] = "Intervalo Aceitável_TEXT"
-        else:
             df.loc[index, "titulo"] = "Intervalo Esperado_TEXT"
+        else:
+            df.loc[index, "titulo"] = "Intervalo Aceitável_TEXT"
 
     # transform back df into a list of tupples
     lista_correspondencias_corrigida = list(df.itertuples(index=False, name=None))
@@ -168,7 +168,7 @@ def correcoes_correspondencias(lista_correspondencias):
 
     # correção especial do intervalo aceitavel e esperado
     lista_correspondencias_corrigida = correccao_intervalos(lista_correspondencias)
-
+    
     return lista_correspondencias_corrigida
 
 

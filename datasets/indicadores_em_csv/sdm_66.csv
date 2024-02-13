@@ -45,11 +45,9 @@ Unidade de medida,%
 Output,Proporção de embalagens
 Estado do indicador,Com dados desde Dezembro de 2012
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [50; 100]
-Ano de 2023: [50; 100]
+Intervalo Esperado,"Ano de 2023: [50; 100]
 Ano de 2024: [50; 100]"
-Intervalo Esperado,"Ano de 2022: [47.5; 100]
-Ano de 2023: [47.5; 100]
+Intervalo Aceitável,"Ano de 2023: [47.5; 100]
 Ano de 2024: [47.5; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

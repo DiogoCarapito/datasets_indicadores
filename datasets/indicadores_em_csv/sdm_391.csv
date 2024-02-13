@@ -114,7 +114,7 @@ Sim
 Último dia do ano de contratualização
 Unidade funcional
 391.CALC.INDIC
-Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+Data de recolha das variáveis do PAUF para o sistema de BI que permite calcular 
          os indicadores
 Data no formato dd-mm-yyyy.
 Sim
@@ -452,8 +452,8 @@ Fórmula,Aplicação de checklist
 Unidade de medida,Score
 Output,Com dados desde Dezembro de 2017
 Área | Subárea | Dimensão,Qualidade Organizacional | Melhoria Contínua | Acesso
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

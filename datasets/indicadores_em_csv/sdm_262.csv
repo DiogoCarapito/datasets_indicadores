@@ -46,11 +46,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Dezembro de 2014
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
-Intervalo Aceitável,"Ano de 2022: [58; 100]
-Ano de 2023: [58; 100]
+Intervalo Esperado,"Ano de 2023: [58; 100]
 Ano de 2024: [63; 100]"
-Intervalo Esperado,"Ano de 2022: [35; 100]
-Ano de 2023: [35; 100]
+Intervalo Aceitável,"Ano de 2023: [35; 100]
 Ano de 2024: [45; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

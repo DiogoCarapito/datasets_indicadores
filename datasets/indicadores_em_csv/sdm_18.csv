@@ -47,11 +47,9 @@ Unidade de medida,%
 Output,Proporção de utentes com hipertensão arterial
 Estado do indicador,Com dados desde Dezembro de 2012
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
-Intervalo Aceitável,"Ano de 2022: [80; 100]
-Ano de 2023: [80; 100]
+Intervalo Esperado,"Ano de 2023: [80; 100]
 Ano de 2024: [80; 100]"
-Intervalo Esperado,"Ano de 2022: [65; 100]
-Ano de 2023: [65; 100]
+Intervalo Aceitável,"Ano de 2023: [65; 100]
 Ano de 2024: [60; 100]"
 Tipo de Indicador,Resultado
 Área clínica,Hipertensão Arterial

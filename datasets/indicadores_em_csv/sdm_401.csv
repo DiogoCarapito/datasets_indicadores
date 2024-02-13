@@ -263,12 +263,10 @@ Fórmula,AA / BB x 100
 Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Agosto de 2018
-Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [10; 100]
-Ano de 2023: [10; 100]
+Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
+Intervalo Esperado,"Ano de 2023: [10; 100]
 Ano de 2024: [10; 100]"
-Intervalo Esperado,"Ano de 2022: [5; 100]
-Ano de 2023: [5; 100]
+Intervalo Aceitável,"Ano de 2023: [5; 100]
 Ano de 2024: [5; 100]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Transversal

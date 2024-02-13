@@ -500,7 +500,7 @@ Atribui-se 0% ao IDS da dimensão, independentemente do resultado do indicador.
 INI: 2022
 FIM: --"
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
-- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- O resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
 - O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
@@ -508,8 +508,8 @@ Fórmula,Aplicação de checklist
 Unidade de medida,Score
 Output,Em desenvolvimento
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

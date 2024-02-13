@@ -261,7 +261,7 @@ Podem ser usados os seguintes campos:
 2. Campo ""Tabaco"" no grupo ""Consultas"". Campo usado para registar o nº de [cigarros por dia] que o doente consome na data em que é feito o registo.
 3. Campo ""Carga tabágica"" no grupo ""Consultas"". Campo usado para registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
 SCLÍNICO - PERFIL DE ENFERMAGEM:
-A. O registo normalizado da informação de hábitos tabágicos é efetuado através da intervenção de enfermagem ""Monitorizar uso de tabaco"" (9001128). A intervenção de enfermagem está associada ao foco de atenção ""Uso de tabaco"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior). A intervenção referida permite registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
+A. O registo normalizado da informação de hábitos tabágicos é efetuado através da intervenção de enfermagem ""Avaliar o uso de tabaco"" (9004178). A intervenção de enfermagem está associada ao foco de atenção ""Uso de tabaco"" e encontra-se disponível no painel atividades diagnóstico e/ou no mapa de cuidados (caso já tenha sido incluída no plano de cuidados em consulta anterior). A intervenção referida permite registar o nº unidades-maço-ano (UMA) calculadas na data em que é feito o registo.
 MEDICINEONE:
 A. Os hábitos tabágicos são registados no módulo de hábitos. O registo de utente ""sem hábitos tabágicos"" faz-se colocando um 0 (zero) no campo da quantidade."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
@@ -277,11 +277,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2018
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
-Intervalo Aceitável,"Ano de 2022: [22; 100]
-Ano de 2023: [22; 100]
+Intervalo Esperado,"Ano de 2023: [22; 100]
 Ano de 2024: [25; 100]"
-Intervalo Esperado,"Ano de 2022: [15; 100]
-Ano de 2023: [15; 100]
+Intervalo Aceitável,"Ano de 2023: [15; 100]
 Ano de 2024: [15; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

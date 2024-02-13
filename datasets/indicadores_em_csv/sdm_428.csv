@@ -41,7 +41,7 @@ Para cada item da
 checklist
 aplicável a ACES, os mesmos devem ter a possibilidade de submeter evidências que permitam aos Departamentos de Contratualização das ARS proceder à respetiva validação.
 No caso dos ACES das ULS, a validação é feita pela ARS respetiva.
-Até 2022, para as unidades funcionais, este indicador é avaliado no RAUF. A partir de 2023 será avaliado do PAUF.
+Até 2022, para as unidades funcionais, este indicador é avaliado no PAUF. A partir de 2023 será avaliado do PAUF.
 No caso dos ACES, este indicador é avaliado no PDACES.
 COD
 Área de Avaliação
@@ -1664,20 +1664,20 @@ Aplicável a
 Descrição
 C01
 Intervalo esperado e intervalo de variação aceitável
-RAUF e PDACES
+PAUF e PDACES
 Uma vez que este indicador está calibrado para produzir resultados 
     pertencentes ao intervalo [0; 2], não é necessário definir nem o 
     intervalo esperado nem o intervalo de variação aceitável.
 C02
 IDS da dimensão ""segurança dos utentes""
-RAUF e PDACES
+PAUF e PDACES
 O [IDS da dimensão ""segurança dos utentes""] é obtido já no processo de cálculo 
     do IDG a partir da fórmula seguinte:
 [IDS da dimensão ""segurança dos utentes""] = 100 x [Score dimensão ""segurança 
     dos utentes""] / 2
 C03
 Periodicidade de registo nos formulários do BI-CSP
-RAUF
+PAUF
 Esta informação estará disponível para preenchimento acumulado por trimestres ao 
     longo do ano de acordo com o cronograma expresso na tabela seguinte:
 Trimestres do ano de contratualização em análise
@@ -1743,7 +1743,7 @@ Dezembro do ano de contratualização; Janeiro e fevereiro do ano seguinte ao da
 * Cada ARS deverá gerir com os respetivos ACES, os tempos disponíveis. Os tempos devem ser geridos de forma a que exista a possibilidade da ARS conseguir validar todos os formulários dos respetivos ACES, no máximo, até ao último dia do prazo definido. Assim, compete a cada ARS definir prazos internos para o preenchimento da plataforma pelos respetivos ACES.
 C04
 Validação pelo ACES
-RAUF
+PAUF
 1. O estado de validação pelo ACES, pode assumir 4 valores:
 a) Não preenchido;
 b) Não validado pelo ACES;
@@ -1842,8 +1842,8 @@ O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por al
 O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS.
 O resultado do indicador é usado para o cálculo do IDS da dimensão. Se por algum motivo o resultado do indicador não existir, atribui-se 0% ao IDS."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
-- Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas. A partir de 2023, a recolha será feita no PAUF.
-- Em 2021, para os ACES, o resultado do indicador é calculado a partir dos score obtidos para as respetivas UF no RAUF, ponderado à diemsnão de cada uma (à semelhança do que sucede com os indicadores de desempenho no cálculo do IDG dos ACES).
+- Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas. A partir de 2023, a recolha será feita no PAUF.
+- Em 2021, para os ACES, o resultado do indicador é calculado a partir dos score obtidos para as respetivas UF no PAUF, ponderado à diemsnão de cada uma (à semelhança do que sucede com os indicadores de desempenho no cálculo do IDG dos ACES).
 - A partir de 2022, para os ACES, o resultado do indicador é recolhido mensalmente a partir do PD-ACES com o valor que lá esteja calculado em função de dados introduzidos pelos respetivos utilizadores.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
@@ -1852,8 +1852,8 @@ Fórmula,Aplicação de checklist
 Unidade de medida,Score
 Output,Com dados desde Setembro de 2021
 Área | Subárea | Dimensão,Qualidade Organizacional | Segurança | Segurança de Utentes
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

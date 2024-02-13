@@ -189,11 +189,9 @@ Fórmula,AA / BB
 Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Março de 2013
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
-Intervalo Aceitável,"Ano de 2022: [0.87; 1]
-Ano de 2023: [0.87; 1]
+Intervalo Esperado,"Ano de 2023: [0.87; 1]
 Ano de 2024: [0.87; 1]"
-Intervalo Esperado,"Ano de 2022: [0.7; 1]
-Ano de 2023: [0.7; 1]
+Intervalo Aceitável,"Ano de 2023: [0.7; 1]
 Ano de 2024: [0.7; 1]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil

@@ -41,11 +41,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
-Intervalo Aceitável,"Ano de 2022: [0; 5]
-Ano de 2023: [0; 5]
+Intervalo Esperado,"Ano de 2023: [0; 5]
 Ano de 2024: [0; 5]"
-Intervalo Esperado,"Ano de 2022: [0; 12]
-Ano de 2023: [0; 12]
+Intervalo Aceitável,"Ano de 2023: [0; 12]
 Ano de 2024: [0; 12]"
 Tipo de Indicador,Processo
 Área clínica,Não aplicável

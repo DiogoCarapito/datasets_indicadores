@@ -57,11 +57,9 @@ Unidade de medida,%
 Output,Proporção de DDD
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
-Intervalo Aceitável,"Ano de 2022: [0; 5.5]
-Ano de 2023: [0; 5.5]
+Intervalo Esperado,"Ano de 2023: [0; 5.5]
 Ano de 2024: [0; 5.5]"
-Intervalo Esperado,"Ano de 2022: [0; 9]
-Ano de 2023: [0; 9]
+Intervalo Aceitável,"Ano de 2023: [0; 9]
 Ano de 2024: [0; 9]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

@@ -88,11 +88,9 @@ Unidade de medida,€ / UTI
 Output,Despesa com MCDT
 Estado do indicador,Com dados desde Agosto de 2015
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
-Intervalo Aceitável,"Ano de 2022: [0; 12]
-Ano de 2023: [0; 12]
+Intervalo Esperado,"Ano de 2023: [0; 12]
 Ano de 2024: [0; 12]"
-Intervalo Esperado,"Ano de 2022: [0; 18]
-Ano de 2023: [0; 18]
+Intervalo Aceitável,"Ano de 2023: [0; 18]
 Ano de 2024: [0; 18]"
 Tipo de Indicador,Resultado
 Área clínica,Transversal

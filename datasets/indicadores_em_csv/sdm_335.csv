@@ -71,11 +71,9 @@ Unidade de medida,%
 Output,Proporção de consultas
 Estado do indicador,Com dados desde Junho de 2016
 Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
-Intervalo Aceitável,"Ano de 2022: [85; 100]
-Ano de 2023: [85; 100]
+Intervalo Esperado,"Ano de 2023: [85; 100]
 Ano de 2024: [85; 100]"
-Intervalo Esperado,"Ano de 2022: [80; 100]
-Ano de 2023: [80; 100]
+Intervalo Aceitável,"Ano de 2023: [80; 100]
 Ano de 2024: [80; 100]"
 Tipo de Indicador,Resultado
 Área clínica,Não aplicável

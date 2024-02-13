@@ -103,11 +103,9 @@ Unidade de medida,%
 Output,Proporção de Utentes
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
-Intervalo Aceitável,"Ano de 2022: [94; 100]
-Ano de 2023: [94; 100]
+Intervalo Esperado,"Ano de 2023: [94; 100]
 Ano de 2024: [94; 100]"
-Intervalo Esperado,"Ano de 2022: [89; 100]
-Ano de 2023: [89; 100]
+Intervalo Aceitável,"Ano de 2023: [89; 100]
 Ano de 2024: [89; 100]"
 Tipo de Indicador,Processo
 Área clínica,Respiratório

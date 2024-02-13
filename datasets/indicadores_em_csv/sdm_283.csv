@@ -57,11 +57,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Intervenção Comunitária | Saúde Escolar
-Intervalo Aceitável,"Ano de 2022: [40; 100]
-Ano de 2023: [40; 100]
+Intervalo Esperado,"Ano de 2023: [40; 100]
 Ano de 2024: [45; 100]"
-Intervalo Esperado,"Ano de 2022: [10; 100]
-Ano de 2023: [10; 100]
+Intervalo Aceitável,"Ano de 2023: [10; 100]
 Ano de 2024: [10; 100]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Escolar

@@ -86,11 +86,9 @@ Unidade de medida,%
 Output,Proporção de recém-nascidos
 Estado do indicador,Com dados desde Janeiro de 2017
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Reprodutiva
-Intervalo Aceitável,"Ano de 2022: [0; 3]
-Ano de 2023: [0; 3]
+Intervalo Esperado,"Ano de 2023: [0; 3]
 Ano de 2024: [0; 3]"
-Intervalo Esperado,"Ano de 2022: [0; 5]
-Ano de 2023: [0; 5]
+Intervalo Aceitável,"Ano de 2023: [0; 5]
 Ano de 2024: [0; 10]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Saúde Materna

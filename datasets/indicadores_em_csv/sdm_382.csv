@@ -13,6 +13,24 @@ Contagem de utentes em que a expressão [A e B] é verdadeira:
 A. Todas as condições enunciadas para o denominador.
 B. Com diagnóstico de Diabetes Mellitus (rubricas da ICPC-2 T89 ou T90), registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
 DENOMINADOR (BB):
+Válido para indicadores com data de referência igual ou superior a janeiro 2024.
+Contagem de utentes em que a expressão [A e B e C e (D ou (E e F) ou (G e H) ou I)] é verdadeira:
+A. Com [
+inscrição ativa
+] na unidade de saúde na data de referência do indicador.
+B. Utente que completa 18 ou mais anos de idade durante o período em análise (ver alínea F de OBSERVAÇÕES GERAIS).
+C. Com pelo menos uma consulta médica presencial nos últimos 12 meses (ver alíneas A e F de OBSERVAÇÕES GERAIS).
+D. Com diagnóstico de Diabetes Mellitus (rubricas da ICPC-2 T89 ou T90) registado na lista de problemas, com o estado de ""ativo"", na data de referência do indicador.
+E. Com pelo menos um medicamento dispensado e faturado do tipo ""antidiabético insulínico ou não insulínico"", excepto a ""metformina"", a ""dapagliflozina"" ou a ""empagliflozina"", prescrito na unidade funcional de inscrição do utente. Ver alíneas B e K de OBSERVAÇÕES GERAIS.
+F. Sem nenhum dos diagnósticos codificado como ""ativo"" na lista de problemas, na data de referência do indicador, entre aqueles que estão a seguir indicados (ver alínea F de OBSERVAÇÕES GERAIS):
+- Doença endócrina/metabólica/nutricional outra (T99).
+G. Com pelo menos um medicamento dispensado e faturado com DCI ""metformina"", prescrito na unidade funcional de inscrição do utente.
+H. Sem nenhum dos diagnósticos codificado como ""ativo"" na lista de problemas, na data de referência do indicador, entre aqueles que estão a seguir indicados (ver alínea F de OBSERVAÇÕES GERAIS):
+- Obesidade (T82);
+- Excesso de peso (T83);
+- Doença endócrina/metabólica/nutricional outra (T99).
+I. Com pelo menos um medicamento dispensado e faturado com DCI ""dapagliflozina"" ou ""empagliflozina"", prescrito na unidade funcional de inscrição do utente, em utente sem o diagnóstico de insuficiência cardíaca congestiva com fração de ejeção reduzida (código ICPC-2 ""insuficiência cardíaca"" - K77) nem com o diagnóstico de insuficiência renal crónica (código ICPC-2 ""outra doença urinária"" - U99).
+DENOMINADOR (BB):
 Válido para indicadores com data de referência igual ou superior a janeiro 2021.
 Contagem de utentes em que a expressão [A e B e C e (D ou (E e F) ou (G e H) ou I ou J)] é verdadeira:
 A. Com [
@@ -90,11 +108,9 @@ Unidade de medida,%
 Output,Proporção de Utentes
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
-Intervalo Aceitável,"Ano de 2022: [98.7; 100]
-Ano de 2023: [98.7; 100]
+Intervalo Esperado,"Ano de 2023: [98.7; 100]
 Ano de 2024: [98.7; 100]"
-Intervalo Esperado,"Ano de 2022: [97; 100]
-Ano de 2023: [97; 100]
+Intervalo Aceitável,"Ano de 2023: [97; 100]
 Ano de 2024: [95; 100]"
 Tipo de Indicador,Processo
 Área clínica,Respiratório

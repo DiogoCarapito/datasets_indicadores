@@ -52,11 +52,9 @@ Unidade de medida,%
 Output,Proporção de visitas domiciliárias
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Acesso | Distribuição da Atividade
-Intervalo Aceitável,"Ano de 2022: [10; 21]
-Ano de 2023: [10; 21]
+Intervalo Esperado,"Ano de 2023: [10; 21]
 Ano de 2024: [10; 21]"
-Intervalo Esperado,"Ano de 2022: [6; 28]
-Ano de 2023: [6; 28]
+Intervalo Aceitável,"Ano de 2023: [6; 28]
 Ano de 2024: [5; 28]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

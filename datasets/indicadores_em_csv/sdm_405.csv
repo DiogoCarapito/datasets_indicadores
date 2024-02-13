@@ -54,11 +54,9 @@ Unidade de medida,%
 Output,Proporção de consultas
 Estado do indicador,Com dados desde Fevereiro de 2018
 Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
-Intervalo Aceitável,"Ano de 2022: [0; 0.5]
-Ano de 2023: [0; 0.5]
+Intervalo Esperado,"Ano de 2023: [0; 0.5]
 Ano de 2024: [0; 0.5]"
-Intervalo Esperado,"Ano de 2022: [0; 2]
-Ano de 2023: [0; 2]
+Intervalo Aceitável,"Ano de 2023: [0; 2]
 Ano de 2024: [0; 2]"
 Tipo de Indicador,Processo
 Área clínica,Não aplicável

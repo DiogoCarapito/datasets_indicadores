@@ -59,11 +59,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2018
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Saúde Mental
-Intervalo Aceitável,"Ano de 2022: [70; 100]
-Ano de 2023: [70; 100]
+Intervalo Esperado,"Ano de 2023: [70; 100]
 Ano de 2024: [70; 100]"
-Intervalo Esperado,"Ano de 2022: [25; 100]
-Ano de 2023: [25; 100]
+Intervalo Aceitável,"Ano de 2023: [25; 100]
 Ano de 2024: [25; 100]"
 Tipo de Indicador,Resultado
 Área clínica,Saúde Mental

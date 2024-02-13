@@ -41,11 +41,9 @@ Unidade de medida,€ / UTE
 Output,Preço médio por utente
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
-Intervalo Aceitável,"Ano de 2022: [60; 350]
-Ano de 2023: [60; 350]
+Intervalo Esperado,"Ano de 2023: [60; 350]
 Ano de 2024: [60; 350]"
-Intervalo Esperado,"Ano de 2022: [60; 420]
-Ano de 2023: [60; 420]
+Intervalo Aceitável,"Ano de 2023: [60; 420]
 Ano de 2024: [60; 450]"
 Tipo de Indicador,Processo
 Área clínica,Diabetes Mellitus

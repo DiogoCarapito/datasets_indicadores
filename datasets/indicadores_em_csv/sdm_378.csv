@@ -61,11 +61,9 @@ Unidade de medida,%
 Output,Proporção de PVP
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
-Intervalo Aceitável,"Ano de 2022: [0; 0.4]
-Ano de 2023: [0; 0.4]
+Intervalo Esperado,"Ano de 2023: [0; 0.4]
 Ano de 2024: [0; 0.4]"
-Intervalo Esperado,"Ano de 2022: [0; 1]
-Ano de 2023: [0; 1]
+Intervalo Aceitável,"Ano de 2023: [0; 1]
 Ano de 2024: [0; 1]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

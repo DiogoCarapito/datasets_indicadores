@@ -664,7 +664,7 @@ Automático
 --
 53
 393.CALC.INDIC
-Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+Data de recolha das variáveis do PAUF para o sistema de BI que permite calcular 
          os indicadores
 Data no formato dd-mm-yyyy
 Sim
@@ -839,7 +839,7 @@ Exemplo de Cálculo
 amarelo
 campos de preenchimento pela 
     equipa)
-Unidade funcional que já preencheu o RAUF relativamente ao ano de 
+Unidade funcional que já preencheu o PAUF relativamente ao ano de 
     2018.
 Data de referência do indicador a ser calculado: dezembro de 2018.
 Data de recolha das variáveis: 05-01-2019
@@ -1112,7 +1112,7 @@ Para que um critério XX seja contabilizado, a variável [393.XX.ELEG] deve ser
 6
 46
 393.CALC.INDIC
-Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+Data de recolha das variáveis do PAUF para o sistema de BI que permite calcular 
          os indicadores
 05-01-2019
 47
@@ -1135,7 +1135,7 @@ Assim, a unidade funcional
          execução em todos os itens definidos na metodologia de avaliação.
 Obtém 2 pontos como resultado no indicador (score)."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
-- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- O resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
 - O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
@@ -1143,8 +1143,8 @@ Fórmula,Aplicação de checklist
 Unidade de medida,Score
 Output,Com dados desde Dezembro de 2017
 Área | Subárea | Dimensão,Formação | Formação Interna | Formação da Equipa Multiprofissional
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

@@ -111,11 +111,9 @@ Fórmula,AA / BB
 Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Dezembro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
-Intervalo Aceitável,"Ano de 2022: [0.43; 1]
-Ano de 2023: [0.43; 1]
+Intervalo Esperado,"Ano de 2023: [0.43; 1]
 Ano de 2024: [0.43; 1]"
-Intervalo Esperado,"Ano de 2022: [0.3; 1]
-Ano de 2023: [0.3; 1]
+Intervalo Aceitável,"Ano de 2023: [0.3; 1]
 Ano de 2024: [0.3; 1]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Materna

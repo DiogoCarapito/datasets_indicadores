@@ -341,12 +341,10 @@ Fórmula,EE / DD x 100.000
 Unidade de medida,por 100.000
 Output,Taxa internamento (por 100.000 residentes por ano)
 Estado do indicador,Com dados desde Setembro de 2016
-Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Cardiovasculares
-Intervalo Aceitável,"Ano de 2022: [0; 150]
-Ano de 2023: [0; 150]
+Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Multimorbilidade e Outros Tipos de Doenças
+Intervalo Esperado,"Ano de 2023: [0; 150]
 Ano de 2024: [0; 150]"
-Intervalo Esperado,"Ano de 2022: [0; 230]
-Ano de 2023: [0; 230]
+Intervalo Aceitável,"Ano de 2023: [0; 230]
 Ano de 2024: [0; 230]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Cardiovascular

@@ -120,12 +120,10 @@ Fórmula,EE / DD x 100
 Unidade de medida,por 100
 Output,Taxa ajustada
 Estado do indicador,Com dados desde Dezembro de 2016
-Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [0; 0.2]
-Ano de 2023: [0; 0.2]
+Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
+Intervalo Esperado,"Ano de 2023: [0; 0.2]
 Ano de 2024: [0; 0.2]"
-Intervalo Esperado,"Ano de 2022: [0; 0.3]
-Ano de 2023: [0; 0.3]
+Intervalo Aceitável,"Ano de 2023: [0; 0.3]
 Ano de 2024: [0; 0.3]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Não aplicável

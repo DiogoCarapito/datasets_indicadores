@@ -28,11 +28,9 @@ Unidade de medida,DIA / UTE
 Output,Média de dias
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
-Intervalo Aceitável,"Ano de 2022: [30; 120]
-Ano de 2023: [30; 120]
+Intervalo Esperado,"Ano de 2023: [30; 120]
 Ano de 2024: [30; 120]"
-Intervalo Esperado,"Ano de 2022: [15; 150]
-Ano de 2023: [15; 150]
+Intervalo Aceitável,"Ano de 2023: [15; 150]
 Ano de 2024: [15; 150]"
 Tipo de Indicador,Estrutura
 Área clínica,Não aplicável

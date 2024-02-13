@@ -34,11 +34,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doença Crónica
-Intervalo Aceitável,"Ano de 2022: [72; 100]
-Ano de 2023: [72; 100]
+Intervalo Esperado,"Ano de 2023: [72; 100]
 Ano de 2024: [72; 100]"
-Intervalo Esperado,"Ano de 2022: [35; 100]
-Ano de 2023: [35; 100]
+Intervalo Aceitável,"Ano de 2023: [35; 100]
 Ano de 2024: [35; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

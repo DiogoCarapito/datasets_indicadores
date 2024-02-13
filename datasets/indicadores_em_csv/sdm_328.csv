@@ -75,11 +75,9 @@ Unidade de medida,por 100.000
 Output,Taxa internamento (por 100.000 residentes por ano)
 Estado do indicador,Com dados desde Dezembro de 2013
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [200; 850]
-Ano de 2023: [200; 850]
+Intervalo Esperado,"Ano de 2023: [200; 850]
 Ano de 2024: [200; 850]"
-Intervalo Esperado,"Ano de 2022: [200; 1000]
-Ano de 2023: [200; 1000]
+Intervalo Aceitável,"Ano de 2023: [200; 1000]
 Ano de 2024: [200; 1000]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Transversal

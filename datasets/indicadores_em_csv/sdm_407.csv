@@ -61,11 +61,9 @@ Unidade de medida,%
 Output,Rácio de despesas
 Estado do indicador,Com dados desde Dezembro de 2017
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [0; 9]
-Ano de 2023: [0; 9]
+Intervalo Esperado,"Ano de 2023: [0; 9]
 Ano de 2024: [0; 9]"
-Intervalo Esperado,"Ano de 2022: [0; 14]
-Ano de 2023: [0; 14]
+Intervalo Aceitável,"Ano de 2023: [0; 14]
 Ano de 2024: [0; 14]"
 Tipo de Indicador,Processo
 Área clínica,Diabetes Mellitus

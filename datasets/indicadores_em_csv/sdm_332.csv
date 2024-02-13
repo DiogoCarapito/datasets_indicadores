@@ -48,11 +48,9 @@ Unidade de medida,%
 Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2017
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,"Ano de 2022: [95; 100]
-Ano de 2023: [95; 100]
+Intervalo Esperado,"Ano de 2023: [95; 100]
 Ano de 2024: [95; 100]"
-Intervalo Esperado,"Ano de 2022: [85; 100]
-Ano de 2023: [85; 100]
+Intervalo Aceitável,"Ano de 2023: [85; 100]
 Ano de 2024: [85; 100]"
 Tipo de Indicador,Estrutura
 Área clínica,Não aplicável

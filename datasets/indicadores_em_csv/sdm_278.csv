@@ -37,11 +37,9 @@ Unidade de medida,%
 Output,Proporção de embalagens
 Estado do indicador,Com dados desde Junho de 2014
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
-Intervalo Aceitável,"Ano de 2022: [66; 80]
-Ano de 2023: [66; 80]
+Intervalo Esperado,"Ano de 2023: [66; 80]
 Ano de 2024: [66; 80]"
-Intervalo Esperado,"Ano de 2022: [60; 90]
-Ano de 2023: [60; 90]
+Intervalo Aceitável,"Ano de 2023: [60; 90]
 Ano de 2024: [60; 90]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

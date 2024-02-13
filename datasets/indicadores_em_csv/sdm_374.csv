@@ -194,11 +194,9 @@ Unidade de medida,%
 Output,Taxa internamento (por 100 utentes com asma/DPOC por ano)
 Estado do indicador,Com dados desde Janeiro de 2017
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Reabilitação
-Intervalo Aceitável,"Ano de 2022: [0; 1.6]
-Ano de 2023: [0; 1.6]
+Intervalo Esperado,"Ano de 2023: [0; 1.6]
 Ano de 2024: [0; 1.2]"
-Intervalo Esperado,"Ano de 2022: [0; 3.5]
-Ano de 2023: [0; 3.5]
+Intervalo Aceitável,"Ano de 2023: [0; 3.5]
 Ano de 2024: [0; 3.5]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Respiratório

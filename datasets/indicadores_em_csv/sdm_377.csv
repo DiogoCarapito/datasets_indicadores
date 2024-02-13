@@ -51,11 +51,9 @@ Unidade de medida,%
 Output,Proporção de úlceras
 Estado do indicador,Com dados desde Janeiro de 2018
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | ECCI
-Intervalo Aceitável,"Ano de 2022: [45; 100]
-Ano de 2023: [45; 100]
+Intervalo Esperado,"Ano de 2023: [45; 100]
 Ano de 2024: [45; 100]"
-Intervalo Esperado,"Ano de 2022: [20; 100]
-Ano de 2023: [20; 100]
+Intervalo Aceitável,"Ano de 2023: [20; 100]
 Ano de 2024: [20; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

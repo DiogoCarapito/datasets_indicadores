@@ -55,11 +55,9 @@ Unidade de medida,%
 Output,Proporção de utentes com Diabetes Mellitus
 Estado do indicador,Com dados desde Junho de 2014
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
-Intervalo Aceitável,"Ano de 2022: [70; 100]
-Ano de 2023: [70; 100]
+Intervalo Esperado,"Ano de 2023: [70; 100]
 Ano de 2024: [70; 100]"
-Intervalo Esperado,"Ano de 2022: [55; 100]
-Ano de 2023: [55; 100]
+Intervalo Aceitável,"Ano de 2023: [55; 100]
 Ano de 2024: [50; 100]"
 Tipo de Indicador,Processo
 Área clínica,Diabetes Mellitus

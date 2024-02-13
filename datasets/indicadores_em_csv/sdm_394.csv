@@ -86,7 +86,7 @@ Unidade funcional
 --
 7
 394.CALC.INDIC
-Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+Data de recolha das variáveis do PAUF para o sistema de BI que permite calcular 
          os indicadores
 Data no formato dd-mm-yyyy
 Sim
@@ -260,7 +260,7 @@ Exemplo de Cálculo
 amarelo
 campos de preenchimento pela 
     equipa)
-Unidade funcional que já preencheu o RAUF relativamente ao ano de 
+Unidade funcional que já preencheu o PAUF relativamente ao ano de 
     2017.
 Data de referência do indicador a ser calculado: dezembro de 2017.
 Data de recolha das variáveis: 05-01-2018
@@ -297,7 +297,7 @@ Nº de internos de medicina que a quem foi formalmente entregue e com quem foi
 2
 46
 394.CALC.INDIC
-Data de recolha das variáveis do RAUF para o sistema de BI que permite calcular 
+Data de recolha das variáveis do PAUF para o sistema de BI que permite calcular 
          os indicadores
 05-01-2018
 47
@@ -321,7 +321,7 @@ Assim, a unidade funcional cumpre todos os requisitos pré-definidos
     ou discutiu formalmente com todos.
 Obtém 1 ponto como resultado no indicador (score)."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
-- O resultado do indicador é recolhido mensalmente a partir do RAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
+- O resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
 - O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS."
@@ -329,8 +329,8 @@ Fórmula,Aplicação de checklist
 Unidade de medida,Score
 Output,Com dados desde Dezembro de 2017
 Área | Subárea | Dimensão,Formação | Formação Interna | Formação de Internos e Alunos
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

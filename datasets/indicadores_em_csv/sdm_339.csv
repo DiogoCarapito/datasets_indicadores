@@ -125,11 +125,9 @@ Unidade de medida,por 100
 Output,Taxa ajustada
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
-Intervalo Aceitável,"Ano de 2022: [0; 47]
-Ano de 2023: [0; 47]
+Intervalo Esperado,"Ano de 2023: [0; 47]
 Ano de 2024: [0; 50]"
-Intervalo Esperado,"Ano de 2022: [0; 63]
-Ano de 2023: [0; 63]
+Intervalo Aceitável,"Ano de 2023: [0; 63]
 Ano de 2024: [0; 65]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Não aplicável

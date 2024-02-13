@@ -112,15 +112,15 @@ PP. Registo de [vacina contra infeção por Pneumococcus] com estado [Imunizado]
 [PNEUMOCOCUS]
 ).
 QQ.
-Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
 : Nascido antes de 1 de janeiro de 2020.
 RR.
-Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
 : Inoculação da 3ª dose (ou superior) de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] até à data do 2º aniversário, com registo até à data de referência do indicador (ver vacinas equivalentes com código
 [NEISS_MEN_B]
 ).
 SS.
-Válido para indicadores com data de referência igual ou superior a janeiro de 2014.
+Válido para indicadores com data de referência igual ou superior a janeiro de 2024.
 : Registo de [Vacina contra doença invasiva por Neisseria meningitidis do grupo B] com estado [Imunizado] ou [Contraindicado], até à data de referência do indicador (ver vacinas equivalentes com código
 [NEISS_MEN_B]
 ).
@@ -153,8 +153,8 @@ Unidade de medida,%
 Output,Proporção de crianças
 Estado do indicador,Com dados desde Março de 2013
 Área | Subárea | Dimensão,---
-Intervalo Aceitável,---
 Intervalo Esperado,---
+Intervalo Aceitável,---
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil
 Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado

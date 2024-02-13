@@ -1343,11 +1343,9 @@ Fórmula,(Somatório (Cc)) / (Somatório (Etotal))
 Unidade de medida,Índice (escala valores entre 0 e aproximadamente 1)
 Output,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Acesso | Cobertura ou Utilização
-Intervalo Aceitável,"Ano de 2022: [0.76; 2]
-Ano de 2023: [0.76; 2]
+Intervalo Esperado,"Ano de 2023: [0.76; 2]
 Ano de 2024: [0.76; 2]"
-Intervalo Esperado,"Ano de 2022: [0.65; 2]
-Ano de 2023: [0.65; 2]
+Intervalo Aceitável,"Ano de 2023: [0.65; 2]
 Ano de 2024: [0.6; 2]"
 Tipo de Indicador,Processo
 Área clínica,Transversal

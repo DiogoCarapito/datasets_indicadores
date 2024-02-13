@@ -273,9 +273,9 @@ Fórmula,SI1_T / BB
 Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Dezembro de 2021
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
-Intervalo Aceitável,"Ano de 2023: [0.93; 1]
+Intervalo Esperado,"Ano de 2023: [0.93; 1]
 Ano de 2024: [0.93; 1]"
-Intervalo Esperado,"Ano de 2023: [0.82; 1]
+Intervalo Aceitável,"Ano de 2023: [0.82; 1]
 Ano de 2024: [0.8; 1]"
 Tipo de Indicador,Resultado
 Área clínica,Saúde Infantil e Juvenil

@@ -341,11 +341,9 @@ Unidade de medida,por 100.000
 Output,Taxa internamento (por 100.000 residentes por ano)
 Estado do indicador,Com dados desde Setembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório
-Intervalo Aceitável,"Ano de 2022: [0; 250]
-Ano de 2023: [0; 250]
+Intervalo Esperado,"Ano de 2023: [0; 250]
 Ano de 2024: [0; 250]"
-Intervalo Esperado,"Ano de 2022: [0; 350]
-Ano de 2023: [0; 350]
+Intervalo Aceitável,"Ano de 2023: [0; 350]
 Ano de 2024: [0; 350]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Respiratório

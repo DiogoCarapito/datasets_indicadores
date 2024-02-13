@@ -131,11 +131,9 @@ Unidade de medida,%
 Output,Proporção de agregados familiares
 Estado do indicador,Com dados desde Agosto de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
-Intervalo Aceitável,"Ano de 2022: [45; 100]
-Ano de 2023: [45; 100]
+Intervalo Esperado,"Ano de 2023: [45; 100]
 Ano de 2024: [45; 100]"
-Intervalo Esperado,"Ano de 2022: [5; 100]
-Ano de 2023: [5; 100]
+Intervalo Aceitável,"Ano de 2023: [5; 100]
 Ano de 2024: [5; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
