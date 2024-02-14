@@ -168,7 +168,7 @@ def correcoes_correspondencias(lista_correspondencias):
 
     # correção especial do intervalo aceitavel e esperado
     lista_correspondencias_corrigida = correccao_intervalos(lista_correspondencias)
-    
+
     return lista_correspondencias_corrigida
 
 

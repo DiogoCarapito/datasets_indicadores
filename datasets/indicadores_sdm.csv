@@ -37989,6 +37989,271 @@ O SClínico permite o agendamento e efetivação de consulta.","INDICADOR CALCUL
 - Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
 - Denominador (variável ""registo de [primeira consulta]""): Duração de 12 meses, terminando na data de referência do indicador;
 - Denominador (variável "" Realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área de ""nutrição”): Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Com dados desde Janeiro de 2023,---,---,---,Processo,Transversal,Utentes inscritos à data de referência do indicador,5 dias
+482,2024.482.01,Avaliação da Satisfação dos Utentes,Monitorização da Satisfação dos Utentes dos Cuidados de Saúde Primários.,Monitorizar a implementação de questionários de satisfação de utentes e avaliar o grau de satisfação dos utentes dos cuidados de saúde primários.,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional divulga e/ou promove a auscultação dos utentes sobre a sua satisfação com os serviços prestados, o nível de satisfação obtido e a discussão dos resultados obtidos.","A avaliação da satisfação dos utentes é uma ferramenta importante de gestão quer das UF, quer da ULS. A implementação de questionários de satisfação é da responsabilidade da ULS, no entanto, a UF
+é responsável pela sua divulgação, pela análise e discussão de resultados, implementação de medidas de melhoria e pela divulgação dos resultados.
+FÓRMULA:
+A fórmula de cálculo deste score é baseada numa
+checklist
+de autopreenchimento pela UF, entrando em linha de conta com 
+    os seguintes aspetos:
+1. A existência de evidências de monitorização da satisfação de utentes e respectiva divulgação;
+2. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa 
+    monitorização;
+3. A existência de uma ponderação para cada área de avaliação.
+A fórmula de cálculo é a seguinte:
+Resultado (em percentagem) = 100 x (A01 + A02 + A03 + A04 + A05) / 100
+Score (numa escala contínua de 0 a 2) = 2 x (A01 + A02 + A03 + A04 + A05) / 100
+CHECKLIST
+DE AUTOPREENCHIMENTO PARA AS UNIDADES FUNCIONAIS
+Para cada item da
+checklist
+a unidade deve ter a possibilidade de submeter evidências que permitam ao conselho de administração da respetiva ULS proceder à respetiva validação.
+COD
+Área de Avaliação
+Critérios de Cumprimento
+Observações
+Valorização (%)
+Validade
+A01
+A unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF
+Valoriza-se 10% caso existam evidências de que a unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF.
+É cada vez mais importante que a prestação de cuidados satisfaça as necessidades subjetivas dos doentes utilizadores. A avaliação da satisfação dos utilizadores, apara além do reconhecido valor a adicionar a outras medidas de resultado como o estado de saúde ou a qualidade de vida, é também hoje considerada uma componente indispensável para a avaliação da qualidade dos cuidados. Existe mesmo evidência da sua correlação com os próprios resultados clínicos. Uma avaliação da satisfação dos utilizadores permite identificar o que pode ser melhorado nos serviços de cuidados de saúde, tendo em vista as necessidades ou expetativas não atendidas dos utilizadores, ou quais são as medidas ou estratégias adequadas para melhorar a qualidade dos serviços e cuidados de saúde.
+Esta perceção de valor da avaliação da satisfação dos utentes por parte de cada UF, deve passar para os utentes e promover a participação continua dos mesmos na avaliação.
+Desta forma, as UF, devem divulgar em local próprio a existência e a própria política de avaliação da satisfação dos utentes implementada na UF.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+10
+Inicio: 01-01-2024;
+Fim: --
+A02
+A entidade competente implementou a recolha e avaliação da satisfação dos utentes
+Valoriza-se 10% caso existam evidências de que a unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF.
+No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
+Nas USF e UCSP, para que este critério seja considerado cumprido é necessário ter recolhido, nos últimos 12 meses, pelo menos 150 questionários realizados a utentes, distribuídos igualmente pelas listas de cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).
+No caso das UCC, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 150 questionários realizados a utentes, envolvendo equitativamente utentes nas principais atividades realizadas na UCC.
+Nas USP, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 100 questionários realizados a utentes, distribuídos por cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).
+Os questionários para serem considerados válidos, deverão ser aplicados pelas ULS ou entidade nacional (por exemplo ACSS, DE-SNS ou SPMS). A aplicação pode ser feita de forma presencial, ou não presencial, por exemplo através do envio de SMS ou email aos utentes após a utilização.
+
+O questionário de satisfação deverá ter no mínimo um total de 5 questões, escolhidas do banco de questões disponíveis neste BI. A especificação do número mínimo de questões por dimensão está especificada junto do banco de questões. 
+O questionário final a aplicar deve estar aprovado pelo respetivo conselho de administração.
+No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+10
+Inicio: 01-01-2024;
+Fim: --
+A03
+Satisfação dos utentes
+O resultado é média aritmética do resultado dos inquéritos de satisfação respondidos, calculado tendo por base a ponderação simples das questões.
+A valorização é a seguinte, dependente da média apurada:
+Média de Satisfação %
+Valorização
+< 50 %
+0
+>= 50% e < 75%
+Direta proporção do resultado médio da satisfação apurado na totalidade dos questionários, até ao máximo de 30
+>= 50% e < 75%
+60
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+Máximo 60
+Inicio: 01-01-2024;
+Fim: --
+A04
+A unidade funcional analisou as sugestões
+Para que este critério seja considerado cumprido é necessário ter discutido o relatório com análise descritiva das sugestões entregueses (realizado pela ULS) em Conselho Geral.
+Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
+10
+Inicio: 01-01-2024;
+Fim: --
+A05
+Divulgação dos resultados do questionário de satisfação
+Para que este critério seja considerado cumprido é necessário existir evidência da divulgação dos resultados da avaliação da satisfação dos utentes em local acessível aos utentes.
+Critério aplicável a todos os tipos de unidades funcionais dos CSP.
+10
+Inicio: 01-01-2024;
+Fim: --","Construção do Questionário de Satisfação dos utentes dos CSP.
+Cada unidade funcional seleciona no
+mínimo 5 questões
+, não contabilizando com o perfil dos utentes nem com a pergunta de resposta aberta.
+1-	Incluir do COD S01
+2-	Pelo menos 1 questão do COD S02
+3-	Pelo menos 2 questões do COD S03
+4-	Pelo menos 1 questão do COD S04
+5-	Pelo menos 1 questão do COD S05
+6-	Incluir 1 questão de resposta aberta (COD S06)
+7-	Podem ser incluídas outras questões no banco de questões.
+COD
+Área da Questão
+Questões
+Número de Questões a selecionar
+S01
+Perfil do Utente
+Caso entenda, poderá preencher os dados seguintes que servem para nos ajudar a perceber um pouco melhor as características dos utentes que usaram os serviços.
+Ano de nascimento: ______
+Sexo:
+1 - Fem.
+2 - Masc.
+Escolaridade (anos): _____
+Profissão: _____________
+1
+S02
+Questões de Caracter Geral
+Questão 1
+Como avalia a sua satisfação global em relação à [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+(Utilizando uma escala de 1 a 10, em que 1 corresponde a ""muito insatisfeito"" e 10 a ""muito satisfeito"")
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 2
+Como avalia sua satisfação com a [NOME ABREVIADO DA UNIDADE DE SAÚDE], relativamente há 1 ano atrás.
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 3
+Recomendaria a [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos seus familiares e amigos?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+1
+S03
+Questões de Avaliação da Satisfação na área do acesso
+Questão 4
+Como avalia a facilidade em contactar telefonicamente com a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito fácil
+2 - Fácil
+3 - Difícil
+4 - Muito difícil
+5 - Não sei / Não respondo
+Questão 5
+Como avalia a sua satisfação com o horário proposto pela [NOME ABREVIADO DA UNIDADE DE SAÚDE] para os serviços que lhe são prestados?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 6
+Como avalia a resposta da [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos utilizadores com necessidades especiais (por exemplo, de crianças, grávidas, idosos e portadores de deficiência)?
+1 - Muito boa
+2 - Boa
+3 - Razoável
+4 - Inexistente
+5 - Não sei / Não respondo
+Questão 7
+Como classifica a forma como a [NOME ABREVIADO DA UNIDADE DE SAÚDE] divulga os tipos de cuidados que oferece (por exemplo vacinação, consultas médicas, consultas de enfermagem, rastreio de certos tipos de cancro, cuidados a grávidas, cuidados a crianças e domicílios)?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+Questão 8
+Como avalia a sua satisfação em relação ao tempo que decorre até ao agendamento e realização das consultas por si solicitadas?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 9
+Como avalia a sua satisfação em relação à pontualidade com que foi atendido pelos serviços clínicos?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+2
+S04
+Avaliação da Satisfação em Relação ao Atendimento do Secretariado Clínico
+Questão 10
+Como avalia sua satisfação com a [NOME ABREVIADO DA UNIDADE DE SAÚDE], o atendimento no secretariado clínico.
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 11
+Como classifica a informação fornecida pelo secretariado clínico da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito clara
+2 - Clara
+3 - Pouco clara
+4 - Confusa
+5 - Não sei / Não respondo
+1
+S05
+Avaliação da Satisfação em Relação ao Atendimento do Profissional de Saúde
+Questão 12
+Como avalia a sua satisfação relativamente ao tempo e atenção que o profissional de saúde (médico, enfermeiro ou outro) dedicou ao seu atendimento?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 13
+Como avalia a sua satisfação relativamente à qualidade dos cuidados clínicos recebidos (prestados por médico, enfermeiros ou outro)?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 14
+Como classifica a informação clínica que lhe foi fornecida sobre os cuidados a ter com a sua saúde?
+1 - Muito útil
+2 - Útil
+3 - Pouco útil
+4 - Inútil
+5 - Não sei / Não respondo
+Questão 15
+Como avalia a sua satisfação em relação à forma como foi envolvido(a) nas decisões sobre os cuidados a ter com a sua saúde?
+1 - Muito satisfeito
+2 - Satisfeito
+3 - Pouco satisfeito
+4 - Nada satisfeito
+5 - Não sei / Não respondo
+Questão 16
+Como avalia o modo como os profissionais de saúde zelam pela sua privacidade?
+1 - Muito bom
+2 - Bom
+3 - Razoável
+4 - Mau
+5 - Não sei / Não respondo
+Questão 17
+Se foi atendido por um interno de medicina geral e familiar, como avalia a sua satisfação com o atendimento?
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+1
+S05
+Questões abertas
+Questão 18
+Na sua opinião, como poderíamos melhorar os nossos serviços?
+1 - ______________________________________________________________
+2 - ______________________________________________________________
+3 - ______________________________________________________________
+1",,,2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,---,---,---,Resultado,Não aplicável,Não aplicável,90 dias
 49,2013.049.01,"Proporção utentes c/ DPOC, c/ FeV1 em 3 anos","Proporção de utentes com DPOC, com pelo menos um registo de avaliação de FeV1 nos últimos 3 anos","Monitorizar o programa de acompanhamento de doenças respiratórias. Parâmetro ""FeV1 nos doentes cm DPOC"".","Indicador que exprime a proporção de doentes com DPOC, com pelo menos um registo de FeV1 nos últimos 3 anos.
 Numerador: Contagem de doentes com DPOC e com pelo menos um registo de FeV1 nos últimos 3 anos.
 Denominador: Contagem de doentes com DPOC.","NUMERADOR (AA):
