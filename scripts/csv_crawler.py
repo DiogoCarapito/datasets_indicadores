@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import re
 
 
 def num_denom_paragraph(text):
@@ -7,6 +8,43 @@ def num_denom_paragraph(text):
     return text.replace(". Numerador", ".\nNumerador").replace(
         ". Denominador", ".\nDenominador"
     )
+
+
+def separar_ano_intervalos(df):
+    # Nome das colunas que são fonte de informação dos intevalos
+    colunas = ["Intervalo Aceitável", "Intervalo Esperado"]
+
+    # Etiquetas para depois colocar nas tabelas
+    etiquetas = ["aceitavel", "esperado"]
+
+    # percorrer todas as linhas (indicadores)
+    for row in df.to_dict("records"):
+        # alternar entree aceitavel e esperdo
+        for coluna, etiqueta in zip(colunas, etiquetas):
+            # primeira descodificação: saber que anos existem com re
+            anos = re.findall(r"Ano de (\d{4}):", row[coluna])
+
+            # criar uma coluna com os anos extraidos
+            df["anos_disponiveis"] = ", ".join(anos)
+
+            # ir ano a ano
+            for ano in anos:
+                # segunda descodificação: tirar o intervalo com outra re
+                intervalo = re.search(f"Ano de {ano}: \[([^\]]+)\]", row[coluna]).group(
+                    1
+                )
+
+                # criar uma lista
+                intervalo_lista = intervalo.split("; ")
+
+                # crair uma expressão em texto e gravar numa coluna
+                df[f"{etiqueta}_{ano}"] = f"[{intervalo}]"
+
+                # criar uma coluna para min e outra para max
+                df[f"min_{etiqueta}_{ano}"] = intervalo_lista[0]  # min
+                df[f"max_{etiqueta}_{ano}"] = intervalo_lista[1]  # max
+
+    return df
 
 
 def csv_crawler():
@@ -59,6 +97,9 @@ def csv_crawler():
     df["Descrição do Indicador"] = df["Descrição do Indicador"].apply(
         num_denom_paragraph
     )
+
+    # adicionar novas colunas com os intervalos aceitaveis e esprados com os valores minimos e máximos por ano
+    df = separar_ano_intervalos(df)
 
     # save the dataframe as csv in datasets folder
     df.to_csv("./datasets/indicadores_sdm.csv", index=True)

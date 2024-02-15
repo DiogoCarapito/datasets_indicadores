@@ -18,7 +18,7 @@ from utils.utils import sdm_max
 
 # @click.command()
 # @click.option("--begin", default=1, help="Initial ID to start scraping")
-# @click.option("--end", default=481, help="Final ID to stop scraping")
+# @click.option("--end", default=482, help="Final ID to stop scraping")
 def sdm_crawler_and_scrapper(begin=1, end=sdm_max()):
     # create a list of ids to scrape
     # end + 1 because the range function doesn't include the last number
