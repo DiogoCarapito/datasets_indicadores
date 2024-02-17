@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import re
+import numpy as np
 
 
 def num_denom_paragraph(text):
@@ -17,32 +18,67 @@ def separar_ano_intervalos(df):
     # Etiquetas para depois colocar nas tabelas
     etiquetas = ["aceitavel", "esperado"]
 
+    # anos =  np.unique(np.concatenate(df["Intervalo Aceitável"].str.findall(r"Ano de (\d{4}):").values))
+
+    # encontrar os anos existentes no texto das colunas de "Intervalo Aceitável" e "Intervalo Esperado"
+    matches = []
+    for col in colunas:
+        matches.extend(df[col].str.findall(r"Ano de (\d{4}):").values)
+    anos = np.unique(np.concatenate(matches)).tolist()
+    print(anos)
+
     # percorrer todas as linhas (indicadores)
-    for row in df.to_dict("records"):
+    for index, row in df.iterrows():
+        # reset placeholders
+        intervalo_texto = ""
+        intervalo_lista = []
+        intervalo = ""
+
         # alternar entree aceitavel e esperdo
         for coluna, etiqueta in zip(colunas, etiquetas):
-            # primeira descodificação: saber que anos existem com re
-            anos = re.findall(r"Ano de (\d{4}):", row[coluna])
+            # reset placeholders
+            intervalo_texto = ""
+            intervalo_lista = []
+            intervalo = ""
 
+            # print(index, row[coluna])
+            # if row[coluna] != "---":
+
+            # primeira descodificação: saber que anos existem com re
+            # anos = re.findall(r"Ano de (\d{4}):", row[coluna])
+
+            # print(index, "TEM info de intervalos!")
             # criar uma coluna com os anos extraidos
             df["anos_disponiveis"] = ", ".join(anos)
 
             # ir ano a ano
             for ano in anos:
                 # segunda descodificação: tirar o intervalo com outra re
-                intervalo = re.search(f"Ano de {ano}: \[([^\]]+)\]", row[coluna]).group(
-                    1
-                )
+                # intervalo = re.search(f"Ano de {ano}: \[([^\]]+)\]", row[coluna]).group(1)
+                match = re.search(f"Ano de {ano}: \[([^\]]+)\]", row[coluna])
+                if match is None:
+                    intervalo = "---"
+                    intervalo_texto = "---"
+                    intervalo_lista = [np.nan, np.nan]
+                else:
+                    # get the interval
+                    intervalo = match.group(1)
 
-                # criar uma lista
-                intervalo_lista = intervalo.split("; ")
+                    # criar uma lista
+                    intervalo_lista = intervalo.split("; ")
+
+                    # criar um texto com o intervalo
+                    intervalo_texto = f"[{intervalo}]"
 
                 # crair uma expressão em texto e gravar numa coluna
-                df[f"{etiqueta}_{ano}"] = f"[{intervalo}]"
+                df.loc[index, f"{etiqueta}_{ano}"] = intervalo_texto
+                # df[f"{etiqueta}_{ano}"] = 0
 
                 # criar uma coluna para min e outra para max
-                df[f"min_{etiqueta}_{ano}"] = intervalo_lista[0]  # min
-                df[f"max_{etiqueta}_{ano}"] = intervalo_lista[1]  # max
+                df.loc[index, f"min_{etiqueta}_{ano}"] = intervalo_lista[0]  # min
+                # df[f"min_{etiqueta}_{ano}"] = 0
+                df.loc[index, f"max_{etiqueta}_{ano}"] = intervalo_lista[1]  # max
+                # df[f"max_{etiqueta}_{ano}"] = 0
 
     return df
 
