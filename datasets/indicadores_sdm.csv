@@ -1063,7 +1063,7 @@ A consulta não pode ficar [pendente]. Deve ser [terminada].
 MEDICINEONE:
 A. Um contacto fica como [domicílio] se o respetivo [Tipo de contacto] foi definido como [domicílio].","INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
 - Numerador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.
-- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.",AA / BB x 1.000,por 1.000,Taxa de consultas domiciliárias (Enf.),Com dados desde Dezembro de 2009,---,---,---,Processo,Transversal,Utentes inscritos em pelo menos um dia do período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
+- Denominador: Duração de 1 a 12 meses. Tem início a 1 de janeiro do ano em curso e termina na data de referência do indicador.",AA / BB x 1.000,por 1.000,Taxa de consultas domiciliárias (Enf.),Descontinuado em Dezembro de 2014,---,---,---,Processo,Transversal,Utentes inscritos em pelo menos um dia do período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
 119,4.33,"Percent. puérperas vigiadas, c/ domicílio enferm.",Percentagem de puérperas vigiadas na UF com visita domiciliária de enfermagem,"Monitorização do programa de vigilância em saúde materna, área dos cuidados domiciliários de enfermagem a puérperas.","Indicador que exprime a proporção de puérperas vigiadas que receberam visita domiciliária de enfermagem.
 Numerador: Contagem de puérperas com pelo menos uma visita domiciliária de enfermagem.
 Denominador: Contagem de puérperas vigiadas em programa de saúde materna.","NUMERADOR (AA):
@@ -9428,7 +9428,11 @@ G. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -9610,7 +9614,11 @@ I. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 J. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 K. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -9682,7 +9690,11 @@ F. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -9740,7 +9752,11 @@ F. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -9869,7 +9885,11 @@ F. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -10295,7 +10315,11 @@ H. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 I. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 J. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -10623,7 +10647,11 @@ I. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 J. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 K. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+L. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -10851,7 +10879,11 @@ G. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+J. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -11078,7 +11110,11 @@ I. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 J. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 K. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+L. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -11308,7 +11344,11 @@ G. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+J. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -11370,7 +11410,11 @@ F. Os residentes são os publicados pelo INE, recolhidos pelo último CENSUS (an
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Coincidente com a data do último CENSUS disponível (igual ou anterior à data de referência do indicador).
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
@@ -17631,7 +17675,11 @@ F. A ponderação de cada utente ao número de meses de inscrição permite ajus
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -17919,7 +17967,11 @@ H. A ponderação de cada utente ao número de meses de inscrição permite ajus
 I. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 J. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+K. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -18066,7 +18118,11 @@ E. A ponderação de cada utente ao número de meses de inscrição permite ajus
 F. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 G. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -18227,7 +18283,11 @@ E. A ponderação de cada utente ao número de meses de inscrição permite ajus
 F. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 G. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -18458,7 +18518,11 @@ E. A ponderação de cada utente ao número de meses de inscrição permite ajus
 F. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 G. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -19026,7 +19090,11 @@ G. A ponderação de cada utente ao número de meses de inscrição permite ajus
 H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+J. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -19456,7 +19524,11 @@ H. A ponderação de cada utente ao número de meses de inscrição permite ajus
 I. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 J. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+K. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -19787,7 +19859,11 @@ F. A ponderação de cada utente ao número de meses de inscrição permite ajus
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -20117,7 +20193,11 @@ H. A ponderação de cada utente ao número de meses de inscrição permite ajus
 I. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 J. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+K. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -20450,7 +20530,11 @@ F. A ponderação de cada utente ao número de meses de inscrição permite ajus
 G. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 H. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+I.O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -20616,7 +20700,11 @@ E. A ponderação de cada utente ao número de meses de inscrição permite ajus
 F. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 G. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+.
+H. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -21230,7 +21318,11 @@ ICD-9-CM:
 8209 - FRACTURA EXPOSTA DO COLO DO FEMUR SOE
 E. Quando a unidade de observação é uma UCC, apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
 F. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
-Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.
+G. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
 - Numerador (variável ""Data de alta do episódio de internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador (variável ""inscrição ativa""): Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador (variável ""idade""): Avaliada na data de referência do indicador.",AA / BB x 100.000,por 100.000,Taxa de internamento (por 100.000 inscritos por ano),Com dados desde Dezembro de 2016,Desempenho | Gestão da Saúde | Saúde do Idoso,"Ano de 2023: [0; 820]
@@ -21458,7 +21550,11 @@ F. A ponderação para o denominador é feita no intervalo [0; 1], em múltiplos
 G. Não existem utentes inscritos nas UCC. São considerados os utentes que tenham [inscrições ativas] SINUS tipo ""1"" e tipo ""2"" (respetivamente ""primeira inscrição"" e ""transferido de uma inscrição primária"") numa das unidades funcionais do ACES a que pertence a UCC. Excluem-se utentes que nos locais de inscrição pertencentes ao ACES, apenas possuam inscrições ""esporádicos"".
 H. Apenas são considerados no denominador os utentes inscritos num dos locais pertencentes ao ACES a que pertence a UCC e residentes numa das freguesias da área de abrangência exclusiva da UCC. Esta parametrização de freguesias de abrangência das UCC é comunicada, definida e atualizada anualmente, em sede de carta de compromisso. Quando um utente reside numa freguesia que seja partilhada por mais do que uma UCC, é contabilizado para o denominador se instiver inscrito num dos códigos RNU de USF ou UCSP (ou unidades afins) relacionados com a UCC em análise. Nas raras situações em que um utente resida numa freguesia partilhada por mais do que uma UCC e esteja inscrito numa unidade funcional não associada com nenhuma das UCC que partilham a referida freguesia, não é contabilizado neste indicador.
 I. A existência de freguesias partilhadas entre UCC diferentes decorreu da reorganização administrativa de limites territoriais das freguesias ocorrida em 2013.
-Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
+Esta questão também influencia os resultados do indicador calculado para ACES que partilham freguesias: ACES de Gaia ou ACES Espinho/Gaia para utentes residentes na ""União das freguesias de Mafamude e Vilar do Paraíso"". Também neste caso a associação dos utentes residentes nesta freguesia partilhada é feita ao ACES que tenha a inscrição do utente. Caso o utente esteja inscrito noutro ACES não é incluído no denominador deste indicador, quando calculado ao nível do ACES.
+J. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE"".
 - Numerador (variável ""Data de alta do episódio de internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Numerador (variável ""Diagnóstico principal""): Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador (variável ""residência na área de abrangência da UCC""): Duração de 12 meses, terminando na data de referência do indicador.
@@ -33862,8 +33958,8 @@ B. O resultado da mamografia pode ser registado quer em formato de texto, quer e
 INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
 - Numerador: Duração de 13 a 24 meses. Tem início a 1 de janeiro do ano N-1 e termina na data de referência do indicador.
 - Denominador: Coincidente com a data de referência do indicador.",AA / BB x 100,%,Proporção de mulheres,Com dados desde Dezembro de 2012,Desempenho | Gestão da Saúde | Saúde do Adulto,"Ano de 2023: [57; 80]
-Ano de 2024: [57; 80]","Ano de 2023: [50; 85]
-Ano de 2024: [50; 85]",Processo,Rastreio Oncológico,Utentes inscritos à data de referência do indicador,30 dias,"2023, 2024",[50; 85],50,85,[50; 85],50,85,[57; 80],57,80,[57; 80],57,80
+Ano de 2024: [57; 100]","Ano de 2023: [50; 85]
+Ano de 2024: [50; 100]",Processo,Rastreio Oncológico,Utentes inscritos à data de referência do indicador,30 dias,"2023, 2024",[50; 85],50,85,[50; 100],50,100,[57; 80],57,80,[57; 100],57,100
 440,2021.440.01,"Proporção Asma +6M, c/ vac. gripe","Proporção de utentes com Asma com idade superior a 6 meses, com a vacina da gripe prescrita ou efetuada nos últimos 12 meses","Monitorização do programa de doenças respiratórias: Parâmetro ""vacina da gripe""","Indicador que exprime a proporção de utentes com a vacina da gripe prescrita nos últimos 12 meses, de entre inscritos com Asma e com idade superior a 6 meses.
 Numerador: Contagem de utentes inscritos com Asma com a vacina da gripe prescrita ou efetuada nos últimos 12 meses.
 Denominador: Contagem de utentes inscritos com Asma e idade superior a 6 meses.","NUMERADOR (AA):
@@ -38255,6 +38351,72 @@ Na sua opinião, como poderíamos melhorar os nossos serviços?
 2 - ______________________________________________________________
 3 - ______________________________________________________________
 1",,,2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,---,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
+483,2024.483.01,Monitorização da avaliação da Satis. Prof.,Monitorização da avaliação da Satisfação dos Profissionais dos Cuidados de Saúde Primários.,"Monitorizar a implementação de questionários de satisfação dos profissionais das unidades funcionais dos cuidados de saúde primários, percentagem de respostas e discussão dos resultados pela unidade funcional.","Este score avalia, para cada ano de contratualização, em que medida a unidade funcional implementou questionários de avaliação da satisfação dos seus profissionais, 
+a taxa de resposta dos profissionais e a discussão dos resultados obtidos.","A avaliação da satisfação dos profissionais é uma ferramenta importante de gestão quer das UF, quer da ULS. 
+A implementação de questionários de satisfação é da responsabilidade da ULS, no entanto, a UF é responsável pela sua divulgação, pela análise e discussão de resultados, implementação de medidas de melhoria e pela divulgação dos resultados.
+FÓRMULA:
+A fórmula de cálculo deste score é baseada numa
+checklist
+de autopreenchimento pela UF, entrando em linha de conta com 
+    os seguintes aspetos:
+1. A existência de evidências de monitorização da satisfação de profissionais e respectiva divulgação entre os profissionais;
+2. A taxa de resposta dos profissionais;
+4. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa 
+    monitorização;
+5. A existência de uma ponderação para cada área de avaliação.
+A fórmula de cálculo é a seguinte:
+Resultado (em percentagem) = 100 x (A01 + A02 + A03) / 100
+Score (numa escala contínua de 0 a 2) = 2 x (A01 + A02 + A03) / 100
+CHECKLIST
+DE AUTOPREENCHIMENTO PARA AS UNIDADES FUNCIONAIS
+Para cada item da
+checklist
+a unidade deve ter a possibilidade de submeter evidências que permitam ao conselho de administração da respetiva ULS proceder à respetiva validação.
+A fórmula de cálculo é a seguinte:
+COD
+Área de Avaliação
+Critérios de Cumprimento
+Observações
+Valorização (%)
+Validade
+A01
+A unidade funcional divulga junto dos seus profissionais a existência e a política de avaliação da satisfação dos profissionais e da sua importância para a melhoria contínua da UF.
+Valoriza-se 20% caso existam evidências de que a unidade funcional divulga junto dos seus profissionais a existência e a política de avaliação da satisfação dos profissionais e da sua importância para a melhoria contínua da UF.
+No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
+Os questionários para serem considerados válidos, poderão ser aplicados pela própria equipa, pelo ACES, ARS ou entidade nacional (por exemplo ACSS).
+Considera-se válida a aplicação do questionário de satisfação especificado neste BI, sem prejuízo das ARS poderem aplicar outro(s) modelo(s) que cumpra(m) a mesma finalidade, aprovado(s) pelo respetivo conselhos diretivos.
+Este critério será excecionado sempre que o questionário de satisfação não possa ser aplicado, com a alegação, por parte da unidade funcional, de que não foi possível a respetiva aplicação por indefinição do processo por parte das entidades competentes, sem prejuízo das próprias unidades funcionais unidades poderem, caso entendam, aplicar um questionário por sua iniciativa, nos termos referidos no parágrafo anterior.
+Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
+20
+Inicio: 01-01-2024;
+Fim: --
+A02
+Os profissionais da UF responde ao questionário de satisfação.
+A UF é valorizada de acordo com as taxas de respostas dos profissionais:
+Percentagem de respostas
+Valorização
+< 50 %
+0
+>= 50% e < 70%
+40
+>= 50% e < 70%
+100
+Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
+	tualização.
+Máximo 40
+Inicio: 01-01-2024;
+Fim: --
+A03
+A unidade funcional analisa os resultados em equipa
+Para que este critério seja considerado cumprido é necessário ter discutido o relatório com análise descritiva das sugestões entregues, em Conselho Geral.
+Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
+40
+Inicio: 01-01-2024;
+Fim: --",,,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas e calculados pelo PAUF.
+- Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
+- O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS/DE-SNS.",2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,---,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
 49,2013.049.01,"Proporção utentes c/ DPOC, c/ FeV1 em 3 anos","Proporção de utentes com DPOC, com pelo menos um registo de avaliação de FeV1 nos últimos 3 anos","Monitorizar o programa de acompanhamento de doenças respiratórias. Parâmetro ""FeV1 nos doentes cm DPOC"".","Indicador que exprime a proporção de doentes com DPOC, com pelo menos um registo de FeV1 nos últimos 3 anos.
 Numerador: Contagem de doentes com DPOC e com pelo menos um registo de FeV1 nos últimos 3 anos.
 Denominador: Contagem de doentes com DPOC.","NUMERADOR (AA):

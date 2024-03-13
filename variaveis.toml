@@ -40,7 +40,7 @@ url_sdm_fim = "&CLUSTERS=S"
 
 # id dos indicadores iniciais e finais para extração automática do sdm
 sdm_indicador_inicial = 1
-sdm_indicador_final = 482
+sdm_indicador_final = 483
 
 # lista de headers do html do sdm
 sdm_headers = [

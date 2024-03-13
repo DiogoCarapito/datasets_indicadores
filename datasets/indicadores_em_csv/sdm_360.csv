@@ -527,7 +527,11 @@ G. A ponderação de cada utente ao número de meses de inscrição permite ajus
 H. Apenas se consideram os episódios de internamento válidos para faturação no âmbito dos GDH.
 I. As regras de cálculo deste indicador, na componente dos diagnósticos válidos para incluir ou excluir utentes, são baseadas nas especificações publicadas pela ""Agency for Healthcare Research and Quality"" na área dos indicadores de qualidade em prevenção, disponíveis online em
 https://www.qualityindicators.ahrq.gov/Modules/PQI_TechSpec_ICD10_v60.aspx
-."
+.
+J. O cálculo deste indicador, depende de registos de diagnósticos de alta hospitalar, cuja codificação, realizada pela ICD10CM-PCS, é efetuada por médicos codificadores em tempo diferido relativamente às altas dos internamentos. Por vezes, em alguns hospitais do SNS, esse processo de codificação ocorre meses após a alta hospitalar. 
+Consequentemente o apuramento dos internamentos, para efeitos de cálculo do numerador do indicador, apenas deve ocorrer quando a taxa de codificação de internamentos, por parte de todos os hospitais do SNS se aproxima de 100%.
+A ACSS reavalia essa taxa de codificação para decidir, anualmente, qual o delay de cálculo que maximiza a qualidade dos resultados deste tipo de indicadores para os CSP.
+Até 2023, o delay considerado era de 36 meses. A partir de 2024, passa a ser de 12 meses."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""internamento""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a alta do internamento.
