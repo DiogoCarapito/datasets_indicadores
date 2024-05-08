@@ -15,7 +15,7 @@ from utils.utils import sdm_max
 @click.command()
 @click.option("--begin", default=1, help="Initial ID to start scraping")
 @click.option("--end", default=sdm_max(), help="Final ID to stop scraping")
-def main(begin=1, end=483):
+def main(begin=1, end=485):
     print("Starting...")
 
     # printing the begin and end values

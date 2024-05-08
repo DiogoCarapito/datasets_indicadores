@@ -41,7 +41,7 @@ Assim, as 6 áreas de atividade em análise neste indicador são as seguintes:
 - Diabetes
 - Hipertensão
 PLANEAMENTO FAMILIAR (PF)
-Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G)]:
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G e H]:
 A. Sexo feminino.
 B. Ter entre [15; 50[ anos (idade calculada para o último dia do período em análise).
 C.
@@ -60,8 +60,11 @@ F. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado
 pesquisa de DNA do HPV por PCR
 nos 60 meses que antecedem a data fim do período em análise (ver alíneas H e I de OBSERVAÇÕES GERAIS).
 G. Ter estado inscrita na unidade de saúde durante pelo menos um dia do período em análise.
+H.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE MATERNA (SMAT)
-Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K]:
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K e L]:
 A. Sexo feminino.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -93,8 +96,11 @@ H. Gravidez registada no módulo ou no programa de saúde materna;
 I. Gravidez não classificada como aborto (ver alínea K de OBSERVAÇÕES GERAIS);
 J. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e o [42º dia de puerpério];
 K. Data de parto registada;
+L.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F]:
 A. Ter completado um ano de vida durante o período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -110,8 +116,11 @@ C.
 Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
 D. Ter pelo menos 2 registos parametrizados de avaliação do desenvolvimento psicomotor (Sheridan) até aos 11 meses de vida - [1, 330] dias. Podem ser realizados por médico ou por enfermeiro.
 E. Inscrição ativa na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida;
+F.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
 A. Ter completado dois anos de vida durante o período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -121,8 +130,11 @@ B.
 Ter realizado pelo menos 3 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
 C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida - ]330, 700] dias. O Sheridan pode ser registado por médico ou por enfermeiro.
 D. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+E.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 DIABETES (DM)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H e I]:
 A. Ter o diagnóstico de Diabetes Mellitus (rubricas T89 ou T90 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -136,8 +148,11 @@ E. Ter pelo menos 1 registo de resultado de hemoglobina A1C (MCDT com código A5
 F. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
 G. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 12 meses que antecedem a data final do período em análise.
 H. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+I.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 HIPERTENSÃO (HT)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H]:
 A. Ter o diagnóstico de hipertensão arterial (rubricas K86 ou K87 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -150,8 +165,14 @@ D. Ter pelo menos 1 registo de pressão arterial durante o período em análise 
 E. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
 F. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 24 meses que antecedem a data final do período em análise. Ver alínea G de ""OBSERVAÇÕES"".
 G. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+H.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 CONTAGEM DE MÉDICOS (BB):
-A. Número de médicos de família que constituem a equipa, na data de referência do indicador. Ver ANEXO A de ""OBSERVAÇÕES GERAIS"""
+Soma dos ETC dos médicos de família, contabilizada na data de referência do indicador, em que a expressão [A e B] é verdadeira:
+A. Pertencem à equipa na data de referência do indicador;
+B. Integraram a equipa pelo menos 12 meses antes da data de referência do indicador.
+Ver ANEXO A de ""OBSERVAÇÕES GERAIS""."
 Observações Gerais,"A. Contabilizam-se os códigos das rubricas da ICPC-2 que estiverem escritos no ""A"" do SOAP bem como as que estiverem definidas como ""episódio deste contacto"".
 B. Apenas se contabilizam SOAP registados até 5 dias após a respetiva realização.
 C. Apenas se contabiliza uma consulta médica por utente por dia.
@@ -205,7 +226,13 @@ HT - Nº de utentes que cumprem os critérios previstos para o ""Hipertensão Ar
 Na fórmula anterior, BB é o número de médicos que a 1 de janeiro do ano N, desempenham atividade na UF. Os médicos em regime de tempo completo são contabilizados com 1 unidade. Os médicos em regime de tempo parcial são contabilizados com 0,5 unidades.
 5. Os médicos em regime de tempo completo recebem o valor de UC calculado, arredondado por defeito à unidade. Os médicos em regime de tempo parcial, recebem 50% das UC anteriormente calculadas, arredondadas às décimas.
 6. Os médicos que integram a equipa durante o ano N, têm um cálculo de 8 UC, se estiverem em regime de tempo completo e 4 se estiverem em regime de tempo parcial;
-7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP."
+7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP.
+8. Nos termos do nº 2 do anexo 6 da
+Portaria 212/2017
+os enfermeiros e asistentes técnicos têm direito a:
+- 100 % do valor dos incentivos financeiros se o nº de UC apuradas for superior ou igual a 10.
+- 50 % do valor dos incentivos financeiros se o nº de UC apuradas for superior ou igual a 5 e inferior a 10.
+- 0 % do valor dos incentivos financeiros se o nº de UC apuradas for inferior a 5."
 Observações Sobre Software,"SCLÍNICO - PERFIL DE ENFERMAGEM:
 A. A pressão arterial pode ser registada neste sistema.
 SCLÍNICO - PERFIL MÉDICO:

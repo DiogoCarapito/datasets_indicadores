@@ -104,7 +104,10 @@ H. Não são contabilizados no numerador as despesas relacionadas com:
 - Para requisições efetuadas até dezembro 2022, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até ao 5º dia do mês seguinte ao mês de requisição;
 - Para requisições efetuadas após janeiro 2023, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até final do 6º mês após o mês de requisição e no máximo até ao mês que sucede o mês de referência do indicador. Isto significa que para um indicador calculado para dezembro de determinado ano, não são contabilizadas credenciais requisitadas em janeiro desse ano, desde que anuladas até 31 de julho desse ano. No entanto, para credenciais requisitadas por exemplo em outubro desse ano, não serão contabilizadas credenciais desde que anuladas até 31 de janeiro do ano seguinte.
 - MCDT prescritos manualmente (p.e. por falência do sistema eletrónico de prescrição).
-I. A fonte de dados para a informação do numerador é a BDNP, bastando que um MCDT seja prescrito, para ser contabilizado (não se valida se é ou não realizado)."
+I. A fonte de dados para a informação do numerador é a BDNP, bastando que um MCDT seja prescrito, para ser contabilizado (não se valida se é ou não realizado).
+H. Para o exemplo de um exame prescrito em janeiro 2023 anulado em maio 2023:
+- A ação de ""anular a prescrição no SClinico-CSP"" influencia indicadores entre maio 2023 e dezembro de 2023.
+- Caso se reprocessem os resultados dos indicadores entre janeiro e abril de 2023, influencia também os respetivos resultados."
 Período em Análise,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""despesa com MCDT""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a prescrição.

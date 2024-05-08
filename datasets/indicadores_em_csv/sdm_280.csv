@@ -31,7 +31,7 @@ C005
 | Consulta de enfermagem com a presença do utente (direta) - SClínico (domicílio)
 -
 C001
-| Consulta médica não presencial - SClínico:
+| Consulta médica não presencial - SClínico
 -
 C002
 | Consulta médica presencial - SClínico (domicílios)
@@ -55,7 +55,8 @@ D. A data de realização dos contactos contabilizadas no numerador deve ocorrer
 E. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
 [Duração da integração] = [Data de alta] - [Data de admissão] + 1
 F. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, utentes integrados na ECCI com data prévia à constituição da UCC, não influenciam o denominador deste indicador. Da mesma forma, os domicílios realizados aos utentes, com ""data de realização"" prévia à abertura da UCC não influenciam o numerador.
-G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador."
+G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+H. No caso das consultas médicas em UCSP ou USF são contabilizados utentes com pelo menos uma consulta médica na UF de inscrição no mês da consulta ou na UF de inscrição no mês anterior ao da consulta."
 Observações Sobre Software,"SCLÍNICO - PERFIL DE ADMINISTRAÇÃO:
 A. Os perfis de SClínico dos diferentes profissionais de saúde permitem, no momento do login, escolher a unidade funcional na qual vão desenvolver a sua atividade clínica, em ""Lista de locais do utilizador"".
 Cada utilizador pode ter associado ao seu perfil vários locais, correspondentes às unidades funcionais onde está em cada momento a prestar cuidados.

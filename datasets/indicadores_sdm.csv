@@ -2902,7 +2902,7 @@ Assim, as 6 áreas de atividade em análise neste indicador são as seguintes:
 - Diabetes
 - Hipertensão
 PLANEAMENTO FAMILIAR (PF)
-Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G)]:
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e (D ou E ou F) e G e H]:
 A. Sexo feminino.
 B. Ter entre [15; 50[ anos (idade calculada para o último dia do período em análise).
 C.
@@ -2921,8 +2921,11 @@ F. Nas mulheres com idades entre [25, 50[ anos, ter pelo menos um resultado
 pesquisa de DNA do HPV por PCR
 nos 60 meses que antecedem a data fim do período em análise (ver alíneas H e I de OBSERVAÇÕES GERAIS).
 G. Ter estado inscrita na unidade de saúde durante pelo menos um dia do período em análise.
+H.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE MATERNA (SMAT)
-Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K]:
+Uma utente é considerada neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H e I e J e K e L]:
 A. Sexo feminino.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -2954,8 +2957,11 @@ H. Gravidez registada no módulo ou no programa de saúde materna;
 I. Gravidez não classificada como aborto (ver alínea K de OBSERVAÇÕES GERAIS);
 J. Registo do diagnóstico médico de gravidez (códigos da ICPC-2 W78, W79 ou W84) na lista de problemas, no estado [ativo] durante pelo menos um dia do período compreendido entre a [Data início] e o [42º dia de puerpério];
 K. Data de parto registada;
+L.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE INFANTIL – 1º ANO DE VIDA (SI1)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F]:
 A. Ter completado um ano de vida durante o período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -2971,8 +2977,11 @@ C.
 Ter realizado pelo menos 5 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil até aos 11 meses de vida - [0, 330] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (rubrica A98). Ver alínea Q de OBSERVAÇÕES GERAIS.
 D. Ter pelo menos 2 registos parametrizados de avaliação do desenvolvimento psicomotor (Sheridan) até aos 11 meses de vida - [1, 330] dias. Podem ser realizados por médico ou por enfermeiro.
 E. Inscrição ativa na unidade de saúde, durante pelo menos um dia do período compreendido entre o nascimento e os 330 dias de vida;
+F.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 SAÚDE INFANTIL – 2º ANO DE VIDA (SI2)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E]:
 A. Ter completado dois anos de vida durante o período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -2982,8 +2991,11 @@ B.
 Ter realizado pelo menos 3 consultas médicas (contacto direto e SOAP) de vigilância em saúde infantil entre os 11 e os 23 meses de vida - ]330, 700] dias. Estas consultas devem ter registo parametrizado da rubrica da ICPC-2 que permite codificar consultas de vigilância (A98). Ver alínea R de OBSERVAÇÕES GERAIS.
 C. Ter pelo menos 1 registo parametrizado de avaliação do desenvolvimento psicomotor (Sheridan) entre os 11 e os 23 meses de vida - ]330, 700] dias. O Sheridan pode ser registado por médico ou por enfermeiro.
 D. Ter estado inscrita na unidade de saúde, durante pelo menos um dia do período em análise.
+E.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 DIABETES (DM)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e E e F e G e H e I]:
 A. Ter o diagnóstico de Diabetes Mellitus (rubricas T89 ou T90 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -2997,8 +3009,11 @@ E. Ter pelo menos 1 registo de resultado de hemoglobina A1C (MCDT com código A5
 F. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
 G. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 12 meses que antecedem a data final do período em análise.
 H. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+I.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 HIPERTENSÃO (HT)
-Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G]:
+Um utente é considerado neste grupo se for verdadeira a condição [A e B e C e D e (E ou F) e G e H]:
 A. Ter o diagnóstico de hipertensão arterial (rubricas K86 ou K87 da ICPC-2) na lista de problemas, com estado ativo, durante pelo menos um dia do período em análise.
 B.
 (Válido para resultados com data de referência igual ou superior a janeiro de 2020)
@@ -3011,8 +3026,14 @@ D. Ter pelo menos 1 registo de pressão arterial durante o período em análise 
 E. Ter pelo menos 1 registo de resultado de microalbuminúria, realizado durante os 12 meses que antecedem a data final do período em análise.
 F. Ter pelo menos 1 registo de resultados de colesterol total (MCDT com código A410.3 ou com código A1029.9), colesterol HDL (MCDT com código A412.0) e triglicéridos (MCDT com código A620.3) realizados durante os 24 meses que antecedem a data final do período em análise. Ver alínea G de ""OBSERVAÇÕES"".
 G. Ter estado inscrito na unidade de saúde, durante pelo menos um dia do período em análise.
+H.
+(Válido para resultados com data de referência igual ou superior a dezembro de 2023)
+Na data de referência do indicador tem inscrição ativa num médico de médico que integra a equipa há pelo menos 12 meses.
 CONTAGEM DE MÉDICOS (BB):
-A. Número de médicos de família que constituem a equipa, na data de referência do indicador. Ver ANEXO A de ""OBSERVAÇÕES GERAIS""","A. Contabilizam-se os códigos das rubricas da ICPC-2 que estiverem escritos no ""A"" do SOAP bem como as que estiverem definidas como ""episódio deste contacto"".
+Soma dos ETC dos médicos de família, contabilizada na data de referência do indicador, em que a expressão [A e B] é verdadeira:
+A. Pertencem à equipa na data de referência do indicador;
+B. Integraram a equipa pelo menos 12 meses antes da data de referência do indicador.
+Ver ANEXO A de ""OBSERVAÇÕES GERAIS"".","A. Contabilizam-se os códigos das rubricas da ICPC-2 que estiverem escritos no ""A"" do SOAP bem como as que estiverem definidas como ""episódio deste contacto"".
 B. Apenas se contabilizam SOAP registados até 5 dias após a respetiva realização.
 C. Apenas se contabiliza uma consulta médica por utente por dia.
 D. Nas grávidas, a idade gestacional é determinada da seguinte forma: Se existe uma data prevista de parto corrigida, determina-se a partir desta data; caso contrário, determina-se a partir da data da última menstruação (DUM).
@@ -3065,7 +3086,13 @@ HT - Nº de utentes que cumprem os critérios previstos para o ""Hipertensão Ar
 Na fórmula anterior, BB é o número de médicos que a 1 de janeiro do ano N, desempenham atividade na UF. Os médicos em regime de tempo completo são contabilizados com 1 unidade. Os médicos em regime de tempo parcial são contabilizados com 0,5 unidades.
 5. Os médicos em regime de tempo completo recebem o valor de UC calculado, arredondado por defeito à unidade. Os médicos em regime de tempo parcial, recebem 50% das UC anteriormente calculadas, arredondadas às décimas.
 6. Os médicos que integram a equipa durante o ano N, têm um cálculo de 8 UC, se estiverem em regime de tempo completo e 4 se estiverem em regime de tempo parcial;
-7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP.","SCLÍNICO - PERFIL DE ENFERMAGEM:
+7. Apesar do indicador ser usado para efeitos de vencimento apenas nas USF modelo B, é calculado usando as mesmas regras para as USF modelo A e para as UCSP.
+8. Nos termos do nº 2 do anexo 6 da
+Portaria 212/2017
+os enfermeiros e asistentes técnicos têm direito a:
+- 100 % do valor dos incentivos financeiros se o nº de UC apuradas for superior ou igual a 10.
+- 50 % do valor dos incentivos financeiros se o nº de UC apuradas for superior ou igual a 5 e inferior a 10.
+- 0 % do valor dos incentivos financeiros se o nº de UC apuradas for inferior a 5.","SCLÍNICO - PERFIL DE ENFERMAGEM:
 A. A pressão arterial pode ser registada neste sistema.
 SCLÍNICO - PERFIL MÉDICO:
 A. A pressão arterial pode ser registada na ficha individual e nos programas de hipertensão, diabetes, saúde materna, planeamento familiar e saúde infantil.
@@ -6579,7 +6606,7 @@ A. Os medicamentos registados na terapêutica crónica têm uma [data de fim], q
 - Numerador (variável ""prescrição de medicamentos""): Duração de 12 meses, terminando na data de referência do indicador.
 - Numerador (variável ""registo de medicamento na terapêutica crónica""): Coincidente com a data de referência do indicador.
 - Denominador: Coincidente com a data de referência do indicador.",AA / BB x 100,%,Proporção de utentes,Com dados desde Agosto de 2023,---,---,---,Processo,Saúde Idoso,Utentes inscritos à data de referência do indicador,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
-274,2013.274.01,"Propor. DM2 c/ indic. insul., em terap. adequada","Proporção de utentes com diabetes tipo 2 e indicação para insulinoterapia, a fazer terapêutica adequada","Monitorizar a efetividade da aplicação da norma 052/2011 da DGS (atualizada em 24/7/2017) ""Abordagem Terapêutica Farmacológica na Diabetes Mellitus Tipo 2 no Adulto"" relativamente à ""terapêutica adequada com insulina"".","Indicador que exprime a proporção de utentes com diabetes tipo 2 e indicação para insulinoterapia, com pelo menos uma prescrição de insulina nos últimos 12 meses.
+274,2013.274.01,"Propor. DM2 c/ indic. insul., em terap. adequada","Proporção de utentes com diabetes tipo 2 e indicação para insulinoterapia, a fazer terapêutica adequada","Monitorizar a efetividade da aplicação da norma 052/2011 da DGS (atualizada em 27/4/2015) ""Abordagem Terapêutica Farmacológica na Diabetes Mellitus Tipo 2 no Adulto"" relativamente à ""terapêutica adequada com insulina"".","Indicador que exprime a proporção de utentes com diabetes tipo 2 e indicação para insulinoterapia, com pelo menos uma prescrição de insulina nos últimos 12 meses.
 Numerador: Contagem de utentes inscritos com diabetes tipo 2 e com prescrição de insulina nos últimos 12 meses (AA).
 Denominador: Soma da contagem de utentes inscritos com diabetes tipo 2 e prescrição de insulina (BB) e da contagem de utentes com diabetes tipo 2, sem prescrição de insulina e HbA1c superior a 9% (CC).","AA:
 Contagem de utentes em que a expressão [A e B e C e D] é verdadeira:
@@ -6948,7 +6975,7 @@ C005
 | Consulta de enfermagem com a presença do utente (direta) - SClínico (domicílio)
 -
 C001
-| Consulta médica não presencial - SClínico:
+| Consulta médica não presencial - SClínico
 -
 C002
 | Consulta médica presencial - SClínico (domicílios)
@@ -6972,7 +6999,8 @@ D. A data de realização dos contactos contabilizadas no numerador deve ocorrer
 E. O número de dias de integração na ECCI contabiliza-se através da fórmula seguinte:
 [Duração da integração] = [Data de alta] - [Data de admissão] + 1
 F. Por vezes as ECCI constituem-se antes das UCC. Quando isso sucede, utentes integrados na ECCI com data prévia à constituição da UCC, não influenciam o denominador deste indicador. Da mesma forma, os domicílios realizados aos utentes, com ""data de realização"" prévia à abertura da UCC não influenciam o numerador.
-G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.","SCLÍNICO - PERFIL DE ADMINISTRAÇÃO:
+G. Indicador apenas calculado para UCC com SClínico. Não calculado para UCC com MedicineOne. Nos ACES que tenham UCC a usar diversos tipos de software, o resultado deste indicador para o ACES apenas comporta dados das respetivas UCC a usar SClínico. O GestCare nunca é fonte de dados para este indicador.
+H. No caso das consultas médicas em UCSP ou USF são contabilizados utentes com pelo menos uma consulta médica na UF de inscrição no mês da consulta ou na UF de inscrição no mês anterior ao da consulta.","SCLÍNICO - PERFIL DE ADMINISTRAÇÃO:
 A. Os perfis de SClínico dos diferentes profissionais de saúde permitem, no momento do login, escolher a unidade funcional na qual vão desenvolver a sua atividade clínica, em ""Lista de locais do utilizador"".
 Cada utilizador pode ter associado ao seu perfil vários locais, correspondentes às unidades funcionais onde está em cada momento a prestar cuidados.
 Neste caso, é considerado ""local de utilizador"" UCC para todos os profissionais de saúde e, adicionalmente, o ""local de utilizador"" USF/UCSP para os médicos de família ou internos da unidade de inscrição do utente.
@@ -17458,7 +17486,10 @@ H. Não são contabilizados no numerador as despesas relacionadas com:
 - Para requisições efetuadas até dezembro 2022, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até ao 5º dia do mês seguinte ao mês de requisição;
 - Para requisições efetuadas após janeiro 2023, MCDT prescritos e pertencentes a credenciais apagadas ou invalidadas até final do 6º mês após o mês de requisição e no máximo até ao mês que sucede o mês de referência do indicador. Isto significa que para um indicador calculado para dezembro de determinado ano, não são contabilizadas credenciais requisitadas em janeiro desse ano, desde que anuladas até 31 de julho desse ano. No entanto, para credenciais requisitadas por exemplo em outubro desse ano, não serão contabilizadas credenciais desde que anuladas até 31 de janeiro do ano seguinte.
 - MCDT prescritos manualmente (p.e. por falência do sistema eletrónico de prescrição).
-I. A fonte de dados para a informação do numerador é a BDNP, bastando que um MCDT seja prescrito, para ser contabilizado (não se valida se é ou não realizado).",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+I. A fonte de dados para a informação do numerador é a BDNP, bastando que um MCDT seja prescrito, para ser contabilizado (não se valida se é ou não realizado).
+H. Para o exemplo de um exame prescrito em janeiro 2023 anulado em maio 2023:
+- A ação de ""anular a prescrição no SClinico-CSP"" influencia indicadores entre maio 2023 e dezembro de 2023.
+- Caso se reprocessem os resultados dos indicadores entre janeiro e abril de 2023, influencia também os respetivos resultados.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Variável AA (""despesa com MCDT""): Duração de 12 meses, terminando na data de referência do indicador.
 - Variável AA (""inscrição ativa""): Avaliada utente a utente no último dia do mês em que ocorre a prescrição.
 - Variável AA (""idade""): Avaliada na data de referência do indicador.
@@ -33476,12 +33507,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de planeamento familiar (de acordo com as normas da Direção-Geral da Saúde) nas MIF com idade no intervalo [15; 50[ anos.
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de planeamento familiar (de acordo com as normas da Direção-Geral da Saúde) nas MIF com idade no intervalo [15; 50[ anos.
 Numerador: Somatório do ""score de acompanhamento"" na área do planeamento familiar (PF), determinado para cada mulher em idade fértil (MIF) inscrita na unidade funcional. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem de MIF com idade no intervalo [15; 50[ anos.","NUMERADOR (PF_T)
 :
@@ -34050,12 +34076,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde materna (de acordo com as normas da Direção-Geral da Saúde).
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde materna (de acordo com as normas da Direção-Geral da Saúde).
 Numerador: Somatório do ""score de acompanhamento"" determinado para cada puérpera inscrita na unidade funcional. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem de puérperas.","NUMERADOR (SMAT_T)
 :
@@ -34378,12 +34399,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde infantil, 1º ano de vida (de acordo com as normas da Direção-Geral da Saúde).
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde infantil, 1º ano de vida (de acordo com as normas da Direção-Geral da Saúde).
 Numerador: Somatório do ""score de acompanhamento"" na área da saúde infantil determinado para criança com 1 ano de vida inscrita na unidade funcional. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem de crianças com 1 ano de vida.","NUMERADOR (SI1_T)
 :
@@ -34641,12 +34657,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde infantil, 2º ano de vida (de acordo com as normas da Direção-Geral da Saúde).
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área de saúde infantil, 2º ano de vida (de acordo com as normas da Direção-Geral da Saúde).
 Numerador: Somatório do ""score de acompanhamento"" na área da saúde infantil, determinado para crianças com 2 anos de vida inscritas na unidade funcional. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem de crianças com 2 anos de vida.","NUMERADOR (SI2_T)
 :
@@ -34875,9 +34886,9 @@ P
 . Os ""AINE’s, analgésicos ou antibióticos"" são fármacos preferencialmente usados em contexto de doença aguda.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - A principal variável de ""ancoragem"" de cada criança a este indicador é o facto completar 2 anos de vida durante o período de 12 meses que antecedem a data de referência do indicador.
 - Para cada criança incluída no denominador, o período em análise para deteção de consultas ou procedimentos coincide com o intervalo etário [330; 700[ dias de vida.
-- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [2, 3[ anos de idade.",SI2_T / BB,Índice (escala valores entre 0 e 1),Com dados desde Dezembro de 2021,,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil,"Ano de 2023: [0.87; 100]
-Ano de 2024: [0.87; 100]","Ano de 2023: [0.65; 100]
-Ano de 2024: [0.6; 100]",Resultado,Saúde Infantil e Juvenil,Utentes inscritos durante um mínimo de N meses do período em análise,30 dias,"2023, 2024",[0.65; 100],0.65,100,[0.6; 100],0.6,100,[0.87; 100],0.87,100,[0.87; 100],0.87,100
+- Denominador (variável ""idade""): na data de referência do indicador, cada criança tem [2, 3[ anos de idade.",SI2_T / BB,Índice (escala valores entre 0 e 1),Com dados desde Dezembro de 2021,,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil,"Ano de 2023: [0.87; 1]
+Ano de 2024: [0.87; 1]","Ano de 2023: [0.65; 1]
+Ano de 2024: [0.6; 1]",Resultado,Saúde Infantil e Juvenil,Utentes inscritos durante um mínimo de N meses do período em análise,30 dias,"2023, 2024",[0.65; 1],0.65,1,[0.6; 1],0.6,1,[0.87; 1],0.87,1,[0.87; 1],0.87,1
 444,2022.444.01,Índice acompanhamento adequado DM - V2,Índice de acompanhamento adequado em utentes com Diabetes Mellitus - V2,"1 - Monitorizar o programa de Diabetes Mellitus.
 2 - Determinação de um dos componentes necessários para pagar mensalmente a médicos das USF modelo B por ""atividades específicas"", nos termos do artigo 29º do
 Decreto-Lei 298/2007
@@ -34894,12 +34905,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área da Diabetes Mellitus (de acordo com as normas da Direção-Geral da Saúde).
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área da Diabetes Mellitus (de acordo com as normas da Direção-Geral da Saúde).
 Numerador: Somatório do ""score de acompanhamento"" determinado para cada utente com Diabetes Mellitus com inscrição ativa. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem utentes inscritos com Diabetes Mellitus.","NUMERADOR (DM_T)
 :
@@ -35434,12 +35440,7 @@ bem como do respetivo anexo nº 6. Nestes termos, os valores calculados para o n
 - Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2.
 •
 448
-- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.
-NOTA IMPORTANTE
-:
-As regras de cálculo inseridas neste indicador, foram desenvolvidas em 2021 no âmbito de um grupo de trabalho contituído por elementos da ACSS, do Gabinete da Sra. Ministra da Saúde que tutelava a pasta (Grupo de Apoio às Políticas da Saúde - Cuidados de Saúde Primários - GAPS-CSP) e da DGS. Estas regras não se encontram formalmente aprovadas para determinação das atividades específicas (médicos) nem de incentivos financeiros a enfermeiros e secretários clínicos. O indicador que se mantém válido para esse efeito pode ser encontrado
-aqui
-.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área da Hipertensão Arterial (de acordo com as normas da Direção-Geral da Saúde).
+- Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2.","Índice com resultados possíveis numa escala entre 0 e 1, exprimindo o grau de acompanhamento na área da Hipertensão Arterial (de acordo com as normas da Direção-Geral da Saúde).
 Numerador: Somatório do ""score de acompanhamento"" determinado para cada utente com Hipertensão Arterial com inscrição ativa. O ""score de acompanhamento"" pode variar entre 0 e 1 de acordo com o número e qualidade dos procedimentos realizados e com a ponderação definida para cada procedimento.
 Denominador: Contagem utentes inscritos com Hipertensão Arterial.","NUMERADOR (HTA_T)
 :
@@ -36011,7 +36012,7 @@ Variável HTA_T - Medida na data de referência do indicador pelas regras do num
 Variável UP_HTA - Medida na data de referência do indicador
 Variável UP_T - Medida na data de referência do indicador
 Variável MED_ETC - 12 meses, terminando na data de referência do indicador
-Variável UC_MED - Medida na data de referência do indicador",UP_T / 55 / MED_ETC,UC,Score: Unidade de Contratualização,Com dados desde Dezembro de 2021,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
+Variável UC_MED - Medida na data de referência do indicador",UP_T / 55 / MED_ETC,UC,Score: Unidade de Contratualização,Descontinuado em Dezembro de 2023,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
 447,2022.447.01,Número UCs atividades específicas enf. V2,Número de unidades de contratualização relacionadas atividades específicas - Enfermeiros - V2,"1. Calcular as UC que determinam o pagamento mensal de 100%, 50% ou 0% dos ""incentivos financeiros"" a enfermeiros das USF modelo B, nos termos do artigo 38º do
 Decreto-Lei 298/2007
 (na sua redação atual), dos artigos 3º e 12º da
@@ -36163,7 +36164,7 @@ Variável HTA_T - Medida na data de referência do indicador pelas regras do num
 Variável UP_HTA - Medida na data de referência do indicador
 Variável UP_T - Medida na data de referência do indicador
 Variável ENF_ETC - 12 meses, terminando na data de referência do indicador
-Variável UC_ENF - Medida na data de referência do indicador",UP_T / 55 / ENF_ETC,UC,Score: Unidade de Contratualização,Com dados desde Dezembro de 2021,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
+Variável UC_ENF - Medida na data de referência do indicador",UP_T / 55 / ENF_ETC,UC,Score: Unidade de Contratualização,Descontinuado em Dezembro de 2023,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
 448,2022.448.01,Número UCs atividades específicas sec. cli. V2,Número de unidades de contratualização relacionadas atividades específicas - Secretários Clínicos - V2,"1. Calcular as UC que determinam o pagamento mensal de 100%, 50% ou 0% dos ""incentivos financeiros"" a secretários clínicos das USF modelo B, nos termos do artigo 38º do
 Decreto-Lei 298/2007
 (na sua redação atual), dos artigos 3º e 12º da
@@ -36314,7 +36315,7 @@ Variável HTA_T - Medida na data de referência do indicador pelas regras do num
 Variável UP_HTA - Medida na data de referência do indicador
 Variável UP_T - Medida na data de referência do indicador
 Variável SC_ETC - 12 meses, terminando na data de referência do indicador
-Variável UC_SC - Medida na data de referência do indicador",UP_T / 71 / SC_ETC,UC,Score: Unidade de Contratualização,Com dados desde Dezembro de 2021,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
+Variável UC_SC - Medida na data de referência do indicador",UP_T / 71 / SC_ETC,UC,Score: Unidade de Contratualização,Descontinuado em Dezembro de 2023,---,---,---,Processo,Transversal,Não aplicável,30 dias,"2023, 2024",---,,,---,,,---,,,---,,
 449,2023.449.01,Prop. mulheres 25-60 anos c/ teste HPV 5A,"Proporção de mulheres entre 25-60 anos, com rastreio do cancro do colo do útero efetuado por teste primário (pesquisa de HPV)","Monitorizar o programa de rastreio oncológico - parâmetro ""rastreio e deteção precoce do cancro do colo do útero por teste primário por pesquisa de ácidos nucleicos, dos serotipos oncogénicos, do vírus do papiloma humano (HPV), em citologia vaginal, a realizar de 5 em 5 anos"".
 Esta monitorização é feita nos termos do Despacho nº 8254/2017 (rastreios de base populacional), destinando-se a comparar as unidades prestadoras em função da capacidade para implementação do programa de rastreio, utilizando o teste primário (pesquisa de serotipos HPV por PCR).","Indicador que exprime a proporção de mulheres inscritas e com idades compreendidas no intervalo [25, 61[ anos (sem critérios de exclusão para o rastreio), com rastreio do cancro do colo do útero efetuado com teste primário (pesquisa de ácidos nucleicos, dos serotipos oncogénicos, do vírus do papiloma humano, HPV, em citologia vaginal), realizado nos últimos 5 anos.
 Numerador: Contagem de mulheres com rastreio do cancro do colo do útero efetuado usando o teste primário (pesquisa de HPV), nos últimos 5 anos.
@@ -37841,7 +37842,7 @@ O SClínico permite o agendamento e efetivação de consulta.","INDICADOR CALCUL
 - Numerador (""menos de 90 dias entre data de agendamento e data de efetivação""): Duração de 15 meses, terminando na data de referência do indicador;
 - Denominador (variável ""inscrição ativa""): Coincidente com a data de referência do indicador;
 - Denominador (variável ""registo de [primeira consulta]""): Duração de 12 meses, terminando na data de referência do indicador;
-- Denominador (variável "" Realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área de ""): Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Com dados desde Outubro de 2023,---,---,---,Processo,Transversal,Utentes inscritos à data de referência do indicador,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
+- Denominador (variável "" Realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área de ""): Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Com dados desde Janeiro de 2023,---,---,---,Processo,Transversal,Utentes inscritos à data de referência do indicador,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
 478,2023.478.01,Proporção de consultas nutrição CSP < 90 dias,"Proporção de consultas de nutrição nos cuidados de saúde primários, realizadas em menos de 90 dias após agendamento",Monitorizar a resposta das primeiras consultas de nutrição nos CSP.,"Indicador que exprime a proporção de [primeiras consulta] de nutrição realizadas nos CSP, em menos de 90 dias após a data de agendamento.
 Numerador: Contagem de [primeiras consulta] de nutrição realizadas nos CSP até 90 dias após a data de agendamento.
 Denominador: Contagem de [primeiras consultas] de nutrição realizadas nos CSP.","NUMERADOR (AA):
@@ -38087,15 +38088,15 @@ O SClínico permite o agendamento e efetivação de consulta.","INDICADOR CALCUL
 - Denominador (variável ""registo de [primeira consulta]""): Duração de 12 meses, terminando na data de referência do indicador;
 - Denominador (variável "" Realizada por profissionais técnicos superiores de saúde (ou equivalentes) da área de ""nutrição”): Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Com dados desde Janeiro de 2023,---,---,---,Processo,Transversal,Utentes inscritos à data de referência do indicador,5 dias,"2023, 2024",---,,,---,,,---,,,---,,
 482,2024.482.01,Avaliação da Satisfação dos Utentes,Monitorização da Satisfação dos Utentes dos Cuidados de Saúde Primários.,Monitorizar a implementação de questionários de satisfação de utentes e avaliar o grau de satisfação dos utentes dos cuidados de saúde primários.,"Este score avalia, para cada ano de contratualização, em que medida a unidade funcional divulga e/ou promove a auscultação dos utentes sobre a sua satisfação com os serviços prestados, o nível de satisfação obtido e a discussão dos resultados obtidos.","A avaliação da satisfação dos utentes é uma ferramenta importante de gestão quer das UF, quer da ULS. A implementação de questionários de satisfação é da responsabilidade da ULS, no entanto, a UF
-é responsável pela sua divulgação, pela análise e discussão de resultados, implementação de medidas de melhoria e pela divulgação dos resultados.
+ é responsável pela sua divulgação, pela análise e discussão de resultados, implementação de medidas de melhoria e pela divulgação dos resultados.
 FÓRMULA:
 A fórmula de cálculo deste score é baseada numa
 checklist
-de autopreenchimento pela UF, entrando em linha de conta com 
-    os seguintes aspetos:
+de autopreenchimento pela UF, entrando em linha de conta com
+ os seguintes aspetos:
 1. A existência de evidências de monitorização da satisfação de utentes e respectiva divulgação;
-2. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa 
-    monitorização;
+2. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa
+ monitorização;
 3. A existência de uma ponderação para cada área de avaliação.
 A fórmula de cálculo é a seguinte:
 Resultado (em percentagem) = 100 x (A01 + A02 + A03 + A04 + A05) / 100
@@ -38115,8 +38116,8 @@ A01
 A unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF
 Valoriza-se 10% caso existam evidências de que a unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF.
 É cada vez mais importante que a prestação de cuidados satisfaça as necessidades subjetivas dos doentes utilizadores. A avaliação da satisfação dos utilizadores, apara além do reconhecido valor a adicionar a outras medidas de resultado como o estado de saúde ou a qualidade de vida, é também hoje considerada uma componente indispensável para a avaliação da qualidade dos cuidados. Existe mesmo evidência da sua correlação com os próprios resultados clínicos. Uma avaliação da satisfação dos utilizadores permite identificar o que pode ser melhorado nos serviços de cuidados de saúde, tendo em vista as necessidades ou expetativas não atendidas dos utilizadores, ou quais são as medidas ou estratégias adequadas para melhorar a qualidade dos serviços e cuidados de saúde.
-Esta perceção de valor da avaliação da satisfação dos utentes por parte de cada UF, deve passar para os utentes e promover a participação continua dos mesmos na avaliação.
-Desta forma, as UF, devem divulgar em local próprio a existência e a própria política de avaliação da satisfação dos utentes implementada na UF.
+                 Esta perceção de valor da avaliação da satisfação dos utentes por parte de cada UF, deve passar para os utentes e promover a participação continua dos mesmos na avaliação.
+                 Desta forma, as UF, devem divulgar em local próprio a existência e a própria política de avaliação da satisfação dos utentes implementada na UF.
 Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
 10
 Inicio: 01-01-2024;
@@ -38125,13 +38126,17 @@ A02
 A entidade competente implementou a recolha e avaliação da satisfação dos utentes
 Valoriza-se 10% caso existam evidências de que a unidade funcional divulga junto dos seus utentes a existência e a política de avaliação da satisfação dos utentes e da sua importância para a melhoria contínua da UF.
 No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
-Nas USF e UCSP, para que este critério seja considerado cumprido é necessário ter recolhido, nos últimos 12 meses, pelo menos 150 questionários realizados a utentes, distribuídos igualmente pelas listas de cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).
-No caso das UCC, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 150 questionários realizados a utentes, envolvendo equitativamente utentes nas principais atividades realizadas na UCC.
-Nas USP, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 100 questionários realizados a utentes, distribuídos por cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).
+- Percentagem de respostas < 50% do valor necessário, valorização 0
+- Percentagem de respostas 50 a 75% do valor necessário para amostra válida, direta proporção da % de respostas até ao máximo de 5
+- Percentagem de respostas > 75% do valor necessário para amostra válida, valorização máxima
+O número de questionários necessários para se obter significancia estatística depende do número de incritos por ESF ou por UF. Considerando que não existe montada uma estrutura informática que possa suportar este processo de forma automatizada, define-se transitóriamente:
+- Nas USF e UCSP, para que este critério seja considerado cumprido é necessário ter recolhido, nos últimos 12 meses, pelo menos 150 questionários realizados a utentes, distribuídos igualmente pelas listas de cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).).
+- Nas UCC, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 150 questionários realizados a utentes, envolvendo equitativamente utentes nas principais atividades realizadas na UCC.
+- Nas USP, para que este critério seja considerado cumprido é necessário ter recolhido, ao longo do ano de contratualização, pelo menos 100 questionários realizados a utentes, distribuídos por cada profissional (medido em equivalentes em tempo completo) que integre a equipa (não necessariamente no mesmo dia).
 Os questionários para serem considerados válidos, deverão ser aplicados pelas ULS ou entidade nacional (por exemplo ACSS, DE-SNS ou SPMS). A aplicação pode ser feita de forma presencial, ou não presencial, por exemplo através do envio de SMS ou email aos utentes após a utilização.
 
-O questionário de satisfação deverá ter no mínimo um total de 5 questões, escolhidas do banco de questões disponíveis neste BI. A especificação do número mínimo de questões por dimensão está especificada junto do banco de questões. 
-O questionário final a aplicar deve estar aprovado pelo respetivo conselho de administração.
+                 O questionário de satisfação deverá ter no mínimo um total de 5 questões, escolhidas do banco de questões disponíveis neste BI. A especificação do número mínimo de questões por dimensão está especificada junto do banco de questões.
+                 O questionário final a aplicar deve estar aprovado pelo respetivo conselho de administração.
 No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
 Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
 10
@@ -38147,7 +38152,7 @@ Valorização
 0
 >= 50% e < 75%
 Direta proporção do resultado médio da satisfação apurado na totalidade dos questionários, até ao máximo de 30
->= 50% e < 75%
+>=75%
 60
 Critério aplicável a todos os tipos de unidades funcionais do ACES com contratualização.
 Máximo 60
@@ -38168,7 +38173,7 @@ Critério aplicável a todos os tipos de unidades funcionais dos CSP.
 Inicio: 01-01-2024;
 Fim: --","Construção do Questionário de Satisfação dos utentes dos CSP.
 Cada unidade funcional seleciona no
-mínimo 5 questões
+mínimo 6 questões
 , não contabilizando com o perfil dos utentes nem com a pergunta de resposta aberta.
 1-	Incluir do COD S01
 2-	Pelo menos 1 questão do COD S02
@@ -38185,9 +38190,10 @@ S01
 Perfil do Utente
 Caso entenda, poderá preencher os dados seguintes que servem para nos ajudar a perceber um pouco melhor as características dos utentes que usaram os serviços.
 Ano de nascimento: ______
-Sexo:
+Género:
 1 - Fem.
 2 - Masc.
+2 - Indeterminado
 Escolaridade (anos): _____
 Profissão: _____________
 1
@@ -38225,45 +38231,52 @@ Recomendaria a [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos seus familiares e amigo
 3 - Provavelmente não
 4 - Não
 5 - Não sei / Não respondo
+Questão 4
+Tomou conhecimento dos resultados do questionário de satisfação do ano anterior, [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
 1
 S03
 Questões de Avaliação da Satisfação na área do acesso
-Questão 4
+Questão 5
 Como avalia a facilidade em contactar telefonicamente com a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
 1 - Muito fácil
 2 - Fácil
 3 - Difícil
 4 - Muito difícil
 5 - Não sei / Não respondo
-Questão 5
+Questão 6
 Como avalia a sua satisfação com o horário proposto pela [NOME ABREVIADO DA UNIDADE DE SAÚDE] para os serviços que lhe são prestados?
 1 - Muito satisfeito
 2 - Satisfeito
 3 - Pouco satisfeito
 4 - Nada satisfeito
 5 - Não sei / Não respondo
-Questão 6
+Questão 7
 Como avalia a resposta da [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos utilizadores com necessidades especiais (por exemplo, de crianças, grávidas, idosos e portadores de deficiência)?
 1 - Muito boa
 2 - Boa
 3 - Razoável
 4 - Inexistente
 5 - Não sei / Não respondo
-Questão 7
+Questão 8
 Como classifica a forma como a [NOME ABREVIADO DA UNIDADE DE SAÚDE] divulga os tipos de cuidados que oferece (por exemplo vacinação, consultas médicas, consultas de enfermagem, rastreio de certos tipos de cancro, cuidados a grávidas, cuidados a crianças e domicílios)?
 1 - Muito clara
 2 - Clara
 3 - Pouco clara
 4 - Confusa
 5 - Não sei / Não respondo
-Questão 8
+Questão 9
 Como avalia a sua satisfação em relação ao tempo que decorre até ao agendamento e realização das consultas por si solicitadas?
 1 - Muito satisfeito
 2 - Satisfeito
 3 - Pouco satisfeito
 4 - Nada satisfeito
 5 - Não sei / Não respondo
-Questão 9
+Questão 10
 Como avalia a sua satisfação em relação à pontualidade com que foi atendido pelos serviços clínicos?
 1 - Muito satisfeito
 2 - Satisfeito
@@ -38273,7 +38286,7 @@ Como avalia a sua satisfação em relação à pontualidade com que foi atendido
 2
 S04
 Avaliação da Satisfação em Relação ao Atendimento do Secretariado Clínico
-Questão 10
+Questão 11
 Como avalia sua satisfação com a [NOME ABREVIADO DA UNIDADE DE SAÚDE], o atendimento no secretariado clínico.
 1 - Muito insatisfeito
 2 -
@@ -38285,7 +38298,7 @@ Como avalia sua satisfação com a [NOME ABREVIADO DA UNIDADE DE SAÚDE], o aten
 8 -
 9 -
 10 - Muito satisfeito
-Questão 11
+Questão 12
 Como classifica a informação fornecida pelo secretariado clínico da [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
 1 - Muito clara
 2 - Clara
@@ -38295,42 +38308,42 @@ Como classifica a informação fornecida pelo secretariado clínico da [NOME ABR
 1
 S05
 Avaliação da Satisfação em Relação ao Atendimento do Profissional de Saúde
-Questão 12
+Questão 13
 Como avalia a sua satisfação relativamente ao tempo e atenção que o profissional de saúde (médico, enfermeiro ou outro) dedicou ao seu atendimento?
 1 - Muito satisfeito
 2 - Satisfeito
 3 - Pouco satisfeito
 4 - Nada satisfeito
 5 - Não sei / Não respondo
-Questão 13
+Questão 14
 Como avalia a sua satisfação relativamente à qualidade dos cuidados clínicos recebidos (prestados por médico, enfermeiros ou outro)?
 1 - Muito satisfeito
 2 - Satisfeito
 3 - Pouco satisfeito
 4 - Nada satisfeito
 5 - Não sei / Não respondo
-Questão 14
+Questão 15
 Como classifica a informação clínica que lhe foi fornecida sobre os cuidados a ter com a sua saúde?
 1 - Muito útil
 2 - Útil
 3 - Pouco útil
 4 - Inútil
 5 - Não sei / Não respondo
-Questão 15
+Questão 16
 Como avalia a sua satisfação em relação à forma como foi envolvido(a) nas decisões sobre os cuidados a ter com a sua saúde?
 1 - Muito satisfeito
 2 - Satisfeito
 3 - Pouco satisfeito
 4 - Nada satisfeito
 5 - Não sei / Não respondo
-Questão 16
+Questão 17
 Como avalia o modo como os profissionais de saúde zelam pela sua privacidade?
 1 - Muito bom
 2 - Bom
 3 - Razoável
 4 - Mau
 5 - Não sei / Não respondo
-Questão 17
+Questão 18
 Se foi atendido por um interno de medicina geral e familiar, como avalia a sua satisfação com o atendimento?
 1 - Muito insatisfeito
 2 -
@@ -38345,28 +38358,28 @@ Se foi atendido por um interno de medicina geral e familiar, como avalia a sua s
 1
 S05
 Questões abertas
-Questão 18
+Questão 19
 Na sua opinião, como poderíamos melhorar os nossos serviços?
 1 - ______________________________________________________________
 2 - ______________________________________________________________
 3 - ______________________________________________________________
-1",,,2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,---,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
-483,2024.483.01,Monitorização da avaliação da Satis. Prof.,Monitorização da avaliação da Satisfação dos Profissionais dos Cuidados de Saúde Primários.,"Monitorizar a implementação de questionários de satisfação dos profissionais das unidades funcionais dos cuidados de saúde primários, percentagem de respostas e discussão dos resultados pela unidade funcional.","Este score avalia, para cada ano de contratualização, em que medida a unidade funcional implementou questionários de avaliação da satisfação dos seus profissionais, 
-a taxa de resposta dos profissionais e a discussão dos resultados obtidos.","A avaliação da satisfação dos profissionais é uma ferramenta importante de gestão quer das UF, quer da ULS. 
+1",,,2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,Qualidade Organizacional | Centralidade no Cidadão | Satisfação Utentes,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
+483,2024.483.01,Monitorização da avaliação da Sat. Profissionais,Monitorização da avaliação da Satisfação dos Profissionais dos Cuidados de Saúde Primários.,"Monitorizar a implementação de questionários de satisfação dos profissionais das unidades funcionais dos cuidados de saúde primários, percentagem de respostas e discussão dos resultados pela unidade funcional.","Este score avalia, para cada ano de contratualização, em que medida a unidade funcional implementou questionários de avaliação da satisfação dos seus profissionais, 
+a taxa de resposta dos profissionais e a discussão dos resultados obtidos.","A avaliação da satisfação dos profissionais é uma ferramenta importante de gestão quer das UF, quer da ULS.
 A implementação de questionários de satisfação é da responsabilidade da ULS, no entanto, a UF é responsável pela sua divulgação, pela análise e discussão de resultados, implementação de medidas de melhoria e pela divulgação dos resultados.
 FÓRMULA:
 A fórmula de cálculo deste score é baseada numa
 checklist
-de autopreenchimento pela UF, entrando em linha de conta com 
-    os seguintes aspetos:
+de autopreenchimento pela UF, entrando em linha de conta com
+os seguintes aspetos:
 1. A existência de evidências de monitorização da satisfação de profissionais e respectiva divulgação entre os profissionais;
 2. A taxa de resposta dos profissionais;
-4. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa 
-    monitorização;
+4. A existência de evidências de discussão dos resultados na UF e implementação de mudanças decorrentes dessa
+monitorização;
 5. A existência de uma ponderação para cada área de avaliação.
 A fórmula de cálculo é a seguinte:
-Resultado (em percentagem) = 100 x (A01 + A02 + A03) / 100
-Score (numa escala contínua de 0 a 2) = 2 x (A01 + A02 + A03) / 100
+Resultado (em percentagem) = 100 x (A01 + A02) / 100
+Score (numa escala contínua de 0 a 2) = 2 x (A01 + A02) / 100
 CHECKLIST
 DE AUTOPREENCHIMENTO PARA AS UNIDADES FUNCIONAIS
 Para cada item da
@@ -38380,17 +38393,6 @@ Observações
 Valorização (%)
 Validade
 A01
-A unidade funcional divulga junto dos seus profissionais a existência e a política de avaliação da satisfação dos profissionais e da sua importância para a melhoria contínua da UF.
-Valoriza-se 20% caso existam evidências de que a unidade funcional divulga junto dos seus profissionais a existência e a política de avaliação da satisfação dos profissionais e da sua importância para a melhoria contínua da UF.
-No caso da ULS não implementar em tempo útil o questionário de satisfação dos utentes, a UF fica responsável pela sua implementação.
-Os questionários para serem considerados válidos, poderão ser aplicados pela própria equipa, pelo ACES, ARS ou entidade nacional (por exemplo ACSS).
-Considera-se válida a aplicação do questionário de satisfação especificado neste BI, sem prejuízo das ARS poderem aplicar outro(s) modelo(s) que cumpra(m) a mesma finalidade, aprovado(s) pelo respetivo conselhos diretivos.
-Este critério será excecionado sempre que o questionário de satisfação não possa ser aplicado, com a alegação, por parte da unidade funcional, de que não foi possível a respetiva aplicação por indefinição do processo por parte das entidades competentes, sem prejuízo das próprias unidades funcionais unidades poderem, caso entendam, aplicar um questionário por sua iniciativa, nos termos referidos no parágrafo anterior.
-Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
-20
-Inicio: 01-01-2024;
-Fim: --
-A02
 Os profissionais da UF responde ao questionário de satisfação.
 A UF é valorizada de acordo com as taxas de respostas dos profissionais:
 Percentagem de respostas
@@ -38398,25 +38400,338 @@ Valorização
 < 50 %
 0
 >= 50% e < 70%
-40
+valorização na direta proporção da % de respostas até ao máximo de 40
 >= 50% e < 70%
-100
+60
 Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
-	tualização.
-Máximo 40
+                tualização.
+Máximo 60
 Inicio: 01-01-2024;
 Fim: --
-A03
+A02
 A unidade funcional analisa os resultados em equipa
 Para que este critério seja considerado cumprido é necessário ter discutido o relatório com análise descritiva das sugestões entregues, em Conselho Geral.
 Critério aplicável a todos os tipos de unidades funcionais dos cuidados de saúde primários com contratualização.
 40
 Inicio: 01-01-2024;
-Fim: --",,,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+Fim: --","Construção do Questionário de Satisfação dos profissionais.
+Cada unidade funcional seleciona no
+mínimo 12 questões
+, não contabilizando com o perfil dos profissionais, nem com a pergunta de resposta aberta.
+1-	Incluir do COD S01
+2-	Pelo menos 3 questão do COD S02
+3-	Pelo menos 3 questões do COD S03
+4-	Pelo menos 2 questão do COD S04
+5-	Pelo menos 3 questão do COD S05
+6-	Pelo menos 2 questão do COD S06
+6-	Incluir 1 questão de resposta aberta (COD S07)
+7-	Podem ser incluídas outras questões para além das disponíveis neste banco de questões.
+COD
+Área da Questão
+Questões
+Número mínimo de questões a selecionar
+S01
+Perfil do Profissional
+Caso entenda, poderá preencher os dados seguintes que servem para nos ajudar a perceber um pouco melhor as características dos profissionais da UF.
+Ano de nascimento: ______
+Género:
+1 - Fem.
+2 - Masc.
+3 - Indeterminado
+Grupo Profissional:
+1 - Enfermeiro
+2 - Interno de Medicina Geral e Familiar
+3 - Médico de Família
+4 - Secretário Clínico
+5 - Outro
+Profissão: _____________
+Há quantos anos exerce a sua profissão?_____________
+Há quantos anos trabalha nesta UF?_____________
+É coordenador ou membro do conselho técnico da UF?
+1 - Sim
+2 - Não
+Todas
+S02
+Questões de Caracter Geral
+Questão 1
+Como avalia a sua satisfação global em relação à [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+                    (Utilizando uma escala de 1 a 10, em que 1 corresponde a ""muito insatisfeito"" e 10 a ""muito satisfeito"")
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 2
+Relativamente há 1 anos, Como avalia sua satisfação com a [NOME ABREVIADO DA UNIDADE DE SAÚDE]?
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 3
+Recomendaria a [NOME ABREVIADO DA UNIDADE DE SAÚDE] aos seus familiares e amigos?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 4
+Voltaria a escolher a [NOME ABREVIADO DA UNIDADE DE SAÚDE] para trabalhar?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+3
+S03
+Avaliação da Satisfação em Relação ao Local de Trabalho
+Questão 5
+Como avalia sua satisfação com a segurança na  [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 6
+Como avalia sua satisfação com a limpeza da [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 7
+Como avalia sua satisfação com as instalações, iluminação, conforto e temperatura das salas de espera, salas de trabalho, sanitários e corredores na [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 8
+Como avalia sua satisfação com a adequada prevenção de situações que possam provocar riscos de stress no trabalho na [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 9
+Como avalia sua satisfação com a acessibilidade na  [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 10
+Como avalia sua satisfação com o equipamento e material para o desempenho da sua atividade na  [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+3
+S04
+Avaliação da Satisfação em Relação aos Recursos Humanos
+Questão 11
+Como avalia sua satisfação com o espírito de equipa de todas as pessoas que trabalham consigo, independentemente da sua profissão ou carreira na [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 12
+Como avalia sua satisfação com cooperação e a colaboração por parte dos meus colegas de profissão ou carreira na [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 13
+Como avalia sua satisfação com a comunicação na equipa na [NOME ABREVIADO DA UNIDADE DE SAÚDE].
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+2
+S05
+Avaliação da Satisfação com a Liderança (coordenador da UF)
+Em relação ao coordenador da sua UF:
+Questão 14
+Como avalia globalmente a sua satisfação com o empenho do seu coordenador?
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 15
+Demonstra abertura e disponibilidade para consigo?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 16
+Considera a sua opinião?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 17
+Reconhece que o seu trabalho foi bem realizado e quando e como pode ser melhorado (feedback)?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 18
+Manifesta Interesse e esforços no sentido de melhorar a qualidade do serviço prestado e os objetivos a alcançar?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 19
+Demonstra facilidade em fazer circular a informação pelos circuitos corretos e em tempo útil?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 20
+Demonstra capacidade para representar a sua UF?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+3
+S06
+Satisfação com a conciliação da vida pessoal e profissional
+Questão 21
+Considera que, para as estruturas de Gestão da ULS (Conselho de Administração, Conselhos de Gestão, Gestão Intermédia), as medidas de equilíbrio entre a vida profissional, familiar e pessoal são elementos estratégicos que fazem parte da sua cultura, valores e princípios?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 22
+Como avalia sua satisfação com as medidas que a ULS disponibiliza para ajudar os/as colaboradores/as a equilibrar as responsabilidades no trabalho com as responsabilidades na vida pessoal e familiar?
+1 - Muito insatisfeito
+2 -
+3 -
+4 -
+5 -
+6 -
+7 -
+8 -
+9 -
+10 - Muito satisfeito
+Questão 23
+Considera que existe uma promoção eficaz de divulgação das medidas de conciliação  por parte da ULS.?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+Questão 24
+Sente que as decisões do/a seu/sua superior hierárquico/a têm em consideração a vida pessoal e familiar?
+1 - Sim, com toda a certeza
+2 - Provavelmente sim
+3 - Provavelmente não
+4 - Não
+5 - Não sei / Não respondo
+2
+S07
+Questões abertas
+Questão 25
+Na sua opinião, como poderíamos melhorar?
+1 - ______________________________________________________________
+2 - ______________________________________________________________
+3 - ______________________________________________________________
+1",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Para as unidades funcionais, o resultado do indicador é recolhido mensalmente a partir do PAUF com o valor que lá esteja calculado em função de dados introduzidos pelas equipas e calculados pelo PAUF.
 - Assim o indicador, em cada mês tem a visão de resultados disponível no último dia do mês de referência.
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
-- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS/DE-SNS.",2 x (A01 + A02 + A03 + A04 + A05) / 100,Score,Em desenvolvimento,,---,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
+- O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS/DE-SNS.",2 x (A01 + A02) / 100,Score,Em desenvolvimento,,Qualidade Organizacional | Satisfação Profissionais | Satisfação Profissionais,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,
+484,2024.484.01,Proporção cons. méd. efetuadas por ECSM,Proporção de consultas médicas efetuadas pela Equipa Comunitária de Saúde Mental (ECSM),"Contribuir para a melhoria do acesso e para a promoção dos cuidados de proximidade.
+Monitorizar o acesso dos utentes às consultas das ECSP.","Indicador que exprime a proporção de consultas médicas realizadas pelas Equipas Comunitárias de Saúde Mental (ECSM), entre o total de consultas realizadas por médicos do Serviço Local de Saúde Mental (SLSM).
+Numerador: Contagem de consultas realizadas por médicos da ECSM.
+Denominador: Contagem de consultas realizadas por médicos do SLSM.","NUMERADOR (AA):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas no denominador.
+B. Ser realizada pela equipa comunitária de saúde mental (ECSM) (ver alíneas A e C de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B e C] é verdadeira:
+A. Ter sido realizada (efetivada) por médico do SLSM nos 12 meses que antecedem a data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
+B. Ter sido registada como [presencial] ou como [não presencial], num código de produção classificado com a valência de psiquiatria e com ""estrutura clínica"" de consulta externa (código 1203) ou de consulta descentralizada (código 1206). Ver alínea B de OBSERVAÇÕES GERAIS.","A. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos e internos de cada CRI na área de recursos humanos do módulo dos CRI do SDM. Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+B. Para  que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é ainda necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
+- O código da ""valência"" de Psiquiatria (Código 42).
+- O código de ""estrutura clínica"" de consulta externa (1203) ou de consulta descentralizada (1206).
+B. Para  que as consultas sejam contabilizadas no numerador, é necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
+- O código da ""valência"" de Psiquiatria (Código 42).
+- O código de ""estrutura clínica"" de consulta descentralizada (1206).",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,Ano de 2024: [50; 100],Ano de 2024: [40; 100],Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,[40; 100],40,100,---,,,[50; 100],50,100
 49,2013.049.01,"Proporção utentes c/ DPOC, c/ FeV1 em 3 anos","Proporção de utentes com DPOC, com pelo menos um registo de avaliação de FeV1 nos últimos 3 anos","Monitorizar o programa de acompanhamento de doenças respiratórias. Parâmetro ""FeV1 nos doentes cm DPOC"".","Indicador que exprime a proporção de doentes com DPOC, com pelo menos um registo de FeV1 nos últimos 3 anos.
 Numerador: Contagem de doentes com DPOC e com pelo menos um registo de FeV1 nos últimos 3 anos.
 Denominador: Contagem de doentes com DPOC.","NUMERADOR (AA):
