@@ -112,6 +112,7 @@ def csv_crawler():
 
         try:
             # make ID the index
+            print(file)
             temp_df.set_index("Código", inplace=True)
 
             # append the temp_df DataFrame to the main df DataFrame

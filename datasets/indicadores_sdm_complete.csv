@@ -38714,24 +38714,110 @@ Na sua opinião, como poderíamos melhorar?
 - O único mês de referência de indicador que pode ser ""refrescado"" é o de dezembro.
 - O ""refrescamento"" de resultados dos indicadores de dezembro apenas pode ocorrer entre 1 de janeiro do ano seguinte à contratualização e o dia de fecho do processo de avaliação, determinado pela ACSS/DE-SNS.",2 x (A01 + A02) / 100,Score,Em desenvolvimento,,Qualidade Organizacional | Satisfação Profissionais | Satisfação Profissionais,---,---,Resultado,Não aplicável,Não aplicável,90 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
 484,2024.484.01,Proporção cons. méd. efetuadas por ECSM,Proporção de consultas médicas efetuadas pela Equipa Comunitária de Saúde Mental (ECSM),"Contribuir para a melhoria do acesso e para a promoção dos cuidados de proximidade.
-Monitorizar o acesso dos utentes às consultas das ECSP.","Indicador que exprime a proporção de consultas médicas realizadas pelas Equipas Comunitárias de Saúde Mental (ECSM), entre o total de consultas realizadas por médicos do Serviço Local de Saúde Mental (SLSM).
-Numerador: Contagem de consultas realizadas por médicos da ECSM.
-Denominador: Contagem de consultas realizadas por médicos do SLSM.","NUMERADOR (AA):
+Monitorizar o acesso dos utentes às consultas médicas das ECSM.","Indicador que exprime a proporção de consultas médicas realizadas pelas Equipas Comunitárias de Saúde Mental (ECSM), entre o total de consultas realizadas por médicos do Serviço Local de Saúde Mental (SLSM).
+Numerador: Contagem de consultas médicas realizadas na ECSM.
+Denominador: Contagem de consultas médicas.","NUMERADOR (AA):
 Contagem de consultas em que a expressão [A e B] é verdadeira:
 A. Todas as condições enunciadas no denominador.
-B. Ser realizada pela equipa comunitária de saúde mental (ECSM) (ver alíneas A e C de OBSERVAÇÕES GERAIS).
+B. Ser realizada pela equipa comunitária de saúde mental (ECSM), com o código de estrutura local ""consulta comunitária"" (código 1207)  (ver alíneas A e C de OBSERVAÇÕES GERAIS).
 DENOMINADOR (BB):
-Contagem de consultas em que a expressão [A e B e C] é verdadeira:
+Contagem de consultas em que a expressão [A e B] são verdadeira:
 A. Ter sido realizada (efetivada) por médico do SLSM nos 12 meses que antecedem a data de referência do indicador (ver alínea A de OBSERVAÇÕES GERAIS).
-B. Ter sido registada como [presencial] ou como [não presencial], num código de produção classificado com a valência de psiquiatria e com ""estrutura clínica"" de consulta externa (código 1203) ou de consulta descentralizada (código 1206). Ver alínea B de OBSERVAÇÕES GERAIS.","A. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos e internos de cada CRI na área de recursos humanos do módulo dos CRI do SDM. Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+B. Ter sido registada como [presencial] ou como [não presencial], num código de produção classificado com a valência de psiquiatria. Ver alínea B de OBSERVAÇÕES GERAIS.","A. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
 B. Para  que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é ainda necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
 - O código da ""valência"" de Psiquiatria (Código 42).
-- O código de ""estrutura clínica"" de consulta externa (1203) ou de consulta descentralizada (1206).
-B. Para  que as consultas sejam contabilizadas no numerador, é necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
+- O código de ""estrutura clínica"" de consulta externa (1203), consulta descentralizada (código 1206) ou consulta comunitária (código 1207).
+C. Para  que as consultas sejam contabilizadas no numerador, é necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
 - O código da ""valência"" de Psiquiatria (Código 42).
-- O código de ""estrutura clínica"" de consulta descentralizada (1206).",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- O código de ""estrutura clínica"" de consulta comunitária (1207) ou descentralizada (código 1206).
+D. Níveis de observação",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
 - Numerador: Duração de 12 meses, terminando na data de referência do indicador.
 - Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,Ano de 2024: [50; 100],Ano de 2024: [40; 100],Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,[40; 100],40.0,100.0,---,,,[50; 100],50.0,100.0,,
+485,2024.485.01,Prop. de ref. em LEC nas ECSM dentro dos TMRG,Proporção de referenciações em Lista de Espera para Consulta (LEC) no Serviço Local de Saúde Mental (SLSM) dentro dos Tempos Máximos de Resposta Garantida (TMRG).,Monitorizar a proporção de utentes na LEC que estão dentro dos TMRG.,"Indicador que exprime a proporção de referenciações em lista de espera para consulta pelas SLSM dentro do tempo máximo de resposta garantido.
+Numerador: Número de referenciações com menos dias de espera do que os TMRG.
+Denominador: Número total de referenciações em lista de espera para consulta na SLSM","NUMERADOR:
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas no denominador.
+B. O tempo decorrido entre a data de referenciação e a data de referência do indicador é inferior ao TMRG.(ver alíneas B e C de OBSERVAÇÕES GERAIS)
+DENOMINADOR (BB):
+Contagem de referenciações em LEC em que a expressão [A e B] é verdadeira:
+A. A referenciação foi realizada para a SLSM.
+B. A referenciação está no estado validado pelo triador da SLSM. (Ver alínea A de OBSERVAÇÕES GERAIS)","A. Para que a referenciação seja contabilizada como estando na LEC (no denominador e consequentemente no numerador) tem de cumprir os seguintes pressupostos:
+-Ter sido realizada para a SLSM
+-Ter sido validada pelo triador da SLSM
+B. Os TMRG estão definidos na Portaria n.º 153/2017, de 4 de maio.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+486,2024.486.01,"Prop.primeiras consultas SLSM,TMRG.",Proporção de primeiras consultas no SLSM dentro do TMRG.,Monitorização das primeiras consulta médica de psiquiatria no SLSM dentro do TMRG.,"Indicador que exprime a proporção de primeiras consultas médicas realizadas no SLSM, dentro dos TMRG, do total referenciações pelos CSP ou outras entidades do SNS.
+Numerador: Total de primeiras consultas médicas realizadas no SLSM, dentro dos TMRG. (provenientes dos CSP ou outras entidades SNS)
+Denominador: Total de primeiras consultas médicas realizadas no SLSM. (provenientes dos CSP ou outras entidades SNS)","NUMERADOR:
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. Todas as condições enunciadas no denominador.
+B. A primeira consulta médica no SLSM ser realizada dentro do TMRG. (ver alíneas A e C de OBSERVAÇÕES GERAIS)
+DENOMINADOR (BB):
+Contagem de consultas em que a expressão [A e B] é verdadeira:
+A. O utente foi referenciado para consulta médica no SLSM, pelos CSP ou outras entidades do SNS.
+B. Consulta realizada por médico do SLSM. (Ver alínea B de OBSERVAÇÕES GERAIS)","A. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um SLSM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+B. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é ainda necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
+- O código da ""valência"" de Psiquiatria (Código 42).
+- Realizada por um médico pertencente ao SLSM, na data de referência do indicador.
+C. Para que seja considerado para este indicador, a consulta tem de ser uma primeira consulta, segundo a Portaria n.º 615/2008, de 11 de julho: 
+Primeira onsulta hospitalar» - consulta em hospital em que o utente é examinado pela primeira vez num serviço de especialidade/valência e referente a um novo episódio de doença.
+D. Os TMRG estão definidos na Portaria n.º 153/2017, de 4 de maio.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+487,,,"Proporção de utentes com diagnóstico Doença Mental Grave (DMG), em seguimento pelas equipas comunitárias de saúde mental (ECSM), em relação ao total de utentes em seguimento nas ECSM.",Monitorização do número de utentes com doença mental grave em seguimento nas ECSM.,"Indicador que calcula a proporção de utentes com Doença Mental Grave, em seguimento nas ECSM, em relação ao total de utentes em seguimento nas ECSM. 
+Numerador: Número de utentes com diagnóstico ativo de Doença Mental Grave que tiveram uma consulta em contexto de ECSM, no período em análise. 
+Denominador: Número de utentes que tiveram uma consulta em contexto de ECSM, no período em análise.","NUMERADOR:
+Contagem de utentes em que a expressão [A e B] é verdadeira:
+A. A condição enunciada no denominador.
+B. Ter diagnóstico de doença mental grave registado como diagnóstico principal, no período em análise. (ver alíneas A e B de OBSERVAÇÕES GERAIS).
+DENOMINADOR (BB):
+Contagem de utentes em que a expressão [A] é verdadeira:
+B. Ter pelo menos uma consulta médica, presencial ou não presencial, nas ECSM, no período em análise. (ver alíneas C e D de OBSERVAÇÕES GERAIS)","A.Doença mental grave é definida pelos códigos da ICD 10-CM: F20 a F29, F30 a F31, F32.2 e F32.3, F33.2 e F33.3, F42, F50, F60.3.
+B. Para o utente ser contabilizado para o numerador, a doença mental grave tem de ser o diagnóstico principal do utente, registado no módulo de consulta.
+C.Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. Este aspeto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+D.Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é ainda necessário que os códigos de produção usados nos sistemas de informação para registo das consultas sejam classificados, nos termos da Circular Normativa 20/2015 da ACSS com:
+- O código da ""valência"" de Psiquiatria (Código 42).",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+488,,,Proporção de internamentos no SLSM acima do limiar máximo do GDH,"Monitorizar a adequação do tempo de internamento no SLSM, ao GDH do episódio","Indicador que exprime a proporção de episódios de internamento com alta, com duração de internamento superior ao limiar máximo definido para o GDH do episódio, no total de episódios internamento com alta no SLSM.
+Numerador:  Contagem dos episódios de Internamento com alta, no período em análise, com duração de Internamento superior ao limiar máximo estabelecido na portaria em vigor para o GDH do episódio no SLMS.
+Denominador: Contagem de episódios de internamento com alta, no período em análise.","NUMERADOR:
+Contagem de episódios de internamento em que a expressão [A e B] são verdadeira:
+A. As condições enunciadas no denominador.
+B. A duração do internamento é superior ao limiar máximo estabelecido na portaria em vigor para o GDH do episódio. (ver alíneas A de OBSERVAÇÕES GERAIS)
+DENOMINADOR (BB):
+Contagem de episódios de internamento em que as expressões [A, B e C] são verdadeira:
+A. O episódio de internamento terminou com alta hospitalar. (ver alíneas B e C de OBSERVAÇÕES GERAIS)
+B. A alta foi realizada por médico da unidade de internamento do SLSM. (Ver alínea C de OBSERVAÇÕES GERAIS)
+C. A data da alta do internamento está incluída no período de tempo em análise. (ver alíneas C de OBSERVAÇÕES GERAIS)","A. A Portaria nº 207/2017 de 11 de julho, na sua redação atual, define para cada GDH o limiar máximo de tempo de internamento.
+B. Episódio de internamento define-se como o período de tempo que decorre ininterruptamente desde a data da admissão de doentes até à data da alta, em regime de internamento, 
+   excetuando-se o dia da alta 207/2017 de 11 de junho.
+C. Para que as altas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+489,,,Taxa de reinternamentos por doença mental grave (DMG) no prazo de 30 dias,"Contribuir para a optimização do desempenho assistencial. Os reinternamentos constituem uma importante preocupação clínica e são um possível indicador de inadequada prestação de cuidados e de gestão hospitalar. 
+Neste sentido, é importante que os SLSM adoptem iniciativas que permitam um planeamento de altas adequado, a informação dos utentes e dos seus familiares e medidas concretas de seguimento de utentes com maior risco de reinternamento.","Indicador que exprime a taxa de reinternamento em 30 dias por DMG no SLMS.
+Numerador: Total de episódios de reinternamento por DMG, nos 30 dias posteriores à alta.
+Denominador: Total de episódios de internamento por DMG, com alta no período em análise.","NUMERADOR:
+Contagem de episódios de internamento em que as expressões [A, B e C] são verdadeira:
+A. As condições enunciadas no denominador.
+B. O utente tem alta de internamento nos 30 dias que antecedem a data da alta hospitalar. (ver alíneas A de OBSERVAÇÕES GERAIS)
+C. O internamento anterior foi classificado com código ICD 10-CM de DMG.
+DENOMINADOR (BB):
+Contagem de episódios de internamento em que as expressões [A, B e C] são verdadeiras:
+A. O episódio de internamento terminou com alta hospitalar. (Ver alínea B de OBSERVAÇÕES GERAIS)
+B. A data da alta está incluída no período de tempo em análise.
+C. O episódio de internamento é classificado com código ICD 10-CM de DMG. (ver alíneas C e D de OBSERVAÇÕES GERAIS)","A. Episódio de internamento define-se como o período de tempo que decorre ininterruptamente desde a data da admissão de doentes até à data da alta, em regime de internamento, 
+   excetuando-se o dia da alta 207/2017 de 11 de junho
+C. Para que as altas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+D.Doença mental grave é definida pelos códigos da ICD 10-CM: F20 a F29, F30 a F31, F32.2 e F32.3, F33.2 e F33.3, F42, F50, F60.3.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
 49,2013.049.01,"Proporção utentes c/ DPOC, c/ FeV1 em 3 anos","Proporção de utentes com DPOC, com pelo menos um registo de avaliação de FeV1 nos últimos 3 anos","Monitorizar o programa de acompanhamento de doenças respiratórias. Parâmetro ""FeV1 nos doentes cm DPOC"".","Indicador que exprime a proporção de doentes com DPOC, com pelo menos um registo de FeV1 nos últimos 3 anos.
 Numerador: Contagem de doentes com DPOC e com pelo menos um registo de FeV1 nos últimos 3 anos.
 Denominador: Contagem de doentes com DPOC.","NUMERADOR (AA):
@@ -38768,6 +38854,67 @@ INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FIXO""
 - Denominador (variável ""DPOC na lista de problemas""): Coincidente com a data de referência do indicador.",AA / BB x 100,%,Proporção de utentes com FeV1,Com dados desde Junho de 2014,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório,"Ano de 2023: [60; 100]
 Ano de 2024: [60; 100]","Ano de 2023: [30; 100]
 Ano de 2024: [30; 100]",Processo,Respiratório,Utentes inscritos à data de referência do indicador,30 dias,"2023, 2024",[30; 100],30.0,100.0,[30; 100],30.0,100.0,[60; 100],60.0,100.0,[60; 100],60.0,100.0,1.0,1.0
+490,,,"Proporção de utentes com consulta médica realizada no SLSM, nos 21 dias após alta hospitalar.",Contribuir para a melhoria da continuidade e qualidade dos cuidados.,"Indicador que exprime a proporção de utentes com consulta médica realizada no SLSM, nos 21 dias subsequentes à alta hospitalar.
+Numerador: Contagem de utentes com consultas médicas realizadas pelo SLSM, nos 21 dias subsequentes à alta hospitalar.
+Denominador: Contagem de utentes com alta hospitalar do SLSM, no período em análise.","NUMERADOR:
+Contagem de utentes com consulta médica [A e B] é verdadeira:
+A. As condições enunciadas no denominador.
+C. Com consulta médica no SLSM realizada nos 21 dias após a alta hospitalar, excluindo o dia da alta.(ver alíneas A, B e C de OBSERVAÇÕES GERAIS)
+DENOMINADOR (BB):
+Contagem de utentes com alta hospitalar em que a expressão [A e B] são verdadeiras:
+A.O utente teve internamento com alta hospitalar no SLSM
+(ver alíneas A, B e C de OBSERVAÇÕES GERAIS)
+B. A data da alta do internamento está incluída no período de tempo em análise.","A. Episódio de internamento define-se como o período de tempo que decorre ininterruptamente desde a data da admissão de doentes até à data da alta, em regime de internamento, 
+   excetuando-se o dia da alta 207/2017 de 11 de junho
+C. Para que as altas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.
+D. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+492,,,"Proporção de consultas e intervenções descentralizadas, realizados por profissionais não médicos da ECSM.",Contribuir para a melhoria da continuidade e qualidade dos cuidados.,"Indicador que exprime a proporção de consultas e intervenções descentralizadas, realizados por profissionais não médicos da ECSM, em relação ao total de consultas e intervenções realizados na ECSM.
+Numerador: Contagem de consultas e intervenções descentralizadas realizadas por profissionais não médicos da ECSM.
+Denominador: Contagem do total de consultas e intervenções realizados por profissionais não médicos da ECSM.","NUMERADOR:
+Contagem de consultas ou intervenções em que a expressão [A e B] são verdadeiras:
+A.Todas as condições do denominador;
+B.Realizada de forma descentralizada. (ver alínea A de Observações gerais) 
+
+DENOMINADOR (BB):
+Contagem de em que a expressão [A ou B] são verdadeiras:
+A.Consulta realizada por profissional não médico da ECSM.
+B.Intervenção realizada por profissional não médico da ECSM, com os seguintes códigos da tabela de saúde mental:
+- 82510;
+- 82520.",,,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+493,,,"Proporção de utentes referenciados para a RNCCI pelos profisisonais do CRI-SM, em tempo adequado.","Monitorizar a adequação, no que se refere ao tempo, da referenciação para a RNCCI pelo CRI-SM.","Indicador que exprime a proporção de refrenciações para a RNCCI, realizadas em tempo adequado.
+Numerador: Contagem de referênciações para a RNCCI, pelo CRI-SM, que decorreram no tempo adequado.
+Denominador: Contagem do total de referenciações para a RNCCI pelo CRI-SM.","NUMERADOR:
+Contagem referenciações em que a expressão [A e B] são verdadeiras:
+A.Todas as condições do denominador;
+B.Terminada 2 dias após o início da referenciação.(ver alínea A de Observações gerais) 
+
+DENOMINADOR (BB):
+Contagem referenciações em que a expressão [A ou B] são verdadeiras:
+A. Realizada para a RNCCI.
+B. Realizada por profissionais do CRI-SM.(ver alínea B de Observações gerais)","A. O tempo decorrido entre o início e o fim da referênciação é contabilizado em dias, não incluindo o dia de início da referenciação.
+B. Para que as consultas sejam contabilizadas (no denominador e consequentemente no numerador), é necessário que seja efetuado o registo de todos os médicos, especialistas e internos, de cada CRI na área de recursos humanos do módulo dos CRI do SDM. 
+  Este aspecto é particularmente importante, sempre que um hospital tenha mais do que um CRI-SM ou sempre que existam médicos da especialidade de psiquiatria que não integrem o CRI-SM.",,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
+494,,,Proporção de utilizadores frequentes do Serviço de Urgência Psiquiátrica,"Monitorizar a utilização do serviço de urgência psiquiátrica, incentivando o planeamento de cuidados.","Indicador que exprime a proporção de utilizadores muito frequentes do Serviço de Urgência Psiquiátrica.
+Numerador: Contagem de utentes com 4 ou mais altas de episódios de urgência, realizada por médico de psiquiatria pertencente ao SLSM, nos 12 meses que antecedem a data de referência do indicador.
+Denominador da taxa bruta: Contagem de utentes com alta de episódios de urgência, realizada por médico de psiquiatria pertencente ao SLSM, nos 12 meses que antecedem a data de referência do indicador.","NUMERADOR:
+Contagem de episódios do serviço de urgência em que as expressões [A e B] são verdadeiras:
+A. As condições enunciadas no denominador.
+B. Ter 4 ou mais episódios de alta hospitalar.
+DENOMINADOR (BB):
+Contagem de episódios do serviço de urgência em que a expressão [A, B e C] são verdadeiras:
+A. Ter resultado em alta do serviço de urgência.
+B. A data da alta hospitalar está incluída no período de período em análise.
+C. A alta hospitalar foi realizada por médico do serviço de SLSM.",,,"INDICADOR CALCULADO PELO MÉTODO DE ""PERÍODO EM ANÁLISE FLUTUANTE""
+- Numerador: Duração de 12 meses, terminando na data de referência do indicador.
+- Denominador: Duração de 12 meses, terminando na data de referência do indicador.",AA / BB x 100,%,Proporção de consultas,Em desenvolvimento,---,---,---,Processo,Saúde Mental,Utentes utilizadores durante o período em análise,5 dias,"2023, 2024",---,,,---,,,---,,,---,,,,
 5,2013.005.01,Proporção de consultas realizadas pelo EF,Proporção de consultas realizadas pelo respetivo enfermeiro de família,Monitorizar o acesso dos utentes ao seu próprio enfermeiro de família e a capacidade de intersubstituição dos enfermeiros da unidade de saúde.,"Indicador que exprime a proporção de consultas que cada enfermeiro realiza aos utentes da respetiva lista.
 Numerador: Contagem de consultas presenciais realizadas pelo próprio enfermeiro de família.
 Denominador: Contagem de consultas presenciais realizadas por qualquer enfermeiro da unidade de saúde.","NUMERADOR (AA):
