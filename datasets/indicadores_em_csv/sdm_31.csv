@@ -14,11 +14,15 @@ A. Todas as condições enunciadas para o denominador;
 B. Têm pelo menos um registo de peso com [data de medição] pertencente ao intervalo etário [5; 7[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
 C. Têm pelo menos um registo de estatura (ou altura) com [data de medição] pertencente ao intervalo etário [5; 7[ anos (ver alíneas A, B, C e D de OBSERVAÇÕES GERAIS).
 DENOMINADOR (BB):
-Contagem dos utentes em que a expressão [A e B] é verdadeira:
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
 A. Crianças que completam 7 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
 B. [
 Inscrição ativa
-] na unidade de saúde, na data de referência do indicador."
+] na unidade de saúde, na data de referência do indicador.
+C. A criança teve [
+Inscrição ativa
+] na unidade de saúde, durante pelo menos 6 meses do período compreendido entre os [6; 7[ anos.
+(Válido para indicadores com data de referência igual ou superior a janeiro de 2024)"
 Observações Gerais,"A. São contabilizados no numerador os utentes com registos de peso e estatura realizados por qualquer médico, interno ou enfermeiro da unidade de saúde.
 B. Os registos de peso e estatura podem ser realizados nos módulos ou programas de hipertensão, diabetes e saúde infantil. Podem também ser registados noutros módulos das aplicações destinadas a registar parâmetros do exame objetivo, tal como especificado em OBSERVAÇÕES SOBRE SOFTWARE. Não são contabilizados registos de texto livre no O do SOAP.
 C. Não é obrigatório que os profissionais registem manualmente o valor do IMC. Basta que existam registos do peso e da estatura conforme descrito nas REGRAS DE CÁLCULO. Os sistemas de informação calculam de forma automática o IMC.
@@ -46,5 +50,5 @@ Intervalo Aceitável,"Ano de 2023: [70; 100]
 Ano de 2024: [70; 100]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil
-Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado
 Prazo para Registos,5 dias

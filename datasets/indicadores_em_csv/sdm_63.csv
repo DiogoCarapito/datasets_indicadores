@@ -14,11 +14,15 @@ A. Todas as condições enunciadas para o denominador;
 B. Têm o PNV totalmente cumprido às zero horas do dia em que completam 7 anos. Ver alíneas A, B, C, D e E de OBSERVAÇÕES GERAIS.
 C. Ter pelo menos 1 consulta médica de vigilância entre no intervalo [5; 7[ anos de vida. Ver alíneas H e I de OBSERVAÇÕES GERAIS.
 DENOMINADOR (BB):
-Contagem dos utentes em que a expressão [A e B] é verdadeira:
+Contagem dos utentes em que a expressão [A e B e C] é verdadeira:
 A. Crianças que completam 7 anos de idade durante os 12 meses que antecedem a data de referência do indicador (quando o indicador é calculado pelo método ""período em análise flutuante"") ou durante o ano civil em curso (quando o indicador é calculado pelo método ""período em análise fixo"");
 B. [
 Inscrição ativa
-] na unidade de saúde, na data de referência do indicador. Ver alínea F de OBSERVAÇÕES GERAIS."
+] na unidade de saúde, na data de referência do indicador. Ver alínea F de OBSERVAÇÕES GERAIS.
+C. A criança teve [
+Inscrição ativa
+] na unidade de saúde, durante pelo menos 6 meses do período que antecede a data de referência do indicador.
+(Válido para indicadores com data de referência igual ou superior a janeiro de 2024)"
 Observações Gerais,"A. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
 B. São incluídos no numerador, as crianças que à data de referência do indicador, tenham registos de inoculações de vacinas que permitam afirmar que às zero horas do dia em que completam 7 anos de idade, tinham o PNV totalmente cumprido pelo [esquema cronológico recomendado] ou pelo [esquema cronológico de recurso] adaptado à idade. Assim, as datas de inoculação devem ser anteriores à data do 7º aniversário de cada criança, mas as datas de registo podem ir até à data de referência do indicador.
 C. Aceita-se a realização de [registo completo] ou de [registo simplificado]. No [registo completo], todas as inoculações de cada tipo de vacina devem estar registadas. No [registo simplificado], apenas é necessário que a última dose da vacina esteja registada, com especificação da data de inoculação e do nº de ordem da inoculação. Aceita-se que umas vacinas estejam com [registo completo] e outras com [registo simplificado]
@@ -199,5 +203,5 @@ Intervalo Aceitável,"Ano de 2023: [65; 100]
 Ano de 2024: [65; 100]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil
-Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
+Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado
 Prazo para Registos,5 dias

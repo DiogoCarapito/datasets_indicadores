@@ -87,11 +87,12 @@ H. Para cada unidade de observação e mês disponibilizam-se os resultados segu
 - P_CARR - Proporção de episódios de urgência carregados nos sistemas de informação
 - R - Resultado (AA / (BB + CC_C) x 100)
 I. Quando um utente é tranferido de um serviço de urgência para outro, apenas se contabiliza 1 episódio de urgência (o último).
-J. A condição F da VARIÁVEL BB (Agendada por iniciativa do utente, ou equivalente), é operacionalizada contabilizando-se consultas em que a [AA ou BB ou CC ou DD] é verdadeira:
+J. A condição F da VARIÁVEL BB (Agendada por iniciativa do utente, ou equivalente), é operacionalizada contabilizando-se consultas em que a [AA ou BB ou CC ou DD ou EE] é verdadeira:
 AA. Consulta agendada por iniciativa do utente (inclui agendamentos através da internet/e-agenda);
-BB. Consulta ""não programada"" por motivo ""doença"" (excluidas consultas programadas ou de vigilância);
+BB. Consulta ""não programada"" por motivo ""doença"" (excluídas consultas programadas ou de vigilância);
 CC. Consulta por motivo ""doença"" e iniciativa do agendamento não registada;
-DD. Consulta agendada em módulo de urgência;"
+DD. Consulta agendada em módulo de urgência;
+EE.Consulta agendada por iniciativa do SNS24 (regra válida para consultas realizadas após janeiro de 2024)"
 Observações Sobre Software,"SClínico
 A. Indicador incompatível com unidades funcionais com SClínico até janeiro de 2018.
 B. O problema existente no SClínico que impedia uma leitura fiável do indicador foi resolvido na versão implementada a nível nacional em fevereiro de 2018. Assim, fevereiro de 2018 é o primeiro mês em que a informação tem qualidade para ser medida.
