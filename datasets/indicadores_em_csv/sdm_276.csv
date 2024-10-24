@@ -66,9 +66,11 @@ Output,Rácio de DDD
 Estado do indicador,Com dados desde Junho de 2014
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
 Intervalo Esperado,"Ano de 2023: [0; 28]
-Ano de 2024: [0; 23]"
+Ano de 2024: [0; 23]
+Ano de 2025: [0; 23]"
 Intervalo Aceitável,"Ano de 2023: [0; 38]
-Ano de 2024: [0; 30]"
+Ano de 2024: [0; 30]
+Ano de 2025: [0; 30]"
 Tipo de Indicador,Processo
 Área clínica,Diabetes Mellitus
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador

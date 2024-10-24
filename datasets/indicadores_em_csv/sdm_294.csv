@@ -69,9 +69,11 @@ Output,Taxa de consultas domiciliárias (Enf.)
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Idoso
 Intervalo Esperado,"Ano de 2023: [570; 1500]
-Ano de 2024: [500; 1500]"
+Ano de 2024: [500; 1500]
+Ano de 2025: [500; 1500]"
 Intervalo Aceitável,"Ano de 2023: [300; 1500]
-Ano de 2024: [150; 1500]"
+Ano de 2024: [150; 1500]
+Ano de 2025: [150; 1500]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

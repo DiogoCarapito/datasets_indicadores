@@ -52,9 +52,11 @@ Output,Preço médio por utente
 Estado do indicador,Com dados desde Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Hipertensão Arterial
 Intervalo Esperado,"Ano de 2023: [0; 90]
-Ano de 2024: [0; 90]"
+Ano de 2024: [0; 90]
+Ano de 2025: [0; 90]"
 Intervalo Aceitável,"Ano de 2023: [0; 100]
-Ano de 2024: [0; 110]"
+Ano de 2024: [0; 110]
+Ano de 2025: [0; 110]"
 Tipo de Indicador,Resultado
 Área clínica,Hipertensão Arterial
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

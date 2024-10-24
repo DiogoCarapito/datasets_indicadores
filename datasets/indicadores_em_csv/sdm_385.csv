@@ -40,9 +40,11 @@ Output,Proporção de referenciações
 Estado do indicador,Em desenvolvimento
 Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
 Intervalo Esperado,"Ano de 2023: [0; 3]
-Ano de 2024: [0; 3]"
+Ano de 2024: [0; 3]
+Ano de 2025: [0; 3]"
 Intervalo Aceitável,"Ano de 2023: [0; 5]
-Ano de 2024: [0; 5]"
+Ano de 2024: [0; 5]
+Ano de 2025: [0; 5]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

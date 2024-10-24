@@ -91,9 +91,11 @@ Output,Despesa com MCDT
 Estado do indicador,Com dados desde Agosto de 2015
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
 Intervalo Esperado,"Ano de 2023: [15; 50]
-Ano de 2024: [15; 50]"
+Ano de 2024: [15; 50]
+Ano de 2025: [15; 50]"
 Intervalo Aceitável,"Ano de 2023: [10; 55]
-Ano de 2024: [10; 55]"
+Ano de 2024: [10; 55]
+Ano de 2025: [10; 55]"
 Tipo de Indicador,Resultado
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise

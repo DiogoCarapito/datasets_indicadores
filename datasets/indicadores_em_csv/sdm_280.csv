@@ -86,9 +86,11 @@ Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
 Intervalo Esperado,"Ano de 2023: [92; 100]
-Ano de 2024: [92; 100]"
+Ano de 2024: [92; 100]
+Ano de 2025: [92; 100]"
 Intervalo Aceitável,"Ano de 2023: [65; 100]
-Ano de 2024: [70; 100]"
+Ano de 2024: [70; 100]
+Ano de 2025: [70; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise

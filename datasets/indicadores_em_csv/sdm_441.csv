@@ -335,9 +335,11 @@ Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Dezembro de 2021
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
 Intervalo Esperado,"Ano de 2023: [0.74; 1]
-Ano de 2024: [0.74; 1]"
+Ano de 2024: [0.74; 1]
+Ano de 2025: [0.74; 1]"
 Intervalo Aceitável,"Ano de 2023: [0.64; 1]
-Ano de 2024: [0.64; 1]"
+Ano de 2024: [0.64; 1]
+Ano de 2025: [0.64; 1]"
 Tipo de Indicador,Resultado
 Área clínica,Saúde Materna
 Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise

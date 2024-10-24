@@ -265,9 +265,11 @@ Output,Proporção de utentes
 Estado do indicador,Com dados desde Agosto de 2018
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde do Adulto
 Intervalo Esperado,"Ano de 2023: [10; 100]
-Ano de 2024: [10; 100]"
+Ano de 2024: [10; 100]
+Ano de 2025: [10; 100]"
 Intervalo Aceitável,"Ano de 2023: [5; 100]
-Ano de 2024: [5; 100]"
+Ano de 2024: [5; 100]
+Ano de 2025: [5; 100]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador

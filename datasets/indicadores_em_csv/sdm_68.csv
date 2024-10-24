@@ -75,9 +75,11 @@ Output,Despesa com medicamentos
 Estado do indicador,Com dados desde Dezembro de 2012
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição Farmacoterapêutica
 Intervalo Esperado,"Ano de 2023: [115; 155]
-Ano de 2024: [115; 155]"
+Ano de 2024: [115; 155]
+Ano de 2025: [115; 155]"
 Intervalo Aceitável,"Ano de 2023: [115; 160]
-Ano de 2024: [115; 160]"
+Ano de 2024: [115; 160]
+Ano de 2025: [115; 160]"
 Tipo de Indicador,Resultado
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise

@@ -233,9 +233,11 @@ Output,Taxa internamento ajustada (por 100.000 utentes com inscrição ativa por
 Estado do indicador,Com dados desde Setembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório
 Intervalo Esperado,"Ano de 2023: [0; 2.5]
-Ano de 2024: [0; 2.5]"
+Ano de 2024: [0; 2.5]
+Ano de 2025: [0; 2.5]"
 Intervalo Aceitável,"Ano de 2023: [0; 4.5]
-Ano de 2024: [0; 4.5]"
+Ano de 2024: [0; 4.5]
+Ano de 2025: [0; 4.5]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Respiratório
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

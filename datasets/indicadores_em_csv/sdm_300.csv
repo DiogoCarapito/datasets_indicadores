@@ -61,9 +61,11 @@ Unidade de medida,Média
 Output,Com dados desde Agosto de 2015
 Área | Subárea | Dimensão,Desempenho | Qualificação da Prescrição | Prescrição MCDT
 Intervalo Esperado,"Ano de 2023: [0; 0.1]
-Ano de 2024: [0; 0.1]"
+Ano de 2024: [0; 0.1]
+Ano de 2025: [0; 0.1]"
 Intervalo Aceitável,"Ano de 2023: [0; 0.16]
-Ano de 2024: [0; 0.2]"
+Ano de 2024: [0; 0.2]
+Ano de 2025: [0; 0.2]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes utilizadores durante o período em análise

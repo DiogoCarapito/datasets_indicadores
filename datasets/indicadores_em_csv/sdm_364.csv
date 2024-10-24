@@ -349,9 +349,11 @@ Output,Taxa internamento (por 100.000 residentes por ano)
 Estado do indicador,Com dados desde Setembro de 2016
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Multimorbilidade e Outros Tipos de Doenças
 Intervalo Esperado,"Ano de 2023: [0; 15]
-Ano de 2024: [0; 15]"
+Ano de 2024: [0; 15]
+Ano de 2025: [0; 15]"
 Intervalo Aceitável,"Ano de 2023: [0; 25]
-Ano de 2024: [0; 25]"
+Ano de 2024: [0; 25]
+Ano de 2025: [0; 25]"
 Tipo de Indicador,Ganhos em Saúde
 Área clínica,Cardiovascular
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

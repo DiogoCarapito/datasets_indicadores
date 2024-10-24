@@ -165,9 +165,11 @@ Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Março de 2013
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
 Intervalo Esperado,"Ano de 2023: [0.8; 1]
-Ano de 2024: [0.8; 1]"
+Ano de 2024: [0.8; 1]
+Ano de 2025: [0.8; 1]"
 Intervalo Aceitável,"Ano de 2023: [0.68; 1]
-Ano de 2024: [0.68; 1]"
+Ano de 2024: [0.68; 1]
+Ano de 2025: [0.68; 1]"
 Tipo de Indicador,Processo
 Área clínica,Diabetes Mellitus
 Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do período em análise

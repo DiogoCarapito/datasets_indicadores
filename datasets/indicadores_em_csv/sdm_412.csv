@@ -107,9 +107,11 @@ Output,Proporção de consultas/urgências
 Estado do indicador,Com dados desde Fevereiro de 2018
 Área | Subárea | Dimensão,Desempenho | Acesso | Consulta no Próprio Dia
 Intervalo Esperado,"Ano de 2023: [60; 85]
-Ano de 2024: [60; 85]"
+Ano de 2024: [60; 85]
+Ano de 2025: [60; 85]"
 Intervalo Aceitável,"Ano de 2023: [40; 95]
-Ano de 2024: [40; 95]"
+Ano de 2024: [40; 95]
+Ano de 2025: [40; 95]"
 Tipo de Indicador,Resultado
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

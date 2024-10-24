@@ -87,20 +87,21 @@ C003
 e
 C009
 , o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
+Nota 1: Apenas se contabilizam consultas presencias (ou diretas)
 B. Apenas se contabiliza uma consulta médica, por utente, por dia.
 C. Para efeitos de datação das consultas e outros procedimentos em relação ao nascimento, considera-se que o dia do nascimento é o 1º dia de vida (D1), mesmo que o nascimento tenha ocorrido já no fim do dia.
 D. As vacinas foram registadas no SINUS até 2016. Ao longo do ano de 2017, foi feita uma migração progressiva da informação e da possibilidade de registo para o Registo de Saúde Eletrónico de Vacinas (RSE Vacinas). O SIARS lê a informação histórica do SINUS e a atual do RSE Vacinas. Contabilizam-se todas as vacinas registadas, independentemente do titular do registo pertencer ou não à unidade de saúde.
 E. Os testes de desenvolvimento de Sheridan podem ser registados por qualquer médico, interno ou enfermeiro da unidade de saúde.
 F. Para que sejam contabilizados, os testes de desenvolvimento de Sheridan devem ser registados no máximo até 5 dias depois de uma consulta médica de vigilância ou de enfermagem de vigilância, tal como especificadas respetivamente na alínea A e na alínea G de OBSERVAÇÕES GERAIS.
-G. B. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
+G. Para se considerar uma [Consulta de Enfermagem de Vigilância] em saúde infantil, é necessário que os registos sejam compatíveis com um dos seguintes conceitos de [consulta]:
 -
 C006.1
 | Consulta de enfermagem de vigilância em saúde infantil e juvenil - [SClínico (Perfil Enfermagem)]
 -
 C012
 | Consulta de enfermagem de vigilância - MedicineOne
-Nota 1: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
-Nota 2: Na norma
+Nota 2: Os códigos CIPE associados a [diagnóstico de enfermagem] e [intervenção de enfermagem] não são específicos de nenhum programa. Estas 2 condições destinam-se a garantir que apenas se contabiliza uma consulta associada a um programa de saúde como de ""vigilância"", caso tenha ocorrido um novo registo de [diagnóstico de enfermagem] (qualquer que ele seja) ou pelo menos uma [intervenção de enfermagem] (qualquer que ela seja).
+Nota 3: Na norma
 C012
 , o código ICPC-2 que pode ser usado para classificar a atividade de vigilância em saúde infantil em associação à consulta realizada é o A98.
 H. São incluídos no numerador, as crianças que à data de referência do indicador, tenham registos de inoculações de vacinas que permitam afirmar que às zero horas do dia em que completam 2 anos de idade, tinham o PNV totalmente cumprido pelo [esquema cronológico recomendado] ou pelo [esquema cronológico de recurso] adaptado à idade. Assim, as datas de inoculação devem ser anteriores à data do 2º aniversário de cada criança, mas as datas de registo podem ir até à data de referência do indicador.
@@ -190,9 +191,11 @@ Unidade de medida,Índice (escala valores entre 0 e 1)
 Output,Com dados desde Março de 2013
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde Infantil e Juvenil
 Intervalo Esperado,"Ano de 2023: [0.87; 1]
-Ano de 2024: [0.87; 1]"
+Ano de 2024: [0.87; 1]
+Ano de 2025: [0.87; 1]"
 Intervalo Aceitável,"Ano de 2023: [0.7; 1]
-Ano de 2024: [0.7; 1]"
+Ano de 2024: [0.7; 1]
+Ano de 2025: [0.7; 1]"
 Tipo de Indicador,Processo
 Área clínica,Saúde Infantil e Juvenil
 Inclusão de utentes no indicador,Utentes inscritos durante um mínimo de N meses do acontecimento monitorizado

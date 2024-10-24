@@ -307,9 +307,11 @@ Output,Proporção de utentes
 Estado do indicador,Com dados desde Janeiro de 2018
 Área | Subárea | Dimensão,Desempenho | Gestão da Saúde | Saúde da Mulher
 Intervalo Esperado,"Ano de 2023: [60; 100]
-Ano de 2024: [60; 100]"
+Ano de 2024: [60; 100]
+Ano de 2025: [60; 100]"
 Intervalo Aceitável,"Ano de 2023: [40; 100]
-Ano de 2024: [30; 100]"
+Ano de 2024: [30; 100]
+Ano de 2025: [30; 100]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador

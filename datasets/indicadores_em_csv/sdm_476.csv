@@ -60,9 +60,11 @@ Output,Proporção de consultas
 Estado do indicador,Com dados desde Janeiro de 2022
 Área | Subárea | Dimensão,Desempenho | Acesso | Tempos Máximos de Resposta Garantidos
 Intervalo Esperado,"Ano de 2023: [60; 100]
-Ano de 2024: [60; 100]"
+Ano de 2024: [60; 100]
+Ano de 2025: [60; 100]"
 Intervalo Aceitável,"Ano de 2023: [40; 100]
-Ano de 2024: [40; 100]"
+Ano de 2024: [40; 100]
+Ano de 2025: [40; 100]"
 Tipo de Indicador,Resultado
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Utentes inscritos em pelo menos um dia do período em análise

@@ -65,9 +65,11 @@ Output,Média de domicílios por utente por mês de integração
 Estado do indicador,Com dados desde Janeiro de 2015
 Área | Subárea | Dimensão,Desempenho | Acesso | Distribuição da Atividade
 Intervalo Esperado,"Ano de 2023: [12; 31]
-Ano de 2024: [12; 31]"
+Ano de 2024: [12; 31]
+Ano de 2025: [12; 31]"
 Intervalo Aceitável,"Ano de 2023: [9; 31]
-Ano de 2024: [9; 31]"
+Ano de 2024: [9; 31]
+Ano de 2025: [9; 31]"
 Tipo de Indicador,Processo
 Área clínica,Transversal
 Inclusão de utentes no indicador,Utentes integrados pelo menos um dia do período em análise

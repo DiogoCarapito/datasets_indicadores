@@ -49,9 +49,11 @@ Output,Proporção de utentes com FeV1
 Estado do indicador,Com dados desde Junho de 2014
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Doenças Aparelho Respiratório
 Intervalo Esperado,"Ano de 2023: [60; 100]
-Ano de 2024: [60; 100]"
+Ano de 2024: [60; 100]
+Ano de 2025: [60; 100]"
 Intervalo Aceitável,"Ano de 2023: [30; 100]
-Ano de 2024: [30; 100]"
+Ano de 2024: [30; 100]
+Ano de 2025: [30; 100]"
 Tipo de Indicador,Processo
 Área clínica,Respiratório
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador

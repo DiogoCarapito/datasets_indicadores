@@ -40,9 +40,11 @@ Output,Proporção de chamadas telefónicas
 Estado do indicador,Descontinuado em Dezembro de 2016
 Área | Subárea | Dimensão,Desempenho | Acesso | Atendimento Telefónico
 Intervalo Esperado,"Ano de 2023: [100; 90]
-Ano de 2024: [100; 90]"
+Ano de 2024: [100; 90]
+Ano de 2025: [100; 90]"
 Intervalo Aceitável,"Ano de 2023: [100; 80]
-Ano de 2024: [100; 80]"
+Ano de 2024: [100; 80]
+Ano de 2025: [100; 80]"
 Tipo de Indicador,Processo
 Área clínica,Não aplicável
 Inclusão de utentes no indicador,Não aplicável

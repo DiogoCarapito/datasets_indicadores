@@ -42,9 +42,11 @@ Output,Proporção de utentes
 Estado do indicador,Com dados desde Dezembro de 2015
 Área | Subárea | Dimensão,Desempenho | Gestão da Doença | Diabetes Mellitus
 Intervalo Esperado,"Ano de 2023: [0; 7.5]
-Ano de 2024: [0; 7.5]"
+Ano de 2024: [0; 7.5]
+Ano de 2025: [0; 7.5]"
 Intervalo Aceitável,"Ano de 2023: [0; 9]
-Ano de 2024: [0; 9]"
+Ano de 2024: [0; 9]
+Ano de 2025: [0; 9]"
 Tipo de Indicador,Resultado
 Área clínica,Diabetes Mellitus
 Inclusão de utentes no indicador,Utentes inscritos à data de referência do indicador
